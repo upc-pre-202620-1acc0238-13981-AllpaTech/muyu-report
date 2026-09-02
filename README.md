@@ -280,8 +280,83 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US01</td>
+      <td>Administrador</td>
+      <td>Alta</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Gestión y registro de nuevas paradas de transporte</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> administrador del sistema,<br>
+        <b>quiero</b> registrar nuevas paradas con su nombre y coordenadas,<br>
+        <b>para</b> que puedan ser asignadas a las rutas de transporte.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Registro exitoso</b><br>
+        - <b>Dado que</b> el usuario tiene permisos de administrador,<br>
+        - <b>cuando</b> ingresa los datos válidos de la parada (nombre, latitud, longitud),<br>
+        - <b>entonces</b> el sistema guarda la parada y confirma la creación.<br><br>
+        <b>Escenario 2: Datos duplicados o inválidos</b><br>
+        - <b>Dado que</b> ya existe una parada en esas coordenadas,<br>
+        - <b>cuando</b> intenta guardarla,<br>
+        - <b>entonces</b> el sistema muestra un mensaje de error y no permite duplicados.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.4.2. Impact Mapping
 ### 2.4.3. Product Backlog
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="10%"># Orden</th>
+      <th width="15%">User Story Id</th>
+      <th width="45%">Título</th>
+      <th width="20%">Story Points<br>(1 / 2 / 3 / 5 / 8)</th>
+      <th width="10%">Sprint</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">1</td>
+      <td align="center">US01</td>
+      <td>AAA...</td>
+      <td align="center">3</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">2</td>
+      <td align="center">US02</td>
+      <td>BBB...</td>
+      <td align="center">5</td>
+      <td align="center"></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
