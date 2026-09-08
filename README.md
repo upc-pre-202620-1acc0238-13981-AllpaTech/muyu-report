@@ -314,6 +314,50 @@ Al resolver este problema, esperamos que los agricultores puedan documentar su t
 
 ---
 #### 1.2.2.2. Lean UX Assumptions
+
+##### a. Business Assumptions
+
+- Creemos que existe interés por una herramienta móvil que facilite la coordinación de acuerdos agrícolas.
+
+- Creemos que los comerciantes estarán dispuestos a pagar por un servicio que les permita supervisar sus inversiones.
+
+- Creemos que el acceso gratuito para los agricultores favorecerá la adopción de Muyu.
+
+##### b. Business Outcomes Assumptions
+
+- Creemos que una gestión más clara aumentará la cantidad de acuerdos registrados en la aplicación.
+
+- Creemos que el seguimiento constante motivará a los comerciantes a continuar utilizando el servicio.
+
+- Creemos que agilizar la revisión de los hitos reducirá el tiempo necesario para autorizar los fondos.
+
+##### c. User Assumptions
+
+- Creemos que nuestros usuarios principales serán agricultores y comerciantes vinculados mediante acuerdos de producción.
+
+- Creemos que los agricultores disponen de un teléfono con cámara para documentar sus actividades.
+
+- Creemos que los comerciantes necesitan revisar el progreso de sus acuerdos mientras realizan otras actividades.
+
+##### d. User Outcomes and Benefits Assumptions
+
+- Creemos que los agricultores podrán registrar sus labores sin interrumpir su jornada.
+
+- Creemos que los comerciantes valorarán tener una visión clara del estado de cada cultivo.
+
+- Creemos que ambas partes se sentirán más seguras al contar con evidencias y un historial de los avances.
+
+##### e. Feature Assumptions
+
+- Creemos que guardar fotografías y reportes temporalmente en el dispositivo facilitará el trabajo en zonas rurales.
+
+- Creemos que añadir la fecha y ubicación a las evidencias ayudará a identificar dónde y cuándo fueron registradas.
+
+- Creemos que un panel con tareas, avances y aprobaciones permitirá al comerciante supervisar sus acuerdos con facilidad.
+
+- Creemos que las notificaciones sobre hitos y condiciones meteorológicas ayudarán a atender situaciones importantes a tiempo.
+
+---
 #### 1.2.2.3. Lean UX Hypothesis Statements
 #### 1.2.2.4. Lean UX Canvas
 
