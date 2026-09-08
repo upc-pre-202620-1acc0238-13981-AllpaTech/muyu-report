@@ -305,6 +305,14 @@ La problemática se resume en los siguientes puntos:
 ---
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+
+Muyu busca ayudar a agricultores que necesitan registrar sus actividades de campo de manera rápida y ordenada, así como a comerciantes que requieren conocer el avance de los cultivos y verificar el cumplimiento de los acuerdos establecidos.
+
+Este problema afecta a ambas partes, ya que los agricultores pueden tener dificultades para enviar sus evidencias, mientras que los comerciantes no siempre disponen de información actualizada para supervisar el proceso y tomar decisiones.
+
+Al resolver este problema, esperamos que los agricultores puedan documentar su trabajo con mayor facilidad y que los comerciantes tengan una visión clara del progreso de los cultivos, las evidencias presentadas y los hitos pendientes de aprobación.
+
+---
 #### 1.2.2.2. Lean UX Assumptions
 #### 1.2.2.3. Lean UX Hypothesis Statements
 #### 1.2.2.4. Lean UX Canvas
