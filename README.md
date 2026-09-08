@@ -268,39 +268,63 @@ Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalece
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 
-La coordinación entre agricultores y comerciantes depende de contar con información oportuna sobre el trabajo realizado. En el entorno rural peruano, el acceso a Internet sigue siendo una limitación: según el INEI (2025), durante el segundo trimestre de ese año, el 23,6 % de los hogares rurales tenía conexión. Este contexto es relevante para una aplicación que busca acompañar las labores agrícolas desde el teléfono.
+##### What? (¿Qué?)
 
-Durante la jornada, el agricultor necesita consultar tareas y documentar sus avances sin detener sus actividades. Cuando estas acciones dependen de una conexión continua, el registro puede quedar pendiente y llegar al comerciante después del momento en que se necesita.
+##### ¿Cuál es el problema?
 
-Por su parte, el comerciante requiere evidencias suficientes para revisar el cumplimiento de los acuerdos y autorizar los pagos correspondientes. También es importante atender las condiciones del clima: el SENAMHI señala que las heladas pueden dañar los cultivos según su intensidad, duración y etapa de desarrollo.
+Los agricultores tienen dificultades para registrar sus labores y presentar evidencias de manera ordenada, mientras que los comerciantes no siempre cuentan con información oportuna para comprobar los avances. Esta situación puede retrasar la aprobación de los hitos y la autorización de los fondos acordados.
 
-Frente a estas necesidades, Muyu propone una experiencia móvil que permita guardar reportes sin conexión, consultar avances y recibir avisos. Su propósito es facilitar el trabajo diario y mantener informadas a ambas partes.
+##### When? (¿Cuándo?)
 
-La problemática se resume en los siguientes puntos:
+##### ¿En qué momento se presenta el problema?
 
-1. **Dificultad para reportar desde el campo**
+Ocurre cuando el agricultor necesita consultar sus tareas, fotografiar el trabajo realizado o enviar un reporte. También se presenta cuando el comerciante revisa las evidencias, comunica una observación o decide si una etapa ha sido cumplida.
 
-   La conectividad intermitente puede impedir el envío de fotografías y retrasar el registro de las actividades realizadas.
+##### Where? (¿Dónde?)
 
-2. **Evidencias sin suficiente contexto**
+##### ¿Dónde surge la problemática?
 
-   Una imagen sin fecha, ubicación o relación con una tarea puede generar dudas y requerir aclaraciones adicionales.
+Surge principalmente durante las actividades agrícolas desarrolladas en zonas rurales del Perú y en el seguimiento que los comerciantes realizan desde otras ubicaciones.
 
-3. **Seguimiento tardío de la producción**
+##### ¿En qué contexto se presenta?
 
-   Cuando los reportes llegan con demora, el comerciante dispone de menos información para conocer el avance y detectar pendientes.
+Se presenta en acuerdos de producción donde el avance se verifica mediante tareas, evidencias e hitos antes de autorizar la liberación de los fondos correspondientes.
 
-4. **Retrasos en la autorización de fondos**
+##### Who? (¿Quién?)
 
-   La revisión pendiente de un hito puede postergar su aprobación y la liberación del dinero asociado al acuerdo.
+##### ¿Quiénes son los principales afectados?
 
-5. **Advertencias consultadas fuera de tiempo**
+Los agricultores que realizan y documentan las labores, así como los comerciantes responsables de supervisar el cumplimiento de los acuerdos.
 
-   Recibir o leer tarde un aviso meteorológico reduce el margen para evaluar medidas frente a condiciones adversas.
+##### ¿Quiénes utilizarán Muyu?
 
-6. **Uso poco práctico durante la jornada**
+La aplicación será utilizada por agricultores para consultar tareas y registrar evidencias, y por comerciantes para revisar avances, responder observaciones y aprobar hitos.
 
-   Los formularios largos y los controles difíciles de utilizar desde el teléfono pueden añadir esfuerzo al registro del trabajo agrícola.
+##### Why? (¿Por qué?)
+
+##### ¿Cuál es la causa del problema?
+
+La causa principal es la falta de un medio móvil que concentre las actividades, evidencias y decisiones del acuerdo. A esto se suman las limitaciones de acceso digital que existen en el entorno rural y que dificultan el intercambio oportuno de información.
+
+##### How? (¿Cómo?)
+
+##### ¿En qué condiciones se utilizará la aplicación?
+
+Los agricultores usarán AgroFlow durante su jornada, desde un teléfono con cámara y bajo condiciones variables de conectividad. Los comerciantes accederán desde sus dispositivos para supervisar los acuerdos y atender las solicitudes pendientes.
+
+##### ¿Cómo necesitan acceder los usuarios?
+
+Los usuarios necesitan una aplicación móvil sencilla, con información clara y funciones que permitan conservar los reportes hasta que puedan enviarse correctamente.
+
+##### How much? (¿Cuánto?)
+
+##### ¿Cómo afecta este problema a los acuerdos agrícolas?
+
+La falta de información organizada puede generar consultas adicionales, demoras en la revisión y mayor tiempo de espera para autorizar los fondos. Su impacto exacto deberá medirse mediante entrevistas y pruebas con agricultores y comerciantes.
+
+Según el INEI (2025), durante el segundo trimestre de ese año, solo el 23,6 % de los hogares rurales tenía acceso a Internet. Este dato evidencia una diferencia de acceso digital que debe considerarse al diseñar una aplicación dirigida al entorno rural.
+
+Asimismo, el SENAMHI señala que las heladas pueden afectar los cultivos de acuerdo con su intensidad, duración y etapa de desarrollo. Por esta razón, una advertencia recibida fuera de tiempo reduce la posibilidad de evaluar medidas oportunas.
 
 ---
 ### 1.2.2. Lean UX Process
@@ -406,6 +430,10 @@ Creemos que mejoraremos la atención de eventos importantes si agricultores y co
 
 ---
 #### 1.2.2.4. Lean UX Canvas
+
+
+
+---
 
 ## 1.3. Segmentos objetivo
 
