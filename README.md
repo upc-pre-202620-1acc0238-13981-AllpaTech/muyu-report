@@ -252,18 +252,57 @@ La propuesta permitirá que los agricultores guarden reportes y fotografías sin
 
 Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalecer la confianza entre ambas partes mediante información organizada, evidencias de campo y avisos previos.
 
+---
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 |                                      Miembro  |                                                          Descripción                   |
 |:---------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="muyu-report/assets/images/Chapter 1/members/Gonzalo.jpg" width="3000"/>  |                                                                                                                                                                                            **Gonzalo Samuel Quintanilla Pozo \- U202315007** <br>  Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 20 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.                                                                                                                                                                                               |
-| <img src="" width="3000"/> |                                                                                                                                                   **** <br>                                                                                                                                                 |
-| <img src="" width="3000"/>  | **** <br>  | 
-|  <img src="" width="3000"/>   |                                                                                                                                                                                                                 ****   <br>                                                                                                                                                                                                                          | 
-|  <img src="muyu-report/assets/images/Chapter 1/members/Emily.png" width="3000"/>   |                                                                                                                                                                                                            **Emily Juliette Arroyo Gonzales \- U202311469**  <br> Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.                                                                                                                                                                                                            | 
+| <img src="assets/images/Chapter 1/members/Gonzalo.jpg" width="3000"/>  |                                                                                                                                                                                            **Gonzalo Samuel Quintanilla Pozo \- U202315007** <br>  Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 20 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.                                                                                                                                                                                               |
+| <img src="" width="3000"/> |                                                                                                                                                   **Mel Andree Orellana Rodriguez \- U202116018** <br>                                                                                                                                                 |
+| <img src="" width="3000"/>  | **Jennifer Yamilet Riveros Vera \- u20241c998** <br>  | 
+|  <img src="" width="3000"/>   |                                                                                                                                                                                                                 **Angel Guillermo Berrospi Marin \- u202114701**   <br>                                                                                                                                                                                                                          | 
+|  <img src="assets/images/Chapter 1/members/Emily.png" width="3000"/>   |                                                                                                                                                                                                            **Emily Juliette Arroyo Gonzales \- U202311469**  <br> Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.                                                                                                                                                                                                            | 
+---
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
+
+La coordinación entre agricultores y comerciantes depende de contar con información oportuna sobre el trabajo realizado. En el entorno rural peruano, el acceso a Internet sigue siendo una limitación: según el INEI (2025), durante el segundo trimestre de ese año, el 23,6 % de los hogares rurales tenía conexión. Este contexto es relevante para una aplicación que busca acompañar las labores agrícolas desde el teléfono.
+
+Durante la jornada, el agricultor necesita consultar tareas y documentar sus avances sin detener sus actividades. Cuando estas acciones dependen de una conexión continua, el registro puede quedar pendiente y llegar al comerciante después del momento en que se necesita.
+
+Por su parte, el comerciante requiere evidencias suficientes para revisar el cumplimiento de los acuerdos y autorizar los pagos correspondientes. También es importante atender las condiciones del clima: el SENAMHI señala que las heladas pueden dañar los cultivos según su intensidad, duración y etapa de desarrollo.
+
+Frente a estas necesidades, Muyu propone una experiencia móvil que permita guardar reportes sin conexión, consultar avances y recibir avisos. Su propósito es facilitar el trabajo diario y mantener informadas a ambas partes.
+
+La problemática se resume en los siguientes puntos:
+
+1. **Dificultad para reportar desde el campo**
+
+   La conectividad intermitente puede impedir el envío de fotografías y retrasar el registro de las actividades realizadas.
+
+2. **Evidencias sin suficiente contexto**
+
+   Una imagen sin fecha, ubicación o relación con una tarea puede generar dudas y requerir aclaraciones adicionales.
+
+3. **Seguimiento tardío de la producción**
+
+   Cuando los reportes llegan con demora, el comerciante dispone de menos información para conocer el avance y detectar pendientes.
+
+4. **Retrasos en la autorización de fondos**
+
+   La revisión pendiente de un hito puede postergar su aprobación y la liberación del dinero asociado al acuerdo.
+
+5. **Advertencias consultadas fuera de tiempo**
+
+   Recibir o leer tarde un aviso meteorológico reduce el margen para evaluar medidas frente a condiciones adversas.
+
+6. **Uso poco práctico durante la jornada**
+
+   Los formularios largos y los controles difíciles de utilizar desde el teléfono pueden añadir esfuerzo al registro del trabajo agrícola.
+
+---
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions
