@@ -319,17 +319,19 @@ Al resolver este problema, esperamos que los agricultores puedan documentar su t
 
 - Creemos que existe interés por una herramienta móvil que facilite la coordinación de acuerdos agrícolas.
 
-- Creemos que los comerciantes estarán dispuestos a pagar por un servicio que les permita supervisar sus inversiones.
+- Creemos que los comerciantes estarán dispuestos a pagar por un servicio que les permita supervisar sus acuerdos y el uso de sus fondos.
 
-- Creemos que el acceso gratuito para los agricultores favorecerá la adopción de Muyu.
+- Creemos que ofrecer acceso sin costo a los agricultores favorecerá la adopción de AgroFlow.
 
 ##### b. Business Outcomes Assumptions
 
-- Creemos que una gestión más clara aumentará la cantidad de acuerdos registrados en la aplicación.
+- Creemos que simplificar el registro aumentará la cantidad de actividades reportadas a tiempo.
 
-- Creemos que el seguimiento constante motivará a los comerciantes a continuar utilizando el servicio.
+- Creemos que brindar información organizada motivará a los comerciantes a utilizar el servicio de manera frecuente.
 
-- Creemos que agilizar la revisión de los hitos reducirá el tiempo necesario para autorizar los fondos.
+- Creemos que presentar evidencias más completas reducirá las consultas adicionales entre ambas partes.
+
+- Creemos que agilizar la revisión de los hitos disminuirá el tiempo necesario para autorizar los fondos.
 
 ##### c. User Assumptions
 
@@ -337,28 +339,72 @@ Al resolver este problema, esperamos que los agricultores puedan documentar su t
 
 - Creemos que los agricultores disponen de un teléfono con cámara para documentar sus actividades.
 
-- Creemos que los comerciantes necesitan revisar el progreso de sus acuerdos mientras realizan otras actividades.
+- Creemos que los agricultores necesitan una experiencia sencilla que se adapte a su jornada de trabajo.
+
+- Creemos que los comerciantes requieren consultar el progreso de sus acuerdos desde cualquier lugar.
 
 ##### d. User Outcomes and Benefits Assumptions
 
-- Creemos que los agricultores podrán registrar sus labores sin interrumpir su jornada.
+- Creemos que los agricultores desean registrar sus labores de forma rápida y con pocos pasos.
 
-- Creemos que los comerciantes valorarán tener una visión clara del estado de cada cultivo.
+- Creemos que los agricultores necesitan conocer cuáles son sus tareas pendientes y si sus reportes fueron enviados correctamente.
 
-- Creemos que ambas partes se sentirán más seguras al contar con evidencias y un historial de los avances.
+- Creemos que los comerciantes valorarán contar con una visión clara de los avances y evidencias recibidas.
+
+- Creemos que ambas partes tendrán mayor confianza al disponer de un historial de actividades, observaciones y aprobaciones.
 
 ##### e. Feature Assumptions
 
-- Creemos que guardar fotografías y reportes temporalmente en el dispositivo facilitará el trabajo en zonas rurales.
+- Creemos que guardar los reportes en el dispositivo y sincronizarlos posteriormente facilitará el registro de las actividades de campo.
 
-- Creemos que añadir la fecha y ubicación a las evidencias ayudará a identificar dónde y cuándo fueron registradas.
+- Creemos que incluir fotografías con fecha y ubicación permitirá reconocer mejor las evidencias presentadas.
 
-- Creemos que un panel con tareas, avances y aprobaciones permitirá al comerciante supervisar sus acuerdos con facilidad.
+- Creemos que una agenda con actividades pendientes ayudará al agricultor a organizar sus labores.
 
-- Creemos que las notificaciones sobre hitos y condiciones meteorológicas ayudarán a atender situaciones importantes a tiempo.
+- Creemos que un panel con avances e información actualizada permitirá al comerciante supervisar sus acuerdos.
+
+- Creemos que un proceso de aprobación desde el teléfono agilizará la revisión de los hitos y la autorización de los fondos.
+
+- Creemos que las notificaciones sobre tareas, aprobaciones y condiciones meteorológicas ayudarán a atender situaciones importantes a tiempo.
 
 ---
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+#### Hipótesis 1: Registro y sincronización de actividades
+
+Creemos que aumentaremos los reportes entregados a tiempo si los agricultores pueden conservar sus avances durante las fallas de conexión mediante el almacenamiento local y la sincronización automática.
+
+---
+
+#### Hipótesis 2: Evidencias con datos de captura
+
+Creemos que reduciremos las solicitudes de aclaración si los comerciantes pueden reconocer el contexto de cada actividad mediante fotografías asociadas con su fecha, ubicación y tarea correspondiente.
+
+---
+
+#### Hipótesis 3: Organización de tareas agrícolas
+
+Creemos que disminuirán las labores pendientes si los agricultores pueden identificar sus próximas responsabilidades mediante una agenda con actividades programadas y estados visibles.
+
+---
+
+#### Hipótesis 4: Seguimiento de acuerdos
+
+Creemos que aumentará el uso frecuente de Muyu si los comerciantes pueden conocer el progreso de sus acuerdos mediante un panel que reúna los avances y las evidencias recibidas.
+
+---
+
+#### Hipótesis 5: Aprobación de hitos
+
+Creemos que reduciremos el tiempo entre la revisión y la autorización de fondos si los comerciantes pueden confirmar el cumplimiento de cada etapa mediante un proceso de aprobación desde el teléfono.
+
+---
+
+#### Hipótesis 6: Avisos
+
+Creemos que mejoraremos la atención de eventos importantes si agricultores y comerciantes pueden conocerlos en el momento adecuado mediante notificaciones sobre tareas, decisiones y condiciones meteorológicas.
+
+---
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
