@@ -246,7 +246,15 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+Nuestra startup AllpaTech nace con el propósito de facilitar la coordinación entre agricultores y comerciantes mediante Muyu una aplicación móvil que facilita el registro de actividades y el seguimiento de los acuerdos agrícolas.
+
+La propuesta permitirá que los agricultores guarden reportes y fotografías sin conexión para poder sincronizarlos cuando no haya acceso a internet y que los comerciantes puedsan consultar los avances y aprobar los hitos acordados desde su teléfono.
+
+Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalecer la confianza entre ambas partes mediante información organizada, evidencias de campo y avisos previos.
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
