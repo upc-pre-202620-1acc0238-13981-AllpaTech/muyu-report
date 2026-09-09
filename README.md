@@ -437,7 +437,47 @@ Creemos que mejoraremos la atención de eventos importantes si agricultores y co
 
 ## 1.3. Segmentos objetivo
 
+##### 1. Agricultor (Proveedor del Servicio / Agro-Service Provider)
 
+Este segmento está formado por agricultores que poseen o gestionan terrenos y se encargan de realizar las labores necesarias durante el cultivo. En Muyu podrán ofrecer sus parcelas, consultar sus tareas, presentar evidencias y conocer el estado de sus pagos.
+
+**Características demográficas:**
+
+- **Edad:** 45 - 60 años 
+- **Nivel educativo:** Distintos niveles de formación, desde educación primaria hasta estudios superiores.
+- **Ocupación:** Productores dedicados a la siembra, cuidado y cosecha de productos agrícolas.
+- **Ubicación:** Zonas rurales y agrícolas del Perú.
+- **Acceso tecnológico:** Disponen de un teléfono móvil con cámara y pueden presentar distintos niveles de experiencia digital.
+
+**Necesidades:**
+
+- Organizar las tareas y compromisos de cada etapa.
+- Registrar evidencias de manera rápida desde el campo.
+- Conocer oportunamente las condiciones meteorológicas que podrían afectar la producción.
+
+---
+
+#### 2. Comerciantes y compradores de productos agrícolas
+
+Este segmento comprende comerciantes, distribuidores, propietarios de restaurantes y responsables de supermercados que necesitan adquirir productos agrícolas de manera constante. En Muyu podrán elegir una parcela, financiar el cultivo, revisar las evidencias y aprobar el cumplimiento de cada hito.
+
+**Características demográficas y comerciales:**
+
+- **Edad:** 30 - 60 años
+- **Ocupación:** Dueños, administradores, distribuidores o responsables de compras.
+- **Tipo de negocio:** Comercios de alimentos, restaurantes, empresas distribuidoras y supermercados.
+- **Tamaño empresarial:** Se priorizarán micro y pequeñas empresas con decisiones de compra directas.
+- **Acceso tecnológico:** Utilizan teléfonos móviles para comunicarse, revisar operaciones y administrar sus compras.
+
+**Necesidades:**
+
+- Asegurar el abastecimiento de productos agrícolas.
+- Mantener costos de compra más previsibles.
+- Conocer el progreso del cultivo financiado.
+- Revisar evidencias antes de aprobar cada etapa.
+- Recibir la cosecha en las condiciones y fechas establecidas.
+
+---
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
