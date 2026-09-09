@@ -3,25 +3,25 @@
 </div>
 <h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
-<h3 align="center">Carrera de [Nombre de la Carrera] </h3>
+<h3 align="center">Carrera de Ingeniería de Software </h3>
 
-<h3 align="center">[Código del Curso] </h3>
-<h3 align="center">[Nombre del Curso] </h3>
+<h3 align="center">1ACC0238 </h3>
+<h3 align="center">Aplicaciones para Dispositivos Móviles </h3>
 <h3 align="center"> NRC </h3>
-<h3 align="center"> [Número de NRC] </h3>
+<h3 align="center"> 13981 </h3>
 
-<h3 align="center"> [Título del Informe / Trabajo]</h3>
+<h3 align="center"> Informe Avance 1</h3>
 
 
 <h3 align="center"> Docente</h3>
-<h3 align="center"> [Nombre del Docente] </h3>
+<h3 align="center"> Jorge Luis Mayta Guillermo </h3>
 
 
-<h3 align="center"> Equipo </h3>
-<h3 align="center"> [Nombre del Equipo] </h3>
+<h3 align="center"> Grupo 4 </h3>
 
 <h3 align="center"> Proyecto</h3>
-<h3 align="center"> [Nombre del Proyecto] </h3>
+<h3 align="center"> Startup: AllpaTech </h3>
+<h3 align="center"> Producto: Muyu </h3>
 
 <h3 align="center"> Integrantes </h3>
 
@@ -29,16 +29,16 @@
 
 | Code | Member |
 | :---: | :--- |
-| [Código 1] | [Nombre del Integrante 1] |
-| [Código 2] | [Nombre del Integrante 2] |
-| [Código 3] | [Nombre del Integrante 3] |
-| [Código 4] | [Nombre del Integrante 4] |
-| [Código 5] | [Nombre del Integrante 5] |
+| U202311469 | Emily Juliette Arroyo Gonzales |
+| u20241c998 | Jennifer Yamilet Riveros Vera |
+| u202116018 | Mel Andree Orellana Rodriguez |
+| u202315007 | Gonzalo Samuel Quintanilla Pozo  |
+| u202114701 | Angel Guillermo Berrospi Marin |
 
 </div>
 
-<h3 align="center">Periodo [Año-Ciclo]</h3>
-<h3 align="center">[Mes Año]</h3>
+<h3 align="center">Periodo 2026-2</h3>
+<h3 align="center">Septiembre 2026</h3>
 
 
 <div style="page-break-after: always;"></div>
