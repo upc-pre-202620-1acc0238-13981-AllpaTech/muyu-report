@@ -1294,6 +1294,21 @@ El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario 
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
+
+En primer lugar, el canvas del Contract & Escrow Service (Core Domain) detalla las reglas de negocio, los eventos de entrada y salida, y la terminología del lenguaje ubicuo necesarios para asegurar la custodia financiera y la liberación de pagos por hitos.
+
+<p align="center">
+  <img src="assets/images/chapter02/bounded_context_canvas_01.png" width="800" />
+</p>
+
+  En segundo lugar, el canvas del Parcel Management Service (Supporting Domain) especifica la gestión del catálogo de terrenos, las capacidades de delimitación por coordenadas GPS y los criterios de disponibilidad de las hectáreas agrícolas.
+
+
+<p align="center">
+  <img src="assets/images/chapter02/bounded_context_canvas_02.png" width="800"/>  
+</p>
+
+
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
 
