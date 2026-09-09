@@ -1296,9 +1296,27 @@ El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario 
 #### 2.5.1.3. Bounded Context Canvases
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
+
+Para entender cómo se relaciona la aplicación móvil MUYU con su entorno, el diagrama de contexto (Nivel 1 C4) ubica la app en el centro del flujo operacional. A su alrededor se muestran los usuarios principales el Productor Agrícola en campo y el Comercializador junto con los servicios externos que respaldan la operación: el pronóstico del clima en tiempo real, la automatización de notificaciones y la pasarela de custodia financiera.
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
+Este diagrama de contexto ilustra cómo la aplicación móvil MUYU interactúa de forma general con los usuarios en campo y los servicios externos del sistema.
+
+  <img src="assets/images/chapter02/context-level.png" width="1000"/>  
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+Este diagrama de contenedores muestra los bloques tecnológicos internos de MUYU, destacando la aplicación cliente, su base de datos local para modo offline y los microservicios backend.
+
+ <img src="assets/images/chapter02/container-level.png" width="1000"/>  
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+Este diagrama de despliegue representa la infraestructura física y en la nube donde se ejecuta la aplicación móvil y se conectan sus servidores.
+
+ <img src="assets/images/chapter02/deployment-level.png" width="1000"/>  
+
 
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: <Bounded Context Name>
