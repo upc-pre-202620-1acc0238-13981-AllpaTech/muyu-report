@@ -330,11 +330,11 @@ Asimismo, el SENAMHI señala que las heladas pueden afectar los cultivos de acue
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
-Muyu busca ayudar a agricultores que necesitan registrar sus actividades de campo de manera rápida y ordenada, así como a comerciantes que requieren conocer el avance de los cultivos y verificar el cumplimiento de los acuerdos establecidos.
+Muyu busca apoyar a agricultores y comerciantes que participan en acuerdos de producción y necesitan compartir información sobre las actividades realizadas, las evidencias presentadas y los hitos cumplidos.
 
-Este problema afecta a ambas partes, ya que los agricultores pueden tener dificultades para enviar sus evidencias, mientras que los comerciantes no siempre disponen de información actualizada para supervisar el proceso y tomar decisiones.
+Las herramientas actuales no siempre permiten organizar este seguimiento desde el lugar donde se desarrolla el trabajo. Muyu atenderá esta necesidad mediante una aplicación móvil que reúna las tareas, reportes, observaciones y aprobaciones de ambas partes.
 
-Al resolver este problema, esperamos que los agricultores puedan documentar su trabajo con mayor facilidad y que los comerciantes tengan una visión clara del progreso de los cultivos, las evidencias presentadas y los hitos pendientes de aprobación.
+Nuestro enfoque inicial estará en agricultores que ofrecen sus terrenos y comerciantes que financian la producción para asegurar su abastecimiento. Consideraremos que la propuesta funciona cuando aumenten los reportes entregados a tiempo y disminuyan las consultas adicionales y el tiempo de aprobación de los hitos.
 
 ---
 #### 1.2.2.2. Lean UX Assumptions
@@ -431,7 +431,11 @@ Creemos que mejoraremos la atención de eventos importantes si agricultores y co
 ---
 #### 1.2.2.4. Lean UX Canvas
 
+La siguiente figura presenta el Lean UX Canvas elaborado para Muyu.
 
+![Lean UX Canvas de Muyu](assets/images/Chapter%201/Canvas/Lean%20UX%20Canvas.png)
+
+[Ver en Miro](https://miro.com/app/board/uXjVHpAR0XE=/?share_link_id=138737583873)
 
 ---
 
@@ -457,7 +461,7 @@ Este segmento está formado por agricultores que poseen o gestionan terrenos y s
 
 ---
 
-#### 2. Comerciantes y compradores de productos agrícolas
+#### 2. Comerciante / Comprador (Arrendatario / Subscriber)
 
 Este segmento comprende comerciantes, distribuidores, propietarios de restaurantes y responsables de supermercados que necesitan adquirir productos agrícolas de manera constante. En Muyu podrán elegir una parcela, financiar el cultivo, revisar las evidencias y aprobar el cumplimiento de cada hito.
 
