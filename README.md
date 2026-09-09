@@ -29,7 +29,7 @@
 
 | Code | Member |
 | :---: | :--- |
-| U202311469 | Emily Juliette Arroyo Gonzales |
+| u202311469 | Emily Juliette Arroyo Gonzales |
 | u20241c998 | Jennifer Yamilet Riveros Vera |
 | u202116018 | Mel Andree Orellana Rodriguez |
 | u202315007 | Gonzalo Samuel Quintanilla Pozo  |
