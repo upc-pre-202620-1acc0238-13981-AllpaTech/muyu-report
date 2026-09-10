@@ -1261,7 +1261,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario y tareas técnicas del proyecto. Siguiendo Scrum, los elementos se ordenan strictly por su valor de negocio para agricultores y comercializadores. Por ello, el Sprint 1 se enfoca en la Landing Page y en los módulos clave de búsqueda y negociación de parcelas, dejando la seguridad y autenticación para Sprints posteriores.
 
 | Orden | User Story Id | Título | Story Points | Sprint |
-| :---: | :---: | :--- | :--- | :---: | :---: |
+| :---: | :--- | :--- | :---: | :---: |
 | 1 | **US-LP01** | Landing Page estática e informativa de ALLPATEK | 5 | Sprint 1 |
 | 2 | **US02** | Búsqueda y filtrado de parcelas disponibles | 5 | Sprint 1 |
 | 3 | **US06** | Publicación y geolocalización de lote agrícola | 5 | Sprint 1 |
