@@ -1291,6 +1291,30 @@ El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario 
 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
+
+En esta sección se documenta el EventStorming realizado por el equipo de TerraNova para modelar el dominio de la plataforma ALLPATEK. Esta dinámica permitió mapear los eventos clave del dominio, los comandos accionados por los actores (Productor Agrícola y Comerciante, los puntos de dolor operacionales y las integraciones con sistemas externos como la Bóveda Escrow, el motor n8n y la API de OpenWeather.
+
+A continuación se presenta la evidencia gráfica dividida en la vista general del tablero y las secciones detalladas del flujo de negocio:
+
+* **Vista General del Tablero:** Muestra la vista panorámica completa de la línea de tiempo del dominio, abarcando desde la fase de alta de parcelas hasta la conclusión de los contratos agrícolas.
+
+<p align="center">
+  <img src="assets/images/chapter02/EventStormingGeneral.png" width="800" />
+</p>
+
+* **Fase de Onboarding, Registro y Negociación:** Detalla el flujo inicial de captura de coordenadas GPS, publicación de hectáreas en el catálogo y la generación y firma del contrato digital respaldado en PDF.
+
+<p align="center">
+  <img src="assets/images/chapter02/EventStorming01.png" width="400" />
+</p>
+
+* **Fase de Custodia Escrow, Monitoreo Climático y Liberación de Pagos:** Modela la secuencia financiera de bloqueo de fondos en la bóveda, el envío de alertas meteorológicas y la validación de evidencias fotográficas para los desembolsos parciales por hitos cumplidos.
+
+<p align="center">
+  <img src="assets/images/chapter02/EventStorming02.png" width="400" />
+</p>
+
+
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
