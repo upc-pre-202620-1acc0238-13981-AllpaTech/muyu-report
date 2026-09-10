@@ -60,7 +60,7 @@
 | Integrante | Tareas Asignadas |
 |---|---|
 | [Nombre Completo 1] | [Lista de tareas realizadas] |
-| [Nombre Completo 2] | [Lista de tareas realizadas] |
+| Angel Guillermo Berrospi Marin | Desarrollo de User stories y creación de su estructura, Desarrollo de Impact Mapping, Desarrollo de Entrevistas, Creación de la estructura de Porduct Backlog. |
 | [Nombre Completo 3] | [Lista de tareas realizadas] |
 | [Nombre Completo 4] | [Lista de tareas realizadas] |
 | [Nombre Completo 5] | [Lista de tareas realizadas] |
