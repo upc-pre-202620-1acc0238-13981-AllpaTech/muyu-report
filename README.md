@@ -1260,33 +1260,33 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario y tareas técnicas del proyecto. Siguiendo Scrum, los elementos se ordenan strictly por su valor de negocio para agricultores y comercializadores. Por ello, el Sprint 1 se enfoca en la Landing Page y en los módulos clave de búsqueda y negociación de parcelas, dejando la seguridad y autenticación para Sprints posteriores.
 
-| # | Orden | User Story Id | Título | Story Points | Sprint |
+| Orden | User Story Id | Título | Story Points | Sprint |
 | :---: | :---: | :--- | :--- | :---: | :---: |
-| 1 | 1 | **US-LP01** | Landing Page estática e informativa de ALLPATEK | 5 | Sprint 1 |
-| 2 | 2 | **US02** | Búsqueda y filtrado de parcelas disponibles | 5 | Sprint 1 |
-| 3 | 3 | **US06** | Publicación y geolocalización de lote agrícola | 5 | Sprint 1 |
-| 4 | 4 | **US07** | Solicitud de cotización y negociación de volumen | 3 | Sprint 1 |
-| 5 | 5 | **US21** | Envío de contraofertas durante la negociación | 3 | Sprint 1 |
-| 6 | 6 | **US08** | Aceptación y firma de contrato digital Escrow | 5 | Sprint 2 |
-| 7 | 7 | **US09** | Depósito de fondos iniciales en custodia | 5 | Sprint 2 |
-| 8 | 8 | **US04** | Registro y carga de evidencias fotográficas por hito | 5 | Sprint 2 |
-| 9 | 9 | **US03** | Aprobación de hito y orden de liberación de fondos | 5 | Sprint 2 |
-| 10 | 10 | **US14** | Revisión técnica de evidencias de hito | 3 | Sprint 2 |
-| 12 | 12 | **US01** | Registro de perfil y verificación de identidad | 3 | Sprint 3 |
-| 13 | 13 | **US16** | Registro de perfil corporativo y validación fiscal | 3 | Sprint 3 |
-| 14 | 14 | **TS01** | API RESTful para autenticación y tokens JWT | 5 | Sprint 3 |
-| 15 | 15 | **US13** | Configuración de cuenta bancaria para desembolsos | 3 | Sprint 3 |
-| 16 | 16 | **TS02** | API RESTful para integración del estado Escrow | 5 | Sprint 3 |
-| 18 | 18 | **US05** | Recepción de alertas climáticas de riesgo | 3 | Sprint 4 |
-| 19 | 19 | **US10** | Solicitud de prórroga por imprevisto técnico/ambiental | 3 | Sprint 4 |
-| 20 | 20 | **US17** | Canal de mensajería para coordinación técnica | 3 | Sprint 4 |
-| 21 | 21 | **US23** | Registro de insumos agrícolas y trazabilidad | 3 | Sprint 4 |
-| 22 | 22 | **SP01** | Evaluación de sincronización offline de fotografías | 5 | Sprint 4 |
-| 23 | 23 | **US11** | Programación de visita presencial a la parcela | 2 | Sprint 4 |
-| 24 | 24 | **US20** | Suscripción a alertas de cosechas futuras | 2 | Sprint 4 |
-| 25 | 25 | **US15** | Calificación al comprador al finalizar contrato | 2 | Sprint 4 |
-| 26 | 26 | **US18** | Evaluación de calidad del productor agrícola | 2 | Sprint 4 |
-| 27 | 27 | **US19** | Reporte de incidencias y soporte técnico | 2 | Sprint 4 |
+| 1 | **US-LP01** | Landing Page estática e informativa de ALLPATEK | 5 | Sprint 1 |
+| 2 | **US02** | Búsqueda y filtrado de parcelas disponibles | 5 | Sprint 1 |
+| 3 | **US06** | Publicación y geolocalización de lote agrícola | 5 | Sprint 1 |
+| 4 | **US07** | Solicitud de cotización y negociación de volumen | 3 | Sprint 1 |
+| 5 | **US21** | Envío de contraofertas durante la negociación | 3 | Sprint 1 |
+| 6 | **US08** | Aceptación y firma de contrato digital Escrow | 5 | Sprint 2 |
+| 7 | **US09** | Depósito de fondos iniciales en custodia | 5 | Sprint 2 |
+| 8 | **US04** | Registro y carga de evidencias fotográficas por hito | 5 | Sprint 2 |
+| 9 | **US03** | Aprobación de hito y orden de liberación de fondos | 5 | Sprint 2 |
+| 10 | **US14** | Revisión técnica de evidencias de hito | 3 | Sprint 2 |
+| 12 | **US01** | Registro de perfil y verificación de identidad | 3 | Sprint 3 |
+| 13 | **US16** | Registro de perfil corporativo y validación fiscal | 3 | Sprint 3 |
+| 14 | **TS01** | API RESTful para autenticación y tokens JWT | 5 | Sprint 3 |
+| 15 | **US13** | Configuración de cuenta bancaria para desembolsos | 3 | Sprint 3 |
+| 16 | **TS02** | API RESTful para integración del estado Escrow | 5 | Sprint 3 |
+| 18 | **US05** | Recepción de alertas climáticas de riesgo | 3 | Sprint 4 |
+| 19 | **US10** | Solicitud de prórroga por imprevisto técnico/ambiental | 3 | Sprint 4 |
+| 20 | **US17** | Canal de mensajería para coordinación técnica | 3 | Sprint 4 |
+| 21 | **US23** | Registro de insumos agrícolas y trazabilidad | 3 | Sprint 4 |
+| 22 | **SP01** | Evaluación de sincronización offline de fotografías | 5 | Sprint 4 |
+| 23 | **US11** | Programación de visita presencial a la parcela | 2 | Sprint 4 |
+| 24 | **US20** | Suscripción a alertas de cosechas futuras | 2 | Sprint 4 |
+| 25 | **US15** | Calificación al comprador al finalizar contrato | 2 | Sprint 4 |
+| 26 | **US18** | Evaluación de calidad del productor agrícola | 2 | Sprint 4 |
+| 27 | **US19** | Reporte de incidencias y soporte técnico | 2 | Sprint 4 |
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
