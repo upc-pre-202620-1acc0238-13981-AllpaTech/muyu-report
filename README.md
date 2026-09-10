@@ -1291,14 +1291,71 @@ El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario 
 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
+
+En esta sección se documenta el EventStorming realizado por el equipo de TerraNova para modelar el dominio de la plataforma ALLPATEK. Esta dinámica permitió mapear los eventos clave del dominio, los comandos accionados por los actores (Productor Agrícola y Comerciante, los puntos de dolor operacionales y las integraciones con sistemas externos como la Bóveda Escrow, el motor n8n y la API de OpenWeather.
+
+A continuación se presenta la evidencia gráfica dividida en la vista general del tablero y las secciones detalladas del flujo de negocio:
+
+* **Vista General del Tablero:** Muestra la vista panorámica completa de la línea de tiempo del dominio, abarcando desde la fase de alta de parcelas hasta la conclusión de los contratos agrícolas.
+
+<p align="center">
+  <img src="assets/images/chapter02/EventStormingGeneral.png" width="800" />
+</p>
+
+* **Fase de Onboarding, Registro y Negociación:** Detalla el flujo inicial de captura de coordenadas GPS, publicación de hectáreas en el catálogo y la generación y firma del contrato digital respaldado en PDF.
+
+<p align="center">
+  <img src="assets/images/chapter02/EventStorming01.png" width="400" />
+</p>
+
+* **Fase de Custodia Escrow, Monitoreo Climático y Liberación de Pagos:** Modela la secuencia financiera de bloqueo de fondos en la bóveda, el envío de alertas meteorológicas y la validación de evidencias fotográficas para los desembolsos parciales por hitos cumplidos.
+
+<p align="center">
+  <img src="assets/images/chapter02/EventStorming02.png" width="400" />
+</p>
+
+
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
+
+En primer lugar, el canvas del Contract & Escrow Service (Core Domain) detalla las reglas de negocio, los eventos de entrada y salida, y la terminología del lenguaje ubicuo necesarios para asegurar la custodia financiera y la liberación de pagos por hitos.
+
+<p align="center">
+  <img src="assets/images/chapter02/bounded_context_canvas_01.png" width="800" />
+</p>
+
+  En segundo lugar, el canvas del Parcel Management Service (Supporting Domain) especifica la gestión del catálogo de terrenos, las capacidades de delimitación por coordenadas GPS y los criterios de disponibilidad de las hectáreas agrícolas.
+
+
+<p align="center">
+  <img src="assets/images/chapter02/bounded_context_canvas_02.png" width="800"/>  
+</p>
+
+
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
+
+Para entender cómo se relaciona la aplicación móvil MUYU con su entorno, el diagrama de contexto (Nivel 1 C4) ubica la app en el centro del flujo operacional. A su alrededor se muestran los usuarios principales el Productor Agrícola en campo y el Comercializador junto con los servicios externos que respaldan la operación: el pronóstico del clima en tiempo real, la automatización de notificaciones y la pasarela de custodia financiera.
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
+Este diagrama de contexto ilustra cómo la aplicación móvil MUYU interactúa de forma general con los usuarios en campo y los servicios externos del sistema.
+
+  <img src="assets/images/chapter02/context-level.png" width="1000"/>  
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+Este diagrama de contenedores muestra los bloques tecnológicos internos de MUYU, destacando la aplicación cliente, su base de datos local para modo offline y los microservicios backend.
+
+ <img src="assets/images/chapter02/container-level.png" width="1000"/>  
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+Este diagrama de despliegue representa la infraestructura física y en la nube donde se ejecuta la aplicación móvil y se conectan sus servidores.
+
+ <img src="assets/images/chapter02/deployment-level.png" width="1000"/>  
+
 
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: <Bounded Context Name>
