@@ -92,7 +92,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>[Entrega] - [Nombre del Integrante]:</b> [Descripción de la acción realizada]</li>
+            <li><b> AV1 - Angel Guillermo Berrospi Marin:</b>  Fomenté comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejemplo el capítulo 2 con el impact mapping, user stories y entrevistas, de esa forma avance el trabajo. </li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -105,7 +105,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>[Entrega] - [Nombre del Integrante]:</b> [Descripción de la acción realizada]</li>
+            <li><b> AV1 - Angel Guillermo Berrospi Marin:</b> Participé activamente en el desarrollo del proyecto, tanto en la realización de tareas cómo entrar a las reuniones programadas para la coordinación de diferentes puntos, establecí mi propia métrica con respecto a los puntos que me tocaron y de esa forma pude desempeñar un buen rendimiento tanto en ayuda para el grupo cómo para la finalización del proyecto. </li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
