@@ -1462,7 +1462,14 @@ Contiene los controladores que exponen los servicios de gestión de contratos y 
 *   **DTOs:** `CreateContractResource`, `SubmitEvidenceResource`, `ContractSummaryResource`.
 *   **Assemblers:** Transforman los recursos HTTP en comandos del dominio (ej. `CreateContractCommandFromResourceAssembler`).
 
-#### 2.6.x.3. Application Layer
+#### 2.6.1.3. Application Layer
+
+Coordina los flujos de creación de acuerdos, carga de evidencias y liberación de fondos.
+
+*   **Command Services:** `ContractCommandServiceImpl` (Valida la disponibilidad de la parcela, estructura los hitos y guarda el contrato), `EscrowCommandServiceImpl` (Interactúa con la pasarela para bloquear o liberar fondos), `EvidenceCommandServiceImpl`.
+*   **Query Services:** `ContractQueryServiceImpl`.
+*   **Flujo principal:** El agricultor sube una evidencia; el `EvidenceCommandService` valida las coordenadas GPS contra las de la parcela. Si es correcto, guarda la evidencia, cambia el estado del hito a "IN_REVIEW" y dispara un evento para notificar al comerciante.
+
 #### 2.6.x.4. Infrastructure Layer
 #### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
