@@ -1487,8 +1487,15 @@ y la inyección de dependencias a través de las capas de Interfaz, Aplicación,
   <img src="assets/images/chapter02/level_diagrams_contract_escrow.png" alt="Contract Escrow Component Diagram" width="800" />
 </div>
 
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Contract`) y cómo interactúa con los servicios de comando y consulta (CQRS).
+
+<div align="center">
+  <img src="assets/images/chapter02/class_diagram_contract_escrow.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
 ##### 2.6.x.6.2. Bounded Context Database Design Diagram
 
 
