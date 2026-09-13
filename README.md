@@ -1432,7 +1432,14 @@ Este diagrama de despliegue representa la infraestructura física y en la nube d
 
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.x. Bounded Context: <Bounded Context Name>
+### 2.6.1. Bounded Context: Contract & Escrow Service
+El Bounded Context Contract & Escrow Service representa la capacidad del sistema encargada de gestionar los
+acuerdos de producción agrícola y garantizar la seguridad financiera mediante la custodia de fondos (Escrow).
+Su propósito es crear contratos digitales, procesar pagos retenidos y liberar los fondos progresivamente 
+conforme el comerciante apruebe los hitos y evidencias de campo del agricultor. La entidad principal 
+es `Contract`, la cual concentra las reglas de negocio del acuerdo y el estado de la custodia. Este 
+contexto actúa como proveedor (Upstream) para las notificaciones y se integra fuertemente con la pasarela de pagos externa.
+
 #### 2.6.x.1. Domain Layer
 #### 2.6.x.2. Interface Layer
 #### 2.6.x.3. Application Layer
