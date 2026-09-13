@@ -1433,6 +1433,7 @@ Este diagrama de despliegue representa la infraestructura física y en la nube d
 
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.1. Bounded Context: Contract & Escrow Service
+
 El Bounded Context Contract & Escrow Service representa la capacidad del sistema encargada de gestionar los
 acuerdos de producción agrícola y garantizar la seguridad financiera mediante la custodia de fondos (Escrow).
 Su propósito es crear contratos digitales, procesar pagos retenidos y liberar los fondos progresivamente 
@@ -1440,7 +1441,18 @@ conforme el comerciante apruebe los hitos y evidencias de campo del agricultor. 
 es `Contract`, la cual concentra las reglas de negocio del acuerdo y el estado de la custodia. Este 
 contexto actúa como proveedor (Upstream) para las notificaciones y se integra fuertemente con la pasarela de pagos externa.
 
-#### 2.6.x.1. Domain Layer
+#### 2.6.1.1. Domain Layer
+
+La capa de dominio contiene el núcleo de las reglas comerciales y la lógica de custodia de fondos.
+
+*   **Aggregate Root:** `Contract` (Atributos: id, farmerId, merchantId, totalAmount, status, createdAt).
+*   **Entities:** `Milestone` (Hito de cultivo), `Evidence` (Fotografía georreferenciada).
+*   **Value Objects:** `Money` (Monto y moneda), `GPSCoordinates` (Latitud y longitud), `ContractStatus` (Enum: PENDING_DEPOSIT, IN_PROGRESS, COMPLETED, DISPUTED), `MilestoneStatus` (Enum: PENDING, IN_REVIEW, APPROVED, REJECTED).
+*   **Commands:** `CreateContractCommand`, `FundEscrowCommand`, `SubmitEvidenceCommand`, `ApproveMilestoneCommand`.
+*   **Queries:** `GetContractByIdQuery`, `GetPendingMilestonesQuery`.
+*   **Domain Events:** `ContractSignedEvent`, `EscrowFundedEvent`, `EvidenceSubmittedEvent`, `MilestoneApprovedEvent`.
+*   **Reglas de negocio:** No se puede liberar un desembolso parcial si no existe una evidencia fotográfica validada con coordenadas GPS. El comerciante no puede retirar unilateralmente los fondos una vez que el agricultor ha iniciado el hito de siembra.
+
 #### 2.6.x.2. Interface Layer
 #### 2.6.x.3. Application Layer
 #### 2.6.x.4. Infrastructure Layer
