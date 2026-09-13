@@ -1453,7 +1453,15 @@ La capa de dominio contiene el núcleo de las reglas comerciales y la lógica de
 *   **Domain Events:** `ContractSignedEvent`, `EscrowFundedEvent`, `EvidenceSubmittedEvent`, `MilestoneApprovedEvent`.
 *   **Reglas de negocio:** No se puede liberar un desembolso parcial si no existe una evidencia fotográfica validada con coordenadas GPS. El comerciante no puede retirar unilateralmente los fondos una vez que el agricultor ha iniciado el hito de siembra.
 
-#### 2.6.x.2. Interface Layer
+#### 2.6.1.2. Interface Layer
+
+Contiene los controladores que exponen los servicios de gestión de contratos y pagos al frontend móvil de Muyu.
+
+*   **REST Controllers:** `ContractsController`, `EscrowController`, `EvidencesController`.
+*   **Endpoints:** `POST /api/v1/contracts`, `POST /api/v1/contracts/{id}/escrow/fund`, `POST /api/v1/milestones/{id}/evidences`, `PUT /api/v1/milestones/{id}/approve`.
+*   **DTOs:** `CreateContractResource`, `SubmitEvidenceResource`, `ContractSummaryResource`.
+*   **Assemblers:** Transforman los recursos HTTP en comandos del dominio (ej. `CreateContractCommandFromResourceAssembler`).
+
 #### 2.6.x.3. Application Layer
 #### 2.6.x.4. Infrastructure Layer
 #### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
