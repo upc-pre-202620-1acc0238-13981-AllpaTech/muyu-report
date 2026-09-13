@@ -1470,7 +1470,14 @@ Coordina los flujos de creación de acuerdos, carga de evidencias y liberación 
 *   **Query Services:** `ContractQueryServiceImpl`.
 *   **Flujo principal:** El agricultor sube una evidencia; el `EvidenceCommandService` valida las coordenadas GPS contra las de la parcela. Si es correcto, guarda la evidencia, cambia el estado del hito a "IN_REVIEW" y dispara un evento para notificar al comerciante.
 
-#### 2.6.x.4. Infrastructure Layer
+#### 2.6.1.4. Infrastructure Layer
+
+Gestiona la persistencia, el almacenamiento de archivos y la integración con pasarelas financieras.
+
+*   **Repositories:** `ContractRepository` (extiende JpaRepository u ORM similar), `MilestoneRepository`.
+*   **Adapters:** `EscrowPaymentGatewayAdapter` (comunicación REST con la pasarela de pagos), `CloudStorageAdapter` (AWS S3 / Firebase Cloud Storage para guardar las fotografías comprimidas).
+*   **Persistencia:** Tablas `contracts`, `milestones` y `evidences` con llaves foráneas y restricciones de integridad.
+
 #### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
