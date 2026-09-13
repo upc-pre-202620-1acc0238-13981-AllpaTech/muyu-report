@@ -1496,6 +1496,33 @@ Este diagrama muestra el modelo de clases de la capa de dominio, destacando el A
   <img src="assets/images/chapter02/class_diagram_contract_escrow.png" alt="Contract Escrow Class Diagram" width="800" />
 </div>
 
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+Este diagrama relacional conectando `contracts`, `milestones` y `evidences`, donde cada hito pertenece a un contrato y cada evidencia está vinculada a un hito específico, garantizando la trazabilidad de la custodia.
+
+<div align="center">
+  <img src="assets/images/chapter02/db_diagram_contract_escrow.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
+
+### 2.6.x. Bounded Context: <Bounded Context Name>
+#### 2.6.x.1. Domain Layer
+#### 2.6.x.2. Interface Layer
+#### 2.6.x.3. Application Layer
+#### 2.6.x.4. Infrastructure Layer
+#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.x.6.2. Bounded Context Database Design Diagram
+
+
+### 2.6.x. Bounded Context: <Bounded Context Name>
+#### 2.6.x.1. Domain Layer
+#### 2.6.x.2. Interface Layer
+#### 2.6.x.3. Application Layer
+#### 2.6.x.4. Infrastructure Layer
+#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.x.6.2. Bounded Context Database Design Diagram
 
 
