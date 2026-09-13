@@ -1478,7 +1478,15 @@ Gestiona la persistencia, el almacenamiento de archivos y la integración con pa
 *   **Adapters:** `EscrowPaymentGatewayAdapter` (comunicación REST con la pasarela de pagos), `CloudStorageAdapter` (AWS S3 / Firebase Cloud Storage para guardar las fotografías comprimidas).
 *   **Persistencia:** Tablas `contracts`, `milestones` y `evidences` con llaves foráneas y restricciones de integridad.
 
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Contract & Escrow**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura)
+y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+
+<div align="center">
+  <img src="assets/images/chapter02/level_diagrams_contract_escrow.png" alt="Contract Escrow Component Diagram" width="800" />
+</div>
+
 #### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.x.6.2. Bounded Context Database Design Diagram
