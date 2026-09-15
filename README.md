@@ -1603,7 +1603,14 @@ Orquesta la lectura de tareas pendientes y la ejecución del envío.
 *   **Command Services:** `SyncCommandServiceImpl` (Encola las nuevas tareas cuando no hay internet y procesa la cola cuando regresa la señal).
 *   **Flujo principal:** Cuando `NetworkStateListener` detecta internet, dispara el comando `ProcessSyncQueueCommand`. El servicio extrae las `SyncTask` en estado PENDING y delega al adaptador HTTP su envío hacia el backend de Muyu.
 
-#### 2.6.x.4. Infrastructure Layer
+#### 2.6.3.4. Infrastructure Layer
+
+Gestiona la persistencia local en el smartphone y las llamadas HTTP de salida.
+
+*   **Repositories:** `SyncTaskLocalRepository` (Implementación usando SQLite o local storage interno del dispositivo móvil).
+*   **Adapters:** `ConnectivityAdapter` (Usa APIs nativas de Android/iOS para revisar la red), `ApiClientAdapter` (Ejecuta la petición HTTP final hacia la nube).
+*   **Persistencia:** Tablas locales `sync_tasks` en la base de datos interna del teléfono.
+
 #### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
