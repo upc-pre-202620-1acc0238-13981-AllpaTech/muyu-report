@@ -1563,8 +1563,14 @@ la entidad principal (`Parcel`), sus Value Objects asociados (como `GPSCoordinat
   <img src="assets/images/chapter02/class_diagram_parcel.png" alt="Contract Escrow Class Diagram" width="800" />
 </div>
 
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
+Este diagrama representa el esquema físico de la base de datos relacional para el contexto de **Parcel Management**, detallando las tablas principales
+para el registro de parcelas y sus límites geográficos (coordenadas GPS).
+
+<div align="center">
+  <img src="assets/images/chapter02/db_diagram_parcel.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
 
 ### 2.6.x. Bounded Context: <Bounded Context Name>
 #### 2.6.x.1. Domain Layer
