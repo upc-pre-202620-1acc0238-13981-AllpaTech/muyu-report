@@ -1504,7 +1504,12 @@ Este diagrama relacional conectando `contracts`, `milestones` y `evidences`, don
   <img src="assets/images/chapter02/db_diagram_contract_escrow.png" alt="Contract Escrow Database Diagram" width="800" />
 </div>
 
-### 2.6.x. Bounded Context: <Bounded Context Name>
+### 2.6.2. Bounded Context: Parcel Management Service
+
+El Bounded Context Parcel Management Service (Supporting Domain) representa la capacidad del sistema encargada de administrar
+el inventario de tierras. Su propósito es registrar las hectáreas georreferenciadas con mapas GPS, catalogar tipos de suelo y
+gestionar la disponibilidad agrícola para que los comerciantes puedan descubrir ofertas productivas. La entidad principal es `Parcel`.
+
 #### 2.6.x.1. Domain Layer
 #### 2.6.x.2. Interface Layer
 #### 2.6.x.3. Application Layer
