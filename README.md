@@ -1510,7 +1510,18 @@ El Bounded Context Parcel Management Service (Supporting Domain) representa la c
 el inventario de tierras. Su propósito es registrar las hectáreas georreferenciadas con mapas GPS, catalogar tipos de suelo y
 gestionar la disponibilidad agrícola para que los comerciantes puedan descubrir ofertas productivas. La entidad principal es `Parcel`.
 
-#### 2.6.x.1. Domain Layer
+#### 2.6.2.1. Domain Layer
+
+La capa de dominio contiene las reglas espaciales y de disponibilidad de los terrenos agrícolas.
+
+*   **Aggregate Root:** `Parcel` (Atributos: id, farmerId, name, area, soilType, status).
+*   **Entities:** `GPSBoundary` (Polígono georreferenciado).
+*   **Value Objects:** `Hectare` (Valor numérico), `GPSCoordinate` (Latitud, longitud, orden), `ParcelStatus` (Enum: AVAILABLE, IN_USE, UNAVAILABLE), `SoilType` (Enum: CLAY, SANDY, LOAMY, SILTY).
+*   **Commands:** `RegisterParcelCommand`, `UpdateParcelAvailabilityCommand`, `AssignCoordinatesCommand`.
+*   **Queries:** `GetAvailableParcelsQuery`, `GetParcelByIdQuery`.
+*   **Domain Events:** `ParcelRegisteredEvent`, `ParcelAvailabilityUpdatedEvent`.
+*   **Reglas de negocio:** Una parcela no puede cambiar a estado "Disponible" si tiene un contrato activo en el mismo periodo. Toda parcela debe contener al menos tres puntos GPS válidos para formar un polígono delimitado.
+
 #### 2.6.x.2. Interface Layer
 #### 2.6.x.3. Application Layer
 #### 2.6.x.4. Infrastructure Layer
