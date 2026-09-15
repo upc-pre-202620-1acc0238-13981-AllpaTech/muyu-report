@@ -1619,8 +1619,16 @@ Este diagrama detalla la arquitectura interna del motor de sincronización offli
   <img src="assets/images/chapter02/level_diagrams_MUYU_mobile.png" alt="Contract Escrow Component Diagram" width="800" />
 </div>
 
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+Este diagrama muestra el modelo de clases de la capa de dominio para el contexto de **MUYU Mobile Offline Sync**, detallando el
+Aggregate Root (`SyncQueue`), la entidad individual de tarea (`SyncTask`) y cómo interactúan con los comandos desencadenados por los eventos del dispositivo.
+
+<div align="center">
+  <img src="assets/images/chapter02/class_diagram_MUYU_mobile.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
 ##### 2.6.x.6.2. Bounded Context Database Design Diagram
 
 
