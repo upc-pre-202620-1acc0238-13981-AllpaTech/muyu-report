@@ -1611,7 +1611,14 @@ Gestiona la persistencia local en el smartphone y las llamadas HTTP de salida.
 *   **Adapters:** `ConnectivityAdapter` (Usa APIs nativas de Android/iOS para revisar la red), `ApiClientAdapter` (Ejecuta la petición HTTP final hacia la nube).
 *   **Persistencia:** Tablas locales `sync_tasks` en la base de datos interna del teléfono.
 
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama detalla la arquitectura interna del motor de sincronización offline dentro del dispositivo móvil, manteniendo la estructura de separación de responsabilidades.
+
+<div align="center">
+  <img src="assets/images/chapter02/level_diagrams_MUYU_mobile.png" alt="Contract Escrow Component Diagram" width="800" />
+</div>
+
 #### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.x.6.2. Bounded Context Database Design Diagram
