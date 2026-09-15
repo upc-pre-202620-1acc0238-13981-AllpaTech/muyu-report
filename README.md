@@ -1545,7 +1545,14 @@ Coordina los flujos de alta de terrenos y consultas de catálogo.
 *   **Adapters:** `OpenWeatherAdapter` (Consulta el clima basándose en las coordenadas registradas).
 *   **Persistencia:** Tablas `parcels` y `parcel_coordinates`.
 
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama ilustra la arquitectura interna para gestionar el inventario de parcelas y sus coordenadas.
+
+<div align="center">
+  <img src="assets/images/chapter02/level_diagrams_parcel.png" alt="Contract Escrow Component Diagram" width="800" />
+</div>
+
 #### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.x.6.2. Bounded Context Database Design Diagram
