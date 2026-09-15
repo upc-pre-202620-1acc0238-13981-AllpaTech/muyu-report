@@ -1539,7 +1539,12 @@ Coordina los flujos de alta de terrenos y consultas de catálogo.
 *   **Query Services:** `ParcelQueryServiceImpl` (Aplica filtros por área y tipo de suelo).
 *   **Flujo principal:** El agricultor envía los datos y coordenadas; el servicio verifica la geometría básica y persiste la parcela, emitiendo un evento para actualizar el catálogo.
 
-#### 2.6.x.4. Infrastructure Layer
+#### 2.6.2.4. Infrastructure Layer
+
+*   **Repositories:** `ParcelRepository` (extiende JpaRepository).
+*   **Adapters:** `OpenWeatherAdapter` (Consulta el clima basándose en las coordenadas registradas).
+*   **Persistencia:** Tablas `parcels` y `parcel_coordinates`.
+
 #### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
