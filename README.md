@@ -1596,7 +1596,13 @@ A diferencia del backend, la "interfaz" en este contexto móvil no es una API RE
 *   **Device Listeners:** `NetworkStateListener` (Escucha los cambios de conectividad Wi-Fi o Datos Móviles).
 *   **Background Workers:** `BackgroundSyncWorker` (Proceso desencadenado por el SO para sincronizar cuando la app está minimizada).
 
-#### 2.6.x.3. Application Layer
+#### 2.6.3.3. Application Layer
+
+Orquesta la lectura de tareas pendientes y la ejecución del envío.
+
+*   **Command Services:** `SyncCommandServiceImpl` (Encola las nuevas tareas cuando no hay internet y procesa la cola cuando regresa la señal).
+*   **Flujo principal:** Cuando `NetworkStateListener` detecta internet, dispara el comando `ProcessSyncQueueCommand`. El servicio extrae las `SyncTask` en estado PENDING y delega al adaptador HTTP su envío hacia el backend de Muyu.
+
 #### 2.6.x.4. Infrastructure Layer
 #### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
