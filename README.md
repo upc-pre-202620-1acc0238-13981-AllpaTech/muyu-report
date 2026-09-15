@@ -1629,8 +1629,14 @@ Aggregate Root (`SyncQueue`), la entidad individual de tarea (`SyncTask`) y cóm
   <img src="assets/images/chapter02/class_diagram_MUYU_mobile.png" alt="Contract Escrow Class Diagram" width="800" />
 </div>
 
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
+Este diagrama representa el esquema físico de la base de datos local (SQLite) en el dispositivo móvil para el contexto 
+de **MUYU Mobile Offline Sync**, detallando la tabla que almacena temporalmente las peticiones HTTP y las evidencias fotográficas antes de su sincronización.
+
+<div align="center">
+  <img src="assets/images/chapter02/db_diagram_MUYU_mobile.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
 
 # Capítulo III: Solution UI/UX Design
 
