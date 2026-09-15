@@ -1572,7 +1572,12 @@ para el registro de parcelas y sus límites geográficos (coordenadas GPS).
   <img src="assets/images/chapter02/db_diagram_parcel.png" alt="Contract Escrow Database Diagram" width="800" />
 </div>
 
-### 2.6.x. Bounded Context: <Bounded Context Name>
+### 2.6.3. Bounded Context: <Bounded Context Name>
+
+El Bounded Context **MUYU Mobile Offline Sync** (Generic / Utility Domain) reside principalmente en la aplicación cliente móvil (Flutter). 
+Su propósito es garantizar la captura ininterrumpida de evidencias y reportes georreferenciados en zonas rurales donde no hay conexión a internet.
+Este contexto gestiona el almacenamiento local de los datos y los sincroniza automáticamente con el backend una vez que detecta que la red ha sido restaurada.
+
 #### 2.6.x.1. Domain Layer
 #### 2.6.x.2. Interface Layer
 #### 2.6.x.3. Application Layer
