@@ -1522,7 +1522,15 @@ La capa de dominio contiene las reglas espaciales y de disponibilidad de los ter
 *   **Domain Events:** `ParcelRegisteredEvent`, `ParcelAvailabilityUpdatedEvent`.
 *   **Reglas de negocio:** Una parcela no puede cambiar a estado "Disponible" si tiene un contrato activo en el mismo periodo. Toda parcela debe contener al menos tres puntos GPS válidos para formar un polígono delimitado.
 
-#### 2.6.x.2. Interface Layer
+#### 2.6.2.2. Interface Layer
+
+Contiene los controladores que exponen el catálogo de parcelas a la aplicación móvil.
+
+*   **REST Controllers:** `ParcelsController`.
+*   **Endpoints:** `POST /api/v1/parcels`, `GET /api/v1/parcels/available`, `PATCH /api/v1/parcels/{id}/status`.
+*   **DTOs:** `RegisterParcelResource`, `ParcelSummaryResource`.
+*   **Assemblers:** Transforman recursos HTTP en comandos (ej. `RegisterParcelCommandFromResourceAssembler`).
+
 #### 2.6.x.3. Application Layer
 #### 2.6.x.4. Infrastructure Layer
 #### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
