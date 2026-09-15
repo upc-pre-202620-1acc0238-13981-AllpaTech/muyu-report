@@ -1572,13 +1572,23 @@ para el registro de parcelas y sus límites geográficos (coordenadas GPS).
   <img src="assets/images/chapter02/db_diagram_parcel.png" alt="Contract Escrow Database Diagram" width="800" />
 </div>
 
-### 2.6.3. Bounded Context: <Bounded Context Name>
+### 2.6.3. Bounded Context: MUYU Mobile Offline Sync Context
 
 El Bounded Context **MUYU Mobile Offline Sync** (Generic / Utility Domain) reside principalmente en la aplicación cliente móvil (Flutter). 
 Su propósito es garantizar la captura ininterrumpida de evidencias y reportes georreferenciados en zonas rurales donde no hay conexión a internet.
 Este contexto gestiona el almacenamiento local de los datos y los sincroniza automáticamente con el backend una vez que detecta que la red ha sido restaurada.
 
-#### 2.6.x.1. Domain Layer
+#### 2.6.3.1. Domain Layer
+
+La capa de dominio modela las tareas en espera y su ciclo de vida según el estado de la red.
+
+*   **Aggregate Root:** `SyncQueue` (Cola local de tareas de sincronización).
+*   **Entities:** `SyncTask` (Tarea individual que encapsula una petición pendiente).
+*   **Value Objects:** `SyncStatus` (Enum: PENDING, IN_PROGRESS, SYNCED, FAILED), `Payload` (Cuerpo de los datos, ya sea JSON o binario para fotos).
+*   **Commands:** `EnqueueTaskCommand`, `ProcessSyncQueueCommand`, `MarkTaskAsSyncedCommand`.
+*   **Domain Events:** `NetworkRestoredEvent`, `SyncTaskCompletedEvent`, `SyncFailedEvent`.
+*   **Reglas de negocio:** Las tareas fallidas deben reintentarse utilizando un algoritmo de retroceso exponencial (Exponential Backoff) para no saturar el servidor al volver la conexión. Las fotos deben comprimirse antes de encolarse.
+
 #### 2.6.x.2. Interface Layer
 #### 2.6.x.3. Application Layer
 #### 2.6.x.4. Infrastructure Layer
