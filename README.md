@@ -1589,7 +1589,13 @@ La capa de dominio modela las tareas en espera y su ciclo de vida según el esta
 *   **Domain Events:** `NetworkRestoredEvent`, `SyncTaskCompletedEvent`, `SyncFailedEvent`.
 *   **Reglas de negocio:** Las tareas fallidas deben reintentarse utilizando un algoritmo de retroceso exponencial (Exponential Backoff) para no saturar el servidor al volver la conexión. Las fotos deben comprimirse antes de encolarse.
 
-#### 2.6.x.2. Interface Layer
+#### 2.6.3.2. Interface Layer
+
+A diferencia del backend, la "interfaz" en este contexto móvil no es una API REST, sino los *Listeners* que escuchan los eventos del sistema operativo del teléfono.
+
+*   **Device Listeners:** `NetworkStateListener` (Escucha los cambios de conectividad Wi-Fi o Datos Móviles).
+*   **Background Workers:** `BackgroundSyncWorker` (Proceso desencadenado por el SO para sincronizar cuando la app está minimizada).
+
 #### 2.6.x.3. Application Layer
 #### 2.6.x.4. Infrastructure Layer
 #### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
