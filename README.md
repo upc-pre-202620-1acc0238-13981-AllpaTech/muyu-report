@@ -1553,8 +1553,16 @@ Este diagrama ilustra la arquitectura interna para gestionar el inventario de pa
   <img src="assets/images/chapter02/level_diagrams_parcel.png" alt="Contract Escrow Component Diagram" width="800" />
 </div>
 
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+Este diagrama muestra el modelo de clases de la capa de dominio para el contexto de **Parcel Management**, detallando
+la entidad principal (`Parcel`), sus Value Objects asociados (como `GPSCoordinate` y `Hectare`) y la interacción con los servicios de comando y consulta.
+
+<div align="center">
+  <img src="assets/images/chapter02/class_diagram_parcel.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
 ##### 2.6.x.6.2. Bounded Context Database Design Diagram
 
 
