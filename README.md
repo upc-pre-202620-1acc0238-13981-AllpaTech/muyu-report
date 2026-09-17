@@ -266,12 +266,12 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 | Tipo | Competidor | Descripción | Características | Website |
 |---|---|---|---|---|
-| Directo |  <img src="assets/logos/farmizen.png" width="90"><br> (India) | Permite alquilar una mini-parcela de 600 pies² dentro de una granja real por una cuota mensual; el agricultor cultiva el terreno y el usuario recibe la cosecha semanalmente o la recoge en visitas programadas. | App móvil de seguimiento de parcela (Android/iOS); hasta 6 visitas de campo al mes; entrega semanal a domicilio; sin verificación georreferenciada automática de evidencias. | [farmizen.com](https://www.farmizen.com) |
-| Directo | <img src="assets/logos/cropital.png" width="90"><br> (Filipinas) | Plataforma de crowdfunding que conecta inversionistas con pequeños agricultores filipinos identificados individualmente; el inversionista financia el costo de siembra de una granja específica y recibe entre 3% y 30% de retorno tras la cosecha. | Selección de granja específica y nombrada; seguro agrícola incluido; verificación de campo mediante entrevista y visita presencial; retorno en 3 a 6 meses; sin app móvil. | [cropital.com](https://www.cropital.com) |
-| Directo | <img src="assets/logos/crowdfarming.png" width="90"><br>(España) | Marketplace B2C donde el consumidor "adopta" un árbol, animal o parcela de un agricultor aliado, pagando por adelantado la producción que recibirá directamente en su domicilio al momento de la cosecha. | Sin intermediarios de distribución; comunicación directa con el agricultor vía fotos/historias; logística propia de envío en Europa; orientado a consumidor final, no a comerciantes. | [crowdfarming.com](https://www.crowdfarming.com) |
-| Indirecto | <img src="assets/logos/acretrader.png" width="90"><br> (EE. UU.) | Plataforma fintech que fracciona la propiedad de terrenos agrícolas para que inversionistas financien tierra de cultivo a cambio de una renta anual pagada por el operador agrícola arrendatario. | Due diligence documental de tierras; retorno de renta anual fija; sin seguimiento operativo del cultivo ni app móvil; el retorno no depende de la cosecha. | [acretrader.com](https://www.acretrader.com) |
-| Indirecto | <img src="assets/logos/traive.png" width="90"><br>**Traive** (Brasil / EE. UU.) | Plataforma agrofintech B2B2C que usa inteligencia artificial para generar scoring crediticio y conectar a prestamistas/distribuidores de insumos con agricultores, agilizando la aprobación de crédito agrícola. | Modelo B2B2C (cliente es el prestamista, no el agricultor ni el comerciante); evaluación de riesgo con datos alternativos; sin evidencia de campo ni app móvil. | [traivefinance.com](https://traivefinance.com) |
-| Indirecto | <img src="assets/logos/kilimo.png" width="90"><br>**Kilimo** (Argentina, con presencia en Perú) | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales vendidos a empresas. | Recomendaciones diarias de riego sin hardware; alianzas corporativas de sostenibilidad; no financia parcelas ni conecta al agricultor con un comprador. | [kilimo.com](https://www.kilimo.com) |
+| Directo |  <img src="assets/images/chapter02/logos/farmizen.png" width="90"><br> (India) | Permite alquilar una mini-parcela de 600 pies² dentro de una granja real por una cuota mensual; el agricultor cultiva el terreno y el usuario recibe la cosecha semanalmente o la recoge en visitas programadas. | App móvil de seguimiento de parcela (Android/iOS); hasta 6 visitas de campo al mes; entrega semanal a domicilio; sin verificación georreferenciada automática de evidencias. | [farmizen.com](https://www.farmizen.com) |
+| Directo | <img src="assets/images/chapter02/logos/cropital.png" width="90"><br> (Filipinas) | Plataforma de crowdfunding que conecta inversionistas con pequeños agricultores filipinos identificados individualmente; el inversionista financia el costo de siembra de una granja específica y recibe entre 3% y 30% de retorno tras la cosecha. | Selección de granja específica y nombrada; seguro agrícola incluido; verificación de campo mediante entrevista y visita presencial; retorno en 3 a 6 meses; sin app móvil. | [cropital.com](https://www.cropital.com) |
+| Directo | <img src="assets/images/chapter02/logos/crowdfarming.png" width="90"><br>(España) | Marketplace B2C donde el consumidor "adopta" un árbol, animal o parcela de un agricultor aliado, pagando por adelantado la producción que recibirá directamente en su domicilio al momento de la cosecha. | Sin intermediarios de distribución; comunicación directa con el agricultor vía fotos/historias; logística propia de envío en Europa; orientado a consumidor final, no a comerciantes. | [crowdfarming.com](https://www.crowdfarming.com) |
+| Indirecto | <img src="assets/images/chapter02/logos/acretrader.png" width="90"><br> (EE. UU.) | Plataforma fintech que fracciona la propiedad de terrenos agrícolas para que inversionistas financien tierra de cultivo a cambio de una renta anual pagada por el operador agrícola arrendatario. | Due diligence documental de tierras; retorno de renta anual fija; sin seguimiento operativo del cultivo ni app móvil; el retorno no depende de la cosecha. | [acretrader.com](https://www.acretrader.com) |
+| Indirecto | <img src="assets/images/chapter02/logos/traive.png" width="90"><br>**Traive** (Brasil / EE. UU.) | Plataforma agrofintech B2B2C que usa inteligencia artificial para generar scoring crediticio y conectar a prestamistas/distribuidores de insumos con agricultores, agilizando la aprobación de crédito agrícola. | Modelo B2B2C (cliente es el prestamista, no el agricultor ni el comerciante); evaluación de riesgo con datos alternativos; sin evidencia de campo ni app móvil. | [traivefinance.com](https://traivefinance.com) |
+| Indirecto | <img src="assets/images/chapter02/logos/kilimo.png" width="90"><br>**Kilimo** (Argentina, con presencia en Perú) | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales vendidos a empresas. | Recomendaciones diarias de riego sin hardware; alianzas corporativas de sostenibilidad; no financia parcelas ni conecta al agricultor con un comprador. | [kilimo.com](https://www.kilimo.com) |
 
 ### 2.1.1. Análisis competitivo
 
@@ -282,7 +282,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 **¿Por qué llevar a cabo este análisis?**
 ¿Cómo debe posicionarse Muyu frente a plataformas de alquiler de parcela y crowdfunding agrícola ya validadas (Farmizen, Cropital, CrowdFarming) para maximizar la confianza del comerciante comprador, y qué brechas de transparencia y trazabilidad debemos priorizar frente a ellas?
  
-| | | <br><img src="assets/logos/muyu.jpeg" width="90"> | <br><img src="assets/logos/farmizen.png" width="70"> | <br><img src="assets/logos/cropital.png" width="90"> | <br><img src="assets/logos/crowdfarming.png" width="70"> |
+| | | <br><img src="assets/images/chapter02/logos/muyu.jpeg" width="90"> | <br><img src="assets/images/chapter02/logos/farmizen.png" width="70"> | <br><img src="assets/images/chapter02/logos/cropital.png" width="90"> | <br><img src="assets/images/chapter02/logos/crowdfarming.png" width="70"> |
 |---|---|---|---|---|---|
 | **Perfil** | Overview | Marketplace Agro-as-a-Service que conecta agricultores con comerciantes/compradores mediante financiamiento de una parcela específica por ciclo de cultivo, con Escrow y evidencia georreferenciada. | App que permite alquilar una mini-parcela dentro de una granja real por una cuota mensual, con seguimiento del cultivo desde el celular. | Plataforma de crowdfunding que financia granjas específicas de pequeños agricultores filipinos a cambio de un porcentaje de la cosecha/ganancia. | Marketplace de "adopción" de árboles, animales o parcelas, con entrega directa de la cosecha al consumidor final. |
 | | Ventaja competitiva / ¿Qué valor ofrece al cliente? | Escrow con liberación de fondos por hitos verificables (foto + GPS + fecha/hora) y alertas climáticas preventivas, únicos en este grupo de competidores. | Experiencia "gamificada" tipo Farmville; visitas físicas a la parcela alquilada. | Respaldo institucional internacional (EE. UU., Países Bajos, Malasia) y acceso a seguro agrícola para el productor financiado. | Comunidad de adopción consolidada y logística propia de distribución en Europa. |
@@ -305,7 +305,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ¿Qué alternativas de financiamiento agrícola indirectas? ¿Como la inversión fraccionada en tierra? ¿Podrían captar al mismo comerciante/inversionista objetivo de Muyu?, y ¿Cómo debemos diferenciarnos para no ser percibidos como un simple vehículo financiero pasivo?
  
-| | | <br><img src="assets/logos/muyu.jpeg" width="90"> | <br><img src="assets/logos/acretrader.png" width="90"> | <br><img src="assets/logos/traive.png" width="90"> | <br><img src="assets/logos/kilimo.png" width="90"> |
+| | | <br><img src="assets/images/chapter02/logos/muyu.jpeg" width="90"> | <br><img src="assets/images/chapter02/logos/acretrader.png" width="90"> | <br><img src="assets/images/chapter02/logos/traive.png" width="90"> | <br><img src="assets/images/chapter02/logos/kilimo.png" width="90"> |
 |---|---|---|---|---|---|
 | **Perfil** | Overview | Marketplace Agro-as-a-Service que conecta agricultores con comerciantes mediante financiamiento de una parcela específica por ciclo de cultivo. | Plataforma fintech que fracciona la propiedad de terrenos agrícolas para que inversionistas financien tierra a cambio de una renta anual. | Plataforma agrofintech B2B2C que usa IA para generar scoring crediticio y conectar prestamistas/distribuidores de insumos con agricultores. | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales. |
 | | Ventaja competitiva / ¿Qué valor ofrece al cliente? | Trazabilidad operativa diaria del cultivo financiado, con evidencia verificable antes de liberar cada pago. | Solidez financiera y diversificación de portafolio para inversionistas institucionales. | Evaluación de riesgo crediticio en tiempo real con datos alternativos, acelerando la aprobación de crédito para insumos. | Recomendaciones diarias de riego sin instalar hardware, con ingreso adicional por ahorro de agua verificado. |
@@ -324,28 +324,290 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 | Competidor | Táctica diferenciadora | Fortaleza del rival que enfrentamos | Debilidad del rival que aprovechamos |
 |---|---|---|---|
-| <br><img src="assets/logos/farmizen.png" width="90"> | Ofrecer evidencia georreferenciada automática (GPS + timestamp) y funcionamiento offline-first como estándar desde el primer lanzamiento, en vez de depender de fotos y reportes manuales dentro de la app. | App ya probada, con más de 10 000 descargas y comunidad activa de consumidores. | No custodia fondos por hitos ni verifica automáticamente el origen de las evidencias; usuarios han reportado quejas de calidad del producto entregado. |
-| <br><img src="assets/logos/cropital.png" width="90"> | Digitalizar por completo el ciclo de verificación: reemplazar las visitas y entrevistas presenciales por evidencia fotográfica georreferenciada y aprobación remota desde el celular del comerciante. | Respaldo institucional internacional y acceso a seguro agrícola para los productores financiados. | Proceso de verificación de campo manual y sin app móvil, lo que limita la velocidad de aprobación de hitos y la escala geográfica. |
-| <br><img src="assets/logos/crowdfarming.png" width="90"> | Posicionar a Muyu como proveedor de insumo estable para negocios (restaurantes, distribuidores), en vez de competir por el consumidor final urbano orientado a sostenibilidad. | Comunidad de adopción consolidada y logística de distribución propia en Europa. | No ofrece custodia de fondos por hitos ni verificación automatizada; su logística de última milla no está adaptada a la operación de un comerciante comprador. |
-| <br><img src="assets/logos/acretrader.png" width="90"> | Diferenciarse de un vehículo de inversión pasiva incorporando herramientas de seguimiento diario del cultivo (evidencia, alertas climáticas) que ningún inversionista de tierra necesita, pero todo comerciante comprador sí. | Solidez financiera y modelo de inversión fraccionada ya validado en Estados Unidos. | No atiende la necesidad operativa de abastecimiento del comerciante ni brinda visibilidad del avance del cultivo; solo ofrece retorno financiero pasivo. |
-| <br><img src="assets/logos/traive.png" width="90"> | Ofrecer al comerciante control directo del pago y visibilidad del cultivo, sin depender de un tercero prestamista que evalúa el riesgo del agricultor a distancia y sin visibilidad de campo. | Modelo de riesgo crediticio con IA validado, con fondeo internacional (Serie A) y adopción por bancos y distribuidores de insumos. | No brinda visibilidad operativa del cultivo ni evidencia verificable del avance; el agricultor no es su cliente directo, sino el prestamista. |
-| <br><img src="assets/logos/kilimo.png" width="90"> | Posicionar las alertas climáticas de Muyu como parte de un servicio integral de financiamiento y trazabilidad, cubriendo la necesidad de pago y evidencia que Kilimo no atiende, en vez de competir solo en optimización de riego. | Presencia validada en 7 países y alianzas corporativas de sostenibilidad de alto perfil (Coca-Cola, Microsoft, Google). | No conecta al agricultor con un comprador ni resuelve el financiamiento del ciclo de cultivo; su alcance se limita a la gestión del riego. |
+| <br><img src="assets/images/chapter02/logos/farmizen.png" width="90"> | Ofrecer evidencia georreferenciada automática (GPS + timestamp) y funcionamiento offline-first como estándar desde el primer lanzamiento, en vez de depender de fotos y reportes manuales dentro de la app. | App ya probada, con más de 10 000 descargas y comunidad activa de consumidores. | No custodia fondos por hitos ni verifica automáticamente el origen de las evidencias; usuarios han reportado quejas de calidad del producto entregado. |
+| <br><img src="assets/images/chapter02/logos/cropital.png" width="90"> | Digitalizar por completo el ciclo de verificación: reemplazar las visitas y entrevistas presenciales por evidencia fotográfica georreferenciada y aprobación remota desde el celular del comerciante. | Respaldo institucional internacional y acceso a seguro agrícola para los productores financiados. | Proceso de verificación de campo manual y sin app móvil, lo que limita la velocidad de aprobación de hitos y la escala geográfica. |
+| <br><img src="assets/images/chapter02/logos/crowdfarming.png" width="90"> | Posicionar a Muyu como proveedor de insumo estable para negocios (restaurantes, distribuidores), en vez de competir por el consumidor final urbano orientado a sostenibilidad. | Comunidad de adopción consolidada y logística de distribución propia en Europa. | No ofrece custodia de fondos por hitos ni verificación automatizada; su logística de última milla no está adaptada a la operación de un comerciante comprador. |
+| <br><img src="assets/images/chapter02/logos/acretrader.png" width="90"> | Diferenciarse de un vehículo de inversión pasiva incorporando herramientas de seguimiento diario del cultivo (evidencia, alertas climáticas) que ningún inversionista de tierra necesita, pero todo comerciante comprador sí. | Solidez financiera y modelo de inversión fraccionada ya validado en Estados Unidos. | No atiende la necesidad operativa de abastecimiento del comerciante ni brinda visibilidad del avance del cultivo; solo ofrece retorno financiero pasivo. |
+| <br><img src="assets/images/chapter02/logos/traive.png" width="90"> | Ofrecer al comerciante control directo del pago y visibilidad del cultivo, sin depender de un tercero prestamista que evalúa el riesgo del agricultor a distancia y sin visibilidad de campo. | Modelo de riesgo crediticio con IA validado, con fondeo internacional (Serie A) y adopción por bancos y distribuidores de insumos. | No brinda visibilidad operativa del cultivo ni evidencia verificable del avance; el agricultor no es su cliente directo, sino el prestamista. |
+| <br><img src="assets/images/chapter02/logos/kilimo.png" width="90"> | Posicionar las alertas climáticas de Muyu como parte de un servicio integral de financiamiento y trazabilidad, cubriendo la necesidad de pago y evidencia que Kilimo no atiende, en vez de competir solo en optimización de riego. | Presencia validada en 7 países y alianzas corporativas de sostenibilidad de alto perfil (Coca-Cola, Microsoft, Google). | No conecta al agricultor con un comprador ni resuelve el financiamiento del ciclo de cultivo; su alcance se limita a la gestión del riego. |
 
 A partir del análisis competitivo desarrollado, se consolidan las Fortalezas, Oportunidades, Debilidades y Amenazas (FODA) propias de Muyu, y se cruzan para derivar cuatro grupos de estrategias (Corregir, Afrontar, Mantener, Explotar).
 
 | | **Oportunidades (O)** | **Amenazas (A)** |
 |---|---|---|
-| Matriz F.O.D.A. y C.A.M.E.<br><img src="assets/logos/muyu.jpeg" width="160"> | O1. Mercado peruano/LatAm sin un competidor directo consolidado que combine Escrow + evidencia georreferenciada.<br>O2. Alianzas con cooperativas y asociaciones agrarias ya constituidas (AGRO RURAL, municipios).<br>O3. Vacío dejado por competidores indirectos: Kilimo no financia, Traive no da visibilidad de campo.<br>O4. Penetración creciente de smartphones en zonas rurales. | A1. Ingreso de un competidor internacional directo (Cropital, CrowdFarming o Farmizen) al mercado peruano.<br>A2. Resistencia a la adopción tecnológica de agricultores de mayor edad.<br>A3. Que un competidor indirecto (Kilimo o Traive) integre las funciones que hoy diferencian a Muyu.<br>A4. Variabilidad de conectividad y dispositivos antiguos en zonas rurales. |
+| Matriz F.O.D.A. y C.A.M.E.<br><img src="assets/images/chapter02/logos/muyu.jpeg" width="160"> | O1. Mercado peruano/LatAm sin un competidor directo consolidado que combine Escrow + evidencia georreferenciada.<br>O2. Alianzas con cooperativas y asociaciones agrarias ya constituidas (AGRO RURAL, municipios).<br>O3. Vacío dejado por competidores indirectos: Kilimo no financia, Traive no da visibilidad de campo.<br>O4. Penetración creciente de smartphones en zonas rurales. | A1. Ingreso de un competidor internacional directo (Cropital, CrowdFarming o Farmizen) al mercado peruano.<br>A2. Resistencia a la adopción tecnológica de agricultores de mayor edad.<br>A3. Que un competidor indirecto (Kilimo o Traive) integre las funciones que hoy diferencian a Muyu.<br>A4. Variabilidad de conectividad y dispositivos antiguos en zonas rurales. |
 | **Fortalezas (F)**<br>F1. Escrow con liberación de fondos por hitos verificables (foto + GPS + timestamp), único frente a los 6 competidores analizados.<br>F2. Funcionamiento offline-first adaptado a la conectividad limitada del campo.<br>F3. Resuelve simultáneamente financiamiento y trazabilidad operativa; ningún competidor lo hace a la vez. | **Estrategia Ofensiva (FO)**<br>FO1. Usar el Escrow verificable (F1) como argumento central en alianzas con cooperativas (O2), ofreciendo garantía de pago transparente como gancho de adopción.<br>FO2. Aprovechar el offline-first (F2) para posicionarse en zonas rurales de conectividad limitada (O4) antes que competidores internacionales dependientes de conexión constante.<br>FO3. Capitalizar la propuesta única de financiamiento + trazabilidad (F3) para captar al comerciante que hoy usa soluciones parciales como Kilimo o Traive (O3). | **Estrategia Defensiva (FA)**<br>FA1. Comunicar el Escrow verificable (F1) como sello de confianza ante la eventual llegada de un competidor internacional (A1), acelerando el efecto de red local antes de que aterricen.<br>FA2. Diseñar la app para dispositivos de gama baja y modo offline robusto (F2), mitigando el riesgo de exclusión por conectividad o hardware antiguo (A4).<br>FA3. Mantener el foco en un problema resuelto de punta a punta (F3) para que, si un competidor indirecto agrega una función aislada (A3), no logre igualar la propuesta integral de Muyu. |
 | **Debilidades (D)**<br>D1. Marca nueva sin comunidad de usuarios ni historial de transacciones.<br>D2. Dependencia de un solo canal de captación inicial (alianzas con cooperativas) mientras se consolida un flujo propio de adquisición.<br>D3. Sin integraciones con actores financieros externos (a diferencia de Traive) que amplíen el acceso a crédito de los agricultores. | **Estrategia de Reorientación (DO)**<br>DO1. Usar las alianzas con cooperativas (O2) como fuente de validación social que compense la falta de historial de transacciones (D1).<br>DO2. Explorar en una fase posterior una integración ligera con actores de crédito agrícola (O3) para cerrar la brecha de D3 sin construir un motor de scoring propio desde cero.<br>DO3. Diversificar canales de adquisición más allá de cooperativas (mitigando D2), replicando el gancho de alertas climáticas gratuitas con promotores locales y municipios. | **Estrategia de Supervivencia (DA)**<br>DA1. Priorizar el lanzamiento en un solo valle agrícola (foco de nicho) antes de expandirse, para no exponer la debilidad de marca nueva (D1) frente a un competidor internacional en múltiples frentes (A1).<br>DA2. Mantener llamada telefónica como respaldo de las notificaciones push, para que la dependencia de un solo canal (D2) no se agrave si falla la conectividad (A4).<br>DA3. Documentar y resguardar internamente el motor de reglas del Escrow para reducir el riesgo de réplica por un competidor indirecto (A3) mientras la marca aún no tiene defensa reputacional (D1). |
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+**Comerciante**
+ 
+Se busca comprender los desafíos actuales del comerciante o comprador al abastecerse de productos agrícolas de forma confiable y con precios estables y validar la propuesta de valor 
+ 
+- Contexto:
+    - ¿Me podría contar un poco sobre usted y el negocio al que se dedica?
+- Comportamiento de compra actual:
+    - ¿Qué productos agrícolas compra normalmente para su negocio?
+    - ¿Cada cuánto tiempo necesita comprar estos productos?
+    - ¿A quién le compra actualmente sus productos agrícolas?
+    - Cuando necesita comprar, ¿cómo decide a qué proveedor comprarle?
+    - ¿Los precios que paga por los productos agrícolas suelen variar mucho?
+    - ¿Alguna vez ha tenido problemas para conseguir la cantidad de producto que necesitaba?
+    - ¿Alguna vez ha comprado o separado productos directamente con un agricultor antes de la cosecha?
+- Percepción de riesgo y confianza:
+    - Si tuviera que pagar una parte del dinero antes de que el producto esté cosechado, ¿qué le preocuparía?
+    - ¿Qué necesitaría para confiar en que el agricultor está realizando correctamente el trabajo del cultivo?
+    - Cuando recibe una fotografía de un cultivo, ¿cómo comprobaría que fue tomada en ese terreno y en esa fecha?
+    - ¿Qué medio de comunicación revisa primero cuando un proveedor necesita contactarlo?
+- Validación de la propuesta, financiamiento de parcela y Escrow:
+    - Si hubiera pagado por adelantado una parte de una producción, ¿cada cuánto tiempo le gustaría conocer su avance?
+    - ¿Cómo preferiría recibir información sobre el avance del cultivo?
+    - Imagine que tiene la opción de elegir una parcela y acordar desde el inicio cuánto producto recibirá al finalizar la cosecha. ¿Le interesaría una forma de compra como esta? ¿Por qué?
+    - ¿Qué información necesitaría conocer sobre una parcela antes de aceptar trabajar con el agricultor?
+    - Imagine que el dinero entregado no llega de inmediato al agricultor. El dinero queda retenido y se libera por partes conforme termina cada etapa del cultivo. ¿Esto le daría mayor seguridad? ¿Qué necesitaría comprobar antes de aprobar cada pago?
+    - Si recibe fotografías y videos que demuestran que una etapa del cultivo terminó, ¿le gustaría aprobarla o rechazarla desde su celular?
+    - ¿Qué información tendría que aparecer junto con esas fotografías o videos para confiar en ellas?
+    - Si revisara desde su celular el avance completo del cultivo que está financiando, ¿qué información consideraría más importante?
+    - ¿Le gustaría recibir avisos sobre situaciones importantes relacionadas con el cultivo? ¿Qué avisos?
+    - ¿qué aspecto le daría mayor confianza para trabajar directamente con un agricultor?
+    - ¿Qué aspecto le generaría mayor preocupación en una forma de compra como esta?
+    - Si pudiera cambiar una sola cosa de la forma en que actualmente compra productos agrícolas, ¿qué cambiaría?
+ 
+**Agricultor**
+ 
+Se busca comprender los desafíos actuales del agricultor en el campo relacionados con la conectividad, el registro de evidencias del cultivo , los riesgos climáticos y validar la propuesta de valor 
+ 
+- Contexto:
+    - ¿Me podría contar un poco sobre usted y su trabajo en la agricultura?
+    - ¿Cómo es normalmente un día de trabajo suyo en el campo?
+    - ¿Cómo sabe qué trabajos debe realizar cada día o durante la semana?
+    - ¿Suele usar su celular mientras trabaja en el campo?
+    - ¿Qué cosas le resultan fáciles y cuáles le resultan difíciles cuando usa el celular durante su trabajo?
+    - ¿Cómo es la señal de internet o celular en el lugar donde trabaja?
+    - Cuando no tiene señal, ¿qué hace si necesita enviar un mensaje, una fotografía o algún tipo de información?
+    - ¿Alguna vez ha tenido que tomar fotografías del cultivo para mostrárselas a otra persona?
+    - Cuando envía una fotografía del cultivo, ¿cómo demuestra cuándo y dónde fue tomada?
+- Clima:
+    - ¿Cómo se informa normalmente sobre lluvias, cuando hace mucho frío u otros cambios del clima?
+    - ¿Alguna vez recibió demasiado tarde información sobre una lluvia fuerte, helada u otro cambio climático que afectara su cultivo?
+- Comunicación de avance:
+    - Cuando otra persona necesita conocer cómo está avanzando su cultivo, ¿cómo se comunica con ella?
+- Validación de la propuesta, offline-first, georreferenciación y alertas:
+    - Imagine que toma una fotografía en el campo cuando no tiene internet. ¿Le serviría que el celular guarde esa fotografía y la envíe automáticamente cuando regrese la señal? ¿Por qué?
+    - ¿Le serviría que, al tomar una fotografía, el celular registre automáticamente el lugar, la fecha y la hora?
+    - ¿Le gustaría recibir un aviso en su celular cuando exista riesgo de lluvia fuerte, helada u otro evento climático que afecte su cultivo? ¿Cómo preferiría recibir ese aviso?
+    - ¿Qué tipo de aviso revisaría con mayor rapidez?
+    - Si existiera una aplicación para ayudarlo con estas tareas, ¿qué sería lo más importante para que le resulte fácil de usar?
+    - ¿Hay alguna tarea de su trabajo que le gustaría realizar de forma más rápida o sencilla desde su celular?
+
 ### 2.2.2. Registro de entrevistas
-### 2.2.3. Análisis de entrevistas
+
+### Segmento: Comerciante / Comprador
+
+<table>
+
+<tr><th colspan="4">Entrevista #1</th></tr>
+
+<tr>
+  <td><strong>Nombre completo</strong></td>
+  <td colspan="3">Estefanía </td>
+</tr>
+
+<tr>
+  <td><strong>Edad</strong></td>
+  <td>25 años</td>
+  <td><strong>Distrito</strong></td>
+  <td>San Juan de Lurigancho</td>
+</tr>
+
+<tr>
+  <td><strong>Ocupación</strong></td>
+  <td>Comerciante mayorista de productos agrícolas</td>
+  <td><strong>Inicio y duración</strong></td>
+  <td>00:00 - 11:50</td>
+</tr>
+
+<tr>
+  <td><strong>Enlace</strong></td>
+  <td colspan="3">
+    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114701_upc_edu_pe/IQAqMqcQjia8RqBywags0-u8AUjZ33x0Dn8me5iLn0ckPPE">
+      upc-pre-202620-1acc0238-13981-allpatech-needfinding-av1.mp4
+    </a>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" valign="top">
+    <strong>Resumen</strong><br>
+    Estefanía tiene 25 años y hace cinco años que se dedica a la venta al por mayor de productos agrícolas. Empezó ayudando en el negocio de su padre, y hoy a minoristas, bodegas y restaurantes.Todos los días, entre compras, compra tomate, limón, palta, cebolla, porque necesita que la mercadería esté fresca. Sus proveedores principales son acopiadores, otros mayoristas y, en algunos casos, agricultores con los que tiene contacto directo. Busca un proveedor que ofrezca buena calidad, precios transparentes y una respuesta ágil por WhatsApp. Entre sus principales problemas menciona la fluctuación de los precios, los bloqueos en las carreteras, los eventos climáticos y el riesgo de adelantar dinero sin tener la certeza de que el agricultor va a pagar. Para tener seguridad de una compra anticipada necesita ver el progreso del cultivo a través de fotos, videos e informes breves. Es importante que las evidencias porten GPS, fecha, hora y etapa productiva. También admite un sistema donde el dinero sea retenido y entregado por partes una vez comprobado el trabajo realizado. Le gusta que le avisen directamente al celular cuando hay que pagar, el clima, las plagas o cuando está cerca la cosecha.
+  </td>
+
+  <td colspan="2" valign="top">
+    <strong>Foto</strong><br>
+    <img src="assets/images/chapter02/entrevistas/comerciante-01.png" width="220">
+  </td>
+</tr>
+
+</table>
+
+<table>
+
+<tr><th colspan="4">Entrevista #2</th></tr>
+
+<tr>
+  <td><strong>Nombre completo</strong></td>
+  <td colspan="3">Sebastian Velgara Arturo Chavez</td>
+</tr>
+
+<tr>
+  <td><strong>Edad</strong></td>
+  <td>22 años</td>
+  <td><strong>Distrito</strong></td>
+  <td>San Juan de Lurigancho</td>
+</tr>
+
+<tr>
+  <td><strong>Ocupación</strong></td>
+  <td>Trabaja en el rubro de gastronomia y ayuda en produccion</td>
+  <td><strong>Inicio y duración</strong></td>
+  <td>00:00 - 16:42</td>
+</tr>
+
+
+<tr>
+  <td><strong>Enlace</strong></td>
+  <td colspan="3">
+    <a href="https://1drv.ms/v/c/edf8af4855503e79/IQCw8y4bkdRSSpB8bc3-p4GKAQmIVxfnMViD72ykSOST93o?e=7qphgm">
+      upc-pre-202620-1acc0238-13981-allpatech-needfinding-av1.mp4
+    </a>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" valign="top">
+    <strong>Resumen</strong><br>
+    el entrevistado trabaja en un restaurante en Larcomar y se encarga del abastecimiento de productos agrícolas como tomate, limón y ajíes. Por el alto volumen de ventas, realizan pedidos grandes cada semana, aunque algunos productos se reponen cada tres o cuatro días según el consumo. Para elegir un proveedor, valora que pueda cumplir con las cantidades y pesos y que el producto llegue a tiempo, ya que no puede quedarse sin insumos que ya están en la carta. Quiere trazabilidad del proceso, información sobre el suelo, insumos usados y etapas del cultivo, todo con evidencia visual confiable. También le preocupa la inocuidad, los químicos utilizados y su impacto en el suelo
+
+  <td colspan="2" valign="top">
+    <strong>Foto</strong><br>
+    <img src="assets/images/chapter02/entrevistas/comerciante-02.png" width="220">
+  </td>
+</tr>
+
+</table>
+
+---
+
+### Segmento: Agricultor
+
+<table>
+
+<tr><th colspan="4">Entrevista #3</th></tr>
+
+<tr>
+  <td><strong>Nombre completo</strong></td>
+  <td colspan="3">Lili Vera Vela</td>
+</tr>
+
+<tr>
+  <td><strong>Edad</strong></td>
+  <td>52 años</td>
+  <td><strong>Distrito</strong></td>
+  <td>Chachapoyas</td>
+</tr>
+
+<tr>
+  <td><strong>Ocupación</strong></td>
+  <td>Agricultora de café</td>
+  <td><strong>Inicio y duración</strong></td>
+  <td>00:04-10:28</td>
+</tr>
+
+<tr>
+  <td><strong>Enlace</strong></td>
+  <td colspan="3">
+    <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQBkx-apSHa6R6Vm-K3aQe9DAYW7JrU9WlRYV9jap_T4aQE?e=b94ZJw">
+      upc-pre-202620-1acc0238-13981-allpatech-needfinding-av1.mp4
+    </a>
+  </td>
+</tr>
+<tr>
+  <td colspan="2" valign="top">
+    <strong>Resumen</strong><br>
+    Lili Vera Vela tiene 52 años y se dedica a la producción de café desde hace cerca de veinte años . Su trabajo diario consiste en revisar las plantas, aplicarles abono y agua, y vigilar el estado del cultivo. Si se encuentra con algún problema que no pueda resolver, busque el apoyo de los técnicos o de las personas de su entorno. El móvil le sirve sobre todo para llamar, porque mientras trabaja le resulta incómodo escribir mensajes, ya que sus manos suelen estar ocupadas o sucias. La conexión a Internet varía según la zona de la parcela, en algunos lugares debe buscar señal o pedirle a otra persona que envíe información. Envíe fotos, videos o audios cuando requiera asesoría para mostrar el estado del cultivo. Creo que es bueno sacar fotos aunque no pueda compartirlas y mandárlas cuando tenga señal. También aprecia que las fotos registren de forma automática la fecha, hora y lugar en el que fueron tomadas. En la entrevista contó que en una ocasión llovió sobre café que estaba secándose y por esto cree que es importante recibir avisos sobre los cambios climáticos. Para ella, las funciones principales deben seguir estando disponibles cuando se encuentra trabajando en áreas con conexión limitada.
+  </td>
+
+  <td colspan="2" valign="top">
+    <strong>Foto</strong><br>
+    <img src="assets/images/chapter02/entrevistas/agricultor-01.png" width="220">
+  </td>
+</tr>
+
+</table>
+
+<table>
+
+<tr><th colspan="4">Entrevista #4</th></tr>
+
+<tr>
+  <td><strong>Nombre completo</strong></td>
+  <td colspan="3">Jorge Manuel Nitales Negro</td>
+</tr>
+
+<tr>
+  <td><strong>Edad</strong></td>
+  <td>22 años</td>
+  <td><strong>Distrito</strong></td>
+  <td>Huaral</td>
+</tr>
+
+<tr>
+  <td><strong>Ocupación</strong></td>
+  <td>Trabajador agrícola</td>
+  <td><strong>Inicio y duración</strong></td>
+  <td>00:00 - 10:30</td>
+</tr>
+
+<tr>
+  <td><strong>Enlace</strong></td>
+  <td colspan="3">
+    <a href="https://1drv.ms/v/c/edf8af4855503e79/IQCefFPQgLWIQKkhU0grteUiAdIKof5Ox_TjYF4enJms1-E?e=LqwgCu">
+      upc-pre-202620-1acc0238-13981-allpatech-needfinding-av1.mp4
+    </a>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" valign="top">
+    <strong>Resumen</strong><br>
+    Jorge Manuel Nitales Negro tiene 22 años y realiza labores agrícolas en zonas rurales de Huaral. Entre sus principales actividades se encuentran gestionar el riego de los cultivos, revisar su crecimiento y determinar cuándo necesitan más fertilizantes. Su trabajo exige desplazarse dentro de las zonas de cultivo y revisar de forma constante el estado de las plantas.
+
+  <td colspan="2" valign="top">
+    <strong>Foto</strong><br>
+    <img src="assets/images/chapter02/entrevistas/agricultor-02.png" width="220">
+  </td>
+</tr>
+
+</table>
+
+<table>
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+A partir de la información obtenida durante las entrevistas y del análisis de los segmentos objetivo, se elaboraron dos User Personas.
+
+#### User Persona: Miguel Quispe
+
+![User Persona - Miguel Quispe](assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png)
+
+#### User Persona: Valeria Mendoza
+
+
+![User Persona - Valeria Mendoza](assets/images/chapter02/uxpressia/valeria-mendoza-user-persona.png)
+
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
