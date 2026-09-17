@@ -599,14 +599,14 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 
 A partir de la información obtenida durante las entrevistas y del análisis de los segmentos objetivo, se elaboraron dos User Personas.
 
-#### User Persona: Miguel Quispe
+#### User Persona: Segmento Agricultor
 
-![User Persona - Miguel Quispe](assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png)
+![User Persona - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png)
 
-#### User Persona: Valeria Mendoza
+#### User Persona: Segmento Comerciante / Comprador
 
 
-![User Persona - Valeria Mendoza](assets/images/chapter02/uxpressia/valeria-mendoza-user-persona.png)
+![User Persona - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-mendoza-user-persona.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -684,7 +684,27 @@ Para la elaboración de la User Task Matrix se consideran las tareas relacionada
 </table>
 
 ### 2.3.3. User Journey Mapping
+El recorrido que se describe es un viaje de cinco fases que generalmente va de la esperanza a la frustración: inicia con el descubrimiento (Aware), pasa por una implementación incierta (Join) y alcanza un punto crítico de confusión al enfrentar un problema (Use). Este ciclo de aprendizaje por prueba y error (Develop) y que al final desemboca en (Leave).
+#### User Journey Map: Segmento Agricultor
+
+
+![User Journey Map - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-user-journey.png)
+
+#### User Journey Map: Segmento Comerciante / Comprador
+
+![User Journey Map - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-mendoza-user-journey.png)
+
 ### 2.3.4. Empathy Mapping
+
+#### Empathy Map: Segmento Agricultor
+
+
+![Empathy Map - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-empathy-map.png)
+
+#### Empathy Map: Segmento Comerciante / Comprador
+
+![Empathy Map - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-mendoza-empathy-map.png)
+
 ### 2.3.5. Big Picture EventStorming
 ### 2.3.6. Ubiquitous Language
 
