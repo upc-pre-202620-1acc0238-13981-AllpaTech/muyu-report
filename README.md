@@ -46,11 +46,17 @@
 ## Registro de Versiones del Informe
 
 <div align="center">
-
-| Versión |   Fecha    |                Autor                |                                                  Descripción de modificación                                                   |
+    
+| Versión |   Fecha    |                Autor                |                                                 Descripción de modificación                                                   |
 |:-------:|:----------:|:-----------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|
-| [Versión] | [DD-MM-AAAA] | [Apellidos, Nombres] | [Descripción del cambio o aporte] |
-
+|   AV1   | 27-08-2026 | Orellana Rodriguez, Mel Andree      | Creación e inicialización de la estructura técnica y plantilla base del reporte (UPC report template).                        |
+|   AV1   | 30-08-2026 | Orellana Rodriguez, Mel Andree      | Adición de imágenes y recursos visuales (assets) para la documentación del proyecto.                                           |
+|   AV1   | 08-09-2026 | Orellana Rodriguez, Mel Andree      | Elaboración de la sección de Product Backlog y priorización de Historias de Usuario.                                          |
+|   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Creación de la sección 2.3 de Elicitaciones de Requerimientos y análisis de competidores para el Capítulo 2.                   |
+|   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Desarrollo de la sección 2.5.3 de Arquitectura de Software e inclusión de diagramas C4 (Contexto, Contenedor y Despliegue).   |
+|   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Elaboración de la sección de Bounded Context Canvases con sus diagramas e introducciones técnicas.                             |
+|   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Desarrollo de la sección 2.5.1 de EventStorming (Big Picture) y alineación de diseño centrado.                               |
+|   AV1   | 11-09-2026 | Orellana Rodriguez, Mel Andree      | Incorporación del diagrama de Context Map a la sección de arquitectura de software y assets del proyecto.            
 </div>
 
 ## Project Report Collaboration Insights
@@ -61,7 +67,7 @@
 |---|---|
 | [Nombre Completo 1] | [Lista de tareas realizadas] |
 | Angel Guillermo Berrospi Marin | Desarrollo de User stories y creación de su estructura, Desarrollo de Impact Mapping, Desarrollo de Entrevistas, Creación de la estructura de Porduct Backlog. |
-| [Nombre Completo 3] | [Lista de tareas realizadas] |
+| Mel Andree Orellana Rodriguez | Creación e inicialización de la estructura técnica del reporte, desarrollo de la sección de elicitación de requerimientos, priorización del Product Backlog, diseño y desarrollo de diagramas de EventStorming (Big Picture), Bounded Context Canvases, Context Map, y diagramas de arquitectura de software C4 (Contexto, Contenedor y Despliegue). |
 | [Nombre Completo 4] | [Lista de tareas realizadas] |
 | [Nombre Completo 5] | [Lista de tareas realizadas] |
 
@@ -74,7 +80,9 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 
 
-# Student Outcome
+# Student Outcome 7
+
+
 
 <div align="center">
   <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
@@ -88,28 +96,30 @@ El proceso de colaboración en el informe se realizó mediante commits constante
     <tbody>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
-          Trabaja en equipo para proporcionar liderazgo en forma conjunta.
+          Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b> AV1 - Angel Guillermo Berrospi Marin:</b>  Fomenté comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejemplo el capítulo 2 con el impact mapping, user stories y entrevistas, de esa forma avance el trabajo. </li>
+            <li><b> AV1 - Angel Guillermo Berrospi Marin:</b> Fomenté comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejemplo el capítulo 2 con el impact mapping, user stories y entrevistas, de esa forma avance el trabajo. </li>
+            <li><b> TB1 - Mel Andree Orellana Rodriguez:</b> Investigué e implementé conceptos clave de Domain-Driven Design (DDD) y arquitectura de software C4 para estructurar el informe del proyecto Muyu. Además, configuré la estructura inicial del reporte, redacté la sección de elicitación de requerimientos, prioricé el Product Backlog y desarrollé los diagramas de contexto, contenedores, despliegue y Bounded Context Canvases.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-          [Conclusión sobre el criterio]
+          La aplicación práctica de conceptos modernos de arquitectura como DDD y el modelo C4, sumada al entendimiento colaborativo mediante la elaboración de historias de usuario e Impact Mapping, permitió estructurar una solución de software escalable y bien definida para el proyecto Muyu, demostrando la importancia de actualizar conocimientos técnicos y metodológicos ante estándares exigidos en el ámbito profesional.
         </td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
-          Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
+          Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
             <li><b> AV1 - Angel Guillermo Berrospi Marin:</b> Participé activamente en el desarrollo del proyecto, tanto en la realización de tareas cómo entrar a las reuniones programadas para la coordinación de diferentes puntos, establecí mi propia métrica con respecto a los puntos que me tocaron y de esa forma pude desempeñar un buen rendimiento tanto en ayuda para el grupo cómo para la finalización del proyecto. </li>
+            <li><b> TB1 - Mel Andree Orellana Rodriguez:</b> Asumí el rol de mantener la coherencia técnica de la documentación del proyecto, aprendiendo dinámicamente sobre la metodología EventStorming (Big Picture) para modelar adecuadamente el dominio, además de integrar continuamente mejoras en el backlog y en los assets visuales del repositorio dentro del flujo de trabajo del equipo.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-          [Conclusión sobre el criterio]
+          El desarrollo del proyecto evidencia que la adquisición constante de nuevas herramientas de ingeniería, metodologías de diseño y el establecimiento de métricas de rendimiento individual dentro de reuniones continuas es esencial para responder eficazmente a la complejidad del software y garantizar un desempeño técnico competitivo.
         </td>
       </tr>
     </tbody>
