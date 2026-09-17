@@ -75,10 +75,9 @@
 
 | Integrante | Tareas Asignadas |
 |---|---|
-
-| Emily Juliette Arroyo Gonzales | Desarrollo de edición del informe y redacción del capítulo 1 |
 | Angel Guillermo Berrospi Marin | Desarrollo de User stories y creación de su estructura, Desarrollo de Impact Mapping, Desarrollo de Entrevistas, Creación de la estructura de Porduct Backlog. |
 | Mel Andree Orellana Rodriguez | Creación e inicialización de la estructura técnica del reporte, desarrollo de la sección de elicitación de requerimientos, priorización del Product Backlog, diseño y desarrollo de diagramas de EventStorming (Big Picture), Bounded Context Canvases, Context Map, y diagramas de arquitectura de software C4 (Contexto, Contenedor y Despliegue). |
+|Emily Juliette Arroyo Gonzales| Desarrollo de la edición del informe y redacción del capítulo 1|
 | [Nombre Completo 4] | [Lista de tareas realizadas] |
 | [Nombre Completo 5] | [Lista de tareas realizadas] |
 
@@ -112,7 +111,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
             <li><b> AV1 - Angel Guillermo Berrospi Marin:</b> Fomenté comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejemplo el capítulo 2 con el impact mapping, user stories y entrevistas, de esa forma avance el trabajo. </li>
-            <li><b> TB1 - Mel Andree Orellana Rodriguez:</b> Investigué e implementé conceptos clave de Domain-Driven Design (DDD) y arquitectura de software C4 para estructurar el informe del proyecto Muyu. Además, configuré la estructura inicial del reporte, redacté la sección de elicitación de requerimientos, prioricé el Product Backlog y desarrollé los diagramas de contexto, contenedores, despliegue y Bounded Context Canvases.</li>
+            <li><b> AV1 - Mel Andree Orellana Rodriguez:</b> Investigué e implementé conceptos clave de Domain-Driven Design (DDD) y arquitectura de software C4 para estructurar el informe del proyecto Muyu. Además, configuré la estructura inicial del reporte, redacté la sección de elicitación de requerimientos, prioricé el Product Backlog y desarrollé los diagramas de contexto, contenedores, despliegue y Bounded Context Canvases.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -126,7 +125,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
             <li><b> AV1 - Angel Guillermo Berrospi Marin:</b> Participé activamente en el desarrollo del proyecto, tanto en la realización de tareas cómo entrar a las reuniones programadas para la coordinación de diferentes puntos, establecí mi propia métrica con respecto a los puntos que me tocaron y de esa forma pude desempeñar un buen rendimiento tanto en ayuda para el grupo cómo para la finalización del proyecto. </li>
-            <li><b> TB1 - Mel Andree Orellana Rodriguez:</b> Asumí el rol de mantener la coherencia técnica de la documentación del proyecto, aprendiendo dinámicamente sobre la metodología EventStorming (Big Picture) para modelar adecuadamente el dominio, además de integrar continuamente mejoras en el backlog y en los assets visuales del repositorio dentro del flujo de trabajo del equipo.</li>
+            <li><b> AV1 - Mel Andree Orellana Rodriguez:</b> Asumí el rol de mantener la coherencia técnica de la documentación del proyecto, aprendiendo dinámicamente sobre la metodología EventStorming (Big Picture) para modelar adecuadamente el dominio, además de integrar continuamente mejoras en el backlog y en los assets visuales del repositorio dentro del flujo de trabajo del equipo.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
