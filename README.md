@@ -1391,6 +1391,17 @@ A continuación se presenta la evidencia gráfica dividida en la vista general d
 
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
+
+
+En esta sección se modela la dinámica de colaboración e intercambio de mensajes entre los distintos *Bounded Contexts* previamente identificados para la plataforma **MUYU**. A través de la técnica de **Domain Storytelling**, se representa de forma secuencial la interacción entre los actores de negocio, los objetos de trabajo (*Work Objects*) y los límites del sistema. 
+
+El objetivo principal de este modelado es visualizar cómo los eventos de dominio y comandos desencadenan flujos de proceso punta a punta (end-to-end), asegurando que la arquitectura orientada a eventos responda eficazmente a los casos de uso críticos de la aplicación, como la captura de evidencias en campo sin conectividad y la validación de hitos para la liberación de pagos en custodia (*Escrow*).
+
+<p align="center">
+  <img src="assets/images/chapter02/domain_message.png" width="800" />
+</p>
+
+
 #### 2.5.1.3. Bounded Context Canvases
 
 En primer lugar, el canvas del Contract & Escrow Service (Core Domain) detalla las reglas de negocio, los eventos de entrada y salida, y la terminología del lenguaje ubicuo necesarios para asegurar la custodia financiera y la liberación de pagos por hitos.
@@ -1408,6 +1419,18 @@ En primer lugar, el canvas del Contract & Escrow Service (Core Domain) detalla l
 
 
 ### 2.5.2. Context Mapping
+
+En esta sección se analiza y formaliza la estructura de relaciones estratégicas entre los distintos *Bounded Contexts* identificados para la solución **MUYU**. Aplicando los principios de Domain-Driven Design (DDD), el *Context Mapping* permite definir las fronteras organizacionales, los contratos de integración y el nivel de acoplamiento entre el núcleo del negocio (*Core Domain*), los servicios de soporte (*Supporting Domains*), los módulos genéricos y los sistemas externos.
+
+Para garantizar una arquitectura mantenible y resiliente, el equipo evaluó diferentes opciones de diseño mediante una discusión de alternativas (*Design Critique*). Como resultado, se establecieron patrones de integración claros —tales como *Customer/Supplier*, *Upstream/Downstream* y *Anti-Corruption Layer (ACL)*— que protegen la integridad del modelo de dominio frente a dependencias de terceros y optimizan la comunicación entre el cliente móvil *offline-first* y el backend.
+
+
+<p align="center">
+  <img src="assets/images/chapter02/context.png" width="800"/>  
+</p>
+
+
+
 ### 2.5.3. Software Architecture
 
 Para entender cómo se relaciona la aplicación móvil MUYU con su entorno, el diagrama de contexto (Nivel 1 C4) ubica la app en el centro del flujo operacional. A su alrededor se muestran los usuarios principales el Productor Agrícola en campo y el Comercializador junto con los servicios externos que respaldan la operación: el pronóstico del clima en tiempo real, la automatización de notificaciones y la pasarela de custodia financiera.
