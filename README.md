@@ -1746,6 +1746,14 @@ A continuación se presenta la evidencia gráfica dividida en la vista general d
 
 
 #### 2.5.1.1. Candidate Context Discovery
+
+| Bounded Context | Descripción | Eventos clave |
+| :--- | :--- | :--- |
+| **IAM & Profiles** | Maneja la autenticación, verificación de identidad de los agricultores, y validación fiscal de los perfiles corporativos de comerciantes. | `ProductorRegistrado`, `IdentidadVerificada`, `CompradorAutenticado` |
+| **Agreements Management** | Administra la publicación de parcelas, cotizaciones, contraofertas y formalización de los contratos agrícolas. | `ParcelaPublicada`, `CotizacionEnviada`, `ContratoFirmado` |
+| **Tracking & Evidence** | Gestiona el registro de actividades de campo, carga y sincronización offline de fotografías, y el seguimiento de hitos agrícolas. | `EvidenciaRegistrada`, `EvidenciaSincronizada`, `HitoObservado` |
+| **Escrow & Payments** | Controla la custodia (Escrow) de los fondos depositados por el comerciante y su posterior liberación parcial al aprobar hitos. | `FondosDepositados`, `HitoAprobado`, `FondosLiberados` |
+| **Alerts Management** | Evalúa umbrales de riesgo para enviar notificaciones de anomalías climáticas y de disponibilidad de cosechas futuras. | `AlertaClimaticaGenerada`, `AlertaDisponibilidadEnviada` |
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
 
