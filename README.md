@@ -1851,6 +1851,16 @@ A continuación se presenta la evidencia gráfica dividida en la vista general d
 | **Escrow & Payments** | Controla la custodia (Escrow) de los fondos depositados por el comerciante y su posterior liberación parcial al aprobar hitos. | `FondosDepositados`, `HitoAprobado`, `FondosLiberados` |
 | **Alerts Management** | Evalúa umbrales de riesgo para enviar notificaciones de anomalías climáticas y de disponibilidad de cosechas futuras. | `AlertaClimaticaGenerada`, `AlertaDisponibilidadEnviada` |
 #### 2.5.1.2. Domain Message Flows Modeling
+
+En esta sección se detalla el modelado de flujos de mensajes del dominio (Domain Message Flows Modeling) para el proyecto Muyu. Este diagrama representa la secuencia e interacción cronológica de los eventos de dominio, comandos, agregados y notificaciones a lo largo de los diferentes procesos del sistema. A través de este flujo, se visibiliza cómo se desencadenan las acciones operativas, el intercambio de datos asíncrono y la trazabilidad de la información entre las distintas entidades del modelo de negocio.
+
+<p align="center">
+  <img src="assets/images/chapter02/domain_message.png" width="800" />
+</p>
+
+
+
+
 #### 2.5.1.3. Bounded Context Canvases
 
 En primer lugar, el canvas del Contract & Escrow Service (Core Domain) detalla las reglas de negocio, los eventos de entrada y salida, y la terminología del lenguaje ubicuo necesarios para asegurar la custodia financiera y la liberación de pagos por hitos.
@@ -1868,6 +1878,15 @@ En primer lugar, el canvas del Contract & Escrow Service (Core Domain) detalla l
 
 
 ### 2.5.2. Context Mapping
+
+
+A continuación, se presenta el diagrama de Context Mapping (Mapa de Contexto) del proyecto Muyu. Este diagrama ilustra de manera clara la estructura estratégica de la solución, definiendo los límites explícitos entre los distintos Bounded Contexts (Contextos Delimitados) identificados en el sistema y estableciendo las relaciones de integración, flujo de datos y patrones de comunicación (como Customer-Supplier, Shared Kernel, o Upstream/Downstream) que gobiernan la interacción entre cada uno de los microservicios y módulos de la plataforma.
+
+<p align="center">
+  <img src="assets/images/chapter02/context.png" width="400"/>
+</p>
+
+
 ### 2.5.3. Software Architecture
 
 Para entender cómo se relaciona la aplicación móvil MUYU con su entorno, el diagrama de contexto (Nivel 1 C4) ubica la app en el centro del flujo operacional. A su alrededor se muestran los usuarios principales el Productor Agrícola en campo y el Comercializador junto con los servicios externos que respaldan la operación: el pronóstico del clima en tiempo real, la automatización de notificaciones y la pasarela de custodia financiera.
