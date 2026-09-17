@@ -690,7 +690,7 @@ A partir de la información obtenida durante las entrevistas y del análisis de 
 #### User Persona: Segmento Comerciante / Comprador
 
 
-![User Persona - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-mendoza-user-persona.png)
+![User Persona - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-user-persona.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -1768,6 +1768,18 @@ El recorrido que se describe es un viaje de cinco fases que generalmente va de l
 </table>
 
 ### 2.4.2. Impact Mapping
+
+#### Impact Mapping - Agricultor
+
+<p align="center">
+  <img src="assets/images/chapter02/Impact map agricultor.png" Alt="Impact map Agricultor" width="800"/>  
+</p>
+
+#### Impact Mapping - Comerciante
+
+<p align="center">
+  <img src="assets/images/chapter02/impact map comerciante.png" Alt="Impact map Comerciante" width="800"/>  
+</p>
 
 
 ### 2.4.3. Product Backlog
