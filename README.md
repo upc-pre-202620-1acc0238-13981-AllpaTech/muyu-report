@@ -56,7 +56,11 @@
 |   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Desarrollo de la sección 2.5.3 de Arquitectura de Software e inclusión de diagramas C4 (Contexto, Contenedor y Despliegue).   |
 |   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Elaboración de la sección de Bounded Context Canvases con sus diagramas e introducciones técnicas.                             |
 |   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Desarrollo de la sección 2.5.1 de EventStorming (Big Picture) y alineación de diseño centrado.                               |
-|   AV1   | 11-09-2026 | Orellana Rodriguez, Mel Andree      | Incorporación del diagrama de Context Map a la sección de arquitectura de software y assets del proyecto.            
+|   AV1   | 11-09-2026 | Orellana Rodriguez, Mel Andree      | Incorporación del diagrama de Context Map a la sección de arquitectura de software y assets del proyecto.                              |
+|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de entrevista para 2.2.2. Registro de entrevistas.                              |
+|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de User Stories para 2.4.1. User Stories.                              |  
+|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de Impact mapping agricultor y comerciante para 2.4.2. Impact Mapping.                              | 
+|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.5.1.1. Candidate Context Discovery. |
 </div>
 
 ## Project Report Collaboration Insights
