@@ -76,6 +76,7 @@
 | Integrante | Tareas Asignadas |
 |---|---|
 
+| Emily Juliette Arroyo Gonzales | Desarrollo de edición del informe y redacción del capítulo 1 |
 | Angel Guillermo Berrospi Marin | Desarrollo de User stories y creación de su estructura, Desarrollo de Impact Mapping, Desarrollo de Entrevistas, Creación de la estructura de Porduct Backlog. |
 | Mel Andree Orellana Rodriguez | Creación e inicialización de la estructura técnica del reporte, desarrollo de la sección de elicitación de requerimientos, priorización del Product Backlog, diseño y desarrollo de diagramas de EventStorming (Big Picture), Bounded Context Canvases, Context Map, y diagramas de arquitectura de software C4 (Contexto, Contenedor y Despliegue). |
 | [Nombre Completo 4] | [Lista de tareas realizadas] |
