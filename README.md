@@ -335,7 +335,7 @@ A partir del análisis competitivo desarrollado, se consolidan las Fortalezas, O
 
 | | **Oportunidades (O)** | **Amenazas (A)** |
 |---|---|---|
-| Matriz F.O.D.A. y C.A.M.E.<br><img src="assets/images/chapter02/logos/muyu.jpeg" width="160"> | O1. Mercado peruano/LatAm sin un competidor directo consolidado que combine Escrow + evidencia georreferenciada.<br>O2. Alianzas con cooperativas y asociaciones agrarias ya constituidas (AGRO RURAL, municipios).<br>O3. Vacío dejado por competidores indirectos: Kilimo no financia, Traive no da visibilidad de campo.<br>O4. Penetración creciente de smartphones en zonas rurales. | A1. Ingreso de un competidor internacional directo (Cropital, CrowdFarming o Farmizen) al mercado peruano.<br>A2. Resistencia a la adopción tecnológica de agricultores de mayor edad.<br>A3. Que un competidor indirecto (Kilimo o Traive) integre las funciones que hoy diferencian a Muyu.<br>A4. Variabilidad de conectividad y dispositivos antiguos en zonas rurales. |
+| Matriz F.O.D.A. y C.A.M.E.<br><img src="assets/images/chapter02/logos/muyu.jpeg" width="160"> | O1. Mercado peruano/LatAm sin un competidor directo consolidado que combine Escrow + evidencia georreferenciada.<br>O2. Alianzas con cooperativas y asociaciones agrarias ya constituidas (AGRO RURAL, municipios).<br>O3. Vacío dejado por competidores indirectos: Kilimo no financia, Traive no da visibilidad de campo.<br>O4. Penetración creciente de celulares en zonas rurales. | A1. Ingreso de un competidor internacional directo (Cropital, CrowdFarming o Farmizen) al mercado peruano.<br>A2. Resistencia a la adopción tecnológica de agricultores de mayor edad.<br>A3. Que un competidor indirecto (Kilimo o Traive) integre las funciones que hoy diferencian a Muyu.<br>A4. Variabilidad de conectividad y dispositivos antiguos en zonas rurales. |
 | **Fortalezas (F)**<br>F1. Escrow con liberación de fondos por hitos verificables (foto + GPS + timestamp), único frente a los 6 competidores analizados.<br>F2. Funcionamiento offline-first adaptado a la conectividad limitada del campo.<br>F3. Resuelve simultáneamente financiamiento y trazabilidad operativa; ningún competidor lo hace a la vez. | **Estrategia Ofensiva (FO)**<br>FO1. Usar el Escrow verificable (F1) como argumento central en alianzas con cooperativas (O2), ofreciendo garantía de pago transparente como gancho de adopción.<br>FO2. Aprovechar el offline-first (F2) para posicionarse en zonas rurales de conectividad limitada (O4) antes que competidores internacionales dependientes de conexión constante.<br>FO3. Capitalizar la propuesta única de financiamiento + trazabilidad (F3) para captar al comerciante que hoy usa soluciones parciales como Kilimo o Traive (O3). | **Estrategia Defensiva (FA)**<br>FA1. Comunicar el Escrow verificable (F1) como sello de confianza ante la eventual llegada de un competidor internacional (A1), acelerando el efecto de red local antes de que aterricen.<br>FA2. Diseñar la app para dispositivos de gama baja y modo offline robusto (F2), mitigando el riesgo de exclusión por conectividad o hardware antiguo (A4).<br>FA3. Mantener el foco en un problema resuelto de punta a punta (F3) para que, si un competidor indirecto agrega una función aislada (A3), no logre igualar la propuesta integral de Muyu. |
 | **Debilidades (D)**<br>D1. Marca nueva sin comunidad de usuarios ni historial de transacciones.<br>D2. Dependencia de un solo canal de captación inicial (alianzas con cooperativas) mientras se consolida un flujo propio de adquisición.<br>D3. Sin integraciones con actores financieros externos (a diferencia de Traive) que amplíen el acceso a crédito de los agricultores. | **Estrategia de Reorientación (DO)**<br>DO1. Usar las alianzas con cooperativas (O2) como fuente de validación social que compense la falta de historial de transacciones (D1).<br>DO2. Explorar en una fase posterior una integración ligera con actores de crédito agrícola (O3) para cerrar la brecha de D3 sin construir un motor de scoring propio desde cero.<br>DO3. Diversificar canales de adquisición más allá de cooperativas (mitigando D2), replicando el gancho de alertas climáticas gratuitas con promotores locales y municipios. | **Estrategia de Supervivencia (DA)**<br>DA1. Priorizar el lanzamiento en un solo valle agrícola (foco de nicho) antes de expandirse, para no exponer la debilidad de marca nueva (D1) frente a un competidor internacional en múltiples frentes (A1).<br>DA2. Mantener llamada telefónica como respaldo de las notificaciones push, para que la dependencia de un solo canal (D2) no se agrave si falla la conectividad (A4).<br>DA3. Documentar y resguardar internamente el motor de reglas del Escrow para reducir el riesgo de réplica por un competidor indirecto (A3) mientras la marca aún no tiene defensa reputacional (D1). |
 
@@ -593,6 +593,90 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 </table>
 
 <table>
+
+### 2.2.3. Análisis de entrevistas
+
+A continuación les mostraremos detalles de las entrevistas:
+
+#### Distribución de entrevistas por segmento
+
+![Distribución de entrevistas por segmento](assets/images/chapter02/analysis/interviews-by-segment.png)
+
+*Nota: El 50% de los entrevistados pertenece al segmento Agricultor y el otro 50% al segmento Comerciante / Comprador. Esta distribución permite analizar las necesidades de quienes trabajan directamente con los cultivos y de quienes dependen del abastecimiento agrícola para desarrollar sus actividades comerciales.*
+
+*Elaboración propia.*
+
+#### Distribución de entrevistados por entorno de trabajo
+
+![Distribución de entrevistados por entorno de trabajo](assets/images/chapter02/analysis/interviews-by-environment.png)
+
+*Nota: El 50% de los entrevistados desarrolla sus actividades principalmente en un entorno rural, mientras que el otro 50% trabaja en un entorno urbano y comercial.*
+
+*Elaboración propia.*
+
+#### Hallazgos del segmento Comerciante / Comprador
+
+![Hallazgos del segmento Comerciante / Comprador](assets/images/chapter02/analysis/commercial-segment-findings.png)
+
+*Nota: El abastecimiento oportuno, la calidad e inocuidad, las evidencias visuales, el riesgo en pagos anticipados, el seguimiento y trazabilidad, y la variación de precios estuvieron presentes en el 100% de las entrevistas del segmento. Los avisos desde el celular y la información del suelo aparecieron en el 50%.*
+*Elaboración propia.*
+
+
+El riesgo asociado a los pagos anticipados también estuvo presente en ambas entrevistas expresó preocupación por entregar dinero sin tener certeza de que el agricultor cumplirá con el acuerdo, tambien se consideró interesante realizar pagos progresivos según el avance del cultivo, aunque reconoce el riesgo de trabajar bajo un esquema distinto al pago tradicional. Estos resultados muestran que el segmento necesita información clara y verificable antes de tomar decisiones relacionadas con compras y pagos.
+
+#### Hallazgos del segmento Agricultor
+
+![Hallazgos del segmento Agricultor](assets/images/chapter02/analysis/agricultural-segment-findings.png)
+
+*Nota: La supervisión del cultivo, el riego y fertilización, y el uso del celular estuvieron presentes en el 100% de las entrevistas del segmento Agricultor. El apoyo técnico, la conectividad limitada, el uso de fotografías, videos y audios, la información climática y el trabajo sin conexión aparecieron en el 50%.*
+*Elaboración propia.*
+
+
+Asimismo, es vital tomar en consideración que para todos los entrevistados sería muy importante contar con una aplicación que les brinde recomendaciones personalizadas tomando en cuenta los diversos factores que albergan la realidad de cada usuario, siempre y cuando estas recomendaciones cuenten con información precisa, detallada en los puntos importantes, verificada y adaptada al contexto de la persona que la está usando; en este sentido, se identificó que todos los entrevistados valoran mucho un enfoque visual de la información (ej, fotos, gráficos y videos); aquello nos brinda la oportunidad de conocer nuestro punto de partida hacia cómo nos presentaremos a las personas 
+
+
+[Ver archivos del análisis de entrevistas](https://drive.google.com/drive/folders/1oKjyxYU3_nnoHlnLRSSLgNb32xE3QeD8?usp=sharing)
+
+### Análisis de Dispositivos Móviles y Sistemas Operativos
+
+A partir de las entrevistas realizadas se identificaron los dispositivos móviles empleados por los participantes de ambos segmentos.
+
+| Entrevista #1 |  |  |  |
+| :--- | :--- | :--- | :--- |
+| **Nombre completo** | Lili Vera Vela | **Segmento** | Agricultor |
+| **Entorno** | Rural | **Modelo de celular** | **iPhone 17** |
+| **Sistema operativo** | iOS | **Dispositivo** | <img src="assets/images/chapter02/devices/iphone-17.jpg" width="140"> |
+
+---
+
+| Entrevista #2 |  |  |  |
+| :--- | :--- | :--- | :--- |
+| **Nombre completo** | Estefanía | **Segmento** | Comerciante / Comprador |
+| **Entorno** | Urbano | **Modelo de celular** | **iPhone 15** |
+| **Sistema operativo** | iOS | **Dispositivo** | <img src="assets/images/chapter02/devices/iphone-15.jpg" width="140"> |
+
+---
+
+| Entrevista #3 |  |  |  |
+| :--- | :--- | :--- | :--- |
+| **Nombre completo** | Jorge Manuel Nitales Negro | **Segmento** | Agricultor |
+| **Entorno** | Rural | **Modelo de celular** | **Motorola Fusion H50** |
+| **Sistema operativo** | Android | **Dispositivo** | <img src="assets/images/chapter02/devices/motorola-fusion-h50.jpg" width="140"> |
+
+---
+
+| Entrevista #4 |  |  |  |
+| :--- | :--- | :--- | :--- |
+| **Nombre completo** | Sebastian Velgara Arturo Chavez | **Segmento** | Comerciante / Comprador |
+| **Entorno** | Urbano | **Modelo de celular** | **iPhone 17** |
+| **Sistema operativo** | iOS | **Imagen** |  <img src="assets/images/chapter02/devices/iphone-17.jpg" width="140"> |
+
+**Estadística de Sistemas Operativos:**
+
+
+El análisis realizado en Power BI muestra la distribución de los sistemas operativos y dispositivos identificados durante las entrevistas.
+
+![Análisis de dispositivos móviles y sistemas operativos](assets/images/chapter02/analysis/mobile-devices-operating-systems.png)
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
@@ -1746,6 +1830,14 @@ A continuación se presenta la evidencia gráfica dividida en la vista general d
 
 
 #### 2.5.1.1. Candidate Context Discovery
+
+| Bounded Context | Descripción | Eventos clave |
+| :--- | :--- | :--- |
+| **IAM & Profiles** | Maneja la autenticación, verificación de identidad de los agricultores, y validación fiscal de los perfiles corporativos de comerciantes. | `ProductorRegistrado`, `IdentidadVerificada`, `CompradorAutenticado` |
+| **Agreements Management** | Administra la publicación de parcelas, cotizaciones, contraofertas y formalización de los contratos agrícolas. | `ParcelaPublicada`, `CotizacionEnviada`, `ContratoFirmado` |
+| **Tracking & Evidence** | Gestiona el registro de actividades de campo, carga y sincronización offline de fotografías, y el seguimiento de hitos agrícolas. | `EvidenciaRegistrada`, `EvidenciaSincronizada`, `HitoObservado` |
+| **Escrow & Payments** | Controla la custodia (Escrow) de los fondos depositados por el comerciante y su posterior liberación parcial al aprobar hitos. | `FondosDepositados`, `HitoAprobado`, `FondosLiberados` |
+| **Alerts Management** | Evalúa umbrales de riesgo para enviar notificaciones de anomalías climáticas y de disponibilidad de cosechas futuras. | `AlertaClimaticaGenerada`, `AlertaDisponibilidadEnviada` |
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
 
@@ -1881,5 +1973,9 @@ Este diagrama de despliegue representa la infraestructura física y en la nube d
 
 # Anexos
 
+## Anexo A. Reporte de análisis de entrevistas en Power BI
+
+Se incluye el reporte elaborado en Power BI y los archivos relacionados con el procesamiento de los resultados.
+[Acceder al material del análisis de entrevistas](https://drive.google.com/drive/folders/1oKjyxYU3_nnoHlnLRSSLgNb32xE3QeD8?usp=sharing)
 
 
