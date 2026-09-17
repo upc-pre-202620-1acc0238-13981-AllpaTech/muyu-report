@@ -61,6 +61,12 @@
 |   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de User Stories para 2.4.1. User Stories.                              |  
 |   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de Impact mapping agricultor y comerciante para 2.4.2. Impact Mapping.                              | 
 |   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.5.1.1. Candidate Context Discovery. |
+|   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette     | Edición de portada del informe. |
+|   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette       | Desarrollo del 1.1.1. Descripción de la Startup y 1.1.2. Perfiles de integrantes del equipo  |
+|   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette       | Desarrollo del 1.2.1. Antecedentes y problemática y 1.2.2. Lean UX Process |
+|   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette       | Desarrollo de los puntos 1.2.2.1. Lean UX Problem Statements, 1.2.2.2. Lean UX Assumptions, 1.2.2.3. Lean UXHypothesis Statements y 1.2.2.4. Lean UX Canvas |
+|   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette       | Desarrollo del punto 1.3. Segmentos objetivo  |
+
 </div>
 
 ## Project Report Collaboration Insights
@@ -69,7 +75,7 @@
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| [Nombre Completo 1] | [Lista de tareas realizadas] |
+
 | Angel Guillermo Berrospi Marin | Desarrollo de User stories y creación de su estructura, Desarrollo de Impact Mapping, Desarrollo de Entrevistas, Creación de la estructura de Porduct Backlog. |
 | Mel Andree Orellana Rodriguez | Creación e inicialización de la estructura técnica del reporte, desarrollo de la sección de elicitación de requerimientos, priorización del Product Backlog, diseño y desarrollo de diagramas de EventStorming (Big Picture), Bounded Context Canvases, Context Map, y diagramas de arquitectura de software C4 (Contexto, Contenedor y Despliegue). |
 | [Nombre Completo 4] | [Lista de tareas realizadas] |
