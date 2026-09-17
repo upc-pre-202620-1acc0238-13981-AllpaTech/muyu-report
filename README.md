@@ -609,6 +609,80 @@ A partir de la información obtenida durante las entrevistas y del análisis de 
 ![User Persona - Valeria Mendoza](assets/images/chapter02/uxpressia/valeria-mendoza-user-persona.png)
 
 ### 2.3.2. User Task Matrix
+
+
+Para la elaboración de la User Task Matrix se consideran las tareas relacionadas a los usuarios y que fueron planteadas durante el proceso de entrevista de los dos segmentos (Comerciante/Comprador y Agricultor).
+ 
+<table>
+<tr>
+  <th rowspan="2">Tarea de usuario</th>
+  <th colspan="2">Valeria Mendoza<br>(Comerciante mayorista)</th>
+  <th colspan="2">Miguel Quispe<br>(Agricultor y responsable del cuidado de cultivos)</th>
+</tr>
+<tr>
+  <th>Importancia</th>
+  <th>Frecuencia</th>
+  <th>Importancia</th>
+  <th>Frecuencia</th>
+</tr>
+<tr>
+  <td><strong>Verificar el estado o avance del cultivo</strong></td>
+  <td>Alta</td>
+  <td>A menudo</td>
+  <td>Alta</td>
+  <td>A menudo</td>
+</tr>
+<tr>
+  <td><strong>Comunicarse sobre el avance del cultivo</strong></td>
+  <td>Alta</td>
+  <td>A menudo</td>
+  <td>Alta</td>
+  <td>A menudo</td>
+</tr>
+<tr>
+  <td><strong>Tomar o revisar evidencia fotográfica del cultivo</strong></td>
+  <td>Alta</td>
+  <td>A menudo</td>
+  <td>Alta</td>
+  <td>A veces</td>
+</tr>
+<tr>
+  <td><strong>Gestionar el pago o dinero del ciclo de cultivo</strong></td>
+  <td>Alta</td>
+  <td>A veces</td>
+  <td>Baja</td>
+  <td>Rara vez</td>
+</tr>
+<tr>
+  <td><strong>Buscar información para resolver un problema</strong></td>
+  <td>Media</td>
+  <td>A veces</td>
+  <td>Alta</td>
+  <td>A veces</td>
+</tr>
+<tr>
+  <td><strong>Informarse sobre el clima</strong></td>
+  <td>Media</td>
+  <td>Rara vez</td>
+  <td>Alta</td>
+  <td>A menudo</td>
+</tr>
+<tr>
+  <td><strong>Registrar o consultar el historial de actividades</strong></td>
+  <td>Alta</td>
+  <td>A veces</td>
+  <td>Media</td>
+  <td>A veces</td>
+</tr>
+<tr>
+  <td><strong>Elegir con quién trabajar (proveedor / parcela)</strong></td>
+  <td>Alta</td>
+  <td>A veces</td>
+  <td>Baja</td>
+  <td>Rara vez</td>
+</tr>
+</table>
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. Big Picture EventStorming
