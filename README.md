@@ -690,7 +690,7 @@ A partir de la información obtenida durante las entrevistas y del análisis de 
 #### User Persona: Segmento Comerciante / Comprador
 
 
-![User Persona - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-mendoza-user-persona.png)
+![User Persona - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-user-persona.png)
 
 ### 2.3.2. User Task Matrix
 
