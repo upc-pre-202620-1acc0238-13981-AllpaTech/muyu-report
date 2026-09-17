@@ -441,33 +441,34 @@ La siguiente figura presenta el Lean UX Canvas elaborado para Muyu.
 
 ## 1.3. Segmentos objetivo
 
-##### 1. Agricultor (Proveedor del Servicio / Agro-Service Provider)
+##### **1. Agricultor (Proveedor del Servicio / Agro-Service Provider)**
 
-Este segmento está formado por agricultores que poseen o gestionan terrenos y se encargan de realizar las labores necesarias durante el cultivo. En Muyu podrán ofrecer sus parcelas, consultar sus tareas, presentar evidencias y conocer el estado de sus pagos.
+Este segmento está conformado inicialmente por jóvenes agricultores que poseen, gestionan o trabajan terrenos agrícolas y participan en las diferentes etapas del cultivo. En Muyu podrán ofrecer sus parcelas, consultar sus tareas, presentar evidencias y conocer el estado de sus pagos.
 
 **Características demográficas:**
 
-- **Edad:** 45 - 60 años 
-- **Nivel educativo:** Distintos niveles de formación, desde educación primaria hasta estudios superiores.
-- **Ocupación:** Productores dedicados a la siembra, cuidado y cosecha de productos agrícolas.
+- **Edad:** Entre 20 y 30 años.
+- **Nivel educativo:** Distintos niveles de formación, desde educación secundaria hasta estudios técnicos o universitarios.
+- **Ocupación:** Agricultores dedicados a la siembra, el cuidado y la cosecha de productos agrícolas.
 - **Ubicación:** Zonas rurales y agrícolas del Perú.
-- **Acceso tecnológico:** Disponen de un teléfono móvil con cámara y pueden presentar distintos niveles de experiencia digital.
+- **Acceso tecnológico:** Utilizan teléfonos móviles con cámara y poseen conocimientos básicos sobre aplicaciones digitales.
 
 **Necesidades:**
 
 - Organizar las tareas y compromisos de cada etapa.
-- Registrar evidencias de manera rápida desde el campo.
-- Conocer oportunamente las condiciones meteorológicas que podrían afectar la producción.
+- Registrar evidencias rápidamente desde el campo.
+- Consultar el estado de sus reportes y pagos.
+- Recibir avisos sobre condiciones meteorológicas que podrían afectar la producción.
 
 ---
 
-#### 2. Comerciante / Comprador (Arrendatario / Subscriber)
+#### **2. Comerciante / Comprador (Arrendatario / Subscriber)**
 
 Este segmento comprende comerciantes, distribuidores, propietarios de restaurantes y responsables de supermercados que necesitan adquirir productos agrícolas de manera constante. En Muyu podrán elegir una parcela, financiar el cultivo, revisar las evidencias y aprobar el cumplimiento de cada hito.
 
 **Características demográficas y comerciales:**
 
-- **Edad:** 30 - 60 años
+- **Edad:** Entre 20 y 60 años.
 - **Ocupación:** Dueños, administradores, distribuidores o responsables de compras.
 - **Tipo de negocio:** Comercios de alimentos, restaurantes, empresas distribuidoras y supermercados.
 - **Tamaño empresarial:** Se priorizarán micro y pequeñas empresas con decisiones de compra directas.
