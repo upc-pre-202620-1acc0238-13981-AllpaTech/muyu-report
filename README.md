@@ -1892,15 +1892,209 @@ Este diagrama de despliegue representa la infraestructura física y en la nube d
 
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.x. Bounded Context: <Bounded Context Name>
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+### 2.6.1. Bounded Context: Contract & Escrow Service
+
+El Bounded Context Contract & Escrow Service representa la capacidad del sistema encargada de gestionar los
+acuerdos de producción agrícola y garantizar la seguridad financiera mediante la custodia de fondos (Escrow).
+Su propósito es crear contratos digitales, procesar pagos retenidos y liberar los fondos progresivamente 
+conforme el comerciante apruebe los hitos y evidencias de campo del agricultor. La entidad principal 
+es `Contract`, la cual concentra las reglas de negocio del acuerdo y el estado de la custodia. Este 
+contexto actúa como proveedor (Upstream) para las notificaciones y se integra fuertemente con la pasarela de pagos externa.
+
+#### 2.6.1.1. Domain Layer
+
+La capa de dominio contiene el núcleo de las reglas comerciales y la lógica de custodia de fondos.
+
+*   **Aggregate Root:** `Contract` (Atributos: id, farmerId, merchantId, totalAmount, status, createdAt).
+*   **Entities:** `Milestone` (Hito de cultivo), `Evidence` (Fotografía georreferenciada).
+*   **Value Objects:** `Money` (Monto y moneda), `GPSCoordinates` (Latitud y longitud), `ContractStatus` (Enum: PENDING_DEPOSIT, IN_PROGRESS, COMPLETED, DISPUTED), `MilestoneStatus` (Enum: PENDING, IN_REVIEW, APPROVED, REJECTED).
+*   **Commands:** `CreateContractCommand`, `FundEscrowCommand`, `SubmitEvidenceCommand`, `ApproveMilestoneCommand`.
+*   **Queries:** `GetContractByIdQuery`, `GetPendingMilestonesQuery`.
+*   **Domain Events:** `ContractSignedEvent`, `EscrowFundedEvent`, `EvidenceSubmittedEvent`, `MilestoneApprovedEvent`.
+*   **Reglas de negocio:** No se puede liberar un desembolso parcial si no existe una evidencia fotográfica validada con coordenadas GPS. El comerciante no puede retirar unilateralmente los fondos una vez que el agricultor ha iniciado el hito de siembra.
+
+#### 2.6.1.2. Interface Layer
+
+Contiene los controladores que exponen los servicios de gestión de contratos y pagos al frontend móvil de Muyu.
+
+*   **REST Controllers:** `ContractsController`, `EscrowController`, `EvidencesController`.
+*   **Endpoints:** `POST /api/v1/contracts`, `POST /api/v1/contracts/{id}/escrow/fund`, `POST /api/v1/milestones/{id}/evidences`, `PUT /api/v1/milestones/{id}/approve`.
+*   **DTOs:** `CreateContractResource`, `SubmitEvidenceResource`, `ContractSummaryResource`.
+*   **Assemblers:** Transforman los recursos HTTP en comandos del dominio (ej. `CreateContractCommandFromResourceAssembler`).
+
+#### 2.6.1.3. Application Layer
+
+Coordina los flujos de creación de acuerdos, carga de evidencias y liberación de fondos.
+
+*   **Command Services:** `ContractCommandServiceImpl` (Valida la disponibilidad de la parcela, estructura los hitos y guarda el contrato), `EscrowCommandServiceImpl` (Interactúa con la pasarela para bloquear o liberar fondos), `EvidenceCommandServiceImpl`.
+*   **Query Services:** `ContractQueryServiceImpl`.
+*   **Flujo principal:** El agricultor sube una evidencia; el `EvidenceCommandService` valida las coordenadas GPS contra las de la parcela. Si es correcto, guarda la evidencia, cambia el estado del hito a "IN_REVIEW" y dispara un evento para notificar al comerciante.
+
+#### 2.6.1.4. Infrastructure Layer
+
+Gestiona la persistencia, el almacenamiento de archivos y la integración con pasarelas financieras.
+
+*   **Repositories:** `ContractRepository` (extiende JpaRepository u ORM similar), `MilestoneRepository`.
+*   **Adapters:** `EscrowPaymentGatewayAdapter` (comunicación REST con la pasarela de pagos), `CloudStorageAdapter` (AWS S3 / Firebase Cloud Storage para guardar las fotografías comprimidas).
+*   **Persistencia:** Tablas `contracts`, `milestones` y `evidences` con llaves foráneas y restricciones de integridad.
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Contract & Escrow**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura)
+y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+
+<div align="center">
+  <img src="assets/images/chapter02/level_diagrams_contract_escrow.png" alt="Contract Escrow Component Diagram" width="800" />
+</div>
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Contract`) y cómo interactúa con los servicios de comando y consulta (CQRS).
+
+<div align="center">
+  <img src="assets/images/chapter02/class_diagram_contract_escrow.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+Este diagrama relacional conectando `contracts`, `milestones` y `evidences`, donde cada hito pertenece a un contrato y cada evidencia está vinculada a un hito específico, garantizando la trazabilidad de la custodia.
+
+<div align="center">
+  <img src="assets/images/chapter02/db_diagram_contract_escrow.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
+
+### 2.6.2. Bounded Context: Parcel Management Service
+
+El Bounded Context Parcel Management Service (Supporting Domain) representa la capacidad del sistema encargada de administrar
+el inventario de tierras. Su propósito es registrar las hectáreas georreferenciadas con mapas GPS, catalogar tipos de suelo y
+gestionar la disponibilidad agrícola para que los comerciantes puedan descubrir ofertas productivas. La entidad principal es `Parcel`.
+
+#### 2.6.2.1. Domain Layer
+
+La capa de dominio contiene las reglas espaciales y de disponibilidad de los terrenos agrícolas.
+
+*   **Aggregate Root:** `Parcel` (Atributos: id, farmerId, name, area, soilType, status).
+*   **Entities:** `GPSBoundary` (Polígono georreferenciado).
+*   **Value Objects:** `Hectare` (Valor numérico), `GPSCoordinate` (Latitud, longitud, orden), `ParcelStatus` (Enum: AVAILABLE, IN_USE, UNAVAILABLE), `SoilType` (Enum: CLAY, SANDY, LOAMY, SILTY).
+*   **Commands:** `RegisterParcelCommand`, `UpdateParcelAvailabilityCommand`, `AssignCoordinatesCommand`.
+*   **Queries:** `GetAvailableParcelsQuery`, `GetParcelByIdQuery`.
+*   **Domain Events:** `ParcelRegisteredEvent`, `ParcelAvailabilityUpdatedEvent`.
+*   **Reglas de negocio:** Una parcela no puede cambiar a estado "Disponible" si tiene un contrato activo en el mismo periodo. Toda parcela debe contener al menos tres puntos GPS válidos para formar un polígono delimitado.
+
+#### 2.6.2.2. Interface Layer
+
+Contiene los controladores que exponen el catálogo de parcelas a la aplicación móvil.
+
+*   **REST Controllers:** `ParcelsController`.
+*   **Endpoints:** `POST /api/v1/parcels`, `GET /api/v1/parcels/available`, `PATCH /api/v1/parcels/{id}/status`.
+*   **DTOs:** `RegisterParcelResource`, `ParcelSummaryResource`.
+*   **Assemblers:** Transforman recursos HTTP en comandos (ej. `RegisterParcelCommandFromResourceAssembler`).
+
+#### 2.6.2.3. Application Layer
+
+Coordina los flujos de alta de terrenos y consultas de catálogo.
+
+*   **Command Services:** `ParcelCommandServiceImpl` (Valida polígonos GPS, asigna estado inicial y guarda la parcela).
+*   **Query Services:** `ParcelQueryServiceImpl` (Aplica filtros por área y tipo de suelo).
+*   **Flujo principal:** El agricultor envía los datos y coordenadas; el servicio verifica la geometría básica y persiste la parcela, emitiendo un evento para actualizar el catálogo.
+
+#### 2.6.2.4. Infrastructure Layer
+
+*   **Repositories:** `ParcelRepository` (extiende JpaRepository).
+*   **Adapters:** `OpenWeatherAdapter` (Consulta el clima basándose en las coordenadas registradas).
+*   **Persistencia:** Tablas `parcels` y `parcel_coordinates`.
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama ilustra la arquitectura interna para gestionar el inventario de parcelas y sus coordenadas.
+
+<div align="center">
+  <img src="assets/images/chapter02/level_diagrams_parcel.png" alt="Contract Escrow Component Diagram" width="800" />
+</div>
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+Este diagrama muestra el modelo de clases de la capa de dominio para el contexto de **Parcel Management**, detallando
+la entidad principal (`Parcel`), sus Value Objects asociados (como `GPSCoordinate` y `Hectare`) y la interacción con los servicios de comando y consulta.
+
+<div align="center">
+  <img src="assets/images/chapter02/class_diagram_parcel.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+Este diagrama representa el esquema físico de la base de datos relacional para el contexto de **Parcel Management**, detallando las tablas principales
+para el registro de parcelas y sus límites geográficos (coordenadas GPS).
+
+<div align="center">
+  <img src="assets/images/chapter02/db_diagram_parcel.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
+
+### 2.6.3. Bounded Context: MUYU Mobile Offline Sync Context
+
+El Bounded Context **MUYU Mobile Offline Sync** (Generic / Utility Domain) reside principalmente en la aplicación cliente móvil (Flutter). 
+Su propósito es garantizar la captura ininterrumpida de evidencias y reportes georreferenciados en zonas rurales donde no hay conexión a internet.
+Este contexto gestiona el almacenamiento local de los datos y los sincroniza automáticamente con el backend una vez que detecta que la red ha sido restaurada.
+
+#### 2.6.3.1. Domain Layer
+
+La capa de dominio modela las tareas en espera y su ciclo de vida según el estado de la red.
+
+*   **Aggregate Root:** `SyncQueue` (Cola local de tareas de sincronización).
+*   **Entities:** `SyncTask` (Tarea individual que encapsula una petición pendiente).
+*   **Value Objects:** `SyncStatus` (Enum: PENDING, IN_PROGRESS, SYNCED, FAILED), `Payload` (Cuerpo de los datos, ya sea JSON o binario para fotos).
+*   **Commands:** `EnqueueTaskCommand`, `ProcessSyncQueueCommand`, `MarkTaskAsSyncedCommand`.
+*   **Domain Events:** `NetworkRestoredEvent`, `SyncTaskCompletedEvent`, `SyncFailedEvent`.
+*   **Reglas de negocio:** Las tareas fallidas deben reintentarse utilizando un algoritmo de retroceso exponencial (Exponential Backoff) para no saturar el servidor al volver la conexión. Las fotos deben comprimirse antes de encolarse.
+
+#### 2.6.3.2. Interface Layer
+
+A diferencia del backend, la "interfaz" en este contexto móvil no es una API REST, sino los *Listeners* que escuchan los eventos del sistema operativo del teléfono.
+
+*   **Device Listeners:** `NetworkStateListener` (Escucha los cambios de conectividad Wi-Fi o Datos Móviles).
+*   **Background Workers:** `BackgroundSyncWorker` (Proceso desencadenado por el SO para sincronizar cuando la app está minimizada).
+
+#### 2.6.3.3. Application Layer
+
+Orquesta la lectura de tareas pendientes y la ejecución del envío.
+
+*   **Command Services:** `SyncCommandServiceImpl` (Encola las nuevas tareas cuando no hay internet y procesa la cola cuando regresa la señal).
+*   **Flujo principal:** Cuando `NetworkStateListener` detecta internet, dispara el comando `ProcessSyncQueueCommand`. El servicio extrae las `SyncTask` en estado PENDING y delega al adaptador HTTP su envío hacia el backend de Muyu.
+
+#### 2.6.3.4. Infrastructure Layer
+
+Gestiona la persistencia local en el smartphone y las llamadas HTTP de salida.
+
+*   **Repositories:** `SyncTaskLocalRepository` (Implementación usando SQLite o local storage interno del dispositivo móvil).
+*   **Adapters:** `ConnectivityAdapter` (Usa APIs nativas de Android/iOS para revisar la red), `ApiClientAdapter` (Ejecuta la petición HTTP final hacia la nube).
+*   **Persistencia:** Tablas locales `sync_tasks` en la base de datos interna del teléfono.
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama detalla la arquitectura interna del motor de sincronización offline dentro del dispositivo móvil, manteniendo la estructura de separación de responsabilidades.
+
+<div align="center">
+  <img src="assets/images/chapter02/level_diagrams_MUYU_mobile.png" alt="Contract Escrow Component Diagram" width="800" />
+</div>
+
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+Este diagrama muestra el modelo de clases de la capa de dominio para el contexto de **MUYU Mobile Offline Sync**, detallando el
+Aggregate Root (`SyncQueue`), la entidad individual de tarea (`SyncTask`) y cómo interactúan con los comandos desencadenados por los eventos del dispositivo.
+
+<div align="center">
+  <img src="assets/images/chapter02/class_diagram_MUYU_mobile.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+Este diagrama representa el esquema físico de la base de datos local (SQLite) en el dispositivo móvil para el contexto 
+de **MUYU Mobile Offline Sync**, detallando la tabla que almacena temporalmente las peticiones HTTP y las evidencias fotográficas antes de su sincronización.
+
+<img src="assets/images/chapter02/db_diagram_MUYU_mobile.png" alt="Contract Escrow Database Diagram" width="800" />
 
 
 # Capítulo III: Solution UI/UX Design
