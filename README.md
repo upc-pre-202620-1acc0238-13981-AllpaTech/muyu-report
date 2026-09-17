@@ -684,6 +684,16 @@ Para la elaboración de la User Task Matrix se consideran las tareas relacionada
 </table>
 
 ### 2.3.3. User Journey Mapping
+El recorrido que se describe es un viaje de cinco fases que generalmente va de la esperanza a la frustración: inicia con el descubrimiento (Aware), pasa por una implementación incierta (Join) y alcanza un punto crítico de confusión al enfrentar un problema (Use). Este ciclo de aprendizaje por prueba y error (Develop) y que al final desemboca en (Leave).
+#### User Journey Map: Miguel Quispe
+
+
+![User Journey Map - Miguel Quispe](assets/images/chapter02/uxpressia/miguel-quispe-user-journey.png)
+
+#### User Journey Map: Valeria Mendoza
+
+![User Journey Map - Valeria Mendoza](assets/images/chapter02/uxpressia/valeria-mendoza-user-journey.png)
+
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. Big Picture EventStorming
 ### 2.3.6. Ubiquitous Language
