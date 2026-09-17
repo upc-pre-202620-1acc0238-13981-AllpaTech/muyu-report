@@ -150,6 +150,10 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 * **Objetivo 1 (Especialización Técnica):** Aprender a desarrollar aplicaciones web y mobile con distintos tipos de lenguage y aplicar correctamente una arquitectura solida aplicando los principios que requieran para ofrecer un buen software.
 * **Objetivo 2 (Crecimiento Profesional):** Recibirme cómo *Software Engineer* y empezar a trabajar en una empresa del sector tecnológico o a fines con el propósito de crear nuevas aplicaciones que solucionen problemas cotidianos.
 
+### Emily Juliette Arroyo Gonzales
+- **Objetivo 1 (Especialización técnica):** Aprender durante el próximo año a desarrollar aplicaciones web y móviles utilizando distintos lenguajes, con el propósito de crear proyectos organizados, seguros y de buena calidad.
+
+- **Objetivo 2 (Crecimiento profesional):** Graduarme como ingeniero de software y comenzar a trabajar en una empresa tecnológica durante el primer año después de terminar la carrera, participando en la creación de aplicaciones que solucionen problemas cotidianos.
 
 
 ## Tabla de Contenidos
