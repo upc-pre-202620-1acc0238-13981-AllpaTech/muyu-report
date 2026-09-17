@@ -1685,6 +1685,18 @@ El recorrido que se describe es un viaje de cinco fases que generalmente va de l
 
 ### 2.4.2. Impact Mapping
 
+#### Impact Mapping - Agricultor
+
+<p align="center">
+  <img src="assets/images/chapter02/Impact map agricultor.png" Alt="Impact map Agricultor" width="800"/>  
+</p>
+
+#### Impact Mapping - Comerciante
+
+<p align="center">
+  <img src="assets/images/chapter02/impact map comerciante.png" Alt="Impact map Comerciante" width="800"/>  
+</p>
+
 
 ### 2.4.3. Product Backlog
 
