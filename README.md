@@ -266,12 +266,12 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 | Tipo | Competidor | Descripción | Características | Website |
 |---|---|---|---|---|
-| Directo |  <img src="assets/logos/farmizen.png" width="90"><br> (India) | Permite alquilar una mini-parcela de 600 pies² dentro de una granja real por una cuota mensual; el agricultor cultiva el terreno y el usuario recibe la cosecha semanalmente o la recoge en visitas programadas. | App móvil de seguimiento de parcela (Android/iOS); hasta 6 visitas de campo al mes; entrega semanal a domicilio; sin verificación georreferenciada automática de evidencias. | [farmizen.com](https://www.farmizen.com) |
-| Directo | <img src="assets/logos/cropital.png" width="90"><br> (Filipinas) | Plataforma de crowdfunding que conecta inversionistas con pequeños agricultores filipinos identificados individualmente; el inversionista financia el costo de siembra de una granja específica y recibe entre 3% y 30% de retorno tras la cosecha. | Selección de granja específica y nombrada; seguro agrícola incluido; verificación de campo mediante entrevista y visita presencial; retorno en 3 a 6 meses; sin app móvil. | [cropital.com](https://www.cropital.com) |
-| Directo | <img src="assets/logos/crowdfarming.png" width="90"><br>(España) | Marketplace B2C donde el consumidor "adopta" un árbol, animal o parcela de un agricultor aliado, pagando por adelantado la producción que recibirá directamente en su domicilio al momento de la cosecha. | Sin intermediarios de distribución; comunicación directa con el agricultor vía fotos/historias; logística propia de envío en Europa; orientado a consumidor final, no a comerciantes. | [crowdfarming.com](https://www.crowdfarming.com) |
-| Indirecto | <img src="assets/logos/acretrader.png" width="90"><br> (EE. UU.) | Plataforma fintech que fracciona la propiedad de terrenos agrícolas para que inversionistas financien tierra de cultivo a cambio de una renta anual pagada por el operador agrícola arrendatario. | Due diligence documental de tierras; retorno de renta anual fija; sin seguimiento operativo del cultivo ni app móvil; el retorno no depende de la cosecha. | [acretrader.com](https://www.acretrader.com) |
-| Indirecto | <img src="assets/logos/traive.png" width="90"><br>**Traive** (Brasil / EE. UU.) | Plataforma agrofintech B2B2C que usa inteligencia artificial para generar scoring crediticio y conectar a prestamistas/distribuidores de insumos con agricultores, agilizando la aprobación de crédito agrícola. | Modelo B2B2C (cliente es el prestamista, no el agricultor ni el comerciante); evaluación de riesgo con datos alternativos; sin evidencia de campo ni app móvil. | [traivefinance.com](https://traivefinance.com) |
-| Indirecto | <img src="assets/logos/kilimo.png" width="90"><br>**Kilimo** (Argentina, con presencia en Perú) | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales vendidos a empresas. | Recomendaciones diarias de riego sin hardware; alianzas corporativas de sostenibilidad; no financia parcelas ni conecta al agricultor con un comprador. | [kilimo.com](https://www.kilimo.com) |
+| Directo |  <img src="assets/images/chapter02/logos/farmizen.png" width="90"><br> (India) | Permite alquilar una mini-parcela de 600 pies² dentro de una granja real por una cuota mensual; el agricultor cultiva el terreno y el usuario recibe la cosecha semanalmente o la recoge en visitas programadas. | App móvil de seguimiento de parcela (Android/iOS); hasta 6 visitas de campo al mes; entrega semanal a domicilio; sin verificación georreferenciada automática de evidencias. | [farmizen.com](https://www.farmizen.com) |
+| Directo | <img src="assets/images/chapter02/logos/cropital.png" width="90"><br> (Filipinas) | Plataforma de crowdfunding que conecta inversionistas con pequeños agricultores filipinos identificados individualmente; el inversionista financia el costo de siembra de una granja específica y recibe entre 3% y 30% de retorno tras la cosecha. | Selección de granja específica y nombrada; seguro agrícola incluido; verificación de campo mediante entrevista y visita presencial; retorno en 3 a 6 meses; sin app móvil. | [cropital.com](https://www.cropital.com) |
+| Directo | <img src="assets/images/chapter02/logos/crowdfarming.png" width="90"><br>(España) | Marketplace B2C donde el consumidor "adopta" un árbol, animal o parcela de un agricultor aliado, pagando por adelantado la producción que recibirá directamente en su domicilio al momento de la cosecha. | Sin intermediarios de distribución; comunicación directa con el agricultor vía fotos/historias; logística propia de envío en Europa; orientado a consumidor final, no a comerciantes. | [crowdfarming.com](https://www.crowdfarming.com) |
+| Indirecto | <img src="assets/images/chapter02/logos/acretrader.png" width="90"><br> (EE. UU.) | Plataforma fintech que fracciona la propiedad de terrenos agrícolas para que inversionistas financien tierra de cultivo a cambio de una renta anual pagada por el operador agrícola arrendatario. | Due diligence documental de tierras; retorno de renta anual fija; sin seguimiento operativo del cultivo ni app móvil; el retorno no depende de la cosecha. | [acretrader.com](https://www.acretrader.com) |
+| Indirecto | <img src="assets/images/chapter02/logos/traive.png" width="90"><br>**Traive** (Brasil / EE. UU.) | Plataforma agrofintech B2B2C que usa inteligencia artificial para generar scoring crediticio y conectar a prestamistas/distribuidores de insumos con agricultores, agilizando la aprobación de crédito agrícola. | Modelo B2B2C (cliente es el prestamista, no el agricultor ni el comerciante); evaluación de riesgo con datos alternativos; sin evidencia de campo ni app móvil. | [traivefinance.com](https://traivefinance.com) |
+| Indirecto | <img src="assets/images/chapter02/logos/kilimo.png" width="90"><br>**Kilimo** (Argentina, con presencia en Perú) | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales vendidos a empresas. | Recomendaciones diarias de riego sin hardware; alianzas corporativas de sostenibilidad; no financia parcelas ni conecta al agricultor con un comprador. | [kilimo.com](https://www.kilimo.com) |
 
 ### 2.1.1. Análisis competitivo
 
@@ -282,7 +282,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 **¿Por qué llevar a cabo este análisis?**
 ¿Cómo debe posicionarse Muyu frente a plataformas de alquiler de parcela y crowdfunding agrícola ya validadas (Farmizen, Cropital, CrowdFarming) para maximizar la confianza del comerciante comprador, y qué brechas de transparencia y trazabilidad debemos priorizar frente a ellas?
  
-| | | <br><img src="assets/logos/muyu.jpeg" width="90"> | <br><img src="assets/logos/farmizen.png" width="70"> | <br><img src="assets/logos/cropital.png" width="90"> | <br><img src="assets/logos/crowdfarming.png" width="70"> |
+| | | <br><img src="assets/images/chapter02/logos/muyu.jpeg" width="90"> | <br><img src="assets/images/chapter02/logos/farmizen.png" width="70"> | <br><img src="assets/images/chapter02/logos/cropital.png" width="90"> | <br><img src="assets/images/chapter02/logos/crowdfarming.png" width="70"> |
 |---|---|---|---|---|---|
 | **Perfil** | Overview | Marketplace Agro-as-a-Service que conecta agricultores con comerciantes/compradores mediante financiamiento de una parcela específica por ciclo de cultivo, con Escrow y evidencia georreferenciada. | App que permite alquilar una mini-parcela dentro de una granja real por una cuota mensual, con seguimiento del cultivo desde el celular. | Plataforma de crowdfunding que financia granjas específicas de pequeños agricultores filipinos a cambio de un porcentaje de la cosecha/ganancia. | Marketplace de "adopción" de árboles, animales o parcelas, con entrega directa de la cosecha al consumidor final. |
 | | Ventaja competitiva / ¿Qué valor ofrece al cliente? | Escrow con liberación de fondos por hitos verificables (foto + GPS + fecha/hora) y alertas climáticas preventivas, únicos en este grupo de competidores. | Experiencia "gamificada" tipo Farmville; visitas físicas a la parcela alquilada. | Respaldo institucional internacional (EE. UU., Países Bajos, Malasia) y acceso a seguro agrícola para el productor financiado. | Comunidad de adopción consolidada y logística propia de distribución en Europa. |
@@ -305,7 +305,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ¿Qué alternativas de financiamiento agrícola indirectas? ¿Como la inversión fraccionada en tierra? ¿Podrían captar al mismo comerciante/inversionista objetivo de Muyu?, y ¿Cómo debemos diferenciarnos para no ser percibidos como un simple vehículo financiero pasivo?
  
-| | | <br><img src="assets/logos/muyu.jpeg" width="90"> | <br><img src="assets/logos/acretrader.png" width="90"> | <br><img src="assets/logos/traive.png" width="90"> | <br><img src="assets/logos/kilimo.png" width="90"> |
+| | | <br><img src="assets/images/chapter02/logos/muyu.jpeg" width="90"> | <br><img src="assets/images/chapter02/logos/acretrader.png" width="90"> | <br><img src="assets/images/chapter02/logos/traive.png" width="90"> | <br><img src="assets/images/chapter02/logos/kilimo.png" width="90"> |
 |---|---|---|---|---|---|
 | **Perfil** | Overview | Marketplace Agro-as-a-Service que conecta agricultores con comerciantes mediante financiamiento de una parcela específica por ciclo de cultivo. | Plataforma fintech que fracciona la propiedad de terrenos agrícolas para que inversionistas financien tierra a cambio de una renta anual. | Plataforma agrofintech B2B2C que usa IA para generar scoring crediticio y conectar prestamistas/distribuidores de insumos con agricultores. | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales. |
 | | Ventaja competitiva / ¿Qué valor ofrece al cliente? | Trazabilidad operativa diaria del cultivo financiado, con evidencia verificable antes de liberar cada pago. | Solidez financiera y diversificación de portafolio para inversionistas institucionales. | Evaluación de riesgo crediticio en tiempo real con datos alternativos, acelerando la aprobación de crédito para insumos. | Recomendaciones diarias de riego sin instalar hardware, con ingreso adicional por ahorro de agua verificado. |
@@ -324,18 +324,18 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 | Competidor | Táctica diferenciadora | Fortaleza del rival que enfrentamos | Debilidad del rival que aprovechamos |
 |---|---|---|---|
-| <br><img src="assets/logos/farmizen.png" width="90"> | Ofrecer evidencia georreferenciada automática (GPS + timestamp) y funcionamiento offline-first como estándar desde el primer lanzamiento, en vez de depender de fotos y reportes manuales dentro de la app. | App ya probada, con más de 10 000 descargas y comunidad activa de consumidores. | No custodia fondos por hitos ni verifica automáticamente el origen de las evidencias; usuarios han reportado quejas de calidad del producto entregado. |
-| <br><img src="assets/logos/cropital.png" width="90"> | Digitalizar por completo el ciclo de verificación: reemplazar las visitas y entrevistas presenciales por evidencia fotográfica georreferenciada y aprobación remota desde el celular del comerciante. | Respaldo institucional internacional y acceso a seguro agrícola para los productores financiados. | Proceso de verificación de campo manual y sin app móvil, lo que limita la velocidad de aprobación de hitos y la escala geográfica. |
-| <br><img src="assets/logos/crowdfarming.png" width="90"> | Posicionar a Muyu como proveedor de insumo estable para negocios (restaurantes, distribuidores), en vez de competir por el consumidor final urbano orientado a sostenibilidad. | Comunidad de adopción consolidada y logística de distribución propia en Europa. | No ofrece custodia de fondos por hitos ni verificación automatizada; su logística de última milla no está adaptada a la operación de un comerciante comprador. |
-| <br><img src="assets/logos/acretrader.png" width="90"> | Diferenciarse de un vehículo de inversión pasiva incorporando herramientas de seguimiento diario del cultivo (evidencia, alertas climáticas) que ningún inversionista de tierra necesita, pero todo comerciante comprador sí. | Solidez financiera y modelo de inversión fraccionada ya validado en Estados Unidos. | No atiende la necesidad operativa de abastecimiento del comerciante ni brinda visibilidad del avance del cultivo; solo ofrece retorno financiero pasivo. |
-| <br><img src="assets/logos/traive.png" width="90"> | Ofrecer al comerciante control directo del pago y visibilidad del cultivo, sin depender de un tercero prestamista que evalúa el riesgo del agricultor a distancia y sin visibilidad de campo. | Modelo de riesgo crediticio con IA validado, con fondeo internacional (Serie A) y adopción por bancos y distribuidores de insumos. | No brinda visibilidad operativa del cultivo ni evidencia verificable del avance; el agricultor no es su cliente directo, sino el prestamista. |
-| <br><img src="assets/logos/kilimo.png" width="90"> | Posicionar las alertas climáticas de Muyu como parte de un servicio integral de financiamiento y trazabilidad, cubriendo la necesidad de pago y evidencia que Kilimo no atiende, en vez de competir solo en optimización de riego. | Presencia validada en 7 países y alianzas corporativas de sostenibilidad de alto perfil (Coca-Cola, Microsoft, Google). | No conecta al agricultor con un comprador ni resuelve el financiamiento del ciclo de cultivo; su alcance se limita a la gestión del riego. |
+| <br><img src="assets/images/chapter02/logos/farmizen.png" width="90"> | Ofrecer evidencia georreferenciada automática (GPS + timestamp) y funcionamiento offline-first como estándar desde el primer lanzamiento, en vez de depender de fotos y reportes manuales dentro de la app. | App ya probada, con más de 10 000 descargas y comunidad activa de consumidores. | No custodia fondos por hitos ni verifica automáticamente el origen de las evidencias; usuarios han reportado quejas de calidad del producto entregado. |
+| <br><img src="assets/images/chapter02/logos/cropital.png" width="90"> | Digitalizar por completo el ciclo de verificación: reemplazar las visitas y entrevistas presenciales por evidencia fotográfica georreferenciada y aprobación remota desde el celular del comerciante. | Respaldo institucional internacional y acceso a seguro agrícola para los productores financiados. | Proceso de verificación de campo manual y sin app móvil, lo que limita la velocidad de aprobación de hitos y la escala geográfica. |
+| <br><img src="assets/images/chapter02/logos/crowdfarming.png" width="90"> | Posicionar a Muyu como proveedor de insumo estable para negocios (restaurantes, distribuidores), en vez de competir por el consumidor final urbano orientado a sostenibilidad. | Comunidad de adopción consolidada y logística de distribución propia en Europa. | No ofrece custodia de fondos por hitos ni verificación automatizada; su logística de última milla no está adaptada a la operación de un comerciante comprador. |
+| <br><img src="assets/images/chapter02/logos/acretrader.png" width="90"> | Diferenciarse de un vehículo de inversión pasiva incorporando herramientas de seguimiento diario del cultivo (evidencia, alertas climáticas) que ningún inversionista de tierra necesita, pero todo comerciante comprador sí. | Solidez financiera y modelo de inversión fraccionada ya validado en Estados Unidos. | No atiende la necesidad operativa de abastecimiento del comerciante ni brinda visibilidad del avance del cultivo; solo ofrece retorno financiero pasivo. |
+| <br><img src="assets/images/chapter02/logos/traive.png" width="90"> | Ofrecer al comerciante control directo del pago y visibilidad del cultivo, sin depender de un tercero prestamista que evalúa el riesgo del agricultor a distancia y sin visibilidad de campo. | Modelo de riesgo crediticio con IA validado, con fondeo internacional (Serie A) y adopción por bancos y distribuidores de insumos. | No brinda visibilidad operativa del cultivo ni evidencia verificable del avance; el agricultor no es su cliente directo, sino el prestamista. |
+| <br><img src="assets/images/chapter02/logos/kilimo.png" width="90"> | Posicionar las alertas climáticas de Muyu como parte de un servicio integral de financiamiento y trazabilidad, cubriendo la necesidad de pago y evidencia que Kilimo no atiende, en vez de competir solo en optimización de riego. | Presencia validada en 7 países y alianzas corporativas de sostenibilidad de alto perfil (Coca-Cola, Microsoft, Google). | No conecta al agricultor con un comprador ni resuelve el financiamiento del ciclo de cultivo; su alcance se limita a la gestión del riego. |
 
 A partir del análisis competitivo desarrollado, se consolidan las Fortalezas, Oportunidades, Debilidades y Amenazas (FODA) propias de Muyu, y se cruzan para derivar cuatro grupos de estrategias (Corregir, Afrontar, Mantener, Explotar).
 
 | | **Oportunidades (O)** | **Amenazas (A)** |
 |---|---|---|
-| Matriz F.O.D.A. y C.A.M.E.<br><img src="assets/logos/muyu.jpeg" width="160"> | O1. Mercado peruano/LatAm sin un competidor directo consolidado que combine Escrow + evidencia georreferenciada.<br>O2. Alianzas con cooperativas y asociaciones agrarias ya constituidas (AGRO RURAL, municipios).<br>O3. Vacío dejado por competidores indirectos: Kilimo no financia, Traive no da visibilidad de campo.<br>O4. Penetración creciente de smartphones en zonas rurales. | A1. Ingreso de un competidor internacional directo (Cropital, CrowdFarming o Farmizen) al mercado peruano.<br>A2. Resistencia a la adopción tecnológica de agricultores de mayor edad.<br>A3. Que un competidor indirecto (Kilimo o Traive) integre las funciones que hoy diferencian a Muyu.<br>A4. Variabilidad de conectividad y dispositivos antiguos en zonas rurales. |
+| Matriz F.O.D.A. y C.A.M.E.<br><img src="assets/images/chapter02/logos/muyu.jpeg" width="160"> | O1. Mercado peruano/LatAm sin un competidor directo consolidado que combine Escrow + evidencia georreferenciada.<br>O2. Alianzas con cooperativas y asociaciones agrarias ya constituidas (AGRO RURAL, municipios).<br>O3. Vacío dejado por competidores indirectos: Kilimo no financia, Traive no da visibilidad de campo.<br>O4. Penetración creciente de smartphones en zonas rurales. | A1. Ingreso de un competidor internacional directo (Cropital, CrowdFarming o Farmizen) al mercado peruano.<br>A2. Resistencia a la adopción tecnológica de agricultores de mayor edad.<br>A3. Que un competidor indirecto (Kilimo o Traive) integre las funciones que hoy diferencian a Muyu.<br>A4. Variabilidad de conectividad y dispositivos antiguos en zonas rurales. |
 | **Fortalezas (F)**<br>F1. Escrow con liberación de fondos por hitos verificables (foto + GPS + timestamp), único frente a los 6 competidores analizados.<br>F2. Funcionamiento offline-first adaptado a la conectividad limitada del campo.<br>F3. Resuelve simultáneamente financiamiento y trazabilidad operativa; ningún competidor lo hace a la vez. | **Estrategia Ofensiva (FO)**<br>FO1. Usar el Escrow verificable (F1) como argumento central en alianzas con cooperativas (O2), ofreciendo garantía de pago transparente como gancho de adopción.<br>FO2. Aprovechar el offline-first (F2) para posicionarse en zonas rurales de conectividad limitada (O4) antes que competidores internacionales dependientes de conexión constante.<br>FO3. Capitalizar la propuesta única de financiamiento + trazabilidad (F3) para captar al comerciante que hoy usa soluciones parciales como Kilimo o Traive (O3). | **Estrategia Defensiva (FA)**<br>FA1. Comunicar el Escrow verificable (F1) como sello de confianza ante la eventual llegada de un competidor internacional (A1), acelerando el efecto de red local antes de que aterricen.<br>FA2. Diseñar la app para dispositivos de gama baja y modo offline robusto (F2), mitigando el riesgo de exclusión por conectividad o hardware antiguo (A4).<br>FA3. Mantener el foco en un problema resuelto de punta a punta (F3) para que, si un competidor indirecto agrega una función aislada (A3), no logre igualar la propuesta integral de Muyu. |
 | **Debilidades (D)**<br>D1. Marca nueva sin comunidad de usuarios ni historial de transacciones.<br>D2. Dependencia de un solo canal de captación inicial (alianzas con cooperativas) mientras se consolida un flujo propio de adquisición.<br>D3. Sin integraciones con actores financieros externos (a diferencia de Traive) que amplíen el acceso a crédito de los agricultores. | **Estrategia de Reorientación (DO)**<br>DO1. Usar las alianzas con cooperativas (O2) como fuente de validación social que compense la falta de historial de transacciones (D1).<br>DO2. Explorar en una fase posterior una integración ligera con actores de crédito agrícola (O3) para cerrar la brecha de D3 sin construir un motor de scoring propio desde cero.<br>DO3. Diversificar canales de adquisición más allá de cooperativas (mitigando D2), replicando el gancho de alertas climáticas gratuitas con promotores locales y municipios. | **Estrategia de Supervivencia (DA)**<br>DA1. Priorizar el lanzamiento en un solo valle agrícola (foco de nicho) antes de expandirse, para no exponer la debilidad de marca nueva (D1) frente a un competidor internacional en múltiples frentes (A1).<br>DA2. Mantener llamada telefónica como respaldo de las notificaciones push, para que la dependencia de un solo canal (D2) no se agrave si falla la conectividad (A4).<br>DA3. Documentar y resguardar internamente el motor de reglas del Escrow para reducir el riesgo de réplica por un competidor indirecto (A3) mientras la marca aún no tiene defensa reputacional (D1). |
 
@@ -403,8 +403,211 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
     - ¿Hay alguna tarea de su trabajo que le gustaría realizar de forma más rápida o sencilla desde su celular?
 
 ### 2.2.2. Registro de entrevistas
+
+### Segmento: Comerciante / Comprador
+
+<table>
+
+<tr><th colspan="4">Entrevista #1</th></tr>
+
+<tr>
+  <td><strong>Nombre completo</strong></td>
+  <td colspan="3">Estefanía </td>
+</tr>
+
+<tr>
+  <td><strong>Edad</strong></td>
+  <td>25 años</td>
+  <td><strong>Distrito</strong></td>
+  <td>San Juan de Lurigancho</td>
+</tr>
+
+<tr>
+  <td><strong>Ocupación</strong></td>
+  <td>Comerciante mayorista de productos agrícolas</td>
+  <td><strong>Inicio y duración</strong></td>
+  <td>00:00 - 11:50</td>
+</tr>
+
+<tr>
+  <td><strong>Enlace</strong></td>
+  <td colspan="3">
+    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114701_upc_edu_pe/IQAqMqcQjia8RqBywags0-u8AUjZ33x0Dn8me5iLn0ckPPE">
+      upc-pre-202620-1acc0238-13981-allpatech-needfinding-av1.mp4
+    </a>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" valign="top">
+    <strong>Resumen</strong><br>
+    Estefanía tiene 25 años y hace cinco años que se dedica a la venta al por mayor de productos agrícolas. Empezó ayudando en el negocio de su padre, y hoy a minoristas, bodegas y restaurantes.Todos los días, entre compras, compra tomate, limón, palta, cebolla, porque necesita que la mercadería esté fresca. Sus proveedores principales son acopiadores, otros mayoristas y, en algunos casos, agricultores con los que tiene contacto directo. Busca un proveedor que ofrezca buena calidad, precios transparentes y una respuesta ágil por WhatsApp. Entre sus principales problemas menciona la fluctuación de los precios, los bloqueos en las carreteras, los eventos climáticos y el riesgo de adelantar dinero sin tener la certeza de que el agricultor va a pagar. Para tener seguridad de una compra anticipada necesita ver el progreso del cultivo a través de fotos, videos e informes breves. Es importante que las evidencias porten GPS, fecha, hora y etapa productiva. También admite un sistema donde el dinero sea retenido y entregado por partes una vez comprobado el trabajo realizado. Le gusta que le avisen directamente al celular cuando hay que pagar, el clima, las plagas o cuando está cerca la cosecha.
+  </td>
+
+  <td colspan="2" valign="top">
+    <strong>Foto</strong><br>
+    <img src="assets/images/chapter02/entrevistas/comerciante-01.png" width="220">
+  </td>
+</tr>
+
+</table>
+
+<table>
+
+<tr><th colspan="4">Entrevista #2</th></tr>
+
+<tr>
+  <td><strong>Nombre completo</strong></td>
+  <td colspan="3">Sebastian Velgara Arturo Chavez</td>
+</tr>
+
+<tr>
+  <td><strong>Edad</strong></td>
+  <td>22 años</td>
+  <td><strong>Distrito</strong></td>
+  <td>San Juan de Lurigancho</td>
+</tr>
+
+<tr>
+  <td><strong>Ocupación</strong></td>
+  <td>Trabaja en el rubro de gastronomia y ayuda en produccion</td>
+  <td><strong>Inicio y duración</strong></td>
+  <td>00:00 - 16:42</td>
+</tr>
+
+
+<tr>
+  <td><strong>Enlace</strong></td>
+  <td colspan="3">
+    <a href="https://1drv.ms/v/c/edf8af4855503e79/IQCw8y4bkdRSSpB8bc3-p4GKAQmIVxfnMViD72ykSOST93o?e=7qphgm">
+      upc-pre-202620-1acc0238-13981-allpatech-needfinding-av1.mp4
+    </a>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" valign="top">
+    <strong>Resumen</strong><br>
+    el entrevistado trabaja en un restaurante en Larcomar y se encarga del abastecimiento de productos agrícolas como tomate, limón y ajíes. Por el alto volumen de ventas, realizan pedidos grandes cada semana, aunque algunos productos se reponen cada tres o cuatro días según el consumo. Para elegir un proveedor, valora que pueda cumplir con las cantidades y pesos y que el producto llegue a tiempo, ya que no puede quedarse sin insumos que ya están en la carta. Quiere trazabilidad del proceso, información sobre el suelo, insumos usados y etapas del cultivo, todo con evidencia visual confiable. También le preocupa la inocuidad, los químicos utilizados y su impacto en el suelo
+
+  <td colspan="2" valign="top">
+    <strong>Foto</strong><br>
+    <img src="assets/images/chapter02/entrevistas/comerciante-02.png" width="220">
+  </td>
+</tr>
+
+</table>
+
+---
+
+### Segmento: Agricultor
+
+<table>
+
+<tr><th colspan="4">Entrevista #3</th></tr>
+
+<tr>
+  <td><strong>Nombre completo</strong></td>
+  <td colspan="3">Lili Vera Vela</td>
+</tr>
+
+<tr>
+  <td><strong>Edad</strong></td>
+  <td>52 años</td>
+  <td><strong>Distrito</strong></td>
+  <td>Chachapoyas</td>
+</tr>
+
+<tr>
+  <td><strong>Ocupación</strong></td>
+  <td>Agricultora de café</td>
+  <td><strong>Inicio y duración</strong></td>
+  <td>00:04-10:28</td>
+</tr>
+
+<tr>
+  <td><strong>Enlace</strong></td>
+  <td colspan="3">
+    <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQBkx-apSHa6R6Vm-K3aQe9DAYW7JrU9WlRYV9jap_T4aQE?e=b94ZJw">
+      upc-pre-202620-1acc0238-13981-allpatech-needfinding-av1.mp4
+    </a>
+  </td>
+</tr>
+<tr>
+  <td colspan="2" valign="top">
+    <strong>Resumen</strong><br>
+    Lili Vera Vela tiene 52 años y se dedica a la producción de café desde hace cerca de veinte años . Su trabajo diario consiste en revisar las plantas, aplicarles abono y agua, y vigilar el estado del cultivo. Si se encuentra con algún problema que no pueda resolver, busque el apoyo de los técnicos o de las personas de su entorno. El móvil le sirve sobre todo para llamar, porque mientras trabaja le resulta incómodo escribir mensajes, ya que sus manos suelen estar ocupadas o sucias. La conexión a Internet varía según la zona de la parcela, en algunos lugares debe buscar señal o pedirle a otra persona que envíe información. Envíe fotos, videos o audios cuando requiera asesoría para mostrar el estado del cultivo. Creo que es bueno sacar fotos aunque no pueda compartirlas y mandárlas cuando tenga señal. También aprecia que las fotos registren de forma automática la fecha, hora y lugar en el que fueron tomadas. En la entrevista contó que en una ocasión llovió sobre café que estaba secándose y por esto cree que es importante recibir avisos sobre los cambios climáticos. Para ella, las funciones principales deben seguir estando disponibles cuando se encuentra trabajando en áreas con conexión limitada.
+  </td>
+
+  <td colspan="2" valign="top">
+    <strong>Foto</strong><br>
+    <img src="assets/images/chapter02/entrevistas/agricultor-01.png" width="220">
+  </td>
+</tr>
+
+</table>
+
+<table>
+
+<tr><th colspan="4">Entrevista #4</th></tr>
+
+<tr>
+  <td><strong>Nombre completo</strong></td>
+  <td colspan="3">Jorge Manuel Nitales Negro</td>
+</tr>
+
+<tr>
+  <td><strong>Edad</strong></td>
+  <td>22 años</td>
+  <td><strong>Distrito</strong></td>
+  <td>Huaral</td>
+</tr>
+
+<tr>
+  <td><strong>Ocupación</strong></td>
+  <td>Trabajador agrícola</td>
+  <td><strong>Inicio y duración</strong></td>
+  <td>00:00 - 10:30</td>
+</tr>
+
+<tr>
+  <td><strong>Enlace</strong></td>
+  <td colspan="3">
+    <a href="https://1drv.ms/v/c/edf8af4855503e79/IQCefFPQgLWIQKkhU0grteUiAdIKof5Ox_TjYF4enJms1-E?e=LqwgCu">
+      upc-pre-202620-1acc0238-13981-allpatech-needfinding-av1.mp4
+    </a>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" valign="top">
+    <strong>Resumen</strong><br>
+    Jorge Manuel Nitales Negro tiene 22 años y realiza labores agrícolas en zonas rurales de Huaral. Entre sus principales actividades se encuentran gestionar el riego de los cultivos, revisar su crecimiento y determinar cuándo necesitan más fertilizantes. Su trabajo exige desplazarse dentro de las zonas de cultivo y revisar de forma constante el estado de las plantas.
+
+  <td colspan="2" valign="top">
+    <strong>Foto</strong><br>
+    <img src="assets/images/chapter02/entrevistas/agricultor-02.png" width="220">
+  </td>
+</tr>
+
+</table>
+
+<table>
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+A partir de la información obtenida durante las entrevistas y del análisis de los segmentos objetivo, se elaboraron dos User Personas.
+
+#### User Persona: Miguel Quispe
+
+![User Persona - Miguel Quispe](assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png)
+
+#### User Persona: Valeria Mendoza
+
+
+![User Persona - Valeria Mendoza](assets/images/chapter02/uxpressia/valeria-mendoza-user-persona.png)
+
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
@@ -1388,9 +1591,6 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 
 ### 2.4.2. Impact Mapping
 
-<img src="assets/images/chapter02/Impact map agricultor.png" alt="Impact map agricultor" width="800" />
-
-<img src="assets/images/chapter02/impact map comerciante.png" alt="Impact map comerciante" width="800" />
 
 ### 2.4.3. Product Backlog
 
@@ -1453,17 +1653,6 @@ A continuación se presenta la evidencia gráfica dividida en la vista general d
 
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
-
-
-En esta sección se modela la dinámica de colaboración e intercambio de mensajes entre los distintos *Bounded Contexts* previamente identificados para la plataforma **MUYU**. A través de la técnica de **Domain Storytelling**, se representa de forma secuencial la interacción entre los actores de negocio, los objetos de trabajo (*Work Objects*) y los límites del sistema. 
-
-El objetivo principal de este modelado es visualizar cómo los eventos de dominio y comandos desencadenan flujos de proceso punta a punta (end-to-end), asegurando que la arquitectura orientada a eventos responda eficazmente a los casos de uso críticos de la aplicación, como la captura de evidencias en campo sin conectividad y la validación de hitos para la liberación de pagos en custodia (*Escrow*).
-
-<p align="center">
-  <img src="assets/images/chapter02/domain_message.png" width="800" />
-</p>
-
-
 #### 2.5.1.3. Bounded Context Canvases
 
 En primer lugar, el canvas del Contract & Escrow Service (Core Domain) detalla las reglas de negocio, los eventos de entrada y salida, y la terminología del lenguaje ubicuo necesarios para asegurar la custodia financiera y la liberación de pagos por hitos.
@@ -1481,18 +1670,6 @@ En primer lugar, el canvas del Contract & Escrow Service (Core Domain) detalla l
 
 
 ### 2.5.2. Context Mapping
-
-En esta sección se analiza y formaliza la estructura de relaciones estratégicas entre los distintos *Bounded Contexts* identificados para la solución **MUYU**. Aplicando los principios de Domain-Driven Design (DDD), el *Context Mapping* permite definir las fronteras organizacionales, los contratos de integración y el nivel de acoplamiento entre el núcleo del negocio (*Core Domain*), los servicios de soporte (*Supporting Domains*), los módulos genéricos y los sistemas externos.
-
-Para garantizar una arquitectura mantenible y resiliente, el equipo evaluó diferentes opciones de diseño mediante una discusión de alternativas (*Design Critique*). Como resultado, se establecieron patrones de integración claros —tales como *Customer/Supplier*, *Upstream/Downstream* y *Anti-Corruption Layer (ACL)*— que protegen la integridad del modelo de dominio frente a dependencias de terceros y optimizan la comunicación entre el cliente móvil *offline-first* y el backend.
-
-
-<p align="center">
-  <img src="assets/images/chapter02/context.png" width="800"/>  
-</p>
-
-
-
 ### 2.5.3. Software Architecture
 
 Para entender cómo se relaciona la aplicación móvil MUYU con su entorno, el diagrama de contexto (Nivel 1 C4) ubica la app en el centro del flujo operacional. A su alrededor se muestran los usuarios principales el Productor Agrícola en campo y el Comercializador junto con los servicios externos que respaldan la operación: el pronóstico del clima en tiempo real, la automatización de notificaciones y la pasarela de custodia financiera.
@@ -1517,211 +1694,16 @@ Este diagrama de despliegue representa la infraestructura física y en la nube d
 
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.1. Bounded Context: Contract & Escrow Service
+### 2.6.x. Bounded Context: <Bounded Context Name>
+#### 2.6.x.1. Domain Layer
+#### 2.6.x.2. Interface Layer
+#### 2.6.x.3. Application Layer
+#### 2.6.x.4. Infrastructure Layer
+#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.x.6.2. Bounded Context Database Design Diagram
 
-El Bounded Context Contract & Escrow Service representa la capacidad del sistema encargada de gestionar los
-acuerdos de producción agrícola y garantizar la seguridad financiera mediante la custodia de fondos (Escrow).
-Su propósito es crear contratos digitales, procesar pagos retenidos y liberar los fondos progresivamente 
-conforme el comerciante apruebe los hitos y evidencias de campo del agricultor. La entidad principal 
-es `Contract`, la cual concentra las reglas de negocio del acuerdo y el estado de la custodia. Este 
-contexto actúa como proveedor (Upstream) para las notificaciones y se integra fuertemente con la pasarela de pagos externa.
-
-#### 2.6.1.1. Domain Layer
-
-La capa de dominio contiene el núcleo de las reglas comerciales y la lógica de custodia de fondos.
-
-*   **Aggregate Root:** `Contract` (Atributos: id, farmerId, merchantId, totalAmount, status, createdAt).
-*   **Entities:** `Milestone` (Hito de cultivo), `Evidence` (Fotografía georreferenciada).
-*   **Value Objects:** `Money` (Monto y moneda), `GPSCoordinates` (Latitud y longitud), `ContractStatus` (Enum: PENDING_DEPOSIT, IN_PROGRESS, COMPLETED, DISPUTED), `MilestoneStatus` (Enum: PENDING, IN_REVIEW, APPROVED, REJECTED).
-*   **Commands:** `CreateContractCommand`, `FundEscrowCommand`, `SubmitEvidenceCommand`, `ApproveMilestoneCommand`.
-*   **Queries:** `GetContractByIdQuery`, `GetPendingMilestonesQuery`.
-*   **Domain Events:** `ContractSignedEvent`, `EscrowFundedEvent`, `EvidenceSubmittedEvent`, `MilestoneApprovedEvent`.
-*   **Reglas de negocio:** No se puede liberar un desembolso parcial si no existe una evidencia fotográfica validada con coordenadas GPS. El comerciante no puede retirar unilateralmente los fondos una vez que el agricultor ha iniciado el hito de siembra.
-
-#### 2.6.1.2. Interface Layer
-
-Contiene los controladores que exponen los servicios de gestión de contratos y pagos al frontend móvil de Muyu.
-
-*   **REST Controllers:** `ContractsController`, `EscrowController`, `EvidencesController`.
-*   **Endpoints:** `POST /api/v1/contracts`, `POST /api/v1/contracts/{id}/escrow/fund`, `POST /api/v1/milestones/{id}/evidences`, `PUT /api/v1/milestones/{id}/approve`.
-*   **DTOs:** `CreateContractResource`, `SubmitEvidenceResource`, `ContractSummaryResource`.
-*   **Assemblers:** Transforman los recursos HTTP en comandos del dominio (ej. `CreateContractCommandFromResourceAssembler`).
-
-#### 2.6.1.3. Application Layer
-
-Coordina los flujos de creación de acuerdos, carga de evidencias y liberación de fondos.
-
-*   **Command Services:** `ContractCommandServiceImpl` (Valida la disponibilidad de la parcela, estructura los hitos y guarda el contrato), `EscrowCommandServiceImpl` (Interactúa con la pasarela para bloquear o liberar fondos), `EvidenceCommandServiceImpl`.
-*   **Query Services:** `ContractQueryServiceImpl`.
-*   **Flujo principal:** El agricultor sube una evidencia; el `EvidenceCommandService` valida las coordenadas GPS contra las de la parcela. Si es correcto, guarda la evidencia, cambia el estado del hito a "IN_REVIEW" y dispara un evento para notificar al comerciante.
-
-#### 2.6.1.4. Infrastructure Layer
-
-Gestiona la persistencia, el almacenamiento de archivos y la integración con pasarelas financieras.
-
-*   **Repositories:** `ContractRepository` (extiende JpaRepository u ORM similar), `MilestoneRepository`.
-*   **Adapters:** `EscrowPaymentGatewayAdapter` (comunicación REST con la pasarela de pagos), `CloudStorageAdapter` (AWS S3 / Firebase Cloud Storage para guardar las fotografías comprimidas).
-*   **Persistencia:** Tablas `contracts`, `milestones` y `evidences` con llaves foráneas y restricciones de integridad.
-
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
-
-Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Contract & Escrow**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura)
-y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
-
-<div align="center">
-  <img src="assets/images/chapter02/level_diagrams_contract_escrow.png" alt="Contract Escrow Component Diagram" width="800" />
-</div>
-
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
-
-Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Contract`) y cómo interactúa con los servicios de comando y consulta (CQRS).
-
-<div align="center">
-  <img src="assets/images/chapter02/class_diagram_contract_escrow.png" alt="Contract Escrow Class Diagram" width="800" />
-</div>
-
-##### 2.6.1.6.2. Bounded Context Database Design Diagram
-
-Este diagrama relacional conectando `contracts`, `milestones` y `evidences`, donde cada hito pertenece a un contrato y cada evidencia está vinculada a un hito específico, garantizando la trazabilidad de la custodia.
-
-<div align="center">
-  <img src="assets/images/chapter02/db_diagram_contract_escrow.png" alt="Contract Escrow Database Diagram" width="800" />
-</div>
-
-### 2.6.2. Bounded Context: Parcel Management Service
-
-El Bounded Context Parcel Management Service (Supporting Domain) representa la capacidad del sistema encargada de administrar
-el inventario de tierras. Su propósito es registrar las hectáreas georreferenciadas con mapas GPS, catalogar tipos de suelo y
-gestionar la disponibilidad agrícola para que los comerciantes puedan descubrir ofertas productivas. La entidad principal es `Parcel`.
-
-#### 2.6.2.1. Domain Layer
-
-La capa de dominio contiene las reglas espaciales y de disponibilidad de los terrenos agrícolas.
-
-*   **Aggregate Root:** `Parcel` (Atributos: id, farmerId, name, area, soilType, status).
-*   **Entities:** `GPSBoundary` (Polígono georreferenciado).
-*   **Value Objects:** `Hectare` (Valor numérico), `GPSCoordinate` (Latitud, longitud, orden), `ParcelStatus` (Enum: AVAILABLE, IN_USE, UNAVAILABLE), `SoilType` (Enum: CLAY, SANDY, LOAMY, SILTY).
-*   **Commands:** `RegisterParcelCommand`, `UpdateParcelAvailabilityCommand`, `AssignCoordinatesCommand`.
-*   **Queries:** `GetAvailableParcelsQuery`, `GetParcelByIdQuery`.
-*   **Domain Events:** `ParcelRegisteredEvent`, `ParcelAvailabilityUpdatedEvent`.
-*   **Reglas de negocio:** Una parcela no puede cambiar a estado "Disponible" si tiene un contrato activo en el mismo periodo. Toda parcela debe contener al menos tres puntos GPS válidos para formar un polígono delimitado.
-
-#### 2.6.2.2. Interface Layer
-
-Contiene los controladores que exponen el catálogo de parcelas a la aplicación móvil.
-
-*   **REST Controllers:** `ParcelsController`.
-*   **Endpoints:** `POST /api/v1/parcels`, `GET /api/v1/parcels/available`, `PATCH /api/v1/parcels/{id}/status`.
-*   **DTOs:** `RegisterParcelResource`, `ParcelSummaryResource`.
-*   **Assemblers:** Transforman recursos HTTP en comandos (ej. `RegisterParcelCommandFromResourceAssembler`).
-
-#### 2.6.2.3. Application Layer
-
-Coordina los flujos de alta de terrenos y consultas de catálogo.
-
-*   **Command Services:** `ParcelCommandServiceImpl` (Valida polígonos GPS, asigna estado inicial y guarda la parcela).
-*   **Query Services:** `ParcelQueryServiceImpl` (Aplica filtros por área y tipo de suelo).
-*   **Flujo principal:** El agricultor envía los datos y coordenadas; el servicio verifica la geometría básica y persiste la parcela, emitiendo un evento para actualizar el catálogo.
-
-#### 2.6.2.4. Infrastructure Layer
-
-*   **Repositories:** `ParcelRepository` (extiende JpaRepository).
-*   **Adapters:** `OpenWeatherAdapter` (Consulta el clima basándose en las coordenadas registradas).
-*   **Persistencia:** Tablas `parcels` y `parcel_coordinates`.
-
-#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
-
-Este diagrama ilustra la arquitectura interna para gestionar el inventario de parcelas y sus coordenadas.
-
-<div align="center">
-  <img src="assets/images/chapter02/level_diagrams_parcel.png" alt="Contract Escrow Component Diagram" width="800" />
-</div>
-
-#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
-
-Este diagrama muestra el modelo de clases de la capa de dominio para el contexto de **Parcel Management**, detallando
-la entidad principal (`Parcel`), sus Value Objects asociados (como `GPSCoordinate` y `Hectare`) y la interacción con los servicios de comando y consulta.
-
-<div align="center">
-  <img src="assets/images/chapter02/class_diagram_parcel.png" alt="Contract Escrow Class Diagram" width="800" />
-</div>
-
-##### 2.6.2.6.2. Bounded Context Database Design Diagram
-
-Este diagrama representa el esquema físico de la base de datos relacional para el contexto de **Parcel Management**, detallando las tablas principales
-para el registro de parcelas y sus límites geográficos (coordenadas GPS).
-
-<div align="center">
-  <img src="assets/images/chapter02/db_diagram_parcel.png" alt="Contract Escrow Database Diagram" width="800" />
-</div>
-
-### 2.6.3. Bounded Context: MUYU Mobile Offline Sync Context
-
-El Bounded Context **MUYU Mobile Offline Sync** (Generic / Utility Domain) reside principalmente en la aplicación cliente móvil (Flutter). 
-Su propósito es garantizar la captura ininterrumpida de evidencias y reportes georreferenciados en zonas rurales donde no hay conexión a internet.
-Este contexto gestiona el almacenamiento local de los datos y los sincroniza automáticamente con el backend una vez que detecta que la red ha sido restaurada.
-
-#### 2.6.3.1. Domain Layer
-
-La capa de dominio modela las tareas en espera y su ciclo de vida según el estado de la red.
-
-*   **Aggregate Root:** `SyncQueue` (Cola local de tareas de sincronización).
-*   **Entities:** `SyncTask` (Tarea individual que encapsula una petición pendiente).
-*   **Value Objects:** `SyncStatus` (Enum: PENDING, IN_PROGRESS, SYNCED, FAILED), `Payload` (Cuerpo de los datos, ya sea JSON o binario para fotos).
-*   **Commands:** `EnqueueTaskCommand`, `ProcessSyncQueueCommand`, `MarkTaskAsSyncedCommand`.
-*   **Domain Events:** `NetworkRestoredEvent`, `SyncTaskCompletedEvent`, `SyncFailedEvent`.
-*   **Reglas de negocio:** Las tareas fallidas deben reintentarse utilizando un algoritmo de retroceso exponencial (Exponential Backoff) para no saturar el servidor al volver la conexión. Las fotos deben comprimirse antes de encolarse.
-
-#### 2.6.3.2. Interface Layer
-
-A diferencia del backend, la "interfaz" en este contexto móvil no es una API REST, sino los *Listeners* que escuchan los eventos del sistema operativo del teléfono.
-
-*   **Device Listeners:** `NetworkStateListener` (Escucha los cambios de conectividad Wi-Fi o Datos Móviles).
-*   **Background Workers:** `BackgroundSyncWorker` (Proceso desencadenado por el SO para sincronizar cuando la app está minimizada).
-
-#### 2.6.3.3. Application Layer
-
-Orquesta la lectura de tareas pendientes y la ejecución del envío.
-
-*   **Command Services:** `SyncCommandServiceImpl` (Encola las nuevas tareas cuando no hay internet y procesa la cola cuando regresa la señal).
-*   **Flujo principal:** Cuando `NetworkStateListener` detecta internet, dispara el comando `ProcessSyncQueueCommand`. El servicio extrae las `SyncTask` en estado PENDING y delega al adaptador HTTP su envío hacia el backend de Muyu.
-
-#### 2.6.3.4. Infrastructure Layer
-
-Gestiona la persistencia local en el smartphone y las llamadas HTTP de salida.
-
-*   **Repositories:** `SyncTaskLocalRepository` (Implementación usando SQLite o local storage interno del dispositivo móvil).
-*   **Adapters:** `ConnectivityAdapter` (Usa APIs nativas de Android/iOS para revisar la red), `ApiClientAdapter` (Ejecuta la petición HTTP final hacia la nube).
-*   **Persistencia:** Tablas locales `sync_tasks` en la base de datos interna del teléfono.
-
-#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
-
-Este diagrama detalla la arquitectura interna del motor de sincronización offline dentro del dispositivo móvil, manteniendo la estructura de separación de responsabilidades.
-
-<div align="center">
-  <img src="assets/images/chapter02/level_diagrams_MUYU_mobile.png" alt="Contract Escrow Component Diagram" width="800" />
-</div>
-
-#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
-
-Este diagrama muestra el modelo de clases de la capa de dominio para el contexto de **MUYU Mobile Offline Sync**, detallando el
-Aggregate Root (`SyncQueue`), la entidad individual de tarea (`SyncTask`) y cómo interactúan con los comandos desencadenados por los eventos del dispositivo.
-
-<div align="center">
-  <img src="assets/images/chapter02/class_diagram_MUYU_mobile.png" alt="Contract Escrow Class Diagram" width="800" />
-</div>
-
-##### 2.6.3.6.2. Bounded Context Database Design Diagram
-
-Este diagrama representa el esquema físico de la base de datos local (SQLite) en el dispositivo móvil para el contexto 
-de **MUYU Mobile Offline Sync**, detallando la tabla que almacena temporalmente las peticiones HTTP y las evidencias fotográficas antes de su sincronización.
-
-<div align="center">
-  <img src="assets/images/chapter02/db_diagram_MUYU_mobile.png" alt="Contract Escrow Database Diagram" width="800" />
-</div>
 
 # Capítulo III: Solution UI/UX Design
 
