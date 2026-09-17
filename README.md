@@ -145,6 +145,11 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 * **Objetivo 1 (Especialización Técnica):** Dominar de manera práctica el diseño de arquitecturas orientadas a microservicios e infraestructura en la nube en un plazo de 8 meses tras egresar. Para ello, dedicaré 6 horas semanales al desarrollo de proyectos personales complejos y al estudio de buenas prácticas de escalabilidad y rendimiento en software.
 * **Objetivo 2 (Crecimiento Profesional):** Incorporarme como *Software Engineer* en una empresa del sector tecnológico dentro de los primeros 2 años posteriores a la graduación, participando activamente en el diseño, desarrollo y despliegue de soluciones de software eficientes y de alto impacto.
 
+### Angel Guillermo Berrospi Marin
+* **Objetivo 1 (Especialización Técnica):** Aprender a desarrollar aplicaciones web y mobile con distintos tipos de lenguage y aplicar correctamente una arquitectura solida aplicando los principios que requieran para ofrecer un buen software.
+* **Objetivo 2 (Crecimiento Profesional):** Recibirme cómo *Software Engineer* y empezar a trabajar en una empresa del sector tecnológico o a fines con el propósito de crear nuevas aplicaciones que solucionen problemas cotidianos.
+
+
 
 ## Tabla de Contenidos
 
