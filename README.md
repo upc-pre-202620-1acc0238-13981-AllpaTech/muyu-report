@@ -1084,6 +1084,30 @@ En conjunto, el Big Picture Event Storming permitió al equipo comprender de man
 
 ### 2.3.6. Ubiquitous Language
 
+El Ubiquitous Language de AgroFlow establece un vocabulario común para los conceptos principales del dominio agrícola y de financiamiento manejados por agricultores, comerciantes y el equipo de desarrollo.
+
+El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conocimiento del dominio y valide los conceptos con los stakeholders.
+
+| Term | Spanish equivalent | Definition |
+|---|---|---|
+| **Farmer** | Agricultor | Persona responsable de gestionar una parcela agrícola, realizar labores de cultivo y registrar evidencias relacionadas con el avance de los hitos. |
+| **Merchant** | Comerciante | Persona interesada en financiar la producción agrícola y realizar seguimiento al cumplimiento de los hitos asociados a la parcela financiada. |
+| **Parcel** | Parcela | Unidad de terreno agrícola registrada dentro del proceso de producción y financiamiento. |
+| **Parcel Approval** | Aprobación de parcela | Validación mediante la cual se determina que una parcela cumple las condiciones necesarias para continuar con el proceso de financiamiento. |
+| **Financing** | Financiamiento | Acuerdo mediante el cual un comerciante asigna fondos para apoyar la producción correspondiente a una parcela. |
+| **Funded Parcel** | Parcela financiada | Parcela que cuenta con un financiamiento aceptado por un comerciante. |
+| **Escrow** | Escrow / depósito en garantía | Mecanismo mediante el cual los fondos asociados al financiamiento permanecen retenidos hasta que se cumplen las condiciones establecidas para su liberación. |
+| **Crop Work** | Labor de cultivo | Actividad agrícola realizada sobre la parcela como parte del proceso productivo. |
+| **Milestone** | Hito | Etapa verificable del proceso agrícola utilizada para evaluar el avance del trabajo realizado en una parcela financiada. |
+| **Evidence** | Evidencia | Registro que permite demostrar la realización o avance de una labor agrícola asociada a un hito. |
+| **Milestone Evidence** | Evidencia de hito | Evidencia presentada por el agricultor para sustentar el cumplimiento de un hito específico. |
+| **Evidence Review** | Revisión de evidencia | Evaluación realizada sobre la evidencia presentada para determinar si el hito cumple con las condiciones acordadas. |
+| **Milestone Approval** | Aprobación de hito | Decisión mediante la cual el comerciante acepta la evidencia presentada y reconoce el cumplimiento del hito. |
+| **Milestone Rejection** | Rechazo de hito | Decisión mediante la cual la evidencia presentada no es aceptada y el hito permanece pendiente de cumplimiento. |
+| **Correction Request** | Solicitud de corrección | Solicitud realizada después del rechazo de un hito para que el agricultor corrija o complete la evidencia requerida. |
+| **Payment Release** | Liberación de pago | Liberación de los fondos correspondientes después de que un hito cumple las condiciones establecidas. |
+| **Climate Alert** | Alerta climática | Aviso relacionado con una condición climática que puede afectar las labores agrícolas o el estado del cultivo. |
+
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
 <table width="100%">
