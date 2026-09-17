@@ -133,6 +133,11 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## Objetivos SMART
 
+### Mel Andree Orellana Rodriguez
+
+* **Objetivo 1 (Especialización Técnica):** Dominar de manera práctica el diseño de arquitecturas orientadas a microservicios e infraestructura en la nube en un plazo de 8 meses tras egresar. Para ello, dedicaré 6 horas semanales al desarrollo de proyectos personales complejos y al estudio de buenas prácticas de escalabilidad y rendimiento en software.
+* **Objetivo 2 (Crecimiento Profesional):** Incorporarme como *Software Engineer* en una empresa del sector tecnológico dentro de los primeros 2 años posteriores a la graduación, participando activamente en el diseño, desarrollo y despliegue de soluciones de software eficientes y de alto impacto.
+
 
 ## Tabla de Contenidos
 
