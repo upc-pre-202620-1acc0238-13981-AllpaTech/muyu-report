@@ -341,9 +341,68 @@ A partir del análisis competitivo desarrollado, se consolidan las Fortalezas, O
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
-### 2.2.2. Registro de entrevistas
-### 2.2.3. Análisis de entrevistas
 
+**Comerciante**
+ 
+Se busca comprender los desafíos actuales del comerciante o comprador al abastecerse de productos agrícolas de forma confiable y con precios estables y validar la propuesta de valor 
+ 
+- Contexto:
+    - ¿Me podría contar un poco sobre usted y el negocio al que se dedica?
+- Comportamiento de compra actual:
+    - ¿Qué productos agrícolas compra normalmente para su negocio?
+    - ¿Cada cuánto tiempo necesita comprar estos productos?
+    - ¿A quién le compra actualmente sus productos agrícolas?
+    - Cuando necesita comprar, ¿cómo decide a qué proveedor comprarle?
+    - ¿Los precios que paga por los productos agrícolas suelen variar mucho?
+    - ¿Alguna vez ha tenido problemas para conseguir la cantidad de producto que necesitaba?
+    - ¿Alguna vez ha comprado o separado productos directamente con un agricultor antes de la cosecha?
+- Percepción de riesgo y confianza:
+    - Si tuviera que pagar una parte del dinero antes de que el producto esté cosechado, ¿qué le preocuparía?
+    - ¿Qué necesitaría para confiar en que el agricultor está realizando correctamente el trabajo del cultivo?
+    - Cuando recibe una fotografía de un cultivo, ¿cómo comprobaría que fue tomada en ese terreno y en esa fecha?
+    - ¿Qué medio de comunicación revisa primero cuando un proveedor necesita contactarlo?
+- Validación de la propuesta, financiamiento de parcela y Escrow:
+    - Si hubiera pagado por adelantado una parte de una producción, ¿cada cuánto tiempo le gustaría conocer su avance?
+    - ¿Cómo preferiría recibir información sobre el avance del cultivo?
+    - Imagine que tiene la opción de elegir una parcela y acordar desde el inicio cuánto producto recibirá al finalizar la cosecha. ¿Le interesaría una forma de compra como esta? ¿Por qué?
+    - ¿Qué información necesitaría conocer sobre una parcela antes de aceptar trabajar con el agricultor?
+    - Imagine que el dinero entregado no llega de inmediato al agricultor. El dinero queda retenido y se libera por partes conforme termina cada etapa del cultivo. ¿Esto le daría mayor seguridad? ¿Qué necesitaría comprobar antes de aprobar cada pago?
+    - Si recibe fotografías y videos que demuestran que una etapa del cultivo terminó, ¿le gustaría aprobarla o rechazarla desde su celular?
+    - ¿Qué información tendría que aparecer junto con esas fotografías o videos para confiar en ellas?
+    - Si revisara desde su celular el avance completo del cultivo que está financiando, ¿qué información consideraría más importante?
+    - ¿Le gustaría recibir avisos sobre situaciones importantes relacionadas con el cultivo? ¿Qué avisos?
+    - ¿qué aspecto le daría mayor confianza para trabajar directamente con un agricultor?
+    - ¿Qué aspecto le generaría mayor preocupación en una forma de compra como esta?
+    - Si pudiera cambiar una sola cosa de la forma en que actualmente compra productos agrícolas, ¿qué cambiaría?
+ 
+**Agricultor**
+ 
+Se busca comprender los desafíos actuales del agricultor en el campo relacionados con la conectividad, el registro de evidencias del cultivo , los riesgos climáticos y validar la propuesta de valor 
+ 
+- Contexto:
+    - ¿Me podría contar un poco sobre usted y su trabajo en la agricultura?
+    - ¿Cómo es normalmente un día de trabajo suyo en el campo?
+    - ¿Cómo sabe qué trabajos debe realizar cada día o durante la semana?
+    - ¿Suele usar su celular mientras trabaja en el campo?
+    - ¿Qué cosas le resultan fáciles y cuáles le resultan difíciles cuando usa el celular durante su trabajo?
+    - ¿Cómo es la señal de internet o celular en el lugar donde trabaja?
+    - Cuando no tiene señal, ¿qué hace si necesita enviar un mensaje, una fotografía o algún tipo de información?
+    - ¿Alguna vez ha tenido que tomar fotografías del cultivo para mostrárselas a otra persona?
+    - Cuando envía una fotografía del cultivo, ¿cómo demuestra cuándo y dónde fue tomada?
+- Clima:
+    - ¿Cómo se informa normalmente sobre lluvias, cuando hace mucho frío u otros cambios del clima?
+    - ¿Alguna vez recibió demasiado tarde información sobre una lluvia fuerte, helada u otro cambio climático que afectara su cultivo?
+- Comunicación de avance:
+    - Cuando otra persona necesita conocer cómo está avanzando su cultivo, ¿cómo se comunica con ella?
+- Validación de la propuesta, offline-first, georreferenciación y alertas:
+    - Imagine que toma una fotografía en el campo cuando no tiene internet. ¿Le serviría que el celular guarde esa fotografía y la envíe automáticamente cuando regrese la señal? ¿Por qué?
+    - ¿Le serviría que, al tomar una fotografía, el celular registre automáticamente el lugar, la fecha y la hora?
+    - ¿Le gustaría recibir un aviso en su celular cuando exista riesgo de lluvia fuerte, helada u otro evento climático que afecte su cultivo? ¿Cómo preferiría recibir ese aviso?
+    - ¿Qué tipo de aviso revisaría con mayor rapidez?
+    - Si existiera una aplicación para ayudarlo con estas tareas, ¿qué sería lo más importante para que le resulte fácil de usar?
+    - ¿Hay alguna tarea de su trabajo que le gustaría realizar de forma más rápida o sencilla desde su celular?
+
+### 2.2.2. Registro de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
