@@ -1329,6 +1329,9 @@ A partir del análisis competitivo desarrollado, se consolidan las Fortalezas, O
 
 ### 2.4.2. Impact Mapping
 
+<img src="assets/images/chapter02/Impact map agricultor.png" alt="Impact map agricultor" width="800" />
+
+<img src="assets/images/chapter02/impact map comerciante.png" alt="Impact map comerciante" width="800" />
 
 ### 2.4.3. Product Backlog
 
