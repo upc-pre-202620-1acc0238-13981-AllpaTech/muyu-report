@@ -57,6 +57,7 @@
 |   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Elaboración de la sección de Bounded Context Canvases con sus diagramas e introducciones técnicas.                             |
 |   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Desarrollo de la sección 2.5.1 de EventStorming (Big Picture) y alineación de diseño centrado.                               |
 |   AV1   | 11-09-2026 | Orellana Rodriguez, Mel Andree      | Incorporación del diagrama de Context Map a la sección de arquitectura de software y assets del proyecto.                              |
+|   AV1   | 13-09-2026| Quintanilla Pozo, Gonzalo Samuel      | Desarrollo del Capítulo 2.6 (Tactical-Level Domain-Driven Design), incluyendo la estructuración de capas (Dominio, Interfaz, Aplicación, Infraestructura) y la elaboración de diagramas de componentes, clases y bases de datos para los Bounded Contexts. |
 |   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de entrevista para 2.2.2. Registro de entrevistas.                              |
 |   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de User Stories para 2.4.1. User Stories.                              |  
 |   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de Impact mapping agricultor y comerciante para 2.4.2. Impact Mapping.                              | 
@@ -82,8 +83,7 @@
 | Mel Andree Orellana Rodriguez | Creación e inicialización de la estructura técnica del reporte, desarrollo de la sección de elicitación de requerimientos, priorización del Product Backlog, diseño y desarrollo de diagramas de EventStorming (Big Picture), Bounded Context Canvases, Context Map, y diagramas de arquitectura de software C4 (Contexto, Contenedor y Despliegue). |
 |Emily Juliette Arroyo Gonzales| Desarrollo de la edición del informe y redacción del capítulo 1|
 | Jennifer Yamilet Riveros Vera | Diseño y registro de entrevistas; incorporación de evidencias; elaboración y actualización de User Personas, User Task Matrix, User Journey Maps y Empathy Maps; análisis de entrevistas y dispositivos móviles; desarrollo del Big Picture Event Storming; elaboración del Ubiquitous Language|
-| [Nombre Completo 5] | [Lista de tareas realizadas] |
-
+|Gonzalo Samuel Quintanilla Pozo | Desarrollo del diseño táctico de la arquitectura de software mediante Domain-Driven Design (Capítulo 2.6). Lideré la estructuración de las capas de Dominio, Interfaz, Aplicación e Infraestructura, así como la elaboración de los diagramas de componentes, diagramas de clases de dominio y diseño de esquemas de base de datos para los Bounded Contexts: Contract & Escrow Service, Parcel Management Service y MUYU Mobile Offline Sync Context.|
 </div>
 
 
@@ -117,6 +117,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
             <li><b> AV1 - Mel Andree Orellana Rodriguez:</b> Investigué e implementé conceptos clave de Domain-Driven Design (DDD) y arquitectura de software C4 para estructurar el informe del proyecto Muyu. Además, configuré la estructura inicial del reporte, redacté la sección de elicitación de requerimientos, prioricé el Product Backlog y desarrollé los diagramas de contexto, contenedores, despliegue y Bounded Context Canvases.</li>
             <li><b> AV1 - Emily Juliette Arroyo Gonzales:</b> Reconocí la importancia del aprendizaje permanente al investigar y aplicar técnicas como Lean UX, 5W y 2H en el desarrollo del proyecto Muyu. Este proceso me permitió ampliar mis conocimientos sobre análisis de problemas, formulación de supuestos e hipótesis y definición de usuarios, comprendiendo que la actualización constante es necesaria para proponer soluciones de software adecuadas a las necesidades reales.</li>
             <li><b>AV1 - Jennifer Yamilet Riveros Vera:</b> Investigué y apliqué técnicas de Needfinding y modelado de dominio durante el desarrollo del Capítulo II. Elaboré User Personas, User Task Matrix, User Journey Maps y Empathy Maps a partir de la información obtenida en las entrevistas. También desarrollé el análisis de entrevistas y dispositivos móviles, y apliqué Big Picture Event Storming y Ubiquitous Language para representar y definir conceptos relevantes del dominio.</li>
+            <li><b>AV1 - Gonzalo Samuel Quintanilla Pozo:</b> Asumí el liderazgo técnico en el diseño táctico de la arquitectura (Domain-Driven Design) desde la sección 2.6. Me encargué de estructurar las capas de Dominio, Aplicación e Infraestructura, y elaboré los diagramas de componentes, clases y diseño de base de datos (relacional y local) para los Bounded Contexts del proyecto.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -133,6 +134,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
             <li><b> AV1 - Mel Andree Orellana Rodriguez:</b> Asumí el rol de mantener la coherencia técnica de la documentación del proyecto, aprendiendo dinámicamente sobre la metodología EventStorming (Big Picture) para modelar adecuadamente el dominio, además de integrar continuamente mejoras en el backlog y en los assets visuales del repositorio dentro del flujo de trabajo del equipo.</li>
              <li><b> AV1 - Emily Juliette Arroyo Gonzales:</b> Asumí el rol de mantener la coherencia del Capítulo I del proyecto, aprendiendo de manera continua sobre Lean UX y la técnica 5W y 2H para analizar correctamente la problemática, además de integrar mejoras en los supuestos, las hipótesis, el Lean UX Canvas y los segmentos objetivo dentro del flujo de trabajo del equipo.</li>
              <li><b>AV1 - Jennifer Yamilet Riveros Vera:</b> Durante la elaboración de los artefactos de Needfinding y modelado del dominio, revisé y adapté continuamente mis conocimientos para corregir User Personas, User Journey Maps y el Big Picture Event Storming conforme avanzaba la comprensión del proyecto.</li>
+             <li><b>AV1 - Gonzalo Samuel Quintanilla Pozo:</b> Planifiqué el desarrollo de los esquemas tácticos asegurando su entrega en los plazos establecidos. Coordiné activamente con mis compañeros para garantizar que mis diagramas de bases de datos y clases estuvieran perfectamente alineados con el EventStorming y el Context Mapping general construido por el resto del equipo.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -166,6 +168,10 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 - **Objetivo 2 (Crecimiento Profesional):** Obtener una posición como Data Analyst o Software Engineer enfocada en soluciones de inteligencia de negocios dentro del primer año tras finalizar la carrera, aplicando análisis de datos e interfaces optimizadas en proyectos de impacto real.
 
+### Quintanilla Pozo Gonzalo Samuel
+- **Objetivo 1 (Especialización Técnica):** Dominar de manera práctica el desarrollo y la arquitectura de software basada en Domain-Driven Design (DDD) y el despliegue de microservicios utilizando frameworks modernos como Spring Boot y Node.js en un plazo de 8 meses. Para lograrlo, mantendré una estricta disciplina técnica, dedicando 6 horas semanales a la construcción de proyectos personales de desarrollo web y móvil que integren bases de datos relacionales y NoSQL.
+
+- **Objetivo 2 (Crecimiento Profesional):** Expandir y consolidar mis servicios como desarrollador web freelance para clientes independientes y, de manera paralela, incorporarme como Software Engineer Full-Stack en una empresa del sector tecnológico dentro del primer año tras mi graduación, aportando mi capacidad para diseñar e implementar soluciones de software escalables.
 
 ## Tabla de Contenidos
 
@@ -357,7 +363,7 @@ La causa principal es la falta de un medio móvil que concentre las actividades,
 
 ##### ¿En qué condiciones se utilizará la aplicación?
 
-Los agricultores usarán AgroFlow durante su jornada, desde un teléfono con cámara y bajo condiciones variables de conectividad. Los comerciantes accederán desde sus dispositivos para supervisar los acuerdos y atender las solicitudes pendientes.
+Los agricultores usarán Muyu durante su jornada, desde un teléfono con cámara y bajo condiciones variables de conectividad. Los comerciantes accederán desde sus dispositivos para supervisar los acuerdos y atender las solicitudes pendientes.
 
 ##### ¿Cómo necesitan acceder los usuarios?
 
@@ -392,7 +398,7 @@ Nuestro enfoque inicial estará en agricultores que ofrecen sus terrenos y comer
 
 - Creemos que los comerciantes estarán dispuestos a pagar por un servicio que les permita supervisar sus acuerdos y el uso de sus fondos.
 
-- Creemos que ofrecer acceso sin costo a los agricultores favorecerá la adopción de AgroFlow.
+- Creemos que ofrecer acceso sin costo a los agricultores favorecerá la adopción de Muyu.
 
 ##### b. Business Outcomes Assumptions
 
@@ -1062,9 +1068,7 @@ El recorrido que se describe es un viaje de cinco fases que generalmente va de l
 
 ### 2.3.5. Big Picture EventStorming
 
-### 2.3.5. Big Picture Event Storming
-
-El equipo realizó una sesión de Big Picture Event Storming con el objetivo de comprender el dominio general de AgroFlow e identificar los principales eventos del negocio, sus relaciones y los actores involucrados. Esta actividad permitió obtener una visión de alto nivel sobre el proceso de publicación de parcelas, financiamiento, ejecución de labores, registro de evidencias y validación de hitos.
+El equipo realizó una sesión de Big Picture Event Storming con el objetivo de comprender el dominio general de Muyu e identificar los principales eventos del negocio, sus relaciones y los actores involucrados. Esta actividad permitió obtener una visión de alto nivel sobre el proceso de publicación de parcelas, financiamiento, ejecución de labores, registro de evidencias y validación de hitos.
 
 #### Step 1: Collect Domain Events
 
@@ -1084,7 +1088,7 @@ En conjunto, el Big Picture Event Storming permitió al equipo comprender de man
 
 ### 2.3.6. Ubiquitous Language
 
-El Ubiquitous Language de AgroFlow establece un vocabulario común para los conceptos principales del dominio agrícola y de financiamiento manejados por agricultores, comerciantes y el equipo de desarrollo.
+El Ubiquitous Language de Muyu establece un vocabulario común para los conceptos principales del dominio agrícola y de financiamiento manejados por agricultores, comerciantes y el equipo de desarrollo.
 
 El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conocimiento del dominio y valide los conceptos con los stakeholders.
 
@@ -2134,7 +2138,7 @@ El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
 
-En esta sección se documenta el EventStorming realizado por el equipo de TerraNova para modelar el dominio de la plataforma ALLPATEK. Esta dinámica permitió mapear los eventos clave del dominio, los comandos accionados por los actores (Productor Agrícola y Comerciante, los puntos de dolor operacionales y las integraciones con sistemas externos como la Bóveda Escrow, el motor n8n y la API de OpenWeather.
+Esta dinámica permitió mapear los eventos clave del dominio, los comandos accionados por los actores (Productor Agrícola y Comerciante, los puntos de dolor operacionales y las integraciones con sistemas externos como la Bóveda Escrow, el motor n8n y la API de OpenWeather.
 
 A continuación se presenta la evidencia gráfica dividida en la vista general del tablero y las secciones detalladas del flujo de negocio:
 
@@ -2305,5 +2309,9 @@ Este diagrama de despliegue representa la infraestructura física y en la nube d
 
 Se incluye el reporte elaborado en Power BI y los archivos relacionados con el procesamiento de los resultados.
 [Acceder al material del análisis de entrevistas](https://drive.google.com/drive/folders/1oKjyxYU3_nnoHlnLRSSLgNb32xE3QeD8?usp=sharing)
+
+## Anexo B. Needfinding
+
+[Acceder a las imagenes del Needfinding](https://drive.google.com/drive/folders/1duMlYLnnMw7aKBI8piZhUOFh11Hg-Plf?usp=sharing)
 
 
