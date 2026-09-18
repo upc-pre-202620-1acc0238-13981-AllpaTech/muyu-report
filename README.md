@@ -392,7 +392,7 @@ Nuestro enfoque inicial estará en agricultores que ofrecen sus terrenos y comer
 
 - Creemos que los comerciantes estarán dispuestos a pagar por un servicio que les permita supervisar sus acuerdos y el uso de sus fondos.
 
-- Creemos que ofrecer acceso sin costo a los agricultores favorecerá la adopción de AgroFlow.
+- Creemos que ofrecer acceso sin costo a los agricultores favorecerá la adopción de AllpaTech.
 
 ##### b. Business Outcomes Assumptions
 
