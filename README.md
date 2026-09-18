@@ -357,7 +357,7 @@ La causa principal es la falta de un medio móvil que concentre las actividades,
 
 ##### ¿En qué condiciones se utilizará la aplicación?
 
-Los agricultores usarán AgroFlow durante su jornada, desde un teléfono con cámara y bajo condiciones variables de conectividad. Los comerciantes accederán desde sus dispositivos para supervisar los acuerdos y atender las solicitudes pendientes.
+Los agricultores usarán Muyu durante su jornada, desde un teléfono con cámara y bajo condiciones variables de conectividad. Los comerciantes accederán desde sus dispositivos para supervisar los acuerdos y atender las solicitudes pendientes.
 
 ##### ¿Cómo necesitan acceder los usuarios?
 
