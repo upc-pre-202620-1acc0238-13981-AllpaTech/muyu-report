@@ -3,25 +3,25 @@
 </div>
 <h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
-<h3 align="center">Carrera de [Nombre de la Carrera] </h3>
+<h3 align="center">Carrera de Ingeniería de Software </h3>
 
-<h3 align="center">[Código del Curso] </h3>
-<h3 align="center">[Nombre del Curso] </h3>
+<h3 align="center">1ACC0238 </h3>
+<h3 align="center">Aplicaciones para Dispositivos Móviles </h3>
 <h3 align="center"> NRC </h3>
-<h3 align="center"> [Número de NRC] </h3>
+<h3 align="center"> 13981 </h3>
 
-<h3 align="center"> [Título del Informe / Trabajo]</h3>
+<h3 align="center"> Informe Avance 1</h3>
 
 
 <h3 align="center"> Docente</h3>
-<h3 align="center"> [Nombre del Docente] </h3>
+<h3 align="center"> Jorge Luis Mayta Guillermo </h3>
 
 
-<h3 align="center"> Equipo </h3>
-<h3 align="center"> [Nombre del Equipo] </h3>
+<h3 align="center"> Grupo 4 </h3>
 
 <h3 align="center"> Proyecto</h3>
-<h3 align="center"> [Nombre del Proyecto] </h3>
+<h3 align="center"> Startup: AllpaTech </h3>
+<h3 align="center"> Producto: Muyu </h3>
 
 <h3 align="center"> Integrantes </h3>
 
@@ -29,16 +29,16 @@
 
 | Code | Member |
 | :---: | :--- |
-| [Código 1] | [Nombre del Integrante 1] |
-| [Código 2] | [Nombre del Integrante 2] |
-| [Código 3] | [Nombre del Integrante 3] |
-| [Código 4] | [Nombre del Integrante 4] |
-| [Código 5] | [Nombre del Integrante 5] |
+| u202311469 | Emily Juliette Arroyo Gonzales |
+| u20241c998 | Jennifer Yamilet Riveros Vera |
+| u202116018 | Mel Andree Orellana Rodriguez |
+| u202315007 | Gonzalo Samuel Quintanilla Pozo  |
+| u202114701 | Angel Guillermo Berrospi Marin |
 
 </div>
 
-<h3 align="center">Periodo [Año-Ciclo]</h3>
-<h3 align="center">[Mes Año]</h3>
+<h3 align="center">Periodo 2026-2</h3>
+<h3 align="center">Septiembre 2026</h3>
 
 
 <div style="page-break-after: always;"></div>
@@ -46,11 +46,30 @@
 ## Registro de Versiones del Informe
 
 <div align="center">
-
-| Versión |   Fecha    |                Autor                |                                                  Descripción de modificación                                                   |
+    
+| Versión |   Fecha    |                Autor                |                                                 Descripción de modificación                                                   |
 |:-------:|:----------:|:-----------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|
-| [Versión] | [DD-MM-AAAA] | [Apellidos, Nombres] | [Descripción del cambio o aporte] |
-
+|   AV1   | 27-08-2026 | Orellana Rodriguez, Mel Andree      | Creación e inicialización de la estructura técnica y plantilla base del reporte (UPC report template).                        |
+|   AV1   | 30-08-2026 | Orellana Rodriguez, Mel Andree      | Adición de imágenes y recursos visuales (assets) para la documentación del proyecto.                                           |
+|   AV1   | 08-09-2026 | Orellana Rodriguez, Mel Andree      | Elaboración de la sección de Product Backlog y priorización de Historias de Usuario.                                          |
+|   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Creación de la sección 2.3 de Elicitaciones de Requerimientos y análisis de competidores para el Capítulo 2.                   |
+|   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Desarrollo de la sección 2.5.3 de Arquitectura de Software e inclusión de diagramas C4 (Contexto, Contenedor y Despliegue).   |
+|   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Elaboración de la sección de Bounded Context Canvases con sus diagramas e introducciones técnicas.                             |
+|   AV1   | 09-09-2026 | Orellana Rodriguez, Mel Andree      | Desarrollo de la sección 2.5.1 de EventStorming (Big Picture) y alineación de diseño centrado.                               |
+|   AV1   | 11-09-2026 | Orellana Rodriguez, Mel Andree      | Incorporación del diagrama de Context Map a la sección de arquitectura de software y assets del proyecto.                              |
+|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de entrevista para 2.2.2. Registro de entrevistas.                              |
+|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de User Stories para 2.4.1. User Stories.                              |  
+|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de Impact mapping agricultor y comerciante para 2.4.2. Impact Mapping.                              | 
+|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.5.1.1. Candidate Context Discovery. |
+|   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette     | Edición de portada del informe. |
+|   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette       | Desarrollo del 1.1.1. Descripción de la Startup y 1.1.2. Perfiles de integrantes del equipo  |
+|   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette       | Desarrollo del 1.2.1. Antecedentes y problemática y 1.2.2. Lean UX Process |
+|   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette       | Desarrollo de los puntos 1.2.2.1. Lean UX Problem Statements, 1.2.2.2. Lean UX Assumptions, 1.2.2.3. Lean UXHypothesis Statements y 1.2.2.4. Lean UX Canvas |
+|   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette       | Desarrollo del punto 1.3. Segmentos objetivo  |
+| AV1 | 17-09-2026 | Riveros Vera, Jennifer Yamilet | Desarrollo del diseño y registro de entrevistas para los segmentos Agricultor y Comerciante / Comprador, incluyendo la incorporación y organización de evidencias visuales. |
+| AV1 | 17-09-2026 | Riveros Vera, Jennifer Yamilet | Elaboración y actualización de User Personas, User Task Matrix, User Journey Maps y Empathy Maps para los segmentos objetivo. |
+| AV1 | 17-09-2026 | Riveros Vera, Jennifer Yamilet | Desarrollo del análisis de entrevistas y dispositivos móviles. |
+| AV1 | 17-09-2026 | Riveros Vera, Jennifer Yamilet | Desarrollo del Big Picture Event Storming y elaboración de la sección Ubiquitous Language. |
 </div>
 
 ## Project Report Collaboration Insights
@@ -59,10 +78,10 @@
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| [Nombre Completo 1] | [Lista de tareas realizadas] |
-| [Nombre Completo 2] | [Lista de tareas realizadas] |
-| [Nombre Completo 3] | [Lista de tareas realizadas] |
-| [Nombre Completo 4] | [Lista de tareas realizadas] |
+| Angel Guillermo Berrospi Marin | Desarrollo de User stories y creación de su estructura, Desarrollo de Impact Mapping, Desarrollo de Entrevistas, Creación de la estructura de Porduct Backlog. |
+| Mel Andree Orellana Rodriguez | Creación e inicialización de la estructura técnica del reporte, desarrollo de la sección de elicitación de requerimientos, priorización del Product Backlog, diseño y desarrollo de diagramas de EventStorming (Big Picture), Bounded Context Canvases, Context Map, y diagramas de arquitectura de software C4 (Contexto, Contenedor y Despliegue). |
+|Emily Juliette Arroyo Gonzales| Desarrollo de la edición del informe y redacción del capítulo 1|
+| Jennifer Yamilet Riveros Vera | Diseño y registro de entrevistas; incorporación de evidencias; elaboración y actualización de User Personas, User Task Matrix, User Journey Maps y Empathy Maps; análisis de entrevistas y dispositivos móviles; desarrollo del Big Picture Event Storming; elaboración del Ubiquitous Language|
 | [Nombre Completo 5] | [Lista de tareas realizadas] |
 
 </div>
@@ -74,7 +93,9 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 
 
-# Student Outcome
+# Student Outcome 7
+
+
 
 <div align="center">
   <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
@@ -88,28 +109,34 @@ El proceso de colaboración en el informe se realizó mediante commits constante
     <tbody>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
-          Trabaja en equipo para proporcionar liderazgo en forma conjunta.
+          Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>[Entrega] - [Nombre del Integrante]:</b> [Descripción de la acción realizada]</li>
+            <li><b> AV1 - Angel Guillermo Berrospi Marin:</b> Fomenté comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejemplo el capítulo 2 con el impact mapping, user stories y entrevistas, de esa forma avance el trabajo. </li>
+            <li><b> AV1 - Mel Andree Orellana Rodriguez:</b> Investigué e implementé conceptos clave de Domain-Driven Design (DDD) y arquitectura de software C4 para estructurar el informe del proyecto Muyu. Además, configuré la estructura inicial del reporte, redacté la sección de elicitación de requerimientos, prioricé el Product Backlog y desarrollé los diagramas de contexto, contenedores, despliegue y Bounded Context Canvases.</li>
+            <li><b> AV1 - Emily Juliette Arroyo Gonzales:</b> Reconocí la importancia del aprendizaje permanente al investigar y aplicar técnicas como Lean UX, 5W y 2H en el desarrollo del proyecto Muyu. Este proceso me permitió ampliar mis conocimientos sobre análisis de problemas, formulación de supuestos e hipótesis y definición de usuarios, comprendiendo que la actualización constante es necesaria para proponer soluciones de software adecuadas a las necesidades reales.</li>
+            <li><b>AV1 - Jennifer Yamilet Riveros Vera:</b> Investigué y apliqué técnicas de Needfinding y modelado de dominio durante el desarrollo del Capítulo II. Elaboré User Personas, User Task Matrix, User Journey Maps y Empathy Maps a partir de la información obtenida en las entrevistas. También desarrollé el análisis de entrevistas y dispositivos móviles, y apliqué Big Picture Event Storming y Ubiquitous Language para representar y definir conceptos relevantes del dominio.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-          [Conclusión sobre el criterio]
+          La aplicación práctica de conceptos modernos de arquitectura como DDD y el modelo C4, sumada al entendimiento colaborativo mediante la elaboración de historias de usuario e Impact Mapping, permitió estructurar una solución de software escalable y bien definida para el proyecto Muyu, demostrando la importancia de actualizar conocimientos técnicos y metodológicos ante estándares exigidos en el ámbito profesional.
         </td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
-          Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
+          Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>[Entrega] - [Nombre del Integrante]:</b> [Descripción de la acción realizada]</li>
+            <li><b> AV1 - Angel Guillermo Berrospi Marin:</b> Participé activamente en el desarrollo del proyecto, tanto en la realización de tareas cómo entrar a las reuniones programadas para la coordinación de diferentes puntos, establecí mi propia métrica con respecto a los puntos que me tocaron y de esa forma pude desempeñar un buen rendimiento tanto en ayuda para el grupo cómo para la finalización del proyecto. </li>
+            <li><b> AV1 - Mel Andree Orellana Rodriguez:</b> Asumí el rol de mantener la coherencia técnica de la documentación del proyecto, aprendiendo dinámicamente sobre la metodología EventStorming (Big Picture) para modelar adecuadamente el dominio, además de integrar continuamente mejoras en el backlog y en los assets visuales del repositorio dentro del flujo de trabajo del equipo.</li>
+             <li><b> AV1 - Emily Juliette Arroyo Gonzales:</b> Asumí el rol de mantener la coherencia del Capítulo I del proyecto, aprendiendo de manera continua sobre Lean UX y la técnica 5W y 2H para analizar correctamente la problemática, además de integrar mejoras en los supuestos, las hipótesis, el Lean UX Canvas y los segmentos objetivo dentro del flujo de trabajo del equipo.</li>
+             <li><b>AV1 - Jennifer Yamilet Riveros Vera:</b> Durante la elaboración de los artefactos de Needfinding y modelado del dominio, revisé y adapté continuamente mis conocimientos para corregir User Personas, User Journey Maps y el Big Picture Event Storming conforme avanzaba la comprensión del proyecto.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-          [Conclusión sobre el criterio]
+          El desarrollo del proyecto evidencia que la adquisición constante de nuevas herramientas de ingeniería, metodologías de diseño y el establecimiento de métricas de rendimiento individual dentro de reuniones continuas es esencial para responder eficazmente a la complejidad del software y garantizar un desempeño técnico competitivo.
         </td>
       </tr>
     </tbody>
@@ -118,6 +145,26 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 
 ## Objetivos SMART
+
+### Mel Andree Orellana Rodriguez
+
+* **Objetivo 1 (Especialización Técnica):** Dominar de manera práctica el diseño de arquitecturas orientadas a microservicios e infraestructura en la nube en un plazo de 8 meses tras egresar. Para ello, dedicaré 6 horas semanales al desarrollo de proyectos personales complejos y al estudio de buenas prácticas de escalabilidad y rendimiento en software.
+* **Objetivo 2 (Crecimiento Profesional):** Incorporarme como *Software Engineer* en una empresa del sector tecnológico dentro de los primeros 2 años posteriores a la graduación, participando activamente en el diseño, desarrollo y despliegue de soluciones de software eficientes y de alto impacto.
+
+### Angel Guillermo Berrospi Marin
+* **Objetivo 1 (Especialización Técnica):** Aprender a desarrollar aplicaciones web y mobile con distintos tipos de lenguage y aplicar correctamente una arquitectura solida aplicando los principios que requieran para ofrecer un buen software.
+* **Objetivo 2 (Crecimiento Profesional):** Recibirme cómo *Software Engineer* y empezar a trabajar en una empresa del sector tecnológico o a fines con el propósito de crear nuevas aplicaciones que solucionen problemas cotidianos.
+
+### Emily Juliette Arroyo Gonzales
+- **Objetivo 1 (Especialización técnica):** Aprender durante el próximo año a desarrollar aplicaciones web y móviles utilizando distintos lenguajes, con el propósito de crear proyectos organizados, seguros y de buena calidad.
+
+- **Objetivo 2 (Crecimiento profesional):** Graduarme como ingeniero de software y comenzar a trabajar en una empresa tecnológica durante el primer año después de terminar la carrera, participando en la creación de aplicaciones que solucionen problemas cotidianos.
+
+### Jennifer Yamilet Riveros Vera
+
+- **Objetivo 1 (Especialización Técnica):** Desarrollar competencias avanzadas en Análisis de Datos mediante el diseño de dashboards interactivos en Power BI y la optimización de consultas complejas en SQL Server en un plazo de 6 meses, dedicando 6 horas semanales a la elaboración de proyectos de minería de datos y modelado analítico para la toma de decisiones.
+
+- **Objetivo 2 (Crecimiento Profesional):** Obtener una posición como Data Analyst o Software Engineer enfocada en soluciones de inteligencia de negocios dentro del primer año tras finalizar la carrera, aplicando análisis de datos e interfaces optimizadas en proyectos de impacto real.
 
 
 ## Tabla de Contenidos
@@ -246,19 +293,243 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+Nuestra startup AllpaTech nace con el propósito de facilitar la coordinación entre agricultores y comerciantes mediante Muyu una aplicación móvil que facilita el registro de actividades y el seguimiento de los acuerdos agrícolas.
+
+La propuesta permitirá que los agricultores guarden reportes y fotografías sin conexión para poder sincronizarlos cuando no haya acceso a internet y que los comerciantes puedsan consultar los avances y aprobar los hitos acordados desde su teléfono.
+
+Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalecer la confianza entre ambas partes mediante información organizada, evidencias de campo y avisos previos.
+
+---
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+|                                      Miembro  |                                                          Descripción                   |
+|:---------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <img src="assets/images/Chapter 1/members/Gonzalo.jpg" width="3000"/>  |                                                                                                                                                                                            **Gonzalo Samuel Quintanilla Pozo \- U202315007** <br>  Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 21 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.                                                                                                                                                                                               |
+| <img src="assets/images/Chapter 1/members/foto-andree.jpg" width="3000"/> |                                                                                                                                                   **Mel Andree Orellana Rodriguez \- U202116018** <br>    Soy estudiante de Ingeniería de Software, actualmente cursando el séptimo ciclo. Me interesa desarrollar e implementar soluciones tecnológicas innovadoras que generen un impacto positivo y ayuden a resolver necesidades reales. Cuento con conocimientos en desarrollo web utilizando HTML, CSS y JavaScript, así como en Python para análisis y procesamiento de datos. También tengo conocimientos en bases de datos y Supabase. Además, manejo herramientas de automatización como n8n y soluciones Low-Code como Power BI, Power Automate y Power Apps. Tengo especial interés en desarrollarme profesionalmente en las áreas de análisis de datos, automatización e Inteligencia Artificial Generativa, particularmente dentro del ecosistema de Microsoft.                                                                                                                                               |
+| <img src="assets/images/Chapter 1/members/Jennifer.png" width="3000"/> | **Jennifer Yamilet Riveros Vera - u20241c998** <br> Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 19 años. Soy colaborativa y enfocada en entregar un trabajo bien estructurado a mi equipo. Cuento con experiencia y conocimientos en desarrollo web frontend utilizando HTML5, CSS3, JavaScript y Vue.js, After Effects, Adobe Illustrator y Photoshop , manejo de bases de datos como SQL Server, así como Python y diseño de interfaces en Figma. Asimismo, tengo interés en el análisis de datos mediante Excel y Power BI. |
+|  <img src="assets/images/Chapter 1/members/Guillermo.jpg" width="3000"/>   |                                                                                                                                                                                                                 **Angel Guillermo Berrospi Marin \- u202114701**   <br> Soy estudiante de la carrera de Ingeniería de Software. Tendre el compromiso con mi equipo en ser proactivo, productivo, siempre apoyar en lo que se necesite y mantener una comunicación fluida. Cuento con conocimientos en html, css, javascript, Java y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto.                                                                                                                                                                                                                        | 
+|  <img src="assets/images/Chapter 1/members/Emily.png" width="3000"/>   |                                                                                                                                                                                                            **Emily Juliette Arroyo Gonzales \- U202311469**  <br> Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.                                                                                                                                                                                                            | 
+---
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
+
+##### What? (¿Qué?)
+
+##### ¿Cuál es el problema?
+
+Los agricultores tienen dificultades para registrar sus labores y presentar evidencias de manera ordenada, mientras que los comerciantes no siempre cuentan con información oportuna para comprobar los avances. Esta situación puede retrasar la aprobación de los hitos y la autorización de los fondos acordados.
+
+##### When? (¿Cuándo?)
+
+##### ¿En qué momento se presenta el problema?
+
+Ocurre cuando el agricultor necesita consultar sus tareas, fotografiar el trabajo realizado o enviar un reporte. También se presenta cuando el comerciante revisa las evidencias, comunica una observación o decide si una etapa ha sido cumplida.
+
+##### Where? (¿Dónde?)
+
+##### ¿Dónde surge la problemática?
+
+Surge principalmente durante las actividades agrícolas desarrolladas en zonas rurales del Perú y en el seguimiento que los comerciantes realizan desde otras ubicaciones.
+
+##### ¿En qué contexto se presenta?
+
+Se presenta en acuerdos de producción donde el avance se verifica mediante tareas, evidencias e hitos antes de autorizar la liberación de los fondos correspondientes.
+
+##### Who? (¿Quién?)
+
+##### ¿Quiénes son los principales afectados?
+
+Los agricultores que realizan y documentan las labores, así como los comerciantes responsables de supervisar el cumplimiento de los acuerdos.
+
+##### ¿Quiénes utilizarán Muyu?
+
+La aplicación será utilizada por agricultores para consultar tareas y registrar evidencias, y por comerciantes para revisar avances, responder observaciones y aprobar hitos.
+
+##### Why? (¿Por qué?)
+
+##### ¿Cuál es la causa del problema?
+
+La causa principal es la falta de un medio móvil que concentre las actividades, evidencias y decisiones del acuerdo. A esto se suman las limitaciones de acceso digital que existen en el entorno rural y que dificultan el intercambio oportuno de información.
+
+##### How? (¿Cómo?)
+
+##### ¿En qué condiciones se utilizará la aplicación?
+
+Los agricultores usarán AgroFlow durante su jornada, desde un teléfono con cámara y bajo condiciones variables de conectividad. Los comerciantes accederán desde sus dispositivos para supervisar los acuerdos y atender las solicitudes pendientes.
+
+##### ¿Cómo necesitan acceder los usuarios?
+
+Los usuarios necesitan una aplicación móvil sencilla, con información clara y funciones que permitan conservar los reportes hasta que puedan enviarse correctamente.
+
+##### How much? (¿Cuánto?)
+
+##### ¿Cómo afecta este problema a los acuerdos agrícolas?
+
+La falta de información organizada puede generar consultas adicionales, demoras en la revisión y mayor tiempo de espera para autorizar los fondos. Su impacto exacto deberá medirse mediante entrevistas y pruebas con agricultores y comerciantes.
+
+Según el INEI (2025), durante el segundo trimestre de ese año, solo el 23,6 % de los hogares rurales tenía acceso a Internet. Este dato evidencia una diferencia de acceso digital que debe considerarse al diseñar una aplicación dirigida al entorno rural.
+
+Asimismo, el SENAMHI señala que las heladas pueden afectar los cultivos de acuerdo con su intensidad, duración y etapa de desarrollo. Por esta razón, una advertencia recibida fuera de tiempo reduce la posibilidad de evaluar medidas oportunas.
+
+---
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+
+Muyu busca apoyar a agricultores y comerciantes que participan en acuerdos de producción y necesitan compartir información sobre las actividades realizadas, las evidencias presentadas y los hitos cumplidos.
+
+Las herramientas actuales no siempre permiten organizar este seguimiento desde el lugar donde se desarrolla el trabajo. Muyu atenderá esta necesidad mediante una aplicación móvil que reúna las tareas, reportes, observaciones y aprobaciones de ambas partes.
+
+Nuestro enfoque inicial estará en agricultores que ofrecen sus terrenos y comerciantes que financian la producción para asegurar su abastecimiento. Consideraremos que la propuesta funciona cuando aumenten los reportes entregados a tiempo y disminuyan las consultas adicionales y el tiempo de aprobación de los hitos.
+
+---
 #### 1.2.2.2. Lean UX Assumptions
+
+##### a. Business Assumptions
+
+- Creemos que existe interés por una herramienta móvil que facilite la coordinación de acuerdos agrícolas.
+
+- Creemos que los comerciantes estarán dispuestos a pagar por un servicio que les permita supervisar sus acuerdos y el uso de sus fondos.
+
+- Creemos que ofrecer acceso sin costo a los agricultores favorecerá la adopción de AgroFlow.
+
+##### b. Business Outcomes Assumptions
+
+- Creemos que simplificar el registro aumentará la cantidad de actividades reportadas a tiempo.
+
+- Creemos que brindar información organizada motivará a los comerciantes a utilizar el servicio de manera frecuente.
+
+- Creemos que presentar evidencias más completas reducirá las consultas adicionales entre ambas partes.
+
+- Creemos que agilizar la revisión de los hitos disminuirá el tiempo necesario para autorizar los fondos.
+
+##### c. User Assumptions
+
+- Creemos que nuestros usuarios principales serán agricultores y comerciantes vinculados mediante acuerdos de producción.
+
+- Creemos que los agricultores disponen de un teléfono con cámara para documentar sus actividades.
+
+- Creemos que los agricultores necesitan una experiencia sencilla que se adapte a su jornada de trabajo.
+
+- Creemos que los comerciantes requieren consultar el progreso de sus acuerdos desde cualquier lugar.
+
+##### d. User Outcomes and Benefits Assumptions
+
+- Creemos que los agricultores desean registrar sus labores de forma rápida y con pocos pasos.
+
+- Creemos que los agricultores necesitan conocer cuáles son sus tareas pendientes y si sus reportes fueron enviados correctamente.
+
+- Creemos que los comerciantes valorarán contar con una visión clara de los avances y evidencias recibidas.
+
+- Creemos que ambas partes tendrán mayor confianza al disponer de un historial de actividades, observaciones y aprobaciones.
+
+##### e. Feature Assumptions
+
+- Creemos que guardar los reportes en el dispositivo y sincronizarlos posteriormente facilitará el registro de las actividades de campo.
+
+- Creemos que incluir fotografías con fecha y ubicación permitirá reconocer mejor las evidencias presentadas.
+
+- Creemos que una agenda con actividades pendientes ayudará al agricultor a organizar sus labores.
+
+- Creemos que un panel con avances e información actualizada permitirá al comerciante supervisar sus acuerdos.
+
+- Creemos que un proceso de aprobación desde el teléfono agilizará la revisión de los hitos y la autorización de los fondos.
+
+- Creemos que las notificaciones sobre tareas, aprobaciones y condiciones meteorológicas ayudarán a atender situaciones importantes a tiempo.
+
+---
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+#### Hipótesis 1: Registro y sincronización de actividades
+
+Creemos que aumentaremos los reportes entregados a tiempo si los agricultores pueden conservar sus avances durante las fallas de conexión mediante el almacenamiento local y la sincronización automática.
+
+---
+
+#### Hipótesis 2: Evidencias con datos de captura
+
+Creemos que reduciremos las solicitudes de aclaración si los comerciantes pueden reconocer el contexto de cada actividad mediante fotografías asociadas con su fecha, ubicación y tarea correspondiente.
+
+---
+
+#### Hipótesis 3: Organización de tareas agrícolas
+
+Creemos que disminuirán las labores pendientes si los agricultores pueden identificar sus próximas responsabilidades mediante una agenda con actividades programadas y estados visibles.
+
+---
+
+#### Hipótesis 4: Seguimiento de acuerdos
+
+Creemos que aumentará el uso frecuente de Muyu si los comerciantes pueden conocer el progreso de sus acuerdos mediante un panel que reúna los avances y las evidencias recibidas.
+
+---
+
+#### Hipótesis 5: Aprobación de hitos
+
+Creemos que reduciremos el tiempo entre la revisión y la autorización de fondos si los comerciantes pueden confirmar el cumplimiento de cada etapa mediante un proceso de aprobación desde el teléfono.
+
+---
+
+#### Hipótesis 6: Avisos
+
+Creemos que mejoraremos la atención de eventos importantes si agricultores y comerciantes pueden conocerlos en el momento adecuado mediante notificaciones sobre tareas, decisiones y condiciones meteorológicas.
+
+---
 #### 1.2.2.4. Lean UX Canvas
+
+La siguiente figura presenta el Lean UX Canvas elaborado para Muyu.
+
+![Lean UX Canvas de Muyu](assets/images/Chapter%201/Canvas/Lean%20UX%20Canvas.png)
+
+[Ver en Miro](https://miro.com/app/board/uXjVHpAR0XE=/?share_link_id=138737583873)
+
+---
 
 ## 1.3. Segmentos objetivo
 
+##### **1. Agricultor (Proveedor del Servicio / Agro-Service Provider)**
 
+Este segmento está conformado inicialmente por jóvenes agricultores que poseen, gestionan o trabajan terrenos agrícolas y participan en las diferentes etapas del cultivo. En Muyu podrán ofrecer sus parcelas, consultar sus tareas, presentar evidencias y conocer el estado de sus pagos.
+
+**Características demográficas:**
+
+- **Edad:** Entre 20 y 30 años.
+- **Nivel educativo:** Distintos niveles de formación, desde educación secundaria hasta estudios técnicos o universitarios.
+- **Ocupación:** Agricultores dedicados a la siembra, el cuidado y la cosecha de productos agrícolas.
+- **Ubicación:** Zonas rurales y agrícolas del Perú.
+- **Acceso tecnológico:** Utilizan teléfonos móviles con cámara y poseen conocimientos básicos sobre aplicaciones digitales.
+
+**Necesidades:**
+
+- Organizar las tareas y compromisos de cada etapa.
+- Registrar evidencias rápidamente desde el campo.
+- Consultar el estado de sus reportes y pagos.
+- Recibir avisos sobre condiciones meteorológicas que podrían afectar la producción.
+
+---
+
+#### **2. Comerciante / Comprador (Arrendatario / Subscriber)**
+
+Este segmento comprende comerciantes, distribuidores, propietarios de restaurantes y responsables de supermercados que necesitan adquirir productos agrícolas de manera constante. En Muyu podrán elegir una parcela, financiar el cultivo, revisar las evidencias y aprobar el cumplimiento de cada hito.
+
+**Características demográficas y comerciales:**
+
+- **Edad:** Entre 20 y 60 años.
+- **Ocupación:** Dueños, administradores, distribuidores o responsables de compras.
+- **Tipo de negocio:** Comercios de alimentos, restaurantes, empresas distribuidoras y supermercados.
+- **Tamaño empresarial:** Se priorizarán micro y pequeñas empresas con decisiones de compra directas.
+- **Acceso tecnológico:** Utilizan teléfonos móviles para comunicarse, revisar operaciones y administrar sus compras.
+
+**Necesidades:**
+
+- Asegurar el abastecimiento de productos agrícolas.
+- Mantener costos de compra más previsibles.
+- Conocer el progreso del cultivo financiado.
+- Revisar evidencias antes de aprobar cada etapa.
+- Recibir la cosecha en las condiciones y fechas establecidas.
+
+---
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
