@@ -792,8 +792,6 @@ El recorrido que se describe es un viaje de cinco fases que generalmente va de l
 
 ### 2.3.5. Big Picture EventStorming
 
-### 2.3.5. Big Picture Event Storming
-
 El equipo realizó una sesión de Big Picture Event Storming con el objetivo de comprender el dominio general de AgroFlow e identificar los principales eventos del negocio, sus relaciones y los actores involucrados. Esta actividad permitió obtener una visión de alto nivel sobre el proceso de publicación de parcelas, financiamiento, ejecución de labores, registro de evidencias y validación de hitos.
 
 #### Step 1: Collect Domain Events
@@ -811,6 +809,8 @@ En esta etapa se identificaron los eventos principales del dominio, expresados e
 ![Step 3 - Track Causes](assets/images/chapter02/event-storming/step-3-track-causes.png)
 
 En conjunto, el Big Picture Event Storming permitió al equipo comprender de manera general el funcionamiento del negocio, identificar el flujo principal del proceso y reconocer escenarios alternativos que deben ser considerados en el diseño de la solución.
+
+[Ver en Miro](https://miro.com/app/board/uXjVHl-6uS8=/?share_link_id=348732565706)
 
 ### 2.3.6. Ubiquitous Language
 
