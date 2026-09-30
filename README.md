@@ -1923,21 +1923,54 @@ A continuación se presenta la evidencia gráfica dividida en la vista general d
 
 #### 2.5.1.1. Candidate Context Discovery
 
-| Bounded Context | Descripción | Eventos clave |
-| :--- | :--- | :--- |
-| **IAM & Profiles** | Maneja la autenticación, verificación de identidad de los agricultores, y validación fiscal de los perfiles corporativos de comerciantes. | `ProductorRegistrado`, `IdentidadVerificada`, `CompradorAutenticado` |
-| **Agreements Management** | Administra la publicación de parcelas, cotizaciones, contraofertas y formalización de los contratos agrícolas. | `ParcelaPublicada`, `CotizacionEnviada`, `ContratoFirmado` |
-| **Tracking & Evidence** | Gestiona el registro de actividades de campo, carga y sincronización offline de fotografías, y el seguimiento de hitos agrícolas. | `EvidenciaRegistrada`, `EvidenciaSincronizada`, `HitoObservado` |
-| **Escrow & Payments** | Controla la custodia (Escrow) de los fondos depositados por el comerciante y su posterior liberación parcial al aprobar hitos. | `FondosDepositados`, `HitoAprobado`, `FondosLiberados` |
-| **Alerts Management** | Evalúa umbrales de riesgo para enviar notificaciones de anomalías climáticas y de disponibilidad de cosechas futuras. | `AlertaClimaticaGenerada`, `AlertaDisponibilidadEnviada` |
-#### 2.5.1.2. Domain Message Flows Modeling
 
-En esta sección se detalla el modelado de flujos de mensajes del dominio (Domain Message Flows Modeling) para el proyecto Muyu. Este diagrama representa la secuencia e interacción cronológica de los eventos de dominio, comandos, agregados y notificaciones a lo largo de los diferentes procesos del sistema. A través de este flujo, se visibiliza cómo se desencadenan las acciones operativas, el intercambio de datos asíncrono y la trazabilidad de la información entre las distintas entidades del modelo de negocio.
+A partir del modelo general de dominio obtenido en la sesión de EventStorming, el equipo realizó la actividad de **Candidate Context Discovery** con una duración aproximada de 2 horas. Para delimitar los *Bounded Contexts* del sistema, se aplicaron de manera combinada las técnicas de **Look-for-Pivotal-Events** (identificación de eventos clave que marcan transiciones de estado) y **Start-with-Value** (agrupación de conceptos centrada en las capacidades *core* del negocio).
+
+A continuación, se detalla la evolución progresiva del dominio a través de las evidencias del tablero:
+
+#### Paso 1: Mapeo y Descomposición del Timeline de Procesos
+
+En la primera etapa se organizó la línea de tiempo del proceso de negocio, dividiendo las acciones, comandos, agregados y sistemas externos en 7 bloques secuenciales:
 
 <p align="center">
-  <img src="assets/images/chapter02/domain_message.png" width="800" />
+  <img src="assets/images/chapter02/event-storming/discovery-01.png" width="800" />
 </p>
 
+1. **Financiación de parcelas:** Negociación y acuerdo inicial entre el agricultor y el comerciante.
+2. **Custodia de capital en depósito en garantía:** Proceso de retención de fondos en la pasarela Escrow.
+3. **Liberación de pago en depósito en garantía:** Reglas financieras para la transferencia parcial de capital.
+4. **Ejecución de labores agrícolas:** Seguimiento de las actividades operativas en el campo.
+5. **Presentación de pruebas:** Captura, almacenamiento y adjunto de evidencias fotográficas.
+6. **Revisión y corrección de hitos:** Evaluación de la calidad del trabajo y gestión de correcciones por parte del comerciante.
+7. **Monitoreo de riesgos climáticos:** Captura de datos meteorológicos y evaluación de alertas de riesgo.
+
+---
+
+#### Paso 2: Delimitación Preliminar e Identificación de Eventos Pivote
+
+En esta fase se trazaron los primeros límites candidateando agrupaciones de subprocesos donde se detectaron eventos pivote (cambios significativos de estado o de responsabilidad operativa).
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/discovery-02.png" width="800" />
+</p>
+
+Se identificó de manera temprana la frontera que separa la administración y validación previa del terreno (**Registro y Aprobación de la Parcela**) de los flujos transaccionales y de ejecución que suceden con posterioridad.
+
+---
+
+#### Paso 3: Consolidación e Interconexión de Bounded Contexts
+
+En la etapa final, el equipo refinó las agrupaciones hasta definir los **5 Bounded Contexts principales** de la plataforma, modelando los flujos de comunicación e intercambio de eventos de dominio entre ellos:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/discovery-03.png" width="800" />
+</p>
+
+1. **Gestión y Aprobación de Parcelas (*Parcel Management Service*):** Bounded Context enfocado en el catálogo de terrenos, geolocalización por coordenadas GPS, tipo de suelo y estado de disponibilidad de la parcela.
+2. **Financiamiento y Contratación (*Agreements / Contract Service*):** Bounded Context responsable de gestionar las ofertas de abastecimiento, la negociación de volúmenes y la formalización de contratos agrícolas digitales.
+3. **Custodia de Fondos en Escrow (*Escrow & Payments Service*):** Bounded Context encargado de la integración con pasarelas financieras para la retención en garantía de capital y las órdenes de desembolso parcial por hito.
+4. **Ejecución Agrícola y Evidencias (*Tracking & Evidence Service*):** Bounded Context dedicado a la captura/sincronización offline de fotos georreferenciadas, revisión de entregables y aprobación o rechazo de hitos agrícolas.
+5. **Monitoreo Climático y Riesgos (*Alerts Management Service*):** Bounded Context encargado de la ingesta de datos desde APIs externas (OpenWeather) para la emisión y distribución de alertas climáticas preventivas.
 
 
 
