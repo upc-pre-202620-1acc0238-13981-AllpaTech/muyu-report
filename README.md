@@ -2035,18 +2035,75 @@ Modela la aprobación de entregables, la liberación de pagos y la notificación
 
 #### 2.5.1.3. Bounded Context Canvases
 
-En primer lugar, el canvas del Contract & Escrow Service (Core Domain) detalla las reglas de negocio, los eventos de entrada y salida, y la terminología del lenguaje ubicuo necesarios para asegurar la custodia financiera y la liberación de pagos por hitos.
 
-<p align="center">
-  <img src="assets/images/chapter02/bounded_context_canvas_01.png" width="800" />
-</p>
 
-  En segundo lugar, el canvas del Parcel Management Service (Supporting Domain) especifica la gestión del catálogo de terrenos, las capacidades de delimitación por coordenadas GPS y los criterios de disponibilidad de las hectáreas agrícolas.
+En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando sus criterios de diseño clave. A continuación, se presentan los Bounded Context Canvases elaborados para la solución, ordenados por su importancia estratégica dentro del sistema:
+
+#### 1. Custodia de Fondos en Escrow (*Core Domain*)
 
 
 <p align="center">
-  <img src="assets/images/chapter02/bounded_context_canvas_02.png" width="800"/>  
+  <img src="assets/images/chapter02/event-storming/bounded-03.png" width="700" />
 </p>
+
+
+* **Descripción:** Administrar la retención de capital en garantía y la ejecución de desembolsos parciales irreversibles tras la aprobación de cada hito.
+* **Clasificación Estratégica:** Domain: *Core* | Business Model: *Revenue / Cost Reduction* | Evolution: *Product*.
+* **Entradas y Salidas:** Recibe peticiones de depósito y liberación de fondos; emite notificaciones de fondos retenidos, contrato activado y pagos liberados hacia la App Móvil y el Agricultor.
+
+---
+
+#### 2. Ejecución Agrícola y Evidencias (*Core Domain*)
+
+
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-04.png" width="700" />
+</p>
+
+
+* **Descripción:** Gestionar el calendario de actividades en campo, la captura offline de evidencias fotográficas georreferenciadas y la revisión/aprobación de hitos.
+* **Clasificación Estratégica:** Domain: *Core* | Business Model: *Engagement* | Evolution: *Custom Built*.
+* **Entradas y Salidas:** Recibe datos de capturas de pruebas en campo y solicitudes de revisión de hitos; emite estados de evidencia registrada, hito aprobado y correcciones solicitadas.
+
+---
+
+#### 3. Financiamiento y Contratación (*Supporting Domain*)
+
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-02.png" width="700" />
+</p>
+
+* **Descripción:** Permitir explorar el catálogo de parcelas aprobadas, simular rendimientos, negociar condiciones comerciales y formalizar contratos digitales.
+* **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
+* **Entradas y Salidas:** Recibe solicitudes de financiamiento y emisión de contratos desde la App Móvil; emite avisos de parcela reservada y propuesta aceptada hacia la custodia Escrow.
+
+---
+
+#### 4. Gestión y Aprobación de Parcelas (*Supporting Domain*)
+
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-01.png" width="700" />
+</p>
+
+* **Descripción:** Registrar parcelas agrícolas mediante georreferenciación GPS, validar la documentación de propiedad y publicar terrenos aptos en el catálogo público.
+* **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
+* **Entradas y Salidas:** Recibe solicitudes de registro, delimitación geográfica y validación de terrenos; emite notificaciones de parcela aprobada y publicada.
+
+---
+
+#### 5. Monitoreo Climático y Riesgos (*Generic Domain*)
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-05.png" width="700" />
+</p>
+
+* **Descripción:** Recopilar datos meteorológicos externos en tiempo real, evaluar patrones de riesgo climático y emitir alertas preventivas automáticas hacia los usuarios.
+* **Clasificación Estratégica:** Domain: *Generic* | Business Model: *Cost Reduction* | Evolution: *Commodity*.
+* **Entradas y Salidas:** Ingiere datos climáticos de la API externa (OpenWeather) y consultas de pronóstico; emite alertas automáticas de riesgo detectado hacia la App Móvil y los usuarios.
+
 
 
 ### 2.5.2. Context Mapping
