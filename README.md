@@ -1972,6 +1972,65 @@ En la etapa final, el equipo refinó las agrupaciones hasta definir los **5 Boun
 4. **Ejecución Agrícola y Evidencias (*Tracking & Evidence Service*):** Bounded Context dedicado a la captura/sincronización offline de fotos georreferenciadas, revisión de entregables y aprobación o rechazo de hitos agrícolas.
 5. **Monitoreo Climático y Riesgos (*Alerts Management Service*):** Bounded Context encargado de la ingesta de datos desde APIs externas (OpenWeather) para la emisión y distribución de alertas climáticas preventivas.
 
+   
+#### 2.5.1.2. Domain Message Flows Modeling
+
+
+
+
+Para representar cómo interactúan los *Bounded Contexts* con los actores del sistema frente a escenarios reales de negocio, el equipo aplicó **Domain Storytelling**. Esta metodología conecta visualmente a los **Actores** (Agricultor, Comerciante, OpenWeather API), **Comandos** (cajas azules), **Datos de Trabajo** (notas amarillas), **Bounded Contexts** (nubes) y **Estados Resultantes** (cajas naranjas).
+
+A continuación, se documenta la colaboración distribuida en tres vistas clave del proceso:
+
+#### Vista 1: Registro, Catálogo y Contratación
+
+Modela el proceso desde el alta del terreno hasta la solicitud del contrato comercial:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/flows-01.png" width="800" />
+</p>
+
+1. **Registrar Parcela:** El agricultor ingresa datos del terreno (área, ubicación GPS, fotos) desde la App Móvil.
+2. **Validar Parcela:** La App envía la información al Bounded Context de *Gestión de Parcelas*.
+3. **Parcela Publicada:** Tras validarse, se activa el estado para mostrar el lote en el catálogo público.
+4. **Consultar Catálogo:** El comerciante busca parcelas aplicando filtros de búsqueda en la app.
+5. **Solicitar Financiamiento:** El comerciante elige una parcela e inicia una propuesta de abastecimiento.
+6. **Solicitar Contrato:** La App remite la oferta formal al contexto de *Financiamiento y Contratación*.
+7. **Parcela Reservada:** Se bloquea la oferta en el catálogo y se notifica a *Custodia Escrow* para habilitar el depósito.
+
+---
+
+#### Vista 2: Custodia Escrow y Trabajo de Campo
+
+Modela la retención del capital en garantía y el registro de evidencias en el campo:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/flows-02.png" width="800" />
+</p>
+
+1. **Depositar Capital:** El comerciante transfiere los fondos requeridos hacia el Bounded Context de *Custodia Escrow*.
+2. **Contrato Activado:** Confirmado el depósito, se emite el estado de activación del acuerdo agrícola.
+3. **Capturar Evidencias:** El agricultor toma fotos con metadatos GPS/fecha (soporta modo offline en la app).
+4. **Enviar Evidencias:** La App Móvil sincroniza los datos al Bounded Context de *Ejecución y Evidencias*.
+5. **Evidencias Presentadas:** Se notifica al comerciante la existencia de entregables pendientes de auditoría.
+
+---
+
+#### Vista 3: Auditoría, Desembolso y Clima
+
+Modela la aprobación de entregables, la liberación de pagos y la notificación preventiva de alertas meteorológicas:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/flows-03.png" width="800" />
+</p>
+
+1. **Aprobar Hito:** El comerciante evalúa las pruebas recibidas desde la App Móvil y emite su conformidad.
+2. **Procesar Aprobación:** La App comunica la decisión al Bounded Context de *Ejecución y Evidencias*.
+3. **Hito Aprobado:** El sistema consolida la validación técnica de la etapa de cultivo.
+4. **Liberar Pago:** Se dispara la orden hacia *Custodia Escrow* para transferir el porcentaje parcial correspondiente al agricultor.
+5. **Anomalía Detectada:** *OpenWeather API* transmite métricas climáticas críticas al Bounded Context de *Monitoreo Climático*.
+6. **Notificar Alerta:** El contexto calcula las parcelas afectadas dentro del radio de riesgo y envía el aviso a la app.
+7. **Mostrar Alerta:** La App Móvil despliega alertas preventivas con recomendaciones operativas en tiempo real.
 
 
 #### 2.5.1.3. Bounded Context Canvases
