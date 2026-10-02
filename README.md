@@ -849,7 +849,6 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
 | **EPIC-04** | Revisión y Flujo de Pagos | Motor de decisiones del comerciante para aprobar hitos o solicitar correcciones, y la consecuente liberación de pagos. |
 | **EPIC-05** | Proceso Climático | Recepción de datos meteorológicos externos y emisión de alertas de riesgo para proteger las labores agrícolas. |
 
-
 <table width="100%">
   <thead>
     <tr align="center">
@@ -911,56 +910,6 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
   </thead>
   <tbody>
     <tr align="center">
-      <td>TS01</td>
-      <td>Developer</td>
-      <td>Alta</td>
-      <td>EPIC-01</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">API de Autenticación y JWT</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> Developer,<br>
-        <b>quiero</b> implementar el servicio de login,<br>
-        <b>para</b> generar un token JWT que proteja las transacciones del usuario.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1: Autenticación correcta</b><br>
-        - <b>Given</b> que el cliente envía credenciales correctas al endpoint de autenticación.<br>
-        - <b>When</b> el servicio evalúa los datos recibidos.<br>
-        - <b>Then</b> el sistema genera un token JWT firmado y retorna código HTTP 200.<br><br>
-        <b>Escenario 2: Credenciales incorrectas</b><br>
-        - <b>Given</b> que el cliente envía una contraseña incorrecta para un correo existente.<br>
-        - <b>When</b> el servicio evalúa los datos de acceso.<br>
-        - <b>Then</b> el sistema deniega el acceso y retorna código HTTP 401.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<table width="100%">
-  <thead>
-    <tr align="center">
-      <th width="20%">Story ID</th>
-      <th width="30%">User</th>
-      <th width="25%">Priority</th>
-      <th width="25%">Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr align="center">
       <td>US02</td>
       <td>Agricultor</td>
       <td>Media</td>
@@ -993,56 +942,6 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
         - <b>Given</b> que el agricultor envía un número de cuenta con formato incorrecto.<br>
         - <b>When</b> el sistema valida la entrada del formulario.<br>
         - <b>Then</b> se rechaza la actualización y se requiere ingresar un formato bancario válido.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<table width="100%">
-  <thead>
-    <tr align="center">
-      <th width="20%">Story ID</th>
-      <th width="30%">User</th>
-      <th width="25%">Priority</th>
-      <th width="25%">Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr align="center">
-      <td>TS02</td>
-      <td>Developer</td>
-      <td>Alta</td>
-      <td>EPIC-01</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Middleware de autorización (RBAC)</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> Developer,<br>
-        <b>quiero</b> implementar un middleware de control de acceso,<br>
-        <b>para</b> restringir los endpoints según el rol del usuario.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1: Acceso permitido al recurso</b><br>
-        - <b>Given</b> que un usuario autenticado intenta acceder a un recurso permitido para su rol.<br>
-        - <b>When</b> el middleware evalúa los claims del token.<br>
-        - <b>Then</b> el sistema permite la ejecución del endpoint.<br><br>
-        <b>Escenario 2: Acceso bloqueado por falta de permisos</b><br>
-        - <b>Given</b> que un usuario autenticado intenta acceder a un recurso restringido para su rol.<br>
-        - <b>When</b> el middleware evalúa los claims del token.<br>
-        - <b>Then</b> el sistema bloquea la petición y devuelve código HTTP 403.
       </td>
     </tr>
   </tbody>
@@ -1168,7 +1067,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Envío de propuesta de financiamiento</td>
+      <td colspan="3">Financiamiento directo de parcela</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
@@ -1176,8 +1075,8 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     <tr>
       <td colspan="4">
         <b>Como</b> Comerciante,<br>
-        <b>quiero</b> enviar una propuesta formal de financiamiento a una parcela,<br>
-        <b>para</b> iniciar la negociación de abastecimiento.
+        <b>quiero</b> financiar de forma directa una parcela eligiendo entre transferencia bancaria, billetera digital o depósito en agente local,<br>
+        <b>para</b> habilitar los fondos del ciclo productivo mediante el método de pago más conveniente.
       </td>
     </tr>
     <tr>
@@ -1185,14 +1084,14 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1: Envío de propuesta válido</b><br>
-        - <b>Given</b> que la parcela se encuentra en estado "Publicada".<br>
-        - <b>When</b> el comerciante envía una propuesta con un monto de inversión válido.<br>
-        - <b>Then</b> el sistema asocia la propuesta a la parcela y emite una notificación al agricultor propietario.<br><br>
-        <b>Escenario 2: Parcela no disponible para financiamiento</b><br>
-        - <b>Given</b> que la parcela ya posee un financiamiento aceptado en progreso.<br>
-        - <b>When</b> el comerciante intenta enviar una nueva propuesta.<br>
-        - <b>Then</b> el sistema bloquea la acción y alerta que la parcela ya no admite ofertas.
+        <b>Escenario 1: Selección y confirmación de método de pago válida</b><br>
+        - <b>Given</b> que la parcela se encuentra en estado disponible para financiamiento.<br>
+        - <b>When</b> el comerciante define el monto y selecciona un método de pago habilitado (transferencia bancaria, billetera digital o depósito en agente).<br>
+        - <b>Then</b> el sistema genera la orden de pago correspondiente y notifica al agricultor sobre la propuesta recibida.<br><br>
+        <b>Escenario 2: Método de pago no admitido</b><br>
+        - <b>Given</b> que se envía una solicitud de financiamiento con un medio de pago no admitido por el sistema.<br>
+        - <b>When</b> se procesa la transacción.<br>
+        - <b>Then</b> el sistema cancela la operación e informa sobre las modalidades de pago admitidas.
       </td>
     </tr>
   </tbody>
@@ -1212,22 +1111,22 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
   <tbody>
     <tr align="center">
       <td>US06</td>
-      <td>Agricultor</td>
+      <td>Comerciante</td>
       <td>Alta</td>
       <td>EPIC-02</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Aceptación de financiamiento</td>
+      <td colspan="3">Solicitud de visita presencial a la parcela</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> Agricultor,<br>
-        <b>quiero</b> aceptar una propuesta de financiamiento,<br>
-        <b>para</b> formalizar el acuerdo y comenzar las labores de cultivo.
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> agendar una fecha para visitar la parcela de forma presencial,<br>
+        <b>para</b> inspeccionar el estado del terreno y conversar con el agricultor antes de formalizar el financiamiento.
       </td>
     </tr>
     <tr>
@@ -1235,64 +1134,14 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1: Aceptación exitosa de propuesta</b><br>
-        - <b>Given</b> que el agricultor posee una propuesta de financiamiento pendiente.<br>
-        - <b>When</b> envía la confirmación de aceptación desde la plataforma.<br>
-        - <b>Then</b> el sistema actualiza el estado del acuerdo a "Aprobado".<br><br>
-        <b>Escenario 2: Cancelación automática de propuestas restantes</b><br>
-        - <b>Given</b> que existen múltiples propuestas para una misma parcela.<br>
-        - <b>When</b> el agricultor aprueba una de las propuestas.<br>
-        - <b>Then</b> el sistema rechaza automáticamente el resto de las propuestas pendientes.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<table width="100%">
-  <thead>
-    <tr align="center">
-      <th width="20%">Story ID</th>
-      <th width="30%">User</th>
-      <th width="25%">Priority</th>
-      <th width="25%">Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr align="center">
-      <td>TS03</td>
-      <td>Developer</td>
-      <td>Alta</td>
-      <td>EPIC-02</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Servicio de retención en Escrow</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> Developer,<br>
-        <b>quiero</b> integrar un servicio de pagos que retenga el dinero del financiamiento en custodia (Escrow),<br>
-        <b>para</b> asegurar la disponibilidad de los fondos durante el cultivo.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1: Retención de fondos confirmada</b><br>
-        - <b>Given</b> que se formaliza un acuerdo de financiamiento entre partes.<br>
-        - <b>When</b> el servicio de pagos ejecuta el cobro exitosamente a la tarjeta del comerciante.<br>
-        - <b>Then</b> el sistema actualiza el estado transaccional a "Fondos retenidos en Escrow".<br><br>
-        <b>Escenario 2: Falla por fondos insuficientes</b><br>
-        - <b>Given</b> que la tarjeta del comerciante carece del saldo requerido.<br>
-        - <b>When</b> el servicio intenta procesar el cobro del financiamiento.<br>
-        - <b>Then</b> el estado de la operación se marca como "Pago fallido" y el endpoint retorna HTTP 402.
+        <b>Escenario 1: Agendamiento de visita confirmado</b><br>
+        - <b>Given</b> que el comerciante selecciona una parcela disponible y una fecha hábil.<br>
+        - <b>When</b> envía la solicitud de visita presencial.<br>
+        - <b>Then</b> el sistema agenda la inspección en estado pendiente y notifica al agricultor con los detalles de fecha y hora.<br><br>
+        <b>Escenario 2: Fecha no disponible</b><br>
+        - <b>Given</b> que la fecha seleccionada coincide con un día no habilitado por el agricultor.<br>
+        - <b>When</b> el comerciante intenta registrar la solicitud.<br>
+        - <b>Then</b> el sistema rechaza la solicitud e indica el rango de fechas disponibles.
       </td>
     </tr>
   </tbody>
@@ -1312,22 +1161,22 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
   <tbody>
     <tr align="center">
       <td>US07</td>
-      <td>Agricultor</td>
-      <td>Media</td>
-      <td>EPIC-03</td>
+      <td>Comerciante / Agricultor</td>
+      <td>Alta</td>
+      <td>EPIC-02</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Consulta de cronograma de hitos</td>
+      <td colspan="3">Registro de acuerdo tras visita presencial</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> Agricultor,<br>
-        <b>quiero</b> visualizar las tareas y fechas de mi ciclo de cultivo,<br>
-        <b>para</b> organizar mis labores en el campo.
+        <b>Como</b> usuario del acuerdo (Comerciante o Agricultor),<br>
+        <b>quiero</b> seleccionar una visita presencial realizada y registrar si se llegó a un acuerdo comercial o no,<br>
+        <b>para</b> actualizar el estado de la negociación y definir si inicia el ciclo de cultivo.
       </td>
     </tr>
     <tr>
@@ -1335,14 +1184,14 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1: Carga de hitos exitosa</b><br>
-        - <b>Given</b> que existe un ciclo de cultivo activo debidamente financiado.<br>
-        - <b>When</b> el agricultor consulta el cronograma de la parcela.<br>
-        - <b>Then</b> el sistema retorna la lista de hitos ordenados por fecha de vencimiento.<br><br>
-        <b>Escenario 2: Bloqueo de labores sin pago en Escrow</b><br>
-        - <b>Given</b> que el acuerdo está firmado pero el dinero no ha entrado en custodia.<br>
-        - <b>When</b> el agricultor intenta ver el cronograma de tareas.<br>
-        - <b>Then</b> el sistema bloquea la vista indicando que falta confirmar la retención de pago.
+        <b>Escenario 1: Visita con acuerdo comercial confirmado</b><br>
+        - <b>Given</b> que una visita presencial concluyó y figura registrada con su fecha de ejecución.<br>
+        - <b>When</b> las partes confirman el resultado indicando que se alcanzó un acuerdo.<br>
+        - <b>Then</b> el sistema cambia el estado de la negociación a "Acuerdo alcanzado" y habilita la etapa de asignación de hitos.<br><br>
+        <b>Escenario 2: Visita sin acuerdo alcanzado</b><br>
+        - <b>Given</b> que una visita presencial fue ejecutada con fecha registrada.<br>
+        - <b>When</b> se registra que no se llegó a un acuerdo comercial.<br>
+        - <b>Then</b> el sistema cierra la solicitud como "Sin acuerdo" y devuelve la parcela al estado de disponible.
       </td>
     </tr>
   </tbody>
@@ -1393,56 +1242,6 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
         - <b>Given</b> que el archivo adjunto excede el límite de tamaño permitido por el sistema.<br>
         - <b>When</b> el agricultor intenta procesar la subida.<br>
         - <b>Then</b> el sistema detiene la carga solicitando un archivo comprimido más ligero.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<table width="100%">
-  <thead>
-    <tr align="center">
-      <th width="20%">Story ID</th>
-      <th width="30%">User</th>
-      <th width="25%">Priority</th>
-      <th width="25%">Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr align="center">
-      <td>TS04</td>
-      <td>Developer</td>
-      <td>Alta</td>
-      <td>EPIC-03</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">API de almacenamiento de archivos</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> Developer,<br>
-        <b>quiero</b> implementar un servicio de carga de imágenes en storage,<br>
-        <b>para</b> almacenar de forma persistente y segura las evidencias del cultivo.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1: Almacenamiento exitoso</b><br>
-        - <b>Given</b> que se recibe un payload multipart con formato de imagen admitido (JPG, PNG).<br>
-        - <b>When</b> el servicio procesa y traslada el archivo al proveedor externo.<br>
-        - <b>Then</b> la imagen se guarda y el sistema persiste la URL generada en la base de datos.<br><br>
-        <b>Escenario 2: Archivo no soportado</b><br>
-        - <b>Given</b> que el payload contiene un archivo ejecutable u otro formato no admitido.<br>
-        - <b>When</b> el servicio evalúa la extensión y firma del archivo.<br>
-        - <b>Then</b> la carga es abortada retornando un error HTTP 415.
       </td>
     </tr>
   </tbody>
@@ -1518,7 +1317,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Aprobación de evidencia de hito</td>
+      <td colspan="3">Aprobación de evidencia y orden de liberación de pago</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
@@ -1526,8 +1325,8 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     <tr>
       <td colspan="4">
         <b>Como</b> Comerciante,<br>
-        <b>quiero</b> revisar las evidencias y aprobar el cumplimiento del hito,<br>
-        <b>para</b> autorizar la liberación parcial de los fondos acordados.
+        <b>quiero</b> validar la evidencia del hito y autorizar la liberación del pago,<br>
+        <b>para</b> que el agricultor reciba sus fondos a través de la modalidad acordada sin importar el método utilizado.
       </td>
     </tr>
     <tr>
@@ -1535,14 +1334,14 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1: Validación conforme del comerciante</b><br>
-        - <b>Given</b> que el hito tiene evidencia pendiente en revisión.<br>
-        - <b>When</b> el comerciante emite la acción de aprobación en la plataforma.<br>
-        - <b>Then</b> el estado del hito se actualiza a "Hito aprobado".<br><br>
-        <b>Escenario 2: Prevención de decisiones duplicadas</b><br>
-        - <b>Given</b> que el hito ya fue procesado y aprobado con anterioridad.<br>
-        - <b>When</b> el comerciante intenta emitir una decisión idéntica para el mismo hito.<br>
-        - <b>Then</b> el sistema mantiene la consistencia de estado y evita procesar una doble aprobación.
+        <b>Escenario 1: Aprobación y orden de liberación de pago</b><br>
+        - <b>Given</b> que un hito cuenta con evidencias presentadas y pendientes de revisión.<br>
+        - <b>When</b> el comerciante emite la aprobación de la evidencia.<br>
+        - <b>Then</b> el hito cambia al estado "Aprobado" y el sistema procesa la liberación del monto pactado al medio de cobro del agricultor.<br><br>
+        <b>Escenario 2: Prevención de doble liberación de pago</b><br>
+        - <b>Given</b> que un hito ya cuenta con estado "Aprobado" y pago en proceso o completado.<br>
+        - <b>When</b> se intenta emitir una nueva aprobación sobre el mismo registro.<br>
+        - <b>Then</b> el sistema rechaza la instrucción evitando transacciones duplicadas.
       </td>
     </tr>
   </tbody>
@@ -1611,56 +1410,6 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
   </thead>
   <tbody>
     <tr align="center">
-      <td>TS05</td>
-      <td>Developer</td>
-      <td>Alta</td>
-      <td>EPIC-04</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Motor de liberación de pagos</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> Developer,<br>
-        <b>quiero</b> implementar la lógica que transfiera el dinero del Escrow al agricultor,<br>
-        <b>para</b> completar de forma automática el ciclo financiero tras el hito.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1: Ejecución de transferencia desde Escrow</b><br>
-        - <b>Given</b> que un hito de cultivo transita a estado "Hito aprobado".<br>
-        - <b>When</b> el proceso de pagos detecta la actualización de estado.<br>
-        - <b>Then</b> el sistema emite la orden bancaria de transferencia y retorna código HTTP 200.<br><br>
-        <b>Escenario 2: Caída del servicio bancario externo</b><br>
-        - <b>Given</b> que la solicitud de transferencia falla por desconexión en el banco.<br>
-        - <b>When</b> el motor de pagos identifica el timeout en la conexión.<br>
-        - <b>Then</b> el sistema encola la orden transaccional y agenda un reintento automático.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<table width="100%">
-  <thead>
-    <tr align="center">
-      <th width="20%">Story ID</th>
-      <th width="30%">User</th>
-      <th width="25%">Priority</th>
-      <th width="25%">Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr align="center">
       <td>US12</td>
       <td>Agricultor</td>
       <td>Baja</td>
@@ -1693,6 +1442,356 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
         - <b>Given</b> que el agricultor es un usuario reciente sin aprobaciones previas.<br>
         - <b>When</b> solicita su reporte de historial de pagos.<br>
         - <b>Then</b> el sistema muestra el balance en cero acompañado de un registro vacío.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US13</td>
+      <td>Agricultor</td>
+      <td>Media</td>
+      <td>EPIC-03</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Solicitud de prórroga por contingencia agrícola</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> solicitar una prórroga para un hito indicando los motivos del retraso y proponiendo una nueva fecha límite,<br>
+        <b>para</b> evitar penalizaciones cuando imprevistos climáticos, plagas u otros problemas retrasen la cosecha.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Envío oportuno de solicitud de prórroga</b><br>
+        - <b>Given</b> que un hito se encuentra en progreso antes de alcanzar su fecha límite de entrega.<br>
+        - <b>When</b> el agricultor registra una justificación del imprevisto y define una nueva fecha propuesta posterior a la actual.<br>
+        - <b>Then</b> el sistema cambia el estado del hito a "Prórroga solicitada" y notifica al comerciante para su evaluación.<br><br>
+        <b>Escenario 2: Solicitud extemporánea de prórroga</b><br>
+        - <b>Given</b> que la fecha límite de cumplimiento del hito ya venció sin justificación previa.<br>
+        - <b>When</b> el agricultor intenta registrar la prórroga.<br>
+        - <b>Then</b> el sistema deniega el registro e indica que el plazo establecido ha caducado.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US14</td>
+      <td>Comerciante</td>
+      <td>Media</td>
+      <td>EPIC-05</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Recepción de alertas climáticas de riesgo</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> recibir notificaciones automáticas ante eventos meteorológicos de riesgo en las parcelas que financio,<br>
+        <b>para</b> estar prevenido ante posibles demoras o afectaciones en la producción.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Alerta meteorológica crítica emitida</b><br>
+        - <b>Given</b> que una estación o servicio meteorológico registra un fenómeno adverso en la zona de una parcela contratada.<br>
+        - <b>When</b> el nivel de severidad supera el umbral de advertencia configurado.<br>
+        - <b>Then</b> el sistema emite una notificación al comerciante vinculada a la parcela comprometida.<br><br>
+        <b>Escenario 2: Anomalía de bajo impacto</b><br>
+        - <b>Given</b> que el evento climático detectado no representa una amenaza para el tipo de cultivo financiado.<br>
+        - <b>When</b> el sistema procesa los datos del clima.<br>
+        - <b>Then</b> se omite la emisión de alertas prioritarias para no generar falsos avisos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>TS01</td>
+      <td>Developer</td>
+      <td>Alta</td>
+      <td>EPIC-01</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">API de Autenticación y JWT</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> implementar el servicio de login,<br>
+        <b>para</b> generar un token JWT que proteja las transacciones del usuario.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Autenticación correcta</b><br>
+        - <b>Given</b> que el cliente envía credenciales correctas al endpoint de autenticación.<br>
+        - <b>When</b> el servicio evalúa los datos recibidos.<br>
+        - <b>Then</b> el sistema genera un token JWT firmado y retorna código HTTP 200.<br><br>
+        <b>Escenario 2: Credenciales incorrectas</b><br>
+        - <b>Given</b> que el cliente envía una contraseña incorrecta para un correo existente.<br>
+        - <b>When</b> el servicio evalúa los datos de acceso.<br>
+        - <b>Then</b> el sistema deniega el acceso y retorna código HTTP 401.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>TS02</td>
+      <td>Developer</td>
+      <td>Alta</td>
+      <td>EPIC-01</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Middleware de autorización (RBAC)</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> implementar un middleware de control de acceso,<br>
+        <b>para</b> restringir los endpoints según el rol del usuario.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Acceso permitido al recurso</b><br>
+        - <b>Given</b> que un usuario autenticado intenta acceder a un recurso permitido para su rol.<br>
+        - <b>When</b> el middleware evalúa los claims del token.<br>
+        - <b>Then</b> el sistema permite la ejecución del endpoint.<br><br>
+        <b>Escenario 2: Acceso bloqueado por falta de permisos</b><br>
+        - <b>Given</b> que un usuario autenticado intenta acceder a un recurso restringido para su rol.<br>
+        - <b>When</b> el middleware evalúa los claims del token.<br>
+        - <b>Then</b> el sistema bloquea la petición y devuelve código HTTP 403.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>TS03</td>
+      <td>Developer</td>
+      <td>Alta</td>
+      <td>EPIC-02</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Servicio de retención en Escrow</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> integrar un servicio de pagos que retenga el dinero del financiamiento en custodia (Escrow),<br>
+        <b>para</b> asegurar la disponibilidad de los fondos durante el cultivo.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Retención de fondos confirmada</b><br>
+        - <b>Given</b> que se formaliza un acuerdo de financiamiento entre partes.<br>
+        - <b>When</b> el servicio de pagos ejecuta el cobro exitosamente a la tarjeta del comerciante.<br>
+        - <b>Then</b> el sistema actualiza el estado transaccional a "Fondos retenidos en Escrow".<br><br>
+        <b>Escenario 2: Falla por fondos insuficientes</b><br>
+        - <b>Given</b> que la tarjeta del comerciante carece del saldo requerido.<br>
+        - <b>When</b> el servicio intenta procesar el cobro del financiamiento.<br>
+        - <b>Then</b> el estado de la operación se marca como "Pago fallido" y el endpoint retorna HTTP 402.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>TS04</td>
+      <td>Developer</td>
+      <td>Alta</td>
+      <td>EPIC-03</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">API de almacenamiento de archivos</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> implementar un servicio de carga de imágenes en storage,<br>
+        <b>para</b> almacenar de forma persistente y segura las evidencias del cultivo.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Almacenamiento exitoso</b><br>
+        - <b>Given</b> que se recibe un payload multipart con formato de imagen admitido (JPG, PNG).<br>
+        - <b>When</b> el servicio procesa y traslada el archivo al proveedor externo.<br>
+        - <b>Then</b> la imagen se guarda y el sistema persiste la URL generada en la base de datos.<br><br>
+        <b>Escenario 2: Archivo no soportado</b><br>
+        - <b>Given</b> que el payload contiene un archivo ejecutable u otro formato no admitido.<br>
+        - <b>When</b> el servicio evalúa la extensión y firma del archivo.<br>
+        - <b>Then</b> la carga es abortada retornando un error HTTP 415.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>TS05</td>
+      <td>Developer</td>
+      <td>Alta</td>
+      <td>EPIC-04</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Motor de liberación de pagos</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> implementar la lógica que transfiera el dinero del Escrow al agricultor,<br>
+        <b>para</b> completar de forma automática el ciclo financiero tras el hito.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Ejecución de transferencia desde Escrow</b><br>
+        - <b>Given</b> que un hito de cultivo transita a estado "Hito aprobado".<br>
+        - <b>When</b> el proceso de pagos detecta la actualización de estado.<br>
+        - <b>Then</b> el sistema emite la orden bancaria de transferencia y retorna código HTTP 200.<br><br>
+        <b>Escenario 2: Caída del servicio bancario externo</b><br>
+        - <b>Given</b> que la solicitud de transferencia falla por desconexión en el banco.<br>
+        - <b>When</b> el motor de pagos identifica el timeout en la conexión.<br>
+        - <b>Then</b> el sistema encola la orden transaccional y agenda un reintento automático.
       </td>
     </tr>
   </tbody>
@@ -1847,6 +1946,57 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>SP01</td>
+      <td>Developer</td>
+      <td>Media</td>
+      <td>EPIC-03</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Evaluación de almacenamiento y sincronización offline de fotografías</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> investigar y prototipar mecanismos de almacenamiento local y sincronización de fotografías sin conexión,<br>
+        <b>para</b> garantizar la persistencia de evidencias en campo cuando la conectividad móvil sea intermitente o inexistente.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Persistencia local sin red</b><br>
+        - <b>Given</b> que el dispositivo móvil no cuenta con conexión de red activa.<br>
+        - <b>When</b> se registra la captura fotográfica de una labor agrícola.<br>
+        - <b>Then</b> los archivos y metadatos se retienen en el almacenamiento local sin pérdida de información.<br><br>
+        <b>Escenario 2: Sincronización exitosa al restablecer conexión</b><br>
+        - <b>Given</b> que existen evidencias almacenadas localmente pendientes de subida.<br>
+        - <b>When</b> se detecta la reanudación del enlace a Internet.<br>
+        - <b>Then</b> el servicio sincroniza automáticamente los archivos con el servidor backend y confirma la entrega.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.4.2. Impact Mapping
 
 #### Impact Mapping - Agricultor
