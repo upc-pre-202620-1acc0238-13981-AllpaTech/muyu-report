@@ -1075,8 +1075,8 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     <tr>
       <td colspan="4">
         <b>Como</b> Comerciante,<br>
-        <b>quiero</b> financiar de forma directa una parcela eligiendo entre transferencia bancaria, billetera digital o depósito en agente local,<br>
-        <b>para</b> habilitar los fondos del ciclo productivo mediante el método de pago más conveniente.
+        <b>quiero</b> financiar de forma directa una parcela eligiendo entre los métodos de pago habilitados,<br>
+        <b>para</b> transferir los fondos a custodia y asegurar el ciclo productivo.
       </td>
     </tr>
     <tr>
@@ -1084,18 +1084,19 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1: Selección y confirmación de método de pago válida</b><br>
-        - <b>Given</b> que la parcela se encuentra en estado disponible para financiamiento.<br>
-        - <b>When</b> el comerciante define el monto y selecciona un método de pago habilitado (transferencia bancaria, billetera digital o depósito en agente).<br>
-        - <b>Then</b> el sistema genera la orden de pago correspondiente y notifica al agricultor sobre la propuesta recibida.<br><br>
-        <b>Escenario 2: Método de pago no admitido</b><br>
-        - <b>Given</b> que se envía una solicitud de financiamiento con un medio de pago no admitido por el sistema.<br>
-        - <b>When</b> se procesa la transacción.<br>
-        - <b>Then</b> el sistema cancela la operación e informa sobre las modalidades de pago admitidas.
+        <b>Escenario 1: Financiamiento exitoso y retención en Escrow</b><br>
+        - <b>Given</b> que la parcela se encuentra disponible para financiamiento.<br>
+        - <b>When</b> el comerciante genera la orden de pago y confirma la transacción.<br>
+        - <b>Then</b> el sistema cambia el estado de la parcela a "Financiada", transfiere el monto a retención en Escrow y envía una notificación de confirmación al agricultor.<br><br>
+        <b>Escenario 2: Intento de financiamiento sobre parcela activa</b><br>
+        - <b>Given</b> que la parcela ya cuenta con un financiamiento activo en proceso.<br>
+        - <b>When</b> un comerciante intenta iniciar o registrar una orden de financiamiento.<br>
+        - <b>Then</b> el sistema bloquea la operación e informa que la parcela ya no admite nuevas ofertas.
       </td>
     </tr>
   </tbody>
 </table>
+
 
 <br>
 
@@ -1161,22 +1162,22 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
   <tbody>
     <tr align="center">
       <td>US07</td>
-      <td>Comerciante / Agricultor</td>
+      <td>Agricultor</td>
       <td>Alta</td>
       <td>EPIC-02</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Registro de acuerdo tras visita presencial</td>
+      <td colspan="3">Confirmación de acuerdo y fijación de precio tras visita presencial</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> usuario del acuerdo (Comerciante o Agricultor),<br>
-        <b>quiero</b> seleccionar una visita presencial realizada y registrar si se llegó a un acuerdo comercial o no,<br>
-        <b>para</b> actualizar el estado de la negociación y definir si inicia el ciclo de cultivo.
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> confirmar el acuerdo comercial e ingresar el nuevo monto pactado tras la visita presencial,<br>
+        <b>para</b> actualizar el precio oficial de la parcela y evitar que el comerciante registre un valor distinto al coordinado.
       </td>
     </tr>
     <tr>
@@ -1184,14 +1185,14 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1: Visita con acuerdo comercial confirmado</b><br>
-        - <b>Given</b> que una visita presencial concluyó y figura registrada con su fecha de ejecución.<br>
-        - <b>When</b> las partes confirman el resultado indicando que se alcanzó un acuerdo.<br>
-        - <b>Then</b> el sistema cambia el estado de la negociación a "Acuerdo alcanzado" y habilita la etapa de asignación de hitos.<br><br>
-        <b>Escenario 2: Visita sin acuerdo alcanzado</b><br>
-        - <b>Given</b> que una visita presencial fue ejecutada con fecha registrada.<br>
-        - <b>When</b> se registra que no se llegó a un acuerdo comercial.<br>
-        - <b>Then</b> el sistema cierra la solicitud como "Sin acuerdo" y devuelve la parcela al estado de disponible.
+        <b>Escenario 1: Actualización de precio tras visita con acuerdo</b><br>
+        - <b>Given</b> que la visita presencial figura concluida y registrada con su fecha de ejecución.<br>
+        - <b>When</b> el agricultor confirma el acuerdo e ingresa el nuevo precio coordinado de palabra.<br>
+        - <b>Then</b> el sistema actualiza el precio de la parcela con dicho monto y la deja disponible para que el comerciante complete la financiación con el valor pactado.<br><br>
+        <b>Escenario 2: Registro de visita sin acuerdo comercial</b><br>
+        - <b>Given</b> que la visita presencial concluyó y se encuentra registrada con su fecha.<br>
+        - <b>When</b> el agricultor registra que no se llegó a un acuerdo en la negociación.<br>
+        - <b>Then</b> el sistema finaliza el trámite de la visita conservando las condiciones originales de la parcela.
       </td>
     </tr>
   </tbody>
@@ -1560,6 +1561,56 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
   </thead>
   <tbody>
     <tr align="center">
+      <td>US15</td>
+      <td>Comerciante</td>
+      <td>Alta</td>
+      <td>EPIC-03</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Seguimiento de cronograma y avance de hitos en parcelas activas</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> consultar el cronograma de hitos, el porcentaje de avance y las fechas de las próximas labores de mis parcelas financiadas,<br>
+        <b>para</b> monitorear el cumplimiento del ciclo productivo e identificar oportunamente las etapas que requieren mi revisión.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Visualización del estado del cronograma y avance</b><br>
+        - <b>Given</b> que el comerciante mantiene acuerdos de financiamiento activos con parcelas en producción.<br>
+        - <b>When</b> consulta el listado de sus parcelas financiadas.<br>
+        - <b>Then</b> el sistema presenta el progreso porcentual del cultivo, el número de hitos completados sobre el total y la fecha programada para la siguiente labor.<br><br>
+        <b>Escenario 2: Filtrado por hitos con revisión pendiente</b><br>
+        - <b>Given</b> que existen parcelas donde el agricultor ya cargó evidencias para un hito en curso.<br>
+        - <b>When</b> el comerciante activa el filtro de priorización de revisiones.<br>
+        - <b>Then</b> el sistema reorganiza la lista mostrando primero las parcelas cuyo hito actual se encuentra en estado pendiente de evaluación.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
       <td>TS01</td>
       <td>Developer</td>
       <td>Alta</td>
@@ -1675,8 +1726,8 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     <tr>
       <td colspan="4">
         <b>Como</b> Developer,<br>
-        <b>quiero</b> integrar un servicio de pagos que retenga el dinero del financiamiento en custodia (Escrow),<br>
-        <b>para</b> asegurar la disponibilidad de los fondos durante el cultivo.
+        <b>quiero</b> implementar un servicio que procese y retenga los fondos del financiamiento en custodia (Escrow),<br>
+        <b>para</b> asegurar el capital acordado independientemente del método de pago utilizado.
       </td>
     </tr>
     <tr>
@@ -1684,14 +1735,14 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1: Retención de fondos confirmada</b><br>
-        - <b>Given</b> que se formaliza un acuerdo de financiamiento entre partes.<br>
-        - <b>When</b> el servicio de pagos ejecuta el cobro exitosamente a la tarjeta del comerciante.<br>
-        - <b>Then</b> el sistema actualiza el estado transaccional a "Fondos retenidos en Escrow".<br><br>
-        <b>Escenario 2: Falla por fondos insuficientes</b><br>
-        - <b>Given</b> que la tarjeta del comerciante carece del saldo requerido.<br>
-        - <b>When</b> el servicio intenta procesar el cobro del financiamiento.<br>
-        - <b>Then</b> el estado de la operación se marca como "Pago fallido" y el endpoint retorna HTTP 402.
+        <b>Escenario 1: Retención de fondos exitosa en Escrow</b><br>
+        - <b>Given</b> que se recibe una orden de financiamiento confirmada por el medio de pago seleccionado.<br>
+        - <b>When</b> el servicio procesa la transacción de ingreso.<br>
+        - <b>Then</b> el sistema bloquea los fondos en la cuenta de custodia, actualiza el estado a "Fondos retenidos en Escrow" y retorna código HTTP 200.<br><br>
+        <b>Escenario 2: Falla o rechazo en la transacción de financiamiento</b><br>
+        - <b>Given</b> que el procesador del método de pago elegido rechaza la operación o reporta error en la transacción.<br>
+        - <b>When</b> el servicio detecta la respuesta de rechazo.<br>
+        - <b>Then</b> el sistema marca la orden como "Transacción fallida", no afecta el saldo de custodia y retorna código HTTP 400.
       </td>
     </tr>
   </tbody>
