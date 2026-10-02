@@ -2073,38 +2073,187 @@ A continuación se presenta la evidencia gráfica dividida en la vista general d
 
 #### 2.5.1.1. Candidate Context Discovery
 
-| Bounded Context | Descripción | Eventos clave |
-| :--- | :--- | :--- |
-| **IAM & Profiles** | Maneja la autenticación, verificación de identidad de los agricultores, y validación fiscal de los perfiles corporativos de comerciantes. | `ProductorRegistrado`, `IdentidadVerificada`, `CompradorAutenticado` |
-| **Agreements Management** | Administra la publicación de parcelas, cotizaciones, contraofertas y formalización de los contratos agrícolas. | `ParcelaPublicada`, `CotizacionEnviada`, `ContratoFirmado` |
-| **Tracking & Evidence** | Gestiona el registro de actividades de campo, carga y sincronización offline de fotografías, y el seguimiento de hitos agrícolas. | `EvidenciaRegistrada`, `EvidenciaSincronizada`, `HitoObservado` |
-| **Escrow & Payments** | Controla la custodia (Escrow) de los fondos depositados por el comerciante y su posterior liberación parcial al aprobar hitos. | `FondosDepositados`, `HitoAprobado`, `FondosLiberados` |
-| **Alerts Management** | Evalúa umbrales de riesgo para enviar notificaciones de anomalías climáticas y de disponibilidad de cosechas futuras. | `AlertaClimaticaGenerada`, `AlertaDisponibilidadEnviada` |
-#### 2.5.1.2. Domain Message Flows Modeling
 
-En esta sección se detalla el modelado de flujos de mensajes del dominio (Domain Message Flows Modeling) para el proyecto Muyu. Este diagrama representa la secuencia e interacción cronológica de los eventos de dominio, comandos, agregados y notificaciones a lo largo de los diferentes procesos del sistema. A través de este flujo, se visibiliza cómo se desencadenan las acciones operativas, el intercambio de datos asíncrono y la trazabilidad de la información entre las distintas entidades del modelo de negocio.
+A partir del modelo general de dominio obtenido en la sesión de EventStorming, el equipo realizó la actividad de **Candidate Context Discovery** con una duración aproximada de 2 horas. Para delimitar los *Bounded Contexts* del sistema, se aplicaron de manera combinada las técnicas de **Look-for-Pivotal-Events** (identificación de eventos clave que marcan transiciones de estado) y **Start-with-Value** (agrupación de conceptos centrada en las capacidades *core* del negocio).
+
+A continuación, se detalla la evolución progresiva del dominio a través de las evidencias del tablero:
+
+#### Paso 1: Mapeo y Descomposición del Timeline de Procesos
+
+En la primera etapa se organizó la línea de tiempo del proceso de negocio, dividiendo las acciones, comandos, agregados y sistemas externos en 7 bloques secuenciales:
 
 <p align="center">
-  <img src="assets/images/chapter02/domain_message.png" width="800" />
+  <img src="assets/images/chapter02/event-storming/discovery-01.png" width="800" />
 </p>
 
+1. **Financiación de parcelas:** Negociación y acuerdo inicial entre el agricultor y el comerciante.
+2. **Custodia de capital en depósito en garantía:** Proceso de retención de fondos en la pasarela Escrow.
+3. **Liberación de pago en depósito en garantía:** Reglas financieras para la transferencia parcial de capital.
+4. **Ejecución de labores agrícolas:** Seguimiento de las actividades operativas en el campo.
+5. **Presentación de pruebas:** Captura, almacenamiento y adjunto de evidencias fotográficas.
+6. **Revisión y corrección de hitos:** Evaluación de la calidad del trabajo y gestión de correcciones por parte del comerciante.
+7. **Monitoreo de riesgos climáticos:** Captura de datos meteorológicos y evaluación de alertas de riesgo.
 
+---
+
+#### Paso 2: Delimitación Preliminar e Identificación de Eventos Pivote
+
+En esta fase se trazaron los primeros límites candidateando agrupaciones de subprocesos donde se detectaron eventos pivote (cambios significativos de estado o de responsabilidad operativa).
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/discovery-02.png" width="800" />
+</p>
+
+Se identificó de manera temprana la frontera que separa la administración y validación previa del terreno (**Registro y Aprobación de la Parcela**) de los flujos transaccionales y de ejecución que suceden con posterioridad.
+
+---
+
+#### Paso 3: Consolidación e Interconexión de Bounded Contexts
+
+En la etapa final, el equipo refinó las agrupaciones hasta definir los **5 Bounded Contexts principales** de la plataforma, modelando los flujos de comunicación e intercambio de eventos de dominio entre ellos:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/discovery-03.png" width="800" />
+</p>
+
+1. **Gestión y Aprobación de Parcelas (*Parcel Management Service*):** Bounded Context enfocado en el catálogo de terrenos, geolocalización por coordenadas GPS, tipo de suelo y estado de disponibilidad de la parcela.
+2. **Financiamiento y Contratación (*Agreements / Contract Service*):** Bounded Context responsable de gestionar las ofertas de abastecimiento, la negociación de volúmenes y la formalización de contratos agrícolas digitales.
+3. **Custodia de Fondos en Escrow (*Escrow & Payments Service*):** Bounded Context encargado de la integración con pasarelas financieras para la retención en garantía de capital y las órdenes de desembolso parcial por hito.
+4. **Ejecución Agrícola y Evidencias (*Tracking & Evidence Service*):** Bounded Context dedicado a la captura/sincronización offline de fotos georreferenciadas, revisión de entregables y aprobación o rechazo de hitos agrícolas.
+5. **Monitoreo Climático y Riesgos (*Alerts Management Service*):** Bounded Context encargado de la ingesta de datos desde APIs externas (OpenWeather) para la emisión y distribución de alertas climáticas preventivas.
+
+   
+#### 2.5.1.2. Domain Message Flows Modeling
+
+
+
+
+Para representar cómo interactúan los *Bounded Contexts* con los actores del sistema frente a escenarios reales de negocio, el equipo aplicó **Domain Storytelling**. Esta metodología conecta visualmente a los **Actores** (Agricultor, Comerciante, OpenWeather API), **Comandos** (cajas azules), **Datos de Trabajo** (notas amarillas), **Bounded Contexts** (nubes) y **Estados Resultantes** (cajas naranjas).
+
+A continuación, se documenta la colaboración distribuida en tres vistas clave del proceso:
+
+#### Vista 1: Registro, Catálogo y Contratación
+
+Modela el proceso desde el alta del terreno hasta la solicitud del contrato comercial:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/flows-01.png" width="800" />
+</p>
+
+1. **Registrar Parcela:** El agricultor ingresa datos del terreno (área, ubicación GPS, fotos) desde la App Móvil.
+2. **Validar Parcela:** La App envía la información al Bounded Context de *Gestión de Parcelas*.
+3. **Parcela Publicada:** Tras validarse, se activa el estado para mostrar el lote en el catálogo público.
+4. **Consultar Catálogo:** El comerciante busca parcelas aplicando filtros de búsqueda en la app.
+5. **Solicitar Financiamiento:** El comerciante elige una parcela e inicia una propuesta de abastecimiento.
+6. **Solicitar Contrato:** La App remite la oferta formal al contexto de *Financiamiento y Contratación*.
+7. **Parcela Reservada:** Se bloquea la oferta en el catálogo y se notifica a *Custodia Escrow* para habilitar el depósito.
+
+---
+
+#### Vista 2: Custodia Escrow y Trabajo de Campo
+
+Modela la retención del capital en garantía y el registro de evidencias en el campo:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/flows-02.png" width="800" />
+</p>
+
+1. **Depositar Capital:** El comerciante transfiere los fondos requeridos hacia el Bounded Context de *Custodia Escrow*.
+2. **Contrato Activado:** Confirmado el depósito, se emite el estado de activación del acuerdo agrícola.
+3. **Capturar Evidencias:** El agricultor toma fotos con metadatos GPS/fecha (soporta modo offline en la app).
+4. **Enviar Evidencias:** La App Móvil sincroniza los datos al Bounded Context de *Ejecución y Evidencias*.
+5. **Evidencias Presentadas:** Se notifica al comerciante la existencia de entregables pendientes de auditoría.
+
+---
+
+#### Vista 3: Auditoría, Desembolso y Clima
+
+Modela la aprobación de entregables, la liberación de pagos y la notificación preventiva de alertas meteorológicas:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/flows-03.png" width="800" />
+</p>
+
+1. **Aprobar Hito:** El comerciante evalúa las pruebas recibidas desde la App Móvil y emite su conformidad.
+2. **Procesar Aprobación:** La App comunica la decisión al Bounded Context de *Ejecución y Evidencias*.
+3. **Hito Aprobado:** El sistema consolida la validación técnica de la etapa de cultivo.
+4. **Liberar Pago:** Se dispara la orden hacia *Custodia Escrow* para transferir el porcentaje parcial correspondiente al agricultor.
+5. **Anomalía Detectada:** *OpenWeather API* transmite métricas climáticas críticas al Bounded Context de *Monitoreo Climático*.
+6. **Notificar Alerta:** El contexto calcula las parcelas afectadas dentro del radio de riesgo y envía el aviso a la app.
+7. **Mostrar Alerta:** La App Móvil despliega alertas preventivas con recomendaciones operativas en tiempo real.
 
 
 #### 2.5.1.3. Bounded Context Canvases
 
-En primer lugar, el canvas del Contract & Escrow Service (Core Domain) detalla las reglas de negocio, los eventos de entrada y salida, y la terminología del lenguaje ubicuo necesarios para asegurar la custodia financiera y la liberación de pagos por hitos.
 
-<p align="center">
-  <img src="assets/images/chapter02/bounded_context_canvas_01.png" width="800" />
-</p>
 
-  En segundo lugar, el canvas del Parcel Management Service (Supporting Domain) especifica la gestión del catálogo de terrenos, las capacidades de delimitación por coordenadas GPS y los criterios de disponibilidad de las hectáreas agrícolas.
+En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando sus criterios de diseño clave. A continuación, se presentan los Bounded Context Canvases elaborados para la solución, ordenados por su importancia estratégica dentro del sistema:
+
+#### 1. Custodia de Fondos en Escrow (*Core Domain*)
 
 
 <p align="center">
-  <img src="assets/images/chapter02/bounded_context_canvas_02.png" width="800"/>  
+  <img src="assets/images/chapter02/event-storming/bounded-03.png" width="700" />
 </p>
+
+
+* **Descripción:** Administrar la retención de capital en garantía y la ejecución de desembolsos parciales irreversibles tras la aprobación de cada hito.
+* **Clasificación Estratégica:** Domain: *Core* | Business Model: *Revenue / Cost Reduction* | Evolution: *Product*.
+* **Entradas y Salidas:** Recibe peticiones de depósito y liberación de fondos; emite notificaciones de fondos retenidos, contrato activado y pagos liberados hacia la App Móvil y el Agricultor.
+
+---
+
+#### 2. Ejecución Agrícola y Evidencias (*Core Domain*)
+
+
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-04.png" width="700" />
+</p>
+
+
+* **Descripción:** Gestionar el calendario de actividades en campo, la captura offline de evidencias fotográficas georreferenciadas y la revisión/aprobación de hitos.
+* **Clasificación Estratégica:** Domain: *Core* | Business Model: *Engagement* | Evolution: *Custom Built*.
+* **Entradas y Salidas:** Recibe datos de capturas de pruebas en campo y solicitudes de revisión de hitos; emite estados de evidencia registrada, hito aprobado y correcciones solicitadas.
+
+---
+
+#### 3. Financiamiento y Contratación (*Supporting Domain*)
+
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-02.png" width="700" />
+</p>
+
+* **Descripción:** Permitir explorar el catálogo de parcelas aprobadas, simular rendimientos, negociar condiciones comerciales y formalizar contratos digitales.
+* **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
+* **Entradas y Salidas:** Recibe solicitudes de financiamiento y emisión de contratos desde la App Móvil; emite avisos de parcela reservada y propuesta aceptada hacia la custodia Escrow.
+
+---
+
+#### 4. Gestión y Aprobación de Parcelas (*Supporting Domain*)
+
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-01.png" width="700" />
+</p>
+
+* **Descripción:** Registrar parcelas agrícolas mediante georreferenciación GPS, validar la documentación de propiedad y publicar terrenos aptos en el catálogo público.
+* **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
+* **Entradas y Salidas:** Recibe solicitudes de registro, delimitación geográfica y validación de terrenos; emite notificaciones de parcela aprobada y publicada.
+
+---
+
+#### 5. Monitoreo Climático y Riesgos (*Generic Domain*)
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-05.png" width="700" />
+</p>
+
+* **Descripción:** Recopilar datos meteorológicos externos en tiempo real, evaluar patrones de riesgo climático y emitir alertas preventivas automáticas hacia los usuarios.
+* **Clasificación Estratégica:** Domain: *Generic* | Business Model: *Cost Reduction* | Evolution: *Commodity*.
+* **Entradas y Salidas:** Ingiere datos climáticos de la API externa (OpenWeather) y consultas de pronóstico; emite alertas automáticas de riesgo detectado hacia la App Móvil y los usuarios.
+
 
 
 ### 2.5.2. Context Mapping
