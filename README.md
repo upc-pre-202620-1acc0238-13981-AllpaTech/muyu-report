@@ -2403,15 +2403,65 @@ Este diagrama relacional conectando `parcels` y `parcel_boundaries`, donde cada 
   <img src="assets/images/chapter02/Sprint2/db_diagram_contract_parcel.png" alt="Contract Escrow Database Diagram" width="800" />
 </div>
 
-### 2.6.x. Bounded Context: <Bounded Context Name>
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+### 2.6.2. Bounded Context: Financiamiento y Contratación Service
+Representa la capacidad del sistema encargada de gestionar la exploración del catálogo de parcelas, la generación de propuestas de financiamiento, la negociación de condiciones y la formalización de contratos digitales de abastecimiento. La entidad principal es `Agreement`, la cual concentra las reglas de negocio del acuerdo entre el agricultor y el comerciante.
+
+#### 2.6.2.1. Domain Layer
+
+La capa de dominio contiene las reglas de estructuración de los acuerdos y la validación de los planes de desembolso.
+
+* **Aggregate Root:** `Agreement` (Atributos: id, parcelId, merchantId, totalAmount, status, signatureDate).
+* **Entities:** `DisbursementPlan` (Etapas o hitos del plan de pagos).
+* **Value Objects:** `Money` (Monto y moneda), `AgreementStatus` (Enum: DRAFT, PENDING_SIGNATURE, SIGNED, ACTIVE, CANCELLED).
+* **Commands:** `CreateAgreementCommand`, `SignAgreementCommand`, `CancelAgreementCommand`.
+* **Queries:** `GetAgreementDetailsQuery`, `GetMerchantAgreementsQuery`.
+* **Domain Events:** `AgreementSignedEvent`, `AgreementActivatedEvent`.
+* **Reglas de negocio:** El plan de desembolsos (`DisbursementPlan`) asociado al contrato debe sumar exactamente el 100% del `totalAmount` para que el acuerdo sea válido. La firma del contrato requiere un token de validación de identidad.
+
+#### 2.6.2.2. Interface Layer
+Contiene los controladores que exponen los servicios de negociación y contratos al frontend móvil.
+
+* **REST Controllers:** `AgreementsController`.
+* **Endpoints:** `POST /api/v1/agreements`, `PUT /api/v1/agreements/{id}/sign`, `GET /api/v1/merchants/{id}/agreements`.
+* **DTOs:** `CreateAgreementResource`, `SignatureResource`, `AgreementSummaryResource`.
+* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `CreateAgreementCommandFromResourceAssembler`).
+
+#### 2.6.2.3. Application Layer
+Coordina los flujos de creación, negociación y firma digital de los acuerdos comerciales.
+
+* **Command Services:** `AgreementCommandServiceImpl` (Estructura los hitos del acuerdo, valida los porcentajes de desembolso y gestiona el estado de firma).
+* **Query Services:** `AgreementQueryServiceImpl`.
+* **Flujo principal:** El comerciante selecciona una parcela y genera un acuerdo. Una vez que ambas partes lo firman digitalmente, el servicio cambia el estado a "SIGNED" y emite un `AgreementSignedEvent` para que el servicio de Escrow inicie la creación de la bóveda de retención.
+
+#### 2.6.2.4. Infrastructure Layer
+Gestiona la persistencia de los contratos y la publicación de eventos al bus de mensajes.
+
+* **Repositories:** `AgreementRepository` (extiende JpaRepository), `DisbursementPlanRepository`.
+* **Adapters:** `SignatureValidationAdapter` (Validación de tokens), `EventBusPublisherAdapter` (gRPC / RabbitMQ para notificar a otros Bounded Contexts).
+* **Persistencia:** Tablas `agreements` y `disbursement_plans` con llaves foráneas y restricciones de integridad.
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Financiamiento y Contratación**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_financiamiento.png" alt="Contract Parcel Component Diagram" width="800" />
+</div>
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Agreement`) y cómo interactúa con los servicios de comando y consulta (CQRS).
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_financiamiento.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+Este diagrama relacional conectando `agreements` y `disbursement_plans`, donde cada plan de pago por hito pertenece a un contrato comercial establecido.
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_financiamiento.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
+
 
 ### 2.6.x. Bounded Context: <Bounded Context Name>
 #### 2.6.x.1. Domain Layer
