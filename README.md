@@ -2520,15 +2520,61 @@ Este diagrama relacional conectando `escrow_accounts` y `payout_records`, donde 
 </div>
 
 
-### 2.6.x. Bounded Context: <Bounded Context Name>
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+### 2.6.4. Bounded Context: Ejecución Agrícola y Evidencias Service
+Representa la capacidad del sistema encargada de gestionar el calendario de actividades en campo, la captura offline de fotografías georreferenciadas por parte del productor y la auditoría técnica de los hitos por parte del comerciante[cite: 26]. Su propósito es garantizar la trazabilidad visual y espacial del avance del cultivo. La entidad principal es `Milestone` (Hito), la cual concentra el progreso de cada etapa productiva.
+
+#### 2.6.4.1. Domain Layer
+La capa de dominio contiene el núcleo de las reglas de validación de evidencias y el control de estados del cultivo.
+
+* **Aggregate Root:** `Milestone` (Atributos: id, agreementId, stageName, status, deadline, createdAt).
+* **Entities:** `Evidence` (Fotografía de campo validada).
+* **Value Objects:** `GPSMetadata` (Latitud y longitud de la captura), `Timestamp`, `MilestoneStatus` (Enum: PENDING, IN_REVIEW, APPROVED, REJECTED, CORRECTION_REQUESTED).
+* **Commands:** `SubmitEvidenceCommand`, `ApproveMilestoneCommand`, `RejectMilestoneCommand`.
+* **Queries:** `GetPendingMilestonesQuery`, `GetMilestoneEvidenceQuery`.
+* **Domain Events:** `EvidenceSubmittedEvent`, `MilestoneApprovedEvent`, `MilestoneRejectedEvent`.
+* **Reglas de negocio:** Toda evidencia fotográfica debe poseer metadatos GPS que coincidan, dentro de un margen de tolerancia espacial, con el perímetro de la parcela financiada. Un hito en estado "APPROVED" se vuelve inmutable y no acepta nuevas sumisiones de evidencia.
+
+#### 2.6.4.2. Interface Layer
+Contiene los controladores que exponen los servicios de carga de pruebas y auditoría al frontend móvil.
+
+* **REST Controllers:** `MilestonesController`, `EvidencesController`.
+* **Endpoints:** `POST /api/v1/milestones/{id}/evidences`, `PUT /api/v1/milestones/{id}/approve`, `PUT /api/v1/milestones/{id}/reject`.
+* **DTOs:** `EvidenceUploadResource`, `MilestoneAuditResource`, `MilestoneSummaryResource`.
+* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `SubmitEvidenceCommandFromResourceAssembler`).
+
+#### 2.6.4.3. Application Layer
+Coordina los flujos de recepción de imágenes y el proceso de revisión por parte del comprador.
+
+* **Command Services:** `MilestoneCommandServiceImpl`, `EvidenceCommandServiceImpl` (Valida los metadatos espaciales y orquesta la subida del archivo al almacenamiento en la nube).
+* **Query Services:** `MilestoneQueryServiceImpl`.
+* **Flujo principal:** El agricultor captura y sincroniza la evidencia. El servicio valida los metadatos GPS, almacena la imagen en el cloud y cambia el estado del hito a "IN_REVIEW". Tras la revisión del comerciante, si este aprueba, se emite el evento `MilestoneApprovedEvent` que instruye al servicio de Escrow a liberar los fondos.
+
+#### 2.6.4.4. Infrastructure Layer
+Gestiona la persistencia de las etapas, el almacenamiento de objetos binarios (imágenes) y la validación cruzada.
+
+* **Repositories:** `MilestoneRepository` (extiende JpaRepository o similar), `EvidenceRepository`.
+* **Adapters:** `CloudStorageAdapter` (comunicación con AWS S3 / Firebase Storage para guardar imágenes en alta resolución), `SpatialValidationAdapter`.
+* **Persistencia:** Tablas `milestones` y `evidences` con llaves foráneas y restricciones de integridad.
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Ejecución Agrícola y Evidencias**, aplicando el patrón CQRS y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_milestones.png" alt="Contract Parcel Component Diagram" width="800" />
+</div>
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Milestone`) y cómo interactúa con los servicios de comando y consulta (CQRS).
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_milestones.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+Este diagrama relacional conecta `milestones` y `evidences`, donde cada evidencia fotográfica pertenece a un hito productivo, garantizando la trazabilidad visual del cultivo.
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_milestones.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
 
 ### 2.6.x. Bounded Context: <Bounded Context Name>
 #### 2.6.x.1. Domain Layer
