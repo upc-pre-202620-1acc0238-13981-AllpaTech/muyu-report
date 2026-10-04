@@ -2576,15 +2576,62 @@ Este diagrama relacional conecta `milestones` y `evidences`, donde cada evidenci
   <img src="assets/images/chapter02/Sprint2/db_diagram_contract_milestones.png" alt="Contract Escrow Database Diagram" width="800" />
 </div>
 
-### 2.6.x. Bounded Context: <Bounded Context Name>
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+### 2.6.5. Bounded Context: Monitoreo Climático y Riesgos Service
+Representa la capacidad del sistema encargada de recopilar datos meteorológicos externos en tiempo real (OpenWeather API), evaluar patrones de riesgo climático y emitir alertas preventivas automáticas hacia los agricultores y comerciantes. Su propósito es mitigar el impacto de fenómenos adversos en el ciclo de cultivo. La entidad principal es `ClimateAlert`, la cual consolida las métricas de riesgo y el nivel de severidad.
+
+#### 2.6.5.1. Domain Layer
+La capa de dominio contiene el núcleo de las reglas de evaluación de umbrales climáticos y severidad.
+
+* **Aggregate Root:** `ClimateAlert` (Atributos: id, parcelId, alertType, severity, issuedAt).
+* **Value Objects:** `WeatherMetrics` (Temperatura, lluvia acumulada, humedad), `SeverityLevel` (Enum: LOW, MODERATE, HIGH, CRITICAL).
+* **Commands:** `EvaluateWeatherCommand`.
+* **Queries:** `GetAlertsByParcelQuery`.
+* **Domain Events:** `RiskDetectedEvent`, `AlertDispatchedEvent`.
+* **Reglas de negocio:** Una alerta de nivel `CRITICAL` solo se dispara si la muestra climática recibida (ej. precipitación o temperatura límite) sobrepasa el umbral crítico configurado para el tipo de cultivo activo en esa parcela. Las alertas de nivel `LOW` se registran pero no detonan notificaciones urgentes.
+
+#### 2.6.5.2. Interface Layer
+Contiene los controladores que exponen los webhooks para recibir actualizaciones meteorológicas y las consultas para el frontend.
+
+* **REST Controllers:** `AlertsController` (Webhooks y consultas).
+* **Endpoints:** `POST /api/v1/webhooks/weather-update`, `GET /api/v1/alerts/{parcelId}`.
+* **DTOs:** `WeatherPayloadResource`, `AlertSummaryResource`.
+* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `EvaluateWeatherCommandFromResourceAssembler`).
+
+#### 2.6.5.3. Application Layer
+Coordina el flujo asíncrono de evaluación de datos meteorológicos masivos.
+
+* **Command Services:** `WeatherMonitoringServiceImpl` (Orquesta la evaluación cruzando las coordenadas de la parcela con el pronóstico/reporte recibido).
+* **Query Services:** `AlertQueryServiceImpl`.
+* **Flujo principal:** OpenWeather empuja datos climáticos mediante un webhook (o un cron job los solicita). El servicio mapea las coordenadas con las parcelas financiadas. Si detecta un umbral excedido, instancia una `ClimateAlert`, la persiste y genera el evento `RiskDetectedEvent` para que el dispatcher de notificaciones envíe un SMS/WhatsApp preventivo.
+
+#### 2.6.5.4. Infrastructure Layer
+Gestiona la persistencia del historial de alertas y la integración con proveedores de clima y mensajería.
+
+* **Repositories:** `AlertHistoryRepository` (extiende JpaRepository o similar).
+* **Adapters:** `OpenWeatherApiAdapter` (comunicación HTTP con el proveedor externo), `NotificationDispatcherAdapter` (integración con Twilio/WhatsApp API).
+* **Persistencia:** Tabla `climate_alerts_history`.
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Monitoreo Climático y Riesgos**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_climate.png" alt="Contract Parcel Component Diagram" width="800" />
+</div>
+
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`ClimateAlert`) y cómo interactúa con los servicios de comando y consulta (CQRS).
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_climate.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
+Este diagrama detalla la tabla que soporta el historial de alertas detectadas para las parcelas financiadas, permitiendo la trazabilidad de los eventos meteorológicos críticos notificados a los usuarios.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_climate.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
 
 # Capítulo III: Solution UI/UX Design
 
