@@ -2463,15 +2463,62 @@ Este diagrama relacional conectando `agreements` y `disbursement_plans`, donde c
 </div>
 
 
-### 2.6.x. Bounded Context: <Bounded Context Name>
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+### 2.6.3. Bounded Context: Custodia de Fondos en Escrow Service
+Representa la capacidad del sistema encargada de administrar la retención de capital en bóvedas seguras de garantía y ejecutar desembolsos parciales irreversibles hacia el productor, únicamente tras la aprobación técnica de cada hito. Su propósito es garantizar la seguridad financiera del acuerdo. La entidad principal es `EscrowAccount`, la cual concentra el saldo retenido y el estado de la bóveda.
+
+#### 2.6.3.1. Domain Layer
+La capa de dominio contiene las reglas comerciales de retención y la lógica inmutable de la custodia de fondos.
+
+* **Aggregate Root:** `EscrowAccount` (Atributos: id, agreementId, retainedBalance, totalFunded, status, createdAt).
+* **Entities:** `PayoutRecord` (Registro de salida financiera o desembolso).
+* **Value Objects:** `Money` (Monto y moneda), `EscrowStatus` (Enum: AWAITING_FUNDS, FUNDED, PARTIALLY_DISBURSED, FULLY_DISBURSED, DISPUTED).
+* **Commands:** `FundEscrowCommand`, `ReleaseFundsCommand`.
+* **Queries:** `GetEscrowBalanceQuery`.
+* **Domain Events:** `EscrowFundedEvent`, `FundsReleasedEvent`.
+* **Reglas de negocio:** Los fondos permanecen congelados e inmutables hasta recibir la señal explícita de aprobación de hito. El saldo retenido nunca puede ser negativo. El monto a liberar no puede exceder el balance actual de la bóveda.
+
+#### 2.6.3.2. Interface Layer
+Contiene los controladores que exponen los servicios de pagos y custodia al frontend móvil de Muyu.
+
+* **REST Controllers:** `EscrowController`, `PayoutsController`.
+* **Endpoints:** `POST /api/v1/escrow/fund`, `POST /api/v1/escrow/{id}/release`, `GET /api/v1/escrow/{id}/balance`.
+* **DTOs:** `FundingRequestResource`, `PayoutSummaryResource`, `EscrowBalanceResource`.
+* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `FundEscrowCommandFromResourceAssembler`).
+
+#### 2.6.3.3. Application Layer
+Coordina los flujos de ingreso de capital y las órdenes de desembolso progresivo.
+
+* **Command Services:** `EscrowCommandServiceImpl` (Interactúa con la pasarela para inmovilizar o transferir fondos y actualiza la bóveda).
+* **Query Services:** `EscrowQueryServiceImpl`.
+* **Flujo principal:** Al recibir confirmación del depósito inicial desde la pasarela externa, se actualiza el estado a "FUNDED". Posteriormente, al recibir el evento de un hito aprobado desde el bus de mensajes, el servicio invoca a la pasarela bancaria para realizar la transferencia al agricultor y registra un `PayoutRecord`.
+
+#### 2.6.3.4. Infrastructure Layer
+Gestiona la persistencia de los registros financieros y la integración con entidades bancarias externas.
+
+* **Repositories:** `EscrowAccountRepository` (extiende JpaRepository o similar), `PayoutRecordRepository`.
+* **Adapters:** `EscrowPaymentGatewayAdapter` (comunicación REST con la pasarela de pagos), `EventBusSubscriberAdapter` (escucha eventos de otros contextos).
+* **Persistencia:** Tablas `escrow_accounts` y `payout_records` con llaves foráneas y restricciones de integridad.
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Custodia de Fondos en Escrow**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_escrow.png" alt="Contract Parcel Component Diagram" width="800" />
+</div>
+
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`EscrowAccount`) y cómo interactúa con los servicios de comando y consulta (CQRS).
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_escrow.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+Este diagrama relacional conectando `escrow_accounts` y `payout_records`, donde cada registro de desembolso pertenece a una bóveda de retención, garantizando la trazabilidad de la custodia.
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_escrow.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
+
 
 ### 2.6.x. Bounded Context: <Bounded Context Name>
 #### 2.6.x.1. Domain Layer
