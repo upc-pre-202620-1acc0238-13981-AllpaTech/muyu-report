@@ -93,9 +93,11 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 
 
+<div style="page-break-after: always;"></div>
+
 # Student Outcome 7
 
-
+El Student Outcome 7 establece que el estudiante debe ser capaz de adquirir y aplicar nuevo conocimiento conforme sea necesario, utilizando estrategias de aprendizaje apropiadas. En este proyecto, cada integrante evidenció la actualización de conocimientos técnicos y profesionales para resolver problemas reales del contexto de software y fortalecer el desarrollo del producto Muyu.
 
 <div align="center">
   <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
@@ -148,29 +150,31 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## Objetivos SMART
 
+La siguiente sección presenta los objetivos profesionales y de especialización de cada integrante del equipo de forma clara, ordenada y consistente con el criterio SMART (específico, medible, alcanzable, relevante y temporal).
+
 ### Mel Andree Orellana Rodriguez
 
-* **Objetivo 1 (Especialización Técnica):** Dominar de manera práctica el diseño de arquitecturas orientadas a microservicios e infraestructura en la nube en un plazo de 8 meses tras egresar. Para ello, dedicaré 6 horas semanales al desarrollo de proyectos personales complejos y al estudio de buenas prácticas de escalabilidad y rendimiento en software.
-* **Objetivo 2 (Crecimiento Profesional):** Incorporarme como *Software Engineer* en una empresa del sector tecnológico dentro de los primeros 2 años posteriores a la graduación, participando activamente en el diseño, desarrollo y despliegue de soluciones de software eficientes y de alto impacto.
+- **Objetivo 1 (Especialización Técnica):** Dominar de manera práctica el diseño de arquitecturas orientadas a microservicios e infraestructura en la nube en un plazo de 8 meses tras egresar. Para ello, dedicaré 6 horas semanales al desarrollo de proyectos personales complejos y al estudio de buenas prácticas de escalabilidad y rendimiento en software.
+- **Objetivo 2 (Crecimiento Profesional):** Incorporarme como *Software Engineer* en una empresa del sector tecnológico dentro de los primeros 2 años posteriores a la graduación, participando activamente en el diseño, desarrollo y despliegue de soluciones de software eficientes y de alto impacto.
 
 ### Angel Guillermo Berrospi Marin
-* **Objetivo 1 (Especialización Técnica):** Aprender a desarrollar aplicaciones web y mobile con distintos tipos de lenguage y aplicar correctamente una arquitectura solida aplicando los principios que requieran para ofrecer un buen software.
-* **Objetivo 2 (Crecimiento Profesional):** Recibirme cómo *Software Engineer* y empezar a trabajar en una empresa del sector tecnológico o a fines con el propósito de crear nuevas aplicaciones que solucionen problemas cotidianos.
+
+- **Objetivo 1 (Especialización Técnica):** Aprender a desarrollar aplicaciones web y mobile con distintos tipos de lenguajes y aplicar correctamente una arquitectura sólida, siguiendo los principios y buenas prácticas requeridas para ofrecer un software de calidad.
+- **Objetivo 2 (Crecimiento Profesional):** Recibirme como *Software Engineer* y empezar a trabajar en una empresa del sector tecnológico o afín con el propósito de crear nuevas aplicaciones que solucionen problemas cotidianos.
 
 ### Emily Juliette Arroyo Gonzales
-- **Objetivo 1 (Especialización técnica):** Aprender durante el próximo año a desarrollar aplicaciones web y móviles utilizando distintos lenguajes, con el propósito de crear proyectos organizados, seguros y de buena calidad.
 
-- **Objetivo 2 (Crecimiento profesional):** Graduarme como ingeniero de software y comenzar a trabajar en una empresa tecnológica durante el primer año después de terminar la carrera, participando en la creación de aplicaciones que solucionen problemas cotidianos.
+- **Objetivo 1 (Especialización Técnica):** Aprender durante el próximo año a desarrollar aplicaciones web y móviles utilizando distintos lenguajes, con el propósito de crear proyectos organizados, seguros y de buena calidad.
+- **Objetivo 2 (Crecimiento Profesional):** Graduarme como ingeniera de software y comenzar a trabajar en una empresa tecnológica durante el primer año después de terminar la carrera, participando en la creación de aplicaciones que solucionen problemas cotidianos.
 
 ### Jennifer Yamilet Riveros Vera
 
-- **Objetivo 1 (Especialización Técnica):** Desarrollar competencias avanzadas en Análisis de Datos mediante el diseño de dashboards interactivos en Power BI y la optimización de consultas complejas en SQL Server en un plazo de 6 meses, dedicando 6 horas semanales a la elaboración de proyectos de minería de datos y modelado analítico para la toma de decisiones.
-
+- **Objetivo 1 (Especialización Técnica):** Desarrollar competencias avanzadas en análisis de datos mediante el diseño de dashboards interactivos en Power BI y la optimización de consultas complejas en SQL Server en un plazo de 6 meses, dedicando 6 horas semanales a la elaboración de proyectos de minería de datos y modelado analítico para la toma de decisiones.
 - **Objetivo 2 (Crecimiento Profesional):** Obtener una posición como Data Analyst o Software Engineer enfocada en soluciones de inteligencia de negocios dentro del primer año tras finalizar la carrera, aplicando análisis de datos e interfaces optimizadas en proyectos de impacto real.
 
 ### Quintanilla Pozo Gonzalo Samuel
-- **Objetivo 1 (Especialización Técnica):** Dominar de manera práctica el desarrollo y la arquitectura de software basada en Domain-Driven Design (DDD) y el despliegue de microservicios utilizando frameworks modernos como Spring Boot y Node.js en un plazo de 8 meses. Para lograrlo, mantendré una estricta disciplina técnica, dedicando 6 horas semanales a la construcción de proyectos personales de desarrollo web y móvil que integren bases de datos relacionales y NoSQL.
 
+- **Objetivo 1 (Especialización Técnica):** Dominar de manera práctica el desarrollo y la arquitectura de software basada en Domain-Driven Design (DDD) y el despliegue de microservicios utilizando frameworks modernos como Spring Boot y Node.js en un plazo de 8 meses. Para lograrlo, mantendré una estricta disciplina técnica, dedicando 6 horas semanales a la construcción de proyectos personales de desarrollo web y móvil que integren bases de datos relacionales y NoSQL.
 - **Objetivo 2 (Crecimiento Profesional):** Expandir y consolidar mis servicios como desarrollador web freelance para clientes independientes y, de manera paralela, incorporarme como Software Engineer Full-Stack en una empresa del sector tecnológico dentro del primer año tras mi graduación, aportando mi capacidad para diseñar e implementar soluciones de software escalables.
 
 ## Tabla de Contenidos
@@ -295,6 +299,8 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 * [Anexos](#anexos)
 
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo I: Presentación
 
 ## 1.1. Startup Profile
@@ -309,13 +315,58 @@ Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalece
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-|                                      Miembro  |                                                          Descripción                   |
-|:---------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="assets/images/Chapter 1/members/Gonzalo.jpg" width="3000"/>  |                                                                                                                                                                                            **Gonzalo Samuel Quintanilla Pozo \- U202315007** <br>  Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 21 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.                                                                                                                                                                                               |
-| <img src="assets/images/Chapter 1/members/foto-andree.jpg" width="3000"/> |                                                                                                                                                   **Mel Andree Orellana Rodriguez \- U202116018** <br>    Soy estudiante de Ingeniería de Software, actualmente cursando el séptimo ciclo. Me interesa desarrollar e implementar soluciones tecnológicas innovadoras que generen un impacto positivo y ayuden a resolver necesidades reales. Cuento con conocimientos en desarrollo web utilizando HTML, CSS y JavaScript, así como en Python para análisis y procesamiento de datos. También tengo conocimientos en bases de datos y Supabase. Además, manejo herramientas de automatización como n8n y soluciones Low-Code como Power BI, Power Automate y Power Apps. Tengo especial interés en desarrollarme profesionalmente en las áreas de análisis de datos, automatización e Inteligencia Artificial Generativa, particularmente dentro del ecosistema de Microsoft.                                                                                                                                               |
-| <img src="assets/images/Chapter 1/members/Jennifer.png" width="3000"/> | **Jennifer Yamilet Riveros Vera - u20241c998** <br> Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 19 años. Soy colaborativa y enfocada en entregar un trabajo bien estructurado a mi equipo. Cuento con experiencia y conocimientos en desarrollo web frontend utilizando HTML5, CSS3, JavaScript y Vue.js, After Effects, Adobe Illustrator y Photoshop , manejo de bases de datos como SQL Server, así como Python y diseño de interfaces en Figma. Asimismo, tengo interés en el análisis de datos mediante Excel y Power BI. |
-|  <img src="assets/images/Chapter 1/members/Guillermo.jpg" width="3000"/>   |                                                                                                                                                                                                                 **Angel Guillermo Berrospi Marin \- u202114701**   <br> Soy estudiante de la carrera de Ingeniería de Software. Tendre el compromiso con mi equipo en ser proactivo, productivo, siempre apoyar en lo que se necesite y mantener una comunicación fluida. Cuento con conocimientos en html, css, javascript, Java y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto.                                                                                                                                                                                                                        | 
-|  <img src="assets/images/Chapter 1/members/Emily.png" width="3000"/>   |                                                                                                                                                                                                            **Emily Juliette Arroyo Gonzales \- U202311469**  <br> Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.                                                                                                                                                                                                            | 
+<div style="border: 1px solid #d9d9d9; padding: 12px; margin: 10px 0;">
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
+      <img src="assets/images/Chapter 1/members/Gonzalo.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+    </td>
+    <td style="padding: 12px; vertical-align: top;">
+      <strong>Gonzalo Samuel Quintanilla Pozo - U202315007</strong><br>
+      Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 21 años. Como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
+      <img src="assets/images/Chapter 1/members/foto-andree.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+    </td>
+    <td style="padding: 12px; vertical-align: top;">
+      <strong>Mel Andree Orellana Rodriguez - U202116018</strong><br>
+      Soy estudiante de Ingeniería de Software, actualmente cursando el séptimo ciclo. Me interesa desarrollar e implementar soluciones tecnológicas innovadoras que generen un impacto positivo y ayuden a resolver necesidades reales. Cuento con conocimientos en desarrollo web utilizando HTML, CSS y JavaScript, así como en Python para análisis y procesamiento de datos. También tengo conocimientos en bases de datos y Supabase. Además, manejo herramientas de automatización como n8n y soluciones Low-Code como Power BI, Power Automate y Power Apps. Tengo especial interés en desarrollarme profesionalmente en las áreas de análisis de datos, automatización e Inteligencia Artificial Generativa, particularmente dentro del ecosistema de Microsoft.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
+      <img src="assets/images/Chapter 1/members/Jennifer.png" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+    </td>
+    <td style="padding: 12px; vertical-align: top;">
+      <strong>Jennifer Yamilet Riveros Vera - u20241c998</strong><br>
+      Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 19 años. Soy colaborativa y enfocada en entregar un trabajo bien estructurado a mi equipo. Cuento con experiencia y conocimientos en desarrollo web frontend utilizando HTML5, CSS3, JavaScript y Vue.js, After Effects, Adobe Illustrator y Photoshop, manejo de bases de datos como SQL Server, así como Python y diseño de interfaces en Figma. Asimismo, tengo interés en el análisis de datos mediante Excel y Power BI.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
+      <img src="assets/images/Chapter 1/members/Guillermo.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+    </td>
+    <td style="padding: 12px; vertical-align: top;">
+      <strong>Angel Guillermo Berrospi Marin - u202114701</strong><br>
+      Soy estudiante de la carrera de Ingeniería de Software. Tengo el compromiso con mi equipo de ser proactivo, productivo y siempre apoyar en lo que se necesite, manteniendo una comunicación fluida. Cuento con conocimientos en HTML, CSS, JavaScript, Java y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
+      <img src="assets/images/Chapter 1/members/Emily.png" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+    </td>
+    <td style="padding: 12px; vertical-align: top;">
+      <strong>Emily Juliette Arroyo Gonzales - U202311469</strong><br>
+      Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.
+    </td>
+  </tr>
+</table>
+
+</div>
+
 ---
 
 ## 1.2. Solution Profile
@@ -536,6 +587,8 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 - Recibir la cosecha en las condiciones y fechas establecidas.
 
 ---
+<div style="page-break-after: always;"></div>
+
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
@@ -962,12 +1015,16 @@ A partir de la información obtenida durante las entrevistas y del análisis de 
 
 #### User Persona: Segmento Agricultor
 
-![User Persona - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png)
+<div align="center">
+  <img src="assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+</div>
 
 #### User Persona: Segmento Comerciante / Comprador
 
 
-![User Persona - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-user-persona.png)
+<div align="center">
+  <img src="assets/images/chapter02/uxpressia/valeria-user-persona.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+</div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1059,13 +1116,15 @@ El recorrido que se describe es un viaje de cinco fases que generalmente va de l
 
 #### Empathy Map: Segmento Agricultor
 
-
-![Empathy Map - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-empathy-map.png)
+<div align="center" style="border: 1px solid #d9d9d9; padding: 10px; margin: 15px 0;">
+  <img src="assets/images/chapter02/uxpressia/miguel-quispe-empathy-map.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+</div>
 
 #### Empathy Map: Segmento Comerciante / Comprador
 
-![Empathy Map - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-mendoza-empathy-map.png)
-
+<div align="center" style="border: 1px solid #d9d9d9; padding: 10px; margin: 15px 0;">
+  <img src="assets/images/chapter02/uxpressia/valeria-mendoza-empathy-map.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+</div>
 ### 2.3.5. Big Picture EventStorming
 
 Se realizó una sesión de Big Picture Event Storming con el objetivo de comprender el dominio general de Muyu e identificar los principales eventos del negocio, sus relaciones y los actores involucrados.
@@ -2220,6 +2279,8 @@ Este diagrama de despliegue representa la infraestructura física y en la nube d
 ##### 2.6.x.6.2. Bounded Context Database Design Diagram
 
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo III: Solution UI/UX Design
 
 ## 3.1. Product design
@@ -2240,6 +2301,8 @@ Este diagrama de despliegue representa la infraestructura física y en la nube d
 #### 3.1.4.3. Mobile Applications Mock-ups
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 #### 3.1.4.5. Mobile Applications Prototyping
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Implementation & Validation
 
@@ -2310,5 +2373,3 @@ Se incluye el reporte elaborado en Power BI y los archivos relacionados con el p
 ## Anexo B. Needfinding
 
 [Acceder a las imagenes del Needfinding](https://drive.google.com/drive/folders/1duMlYLnnMw7aKBI8piZhUOFh11Hg-Plf?usp=sharing)
-
-
