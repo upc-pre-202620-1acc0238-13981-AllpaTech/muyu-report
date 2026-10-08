@@ -3005,6 +3005,67 @@ Este diagrama detalla la tabla que soporta el historial de alertas detectadas pa
   <img src="assets/images/chapter02/Sprint2/db_diagram_contract_climate.png" alt="Contract Escrow Database Diagram" width="800" />
 </div>
 
+### 2.6.6. Bounded Context: Gestión de Usuarios (IAM) Service
+
+Representa la capacidad del sistema encargada de administrar el ciclo de vida de las cuentas de usuarios, soportando el registro, autenticación y asignación de roles de perfiles (Agricultor y Comerciante) mediante la verificación de datos de identidad y de contacto. Su propósito es centralizar la seguridad y el control de acceso a la plataforma. La entidad principal es `User`, la cual concentra las credenciales y el estado de autorización.
+
+#### 2.6.6.1. Domain Layer
+La capa de dominio contiene el núcleo de las reglas de autenticación, unicidad de cuentas y asignación de permisos.
+
+- **Aggregate Root:** `User` (Atributos: id, email, passwordHash, status, createdAt).
+- **Entities:** `Role` (Agricultor, Comerciante, Administrador).
+- **Value Objects:** `IdentityDocument` (DNI o RUC), `UserStatus` (Enum: ACTIVE, INACTIVE, SUSPENDED), `EmailAddress`.
+- **Commands:** `RegisterAgricultorCommand`, `RegisterComercianteCommand`, `AuthenticateUserCommand`.
+- **Queries:** `GetUserProfileQuery`, `ValidateTokenQuery`.
+- **Domain Events:** `UserRegisteredEvent`, `UserAuthenticatedEvent`.
+- **Reglas de negocio:** El correo electrónico ingresado debe ser único en todo el sistema y no puede estar asociado a otra cuenta activa. Las contraseñas nunca deben almacenarse en texto plano. Las acciones sobre parcelas y desembolsos están estrictamente restringidas según el rol asignado a la cuenta.
+
+#### 2.6.6.2. Interface Layer
+Contiene los controladores que exponen los servicios de registro e inicio de sesión al frontend móvil de Muyu.
+
+- **REST Controllers:** `AuthController`, `UsersController`.
+- **Endpoints:** `POST /api/v1/auth/register/agricultor`, `POST /api/v1/auth/register/comerciante`, `POST /api/v1/auth/login`.
+- **DTOs:** `AgricultorRegistrationResource`, `ComercianteRegistrationResource`, `LoginResource`, `AuthTokenResource`.
+- **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `AuthenticateUserCommandFromResourceAssembler`).
+
+#### 2.6.6.3. Application Layer
+Coordina los flujos de creación de cuentas, validación externa y generación de tokens de sesión.
+
+- **Command Services:** `AuthCommandServiceImpl` (Orquesta el registro, valida la unicidad del correo, encripta la contraseña y guarda el usuario).
+- **Query Services:** `UserQueryServiceImpl`.
+- **Flujo principal:** El usuario envía sus datos de registro desde la APP Móvil. El servicio verifica la validez del DNI o RUC contra un proveedor de autenticación externo. Si es válido, utiliza un contrato de infraestructura para hashear la contraseña, guarda el `User` en la base de datos con su rol correspondiente y emite un `UserRegisteredEvent`. Durante el login, verifica las credenciales y genera un JSON Web Token (JWT).
+
+#### 2.6.6.4. Infrastructure Layer
+Gestiona la persistencia segura de las credenciales y las integraciones con servicios de seguridad.
+
+- **Repositories:** `UserRepository` (extiende JpaRepository o similar con soporte para búsquedas exactas por email), `RoleRepository`.
+- **Adapters:** `JwtProviderAdapter` (Generación y firma de tokens JWT), `PasswordHasherAdapter` (Implementación de encriptación con BCrypt/Argon2), `IdentityProviderAdapter` (Conexión con servicios de RENIEC/SUNAT).
+- **Persistencia:** Tablas `users`, `roles` y la tabla intermedia `user_roles` con restricciones de unicidad en la columna de correo.
+
+#### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Gestión de Usuarios (IAM)**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_iam.png" alt="IAM Component Diagram" width="800" />
+</div>
+
+#### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`User`) y cómo interactúa con los servicios de comando, consulta y los roles asignados.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/class_diagram_iam.png" alt="IAM Class Diagram" width="800" />
+</div>
+
+##### 2.6.6.6.2. Bounded Context Database Design Diagram
+Este diagrama relacional conecta `users` y `roles`, estructurando el almacenamiento seguro de credenciales y garantizando la correcta autorización mediante la relación de perfiles en el ecosistema.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/db_diagram_iam.png" alt="IAM Database Diagram" width="800" />
+</div>
+
+
+
 <div style="page-break-after: always;"></div>
 
 # Capítulo III: Solution UI/UX Design
