@@ -46,7 +46,7 @@
 ## Registro de Versiones del Informe
 
 <div align="center">
-
+    
 | Versión |   Fecha    |                Autor                |                                                 Descripción de modificación                                                   |
 |:-------:|:----------:|:-----------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|
 |   AV1   | 27-08-2026 | Orellana Rodriguez, Mel Andree      | Creación e inicialización de la estructura técnica y plantilla base del reporte (UPC report template).                        |
@@ -59,8 +59,8 @@
 |   AV1   | 11-09-2026 | Orellana Rodriguez, Mel Andree      | Incorporación del diagrama de Context Map a la sección de arquitectura de software y assets del proyecto.                              |
 |   AV1   | 13-09-2026| Quintanilla Pozo, Gonzalo Samuel      | Desarrollo del Capítulo 2.6 (Tactical-Level Domain-Driven Design), incluyendo la estructuración de capas (Dominio, Interfaz, Aplicación, Infraestructura) y la elaboración de diagramas de componentes, clases y bases de datos para los Bounded Contexts. |
 |   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de entrevista para 2.2.2. Registro de entrevistas.                              |
-|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de User Stories para 2.4.1. User Stories.                              |
-|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de Impact mapping agricultor y comerciante para 2.4.2. Impact Mapping. |
+|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de User Stories para 2.4.1. User Stories.                              |  
+|   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de Impact mapping agricultor y comerciante para 2.4.2. Impact Mapping.                              | 
 |   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.5.1.1. Candidate Context Discovery. |
 |   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette     | Edición de portada del informe. |
 |   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette       | Desarrollo del 1.1.1. Descripción de la Startup y 1.1.2. Perfiles de integrantes del equipo  |
@@ -79,12 +79,11 @@
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| Angel Guillermo Berrospi Marin | Desarrollo de historias de usuario, Impact Mapping, entrevistas y estructura del Product Backlog. |
-| Mel Andree Orellana Rodriguez | Estructura técnica del informe, elicitación de requerimientos, priorización del Product Backlog, EventStorming, Bounded Context Canvases, Context Map y diagramas C4. |
-| Emily Juliette Arroyo Gonzales | Edición del informe y desarrollo del Capítulo I, incluyendo Lean UX y segmentos objetivo. |
-| Jennifer Yamilet Riveros Vera | Diseño y registro de entrevistas; análisis de entrevistas y dispositivos móviles; User Personas, User Task Matrix, User Journey Maps, Empathy Maps, Big Picture Event Storming y Ubiquitous Language. |
-| Gonzalo Samuel Quintanilla Pozo | Diseño táctico de arquitectura con Domain-Driven Design (Capítulo 2.6), capas de software y diagramas de componentes, clases y bases de datos para los Bounded Contexts. |
-
+| Angel Guillermo Berrospi Marin | Desarrollo de User stories y creación de su estructura, Desarrollo de Impact Mapping, Desarrollo de Entrevistas, Creación de la estructura de Porduct Backlog. |
+| Mel Andree Orellana Rodriguez | Creación e inicialización de la estructura técnica del reporte, desarrollo de la sección de elicitación de requerimientos, priorización del Product Backlog, diseño y desarrollo de diagramas de EventStorming (Big Picture), Bounded Context Canvases, Context Map, y diagramas de arquitectura de software C4 (Contexto, Contenedor y Despliegue). |
+|Emily Juliette Arroyo Gonzales| Desarrollo de la edición del informe y redacción del capítulo 1|
+| Jennifer Yamilet Riveros Vera | Diseño y registro de entrevistas; incorporación de evidencias; elaboración y actualización de User Personas, User Task Matrix, User Journey Maps y Empathy Maps; análisis de entrevistas y dispositivos móviles; desarrollo del Big Picture Event Storming; elaboración del Ubiquitous Language|
+|Gonzalo Samuel Quintanilla Pozo | Desarrollo del diseño táctico de la arquitectura de software mediante Domain-Driven Design (Capítulo 2.6). Lideré la estructuración de las capas de Dominio, Interfaz, Aplicación e Infraestructura, así como la elaboración de los diagramas de componentes, diagramas de clases de dominio y diseño de esquemas de base de datos para los Bounded Contexts: Contract & Escrow Service, Parcel Management Service y MUYU Mobile Offline Sync Context.|
 </div>
 
 
@@ -116,11 +115,11 @@ El Student Outcome 7 establece que el estudiante debe ser capaz de adquirir y ap
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>AV1 - Angel Guillermo Berrospi Marin:</b> Participé en el desarrollo de historias de usuario, Impact Mapping y entrevistas, y coordiné las tareas del proyecto con el equipo.</li>
-            <li><b>AV1 - Mel Andree Orellana Rodriguez:</b> Investigué y apliqué Domain-Driven Design, arquitectura C4 y EventStorming; también estructuré el reporte y desarrollé artefactos de requerimientos y arquitectura.</li>
-            <li><b>AV1 - Emily Juliette Arroyo Gonzales:</b> Investigué y apliqué Lean UX y 5W y 2H para analizar la problemática, definir supuestos e hipótesis y desarrollar los segmentos objetivo.</li>
-            <li><b>AV1 - Jennifer Yamilet Riveros Vera:</b> Apliqué técnicas de Needfinding y modelado del dominio para elaborar los artefactos de usuarios, analizar entrevistas y representar conceptos relevantes del dominio.</li>
-            <li><b>AV1 - Gonzalo Samuel Quintanilla Pozo:</b> Apliqué Domain-Driven Design para estructurar las capas y desarrollar diagramas de componentes, clases y bases de datos de los Bounded Contexts.</li>
+            <li><b> AV1 - Angel Guillermo Berrospi Marin:</b> Fomenté comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejemplo el capítulo 2 con el impact mapping, user stories y entrevistas, de esa forma avance el trabajo. </li>
+            <li><b> AV1 - Mel Andree Orellana Rodriguez:</b> Investigué e implementé conceptos clave de Domain-Driven Design (DDD) y arquitectura de software C4 para estructurar el informe del proyecto Muyu. Además, configuré la estructura inicial del reporte, redacté la sección de elicitación de requerimientos, prioricé el Product Backlog y desarrollé los diagramas de contexto, contenedores, despliegue y Bounded Context Canvases.</li>
+            <li><b> AV1 - Emily Juliette Arroyo Gonzales:</b> Reconocí la importancia del aprendizaje permanente al investigar y aplicar técnicas como Lean UX, 5W y 2H en el desarrollo del proyecto Muyu. Este proceso me permitió ampliar mis conocimientos sobre análisis de problemas, formulación de supuestos e hipótesis y definición de usuarios, comprendiendo que la actualización constante es necesaria para proponer soluciones de software adecuadas a las necesidades reales.</li>
+            <li><b>AV1 - Jennifer Yamilet Riveros Vera:</b> Investigué y apliqué técnicas de Needfinding y modelado de dominio durante el desarrollo del Capítulo II. Elaboré User Personas, User Task Matrix, User Journey Maps y Empathy Maps a partir de la información obtenida en las entrevistas. También desarrollé el análisis de entrevistas y dispositivos móviles, y apliqué Big Picture Event Storming y Ubiquitous Language para representar y definir conceptos relevantes del dominio.</li>
+            <li><b>AV1 - Gonzalo Samuel Quintanilla Pozo:</b> Asumí el liderazgo técnico en el diseño táctico de la arquitectura (Domain-Driven Design) desde la sección 2.6. Me encargué de estructurar las capas de Dominio, Aplicación e Infraestructura, y elaboré los diagramas de componentes, clases y diseño de base de datos (relacional y local) para los Bounded Contexts del proyecto.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -334,23 +333,6 @@ La siguiente sección presenta los objetivos profesionales y de especialización
 * [Glosario](#glosario)
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
-
-## Índice de figuras
-
-1. [Figura 1. Distribución de entrevistas por segmento](#figura-1)
-2. [Figura 2. Distribución de entrevistados por entorno de trabajo](#figura-2)
-3. [Figura 3. Hallazgos del segmento Comerciante / Comprador](#figura-3)
-4. [Figura 4. Hallazgos del segmento Agricultor](#figura-4)
-5. [Figura 5. Análisis de dispositivos móviles y sistemas operativos](#figura-5)
-6. [Figura 6. User Persona del segmento Agricultor](#figura-6)
-7. [Figura 7. User Persona del segmento Comerciante / Comprador](#figura-7)
-8. [Figura 8. User Journey Map del segmento Agricultor](#figura-8)
-9. [Figura 9. User Journey Map del segmento Comerciante / Comprador](#figura-9)
-10. [Figura 10. Empathy Map del segmento Agricultor](#figura-10)
-11. [Figura 11. Empathy Map del segmento Comerciante / Comprador](#figura-11)
-12. [Figura 12. EventStorming: Generating Domain Events](#figura-12)
-13. [Figura 13. EventStorming: Sorting Domain Events](#figura-13)
-14. [Figura 14. EventStorming: Adding Actors and External Systems](#figura-14)
 
 
 <div style="page-break-after: always;"></div>
@@ -1086,12 +1068,18 @@ A partir de la información obtenida durante las entrevistas y del análisis de 
 
 <a id="figura-6"></a>
 ![User Persona - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png)
+<div align="center">
+  <img src="assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+</div>
 
 #### User Persona: Segmento Comerciante / Comprador
 
 
 <a id="figura-7"></a>
 ![User Persona - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-user-persona.png)
+<div align="center">
+  <img src="assets/images/chapter02/uxpressia/valeria-user-persona.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+</div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1189,30 +1177,34 @@ Las Figuras 10 y 11 muestran los Empathy Maps de los segmentos Agricultor y Come
 
 <a id="figura-10"></a>
 ![Empathy Map - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-empathy-map.png)
+<div align="center" style="border: 1px solid #d9d9d9; padding: 10px; margin: 15px 0;">
+  <img src="assets/images/chapter02/uxpressia/miguel-quispe-empathy-map.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+</div>
 
 #### Empathy Map: Segmento Comerciante / Comprador
 
 <a id="figura-11"></a>
 ![Empathy Map - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-mendoza-empathy-map.png)
 
+<div align="center" style="border: 1px solid #d9d9d9; padding: 10px; margin: 15px 0;">
+  <img src="assets/images/chapter02/uxpressia/valeria-mendoza-empathy-map.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+</div>
 ### 2.3.5. Big Picture EventStorming
 
-El equipo realizó una sesión de Big Picture EventStorming para comprender el dominio de Muyu e identificar sus eventos principales, actores y sistemas externos. Las Figuras 12, 13 y 14 documentan la generación de eventos del dominio, su organización y la incorporación de actores y sistemas externos.
+Se realizó una sesión de Big Picture Event Storming con el objetivo de comprender el dominio general de Muyu e identificar los principales eventos del negocio, sus relaciones y los actores involucrados.
 
 #### Step 1 - Generating Domain Events
 
-<a id="figura-12"></a>
 ![Step 1 - Generating Domain Events](assets/images/chapter02/big-picture-event-storming/Step1-GeneratingDomainEvents.png)
 
 #### Step 2 - Sorting Domain Events
 
-<a id="figura-13"></a>
 ![Step 2 - Sorting Domain Events](assets/images/chapter02/big-picture-event-storming/Step2-SortingDomainEvents.png)
 
 #### Step 3 - Adding Actors and External Systems
 
-<a id="figura-14"></a>
 ![Step 3 - Adding Actors and External Systems](assets/images/chapter02/big-picture-event-storming/Step3-AddingActors%20andExternalSystems.png)
+
 
 ### 2.3.6. Ubiquitous Language
 
@@ -1242,17 +1234,6 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
 
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
-
-La Tabla 3 sintetiza las historias de usuario priorizadas, integrando el rol del actor, la prioridad y el epic asociado para orientar el desarrollo del producto. La tabla siguiente resume las épicas que agrupan estas historias.
-
-| Epic ID | Título de la Epic | Descripción |
-| :--- | :--- | :--- |
-| **EPIC-01** | Identity and Access Management (IAM) | Gestión de registro, autenticación, perfiles y seguridad basada en roles (Agricultor/Comerciante) para la plataforma. |
-| **EPIC-02** | Gestión de Parcelas y Financiamiento | Ciclo de negocio desde la publicación y búsqueda de parcelas, hasta la negociación y retención de fondos en Escrow. |
-| **EPIC-03** | Ejecución Agrícola y Evidencias | Registro de las labores de cultivo en el campo, presentación de reportes y almacenamiento de evidencias fotográficas. |
-| **EPIC-04** | Revisión y Flujo de Pagos | Motor de decisiones del comerciante para aprobar hitos o solicitar correcciones, y la consecuente liberación de pagos. |
-| **EPIC-05** | Proceso Climático | Recepción de datos meteorológicos externos y emisión de alertas de riesgo para proteger las labores agrícolas. |
-
 <table width="100%">
   <thead>
     <tr align="center">
@@ -3279,65 +3260,6 @@ En la etapa final, el equipo refinó las agrupaciones hasta definir los **5 Boun
 
 
 #### 2.5.1.2. Domain Message Flows Modeling
-
-
-
-
-Para representar cómo interactúan los *Bounded Contexts* con los actores del sistema frente a escenarios reales de negocio, el equipo aplicó **Domain Storytelling**. Esta metodología conecta visualmente a los **Actores** (Agricultor, Comerciante, OpenWeather API), **Comandos** (cajas azules), **Datos de Trabajo** (notas amarillas), **Bounded Contexts** (nubes) y **Estados Resultantes** (cajas naranjas).
-
-A continuación, se documenta la colaboración distribuida en tres vistas clave del proceso:
-
-#### Vista 1: Registro, Catálogo y Contratación
-
-Modela el proceso desde el alta del terreno hasta la solicitud del contrato comercial:
-
-<p align="center">
-  <img src="assets/images/chapter02/event-storming/flows-01.png" width="800" />
-</p>
-
-1. **Registrar Parcela:** El agricultor ingresa datos del terreno (área, ubicación GPS, fotos) desde la App Móvil.
-2. **Validar Parcela:** La App envía la información al Bounded Context de *Gestión de Parcelas*.
-3. **Parcela Publicada:** Tras validarse, se activa el estado para mostrar el lote en el catálogo público.
-4. **Consultar Catálogo:** El comerciante busca parcelas aplicando filtros de búsqueda en la app.
-5. **Solicitar Financiamiento:** El comerciante elige una parcela e inicia una propuesta de abastecimiento.
-6. **Solicitar Contrato:** La App remite la oferta formal al contexto de *Financiamiento y Contratación*.
-7. **Parcela Reservada:** Se bloquea la oferta en el catálogo y se notifica a *Custodia Escrow* para habilitar el depósito.
-
----
-
-#### Vista 2: Custodia Escrow y Trabajo de Campo
-
-Modela la retención del capital en garantía y el registro de evidencias en el campo:
-
-<p align="center">
-  <img src="assets/images/chapter02/event-storming/flows-02.png" width="800" />
-</p>
-
-1. **Depositar Capital:** El comerciante transfiere los fondos requeridos hacia el Bounded Context de *Custodia Escrow*.
-2. **Contrato Activado:** Confirmado el depósito, se emite el estado de activación del acuerdo agrícola.
-3. **Capturar Evidencias:** El agricultor toma fotos con metadatos GPS/fecha (soporta modo offline en la app).
-4. **Enviar Evidencias:** La App Móvil sincroniza los datos al Bounded Context de *Ejecución y Evidencias*.
-5. **Evidencias Presentadas:** Se notifica al comerciante la existencia de entregables pendientes de auditoría.
-
----
-
-#### Vista 3: Auditoría, Desembolso y Clima
-
-Modela la aprobación de entregables, la liberación de pagos y la notificación preventiva de alertas meteorológicas:
-
-<p align="center">
-  <img src="assets/images/chapter02/event-storming/flows-03.png" width="800" />
-</p>
-
-1. **Aprobar Hito:** El comerciante evalúa las pruebas recibidas desde la App Móvil y emite su conformidad.
-2. **Procesar Aprobación:** La App comunica la decisión al Bounded Context de *Ejecución y Evidencias*.
-3. **Hito Aprobado:** El sistema consolida la validación técnica de la etapa de cultivo.
-4. **Liberar Pago:** Se dispara la orden hacia *Custodia Escrow* para transferir el porcentaje parcial correspondiente al agricultor.
-5. **Anomalía Detectada:** *OpenWeather API* transmite métricas climáticas críticas al Bounded Context de *Monitoreo Climático*.
-6. **Notificar Alerta:** El contexto calcula las parcelas afectadas dentro del radio de riesgo y envía el aviso a la app.
-7. **Mostrar Alerta:** La App Móvil despliega alertas preventivas con recomendaciones operativas en tiempo real.
-
-
 #### 2.5.1.3. Bounded Context Canvases
 
 
@@ -3412,15 +3334,6 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 
 
 ### 2.5.2. Context Mapping
-
-
-A continuación, se presenta el diagrama de Context Mapping (Mapa de Contexto) del proyecto Muyu. Este diagrama ilustra de manera clara la estructura estratégica de la solución, definiendo los límites explícitos entre los distintos Bounded Contexts (Contextos Delimitados) identificados en el sistema y estableciendo las relaciones de integración, flujo de datos y patrones de comunicación (como Customer-Supplier, Shared Kernel, o Upstream/Downstream) que gobiernan la interacción entre cada uno de los microservicios y módulos de la plataforma.
-
-<p align="center">
-  <img src="assets/images/chapter02/context.png" width="400"/>
-</p>
-
-
 ### 2.5.3. Software Architecture
 
 Para entender cómo se relaciona la aplicación móvil MUYU con su entorno, el diagrama de contexto (Nivel 1 C4) ubica la app en el centro del flujo operacional. A su alrededor se muestran los usuarios principales el Productor Agrícola en campo y el Comercializador junto con los servicios externos que respaldan la operación: el pronóstico del clima en tiempo real, la automatización de notificaciones y la pasarela de custodia financiera.
@@ -3445,297 +3358,16 @@ Este diagrama de despliegue representa la infraestructura física y en la nube d
 
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.1. Bounded Context: Gestión y Aprobación de Parcelas Service
-Representa la capacidad del sistema encargada de registrar, validar espacialmente y catalogar las parcelas agrícolas. Su propósito es asegurar que los terrenos cuenten con georreferenciación GPS válida antes de ser publicados en el catálogo público para su financiamiento. La entidad principal es `Parcel`, la cual concentra las reglas de negocio del terreno y sus límites geográficos.
-#### 2.6.1.1. Domain Layer
+### 2.6.x. Bounded Context: <Bounded Context Name>
+#### 2.6.x.1. Domain Layer
+#### 2.6.x.2. Interface Layer
+#### 2.6.x.3. Application Layer
+#### 2.6.x.4. Infrastructure Layer
+#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.x.6.2. Bounded Context Database Design Diagram
 
-La capa de dominio contiene el núcleo de las reglas espaciales y de disponibilidad de terrenos.
-
-* **Aggregate Root:** `Parcel` (Atributos: id, farmerId, name, area, soilType, status, createdAt).
-* **Entities:** `GPSBoundary` (Polígono delimitador del terreno).
-* **Value Objects:** `Hectare` (Extensión numérica), `GPSCoordinate` (Latitud y longitud), `ParcelStatus` (Enum: DRAFT, PENDING_APPROVAL, AVAILABLE, RESERVED), `SoilType` (Enum: CLAY, SANDY, LOAMY, SILTY).
-* **Commands:** `RegisterParcelCommand`, `ApproveParcelCommand`, `PublishParcelCommand`.
-* **Queries:** `GetAvailableParcelsQuery`, `GetParcelByIdQuery`.
-* **Domain Events:** `ParcelRegisteredEvent`, `ParcelApprovedEvent`, `ParcelPublishedEvent`.
-* **Reglas de negocio:** Una parcela no puede ser publicada si no cuenta con al menos 3 coordenadas GPS que formen un polígono cerrado. No puede cambiar a estado disponible si sus coordenadas se superponen con otra parcela existente.
-
-#### 2.6.1.2. Interface Layer
-
-Contiene los controladores que exponen los servicios de catálogo y registro al frontend móvil de Muyu.
-
-* **REST Controllers:** `ParcelsController`, `CatalogController`.
-* **Endpoints:** `POST /api/v1/parcels`, `PUT /api/v1/parcels/{id}/approve`, `GET /api/v1/catalog/parcels`.
-* **DTOs:** `RegisterParcelResource`, `ParcelSummaryResource`, `BoundaryPointResource`.
-* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `RegisterParcelCommandFromResourceAssembler`).
-
-#### 2.6.1.3. Application Layer
-
-Coordina los flujos de alta de terrenos y consultas de catálogo.
-
-* **Command Services:** `ParcelCommandServiceImpl` (Valida geometría, estructura los límites y guarda la parcela).
-* **Query Services:** `CatalogQueryServiceImpl`.
-* **Flujo principal:** El agricultor envía los datos desde la app móvil; el `ParcelCommandService` valida el polígono con el servicio GPS externo. Si es correcto, guarda la entidad `Parcel`, cambia el estado a "PENDING_APPROVAL" y dispara un evento para su revisión final.
-
-#### 2.6.1.4. Infrastructure Layer
-
-Gestiona la persistencia espacial y la integración con validadores de mapas.
-
-* **Repositories:** `ParcelRepository` (extiende JpaRepository o similar con soporte espacial), `GPSBoundaryRepository`.
-* **Adapters:** `GeospatialValidationAdapter` (comunicación REST con servicios de mapas satelitales).
-* **Persistencia:** Tablas `parcels` y `parcel_boundaries` con llaves foráneas y restricciones de integridad.
-
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
-
-Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Gestión y Aprobación de Parcelas**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
-
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_parcel.png" alt="Contract Parcel Component Diagram" width="800" />
-</div>
-
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
-Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Parcel`) y cómo interactúa con los servicios de comando y consulta (CQRS).
-
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_parcel.png" alt="Contract Escrow Class Diagram" width="800" />
-</div>
-
-##### 2.6.1.6.2. Bounded Context Database Design Diagram
-Este diagrama relacional conectando `parcels` y `parcel_boundaries`, donde cada límite geográfico pertenece a una parcela, garantizando la trazabilidad espacial del terreno.
-
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_parcel.png" alt="Contract Escrow Database Diagram" width="800" />
-</div>
-
-### 2.6.2. Bounded Context: Financiamiento y Contratación Service
-Representa la capacidad del sistema encargada de gestionar la exploración del catálogo de parcelas, la generación de propuestas de financiamiento, la negociación de condiciones y la formalización de contratos digitales de abastecimiento. La entidad principal es `Agreement`, la cual concentra las reglas de negocio del acuerdo entre el agricultor y el comerciante.
-
-#### 2.6.2.1. Domain Layer
-
-La capa de dominio contiene las reglas de estructuración de los acuerdos y la validación de los planes de desembolso.
-
-* **Aggregate Root:** `Agreement` (Atributos: id, parcelId, merchantId, totalAmount, status, signatureDate).
-* **Entities:** `DisbursementPlan` (Etapas o hitos del plan de pagos).
-* **Value Objects:** `Money` (Monto y moneda), `AgreementStatus` (Enum: DRAFT, PENDING_SIGNATURE, SIGNED, ACTIVE, CANCELLED).
-* **Commands:** `CreateAgreementCommand`, `SignAgreementCommand`, `CancelAgreementCommand`.
-* **Queries:** `GetAgreementDetailsQuery`, `GetMerchantAgreementsQuery`.
-* **Domain Events:** `AgreementSignedEvent`, `AgreementActivatedEvent`.
-* **Reglas de negocio:** El plan de desembolsos (`DisbursementPlan`) asociado al contrato debe sumar exactamente el 100% del `totalAmount` para que el acuerdo sea válido. La firma del contrato requiere un token de validación de identidad.
-
-#### 2.6.2.2. Interface Layer
-Contiene los controladores que exponen los servicios de negociación y contratos al frontend móvil.
-
-* **REST Controllers:** `AgreementsController`.
-* **Endpoints:** `POST /api/v1/agreements`, `PUT /api/v1/agreements/{id}/sign`, `GET /api/v1/merchants/{id}/agreements`.
-* **DTOs:** `CreateAgreementResource`, `SignatureResource`, `AgreementSummaryResource`.
-* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `CreateAgreementCommandFromResourceAssembler`).
-
-#### 2.6.2.3. Application Layer
-Coordina los flujos de creación, negociación y firma digital de los acuerdos comerciales.
-
-* **Command Services:** `AgreementCommandServiceImpl` (Estructura los hitos del acuerdo, valida los porcentajes de desembolso y gestiona el estado de firma).
-* **Query Services:** `AgreementQueryServiceImpl`.
-* **Flujo principal:** El comerciante selecciona una parcela y genera un acuerdo. Una vez que ambas partes lo firman digitalmente, el servicio cambia el estado a "SIGNED" y emite un `AgreementSignedEvent` para que el servicio de Escrow inicie la creación de la bóveda de retención.
-
-#### 2.6.2.4. Infrastructure Layer
-Gestiona la persistencia de los contratos y la publicación de eventos al bus de mensajes.
-
-* **Repositories:** `AgreementRepository` (extiende JpaRepository), `DisbursementPlanRepository`.
-* **Adapters:** `SignatureValidationAdapter` (Validación de tokens), `EventBusPublisherAdapter` (gRPC / RabbitMQ para notificar a otros Bounded Contexts).
-* **Persistencia:** Tablas `agreements` y `disbursement_plans` con llaves foráneas y restricciones de integridad.
-
-#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
-Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Financiamiento y Contratación**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
-
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_financiamiento.png" alt="Contract Parcel Component Diagram" width="800" />
-</div>
-
-#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
-Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Agreement`) y cómo interactúa con los servicios de comando y consulta (CQRS).
-
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_financiamiento.png" alt="Contract Escrow Class Diagram" width="800" />
-</div>
-
-##### 2.6.2.6.2. Bounded Context Database Design Diagram
-
-Este diagrama relacional conectando `agreements` y `disbursement_plans`, donde cada plan de pago por hito pertenece a un contrato comercial establecido.
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_financiamiento.png" alt="Contract Escrow Database Diagram" width="800" />
-</div>
-
-
-### 2.6.3. Bounded Context: Custodia de Fondos en Escrow Service
-Representa la capacidad del sistema encargada de administrar la retención de capital en bóvedas seguras de garantía y ejecutar desembolsos parciales irreversibles hacia el productor, únicamente tras la aprobación técnica de cada hito. Su propósito es garantizar la seguridad financiera del acuerdo. La entidad principal es `EscrowAccount`, la cual concentra el saldo retenido y el estado de la bóveda.
-
-#### 2.6.3.1. Domain Layer
-La capa de dominio contiene las reglas comerciales de retención y la lógica inmutable de la custodia de fondos.
-
-* **Aggregate Root:** `EscrowAccount` (Atributos: id, agreementId, retainedBalance, totalFunded, status, createdAt).
-* **Entities:** `PayoutRecord` (Registro de salida financiera o desembolso).
-* **Value Objects:** `Money` (Monto y moneda), `EscrowStatus` (Enum: AWAITING_FUNDS, FUNDED, PARTIALLY_DISBURSED, FULLY_DISBURSED, DISPUTED).
-* **Commands:** `FundEscrowCommand`, `ReleaseFundsCommand`.
-* **Queries:** `GetEscrowBalanceQuery`.
-* **Domain Events:** `EscrowFundedEvent`, `FundsReleasedEvent`.
-* **Reglas de negocio:** Los fondos permanecen congelados e inmutables hasta recibir la señal explícita de aprobación de hito. El saldo retenido nunca puede ser negativo. El monto a liberar no puede exceder el balance actual de la bóveda.
-
-#### 2.6.3.2. Interface Layer
-Contiene los controladores que exponen los servicios de pagos y custodia al frontend móvil de Muyu.
-
-* **REST Controllers:** `EscrowController`, `PayoutsController`.
-* **Endpoints:** `POST /api/v1/escrow/fund`, `POST /api/v1/escrow/{id}/release`, `GET /api/v1/escrow/{id}/balance`.
-* **DTOs:** `FundingRequestResource`, `PayoutSummaryResource`, `EscrowBalanceResource`.
-* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `FundEscrowCommandFromResourceAssembler`).
-
-#### 2.6.3.3. Application Layer
-Coordina los flujos de ingreso de capital y las órdenes de desembolso progresivo.
-
-* **Command Services:** `EscrowCommandServiceImpl` (Interactúa con la pasarela para inmovilizar o transferir fondos y actualiza la bóveda).
-* **Query Services:** `EscrowQueryServiceImpl`.
-* **Flujo principal:** Al recibir confirmación del depósito inicial desde la pasarela externa, se actualiza el estado a "FUNDED". Posteriormente, al recibir el evento de un hito aprobado desde el bus de mensajes, el servicio invoca a la pasarela bancaria para realizar la transferencia al agricultor y registra un `PayoutRecord`.
-
-#### 2.6.3.4. Infrastructure Layer
-Gestiona la persistencia de los registros financieros y la integración con entidades bancarias externas.
-
-* **Repositories:** `EscrowAccountRepository` (extiende JpaRepository o similar), `PayoutRecordRepository`.
-* **Adapters:** `EscrowPaymentGatewayAdapter` (comunicación REST con la pasarela de pagos), `EventBusSubscriberAdapter` (escucha eventos de otros contextos).
-* **Persistencia:** Tablas `escrow_accounts` y `payout_records` con llaves foráneas y restricciones de integridad.
-
-#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
-Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Custodia de Fondos en Escrow**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
-
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_escrow.png" alt="Contract Parcel Component Diagram" width="800" />
-</div>
-
-#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
-Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`EscrowAccount`) y cómo interactúa con los servicios de comando y consulta (CQRS).
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_escrow.png" alt="Contract Escrow Class Diagram" width="800" />
-</div>
-
-##### 2.6.3.6.2. Bounded Context Database Design Diagram
-Este diagrama relacional conectando `escrow_accounts` y `payout_records`, donde cada registro de desembolso pertenece a una bóveda de retención, garantizando la trazabilidad de la custodia.
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_escrow.png" alt="Contract Escrow Database Diagram" width="800" />
-</div>
-
-
-### 2.6.4. Bounded Context: Ejecución Agrícola y Evidencias Service
-Representa la capacidad del sistema encargada de gestionar el calendario de actividades en campo, la captura offline de fotografías georreferenciadas por parte del productor y la auditoría técnica de los hitos por parte del comerciante[cite: 26]. Su propósito es garantizar la trazabilidad visual y espacial del avance del cultivo. La entidad principal es `Milestone` (Hito), la cual concentra el progreso de cada etapa productiva.
-
-#### 2.6.4.1. Domain Layer
-La capa de dominio contiene el núcleo de las reglas de validación de evidencias y el control de estados del cultivo.
-
-* **Aggregate Root:** `Milestone` (Atributos: id, agreementId, stageName, status, deadline, createdAt).
-* **Entities:** `Evidence` (Fotografía de campo validada).
-* **Value Objects:** `GPSMetadata` (Latitud y longitud de la captura), `Timestamp`, `MilestoneStatus` (Enum: PENDING, IN_REVIEW, APPROVED, REJECTED, CORRECTION_REQUESTED).
-* **Commands:** `SubmitEvidenceCommand`, `ApproveMilestoneCommand`, `RejectMilestoneCommand`.
-* **Queries:** `GetPendingMilestonesQuery`, `GetMilestoneEvidenceQuery`.
-* **Domain Events:** `EvidenceSubmittedEvent`, `MilestoneApprovedEvent`, `MilestoneRejectedEvent`.
-* **Reglas de negocio:** Toda evidencia fotográfica debe poseer metadatos GPS que coincidan, dentro de un margen de tolerancia espacial, con el perímetro de la parcela financiada. Un hito en estado "APPROVED" se vuelve inmutable y no acepta nuevas sumisiones de evidencia.
-
-#### 2.6.4.2. Interface Layer
-Contiene los controladores que exponen los servicios de carga de pruebas y auditoría al frontend móvil.
-
-* **REST Controllers:** `MilestonesController`, `EvidencesController`.
-* **Endpoints:** `POST /api/v1/milestones/{id}/evidences`, `PUT /api/v1/milestones/{id}/approve`, `PUT /api/v1/milestones/{id}/reject`.
-* **DTOs:** `EvidenceUploadResource`, `MilestoneAuditResource`, `MilestoneSummaryResource`.
-* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `SubmitEvidenceCommandFromResourceAssembler`).
-
-#### 2.6.4.3. Application Layer
-Coordina los flujos de recepción de imágenes y el proceso de revisión por parte del comprador.
-
-* **Command Services:** `MilestoneCommandServiceImpl`, `EvidenceCommandServiceImpl` (Valida los metadatos espaciales y orquesta la subida del archivo al almacenamiento en la nube).
-* **Query Services:** `MilestoneQueryServiceImpl`.
-* **Flujo principal:** El agricultor captura y sincroniza la evidencia. El servicio valida los metadatos GPS, almacena la imagen en el cloud y cambia el estado del hito a "IN_REVIEW". Tras la revisión del comerciante, si este aprueba, se emite el evento `MilestoneApprovedEvent` que instruye al servicio de Escrow a liberar los fondos.
-
-#### 2.6.4.4. Infrastructure Layer
-Gestiona la persistencia de las etapas, el almacenamiento de objetos binarios (imágenes) y la validación cruzada.
-
-* **Repositories:** `MilestoneRepository` (extiende JpaRepository o similar), `EvidenceRepository`.
-* **Adapters:** `CloudStorageAdapter` (comunicación con AWS S3 / Firebase Storage para guardar imágenes en alta resolución), `SpatialValidationAdapter`.
-* **Persistencia:** Tablas `milestones` y `evidences` con llaves foráneas y restricciones de integridad.
-
-#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
-Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Ejecución Agrícola y Evidencias**, aplicando el patrón CQRS y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_milestones.png" alt="Contract Parcel Component Diagram" width="800" />
-</div>
-
-#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
-Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Milestone`) y cómo interactúa con los servicios de comando y consulta (CQRS).
-
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_milestones.png" alt="Contract Escrow Class Diagram" width="800" />
-</div>
-
-##### 2.6.4.6.2. Bounded Context Database Design Diagram
-Este diagrama relacional conecta `milestones` y `evidences`, donde cada evidencia fotográfica pertenece a un hito productivo, garantizando la trazabilidad visual del cultivo.
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_milestones.png" alt="Contract Escrow Database Diagram" width="800" />
-</div>
-
-### 2.6.5. Bounded Context: Monitoreo Climático y Riesgos Service
-Representa la capacidad del sistema encargada de recopilar datos meteorológicos externos en tiempo real (OpenWeather API), evaluar patrones de riesgo climático y emitir alertas preventivas automáticas hacia los agricultores y comerciantes. Su propósito es mitigar el impacto de fenómenos adversos en el ciclo de cultivo. La entidad principal es `ClimateAlert`, la cual consolida las métricas de riesgo y el nivel de severidad.
-
-#### 2.6.5.1. Domain Layer
-La capa de dominio contiene el núcleo de las reglas de evaluación de umbrales climáticos y severidad.
-
-* **Aggregate Root:** `ClimateAlert` (Atributos: id, parcelId, alertType, severity, issuedAt).
-* **Value Objects:** `WeatherMetrics` (Temperatura, lluvia acumulada, humedad), `SeverityLevel` (Enum: LOW, MODERATE, HIGH, CRITICAL).
-* **Commands:** `EvaluateWeatherCommand`.
-* **Queries:** `GetAlertsByParcelQuery`.
-* **Domain Events:** `RiskDetectedEvent`, `AlertDispatchedEvent`.
-* **Reglas de negocio:** Una alerta de nivel `CRITICAL` solo se dispara si la muestra climática recibida (ej. precipitación o temperatura límite) sobrepasa el umbral crítico configurado para el tipo de cultivo activo en esa parcela. Las alertas de nivel `LOW` se registran pero no detonan notificaciones urgentes.
-
-#### 2.6.5.2. Interface Layer
-Contiene los controladores que exponen los webhooks para recibir actualizaciones meteorológicas y las consultas para el frontend.
-
-* **REST Controllers:** `AlertsController` (Webhooks y consultas).
-* **Endpoints:** `POST /api/v1/webhooks/weather-update`, `GET /api/v1/alerts/{parcelId}`.
-* **DTOs:** `WeatherPayloadResource`, `AlertSummaryResource`.
-* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `EvaluateWeatherCommandFromResourceAssembler`).
-
-#### 2.6.5.3. Application Layer
-Coordina el flujo asíncrono de evaluación de datos meteorológicos masivos.
-
-* **Command Services:** `WeatherMonitoringServiceImpl` (Orquesta la evaluación cruzando las coordenadas de la parcela con el pronóstico/reporte recibido).
-* **Query Services:** `AlertQueryServiceImpl`.
-* **Flujo principal:** OpenWeather empuja datos climáticos mediante un webhook (o un cron job los solicita). El servicio mapea las coordenadas con las parcelas financiadas. Si detecta un umbral excedido, instancia una `ClimateAlert`, la persiste y genera el evento `RiskDetectedEvent` para que el dispatcher de notificaciones envíe un SMS/WhatsApp preventivo.
-
-#### 2.6.5.4. Infrastructure Layer
-Gestiona la persistencia del historial de alertas y la integración con proveedores de clima y mensajería.
-
-* **Repositories:** `AlertHistoryRepository` (extiende JpaRepository o similar).
-* **Adapters:** `OpenWeatherApiAdapter` (comunicación HTTP con el proveedor externo), `NotificationDispatcherAdapter` (integración con Twilio/WhatsApp API).
-* **Persistencia:** Tabla `climate_alerts_history`.
-
-#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
-Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Monitoreo Climático y Riesgos**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
-
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_climate.png" alt="Contract Parcel Component Diagram" width="800" />
-</div>
-
-#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
-Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`ClimateAlert`) y cómo interactúa con los servicios de comando y consulta (CQRS).
-
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_climate.png" alt="Contract Escrow Class Diagram" width="800" />
-</div>
-
-##### 2.6.5.6.2. Bounded Context Database Design Diagram
-Este diagrama detalla la tabla que soporta el historial de alertas detectadas para las parcelas financiadas, permitiendo la trazabilidad de los eventos meteorológicos críticos notificados a los usuarios.
-
-<div align="center">
-  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_climate.png" alt="Contract Escrow Database Diagram" width="800" />
-</div>
 
 <div style="page-break-after: always;"></div>
 
@@ -3835,7 +3467,6 @@ El Anexo A complementa el análisis principal y presenta el reporte completo de 
 Se incluye el reporte elaborado en Power BI y los archivos relacionados con el procesamiento de los resultados.
 [Acceder al material del análisis de entrevistas](https://drive.google.com/drive/folders/1oKjyxYU3_nnoHlnLRSSLgNb32xE3QeD8?usp=sharing)
 
-## Anexo B. Material de Needfinding
+## Anexo B. Needfinding
 
-Se incluyen los materiales complementarios elaborados durante el proceso de Needfinding.
-[Acceder a las imágenes de Needfinding](https://drive.google.com/drive/folders/1duMlYLnnMw7aKBI8piZhUOFh11Hg-Plf?usp=sharing)
+[Acceder a las imagenes del Needfinding](https://drive.google.com/drive/folders/1duMlYLnnMw7aKBI8piZhUOFh11Hg-Plf?usp=sharing)
