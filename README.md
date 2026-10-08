@@ -355,13 +355,49 @@ El segundo recurso ilustrativo cumple una función explicativa en procesos como 
        width="600"/>
 </p>
 
+La paleta se organiza en tres grupos: marca (verdes), estados y neutros. Cada color se define como token con nombre por función, por ejemplo `color/primary` o `color/warning`, de modo que un cambio de verde de marca se propaga a todas las pantallas.
+ 
+| Token | Valor | Uso |
+|---|---|---|
+| color/primary | #4A7C1E | Acciones y elemento seleccionado de la navegación |
+| color/primary-dark | #213D09 | Texto fuerte y encabezados |
+| color/brand-deep | #0F3F0D | Barra de navegación inferior |
+| color/success | #B8DF98 con texto #213D09 | Estado Aprobado |
+| color/warning | #FED2BD con texto #85490D | Estado Pendiente |
+| color/danger | #B84444 | Rechazo y error de ubicación |
+| color/financed | #C8DBFF con texto #2F4FB8 | Estado Financiada |
+| Neutros | #FFFFFF, #F2F2F2, #D9D9D9, #757575, #000000 | Superficies, bordes, texto secundario y texto |
+ 
+Sustento: los nombres semánticos separan el propósito de la apariencia. El estado nunca se comunica solo con color, cada badge incluye texto, lo que además ayuda a usuarios con dificultad para distinguir colores.
+
 **Iconographies**
 
 <p align="center">
   <img src="assets/images/chapter03/iconographies/iconographies.png"
        alt="Iconographies"
+       width="300"/>
+</p>
+
+**Typography**
+
+<p align="center">
+  <img src="assets/images/chapter03/typography/typography.png"
+       alt="Typography"
        width="600"/>
 </p>
+
+Urbanist es la familia de trabajo. Es geométrica, abierta y legible en tamaños pequeños a la intemperie. Fredoka SemiBold se reserva para el logotipo y las pantallas de autenticación, donde la mascota marca el tono. La escala tipográfica se limita a los tamaños 12, 16, 20, 24 y 32 px.
+ 
+| Estilo | Especificación |
+|---|---|
+| Display / autenticación | Fredoka 600, 32/40 |
+| Title | Urbanist 700, 24/32 |
+| Subtitle | Urbanist 600, 20/28 |
+| Body | Urbanist 400, 16/24 |
+| Button | Urbanist 600, 16/20 |
+| Label | Urbanist 500, 12/16 |
+ 
+Sustento: una jerarquía corta facilita la exploración y la comprensión, y los estilos reutilizables evitan diferencias accidentales entre pantallas. El tamaño de 12 px se usa solo en etiquetas secundarias y requiere pruebas de legibilidad en campo.
 
 **Spacing and shape**
 
@@ -371,6 +407,10 @@ El segundo recurso ilustrativo cumple una función explicativa en procesos como 
        width="600"/>
 </p>
 
+El espaciado sigue una escala basada en 4 px: 4, 8, 12, 16, 20 y 24. Los radios de borde se limitan a 8, 12, 16 y 24 px. Las tarjetas usan 16 px de relleno interno.
+ 
+Sustento: los principios de proximidad y región común de Gestalt agrupan la información relacionada. Una escala regular da ritmo visual y facilita que el equipo construya pantallas consistentes.
+
 **Core components**
 
 <p align="center">
@@ -378,6 +418,8 @@ El segundo recurso ilustrativo cumple una función explicativa en procesos como 
        alt="Core components"
        width="600"/>
 </p>
+
+Los componentes base son los badges de estado, los botones (primario, secundario, de peligro y deshabilitado), la tarjeta de parcela y la navegación inferior. Se construyen una sola vez con variantes. Las etiquetas son cortas y orientadas a la tarea: "Approve & release payment" nombra la consecuencia de la acción mejor que un "Confirm" genérico, y "Correction requested" indica al agricultor qué debe hacer a continuación. La navegación del Agricultor usa Home, My plots, Sync, Payments y Profile. La del Comerciante usa Catalog, My plots, Alerts, Payments y Profile. Las diferencias responden a los objetivos de cada rol.
 
 **Tone of Communication**
 
@@ -387,6 +429,8 @@ El segundo recurso ilustrativo cumple una función explicativa en procesos como 
        width="600"/>
 </p>
 
+Muyu se ubica así en las cuatro dimensiones: serio con una envoltura amistosa, casual profesional, respetuoso y predominantemente sereno. Habla como un técnico de campo de confianza. La cercanía viene de la mascota y de palabras sencillas, y las instrucciones sobre evidencia y pagos se mantienen exactas. Se evitan las promesas absolutas, por ejemplo "Zero risk, maximum confidence", porque Escrow reduce el riesgo pero no lo elimina. El idioma por defecto de la interfaz es inglés, con español latinoamericano (es_419) como alternativa, y no se mezclan ambos en una misma pantalla.
+
 **Accessibility: contrast**
 
 <p align="center">
@@ -394,6 +438,20 @@ El segundo recurso ilustrativo cumple una función explicativa en procesos como 
        alt="Accessibility: contrast"
        width="600"/>
 </p>
+
+El contraste se verifica contra WCAG AA: 4,5:1 para texto normal y 3:1 para texto grande. En los primeros borradores cinco combinaciones no cumplían y se corrigieron conservando el aspecto original:
+ 
+| Elemento | Antes | Después |
+|---|---|---|
+| Badge Pendiente | #A65E12 sobre #FED2BD (3,58:1) | #85490D (5,13:1) |
+| Badge Financiada | #3A5DD2 sobre #C8DBFF (4,09:1) | #2F4FB8 (5,13:1) |
+| Texto de error de ubicación | #E05252 sobre blanco (3,82:1) | #B84444 (5,32:1) |
+| Texto secundario | Negro al 50 % (3,95:1) | #757575 (4,61:1) |
+| Elemento seleccionado de la navegación | Blanco sobre #618840 (4,11:1) | Blanco sobre #4A7C1E (5,01:1) |
+ 
+El análisis no certifica el texto sobre fotografías ni sobre fondos variables, que requiere un velo oscuro o una revisión manual.
+ 
+Sustento: la app se lee en exteriores y se usa para decisiones económicas, por lo que el contraste insuficiente es un riesgo real de error.
 
 ### 3.1.2. Information Architecture
 #### 3.1.2.1. Organization Systems
