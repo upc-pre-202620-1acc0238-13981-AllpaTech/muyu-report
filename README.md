@@ -2742,11 +2742,6 @@ Este diagrama detalla la tabla que soporta el historial de alertas detectadas pa
 ## 3.1. Product design
 ### 3.1.1. Style Guidelines
 #### 3.1.1.1. General Style Guidelines
-
-Las decisiones visuales y de comunicación de Muyu parten de tres necesidades que surgieron en las entrevistas: la app se usa en el campo, a pleno sol y con las manos ocupadas, el usuario decide sobre dinero y necesita confianza, y la conectividad es limitada. Como referencia de sistema de diseño se adopta Material Design 3 con adaptaciones propias de color, tipografía y componentes.
-
-
-
 ### 3.1.2. Information Architecture
 #### 3.1.2.1. Organization Systems
 #### 3.1.2.2. Labelling Systems
