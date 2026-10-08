@@ -341,18 +341,288 @@ La siguiente sección presenta los objetivos profesionales y de especialización
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+Nuestra startup AllpaTech nace con el propósito de facilitar la coordinación entre agricultores y comerciantes mediante Muyu una aplicación móvil que facilita el registro de actividades y el seguimiento de los acuerdos agrícolas.
+
+La propuesta permitirá que los agricultores guarden reportes y fotografías sin conexión para poder sincronizarlos cuando no haya acceso a internet y que los comerciantes puedsan consultar los avances y aprobar los hitos acordados desde su teléfono.
+
+Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalecer la confianza entre ambas partes mediante información organizada, evidencias de campo y avisos previos.
+
+---
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+<div style="border: 1px solid #d9d9d9; padding: 12px; margin: 10px 0;">
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
+      <img src="assets/images/Chapter 1/members/Gonzalo.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+    </td>
+    <td style="padding: 12px; vertical-align: top;">
+      <strong>Gonzalo Samuel Quintanilla Pozo - U202315007</strong><br>
+      Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 21 años. Como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
+      <img src="assets/images/Chapter 1/members/foto-andree.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+    </td>
+    <td style="padding: 12px; vertical-align: top;">
+      <strong>Mel Andree Orellana Rodriguez - U202116018</strong><br>
+      Soy estudiante de Ingeniería de Software, actualmente cursando el séptimo ciclo. Me interesa desarrollar e implementar soluciones tecnológicas innovadoras que generen un impacto positivo y ayuden a resolver necesidades reales. Cuento con conocimientos en desarrollo web utilizando HTML, CSS y JavaScript, así como en Python para análisis y procesamiento de datos. También tengo conocimientos en bases de datos y Supabase. Además, manejo herramientas de automatización como n8n y soluciones Low-Code como Power BI, Power Automate y Power Apps. Tengo especial interés en desarrollarme profesionalmente en las áreas de análisis de datos, automatización e Inteligencia Artificial Generativa, particularmente dentro del ecosistema de Microsoft.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
+      <img src="assets/images/Chapter 1/members/Jennifer.png" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+    </td>
+    <td style="padding: 12px; vertical-align: top;">
+      <strong>Jennifer Yamilet Riveros Vera - u20241c998</strong><br>
+      Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 19 años. Soy colaborativa y enfocada en entregar un trabajo bien estructurado a mi equipo. Cuento con experiencia y conocimientos en desarrollo web frontend utilizando HTML5, CSS3, JavaScript y Vue.js, After Effects, Adobe Illustrator y Photoshop, manejo de bases de datos como SQL Server, así como Python y diseño de interfaces en Figma. Asimismo, tengo interés en el análisis de datos mediante Excel y Power BI.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
+      <img src="assets/images/Chapter 1/members/Guillermo.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+    </td>
+    <td style="padding: 12px; vertical-align: top;">
+      <strong>Angel Guillermo Berrospi Marin - u202114701</strong><br>
+      Soy estudiante de la carrera de Ingeniería de Software. Tengo el compromiso con mi equipo de ser proactivo, productivo y siempre apoyar en lo que se necesite, manteniendo una comunicación fluida. Cuento con conocimientos en HTML, CSS, JavaScript, Java y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
+      <img src="assets/images/Chapter 1/members/Emily.png" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+    </td>
+    <td style="padding: 12px; vertical-align: top;">
+      <strong>Emily Juliette Arroyo Gonzales - U202311469</strong><br>
+      Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
+
+##### What? (¿Qué?)
+
+##### ¿Cuál es el problema?
+
+Los agricultores tienen dificultades para registrar sus labores y presentar evidencias de manera ordenada, mientras que los comerciantes no siempre cuentan con información oportuna para comprobar los avances. Esta situación puede retrasar la aprobación de los hitos y la autorización de los fondos acordados.
+
+##### When? (¿Cuándo?)
+
+##### ¿En qué momento se presenta el problema?
+
+Ocurre cuando el agricultor necesita consultar sus tareas, fotografiar el trabajo realizado o enviar un reporte. También se presenta cuando el comerciante revisa las evidencias, comunica una observación o decide si una etapa ha sido cumplida.
+
+##### Where? (¿Dónde?)
+
+##### ¿Dónde surge la problemática?
+
+Surge principalmente durante las actividades agrícolas desarrolladas en zonas rurales del Perú y en el seguimiento que los comerciantes realizan desde otras ubicaciones.
+
+##### ¿En qué contexto se presenta?
+
+Se presenta en acuerdos de producción donde el avance se verifica mediante tareas, evidencias e hitos antes de autorizar la liberación de los fondos correspondientes.
+
+##### Who? (¿Quién?)
+
+##### ¿Quiénes son los principales afectados?
+
+Los agricultores que realizan y documentan las labores, así como los comerciantes responsables de supervisar el cumplimiento de los acuerdos.
+
+##### ¿Quiénes utilizarán Muyu?
+
+La aplicación será utilizada por agricultores para consultar tareas y registrar evidencias, y por comerciantes para revisar avances, responder observaciones y aprobar hitos.
+
+##### Why? (¿Por qué?)
+
+##### ¿Cuál es la causa del problema?
+
+La causa principal es la falta de un medio móvil que concentre las actividades, evidencias y decisiones del acuerdo. A esto se suman las limitaciones de acceso digital que existen en el entorno rural y que dificultan el intercambio oportuno de información.
+
+##### How? (¿Cómo?)
+
+##### ¿En qué condiciones se utilizará la aplicación?
+
+Los agricultores usarán Muyu durante su jornada, desde un teléfono con cámara y bajo condiciones variables de conectividad. Los comerciantes accederán desde sus dispositivos para supervisar los acuerdos y atender las solicitudes pendientes.
+
+##### ¿Cómo necesitan acceder los usuarios?
+
+Los usuarios necesitan una aplicación móvil sencilla, con información clara y funciones que permitan conservar los reportes hasta que puedan enviarse correctamente.
+
+##### How much? (¿Cuánto?)
+
+##### ¿Cómo afecta este problema a los acuerdos agrícolas?
+
+La falta de información organizada puede generar consultas adicionales, demoras en la revisión y mayor tiempo de espera para autorizar los fondos. Su impacto exacto deberá medirse mediante entrevistas y pruebas con agricultores y comerciantes.
+
+Según el INEI (2025), durante el segundo trimestre de ese año, solo el 23,6 % de los hogares rurales tenía acceso a Internet. Este dato evidencia una diferencia de acceso digital que debe considerarse al diseñar una aplicación dirigida al entorno rural.
+
+Asimismo, el SENAMHI señala que las heladas pueden afectar los cultivos de acuerdo con su intensidad, duración y etapa de desarrollo. Por esta razón, una advertencia recibida fuera de tiempo reduce la posibilidad de evaluar medidas oportunas.
+
+---
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+
+Muyu busca apoyar a agricultores y comerciantes que participan en acuerdos de producción y necesitan compartir información sobre las actividades realizadas, las evidencias presentadas y los hitos cumplidos.
+
+Las herramientas actuales no siempre permiten organizar este seguimiento desde el lugar donde se desarrolla el trabajo. Muyu atenderá esta necesidad mediante una aplicación móvil que reúna las tareas, reportes, observaciones y aprobaciones de ambas partes.
+
+Nuestro enfoque inicial estará en agricultores que ofrecen sus terrenos y comerciantes que financian la producción para asegurar su abastecimiento. Consideraremos que la propuesta funciona cuando aumenten los reportes entregados a tiempo y disminuyan las consultas adicionales y el tiempo de aprobación de los hitos.
+
+---
 #### 1.2.2.2. Lean UX Assumptions
+
+##### a. Business Assumptions
+
+- Creemos que existe interés por una herramienta móvil que facilite la coordinación de acuerdos agrícolas.
+
+- Creemos que los comerciantes estarán dispuestos a pagar por un servicio que les permita supervisar sus acuerdos y el uso de sus fondos.
+
+- Creemos que ofrecer acceso sin costo a los agricultores favorecerá la adopción de Muyu.
+
+##### b. Business Outcomes Assumptions
+
+- Creemos que simplificar el registro aumentará la cantidad de actividades reportadas a tiempo.
+
+- Creemos que brindar información organizada motivará a los comerciantes a utilizar el servicio de manera frecuente.
+
+- Creemos que presentar evidencias más completas reducirá las consultas adicionales entre ambas partes.
+
+- Creemos que agilizar la revisión de los hitos disminuirá el tiempo necesario para autorizar los fondos.
+
+##### c. User Assumptions
+
+- Creemos que nuestros usuarios principales serán agricultores y comerciantes vinculados mediante acuerdos de producción.
+
+- Creemos que los agricultores disponen de un teléfono con cámara para documentar sus actividades.
+
+- Creemos que los agricultores necesitan una experiencia sencilla que se adapte a su jornada de trabajo.
+
+- Creemos que los comerciantes requieren consultar el progreso de sus acuerdos desde cualquier lugar.
+
+##### d. User Outcomes and Benefits Assumptions
+
+- Creemos que los agricultores desean registrar sus labores de forma rápida y con pocos pasos.
+
+- Creemos que los agricultores necesitan conocer cuáles son sus tareas pendientes y si sus reportes fueron enviados correctamente.
+
+- Creemos que los comerciantes valorarán contar con una visión clara de los avances y evidencias recibidas.
+
+- Creemos que ambas partes tendrán mayor confianza al disponer de un historial de actividades, observaciones y aprobaciones.
+
+##### e. Feature Assumptions
+
+- Creemos que guardar los reportes en el dispositivo y sincronizarlos posteriormente facilitará el registro de las actividades de campo.
+
+- Creemos que incluir fotografías con fecha y ubicación permitirá reconocer mejor las evidencias presentadas.
+
+- Creemos que una agenda con actividades pendientes ayudará al agricultor a organizar sus labores.
+
+- Creemos que un panel con avances e información actualizada permitirá al comerciante supervisar sus acuerdos.
+
+- Creemos que un proceso de aprobación desde el teléfono agilizará la revisión de los hitos y la autorización de los fondos.
+
+- Creemos que las notificaciones sobre tareas, aprobaciones y condiciones meteorológicas ayudarán a atender situaciones importantes a tiempo.
+
+---
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+#### Hipótesis 1: Registro y sincronización de actividades
+
+Creemos que aumentaremos los reportes entregados a tiempo si los agricultores pueden conservar sus avances durante las fallas de conexión mediante el almacenamiento local y la sincronización automática.
+
+---
+
+#### Hipótesis 2: Evidencias con datos de captura
+
+Creemos que reduciremos las solicitudes de aclaración si los comerciantes pueden reconocer el contexto de cada actividad mediante fotografías asociadas con su fecha, ubicación y tarea correspondiente.
+
+---
+
+#### Hipótesis 3: Organización de tareas agrícolas
+
+Creemos que disminuirán las labores pendientes si los agricultores pueden identificar sus próximas responsabilidades mediante una agenda con actividades programadas y estados visibles.
+
+---
+
+#### Hipótesis 4: Seguimiento de acuerdos
+
+Creemos que aumentará el uso frecuente de Muyu si los comerciantes pueden conocer el progreso de sus acuerdos mediante un panel que reúna los avances y las evidencias recibidas.
+
+---
+
+#### Hipótesis 5: Aprobación de hitos
+
+Creemos que reduciremos el tiempo entre la revisión y la autorización de fondos si los comerciantes pueden confirmar el cumplimiento de cada etapa mediante un proceso de aprobación desde el teléfono.
+
+---
+
+#### Hipótesis 6: Avisos
+
+Creemos que mejoraremos la atención de eventos importantes si agricultores y comerciantes pueden conocerlos en el momento adecuado mediante notificaciones sobre tareas, decisiones y condiciones meteorológicas.
+
+---
 #### 1.2.2.4. Lean UX Canvas
+
+La siguiente figura presenta el Lean UX Canvas elaborado para Muyu.
+
+![Lean UX Canvas de Muyu](assets/images/Chapter%201/Canvas/Lean%20UX%20Canvas.png)
+
+[Ver en Miro](https://miro.com/app/board/uXjVHpAR0XE=/?share_link_id=138737583873)
+
+---
 
 ## 1.3. Segmentos objetivo
 
+##### **1. Agricultor (Proveedor del Servicio / Agro-Service Provider)**
+
+Este segmento está conformado inicialmente por jóvenes agricultores que poseen, gestionan o trabajan terrenos agrícolas y participan en las diferentes etapas del cultivo. En Muyu podrán ofrecer sus parcelas, consultar sus tareas, presentar evidencias y conocer el estado de sus pagos.
+
+**Características demográficas:**
+
+- **Edad:** Entre 20 y 30 años.
+- **Nivel educativo:** Distintos niveles de formación, desde educación secundaria hasta estudios técnicos o universitarios.
+- **Ocupación:** Agricultores dedicados a la siembra, el cuidado y la cosecha de productos agrícolas.
+- **Ubicación:** Zonas rurales y agrícolas del Perú.
+- **Acceso tecnológico:** Utilizan teléfonos móviles con cámara y poseen conocimientos básicos sobre aplicaciones digitales.
+
+**Necesidades:**
+
+- Organizar las tareas y compromisos de cada etapa.
+- Registrar evidencias rápidamente desde el campo.
+- Consultar el estado de sus reportes y pagos.
+- Recibir avisos sobre condiciones meteorológicas que podrían afectar la producción.
+
+---
+
+#### **2. Comerciante / Comprador (Arrendatario / Subscriber)**
+
+Este segmento comprende comerciantes, distribuidores, propietarios de restaurantes y responsables de supermercados que necesitan adquirir productos agrícolas de manera constante. En Muyu podrán elegir una parcela, financiar el cultivo, revisar las evidencias y aprobar el cumplimiento de cada hito.
+
+**Características demográficas y comerciales:**
+
+- **Edad:** Entre 20 y 60 años.
+- **Ocupación:** Dueños, administradores, distribuidores o responsables de compras.
+- **Tipo de negocio:** Comercios de alimentos, restaurantes, empresas distribuidoras y supermercados.
+- **Tamaño empresarial:** Se priorizarán micro y pequeñas empresas con decisiones de compra directas.
+- **Acceso tecnológico:** Utilizan teléfonos móviles para comunicarse, revisar operaciones y administrar sus compras.
+
+**Necesidades:**
+
+- Asegurar el abastecimiento de productos agrícolas.
+- Mantener costos de compra más previsibles.
+- Conocer el progreso del cultivo financiado.
+- Revisar evidencias antes de aprobar cada etapa.
+- Recibir la cosecha en las condiciones y fechas establecidas.
+
+---
 <div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Development and Software Solution Design
