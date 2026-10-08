@@ -221,15 +221,51 @@ La siguiente sección presenta los objetivos profesionales y de especialización
       * [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
       * [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
   * [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
-    * [2.6.x. Bounded Context: <Bounded Context Name>](#26x-bounded-context-bounded-context-name)
-      * [2.6.x.1. Domain Layer](#26x1-domain-layer)
-      * [2.6.x.2. Interface Layer](#26x2-interface-layer)
-      * [2.6.x.3. Application Layer](#26x3-application-layer)
-      * [2.6.x.4. Infrastructure Layer](#26x4-infrastructure-layer)
-      * [2.6.x.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
-      * [2.6.x.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
-        * [2.6.x.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
-        * [2.6.x.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
+  * [2.6.1. Bounded Context: Gestión y Aprobación de Parcelas Service](#261-bounded-context-gestión-y-aprobación-de-parcelas-service)
+      * [2.6.1.1. Domain Layer](#2611-domain-layer)
+      * [2.6.1.2. Interface Layer](#2612-interface-layer)
+      * [2.6.1.3. Application Layer](#2613-application-layer)
+      * [2.6.1.4. Infrastructure Layer](#2614-infrastructure-layer)
+      * [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)
+      * [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)
+          * [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
+          * [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
+  * [2.6.2. Bounded Context: Financiamiento y Contratación Service](#262-bounded-context-financiamiento-y-contratación-service)
+      * [2.6.2.1. Domain Layer](#2621-domain-layer)
+      * [2.6.2.2. Interface Layer](#2622-interface-layer)
+      * [2.6.2.3. Application Layer](#2623-application-layer)
+      * [2.6.2.4. Infrastructure Layer](#2624-infrastructure-layer)
+      * [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams)
+      * [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams)
+          * [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams)
+          * [2.6.2.6.2. Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)
+  * [2.6.3. Bounded Context: Custodia de Fondos en Escrow Service](#263-bounded-context-custodia-de-fondos-en-escrow-service)
+      * [2.6.3.1. Domain Layer](#2631-domain-layer)
+      * [2.6.3.2. Interface Layer](#2632-interface-layer)
+      * [2.6.3.3. Application Layer](#2633-application-layer)
+      * [2.6.3.4. Infrastructure Layer](#2634-infrastructure-layer)
+      * [2.6.3.5. Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams)
+      * [2.6.3.6. Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams)
+          * [2.6.3.6.1. Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams)
+          * [2.6.3.6.2. Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)
+  * [2.6.4. Bounded Context: Ejecución Agrícola y Evidencias Service](#264-bounded-context-ejecución-agrícola-y-evidencias-service)
+      * [2.6.4.1. Domain Layer](#2641-domain-layer)
+      * [2.6.4.2. Interface Layer](#2642-interface-layer)
+      * [2.6.4.3. Application Layer](#2643-application-layer)
+      * [2.6.4.4. Infrastructure Layer](#2644-infrastructure-layer)
+      * [2.6.4.5. Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams)
+      * [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
+          * [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
+          * [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)
+  * [2.6.5. Bounded Context: Monitoreo Climático y Riesgos Service](#265-bounded-context-monitoreo-climático-y-riesgos-service)
+      * [2.6.5.1. Domain Layer](#2651-domain-layer)
+      * [2.6.5.2. Interface Layer](#2652-interface-layer)
+      * [2.6.5.3. Application Layer](#2653-application-layer)
+      * [2.6.5.4. Infrastructure Layer](#2654-infrastructure-layer)
+      * [2.6.5.5. Bounded Context Software Architecture Component Level Diagrams](#2655-bounded-context-software-architecture-component-level-diagrams)
+      * [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
+          * [2.6.5.6.1. Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams)
+          * [2.6.5.6.2. Bounded Context Database Design Diagram](#26562-bounded-context-database-design-diagram)
 * [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
   * [3.1. Product design](#31-product-design)
     * [3.1.1. Style Guidelines](#311-style-guidelines)
@@ -305,288 +341,18 @@ La siguiente sección presenta los objetivos profesionales y de especialización
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
-Nuestra startup AllpaTech nace con el propósito de facilitar la coordinación entre agricultores y comerciantes mediante Muyu una aplicación móvil que facilita el registro de actividades y el seguimiento de los acuerdos agrícolas.
-
-La propuesta permitirá que los agricultores guarden reportes y fotografías sin conexión para poder sincronizarlos cuando no haya acceso a internet y que los comerciantes puedsan consultar los avances y aprobar los hitos acordados desde su teléfono.
-
-Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalecer la confianza entre ambas partes mediante información organizada, evidencias de campo y avisos previos.
-
----
-
 ### 1.1.2. Perfiles de integrantes del equipo
-
-<div style="border: 1px solid #d9d9d9; padding: 12px; margin: 10px 0;">
-
-<table style="width: 100%; border-collapse: collapse;">
-  <tr>
-    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
-      <img src="assets/images/Chapter 1/members/Gonzalo.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
-    </td>
-    <td style="padding: 12px; vertical-align: top;">
-      <strong>Gonzalo Samuel Quintanilla Pozo - U202315007</strong><br>
-      Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 21 años. Como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.
-    </td>
-  </tr>
-  <tr>
-    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
-      <img src="assets/images/Chapter 1/members/foto-andree.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
-    </td>
-    <td style="padding: 12px; vertical-align: top;">
-      <strong>Mel Andree Orellana Rodriguez - U202116018</strong><br>
-      Soy estudiante de Ingeniería de Software, actualmente cursando el séptimo ciclo. Me interesa desarrollar e implementar soluciones tecnológicas innovadoras que generen un impacto positivo y ayuden a resolver necesidades reales. Cuento con conocimientos en desarrollo web utilizando HTML, CSS y JavaScript, así como en Python para análisis y procesamiento de datos. También tengo conocimientos en bases de datos y Supabase. Además, manejo herramientas de automatización como n8n y soluciones Low-Code como Power BI, Power Automate y Power Apps. Tengo especial interés en desarrollarme profesionalmente en las áreas de análisis de datos, automatización e Inteligencia Artificial Generativa, particularmente dentro del ecosistema de Microsoft.
-    </td>
-  </tr>
-  <tr>
-    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
-      <img src="assets/images/Chapter 1/members/Jennifer.png" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
-    </td>
-    <td style="padding: 12px; vertical-align: top;">
-      <strong>Jennifer Yamilet Riveros Vera - u20241c998</strong><br>
-      Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 19 años. Soy colaborativa y enfocada en entregar un trabajo bien estructurado a mi equipo. Cuento con experiencia y conocimientos en desarrollo web frontend utilizando HTML5, CSS3, JavaScript y Vue.js, After Effects, Adobe Illustrator y Photoshop, manejo de bases de datos como SQL Server, así como Python y diseño de interfaces en Figma. Asimismo, tengo interés en el análisis de datos mediante Excel y Power BI.
-    </td>
-  </tr>
-  <tr>
-    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
-      <img src="assets/images/Chapter 1/members/Guillermo.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
-    </td>
-    <td style="padding: 12px; vertical-align: top;">
-      <strong>Angel Guillermo Berrospi Marin - u202114701</strong><br>
-      Soy estudiante de la carrera de Ingeniería de Software. Tengo el compromiso con mi equipo de ser proactivo, productivo y siempre apoyar en lo que se necesite, manteniendo una comunicación fluida. Cuento con conocimientos en HTML, CSS, JavaScript, Java y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto.
-    </td>
-  </tr>
-  <tr>
-    <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
-      <img src="assets/images/Chapter 1/members/Emily.png" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
-    </td>
-    <td style="padding: 12px; vertical-align: top;">
-      <strong>Emily Juliette Arroyo Gonzales - U202311469</strong><br>
-      Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.
-    </td>
-  </tr>
-</table>
-
-</div>
-
----
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
-
-##### What? (¿Qué?)
-
-##### ¿Cuál es el problema?
-
-Los agricultores tienen dificultades para registrar sus labores y presentar evidencias de manera ordenada, mientras que los comerciantes no siempre cuentan con información oportuna para comprobar los avances. Esta situación puede retrasar la aprobación de los hitos y la autorización de los fondos acordados.
-
-##### When? (¿Cuándo?)
-
-##### ¿En qué momento se presenta el problema?
-
-Ocurre cuando el agricultor necesita consultar sus tareas, fotografiar el trabajo realizado o enviar un reporte. También se presenta cuando el comerciante revisa las evidencias, comunica una observación o decide si una etapa ha sido cumplida.
-
-##### Where? (¿Dónde?)
-
-##### ¿Dónde surge la problemática?
-
-Surge principalmente durante las actividades agrícolas desarrolladas en zonas rurales del Perú y en el seguimiento que los comerciantes realizan desde otras ubicaciones.
-
-##### ¿En qué contexto se presenta?
-
-Se presenta en acuerdos de producción donde el avance se verifica mediante tareas, evidencias e hitos antes de autorizar la liberación de los fondos correspondientes.
-
-##### Who? (¿Quién?)
-
-##### ¿Quiénes son los principales afectados?
-
-Los agricultores que realizan y documentan las labores, así como los comerciantes responsables de supervisar el cumplimiento de los acuerdos.
-
-##### ¿Quiénes utilizarán Muyu?
-
-La aplicación será utilizada por agricultores para consultar tareas y registrar evidencias, y por comerciantes para revisar avances, responder observaciones y aprobar hitos.
-
-##### Why? (¿Por qué?)
-
-##### ¿Cuál es la causa del problema?
-
-La causa principal es la falta de un medio móvil que concentre las actividades, evidencias y decisiones del acuerdo. A esto se suman las limitaciones de acceso digital que existen en el entorno rural y que dificultan el intercambio oportuno de información.
-
-##### How? (¿Cómo?)
-
-##### ¿En qué condiciones se utilizará la aplicación?
-
-Los agricultores usarán Muyu durante su jornada, desde un teléfono con cámara y bajo condiciones variables de conectividad. Los comerciantes accederán desde sus dispositivos para supervisar los acuerdos y atender las solicitudes pendientes.
-
-##### ¿Cómo necesitan acceder los usuarios?
-
-Los usuarios necesitan una aplicación móvil sencilla, con información clara y funciones que permitan conservar los reportes hasta que puedan enviarse correctamente.
-
-##### How much? (¿Cuánto?)
-
-##### ¿Cómo afecta este problema a los acuerdos agrícolas?
-
-La falta de información organizada puede generar consultas adicionales, demoras en la revisión y mayor tiempo de espera para autorizar los fondos. Su impacto exacto deberá medirse mediante entrevistas y pruebas con agricultores y comerciantes.
-
-Según el INEI (2025), durante el segundo trimestre de ese año, solo el 23,6 % de los hogares rurales tenía acceso a Internet. Este dato evidencia una diferencia de acceso digital que debe considerarse al diseñar una aplicación dirigida al entorno rural.
-
-Asimismo, el SENAMHI señala que las heladas pueden afectar los cultivos de acuerdo con su intensidad, duración y etapa de desarrollo. Por esta razón, una advertencia recibida fuera de tiempo reduce la posibilidad de evaluar medidas oportunas.
-
----
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
-
-Muyu busca apoyar a agricultores y comerciantes que participan en acuerdos de producción y necesitan compartir información sobre las actividades realizadas, las evidencias presentadas y los hitos cumplidos.
-
-Las herramientas actuales no siempre permiten organizar este seguimiento desde el lugar donde se desarrolla el trabajo. Muyu atenderá esta necesidad mediante una aplicación móvil que reúna las tareas, reportes, observaciones y aprobaciones de ambas partes.
-
-Nuestro enfoque inicial estará en agricultores que ofrecen sus terrenos y comerciantes que financian la producción para asegurar su abastecimiento. Consideraremos que la propuesta funciona cuando aumenten los reportes entregados a tiempo y disminuyan las consultas adicionales y el tiempo de aprobación de los hitos.
-
----
 #### 1.2.2.2. Lean UX Assumptions
-
-##### a. Business Assumptions
-
-- Creemos que existe interés por una herramienta móvil que facilite la coordinación de acuerdos agrícolas.
-
-- Creemos que los comerciantes estarán dispuestos a pagar por un servicio que les permita supervisar sus acuerdos y el uso de sus fondos.
-
-- Creemos que ofrecer acceso sin costo a los agricultores favorecerá la adopción de Muyu.
-
-##### b. Business Outcomes Assumptions
-
-- Creemos que simplificar el registro aumentará la cantidad de actividades reportadas a tiempo.
-
-- Creemos que brindar información organizada motivará a los comerciantes a utilizar el servicio de manera frecuente.
-
-- Creemos que presentar evidencias más completas reducirá las consultas adicionales entre ambas partes.
-
-- Creemos que agilizar la revisión de los hitos disminuirá el tiempo necesario para autorizar los fondos.
-
-##### c. User Assumptions
-
-- Creemos que nuestros usuarios principales serán agricultores y comerciantes vinculados mediante acuerdos de producción.
-
-- Creemos que los agricultores disponen de un teléfono con cámara para documentar sus actividades.
-
-- Creemos que los agricultores necesitan una experiencia sencilla que se adapte a su jornada de trabajo.
-
-- Creemos que los comerciantes requieren consultar el progreso de sus acuerdos desde cualquier lugar.
-
-##### d. User Outcomes and Benefits Assumptions
-
-- Creemos que los agricultores desean registrar sus labores de forma rápida y con pocos pasos.
-
-- Creemos que los agricultores necesitan conocer cuáles son sus tareas pendientes y si sus reportes fueron enviados correctamente.
-
-- Creemos que los comerciantes valorarán contar con una visión clara de los avances y evidencias recibidas.
-
-- Creemos que ambas partes tendrán mayor confianza al disponer de un historial de actividades, observaciones y aprobaciones.
-
-##### e. Feature Assumptions
-
-- Creemos que guardar los reportes en el dispositivo y sincronizarlos posteriormente facilitará el registro de las actividades de campo.
-
-- Creemos que incluir fotografías con fecha y ubicación permitirá reconocer mejor las evidencias presentadas.
-
-- Creemos que una agenda con actividades pendientes ayudará al agricultor a organizar sus labores.
-
-- Creemos que un panel con avances e información actualizada permitirá al comerciante supervisar sus acuerdos.
-
-- Creemos que un proceso de aprobación desde el teléfono agilizará la revisión de los hitos y la autorización de los fondos.
-
-- Creemos que las notificaciones sobre tareas, aprobaciones y condiciones meteorológicas ayudarán a atender situaciones importantes a tiempo.
-
----
 #### 1.2.2.3. Lean UX Hypothesis Statements
-
-#### Hipótesis 1: Registro y sincronización de actividades
-
-Creemos que aumentaremos los reportes entregados a tiempo si los agricultores pueden conservar sus avances durante las fallas de conexión mediante el almacenamiento local y la sincronización automática.
-
----
-
-#### Hipótesis 2: Evidencias con datos de captura
-
-Creemos que reduciremos las solicitudes de aclaración si los comerciantes pueden reconocer el contexto de cada actividad mediante fotografías asociadas con su fecha, ubicación y tarea correspondiente.
-
----
-
-#### Hipótesis 3: Organización de tareas agrícolas
-
-Creemos que disminuirán las labores pendientes si los agricultores pueden identificar sus próximas responsabilidades mediante una agenda con actividades programadas y estados visibles.
-
----
-
-#### Hipótesis 4: Seguimiento de acuerdos
-
-Creemos que aumentará el uso frecuente de Muyu si los comerciantes pueden conocer el progreso de sus acuerdos mediante un panel que reúna los avances y las evidencias recibidas.
-
----
-
-#### Hipótesis 5: Aprobación de hitos
-
-Creemos que reduciremos el tiempo entre la revisión y la autorización de fondos si los comerciantes pueden confirmar el cumplimiento de cada etapa mediante un proceso de aprobación desde el teléfono.
-
----
-
-#### Hipótesis 6: Avisos
-
-Creemos que mejoraremos la atención de eventos importantes si agricultores y comerciantes pueden conocerlos en el momento adecuado mediante notificaciones sobre tareas, decisiones y condiciones meteorológicas.
-
----
 #### 1.2.2.4. Lean UX Canvas
-
-La siguiente figura presenta el Lean UX Canvas elaborado para Muyu.
-
-![Lean UX Canvas de Muyu](assets/images/Chapter%201/Canvas/Lean%20UX%20Canvas.png)
-
-[Ver en Miro](https://miro.com/app/board/uXjVHpAR0XE=/?share_link_id=138737583873)
-
----
 
 ## 1.3. Segmentos objetivo
 
-##### **1. Agricultor (Proveedor del Servicio / Agro-Service Provider)**
-
-Este segmento está conformado inicialmente por jóvenes agricultores que poseen, gestionan o trabajan terrenos agrícolas y participan en las diferentes etapas del cultivo. En Muyu podrán ofrecer sus parcelas, consultar sus tareas, presentar evidencias y conocer el estado de sus pagos.
-
-**Características demográficas:**
-
-- **Edad:** Entre 20 y 30 años.
-- **Nivel educativo:** Distintos niveles de formación, desde educación secundaria hasta estudios técnicos o universitarios.
-- **Ocupación:** Agricultores dedicados a la siembra, el cuidado y la cosecha de productos agrícolas.
-- **Ubicación:** Zonas rurales y agrícolas del Perú.
-- **Acceso tecnológico:** Utilizan teléfonos móviles con cámara y poseen conocimientos básicos sobre aplicaciones digitales.
-
-**Necesidades:**
-
-- Organizar las tareas y compromisos de cada etapa.
-- Registrar evidencias rápidamente desde el campo.
-- Consultar el estado de sus reportes y pagos.
-- Recibir avisos sobre condiciones meteorológicas que podrían afectar la producción.
-
----
-
-#### **2. Comerciante / Comprador (Arrendatario / Subscriber)**
-
-Este segmento comprende comerciantes, distribuidores, propietarios de restaurantes y responsables de supermercados que necesitan adquirir productos agrícolas de manera constante. En Muyu podrán elegir una parcela, financiar el cultivo, revisar las evidencias y aprobar el cumplimiento de cada hito.
-
-**Características demográficas y comerciales:**
-
-- **Edad:** Entre 20 y 60 años.
-- **Ocupación:** Dueños, administradores, distribuidores o responsables de compras.
-- **Tipo de negocio:** Comercios de alimentos, restaurantes, empresas distribuidoras y supermercados.
-- **Tamaño empresarial:** Se priorizarán micro y pequeñas empresas con decisiones de compra directas.
-- **Acceso tecnológico:** Utilizan teléfonos móviles para comunicarse, revisar operaciones y administrar sus compras.
-
-**Necesidades:**
-
-- Asegurar el abastecimiento de productos agrícolas.
-- Mantener costos de compra más previsibles.
-- Conocer el progreso del cultivo financiado.
-- Revisar evidencias antes de aprobar cada etapa.
-- Recibir la cosecha en las condiciones y fechas establecidas.
-
----
 <div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Development and Software Solution Design
@@ -1016,14 +782,14 @@ A partir de la información obtenida durante las entrevistas y del análisis de 
 #### User Persona: Segmento Agricultor
 
 <div align="center">
-  <img src="assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+  <img src="assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png" width="524" style="width: 100%; max-width: 524px; height: auto; display: block; margin: 0 auto;" />
 </div>
 
 #### User Persona: Segmento Comerciante / Comprador
 
 
 <div align="center">
-  <img src="assets/images/chapter02/uxpressia/valeria-user-persona.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+  <img src="assets/images/chapter02/uxpressia/valeria-user-persona.png" width="524" style="width: 100%; max-width: 524px; height: auto; display: block; margin: 0 auto;" />
 </div>
 
 ### 2.3.2. User Task Matrix
@@ -1117,59 +883,74 @@ El recorrido que se describe es un viaje de cinco fases que generalmente va de l
 #### Empathy Map: Segmento Agricultor
 
 <div align="center" style="border: 1px solid #d9d9d9; padding: 10px; margin: 15px 0;">
-  <img src="assets/images/chapter02/uxpressia/miguel-quispe-empathy-map.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+  <img src="assets/images/chapter02/uxpressia/miguel-quispe-empathy-map.png" width="500" style="width: 100%; max-width: 500px; height: auto; display: block; margin: 0 auto;" />
 </div>
 
 #### Empathy Map: Segmento Comerciante / Comprador
 
 <div align="center" style="border: 1px solid #d9d9d9; padding: 10px; margin: 15px 0;">
-  <img src="assets/images/chapter02/uxpressia/valeria-mendoza-empathy-map.png" width="500" style="max-width: 100%; display: block; margin: 0 auto;" />
+  <img src="assets/images/chapter02/uxpressia/valeria-mendoza-empathy-map.png" width="500" style="width: 100%; max-width: 500px; height: auto; display: block; margin: 0 auto;" />
 </div>
+
 ### 2.3.5. Big Picture EventStorming
 
-Se realizó una sesión de Big Picture Event Storming con el objetivo de comprender el dominio general de Muyu e identificar los principales eventos del negocio, sus relaciones y los actores involucrados.
+El equipo realizó una sesión de Big Picture Event Storming con el objetivo de comprender el dominio general de AgroFlow e identificar los principales eventos del negocio, sus relaciones y los actores involucrados. Esta actividad permitió obtener una visión de alto nivel sobre el proceso de publicación de parcelas, financiamiento, ejecución de labores, registro de evidencias y validación de hitos.
 
-#### Step 1 - Generating Domain Events
+#### Step 1: Collect Domain Events
 
-![Step 1 - Generating Domain Events](assets/images/chapter02/big-picture-event-storming/Step1-GeneratingDomainEvents.png)
+En esta etapa se identificaron los eventos principales del dominio, expresados en pasado, sin enfocarse aún en su orden definitivo. El objetivo fue recopilar los hechos más relevantes que ocurren dentro del negocio.
 
-#### Step 2 - Sorting Domain Events
+![Step 1 - Collect Domain Events](assets/images/chapter02/event-storming/step-1-collect-domain-events.png)
 
-![Step 2 - Sorting Domain Events](assets/images/chapter02/big-picture-event-storming/Step2-SortingDomainEvents.png)
+#### Step 2: Refine Domain Events
 
-#### Step 3 - Adding Actors and External Systems
+![Step 2 - Refine Domain Events](assets/images/chapter02/event-storming/step-2-refine-domain-events.png)
 
-![Step 3 - Adding Actors and External Systems](assets/images/chapter02/big-picture-event-storming/Step3-AddingActors%20andExternalSystems.png)
+#### Step 3: Track Causes
 
+![Step 3 - Track Causes](assets/images/chapter02/event-storming/step-3-track-causes.png)
+
+En conjunto, el Big Picture Event Storming permitió al equipo comprender de manera general el funcionamiento del negocio, identificar el flujo principal del proceso y reconocer escenarios alternativos que deben ser considerados en el diseño de la solución.
+
+[Ver en Miro](https://miro.com/app/board/uXjVHl-6uS8=/?share_link_id=348732565706)
 
 ### 2.3.6. Ubiquitous Language
 
-Este vocabulario permite que los integrantes de AllpaTech y los stakeholders utilicen los mismos conceptos al describir parcelas, financiamiento, labores agrícolas, evidencias, hitos, pagos y condiciones climáticas.
+El Ubiquitous Language de AgroFlow establece un vocabulario común para los conceptos principales del dominio agrícola y de financiamiento manejados por agricultores, comerciantes y el equipo de desarrollo.
+
+El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conocimiento del dominio y valide los conceptos con los stakeholders.
 
 | Term | Spanish equivalent | Definition |
 |---|---|---|
-| **Farmer** | Agricultor | Persona responsable de gestionar una parcela, realizar las labores agrícolas correspondientes y presentar evidencias del avance del cultivo. |
-| **Merchant / Buyer** | Comerciante / Comprador | Persona interesada en asegurar el abastecimiento de productos agrícolas y que puede financiar una parcela, revisar evidencias y validar el cumplimiento de los hitos acordados. |
-| **Plot** | Parcela | Área de terreno agrícola asociada a un cultivo y ofrecida por un agricultor para participar en un acuerdo de producción y financiamiento. |
-| **Plot Publication** | Publicación de parcela | Registro de una parcela disponible para ser evaluada y considerada dentro de un acuerdo de financiamiento agrícola. |
-| **Plot Approval** | Aprobación de parcela | Validación que determina que una parcela cumple las condiciones necesarias para continuar con el proceso de financiamiento. |
-| **Plot Financing** | Financiamiento de parcela | Aporte de recursos económicos realizado por un comerciante o comprador para cubrir parte de los costos relacionados con la producción agrícola de una parcela. |
-| **Escrow** | Escrow / Custodia de fondos | Mecanismo mediante el cual los fondos aportados permanecen retenidos hasta que se cumplen las condiciones establecidas para su liberación. |
-| **Crop Cycle** | Ciclo de cultivo | Periodo que comprende las diferentes etapas y labores necesarias para desarrollar la producción agrícola hasta su finalización. |
-| **Crop Work** | Labor de cultivo | Actividad agrícola realizada durante una etapa del ciclo de cultivo, como riego, fertilización, mantenimiento u otra acción relacionada con la producción. |
-| **Milestone** | Hito | Etapa verificable dentro del ciclo de cultivo cuyo cumplimiento debe ser demostrado antes de continuar con el proceso acordado. |
-| **Evidence** | Evidencia | Registro que demuestra la realización de una labor o el avance correspondiente a un hito del cultivo. |
-| **Evidence Submission** | Presentación de evidencia | Entrega de una evidencia para que pueda ser evaluada como parte del cumplimiento de un hito. |
-| **Evidence Review** | Revisión de evidencia | Evaluación de la evidencia presentada para determinar si demuestra correctamente el cumplimiento del trabajo asociado a un hito. |
-| **Milestone Approval** | Aprobación de hito | Confirmación de que la evidencia presentada demuestra el cumplimiento de las condiciones establecidas para un hito. |
-| **Milestone Rejection** | Rechazo de hito | Resultado de una revisión en la que la evidencia presentada no demuestra satisfactoriamente el cumplimiento de un hito. |
-| **Correction Request** | Solicitud de corrección | Solicitud realizada después del rechazo de un hito para que el agricultor complete, corrija o presente nuevamente la evidencia correspondiente. |
-| **Payment Release** | Liberación de pago | Entrega de los fondos correspondientes después de la aprobación de un hito. |
-| **Climate Risk** | Riesgo climático | Condición meteorológica que puede afectar las labores agrícolas, el desarrollo del cultivo o el cumplimiento de un hito. |
-| **Climate Alert** | Alerta climática | Aviso relacionado con un riesgo climático que puede afectar el desarrollo de las actividades agrícolas. |
+| **Farmer** | Agricultor | Persona responsable de gestionar una parcela agrícola, realizar labores de cultivo y registrar evidencias relacionadas con el avance de los hitos. |
+| **Merchant** | Comerciante | Persona interesada en financiar la producción agrícola y realizar seguimiento al cumplimiento de los hitos asociados a la parcela financiada. |
+| **Parcel** | Parcela | Unidad de terreno agrícola registrada dentro del proceso de producción y financiamiento. |
+| **Parcel Approval** | Aprobación de parcela | Validación mediante la cual se determina que una parcela cumple las condiciones necesarias para continuar con el proceso de financiamiento. |
+| **Financing** | Financiamiento | Acuerdo mediante el cual un comerciante asigna fondos para apoyar la producción correspondiente a una parcela. |
+| **Funded Parcel** | Parcela financiada | Parcela que cuenta con un financiamiento aceptado por un comerciante. |
+| **Escrow** | Escrow / depósito en garantía | Mecanismo mediante el cual los fondos asociados al financiamiento permanecen retenidos hasta que se cumplen las condiciones establecidas para su liberación. |
+| **Crop Work** | Labor de cultivo | Actividad agrícola realizada sobre la parcela como parte del proceso productivo. |
+| **Milestone** | Hito | Etapa verificable del proceso agrícola utilizada para evaluar el avance del trabajo realizado en una parcela financiada. |
+| **Evidence** | Evidencia | Registro que permite demostrar la realización o avance de una labor agrícola asociada a un hito. |
+| **Milestone Evidence** | Evidencia de hito | Evidencia presentada por el agricultor para sustentar el cumplimiento de un hito específico. |
+| **Evidence Review** | Revisión de evidencia | Evaluación realizada sobre la evidencia presentada para determinar si el hito cumple con las condiciones acordadas. |
+| **Milestone Approval** | Aprobación de hito | Decisión mediante la cual el comerciante acepta la evidencia presentada y reconoce el cumplimiento del hito. |
+| **Milestone Rejection** | Rechazo de hito | Decisión mediante la cual la evidencia presentada no es aceptada y el hito permanece pendiente de cumplimiento. |
+| **Correction Request** | Solicitud de corrección | Solicitud realizada después del rechazo de un hito para que el agricultor corrija o complete la evidencia requerida. |
+| **Payment Release** | Liberación de pago | Liberación de los fondos correspondientes después de que un hito cumple las condiciones establecidas. |
+| **Climate Alert** | Alerta climática | Aviso relacionado con una condición climática que puede afectar las labores agrícolas o el estado del cultivo. |
 
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
+
+| Epic ID | Título de la Epic | Descripción |
+| :--- | :--- | :--- |
+| **EPIC-01** | Identity and Access Management (IAM) | Gestión de registro, autenticación, perfiles y seguridad basada en roles (Agricultor/Comerciante) para la plataforma. |
+| **EPIC-02** | Gestión de Parcelas y Financiamiento | Ciclo de negocio desde la publicación y búsqueda de parcelas, hasta la negociación y retención de fondos en Escrow. |
+| **EPIC-03** | Ejecución Agrícola y Evidencias | Registro de las labores de cultivo en el campo, presentación de reportes y almacenamiento de evidencias fotográficas. |
+| **EPIC-04** | Revisión y Flujo de Pagos | Motor de decisiones del comerciante para aprobar hitos o solicitar correcciones, y la consecuente liberación de pagos. |
+| **EPIC-05** | Proceso Climático | Recepción de datos meteorológicos externos y emisión de alertas de riesgo para proteger las labores agrícolas. |
+
 <table width="100%">
   <thead>
     <tr align="center">
@@ -1182,22 +963,22 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
   <tbody>
     <tr align="center">
       <td>US01</td>
-      <td>Productor Agrícola</td>
+      <td>Agricultor / Comerciante</td>
       <td>Alta</td>
-      <td>EP01</td>
+      <td>EPIC-01</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Registro de perfil y verificación de identidad</td>
+      <td colspan="3">Registro inicial de usuario</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> productor agrícola,<br>
-        <b>quiero</b> registrar mi perfil y verificar mis datos de identidad,<br>
-        <b>para</b> transmitir confianza a los compradores y ofrecer mis hectáreas de cultivo.
+        <b>Como</b> Agricultor o Comerciante,<br>
+        <b>quiero</b> registrarme en el sistema definiendo mi rol,<br>
+        <b>para</b> acceder a un entorno personalizado.
       </td>
     </tr>
     <tr>
@@ -1205,73 +986,49 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1: Registro exitoso con datos válidos</b><br>
-        - <b>Given</b> que el productor no cuenta con un registro previo en la plataforma.<br>
-        - <b>When</b> proporciona nombres completos, documento de identidad y número telefónico válido.<br>
-        - <b>Then</b> el sistema crea la cuenta en estado pendiente de verificación y genera un código de confirmación asociado al número telefónico.<br><br>
-        <b>Escenario 2: Documento de identidad ya registrado</b><br>
-        - <b>Given</b> que existe un usuario registrado con el mismo número de documento.<br>
-        - <b>When</b> el productor intenta registrar sus datos.<br>
-        - <b>Then</b> el sistema rechaza el registro e informa que el documento de identidad ya está asociado a una cuenta existente.
+        <b>Escenario 1: Creación de cuenta exitosa</b><br>
+        - <b>Given</b> que un usuario no registrado proporciona datos válidos y selecciona un rol.<br>
+        - <b>When</b> se procesa la solicitud de creación de cuenta.<br>
+        - <b>Then</b> el sistema almacena el usuario y asigna el rol correspondiente.<br><br>
+        <b>Escenario 2: Correo electrónico duplicado</b><br>
+        - <b>Given</b> que un usuario intenta registrarse con un correo electrónico existente.<br>
+        - <b>When</b> se procesa la solicitud de registro.<br>
+        - <b>Then</b> el sistema detiene la creación y notifica la duplicidad del correo.
       </td>
     </tr>
   </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
   <tbody>
     <tr align="center">
-      <td>TS01</td>
-      <td>Developer</td>
-      <td>Alta</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">API RESTful para autenticación y emisión de tokens JWT</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> developer,<br>
-        <b>quiero</b> implementar un servicio RESTful de autenticación,<br>
-        <b>para</b> validar las credenciales de los usuarios y emitir tokens JWT seguros para los clientes de la plataforma.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1: Autenticación correcta</b><br>
-        - <b>Given</b> que el cliente envía un request POST /api/v1/auth/login con credenciales válidas.<br>
-        - <b>When</b> el servicio valida las credenciales.<br>
-        - <b>Then</b> responde con 200 OK y un cuerpo JSON que contiene el token JWT y su fecha de expiración.<br><br>
-        <b>Escenario 2: Credenciales inválidas</b><br>
-        - <b>Given</b> que el cliente envía un request de autenticación con credenciales inválidas.<br>
-        - <b>When</b> el servicio valida las credenciales.<br>
-        - <b>Then</b> responde con 401 Unauthorized y un cuerpo JSON que identifica el error de autenticación.
-      </td>
-    </tr>
-  </tbody>
-    <tbody>
-    <tr align="center">
       <td>US02</td>
-      <td>Comprador</td>
-      <td>Alta</td>
-      <td>EP02</td>
+      <td>Agricultor</td>
+      <td>Media</td>
+      <td>EPIC-01</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Búsqueda y filtrado de parcelas disponibles</td>
+      <td colspan="3">Registro de datos bancarios</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> filtrar parcelas agrícolas por tipo de cultivo, zona geográfica y extensión de hectáreas,<br>
-        <b>para</b> seleccionar la opción que mejor se ajuste a mis necesidades de abastecimiento.
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> registrar mi información de cuenta bancaria,<br>
+        <b>para</b> poder recibir los pagos liberados por el sistema.
       </td>
     </tr>
     <tr>
@@ -1279,36 +1036,49 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1: Filtrado con resultados</b><br>
-        - <b>Given</b> que existen parcelas activas que coinciden con los criterios de búsqueda.<br>
-        - <b>When</b> el comprador consulta las parcelas utilizando región y tipo de cultivo.<br>
-        - <b>Then</b> el sistema devuelve las parcelas activas que cumplen los criterios especificados.<br><br>
-        <b>Escenario 2: Sin coincidencias</b><br>
-        - <b>Given</b> que no existen parcelas activas que coincidan con los criterios especificados.<br>
-        - <b>When</b> el comprador ejecuta la consulta.<br>
-        - <b>Then</b> el sistema devuelve un resultado vacío e informa que no existen coincidencias.
+        <b>Escenario 1: Actualización de datos bancarios exitosa</b><br>
+        - <b>Given</b> que el agricultor envía una cuenta interbancaria válida.<br>
+        - <b>When</b> el sistema recibe la solicitud de actualización de perfil.<br>
+        - <b>Then</b> los datos financieros se asocian a la cuenta del usuario de forma cifrada.<br><br>
+        <b>Escenario 2: Formato de cuenta inválido</b><br>
+        - <b>Given</b> que el agricultor envía un número de cuenta con formato incorrecto.<br>
+        - <b>When</b> el sistema valida la entrada del formulario.<br>
+        - <b>Then</b> se rechaza la actualización y se requiere ingresar un formato bancario válido.
       </td>
     </tr>
   </tbody>
-      <tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr align="center">
       <td>US03</td>
-      <td>Comprador</td>
+      <td>Agricultor</td>
       <td>Alta</td>
-      <td>EP03</td>
+      <td>EPIC-02</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Aprobación de hito y orden de liberación de fondos</td>
+      <td colspan="3">Publicación de nueva parcela</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> revisar las evidencias de un hito cumplido y aprobar la liberación parcial de los fondos en custodia,<br>
-        <b>para</b> que el productor disponga del capital correspondiente a la etapa completada.
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> registrar las dimensiones y ubicación de mi parcela,<br>
+        <b>para</b> hacer visible mi oferta a los compradores.
       </td>
     </tr>
     <tr>
@@ -1316,73 +1086,49 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1: Aprobación y liberación</b><br>
-        - <b>Given</b> que un hito se encuentra pendiente de validación y cuenta con las evidencias requeridas.<br>
-        - <b>When</b> el comprador aprueba el cumplimiento del hito.<br>
-        - <b>Then</b> el sistema cambia el estado del hito a aprobado y genera la orden de liberación de los fondos correspondientes.<br><br>
-        <b>Escenario 2: Fondos insuficientes</b><br>
-        - <b>Given</b> que el saldo disponible en custodia es inferior al monto requerido para la liberación.<br>
-        - <b>When</b> el comprador aprueba el hito.<br>
-        - <b>Then</b> el sistema no ejecuta la liberación y registra que el saldo disponible es insuficiente.
+        <b>Escenario 1: Publicación de parcela exitosa</b><br>
+        - <b>Given</b> que los datos de la parcela cumplen con los campos obligatorios y coordenadas GPS.<br>
+        - <b>When</b> se envía la solicitud de publicación.<br>
+        - <b>Then</b> el sistema guarda la parcela asignando el estado "Publicada".<br><br>
+        <b>Escenario 2: Datos incompletos en el registro</b><br>
+        - <b>Given</b> que la solicitud carece del área total de la parcela.<br>
+        - <b>When</b> se intenta procesar el registro.<br>
+        - <b>Then</b> el sistema rechaza la acción por información obligatoria incompleta.
       </td>
     </tr>
   </tbody>
-      <tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
     <tr align="center">
-      <td>TS02</td>
-      <td>Developer</td>
-      <td>Alta</td>
-      <td>EP03</td>
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
     </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">API RESTful para consulta e integración del estado Escrow</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> developer,<br>
-        <b>quiero</b> implementar una API RESTful para consultar el saldo y estado de las cuentas Escrow asociadas a contratos,<br>
-        <b>para</b> integrar la custodia de fondos con los servicios de pago y el historial de transacciones.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1: Consulta exitosa</b><br>
-        - <b>Given</b> que el cliente envía un request GET /api/v1/escrow/{contractId} con un contrato válido y credenciales autorizadas.<br>
-        - <b>When</b> la API procesa la solicitud.<br>
-        - <b>Then</b> responde con 200 OK y un JSON que contiene el saldo retenido, el saldo liberado y el detalle de los hitos.<br><br>
-        <b>Escenario 2: Contrato inexistente</b><br>
-        - <b>Given</b> que el identificador de contrato no existe.<br>
-        - <b>When</b> la API procesa la consulta.<br>
-        - <b>Then</b> responde con 404 Not Found y un objeto JSON estructurado con el error correspondiente.
-      </td>
-    </tr>
-  </tbody>
-     <tbody>
+  </thead>
+  <tbody>
     <tr align="center">
       <td>US04</td>
-      <td>Productor Agrícola</td>
+      <td>Comerciante</td>
       <td>Alta</td>
-      <td>EP04</td>
+      <td>EPIC-02</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Registro y carga de evidencias fotográficas por hito</td>
+      <td colspan="3">Búsqueda y filtrado de parcelas</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> productor agrícola,<br>
-        <b>quiero</b> registrar evidencias fotográficas de mi cultivo con información de ubicación,<br>
-        <b>para</b> demostrar el avance de cada hito y solicitar la liberación de fondos.
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> filtrar parcelas agrícolas por tipo de cultivo y extensión,<br>
+        <b>para</b> seleccionar la que mejor se ajuste a mi demanda.
       </td>
     </tr>
     <tr>
@@ -1390,60 +1136,487 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1: Registro exitoso de evidencia</b><br>
-        - <b>Given</b> que el productor se encuentra dentro de la ubicación autorizada de la parcela asociada al contrato.<br>
-        - <b>When</b> registra una fotografía y la información correspondiente al hito.<br>
-        - <b>Then</b> el sistema almacena la evidencia con las coordenadas GPS verificadas y cambia el estado del hito a "En Revisión".<br><br>
-        <b>Escenario 2: Ubicación no válida</b><br>
-        - <b>Given</b> que las coordenadas registradas no coinciden con la ubicación autorizada de la parcela.<br>
-        - <b>When</b> el productor intenta registrar la evidencia.<br>
-        - <b>Then</b> el sistema rechaza la evidencia e informa la inconsistencia de geolocalización.
+        <b>Escenario 1: Filtrado con coincidencias exactas</b><br>
+        - <b>Given</b> que el comerciante aplica filtros de tipo de cultivo específicos.<br>
+        - <b>When</b> el sistema procesa la consulta de búsqueda.<br>
+        - <b>Then</b> retorna una lista de parcelas que coinciden exactamente con el cultivo requerido.<br><br>
+        <b>Escenario 2: Búsqueda sin resultados</b><br>
+        - <b>Given</b> que el comerciante aplica filtros restrictivos que ninguna parcela cumple.<br>
+        - <b>When</b> el sistema procesa la consulta de búsqueda.<br>
+        - <b>Then</b> el sistema retorna una lista vacía y un mensaje de no coincidencia.
       </td>
     </tr>
   </tbody>
-       <tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
     <tr align="center">
-      <td>SP01</td>
-      <td>Developer</td>
-      <td>Media</td>
-      <td>EP04</td>
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
     </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Evaluación de almacenamiento y sincronización offline de fotografías</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> developer,<br>
-        <b>quiero</b> evaluar mecanismos de almacenamiento local y sincronización de fotografías sin conexión,<br>
-        <b>para</b> garantizar el registro de evidencias en zonas con conectividad intermitente.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1: Almacenamiento sin conexión</b><br>
-        - <b>Given</b> que el dispositivo pierde temporalmente la conectividad.<br>
-        - <b>When</b> se registran 20 fotografías localmente.<br>
-        - <b>Then</b> las evidencias permanecen almacenadas hasta que se restablece la conexión.<br><br>
-        <b>Escenario 2: Sincronización posterior</b><br>
-        - <b>Given</b> que existen evidencias pendientes de sincronización y se restablece la conectividad.<br>
-        - <b>When</b> se ejecuta el proceso de sincronización.<br>
-        - <b>Then</b> las evidencias se envían al servidor y se registra la tasa de sincronización exitosa.
-      </td>
-    </tr>
-  </tbody>
-         <tbody>
+  </thead>
+  <tbody>
     <tr align="center">
       <td>US05</td>
-      <td>Comprador</td>
+      <td>Comerciante</td>
+      <td>Alta</td>
+      <td>EPIC-02</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Financiamiento directo de parcela</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> financiar de forma directa una parcela eligiendo entre los métodos de pago habilitados,<br>
+        <b>para</b> transferir los fondos a custodia y asegurar el ciclo productivo.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Financiamiento exitoso y retención en Escrow</b><br>
+        - <b>Given</b> que la parcela se encuentra disponible para financiamiento.<br>
+        - <b>When</b> el comerciante genera la orden de pago y confirma la transacción.<br>
+        - <b>Then</b> el sistema cambia el estado de la parcela a "Financiada", transfiere el monto a retención en Escrow y envía una notificación de confirmación al agricultor.<br><br>
+        <b>Escenario 2: Intento de financiamiento sobre parcela activa</b><br>
+        - <b>Given</b> que la parcela ya cuenta con un financiamiento activo en proceso.<br>
+        - <b>When</b> un comerciante intenta iniciar o registrar una orden de financiamiento.<br>
+        - <b>Then</b> el sistema bloquea la operación e informa que la parcela ya no admite nuevas ofertas.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US06</td>
+      <td>Comerciante</td>
+      <td>Alta</td>
+      <td>EPIC-02</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Solicitud de visita presencial a la parcela</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> agendar una fecha para visitar la parcela de forma presencial,<br>
+        <b>para</b> inspeccionar el estado del terreno y conversar con el agricultor antes de formalizar el financiamiento.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Agendamiento de visita confirmado</b><br>
+        - <b>Given</b> que el comerciante selecciona una parcela disponible y una fecha hábil.<br>
+        - <b>When</b> envía la solicitud de visita presencial.<br>
+        - <b>Then</b> el sistema agenda la inspección en estado pendiente y notifica al agricultor con los detalles de fecha y hora.<br><br>
+        <b>Escenario 2: Fecha no disponible</b><br>
+        - <b>Given</b> que la fecha seleccionada coincide con un día no habilitado por el agricultor.<br>
+        - <b>When</b> el comerciante intenta registrar la solicitud.<br>
+        - <b>Then</b> el sistema rechaza la solicitud e indica el rango de fechas disponibles.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US07</td>
+      <td>Agricultor</td>
+      <td>Alta</td>
+      <td>EPIC-02</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Confirmación de acuerdo y fijación de precio tras visita presencial</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> confirmar el acuerdo comercial e ingresar el nuevo monto pactado tras la visita presencial,<br>
+        <b>para</b> actualizar el precio oficial de la parcela y evitar que el comerciante registre un valor distinto al coordinado.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Actualización de precio tras visita con acuerdo</b><br>
+        - <b>Given</b> que la visita presencial figura concluida y registrada con su fecha de ejecución.<br>
+        - <b>When</b> el agricultor confirma el acuerdo e ingresa el nuevo precio coordinado de palabra.<br>
+        - <b>Then</b> el sistema actualiza el precio de la parcela con dicho monto y la deja disponible para que el comerciante complete la financiación con el valor pactado.<br><br>
+        <b>Escenario 2: Registro de visita sin acuerdo comercial</b><br>
+        - <b>Given</b> que la visita presencial concluyó y se encuentra registrada con su fecha.<br>
+        - <b>When</b> el agricultor registra que no se llegó a un acuerdo en la negociación.<br>
+        - <b>Then</b> el sistema finaliza el trámite de la visita conservando las condiciones originales de la parcela.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US08</td>
+      <td>Agricultor</td>
+      <td>Alta</td>
+      <td>EPIC-03</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Registro fotográfico de evidencia</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> subir evidencias fotográficas con geolocalización de mi cultivo,<br>
+        <b>para</b> demostrar el avance de la tarea en el hito actual.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Carga de imagen con metadatos validada</b><br>
+        - <b>Given</b> que el agricultor adjunta un archivo de imagen válido con metadata GPS.<br>
+        - <b>When</b> confirma el envío de la evidencia al sistema.<br>
+        - <b>Then</b> el estado del hito cambia a "Evidencia presentada para revisión".<br><br>
+        <b>Escenario 2: Restricción por tamaño de archivo</b><br>
+        - <b>Given</b> que el archivo adjunto excede el límite de tamaño permitido por el sistema.<br>
+        - <b>When</b> el agricultor intenta procesar la subida.<br>
+        - <b>Then</b> el sistema detiene la carga solicitando un archivo comprimido más ligero.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US09</td>
+      <td>Agricultor</td>
       <td>Media</td>
-      <td>EP05</td>
+      <td>EPIC-03</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Reenvío de evidencia corregida</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> enviar nueva evidencia fotográfica tras un rechazo,<br>
+        <b>para</b> cumplir con las exigencias del comerciante evaluador.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Sustitución de evidencia de hito rechazado</b><br>
+        - <b>Given</b> que el hito se encuentra en estado "Corrección solicitada".<br>
+        - <b>When</b> el agricultor sube y envía un reemplazo fotográfico válido.<br>
+        - <b>Then</b> el sistema actualiza el estado del hito a "Evidencia presentada para revisión".<br><br>
+        <b>Escenario 2: Bloqueo de reemplazo en hito aprobado</b><br>
+        - <b>Given</b> que el hito ya se encuentra en estado "Aprobado".<br>
+        - <b>When</b> el agricultor intenta reemplazar o subir evidencia adicional.<br>
+        - <b>Then</b> el sistema deniega la acción ya que la etapa de validación cerró.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US10</td>
+      <td>Comerciante</td>
+      <td>Alta</td>
+      <td>EPIC-04</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Aprobación de evidencia y orden de liberación de pago</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> validar la evidencia del hito y autorizar la liberación del pago,<br>
+        <b>para</b> que el agricultor reciba sus fondos a través de la modalidad acordada sin importar el método utilizado.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Aprobación y orden de liberación de pago</b><br>
+        - <b>Given</b> que un hito cuenta con evidencias presentadas y pendientes de revisión.<br>
+        - <b>When</b> el comerciante emite la aprobación de la evidencia.<br>
+        - <b>Then</b> el hito cambia al estado "Aprobado" y el sistema procesa la liberación del monto pactado al medio de cobro del agricultor.<br><br>
+        <b>Escenario 2: Prevención de doble liberación de pago</b><br>
+        - <b>Given</b> que un hito ya cuenta con estado "Aprobado" y pago en proceso o completado.<br>
+        - <b>When</b> se intenta emitir una nueva aprobación sobre el mismo registro.<br>
+        - <b>Then</b> el sistema rechaza la instrucción evitando transacciones duplicadas.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US11</td>
+      <td>Comerciante</td>
+      <td>Alta</td>
+      <td>EPIC-04</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Solicitud de corrección técnica</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> rechazar una evidencia que no cumple los estándares,<br>
+        <b>para</b> que el agricultor subsane la labor antes del pago.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Rechazo con justificación obligatoria</b><br>
+        - <b>Given</b> que el comerciante rechaza la evidencia adjuntando un motivo escrito válido.<br>
+        - <b>When</b> se procesa la decisión de rechazo.<br>
+        - <b>Then</b> el sistema cambia el estado del hito a "Corrección solicitada".<br><br>
+        <b>Escenario 2: Omisión del motivo de rechazo</b><br>
+        - <b>Given</b> que el comerciante intenta rechazar la evidencia pero deja el motivo en blanco.<br>
+        - <b>When</b> procesa la decisión enviando la solicitud al sistema.<br>
+        - <b>Then</b> el sistema interrumpe el flujo y exige la redacción del motivo para continuar.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US12</td>
+      <td>Agricultor</td>
+      <td>Baja</td>
+      <td>EPIC-04</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Visualización de historial de pagos</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> consultar el historial de fondos liberados,<br>
+        <b>para</b> llevar un control financiero preciso de mis ingresos.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Carga de registro de transacciones</b><br>
+        - <b>Given</b> que el usuario posee transferencias completadas de diferentes hitos.<br>
+        - <b>When</b> solicita ingresar a su reporte financiero.<br>
+        - <b>Then</b> el sistema retorna un arreglo listando cronológicamente los abonos, montos y fechas.<br><br>
+        <b>Escenario 2: Consulta sin historial previo</b><br>
+        - <b>Given</b> que el agricultor es un usuario reciente sin aprobaciones previas.<br>
+        - <b>When</b> solicita su reporte de historial de pagos.<br>
+        - <b>Then</b> el sistema muestra el balance en cero acompañado de un registro vacío.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US13</td>
+      <td>Agricultor</td>
+      <td>Media</td>
+      <td>EPIC-03</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Solicitud de prórroga por contingencia agrícola</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> solicitar una prórroga para un hito indicando los motivos del retraso y proponiendo una nueva fecha límite,<br>
+        <b>para</b> evitar penalizaciones cuando imprevistos climáticos, plagas u otros problemas retrasen la cosecha.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Envío oportuno de solicitud de prórroga</b><br>
+        - <b>Given</b> que un hito se encuentra en progreso antes de alcanzar su fecha límite de entrega.<br>
+        - <b>When</b> el agricultor registra una justificación del imprevisto y define una nueva fecha propuesta posterior a la actual.<br>
+        - <b>Then</b> el sistema cambia el estado del hito a "Prórroga solicitada" y notifica al comerciante para su evaluación.<br><br>
+        <b>Escenario 2: Solicitud extemporánea de prórroga</b><br>
+        - <b>Given</b> que la fecha límite de cumplimiento del hito ya venció sin justificación previa.<br>
+        - <b>When</b> el agricultor intenta registrar la prórroga.<br>
+        - <b>Then</b> el sistema deniega el registro e indica que el plazo establecido ha caducado.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US14</td>
+      <td>Comerciante</td>
+      <td>Media</td>
+      <td>EPIC-05</td>
     </tr>
     <tr>
       <th align="center">Title</th>
@@ -1454,9 +1627,9 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> recibir alertas ante eventos climáticos adversos en las parcelas contratadas,<br>
-        <b>para</b> coordinar medidas preventivas con el productor.
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> recibir notificaciones automáticas ante eventos meteorológicos de riesgo en las parcelas que financio,<br>
+        <b>para</b> estar prevenido ante posibles demoras o afectaciones en la producción.
       </td>
     </tr>
     <tr>
@@ -1464,36 +1637,49 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1:Evento climático crítico</b><br>
-        - <b>Given</b> que una parcela contratada presenta una anomalía climática.<br>
-        - <b>When</b> el evento supera el umbral de riesgo configurado.<br>
-        - <b>Then</b> el sistema genera una alerta dirigida al comprador y al productor e incluye el nivel de riesgo identificado.<br><br>
-        <b>Escenario 2: Evento de riesgo bajo no notificable</b><br>
-        - <b>Given</b> que el usuario tiene desactivadas las alertas de riesgo bajo.<br>
-        - <b>When</b> se registra un evento climático clasificado como riesgo bajo.<br>
-        - <b>Then</b> el sistema no genera una notificación para ese usuario.
+        <b>Escenario 1: Alerta meteorológica crítica emitida</b><br>
+        - <b>Given</b> que una estación o servicio meteorológico registra un fenómeno adverso en la zona de una parcela contratada.<br>
+        - <b>When</b> el nivel de severidad supera el umbral de advertencia configurado.<br>
+        - <b>Then</b> el sistema emite una notificación al comerciante vinculada a la parcela comprometida.<br><br>
+        <b>Escenario 2: Anomalía de bajo impacto</b><br>
+        - <b>Given</b> que el evento climático detectado no representa una amenaza para el tipo de cultivo financiado.<br>
+        - <b>When</b> el sistema procesa los datos del clima.<br>
+        - <b>Then</b> se omite la emisión de alertas prioritarias para no generar falsos avisos.
       </td>
     </tr>
   </tbody>
-   <tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
     <tr align="center">
-      <td>US06</td>
-      <td>Productor Agrícola</td>
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US15</td>
+      <td>Comerciante</td>
       <td>Alta</td>
-      <td>EP01</td>
+      <td>EPIC-03</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Publicación y geolocalización de lote agrícola</td>
+      <td colspan="3">Seguimiento de cronograma y avance de hitos en parcelas activas</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> productor agrícola,<br>
-        <b>quiero</b> registrar las dimensiones, características y ubicación de mi parcela,<br>
-        <b>para</b> hacer visible mi oferta productiva a los compradores.
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> consultar el cronograma de hitos, el porcentaje de avance y las fechas de las próximas labores de mis parcelas financiadas,<br>
+        <b>para</b> monitorear el cumplimiento del ciclo productivo e identificar oportunamente las etapas que requieren mi revisión.
       </td>
     </tr>
     <tr>
@@ -1501,36 +1687,49 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1:Publicación exitosa</b><br>
-        - <b>Given</b> que el productor tiene un perfil verificado.<br>
-        - <b>When</b> registra las características de la parcela y una ubicación válida.<br>
-        - <b>Then</b> el sistema valida la información y publica la parcela como oferta disponible.<br><br>
-        <b>Escenario 2: Ubicación no válida</b><br>
-        - <b>Given</b> que la ubicación registrada no pertenece a una zona autorizada.<br>
-        - <b>When</b> el productor intenta publicar la parcela.<br>
-        - <b>Then</b> el sistema rechaza la publicación e informa que la ubicación no es válida.
+        <b>Escenario 1: Visualización del estado del cronograma y avance</b><br>
+        - <b>Given</b> que el comerciante mantiene acuerdos de financiamiento activos con parcelas en producción.<br>
+        - <b>When</b> consulta el listado de sus parcelas financiadas.<br>
+        - <b>Then</b> el sistema presenta el progreso porcentual del cultivo, el número de hitos completados sobre el total y la fecha programada para la siguiente labor.<br><br>
+        <b>Escenario 2: Filtrado por hitos con revisión pendiente</b><br>
+        - <b>Given</b> que existen parcelas donde el agricultor ya cargó evidencias para un hito en curso.<br>
+        - <b>When</b> el comerciante activa el filtro de priorización de revisiones.<br>
+        - <b>Then</b> el sistema reorganiza la lista mostrando primero las parcelas cuyo hito actual se encuentra en estado pendiente de evaluación.
       </td>
     </tr>
   </tbody>
-    <tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
     <tr align="center">
-      <td>US07</td>
-      <td>Comprador</td>
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>TS01</td>
+      <td>Developer</td>
       <td>Alta</td>
-      <td>EP02</td>
+      <td>EPIC-01</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Solicitud de cotización y negociación directa de volumen</td>
+      <td colspan="3">API de Autenticación y JWT</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> enviar una propuesta formal de compra indicando volumen, precio y fecha de entrega,<br>
-        <b>para</b> iniciar una negociación directa con el productor agrícola.
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> implementar el servicio de login,<br>
+        <b>para</b> generar un token JWT que proteja las transacciones del usuario.
       </td>
     </tr>
     <tr>
@@ -1538,36 +1737,49 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1:Envío de propuesta válida</b><br>
-        - <b>Given</b> que existe una parcela activa con capacidad productiva disponible.<br>
-        - <b>When</b> el comprador registra un volumen requerido, precio propuesto y fecha de entrega válidos.<br>
-        - <b>Then</b> el sistema registra la propuesta y notifica al productor.<br><br>
-        <b>Escenario 2: Volumen superior a la capacidad disponible</b><br>
-        - <b>Given</b> que el volumen solicitado supera la capacidad productiva disponible de la parcela,<br>
-        - <b>When</b> el comprador intenta enviar la propuesta.<br>
-        - <b>Then</b> el sistema rechaza la propuesta e informa que el volumen solicitado excede la capacidad disponible.
+        <b>Escenario 1: Autenticación correcta</b><br>
+        - <b>Given</b> que el cliente envía credenciales correctas al endpoint de autenticación.<br>
+        - <b>When</b> el servicio evalúa los datos recibidos.<br>
+        - <b>Then</b> el sistema genera un token JWT firmado y retorna código HTTP 200.<br><br>
+        <b>Escenario 2: Credenciales incorrectas</b><br>
+        - <b>Given</b> que el cliente envía una contraseña incorrecta para un correo existente.<br>
+        - <b>When</b> el servicio evalúa los datos de acceso.<br>
+        - <b>Then</b> el sistema deniega el acceso y retorna código HTTP 401.
       </td>
     </tr>
   </tbody>
-   <tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
     <tr align="center">
-      <td>US08</td>
-      <td>Productor Agrícola</td>
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>TS02</td>
+      <td>Developer</td>
       <td>Alta</td>
-      <td>EP03</td>
+      <td>EPIC-01</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Aceptación de propuesta y firma de contrato digital Escrow</td>
+      <td colspan="3">Middleware de autorización (RBAC)</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> productor agrícola,<br>
-        <b>quiero</b> aceptar las condiciones acordadas y formalizar digitalmente el acuerdo de venta,<br>
-        <b>para</b> establecer el compromiso comercial y activar el proceso de custodia de fondos.
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> implementar un middleware de control de acceso,<br>
+        <b>para</b> restringir los endpoints según el rol del usuario.
       </td>
     </tr>
     <tr>
@@ -1575,36 +1787,49 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1:Firma exitosa</b><br>
-        - <b>Given</b> que existe una propuesta con condiciones comerciales acordadas.<br>
-        - <b>When</b> el productor confirma su aceptación mediante el mecanismo de verificación establecido,<br>
-        - <b>Then</b> el sistema registra el contrato como pendiente de depósito Escrow y genera una copia del acuerdo para ambas partes.<br><br>
-        <b>Escenario 2: Rechazo de condiciones</b><br>
-        - <b>Given</b> que el productor no está de acuerdo con las condiciones propuestas.<br>
-        - <b>When</b> rechaza la propuesta y registra sus observaciones.<br>
-        - <b>Then</b> el sistema devuelve la propuesta al comprador para su modificación.
+        <b>Escenario 1: Acceso permitido al recurso</b><br>
+        - <b>Given</b> que un usuario autenticado intenta acceder a un recurso permitido para su rol.<br>
+        - <b>When</b> el middleware evalúa los claims del token.<br>
+        - <b>Then</b> el sistema permite la ejecución del endpoint.<br><br>
+        <b>Escenario 2: Acceso bloqueado por falta de permisos</b><br>
+        - <b>Given</b> que un usuario autenticado intenta acceder a un recurso restringido para su rol.<br>
+        - <b>When</b> el middleware evalúa los claims del token.<br>
+        - <b>Then</b> el sistema bloquea la petición y devuelve código HTTP 403.
       </td>
     </tr>
   </tbody>
-    <tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
     <tr align="center">
-      <td>US09</td>
-      <td>Comprador B2B</td>
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>TS03</td>
+      <td>Developer</td>
       <td>Alta</td>
-      <td>EP03</td>
+      <td>EPIC-02</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Depósito de fondos iniciales en custodia</td>
+      <td colspan="3">Servicio de retención en Escrow</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> transferir el capital acordado a la cuenta de custodia,<br>
-        <b>para</b> garantizar la disponibilidad de los fondos y habilitar el inicio del trabajo del productor.
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> implementar un servicio que procese y retenga los fondos del financiamiento en custodia (Escrow),<br>
+        <b>para</b> asegurar el capital acordado independientemente del método de pago utilizado.
       </td>
     </tr>
     <tr>
@@ -1612,110 +1837,49 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1:Depósito confirmado</b><br>
-        - <b>Given</b> que existe un contrato pendiente de depósito.<br>
-        - <b>When</b> el pago es validado por el sistema.<br>
-        - <b>Then</b> los fondos pasan al estado "En Custodia" y el productor recibe la confirmación correspondiente.<br><br>
-        <b>Escenario 2: Pago rechazado</b><br>
-        - <b>Given</b> que la entidad financiera rechaza la transacción.<br>
-        - <b>When</b> el sistema recibe la confirmación del rechazo.<br>
-        - <b>Then</b> los fondos no ingresan a custodia y el contrato permanece pendiente de depósito.
+        <b>Escenario 1: Retención de fondos exitosa en Escrow</b><br>
+        - <b>Given</b> que se recibe una orden de financiamiento confirmada por el medio de pago seleccionado.<br>
+        - <b>When</b> el servicio procesa la transacción de ingreso.<br>
+        - <b>Then</b> el sistema bloquea los fondos en la cuenta de custodia, actualiza el estado a "Fondos retenidos en Escrow" y retorna código HTTP 200.<br><br>
+        <b>Escenario 2: Falla o rechazo en la transacción de financiamiento</b><br>
+        - <b>Given</b> que el procesador del método de pago elegido rechaza la operación o reporta error en la transacción.<br>
+        - <b>When</b> el servicio detecta la respuesta de rechazo.<br>
+        - <b>Then</b> el sistema marca la orden como "Transacción fallida", no afecta el saldo de custodia y retorna código HTTP 400.
       </td>
     </tr>
   </tbody>
-      <tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
     <tr align="center">
-      <td>US010</td>
-      <td>Productor Agrícola</td>
-      <td>Media</td>
-      <td>EP04</td>
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
     </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Solicitud de prórroga por imprevisto técnico o ambiental</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> productor agrícola,<br>
-        <b>quiero</b> solicitar la reprogramación de la fecha límite de un hito cuando ocurre un imprevisto justificado,<br>
-        <b>para</b> evitar penalizaciones cuando el retraso sea atribuible a causas válidas.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1:Solicitud de prórroga válida</b><br>
-        - <b>Given</b> que el productor identifica un retraso justificado en el cumplimiento de un hito.<br>
-        - <b>When</b> registra una nueva fecha estimada y proporciona la justificación correspondiente.<br>
-        - <b>Then</b> el sistema registra la solicitud y la envía al comprador para su revisión.<br><br>
-        <b>Escenario 2:Solicitud fuera de plazo</b><br>
-        - <b>Given</b> que la fecha límite del hito ha vencido sin una solicitud previa.<br>
-        - <b>When</b> el productor solicita una prórroga.<br>
-        - <b>Then</b> el sistema rechaza la solicitud y registra que el plazo permitido ha expirado.
-      </td>
-    </tr>
-  </tbody>
-       <tbody>
+  </thead>
+  <tbody>
     <tr align="center">
-      <td>US011</td>
-      <td>Comprador</td>
-      <td>Media</td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Programación de visita presencial a la parcela</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> programar una visita de inspección a la parcela en producción,<br>
-        <b>para</b> verificar las condiciones de la cosecha antes del desembolso de la fase final.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1:Fecha disponible</b><br>
-        - <b>Given</b> que existe una fecha disponible para inspección y la parcela permite visitas.<br>
-        - <b>When</b> el comprador solicita la visita para esa fecha.<br>
-        - <b>Then</b> el sistema registra la visita y notifica al productor.<br><br>
-        <b>Escenario 2: Fecha restringida</b><br>
-        - <b>Given</b> que la parcela se encuentra en un periodo en el que no se permiten visitas.<br>
-        - <b>When</b> el comprador solicita una visita durante ese periodo.<br>
-        - <b>Then</b> el sistema rechaza la solicitud y proporciona las fechas disponibles.
-      </td>
-    </tr>
-  </tbody>
-         <tbody>
-    <tr align="center">
-      <td>US012</td>
-      <td>Productor Agrícola</td>
+      <td>TS04</td>
+      <td>Developer</td>
       <td>Alta</td>
-      <td>EP01</td>
+      <td>EPIC-03</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Gestión de disponibilidad y calendario de siembra</td>
+      <td colspan="3">API de almacenamiento de archivos</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> productor agrícola.<br>
-        <b>quiero</b> registrar las fechas estimadas de siembra y cosecha de mi parcela.<br>
-        <b>para</b> informar a los compradores sobre los periodos de disponibilidad de mi producción.
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> implementar un servicio de carga de imágenes en storage,<br>
+        <b>para</b> almacenar de forma persistente y segura las evidencias del cultivo.
       </td>
     </tr>
     <tr>
@@ -1723,36 +1887,49 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1:Registro válido</b><br>
-        - <b>Given</b> que el productor tiene una parcela registrada.<br>
-        - <b>When</b> registra una fecha de siembra y una fecha de cosecha posteriores a la fecha de siembra.<br>
-        - <b>Then</b> el sistema almacena el periodo de disponibilidad asociado a la parcela.<br><br>
-        <b>Escenario 2: Fechas inconsistentes</b><br>
-        - <b>Given</b> que la fecha de cosecha es anterior o igual a la fecha de siembra.<br>
-        - <b>When</b> el productor registra las fechas.<br>
-        - <b>Then</b> el sistema rechaza la solicitud y el sistema rechaza el registro e informa que el rango de fechas es inconsistentes.
+        <b>Escenario 1: Almacenamiento exitoso</b><br>
+        - <b>Given</b> que se recibe un payload multipart con formato de imagen admitido (JPG, PNG).<br>
+        - <b>When</b> el servicio procesa y traslada el archivo al proveedor externo.<br>
+        - <b>Then</b> la imagen se guarda y el sistema persiste la URL generada en la base de datos.<br><br>
+        <b>Escenario 2: Archivo no soportado</b><br>
+        - <b>Given</b> que el payload contiene un archivo ejecutable u otro formato no admitido.<br>
+        - <b>When</b> el servicio evalúa la extensión y firma del archivo.<br>
+        - <b>Then</b> la carga es abortada retornando un error HTTP 415.
       </td>
     </tr>
   </tbody>
-    <tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
     <tr align="center">
-      <td>US013</td>
-      <td>Productor Agrícola</td>
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>TS05</td>
+      <td>Developer</td>
       <td>Alta</td>
-      <td>EP03</td>
+      <td>EPIC-04</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Configuración de cuenta bancaria para recepción de desembolsos</td>
+      <td colspan="3">Motor de liberación de pagos</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> productor agrícola,<br>
-        <b>quiero</b> vincular una cuenta bancaria a mi perfil,<br>
-        <b>para</b> recibir los fondos liberados de la custodia Escrow.
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> implementar la lógica que transfiera el dinero del Escrow al agricultor,<br>
+        <b>para</b> completar de forma automática el ciclo financiero tras el hito.
       </td>
     </tr>
     <tr>
@@ -1760,221 +1937,49 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1:Cuenta válida</b><br>
-        - <b>Given</b> que el productor no tiene una cuenta bancaria activa asociada.<br>
-        - <b>When</b> proporciona datos bancarios válidos y la titularidad coincide con su identidad registrada.<br>
-        - <b>Then</b> el sistema valida la información y asocia la cuenta al perfil.<br><br>
-        <b>Escenario 2: Titularidad no coincidente</b><br>
-        - <b>Given</b> que la titularidad de la cuenta bancaria no coincide con la identidad del productor.<br>
-        - <b>When</b> el sistema valida los datos.<br>
-        - <b>Then</b> rechaza la asociación de la cuenta.
+        <b>Escenario 1: Ejecución de transferencia desde Escrow</b><br>
+        - <b>Given</b> que un hito de cultivo transita a estado "Hito aprobado".<br>
+        - <b>When</b> el proceso de pagos detecta la actualización de estado.<br>
+        - <b>Then</b> el sistema emite la orden bancaria de transferencia y retorna código HTTP 200.<br><br>
+        <b>Escenario 2: Caída del servicio bancario externo</b><br>
+        - <b>Given</b> que la solicitud de transferencia falla por desconexión en el banco.<br>
+        - <b>When</b> el motor de pagos identifica el timeout en la conexión.<br>
+        - <b>Then</b> el sistema encola la orden transaccional y agenda un reintento automático.
       </td>
     </tr>
   </tbody>
-             <tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
     <tr align="center">
-      <td>US014</td>
-      <td>Comprador</td>
-      <td>Alta</td>
-      <td>EP04</td>
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
     </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Revisión y observación técnica de evidencias de hito</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> revisar las evidencias enviadas por el productor y solicitar correcciones cuando sean insuficientes,<br>
-        <b>para</b> asegurar que el cultivo cumpla los estándares establecidos antes del desembolso.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1:Evidencia insuficiente</b><br>
-        - <b>Given</b> que las evidencias de un hito no cumplen los requisitos establecidos.<br>
-        - <b>When</b> el comprador registra una observación y solicita una corrección.<br>
-        - <b>Then</b> el sistema cambia el hito al estado "Requiere Corrección" y notifica al productor.<br><br>
-        <b>Escenario 2: Hito previamente aprobado</b><br>
-        - <b>Given</b> que el hito ya fue aprobado y los fondos correspondientes fueron liberados.<br>
-        - <b>When</b> el comprador intenta modificar el resultado de la validación.<br>
-        - <b>Then</b> el sistema rechaza la modificación porque el resultado se encuentra cerrado.
-      </td>
-    </tr>
-  </tbody>
-    <tbody>
+  </thead>
+  <tbody>
     <tr align="center">
-      <td>US015</td>
-      <td>Productor Agrícola</td>
-      <td>Media</td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Calificación y reseña del comprador al finalizar contrato</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> productor agrícola,<br>
-        <b>quiero</b> calificar la puntualidad y comunicación del comprador después de completar un contrato,<br>
-        <b>para</b> contribuir a una reputación transparente dentro de la plataforma.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1:Evaluación de contrato finalizado</b><br>
-        - <b>Given</b> que el contrato ha finalizado después del último desembolso.<br>
-        - <b>When</b> l productor registra una puntuación y una reseña.<br>
-        - <b>Then</b> el sistema registra la evaluación y la asocia al perfil del comprador.<br><br>
-        <b>Escenario 2: Contrato en ejecución</b><br>
-        - <b>Given</b> que el contrato mantiene hitos pendientes.<br>
-        - <b>When</b> el productor intenta registrar una evaluación.<br>
-        - <b>Then</b> el sistema rechaza la evaluación hasta que el contrato finalice.
-      </td>
-    </tr>
-  </tbody>
-    <tbody>
-    <tr align="center">
-      <td>US016</td>
-      <td>Comprador B2B</td>
-      <td>Alta</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Registro de perfil corporativo y validación fiscal</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> registrar los datos de mi empresa y validar su identificación fiscal,<br>
-        <b>para</b> acreditar la formalidad de mi negocio frente a los productores agrícolas.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1:Empresa válida</b><br>
-        - <b>Given</b> que el comprador proporciona un número de identificación fiscal válido.<br>
-        - <b>When</b> el sistema consulta la fuente tributaria correspondiente.<br>
-        - <b>Then</b> valida la existencia de la empresa y confirma que su estado permite operar.<br><br>
-        <b>Escenario 2: Empresa no habilitada</b><br>
-        - <b>Given</b> que el número de identificación fiscal corresponde a una empresa suspendida o inactiva.<br>
-        - <b>When</b> el sistema realiza la validación.<br>
-        - <b>Then</b> rechaza el registro del perfil empresarial.
-      </td>
-    </tr>
-  </tbody>
-     <tbody>
-    <tr align="center">
-      <td>US017</td>
-      <td>Comprador</td>
-      <td>Media</td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Canal de mensajería para coordinación técnica</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> intercambiar mensajes con el productor durante la ejecución de un contrato,<br>
-        <b>para</b> resolver dudas técnicas y coordinar aspectos de la operación.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1:Mensaje durante contrato activo</b><br>
-        - <b>Given</b> que existe un contrato activo entre el comprador y el productor.<br>
-        - <b>When</b> el comprador envía un mensaje,<br>
-        - <b>Then</b> el sistema registra el mensaje y notifica al productor.<br><br>
-        <b>Escenario 2: Ausencia de vínculo comercial</b><br>
-        - <b>Given</b> que no existe una negociación ni un contrato activo entre las partes.<br>
-        - <b>When</b> el comprador intenta enviar un mensaje.<br>
-        - <b>Then</b> el sistema rechaza el envío.
-      </td>
-    </tr>
-  </tbody>
-    <tbody>
-    <tr align="center">
-      <td>US018</td>
-      <td>Comprador</td>
-      <td>Media</td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Evaluación y reseña de calidad del productor agrícola</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> evaluar el cumplimiento y la calidad del producto entregado por el productor,<br>
-        <b>para</b> contribuir a su reputación y facilitar futuras decisiones de compra.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1:Evaluación de contrato finalizado</b><br>
-        - <b>Given</b> que un contrato ha finalizado con la liquidación total de los fondos.<br>
-        - <b>When</b> el comprador registra una calificación y un comentario.<br>
-        - <b>Then</b> el sistema registra la evaluación y actualiza la reputación del productor.<br><br>
-        <b>Escenario 2: Evaluación duplicada</b><br>
-        - <b>Given</b> que el comprador ya registró una evaluación para un contrato.<br>
-        - <b>When</b> intenta registrar una segunda evaluación para la misma operación.<br>
-        - <b>Then</b> el sistema rechaza el nuevo registro y conserva la evaluación existente.
-      </td>
-    </tr>
-  </tbody>
-    <tbody>
-    <tr align="center">
-      <td>US019</td>
-      <td>Productor Agrícola</td>
+      <td>TS06</td>
+      <td>Developer</td>
       <td>Baja</td>
-      <td>EP05</td>
+      <td>EPIC-04</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Reporte de incidencias y soporte técnico</td>
+      <td colspan="3">Generador de comprobantes PDF</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> productor agrícola,<br>
-        <b>quiero</b> reportar incidencias técnicas y solicitar soporte sobre el uso de la plataforma,<br>
-        <b>para</b> recibir asistencia ante problemas relacionados con las operaciones realizadas.
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> construir un servicio que exporte comprobantes transaccionales,<br>
+        <b>para</b> documentar y certificar cada liberación de pago al agricultor.
       </td>
     </tr>
     <tr>
@@ -1982,147 +1987,49 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1:Registro de incidencia</b><br>
-        - <b>Given</b> que el productor identifica una incidencia relacionada con la plataforma.<br>
-        - <b>When</b> registra la descripción del problema y la evidencia disponible.<br>
-        - <b>Then</b> el sistema crea un ticket de soporte y asigna un identificador de seguimiento.<br><br>
-        <b>Escenario 2: Incidencia sin conectividad</b><br>
-        - <b>Given</b> que el productor registra una incidencia mientras no existe conectividad.<br>
-        - <b>When</b> se recupera la conexión.<br>
-        - <b>Then</b> el sistema envía automáticamente la incidencia pendiente al servicio de soporte.
+        <b>Escenario 1: Generación exitosa de documento fiscal</b><br>
+        - <b>Given</b> que se completa de forma satisfactoria la transferencia desde el Escrow.<br>
+        - <b>When</b> el módulo de finanzas dispara el evento correspondiente.<br>
+        - <b>Then</b> el servicio compila un archivo PDF detallando emisor, receptor y monto de la operación.<br><br>
+        <b>Escenario 2: Ausencia de metadatos fiscales</b><br>
+        - <b>Given</b> que la transacción adolece de datos clave como el número de documento del usuario.<br>
+        - <b>When</b> el servicio se acciona para compilar el comprobante.<br>
+        - <b>Then</b> registra una excepción crítica en el log y el PDF no se genera.
       </td>
     </tr>
   </tbody>
-    <tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
     <tr align="center">
-      <td>US020</td>
-      <td>Comprador</td>
-      <td>Alta</td>
-      <td>EP01</td>
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
     </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Suscripción a alertas de disponibilidad de cosechas futuras</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> suscribirme a alertas según cultivos, zonas y volúmenes de interés,<br>
-        <b>para</b> recibir información sobre nuevas parcelas que coincidan con mis necesidades de abastecimiento.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1:Coincidencia con una nueva parcela</b><br>
-        - <b>Given</b> que el comprador tiene una suscripción activa con criterios definidos.<br>
-        - <b>When</b> un productor publica una parcela que coincide con dichos criterios.<br>
-        - <b>Then</b> el sistema genera una notificación para el comprador.<br><br>
-        <b>Escenario 2: Actualización no relevante</b><br>
-        - <b>Given</b> que un productor modifica únicamente información descriptiva de una parcela existente.<br>
-        - <b>When</b> se registra la modificación.<br>
-        - <b>Then</b> el sistema no genera una alerta de nueva disponibilidad.
-      </td>
-    </tr>
-  </tbody>
-    <tbody>
+  </thead>
+  <tbody>
     <tr align="center">
-      <td>US021</td>
-      <td>Productor Agrícola</td>
-      <td>Alta</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Envío de contraofertas durante la negociación</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> productor agrícola,<br>
-        <b>quiero</b> enviar una contrapropuesta modificando las condiciones económicas o de entrega,<br>
-        <b>para</b> negociar los términos comerciales sin rechazar definitivamente la propuesta.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1:Contraoferta válida</b><br>
-        - <b>Given</b> que existe una propuesta de compra pendiente.<br>
-        - <b>When</b> el productor modifica el precio, volumen o fecha de entrega dentro de los límites permitidos.<br>
-        - <b>Then</b> el sistema registra la contraoferta y establece un plazo de respuesta de 48 horas.<br><br>
-        <b>Escenario 2: Falta de respuesta</b><br>
-        - <b>Given</b> que el comprador no responde dentro del plazo establecido.<br>
-        - <b>When</b> finaliza el periodo de 48 horas.<br>
-        - <b>Then</b> el sistema cambia el estado de la negociación a "Vencido" y libera la capacidad comprometida.
-      </td>
-    </tr>
-  </tbody>
-    <tbody>
-    <tr align="center">
-      <td>US022</td>
-      <td>Comprador</td>
-      <td>Alta</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <th align="center">Title</th>
-      <td colspan="3">Adendas y modificación de hitos de pago en custodia</td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Description</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Como</b> comprador,<br>
-        <b>quiero</b> proponer modificaciones a los montos de los hitos de un contrato activo,<br>
-        <b>para</b> adaptar el esquema de desembolsos ante variaciones justificadas del volumen de cosecha.
-      </td>
-    </tr>
-    <tr>
-      <th colspan="4" align="center">Acceptance Criteria</th>
-    </tr>
-    <tr>
-      <td colspan="4">
-        <b>Escenario 1:Aprobación de la adenda</b><br>
-        - <b>Given</b> que existe un contrato activo y una propuesta de modificación de los hitos.<br>
-        - <b>When</b> el productor acepta la modificación mediante el mecanismo de confirmación establecido.<br>
-        - <b>Then</b> el sistema actualiza los montos de los hitos y el cronograma de pagos.<br><br>
-        <b>Escenario 2:  Rechazo de la adenda</b><br>
-        - <b>Given</b> que el productor rechaza la modificación propuesta.<br>
-        - <b>When</b> finaliza el periodo de revisión.<br>
-        - <b>Then</b> el sistema mantiene vigentes los términos y el cronograma originales.
-      </td>
-    </tr>
-  </tbody>
-    <tbody>
-    <tr align="center">
-      <td>US023</td>
-      <td>Productor Agrícola</td>
+      <td>TS07</td>
+      <td>Developer</td>
       <td>Media</td>
-      <td>EP04</td>
+      <td>EPIC-05</td>
     </tr>
     <tr>
       <th align="center">Title</th>
-      <td colspan="3">Registro de insumos agrícolas y trazabilidad técnica</td>
+      <td colspan="3">Webhook de riesgos climáticos</td>
     </tr>
     <tr>
       <th colspan="4" align="center">Description</th>
     </tr>
     <tr>
       <td colspan="4">
-        <b>Como</b> productor agrícola,<br>
-        <b>quiero</b> registrar los insumos utilizados durante cada hito del cultivo,<br>
-        <b>para</b> mantener la trazabilidad técnica y demostrar el cumplimiento de los requisitos fitosanitarios.
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> exponer un endpoint que reciba datos de sistemas meteorológicos externos,<br>
+        <b>para</b> registrar anomalías climáticas que pongan en peligro la siembra.
       </td>
     </tr>
     <tr>
@@ -2130,14 +2037,114 @@ Este vocabulario permite que los integrantes de AllpaTech y los stakeholders uti
     </tr>
     <tr>
       <td colspan="4">
-        <b>Escenario 1:Registro de insumo autorizado</b><br>
-        - <b>Given</b> que el productor utiliza un insumo permitido.<br>
-        - <b>When</b> registra el producto, fecha de aplicación y evidencia correspondiente.<br>
-        - <b>Then</b> el sistema almacena el registro y lo asocia al hito correspondiente.<br><br>
-        <b>Escenario 2:  Insumo no autorizado</b><br>
-        - <b>Given</b> que el insumo registrado no pertenece a la lista de productos autorizados.<br>
-        - <b>When</b> el productor intenta registrar su aplicación.<br>
-        - <b>Then</b> el sistema marca el registro como pendiente de validación y solicita la documentación técnica requerida.
+        <b>Escenario 1: Ingestión correcta de alerta meteorológica</b><br>
+        - <b>Given</b> que la agencia meteorológica externa emite un payload de riesgo válido.<br>
+        - <b>When</b> el webhook local intercepta y decodifica la solicitud POST.<br>
+        - <b>Then</b> el sistema registra la anomalía en base de datos y responde HTTP 201.<br><br>
+        <b>Escenario 2: Payload incompleto o malformado</b><br>
+        - <b>Given</b> que el servicio ajeno emite un payload JSON sin el campo obligatorio de coordenadas.<br>
+        - <b>When</b> el webhook evalúa las propiedades de la solicitud.<br>
+        - <b>Then</b> rechaza el registro devolviendo un error HTTP 400.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>TS08</td>
+      <td>Developer</td>
+      <td>Media</td>
+      <td>EPIC-05</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Motor de alertas meteorológicas</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> implementar un algoritmo asíncrono que cruce ubicaciones meteorológicas con las parcelas,<br>
+        <b>para</b> notificar oportunamente el riesgo climático a los agricultores implicados.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Parcelas vulnerables localizadas</b><br>
+        - <b>Given</b> que se documenta una advertencia climática con coordenadas definidas.<br>
+        - <b>When</b> el servicio detecta parcelas geolocalizadas dentro del margen de alcance del riesgo.<br>
+        - <b>Then</b> el sistema consolida el evento "Alerta climática emitida" de cara a los usuarios afectados.<br><br>
+        <b>Escenario 2: Evento fuera del radio agrícola</b><br>
+        - <b>Given</b> que el riesgo climático ocurre en una región desprovista de cultivos registrados en el sistema.<br>
+        - <b>When</b> el cruce espacial evalúa las intersecciones del mapa.<br>
+        - <b>Then</b> se detiene la secuencia del job sin generar ni enviar notificaciones de alerta.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>SP01</td>
+      <td>Developer</td>
+      <td>Media</td>
+      <td>EPIC-03</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Evaluación de almacenamiento y sincronización offline de fotografías</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Developer,<br>
+        <b>quiero</b> investigar y prototipar mecanismos de almacenamiento local y sincronización de fotografías sin conexión,<br>
+        <b>para</b> garantizar la persistencia de evidencias en campo cuando la conectividad móvil sea intermitente o inexistente.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Persistencia local sin red</b><br>
+        - <b>Given</b> que el dispositivo móvil no cuenta con conexión de red activa.<br>
+        - <b>When</b> se registra la captura fotográfica de una labor agrícola.<br>
+        - <b>Then</b> los archivos y metadatos se retienen en el almacenamiento local sin pérdida de información.<br><br>
+        <b>Escenario 2: Sincronización exitosa al restablecer conexión</b><br>
+        - <b>Given</b> que existen evidencias almacenadas localmente pendientes de subida.<br>
+        - <b>When</b> se detecta la reanudación del enlace a Internet.<br>
+        - <b>Then</b> el servicio sincroniza automáticamente los archivos con el servidor backend y confirma la entrega.
       </td>
     </tr>
   </tbody>
@@ -2194,7 +2201,7 @@ El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
 
-Esta dinámica permitió mapear los eventos clave del dominio, los comandos accionados por los actores (Productor Agrícola y Comerciante, los puntos de dolor operacionales y las integraciones con sistemas externos como la Bóveda Escrow, el motor n8n y la API de OpenWeather.
+En esta sección se documenta el EventStorming realizado por el equipo de TerraNova para modelar el dominio de la plataforma ALLPATEK. Esta dinámica permitió mapear los eventos clave del dominio, los comandos accionados por los actores (Productor Agrícola y Comerciante, los puntos de dolor operacionales y las integraciones con sistemas externos como la Bóveda Escrow, el motor n8n y la API de OpenWeather.
 
 A continuación se presenta la evidencia gráfica dividida en la vista general del tablero y las secciones detalladas del flujo de negocio:
 
@@ -2219,31 +2226,199 @@ A continuación se presenta la evidencia gráfica dividida en la vista general d
 
 #### 2.5.1.1. Candidate Context Discovery
 
-| Bounded Context | Descripción | Eventos clave |
-| :--- | :--- | :--- |
-| **IAM & Profiles** | Maneja la autenticación, verificación de identidad de los agricultores, y validación fiscal de los perfiles corporativos de comerciantes. | `ProductorRegistrado`, `IdentidadVerificada`, `CompradorAutenticado` |
-| **Agreements Management** | Administra la publicación de parcelas, cotizaciones, contraofertas y formalización de los contratos agrícolas. | `ParcelaPublicada`, `CotizacionEnviada`, `ContratoFirmado` |
-| **Tracking & Evidence** | Gestiona el registro de actividades de campo, carga y sincronización offline de fotografías, y el seguimiento de hitos agrícolas. | `EvidenciaRegistrada`, `EvidenciaSincronizada`, `HitoObservado` |
-| **Escrow & Payments** | Controla la custodia (Escrow) de los fondos depositados por el comerciante y su posterior liberación parcial al aprobar hitos. | `FondosDepositados`, `HitoAprobado`, `FondosLiberados` |
-| **Alerts Management** | Evalúa umbrales de riesgo para enviar notificaciones de anomalías climáticas y de disponibilidad de cosechas futuras. | `AlertaClimaticaGenerada`, `AlertaDisponibilidadEnviada` |
+
+A partir del modelo general de dominio obtenido en la sesión de EventStorming, el equipo realizó la actividad de **Candidate Context Discovery** con una duración aproximada de 2 horas. Para delimitar los *Bounded Contexts* del sistema, se aplicaron de manera combinada las técnicas de **Look-for-Pivotal-Events** (identificación de eventos clave que marcan transiciones de estado) y **Start-with-Value** (agrupación de conceptos centrada en las capacidades *core* del negocio).
+
+A continuación, se detalla la evolución progresiva del dominio a través de las evidencias del tablero:
+
+#### Paso 1: Mapeo y Descomposición del Timeline de Procesos
+
+En la primera etapa se organizó la línea de tiempo del proceso de negocio, dividiendo las acciones, comandos, agregados y sistemas externos en 7 bloques secuenciales:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/discovery-01.png" width="800" />
+</p>
+
+1. **Financiación de parcelas:** Negociación y acuerdo inicial entre el agricultor y el comerciante.
+2. **Custodia de capital en depósito en garantía:** Proceso de retención de fondos en la pasarela Escrow.
+3. **Liberación de pago en depósito en garantía:** Reglas financieras para la transferencia parcial de capital.
+4. **Ejecución de labores agrícolas:** Seguimiento de las actividades operativas en el campo.
+5. **Presentación de pruebas:** Captura, almacenamiento y adjunto de evidencias fotográficas.
+6. **Revisión y corrección de hitos:** Evaluación de la calidad del trabajo y gestión de correcciones por parte del comerciante.
+7. **Monitoreo de riesgos climáticos:** Captura de datos meteorológicos y evaluación de alertas de riesgo.
+
+---
+
+#### Paso 2: Delimitación Preliminar e Identificación de Eventos Pivote
+
+En esta fase se trazaron los primeros límites candidateando agrupaciones de subprocesos donde se detectaron eventos pivote (cambios significativos de estado o de responsabilidad operativa).
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/discovery-02.png" width="800" />
+</p>
+
+Se identificó de manera temprana la frontera que separa la administración y validación previa del terreno (**Registro y Aprobación de la Parcela**) de los flujos transaccionales y de ejecución que suceden con posterioridad.
+
+---
+
+#### Paso 3: Consolidación e Interconexión de Bounded Contexts
+
+En la etapa final, el equipo refinó las agrupaciones hasta definir los **5 Bounded Contexts principales** de la plataforma, modelando los flujos de comunicación e intercambio de eventos de dominio entre ellos:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/discovery-03.png" width="800" />
+</p>
+
+1. **Gestión y Aprobación de Parcelas (*Parcel Management Service*):** Bounded Context enfocado en el catálogo de terrenos, geolocalización por coordenadas GPS, tipo de suelo y estado de disponibilidad de la parcela.
+2. **Financiamiento y Contratación (*Agreements / Contract Service*):** Bounded Context responsable de gestionar las ofertas de abastecimiento, la negociación de volúmenes y la formalización de contratos agrícolas digitales.
+3. **Custodia de Fondos en Escrow (*Escrow & Payments Service*):** Bounded Context encargado de la integración con pasarelas financieras para la retención en garantía de capital y las órdenes de desembolso parcial por hito.
+4. **Ejecución Agrícola y Evidencias (*Tracking & Evidence Service*):** Bounded Context dedicado a la captura/sincronización offline de fotos georreferenciadas, revisión de entregables y aprobación o rechazo de hitos agrícolas.
+5. **Monitoreo Climático y Riesgos (*Alerts Management Service*):** Bounded Context encargado de la ingesta de datos desde APIs externas (OpenWeather) para la emisión y distribución de alertas climáticas preventivas.
+
+   
 #### 2.5.1.2. Domain Message Flows Modeling
+
+
+
+
+Para representar cómo interactúan los *Bounded Contexts* con los actores del sistema frente a escenarios reales de negocio, el equipo aplicó **Domain Storytelling**. Esta metodología conecta visualmente a los **Actores** (Agricultor, Comerciante, OpenWeather API), **Comandos** (cajas azules), **Datos de Trabajo** (notas amarillas), **Bounded Contexts** (nubes) y **Estados Resultantes** (cajas naranjas).
+
+A continuación, se documenta la colaboración distribuida en tres vistas clave del proceso:
+
+#### Vista 1: Registro, Catálogo y Contratación
+
+Modela el proceso desde el alta del terreno hasta la solicitud del contrato comercial:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/flows-01.png" width="800" />
+</p>
+
+1. **Registrar Parcela:** El agricultor ingresa datos del terreno (área, ubicación GPS, fotos) desde la App Móvil.
+2. **Validar Parcela:** La App envía la información al Bounded Context de *Gestión de Parcelas*.
+3. **Parcela Publicada:** Tras validarse, se activa el estado para mostrar el lote en el catálogo público.
+4. **Consultar Catálogo:** El comerciante busca parcelas aplicando filtros de búsqueda en la app.
+5. **Solicitar Financiamiento:** El comerciante elige una parcela e inicia una propuesta de abastecimiento.
+6. **Solicitar Contrato:** La App remite la oferta formal al contexto de *Financiamiento y Contratación*.
+7. **Parcela Reservada:** Se bloquea la oferta en el catálogo y se notifica a *Custodia Escrow* para habilitar el depósito.
+
+---
+
+#### Vista 2: Custodia Escrow y Trabajo de Campo
+
+Modela la retención del capital en garantía y el registro de evidencias en el campo:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/flows-02.png" width="800" />
+</p>
+
+1. **Depositar Capital:** El comerciante transfiere los fondos requeridos hacia el Bounded Context de *Custodia Escrow*.
+2. **Contrato Activado:** Confirmado el depósito, se emite el estado de activación del acuerdo agrícola.
+3. **Capturar Evidencias:** El agricultor toma fotos con metadatos GPS/fecha (soporta modo offline en la app).
+4. **Enviar Evidencias:** La App Móvil sincroniza los datos al Bounded Context de *Ejecución y Evidencias*.
+5. **Evidencias Presentadas:** Se notifica al comerciante la existencia de entregables pendientes de auditoría.
+
+---
+
+#### Vista 3: Auditoría, Desembolso y Clima
+
+Modela la aprobación de entregables, la liberación de pagos y la notificación preventiva de alertas meteorológicas:
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/flows-03.png" width="800" />
+</p>
+
+1. **Aprobar Hito:** El comerciante evalúa las pruebas recibidas desde la App Móvil y emite su conformidad.
+2. **Procesar Aprobación:** La App comunica la decisión al Bounded Context de *Ejecución y Evidencias*.
+3. **Hito Aprobado:** El sistema consolida la validación técnica de la etapa de cultivo.
+4. **Liberar Pago:** Se dispara la orden hacia *Custodia Escrow* para transferir el porcentaje parcial correspondiente al agricultor.
+5. **Anomalía Detectada:** *OpenWeather API* transmite métricas climáticas críticas al Bounded Context de *Monitoreo Climático*.
+6. **Notificar Alerta:** El contexto calcula las parcelas afectadas dentro del radio de riesgo y envía el aviso a la app.
+7. **Mostrar Alerta:** La App Móvil despliega alertas preventivas con recomendaciones operativas en tiempo real.
+
+
 #### 2.5.1.3. Bounded Context Canvases
 
-En primer lugar, el canvas del Contract & Escrow Service (Core Domain) detalla las reglas de negocio, los eventos de entrada y salida, y la terminología del lenguaje ubicuo necesarios para asegurar la custodia financiera y la liberación de pagos por hitos.
 
-<p align="center">
-  <img src="assets/images/chapter02/bounded_context_canvas_01.png" width="800" />
-</p>
 
-  En segundo lugar, el canvas del Parcel Management Service (Supporting Domain) especifica la gestión del catálogo de terrenos, las capacidades de delimitación por coordenadas GPS y los criterios de disponibilidad de las hectáreas agrícolas.
+En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando sus criterios de diseño clave. A continuación, se presentan los Bounded Context Canvases elaborados para la solución, ordenados por su importancia estratégica dentro del sistema:
+
+#### 1. Custodia de Fondos en Escrow (*Core Domain*)
 
 
 <p align="center">
-  <img src="assets/images/chapter02/bounded_context_canvas_02.png" width="800"/>  
+  <img src="assets/images/chapter02/event-storming/bounded-03.png" width="700" />
 </p>
+
+
+* **Descripción:** Administrar la retención de capital en garantía y la ejecución de desembolsos parciales irreversibles tras la aprobación de cada hito.
+* **Clasificación Estratégica:** Domain: *Core* | Business Model: *Revenue / Cost Reduction* | Evolution: *Product*.
+* **Entradas y Salidas:** Recibe peticiones de depósito y liberación de fondos; emite notificaciones de fondos retenidos, contrato activado y pagos liberados hacia la App Móvil y el Agricultor.
+
+---
+
+#### 2. Ejecución Agrícola y Evidencias (*Core Domain*)
+
+
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-04.png" width="700" />
+</p>
+
+
+* **Descripción:** Gestionar el calendario de actividades en campo, la captura offline de evidencias fotográficas georreferenciadas y la revisión/aprobación de hitos.
+* **Clasificación Estratégica:** Domain: *Core* | Business Model: *Engagement* | Evolution: *Custom Built*.
+* **Entradas y Salidas:** Recibe datos de capturas de pruebas en campo y solicitudes de revisión de hitos; emite estados de evidencia registrada, hito aprobado y correcciones solicitadas.
+
+---
+
+#### 3. Financiamiento y Contratación (*Supporting Domain*)
+
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-02.png" width="700" />
+</p>
+
+* **Descripción:** Permitir explorar el catálogo de parcelas aprobadas, simular rendimientos, negociar condiciones comerciales y formalizar contratos digitales.
+* **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
+* **Entradas y Salidas:** Recibe solicitudes de financiamiento y emisión de contratos desde la App Móvil; emite avisos de parcela reservada y propuesta aceptada hacia la custodia Escrow.
+
+---
+
+#### 4. Gestión y Aprobación de Parcelas (*Supporting Domain*)
+
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-01.png" width="700" />
+</p>
+
+* **Descripción:** Registrar parcelas agrícolas mediante georreferenciación GPS, validar la documentación de propiedad y publicar terrenos aptos en el catálogo público.
+* **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
+* **Entradas y Salidas:** Recibe solicitudes de registro, delimitación geográfica y validación de terrenos; emite notificaciones de parcela aprobada y publicada.
+
+---
+
+#### 5. Monitoreo Climático y Riesgos (*Generic Domain*)
+
+<p align="center">
+  <img src="assets/images/chapter02/event-storming/bounded-05.png" width="700" />
+</p>
+
+* **Descripción:** Recopilar datos meteorológicos externos en tiempo real, evaluar patrones de riesgo climático y emitir alertas preventivas automáticas hacia los usuarios.
+* **Clasificación Estratégica:** Domain: *Generic* | Business Model: *Cost Reduction* | Evolution: *Commodity*.
+* **Entradas y Salidas:** Ingiere datos climáticos de la API externa (OpenWeather) y consultas de pronóstico; emite alertas automáticas de riesgo detectado hacia la App Móvil y los usuarios.
+
 
 
 ### 2.5.2. Context Mapping
+
+
+A continuación, se presenta el diagrama de Context Mapping (Mapa de Contexto) del proyecto Muyu. Este diagrama ilustra de manera clara la estructura estratégica de la solución, definiendo los límites explícitos entre los distintos Bounded Contexts (Contextos Delimitados) identificados en el sistema y estableciendo las relaciones de integración, flujo de datos y patrones de comunicación (como Customer-Supplier, Shared Kernel, o Upstream/Downstream) que gobiernan la interacción entre cada uno de los microservicios y módulos de la plataforma.
+
+<p align="center">
+  <img src="assets/images/chapter02/context.png" width="400"/>
+</p>
+
+
 ### 2.5.3. Software Architecture
 
 Para entender cómo se relaciona la aplicación móvil MUYU con su entorno, el diagrama de contexto (Nivel 1 C4) ubica la app en el centro del flujo operacional. A su alrededor se muestran los usuarios principales el Productor Agrícola en campo y el Comercializador junto con los servicios externos que respaldan la operación: el pronóstico del clima en tiempo real, la automatización de notificaciones y la pasarela de custodia financiera.
@@ -2268,16 +2443,297 @@ Este diagrama de despliegue representa la infraestructura física y en la nube d
 
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.x. Bounded Context: <Bounded Context Name>
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+### 2.6.1. Bounded Context: Gestión y Aprobación de Parcelas Service
+Representa la capacidad del sistema encargada de registrar, validar espacialmente y catalogar las parcelas agrícolas. Su propósito es asegurar que los terrenos cuenten con georreferenciación GPS válida antes de ser publicados en el catálogo público para su financiamiento. La entidad principal es `Parcel`, la cual concentra las reglas de negocio del terreno y sus límites geográficos.
+#### 2.6.1.1. Domain Layer
 
+La capa de dominio contiene el núcleo de las reglas espaciales y de disponibilidad de terrenos.
+
+* **Aggregate Root:** `Parcel` (Atributos: id, farmerId, name, area, soilType, status, createdAt).
+* **Entities:** `GPSBoundary` (Polígono delimitador del terreno).
+* **Value Objects:** `Hectare` (Extensión numérica), `GPSCoordinate` (Latitud y longitud), `ParcelStatus` (Enum: DRAFT, PENDING_APPROVAL, AVAILABLE, RESERVED), `SoilType` (Enum: CLAY, SANDY, LOAMY, SILTY).
+* **Commands:** `RegisterParcelCommand`, `ApproveParcelCommand`, `PublishParcelCommand`.
+* **Queries:** `GetAvailableParcelsQuery`, `GetParcelByIdQuery`.
+* **Domain Events:** `ParcelRegisteredEvent`, `ParcelApprovedEvent`, `ParcelPublishedEvent`.
+* **Reglas de negocio:** Una parcela no puede ser publicada si no cuenta con al menos 3 coordenadas GPS que formen un polígono cerrado. No puede cambiar a estado disponible si sus coordenadas se superponen con otra parcela existente.
+
+#### 2.6.1.2. Interface Layer
+
+Contiene los controladores que exponen los servicios de catálogo y registro al frontend móvil de Muyu.
+
+* **REST Controllers:** `ParcelsController`, `CatalogController`.
+* **Endpoints:** `POST /api/v1/parcels`, `PUT /api/v1/parcels/{id}/approve`, `GET /api/v1/catalog/parcels`.
+* **DTOs:** `RegisterParcelResource`, `ParcelSummaryResource`, `BoundaryPointResource`.
+* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `RegisterParcelCommandFromResourceAssembler`).
+
+#### 2.6.1.3. Application Layer
+
+Coordina los flujos de alta de terrenos y consultas de catálogo.
+
+* **Command Services:** `ParcelCommandServiceImpl` (Valida geometría, estructura los límites y guarda la parcela).
+* **Query Services:** `CatalogQueryServiceImpl`.
+* **Flujo principal:** El agricultor envía los datos desde la app móvil; el `ParcelCommandService` valida el polígono con el servicio GPS externo. Si es correcto, guarda la entidad `Parcel`, cambia el estado a "PENDING_APPROVAL" y dispara un evento para su revisión final.
+
+#### 2.6.1.4. Infrastructure Layer
+
+Gestiona la persistencia espacial y la integración con validadores de mapas.
+
+* **Repositories:** `ParcelRepository` (extiende JpaRepository o similar con soporte espacial), `GPSBoundaryRepository`.
+* **Adapters:** `GeospatialValidationAdapter` (comunicación REST con servicios de mapas satelitales).
+* **Persistencia:** Tablas `parcels` y `parcel_boundaries` con llaves foráneas y restricciones de integridad.
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Gestión y Aprobación de Parcelas**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_parcel.png" alt="Contract Parcel Component Diagram" width="800" />
+</div>
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Parcel`) y cómo interactúa con los servicios de comando y consulta (CQRS).
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_parcel.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+Este diagrama relacional conectando `parcels` y `parcel_boundaries`, donde cada límite geográfico pertenece a una parcela, garantizando la trazabilidad espacial del terreno.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_parcel.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
+
+### 2.6.2. Bounded Context: Financiamiento y Contratación Service
+Representa la capacidad del sistema encargada de gestionar la exploración del catálogo de parcelas, la generación de propuestas de financiamiento, la negociación de condiciones y la formalización de contratos digitales de abastecimiento. La entidad principal es `Agreement`, la cual concentra las reglas de negocio del acuerdo entre el agricultor y el comerciante.
+
+#### 2.6.2.1. Domain Layer
+
+La capa de dominio contiene las reglas de estructuración de los acuerdos y la validación de los planes de desembolso.
+
+* **Aggregate Root:** `Agreement` (Atributos: id, parcelId, merchantId, totalAmount, status, signatureDate).
+* **Entities:** `DisbursementPlan` (Etapas o hitos del plan de pagos).
+* **Value Objects:** `Money` (Monto y moneda), `AgreementStatus` (Enum: DRAFT, PENDING_SIGNATURE, SIGNED, ACTIVE, CANCELLED).
+* **Commands:** `CreateAgreementCommand`, `SignAgreementCommand`, `CancelAgreementCommand`.
+* **Queries:** `GetAgreementDetailsQuery`, `GetMerchantAgreementsQuery`.
+* **Domain Events:** `AgreementSignedEvent`, `AgreementActivatedEvent`.
+* **Reglas de negocio:** El plan de desembolsos (`DisbursementPlan`) asociado al contrato debe sumar exactamente el 100% del `totalAmount` para que el acuerdo sea válido. La firma del contrato requiere un token de validación de identidad.
+
+#### 2.6.2.2. Interface Layer
+Contiene los controladores que exponen los servicios de negociación y contratos al frontend móvil.
+
+* **REST Controllers:** `AgreementsController`.
+* **Endpoints:** `POST /api/v1/agreements`, `PUT /api/v1/agreements/{id}/sign`, `GET /api/v1/merchants/{id}/agreements`.
+* **DTOs:** `CreateAgreementResource`, `SignatureResource`, `AgreementSummaryResource`.
+* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `CreateAgreementCommandFromResourceAssembler`).
+
+#### 2.6.2.3. Application Layer
+Coordina los flujos de creación, negociación y firma digital de los acuerdos comerciales.
+
+* **Command Services:** `AgreementCommandServiceImpl` (Estructura los hitos del acuerdo, valida los porcentajes de desembolso y gestiona el estado de firma).
+* **Query Services:** `AgreementQueryServiceImpl`.
+* **Flujo principal:** El comerciante selecciona una parcela y genera un acuerdo. Una vez que ambas partes lo firman digitalmente, el servicio cambia el estado a "SIGNED" y emite un `AgreementSignedEvent` para que el servicio de Escrow inicie la creación de la bóveda de retención.
+
+#### 2.6.2.4. Infrastructure Layer
+Gestiona la persistencia de los contratos y la publicación de eventos al bus de mensajes.
+
+* **Repositories:** `AgreementRepository` (extiende JpaRepository), `DisbursementPlanRepository`.
+* **Adapters:** `SignatureValidationAdapter` (Validación de tokens), `EventBusPublisherAdapter` (gRPC / RabbitMQ para notificar a otros Bounded Contexts).
+* **Persistencia:** Tablas `agreements` y `disbursement_plans` con llaves foráneas y restricciones de integridad.
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Financiamiento y Contratación**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_financiamiento.png" alt="Contract Parcel Component Diagram" width="800" />
+</div>
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Agreement`) y cómo interactúa con los servicios de comando y consulta (CQRS).
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_financiamiento.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+Este diagrama relacional conectando `agreements` y `disbursement_plans`, donde cada plan de pago por hito pertenece a un contrato comercial establecido.
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_financiamiento.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
+
+
+### 2.6.3. Bounded Context: Custodia de Fondos en Escrow Service
+Representa la capacidad del sistema encargada de administrar la retención de capital en bóvedas seguras de garantía y ejecutar desembolsos parciales irreversibles hacia el productor, únicamente tras la aprobación técnica de cada hito. Su propósito es garantizar la seguridad financiera del acuerdo. La entidad principal es `EscrowAccount`, la cual concentra el saldo retenido y el estado de la bóveda.
+
+#### 2.6.3.1. Domain Layer
+La capa de dominio contiene las reglas comerciales de retención y la lógica inmutable de la custodia de fondos.
+
+* **Aggregate Root:** `EscrowAccount` (Atributos: id, agreementId, retainedBalance, totalFunded, status, createdAt).
+* **Entities:** `PayoutRecord` (Registro de salida financiera o desembolso).
+* **Value Objects:** `Money` (Monto y moneda), `EscrowStatus` (Enum: AWAITING_FUNDS, FUNDED, PARTIALLY_DISBURSED, FULLY_DISBURSED, DISPUTED).
+* **Commands:** `FundEscrowCommand`, `ReleaseFundsCommand`.
+* **Queries:** `GetEscrowBalanceQuery`.
+* **Domain Events:** `EscrowFundedEvent`, `FundsReleasedEvent`.
+* **Reglas de negocio:** Los fondos permanecen congelados e inmutables hasta recibir la señal explícita de aprobación de hito. El saldo retenido nunca puede ser negativo. El monto a liberar no puede exceder el balance actual de la bóveda.
+
+#### 2.6.3.2. Interface Layer
+Contiene los controladores que exponen los servicios de pagos y custodia al frontend móvil de Muyu.
+
+* **REST Controllers:** `EscrowController`, `PayoutsController`.
+* **Endpoints:** `POST /api/v1/escrow/fund`, `POST /api/v1/escrow/{id}/release`, `GET /api/v1/escrow/{id}/balance`.
+* **DTOs:** `FundingRequestResource`, `PayoutSummaryResource`, `EscrowBalanceResource`.
+* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `FundEscrowCommandFromResourceAssembler`).
+
+#### 2.6.3.3. Application Layer
+Coordina los flujos de ingreso de capital y las órdenes de desembolso progresivo.
+
+* **Command Services:** `EscrowCommandServiceImpl` (Interactúa con la pasarela para inmovilizar o transferir fondos y actualiza la bóveda).
+* **Query Services:** `EscrowQueryServiceImpl`.
+* **Flujo principal:** Al recibir confirmación del depósito inicial desde la pasarela externa, se actualiza el estado a "FUNDED". Posteriormente, al recibir el evento de un hito aprobado desde el bus de mensajes, el servicio invoca a la pasarela bancaria para realizar la transferencia al agricultor y registra un `PayoutRecord`.
+
+#### 2.6.3.4. Infrastructure Layer
+Gestiona la persistencia de los registros financieros y la integración con entidades bancarias externas.
+
+* **Repositories:** `EscrowAccountRepository` (extiende JpaRepository o similar), `PayoutRecordRepository`.
+* **Adapters:** `EscrowPaymentGatewayAdapter` (comunicación REST con la pasarela de pagos), `EventBusSubscriberAdapter` (escucha eventos de otros contextos).
+* **Persistencia:** Tablas `escrow_accounts` y `payout_records` con llaves foráneas y restricciones de integridad.
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Custodia de Fondos en Escrow**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_escrow.png" alt="Contract Parcel Component Diagram" width="800" />
+</div>
+
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`EscrowAccount`) y cómo interactúa con los servicios de comando y consulta (CQRS).
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_escrow.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+Este diagrama relacional conectando `escrow_accounts` y `payout_records`, donde cada registro de desembolso pertenece a una bóveda de retención, garantizando la trazabilidad de la custodia.
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_escrow.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
+
+
+### 2.6.4. Bounded Context: Ejecución Agrícola y Evidencias Service
+Representa la capacidad del sistema encargada de gestionar el calendario de actividades en campo, la captura offline de fotografías georreferenciadas por parte del productor y la auditoría técnica de los hitos por parte del comerciante[cite: 26]. Su propósito es garantizar la trazabilidad visual y espacial del avance del cultivo. La entidad principal es `Milestone` (Hito), la cual concentra el progreso de cada etapa productiva.
+
+#### 2.6.4.1. Domain Layer
+La capa de dominio contiene el núcleo de las reglas de validación de evidencias y el control de estados del cultivo.
+
+* **Aggregate Root:** `Milestone` (Atributos: id, agreementId, stageName, status, deadline, createdAt).
+* **Entities:** `Evidence` (Fotografía de campo validada).
+* **Value Objects:** `GPSMetadata` (Latitud y longitud de la captura), `Timestamp`, `MilestoneStatus` (Enum: PENDING, IN_REVIEW, APPROVED, REJECTED, CORRECTION_REQUESTED).
+* **Commands:** `SubmitEvidenceCommand`, `ApproveMilestoneCommand`, `RejectMilestoneCommand`.
+* **Queries:** `GetPendingMilestonesQuery`, `GetMilestoneEvidenceQuery`.
+* **Domain Events:** `EvidenceSubmittedEvent`, `MilestoneApprovedEvent`, `MilestoneRejectedEvent`.
+* **Reglas de negocio:** Toda evidencia fotográfica debe poseer metadatos GPS que coincidan, dentro de un margen de tolerancia espacial, con el perímetro de la parcela financiada. Un hito en estado "APPROVED" se vuelve inmutable y no acepta nuevas sumisiones de evidencia.
+
+#### 2.6.4.2. Interface Layer
+Contiene los controladores que exponen los servicios de carga de pruebas y auditoría al frontend móvil.
+
+* **REST Controllers:** `MilestonesController`, `EvidencesController`.
+* **Endpoints:** `POST /api/v1/milestones/{id}/evidences`, `PUT /api/v1/milestones/{id}/approve`, `PUT /api/v1/milestones/{id}/reject`.
+* **DTOs:** `EvidenceUploadResource`, `MilestoneAuditResource`, `MilestoneSummaryResource`.
+* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `SubmitEvidenceCommandFromResourceAssembler`).
+
+#### 2.6.4.3. Application Layer
+Coordina los flujos de recepción de imágenes y el proceso de revisión por parte del comprador.
+
+* **Command Services:** `MilestoneCommandServiceImpl`, `EvidenceCommandServiceImpl` (Valida los metadatos espaciales y orquesta la subida del archivo al almacenamiento en la nube).
+* **Query Services:** `MilestoneQueryServiceImpl`.
+* **Flujo principal:** El agricultor captura y sincroniza la evidencia. El servicio valida los metadatos GPS, almacena la imagen en el cloud y cambia el estado del hito a "IN_REVIEW". Tras la revisión del comerciante, si este aprueba, se emite el evento `MilestoneApprovedEvent` que instruye al servicio de Escrow a liberar los fondos.
+
+#### 2.6.4.4. Infrastructure Layer
+Gestiona la persistencia de las etapas, el almacenamiento de objetos binarios (imágenes) y la validación cruzada.
+
+* **Repositories:** `MilestoneRepository` (extiende JpaRepository o similar), `EvidenceRepository`.
+* **Adapters:** `CloudStorageAdapter` (comunicación con AWS S3 / Firebase Storage para guardar imágenes en alta resolución), `SpatialValidationAdapter`.
+* **Persistencia:** Tablas `milestones` y `evidences` con llaves foráneas y restricciones de integridad.
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Ejecución Agrícola y Evidencias**, aplicando el patrón CQRS y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_milestones.png" alt="Contract Parcel Component Diagram" width="800" />
+</div>
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Milestone`) y cómo interactúa con los servicios de comando y consulta (CQRS).
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_milestones.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+Este diagrama relacional conecta `milestones` y `evidences`, donde cada evidencia fotográfica pertenece a un hito productivo, garantizando la trazabilidad visual del cultivo.
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_milestones.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
+
+### 2.6.5. Bounded Context: Monitoreo Climático y Riesgos Service
+Representa la capacidad del sistema encargada de recopilar datos meteorológicos externos en tiempo real (OpenWeather API), evaluar patrones de riesgo climático y emitir alertas preventivas automáticas hacia los agricultores y comerciantes. Su propósito es mitigar el impacto de fenómenos adversos en el ciclo de cultivo. La entidad principal es `ClimateAlert`, la cual consolida las métricas de riesgo y el nivel de severidad.
+
+#### 2.6.5.1. Domain Layer
+La capa de dominio contiene el núcleo de las reglas de evaluación de umbrales climáticos y severidad.
+
+* **Aggregate Root:** `ClimateAlert` (Atributos: id, parcelId, alertType, severity, issuedAt).
+* **Value Objects:** `WeatherMetrics` (Temperatura, lluvia acumulada, humedad), `SeverityLevel` (Enum: LOW, MODERATE, HIGH, CRITICAL).
+* **Commands:** `EvaluateWeatherCommand`.
+* **Queries:** `GetAlertsByParcelQuery`.
+* **Domain Events:** `RiskDetectedEvent`, `AlertDispatchedEvent`.
+* **Reglas de negocio:** Una alerta de nivel `CRITICAL` solo se dispara si la muestra climática recibida (ej. precipitación o temperatura límite) sobrepasa el umbral crítico configurado para el tipo de cultivo activo en esa parcela. Las alertas de nivel `LOW` se registran pero no detonan notificaciones urgentes.
+
+#### 2.6.5.2. Interface Layer
+Contiene los controladores que exponen los webhooks para recibir actualizaciones meteorológicas y las consultas para el frontend.
+
+* **REST Controllers:** `AlertsController` (Webhooks y consultas).
+* **Endpoints:** `POST /api/v1/webhooks/weather-update`, `GET /api/v1/alerts/{parcelId}`.
+* **DTOs:** `WeatherPayloadResource`, `AlertSummaryResource`.
+* **Assemblers:** Transforma recursos HTTP en comandos del dominio (ej. `EvaluateWeatherCommandFromResourceAssembler`).
+
+#### 2.6.5.3. Application Layer
+Coordina el flujo asíncrono de evaluación de datos meteorológicos masivos.
+
+* **Command Services:** `WeatherMonitoringServiceImpl` (Orquesta la evaluación cruzando las coordenadas de la parcela con el pronóstico/reporte recibido).
+* **Query Services:** `AlertQueryServiceImpl`.
+* **Flujo principal:** OpenWeather empuja datos climáticos mediante un webhook (o un cron job los solicita). El servicio mapea las coordenadas con las parcelas financiadas. Si detecta un umbral excedido, instancia una `ClimateAlert`, la persiste y genera el evento `RiskDetectedEvent` para que el dispatcher de notificaciones envíe un SMS/WhatsApp preventivo.
+
+#### 2.6.5.4. Infrastructure Layer
+Gestiona la persistencia del historial de alertas y la integración con proveedores de clima y mensajería.
+
+* **Repositories:** `AlertHistoryRepository` (extiende JpaRepository o similar).
+* **Adapters:** `OpenWeatherApiAdapter` (comunicación HTTP con el proveedor externo), `NotificationDispatcherAdapter` (integración con Twilio/WhatsApp API).
+* **Persistencia:** Tabla `climate_alerts_history`.
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Monitoreo Climático y Riesgos**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_climate.png" alt="Contract Parcel Component Diagram" width="800" />
+</div>
+
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`ClimateAlert`) y cómo interactúa con los servicios de comando y consulta (CQRS).
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_climate.png" alt="Contract Escrow Class Diagram" width="800" />
+</div>
+
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
+Este diagrama detalla la tabla que soporta el historial de alertas detectadas para las parcelas financiadas, permitiendo la trazabilidad de los eventos meteorológicos críticos notificados a los usuarios.
+
+<div align="center">
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_climate.png" alt="Contract Escrow Database Diagram" width="800" />
+</div>
 
 <div style="page-break-after: always;"></div>
 
@@ -2364,6 +2820,8 @@ Este diagrama de despliegue representa la infraestructura física y en la nube d
 # Bibliografía
 
 # Anexos
+
+El Anexo A complementa el análisis principal y presenta el reporte completo de entrevistas desarrollado en Power BI, así como los materiales relacionados que respaldan la validación de hallazgos.
 
 ## Anexo A. Reporte de análisis de entrevistas en Power BI
 
