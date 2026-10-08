@@ -242,6 +242,23 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
 
+## Índice de figuras
+
+1. [Figura 1. Distribución de entrevistas por segmento](#figura-1)
+2. [Figura 2. Distribución de entrevistados por entorno de trabajo](#figura-2)
+3. [Figura 3. Hallazgos del segmento Comerciante / Comprador](#figura-3)
+4. [Figura 4. Hallazgos del segmento Agricultor](#figura-4)
+5. [Figura 5. Análisis de dispositivos móviles y sistemas operativos](#figura-5)
+6. [Figura 6. User Persona del segmento Agricultor](#figura-6)
+7. [Figura 7. User Persona del segmento Comerciante / Comprador](#figura-7)
+8. [Figura 8. User Journey Map del segmento Agricultor](#figura-8)
+9. [Figura 9. User Journey Map del segmento Comerciante / Comprador](#figura-9)
+10. [Figura 10. Empathy Map del segmento Agricultor](#figura-10)
+11. [Figura 11. Empathy Map del segmento Comerciante / Comprador](#figura-11)
+12. [Figura 12. EventStorming: Collect Domain Events](#figura-12)
+13. [Figura 13. EventStorming: Refine Domain Events](#figura-13)
+14. [Figura 14. EventStorming: Track Causes](#figura-14)
+
 
 # Capítulo I: Presentación
 
@@ -275,6 +292,8 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 | Indirecto | <img src="assets/images/chapter02/logos/kilimo.png" width="90"><br>**Kilimo** (Argentina, con presencia en Perú) | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales vendidos a empresas. | Recomendaciones diarias de riego sin hardware; alianzas corporativas de sostenibilidad; no financia parcelas ni conecta al agricultor con un comprador. | [kilimo.com](https://www.kilimo.com) |
 
 ### 2.1.1. Análisis competitivo
+
+La Tabla 1 compara a Muyu con los principales competidores del mercado agrícola para identificar sus ventajas, riesgos y brechas de valor frente a soluciones ya consolidadas.
 
 **Análisis para competidores directos**
  
@@ -597,10 +616,11 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 
 ### 2.2.3. Análisis de entrevistas
 
-A continuación les mostraremos detalles de las entrevistas:
+A continuación les mostraremos detalles de las entrevistas, con un conjunto de representaciones visuales que apoyan la interpretación de los hallazgos. La Figura 1 resume la distribución por segmento, la Figura 2 muestra la distribución por entorno de trabajo, la Figura 3 presenta los hallazgos del segmento comerciante/comprador y la Figura 4 sintetiza los hallazgos del segmento agricultor.
 
 #### Distribución de entrevistas por segmento
 
+<a id="figura-1"></a>
 ![Distribución de entrevistas por segmento](assets/images/chapter02/analysis/interviews-by-segment.png)
 
 *Nota: El 50% de los entrevistados pertenece al segmento Agricultor y el otro 50% al segmento Comerciante / Comprador. Esta distribución permite analizar las necesidades de quienes trabajan directamente con los cultivos y de quienes dependen del abastecimiento agrícola para desarrollar sus actividades comerciales.*
@@ -609,6 +629,9 @@ A continuación les mostraremos detalles de las entrevistas:
 
 #### Distribución de entrevistados por entorno de trabajo
 
+La Figura 2 presenta la distribución de los entrevistados según el entorno de trabajo, lo cual permite contrastar las condiciones operativas y los requerimientos funcionales entre usuarios rurales y urbanos.
+
+<a id="figura-2"></a>
 ![Distribución de entrevistados por entorno de trabajo](assets/images/chapter02/analysis/interviews-by-environment.png)
 
 *Nota: El 50% de los entrevistados desarrolla sus actividades principalmente en un entorno rural, mientras que el otro 50% trabaja en un entorno urbano y comercial.*
@@ -617,6 +640,9 @@ A continuación les mostraremos detalles de las entrevistas:
 
 #### Hallazgos del segmento Comerciante / Comprador
 
+La Figura 3 resume los hallazgos principales del segmento Comerciante / Comprador y destaca los riesgos y requerimientos de confianza, trazabilidad y pagos seguros que condicionan su decisión de compra.
+
+<a id="figura-3"></a>
 ![Hallazgos del segmento Comerciante / Comprador](assets/images/chapter02/analysis/commercial-segment-findings.png)
 
 *Nota: El abastecimiento oportuno, la calidad e inocuidad, las evidencias visuales, el riesgo en pagos anticipados, el seguimiento y trazabilidad, y la variación de precios estuvieron presentes en el 100% de las entrevistas del segmento. Los avisos desde el celular y la información del suelo aparecieron en el 50%.*
@@ -627,6 +653,9 @@ El riesgo asociado a los pagos anticipados también estuvo presente en ambas ent
 
 #### Hallazgos del segmento Agricultor
 
+La Figura 4 muestra los hallazgos del segmento Agricultor, evidenciando la necesidad de apoyo técnico, supervisión del cultivo y un flujo de comunicación eficiente incluso con conectividad limitada.
+
+<a id="figura-4"></a>
 ![Hallazgos del segmento Agricultor](assets/images/chapter02/analysis/agricultural-segment-findings.png)
 
 *Nota: La supervisión del cultivo, el riego y fertilización, y el uso del celular estuvieron presentes en el 100% de las entrevistas del segmento Agricultor. El apoyo técnico, la conectividad limitada, el uso de fotografías, videos y audios, la información climática y el trabajo sin conexión aparecieron en el 50%.*
@@ -639,6 +668,8 @@ Asimismo, es vital tomar en consideración que para todos los entrevistados ser�
 [Ver archivos del análisis de entrevistas](https://drive.google.com/drive/folders/1oKjyxYU3_nnoHlnLRSSLgNb32xE3QeD8?usp=sharing)
 
 ### Análisis de Dispositivos Móviles y Sistemas Operativos
+
+La Figura 5 presenta la distribución de dispositivos y sistemas operativos identificados en las entrevistas, lo que permite validar las condiciones técnicas del público objetivo y orientar la estrategia de diseño del producto.
 
 A partir de las entrevistas realizadas se identificaron los dispositivos móviles empleados por los participantes de ambos segmentos.
 
@@ -675,28 +706,30 @@ A partir de las entrevistas realizadas se identificaron los dispositivos móvile
 **Estadística de Sistemas Operativos:**
 
 
-El análisis realizado en Power BI muestra la distribución de los sistemas operativos y dispositivos identificados durante las entrevistas.
+El análisis realizado en Power BI muestra la distribución de los sistemas operativos y dispositivos identificados durante las entrevistas. La Figura 5 complementa esta observación con una vista visual que permite comparar la adopción de iOS y Android entre los segmentos analizados.
 
+<a id="figura-5"></a>
 ![Análisis de dispositivos móviles y sistemas operativos](assets/images/chapter02/analysis/mobile-devices-operating-systems.png)
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
-A partir de la información obtenida durante las entrevistas y del análisis de los segmentos objetivo, se elaboraron dos User Personas.
+A partir de la información obtenida durante las entrevistas y del análisis de los segmentos objetivo, se elaboraron dos User Personas. La Figura 6 describe al productor agrícola y la Figura 7 presenta al comerciante/comprador, permitiendo identificar sus necesidades, motivaciones y puntos de fricción.
 
 #### User Persona: Segmento Agricultor
 
+<a id="figura-6"></a>
 ![User Persona - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png)
 
 #### User Persona: Segmento Comerciante / Comprador
 
 
+<a id="figura-7"></a>
 ![User Persona - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-user-persona.png)
 
 ### 2.3.2. User Task Matrix
 
-
-Para la elaboración de la User Task Matrix se consideran las tareas relacionadas a los usuarios y que fueron planteadas durante el proceso de entrevista de los dos segmentos (Comerciante/Comprador y Agricultor).
+La Tabla 4 presenta la User Task Matrix, donde se comparan las tareas más relevantes de los usuarios y se priorizan según importancia y frecuencia. Para la elaboración de la User Task Matrix se consideran las tareas relacionadas a los usuarios y que fueron planteadas durante el proceso de entrevista de los dos segmentos (Comerciante/Comprador y Agricultor).
  
 <table>
 <tr>
@@ -769,43 +802,52 @@ Para la elaboración de la User Task Matrix se consideran las tareas relacionada
 </table>
 
 ### 2.3.3. User Journey Mapping
-El recorrido que se describe es un viaje de cinco fases que generalmente va de la esperanza a la frustración: inicia con el descubrimiento (Aware), pasa por una implementación incierta (Join) y alcanza un punto crítico de confusión al enfrentar un problema (Use). Este ciclo de aprendizaje por prueba y error (Develop) y que al final desemboca en (Leave).
+El recorrido que se describe es un viaje de cinco fases que generalmente va de la esperanza a la frustración: inicia con el descubrimiento (Aware), pasa por una implementación incierta (Join) y alcanza un punto crítico de confusión al enfrentar un problema (Use). Este ciclo de aprendizaje por prueba y error (Develop) y que al final desemboca en (Leave). Las Figuras 8 y 9 representan el User Journey Map de los segmentos Agricultor y Comerciante / Comprador, respectivamente.
 #### User Journey Map: Segmento Agricultor
 
 
+<a id="figura-8"></a>
 ![User Journey Map - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-user-journey.png)
 
 #### User Journey Map: Segmento Comerciante / Comprador
 
+<a id="figura-9"></a>
 ![User Journey Map - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-mendoza-user-journey.png)
 
 ### 2.3.4. Empathy Mapping
 
+Las Figuras 10 y 11 muestran los Empathy Maps de los segmentos Agricultor y Comerciante / Comprador, permitiendo entender sus emociones, necesidades y pensamientos frente a la solución.
+
 #### Empathy Map: Segmento Agricultor
 
 
+<a id="figura-10"></a>
 ![Empathy Map - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-empathy-map.png)
 
 #### Empathy Map: Segmento Comerciante / Comprador
 
+<a id="figura-11"></a>
 ![Empathy Map - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-mendoza-empathy-map.png)
 
 ### 2.3.5. Big Picture EventStorming
 
-El equipo realizó una sesión de Big Picture Event Storming con el objetivo de comprender el dominio general de AgroFlow e identificar los principales eventos del negocio, sus relaciones y los actores involucrados. Esta actividad permitió obtener una visión de alto nivel sobre el proceso de publicación de parcelas, financiamiento, ejecución de labores, registro de evidencias y validación de hitos.
+El equipo realizó una sesión de Big Picture Event Storming con el objetivo de comprender el dominio general de AgroFlow e identificar los principales eventos del negocio, sus relaciones y los actores involucrados. Esta actividad permitió obtener una visión de alto nivel sobre el proceso de publicación de parcelas, financiamiento, ejecución de labores, registro de evidencias y validación de hitos. Las Figuras 12, 13 y 14 muestran cada una de las etapas del ejercicio: recopilación, refinamiento y trazado de causas.
 
 #### Step 1: Collect Domain Events
 
 En esta etapa se identificaron los eventos principales del dominio, expresados en pasado, sin enfocarse aún en su orden definitivo. El objetivo fue recopilar los hechos más relevantes que ocurren dentro del negocio.
 
+<a id="figura-12"></a>
 ![Step 1 - Collect Domain Events](assets/images/chapter02/event-storming/step-1-collect-domain-events.png)
 
 #### Step 2: Refine Domain Events
 
+<a id="figura-13"></a>
 ![Step 2 - Refine Domain Events](assets/images/chapter02/event-storming/step-2-refine-domain-events.png)
 
 #### Step 3: Track Causes
 
+<a id="figura-14"></a>
 ![Step 3 - Track Causes](assets/images/chapter02/event-storming/step-3-track-causes.png)
 
 En conjunto, el Big Picture Event Storming permitió al equipo comprender de manera general el funcionamiento del negocio, identificar el flujo principal del proceso y reconocer escenarios alternativos que deben ser considerados en el diseño de la solución.
@@ -814,7 +856,7 @@ En conjunto, el Big Picture Event Storming permitió al equipo comprender de man
 
 ### 2.3.6. Ubiquitous Language
 
-El Ubiquitous Language de AgroFlow establece un vocabulario común para los conceptos principales del dominio agrícola y de financiamiento manejados por agricultores, comerciantes y el equipo de desarrollo.
+La Tabla 2 presenta el vocabulario común del dominio, consolidando los términos clave que permitirán comunicar de forma consistente el negocio entre stakeholders, product owners y equipo técnico. El Ubiquitous Language de AgroFlow establece un vocabulario común para los conceptos principales del dominio agrícola y de financiamiento manejados por agricultores, comerciantes y el equipo de desarrollo.
 
 El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conocimiento del dominio y valide los conceptos con los stakeholders.
 
@@ -840,6 +882,8 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
 
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
+
+La Tabla 3 sintetiza las historias de usuario priorizadas, integrando el rol del actor, la prioridad y el epic asociado para orientar el desarrollo del producto.
 <table width="100%">
   <thead>
     <tr align="center">
@@ -2167,6 +2211,11 @@ de **MUYU Mobile Offline Sync**, detallando la tabla que almacena temporalmente 
 ## 3.1. Product design
 ### 3.1.1. Style Guidelines
 #### 3.1.1.1. General Style Guidelines
+
+Las decisiones visuales y de comunicación de Muyu parten de tres necesidades que surgieron en las entrevistas: la app se usa en el campo, a pleno sol y con las manos ocupadas, el usuario decide sobre dinero y necesita confianza, y la conectividad es limitada. Como referencia de sistema de diseño se adopta Material Design 3 con adaptaciones propias de color, tipografía y componentes.
+
+
+
 ### 3.1.2. Information Architecture
 #### 3.1.2.1. Organization Systems
 #### 3.1.2.2. Labelling Systems
@@ -2244,9 +2293,9 @@ de **MUYU Mobile Offline Sync**, detallando la tabla que almacena temporalmente 
 
 # Anexos
 
+El Anexo A complementa el análisis principal y presenta el reporte completo de entrevistas desarrollado en Power BI, así como los materiales relacionados que respaldan la validación de hallazgos.
+
 ## Anexo A. Reporte de análisis de entrevistas en Power BI
 
 Se incluye el reporte elaborado en Power BI y los archivos relacionados con el procesamiento de los resultados.
 [Acceder al material del análisis de entrevistas](https://drive.google.com/drive/folders/1oKjyxYU3_nnoHlnLRSSLgNb32xE3QeD8?usp=sharing)
-
-
