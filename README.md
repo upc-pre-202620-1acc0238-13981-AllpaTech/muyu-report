@@ -311,6 +311,90 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 ## 3.1. Product design
 ### 3.1.1. Style Guidelines
 #### 3.1.1.1. General Style Guidelines
+Las decisiones visuales y de comunicación de Muyu parten de tres necesidades que surgieron en las entrevistas: la app se usa en el campo, a pleno sol y con las manos ocupadas, el usuario decide sobre dinero y necesita confianza, y la conectividad es limitada. Como referencia de sistema de diseño se adopta Material Design 3 con adaptaciones propias de color, tipografía y componentes.
+
+**Branding**
+
+La identidad visual de Muyu se compone de un isotipo inspirado en el crecimiento agrícola y del logotipo tipográfico **MUYU**. El isotipo se emplea de manera independiente como ícono de la aplicación, mientras que la composición horizontal se reserva para espacios donde se requiere mostrar la identidad completa de la marca.
+
+#### Logo e isotipo
+
+<p align="center">
+  <img src="assets/images/chapter03/branding/muyu-logo-horizontal.png"
+       alt="Logo horizontal de Muyu"
+       width="700"/>
+</p>
+
+El logotipo horizontal combina el isotipo y el nombre **MUYU**. Para el ícono de la aplicación se emplea únicamente el isotipo, permitiendo mantener su reconocimiento y legibilidad en tamaños reducidos.
+
+#### Asistente visual de la aplicación
+
+<p align="center">
+  <img src="assets/images/chapter03/branding/muyu-mobile-assistant.png"
+       alt="Asistente visual de Muyu"
+       width="800"/>
+</p>
+
+El asistente visual se utiliza dentro de la aplicación para acompañar al usuario en mensajes, estados y acciones específicas. Sus distintas expresiones permiten comunicar confirmación, atención, ayuda, error o información sin depender únicamente de texto.
+
+#### Asistente de autenticación y orientación
+
+<p align="center">
+  <img src="assets/images/chapter03/branding/muyu-authentication-assistant.png"
+       alt="Asistente de autenticación de Muyu"
+       width="800"/>
+</p>
+
+El segundo recurso ilustrativo cumple una función explicativa en procesos como inicio de sesión, registro, recuperación de cuenta y confirmaciones. El personaje acompaña visualmente los formularios y facilita la identificación de cada paso del proceso.
+
+**Colors**
+
+<p align="center">
+  <img src="assets/images/chapter03/colors/colors.png"
+       alt="Colors"
+       width="600"/>
+</p>
+
+**Iconographies**
+
+<p align="center">
+  <img src="assets/images/chapter03/iconographies/iconographies.png"
+       alt="Iconographies"
+       width="600"/>
+</p>
+
+**Spacing and shape**
+
+<p align="center">
+  <img src="assets/images/chapter03/spacing-and-shape/spacing-and-shape.png"
+       alt="Spacing and shape"
+       width="600"/>
+</p>
+
+**Core components**
+
+<p align="center">
+  <img src="assets/images/chapter03/core-components/core-components.png"
+       alt="Core components"
+       width="600"/>
+</p>
+
+**Tone of Communication**
+
+<p align="center">
+  <img src="assets/images/chapter03/tone-of-communication/tone-of-communication.png"
+       alt="Tone of Communication"
+       width="600"/>
+</p>
+
+**Accessibility: contrast**
+
+<p align="center">
+  <img src="assets/images/chapter03/accessibility-contrast/accessibility-contrast.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
 ### 3.1.2. Information Architecture
 #### 3.1.2.1. Organization Systems
 #### 3.1.2.2. Labelling Systems
