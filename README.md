@@ -465,6 +465,98 @@ Sustento: la app se lee en exteriores y se usa para decisiones económicas, por 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+##### Publicar una parcela
+
+ Wireflow que muestra cómo el agricultor registra los datos y la ubicación de su parcela, define el plan de financiamiento y acepta sus condiciones. Al completar las validaciones, la parcela se publica como Disponible y queda visible para recibir solicitudes de financiamiento.
+
+<p align="center">
+  <img src="assets/images/chapter03/wireflow diagrams/WF-1.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+##### Registrar evidencia de un hito 
+
+Wireflow que muestra el registro de una evidencia fotográfica, junto con la fecha, ubicación GPS e información del insumo utilizado. Tras validar y enviar los datos, la evidencia queda Pendiente de revisión; si no existe conexión, se almacena localmente para sincronizarse después.
+
+<p align="center">
+  <img src="assets/images/chapter03/wireflow diagrams/WF-2.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+##### Corregir un hito rechazado 
+
+Wireflow que muestra la consulta del motivo de rechazo, la corrección de la evidencia y el envío de una nueva versión. El registro original se conserva para mantener la trazabilidad y la evidencia corregida queda Pendiente de revisión, sin liberar automáticamente el pago retenido.
+
+<p align="center">
+  <img src="assets/images/chapter03/wireflow diagrams/WF-3.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+##### Atender una alerta climática 
+
+Wireflow que muestra la consulta del nivel de riesgo climático y las recomendaciones preventivas para proteger el cultivo. Después de registrar las medidas realizadas, la alerta queda como Atendida, aunque el riesgo continúa activo y debe mantenerse el monitoreo.
+
+<p align="center">
+  <img src="assets/images/chapter03/wireflow diagrams/WF-4.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+##### Sincronizar evidencias sin conexión 
+
+Wireflow que muestra el almacenamiento local y la sincronización de evidencias registradas sin conexión. Al recuperar una conexión permitida, se envían los registros pendientes y solo se reintentan aquellos que presentan errores, evitando pérdidas o duplicados.
+
+<p align="center">
+  <img src="assets/images/chapter03/wireflow diagrams/WF-5.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+
+##### Financiar una parcela
+
+Wireflow que muestra la selección de una parcela, la revisión del plan de desembolsos y la confirmación del financiamiento. Al aceptar las condiciones y completar el pago, los fondos quedan retenidos en custodia para liberarse conforme se aprueben los hitos.
+
+<p align="center">
+  <img src="assets/images/chapter03/wireflow diagrams/WFC-1.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+##### Revisar y aprobar o rechazar un hito
+
+Wireflow que muestra la revisión de la evidencia y la decisión de aprobarla o rechazarla. La aprobación libera únicamente el pago correspondiente al hito, mientras que el rechazo exige registrar un motivo y mantiene los fondos retenidos.
+
+<p align="center">
+  <img src="assets/images/chapter03/wireflow diagrams/WFC-2.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+##### Solicitar una visita presencial
+
+  Wireflow que muestra la propuesta de una fecha y hora para realizar una visita presencial antes del financiamiento. La solicitud queda pendiente hasta recibir una respuesta y, al ser aceptada, se confirma la coordinación sin reservar la parcela ni generar pagos.
+
+<p align="center">
+  <img src="assets/images/chapter03/wireflow diagrams/WFC-3.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+##### Confirmar la recepción de la cosecha 
+
+Wireflow que muestra la verificación de la cantidad y calidad de la cosecha recibida. Cuando la entrega es conforme y se autoriza expresamente, se libera el último desembolso y se completa el ciclo de financiamiento.
+
+<p align="center">
+  <img src="assets/images/chapter03/wireflow diagrams/WFC-4.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
 #### 3.1.4.3. Mobile Applications Mock-ups
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
