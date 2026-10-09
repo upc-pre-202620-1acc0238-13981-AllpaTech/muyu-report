@@ -452,6 +452,82 @@ En el entorno de desarrollo, Swagger está disponible en la ruta `/swagger`.
 ---
 
 ### 4.1.2. Source Code Management
+
+El código fuente de Muyu se administra mediante Git y GitHub. La Landing Page, la aplicación móvil y el backend se mantienen como proyectos independientes debido a que utilizan tecnologías y procesos de despliegue diferentes.
+
+| Componente | Repositorio |
+|---|---|
+| Landing Page | [Landing-page](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Landing-page) |
+| Backend | [muyu-backend](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-backend) |
+| Aplicación móvil | Repositorio del proyecto `muyu-app` |
+
+La rama `main` contiene la versión estable de cada componente. Para organizar el trabajo se considera la siguiente estructura de ramas:
+
+- `main`: versión estable y preparada para demostración o despliegue.
+- `develop`: integración de los avances de la siguiente versión.
+- `feature/<nombre>`: implementación de una nueva funcionalidad.
+- `fix/<nombre>`: corrección de un defecto.
+- `docs/<nombre>`: actualización de la documentación.
+- `refactor/<nombre>`: reorganización interna del código.
+
+El flujo general de trabajo es:
+
+```text
+Creación de una rama
+        ↓
+Implementación de la funcionalidad
+        ↓
+Validación local
+        ↓
+Registro de commits
+        ↓
+Publicación de la rama
+        ↓
+Creación y revisión de Pull Request
+        ↓
+Integración en develop o main
+```
+
+Los mensajes de commit siguen Conventional Commits:
+
+```text
+<tipo>(<alcance opcional>): <descripción breve>
+```
+
+Los tipos utilizados son:
+
+- `feat`: incorporación de una funcionalidad.
+- `fix`: corrección de un error.
+- `docs`: actualización de documentación.
+- `style`: cambios de formato.
+- `refactor`: reorganización interna del código.
+- `test`: creación o actualización de pruebas.
+- `chore`: tareas de mantenimiento.
+- `build`: cambios relacionados con la compilación.
+- `ci`: cambios de integración o despliegue continuo.
+
+Ejemplos:
+
+```text
+feat(mobile): add merchant milestone review screen
+feat(api): add parcel approval endpoint
+fix(landing): correct mobile navigation behavior
+docs(report): document deployment configuration
+refactor(iam): separate authentication command handler
+```
+
+Antes de integrar una rama se comprueba que:
+
+- El componente compile o cargue correctamente.
+- La funcionalidad cumpla sus criterios de aceptación.
+- No se incluyan contraseñas, API keys ni secretos.
+- Los cambios no interrumpan funcionalidades existentes.
+- Los commits expliquen claramente los cambios.
+- La Pull Request se relacione con una tarea o historia de usuario.
+
+
+---
+
 ### 4.1.3. Source Code Style Guide & Conventions
 ### 4.1.4. Software Deployment Configuration
 
