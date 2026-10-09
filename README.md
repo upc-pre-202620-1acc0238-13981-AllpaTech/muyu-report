@@ -330,7 +330,38 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 # Capítulo IV: Product Implementation & Validation
 
 ## 4.1. Software Configuration Management
+
+La gestión de configuración de software de Muyu comprende las herramientas, convenciones, repositorios y mecanismos de despliegue empleados durante el desarrollo de los tres componentes principales de la solución: la Landing Page, la aplicación móvil Android y el backend.
+Esta gestión permite mantener la trazabilidad de los cambios, facilitar el trabajo colaborativo y asegurar que cada componente pueda construirse, probarse y desplegarse de manera controlada.
+
 ### 4.1.1. Software Development Environment Configuration
+
+Para el desarrollo de Muyu se estableció un entorno compuesto por herramientas especializadas para la implementación de la Landing Page, la aplicación móvil Android y el backend. También se utilizaron plataformas de diseño, documentación, control de versiones y despliegue que apoyan las diferentes etapas del ciclo de vida del producto.
+
+| Proceso | Recurso o plataforma | Finalidad dentro del proyecto | Medio de acceso |
+|---|---|---|---|
+| Gestión de requisitos | GitHub Markdown | Documentar las historias de usuario, criterios de aceptación, arquitectura y avances | [GitHub](https://github.com/) |
+| Criterios de aceptación | Gherkin | Definir escenarios funcionales mediante la estructura `Given-When-Then` | [Gherkin](https://cucumber.io/docs/gherkin/) |
+| Diseño UX/UI | Figma | Elaborar wireframes, wireflows, mock-ups, prototipos y recursos visuales | [Figma](https://www.figma.com/) |
+| Desarrollo de la Landing Page | Visual Studio Code | Implementar la interfaz web mediante HTML5, CSS3 y JavaScript | [Visual Studio Code](https://code.visualstudio.com/) |
+| Desarrollo móvil | Android Studio | Implementar, compilar, ejecutar y depurar la aplicación Android | [Android Studio](https://developer.android.com/studio) |
+| Lenguaje de desarrollo móvil | Kotlin | Implementar la lógica, navegación y componentes de la aplicación | [Kotlin](https://kotlinlang.org/) |
+| Interfaz móvil | Jetpack Compose | Construir interfaces declarativas y reutilizables | [Jetpack Compose](https://developer.android.com/compose) |
+| Compilación móvil | Gradle | Administrar dependencias y compilar el proyecto Android | [Gradle](https://gradle.org/) |
+| Pruebas móviles | Android Emulator | Ejecutar y validar la aplicación en dispositivos Android virtuales | [Android Emulator](https://developer.android.com/studio/run/emulator) |
+| Desarrollo del backend | .NET SDK 8.0.302 | Compilar y ejecutar la API modular de Muyu | [.NET](https://dotnet.microsoft.com/) |
+| Lenguaje del backend | C# | Implementar las reglas de negocio, casos de uso, endpoints y persistencia | [C#](https://learn.microsoft.com/dotnet/csharp/) |
+| Framework del backend | ASP.NET Core 8 | Exponer los servicios REST utilizados por la aplicación móvil | [ASP.NET Core](https://learn.microsoft.com/aspnet/core/) |
+| Persistencia | SQLite y Entity Framework Core | Almacenar usuarios, parcelas, acuerdos, fondos, hitos y evidencias | [Entity Framework Core](https://learn.microsoft.com/ef/core/) |
+| Documentación de la API | Swagger/OpenAPI | Documentar y probar los endpoints REST del backend | [Swagger](https://swagger.io/) |
+| Administración de versiones | Git | Registrar cambios y conservar el historial de cada componente | [Git](https://git-scm.com/) |
+| Repositorios remotos | GitHub | Almacenar el código fuente y facilitar la colaboración | [GitHub](https://github.com/) |
+| Contenedorización | Docker | Crear una imagen reproducible del backend | [Docker](https://www.docker.com/) |
+| Despliegue del backend | Railway | Construir y publicar la API a partir de su repositorio | [Railway](https://railway.app/) |
+| Despliegue web | Netlify | Publicar la Landing Page y actualizarla desde GitHub | [Netlify](https://www.netlify.com/) |
+| Modelado | PlantUML | Representar la arquitectura, componentes y modelo del dominio | [PlantUML](https://plantuml.com/) |
+
+
 ### 4.1.2. Source Code Management
 ### 4.1.3. Source Code Style Guide & Conventions
 ### 4.1.4. Software Deployment Configuration
