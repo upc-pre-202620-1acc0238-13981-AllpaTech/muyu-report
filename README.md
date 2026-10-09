@@ -703,6 +703,201 @@ De manera transversal se aplican los siguientes principios:
 
 ### 4.1.4. Software Deployment Configuration
 
+El despliegue de Muyu se gestiona independientemente para la Landing Page, el backend y la aplicación móvil, debido a que cada componente utiliza tecnologías y mecanismos de distribución diferentes.
+
+#### Landing Page Deployment
+
+La Landing Page de Muyu es un sitio web estático desarrollado con HTML5, CSS3 y JavaScript. Su despliegue se realiza mediante Netlify, plataforma que permite publicar el sitio y actualizarlo desde su repositorio de GitHub.
+
+El código fuente se encuentra en:
+
+[Landing Page de Muyu](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Landing-page)
+
+La estructura utilizada para el despliegue es:
+
+```text
+landing-muyu/
+├── index.html
+├── styles.css
+└── script.js
+```
+
+El proceso de despliegue mediante Netlify es:
+
+1. Registrar los cambios mediante Git.
+2. Enviar los commits a la rama `main` de GitHub.
+3. Ingresar al panel de administración de Netlify.
+4. Seleccionar la opción para importar un proyecto existente.
+5. Conectar Netlify con GitHub.
+6. Seleccionar el repositorio de la Landing Page.
+7. Configurar `main` como rama de producción.
+8. Establecer como directorio de publicación la ubicación de `index.html`.
+9. Iniciar el despliegue.
+10. Verificar el sitio mediante el dominio generado por Netlify.
+
+Debido a que la Landing Page utiliza HTML, CSS y JavaScript sin un framework, no necesita un comando de construcción.
+
+| Configuración | Valor |
+|---|---|
+| Plataforma | Netlify |
+| Repositorio | GitHub |
+| Rama de producción | `main` |
+| Build command | No requerido |
+| Publish directory | Directorio que contiene `index.html` |
+| Tipo de despliegue | Sitio web estático |
+| Actualización | Automática después de cambios en `main` |
+
+El flujo de publicación es:
+
+```text
+Cambios en la Landing Page
+        ↓
+Commit mediante Git
+        ↓
+Push a la rama main
+        ↓
+Netlify detecta los cambios
+        ↓
+Publicación automática
+        ↓
+Landing Page actualizada
+```
+
+La dirección pública generada mantiene una estructura semejante a:
+
+```text
+https://<nombre-del-sitio>.netlify.app/
+```
+
+Antes de finalizar un despliegue se verifica:
+
+- La carga de la página principal.
+- La visualización de imágenes.
+- Los enlaces de navegación.
+- El menú móvil.
+- Los acordeones.
+- El cambio de idioma.
+- El diseño responsive.
+- La ausencia de errores en la consola.
+- El funcionamiento mediante HTTPS.
+
+#### Backend Deployment
+
+El backend se encuentra preparado para desplegarse en Railway mediante Docker. El `Dockerfile` utiliza el SDK de .NET 8 para compilar la solución y ASP.NET Core Runtime 8 para ejecutar la API.
+
+```text
+Repositorio de GitHub
+        ↓
+Railway detecta el Dockerfile
+        ↓
+Restauración de dependencias
+        ↓
+Compilación en Release
+        ↓
+Creación de la imagen
+        ↓
+Ejecución de Muyu.API
+        ↓
+Verificación mediante /health
+```
+
+Railway proporciona dinámicamente la variable `PORT`. La API utiliza esta variable para escuchar en `0.0.0.0`.
+
+Las principales variables de producción son:
+
+```text
+ConnectionStrings__MuyuDatabase=Data Source=/data/muyu.db
+Storage__EvidencePath=/data/evidences
+Storage__DataProtectionPath=/data/keys
+Jwt__Issuer=Muyu.API
+Jwt__Audience=Muyu.Client
+Jwt__SigningKey=<SECRETO_SEGURO>
+Jwt__ExpirationMinutes=60
+OpenWeather__ApiKey=<API_KEY>
+ASPNETCORE_ENVIRONMENT=Production
+Cors__AllowedOrigins__0=<ORIGEN_PERMITIDO>
+```
+
+Las claves reales no deben almacenarse en el repositorio. Deben configurarse como variables protegidas en Railway.
+
+Debido al uso de SQLite, se configura un volumen persistente en:
+
+```text
+/data
+```
+
+Este volumen conserva:
+
+- La base de datos `muyu.db`.
+- Las evidencias almacenadas.
+- Las claves de protección de datos.
+
+El servicio debe mantenerse en una sola réplica. La verificación se realiza mediante:
+
+```http
+GET https://<dominio-api>/health
+```
+
+Respuesta esperada:
+
+```json
+{
+  "status": "healthy"
+}
+```
+
+#### Mobile Application Deployment
+
+Durante la implementación, la aplicación móvil se ejecuta desde Android Studio en un emulador o dispositivo físico.
+
+El proceso de validación es:
+
+1. Abrir `muyu-app` en Android Studio.
+2. Sincronizar las dependencias de Gradle.
+3. Seleccionar un emulador o dispositivo.
+4. Compilar la variante de desarrollo.
+5. Instalar y ejecutar la aplicación.
+6. Verificar la comunicación con la API.
+7. Validar los flujos de agricultor y comerciante.
+
+Para generar un APK de prueba:
+
+```text
+Build > Build APK(s)
+```
+
+El archivo se genera normalmente en:
+
+```text
+app/build/outputs/apk/debug/app-debug.apk
+```
+
+Para una distribución formal se debe generar una versión `release` firmada. La clave de firma no debe incorporarse al repositorio. Una futura publicación en Google Play requerirá generar un Android App Bundle con extensión `.aab`.
+
+La configuración móvil debe considerar:
+
+- URL pública del backend.
+- Comunicación mediante HTTPS.
+- Almacenamiento seguro del token JWT.
+- Permisos de cámara, ubicación y conectividad.
+- Manejo de errores y tiempos de espera.
+- Persistencia local de evidencias pendientes.
+- Sincronización al recuperar la conexión.
+- Configuraciones separadas para desarrollo y producción.
+
+#### Deployment Verification
+
+| Componente | Verificación |
+|---|---|
+| Landing Page en Netlify | Carga correcta, navegación, imágenes, HTTPS y diseño responsive |
+| Backend en Railway | Respuesta de `/health`, autenticación JWT y disponibilidad de endpoints |
+| Aplicación móvil | Instalación, navegación y comunicación con la API |
+| Persistencia | Conservación de usuarios, parcelas, acuerdos, hitos y evidencias |
+| Seguridad | Ausencia de secretos en los repositorios y comunicación mediante HTTPS |
+| Integración | Funcionamiento de los flujos de agricultor y comerciante |
+
+Esta configuración permite que los componentes de Muyu se construyan, validen y desplieguen de manera independiente, manteniendo una separación clara entre la presentación web, la experiencia móvil y los servicios de negocio.
+
 ## 4.2. Landing Page & Mobile Application Implementation
 ### 4.2.1. Sprint 1
 #### 4.2.1.1. Sprint Planning 1
