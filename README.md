@@ -3646,14 +3646,14 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
 #### Impact Mapping - Agricultor
 
 <p align="center">
-  <img src="assets/images/chapter02/Impact map agricultor.png" alt="Impact Mapping - Agricultor — Impact map agricultor" width="800"/>
+  <img src="assets/images/chapter02/uxpressia/ImpactMap-Agricultor.png" alt="Impact Mapping - Agricultor — Impact map agricultor" width="800"/>
 </p>
 <p id="figura-16"><strong>Figura 16.</strong> Impact Mapping agricultor</p>
 
 #### Impact Mapping - Comerciante
 
 <p align="center">
-  <img src="assets/images/chapter02/impact map comerciante.png" alt="Impact Mapping - Comerciante — impact map comerciante" width="800"/>
+  <img src="assets/images/chapter02/uxpressia/ImpactMap-Comerciante.png" alt="Impact Mapping - Comerciante — impact map comerciante" width="800"/>
 </p>
 <p id="figura-17"><strong>Figura 17.</strong> Impact map comerciante</p>
 
