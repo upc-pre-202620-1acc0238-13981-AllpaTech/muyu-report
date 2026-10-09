@@ -367,6 +367,7 @@ La Landing Page está implementada como un sitio web estático mediante HTML5, C
 
 ```text
 landing-muyu/
+├── assets/
 ├── index.html
 ├── styles.css
 └── script.js
@@ -717,6 +718,7 @@ La estructura utilizada para el despliegue es:
 
 ```text
 landing-muyu/
+├── assets/
 ├── index.html
 ├── styles.css
 └── script.js
