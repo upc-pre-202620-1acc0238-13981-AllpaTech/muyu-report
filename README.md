@@ -1983,6 +1983,1013 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
   </thead>
   <tbody>
     <tr align="center">
+      <td>US16</td>
+      <td>Agricultor / Comerciante</td>
+      <td>Alta</td>
+      <td>EPIC-01</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Inicio de sesión y acceso según rol</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor o Comerciante,<br>
+        <b>quiero</b> iniciar sesión con mis credenciales,<br>
+        <b>para</b> acceder al entorno y a las funciones correspondientes a mi rol.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Inicio de sesión exitoso</b><br>
+        - <b>Given</b> que el usuario posee una cuenta activa e ingresa un correo y contraseña válidos.<br>
+        - <b>When</b> confirma el inicio de sesión.<br>
+        - <b>Then</b> el sistema autentica al usuario y muestra la pantalla principal correspondiente a su rol.<br><br>
+        <b>Escenario 2: Credenciales inválidas</b><br>
+        - <b>Given</b> que el correo no existe o la contraseña ingresada es incorrecta.<br>
+        - <b>When</b> el usuario intenta iniciar sesión.<br>
+        - <b>Then</b> el sistema deniega el acceso y muestra un mensaje sin revelar cuál credencial es incorrecta.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US17</td>
+      <td>Agricultor / Comerciante</td>
+      <td>Alta</td>
+      <td>EPIC-01</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Recuperación segura de contraseña</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor o Comerciante,<br>
+        <b>quiero</b> recuperar mi contraseña mediante mi correo y un PIN de verificación,<br>
+        <b>para</b> volver a ingresar cuando olvide mis credenciales.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Restablecimiento exitoso</b><br>
+        - <b>Given</b> que el usuario solicita recuperar la contraseña con un correo registrado.<br>
+        - <b>When</b> ingresa el PIN vigente y confirma una nueva contraseña válida.<br>
+        - <b>Then</b> el sistema actualiza la contraseña e informa que ya puede iniciar sesión.<br><br>
+        <b>Escenario 2: PIN inválido o vencido</b><br>
+        - <b>Given</b> que el usuario ingresa un PIN incorrecto o fuera de vigencia.<br>
+        - <b>When</b> intenta continuar con el cambio de contraseña.<br>
+        - <b>Then</b> el sistema rechaza la operación y permite solicitar un nuevo PIN.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US18</td>
+      <td>Agricultor / Comerciante</td>
+      <td>Baja</td>
+      <td>EPIC-01</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Recorrido de bienvenida según el rol</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> usuario recién registrado,<br>
+        <b>quiero</b> visualizar una introducción adaptada a mi rol,<br>
+        <b>para</b> comprender las funciones principales y la protección de fondos mediante Escrow.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Onboarding personalizado</b><br>
+        - <b>Given</b> que el usuario completa su registro y selecciona un rol.<br>
+        - <b>When</b> accede por primera vez a la aplicación.<br>
+        - <b>Then</b> el sistema presenta las pantallas de bienvenida correspondientes a Agricultor o Comerciante.<br><br>
+        <b>Escenario 2: Omisión del recorrido</b><br>
+        - <b>Given</b> que el usuario se encuentra en el recorrido de bienvenida.<br>
+        - <b>When</b> selecciona la opción de omitir.<br>
+        - <b>Then</b> el sistema finaliza el recorrido y abre la pantalla principal sin bloquear futuras sesiones.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US19</td>
+      <td>Agricultor / Comerciante</td>
+      <td>Media</td>
+      <td>EPIC-01</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Consulta y actualización del perfil y preferencias</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor o Comerciante,<br>
+        <b>quiero</b> consultar y actualizar mis datos de contacto y preferencias de notificación,<br>
+        <b>para</b> mantener mi información vigente y elegir cómo recibir avisos.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Actualización exitosa</b><br>
+        - <b>Given</b> que el usuario se encuentra en su perfil e ingresa datos válidos.<br>
+        - <b>When</b> guarda los cambios de contacto o preferencias.<br>
+        - <b>Then</b> el sistema actualiza la información y muestra una confirmación.<br><br>
+        <b>Escenario 2: Datos de contacto inválidos</b><br>
+        - <b>Given</b> que el usuario ingresa un correo o teléfono con formato inválido.<br>
+        - <b>When</b> intenta guardar el perfil.<br>
+        - <b>Then</b> el sistema conserva los datos anteriores e identifica los campos que deben corregirse.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US20</td>
+      <td>Agricultor</td>
+      <td>Media</td>
+      <td>EPIC-02</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Panel resumen de parcelas del agricultor</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> consultar en el inicio un resumen de mis parcelas y sus estados,<br>
+        <b>para</b> identificar rápidamente avances, tareas pendientes y parcelas que requieren atención.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Resumen con parcelas activas</b><br>
+        - <b>Given</b> que el agricultor posee una o más parcelas registradas.<br>
+        - <b>When</b> abre la pantalla de inicio.<br>
+        - <b>Then</b> el sistema muestra indicadores generales y tarjetas con el estado y avance de cada parcela.<br><br>
+        <b>Escenario 2: Acceso al detalle</b><br>
+        - <b>Given</b> que una parcela aparece en el panel resumen.<br>
+        - <b>When</b> el agricultor selecciona su tarjeta.<br>
+        - <b>Then</b> el sistema abre el detalle de la parcela y sus hitos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US21</td>
+      <td>Agricultor</td>
+      <td>Alta</td>
+      <td>EPIC-02</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Definición de financiamiento y plan de desembolsos de una parcela</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> indicar el monto de financiamiento requerido y distribuirlo entre los hitos del cultivo,<br>
+        <b>para</b> publicar una propuesta con un plan de desembolsos claro para el comerciante.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Plan de desembolsos válido</b><br>
+        - <b>Given</b> que el agricultor registró los datos generales y la ubicación de la parcela.<br>
+        - <b>When</b> define el monto total, los hitos y el importe asignado a cada uno.<br>
+        - <b>Then</b> el sistema valida que la suma de los hitos coincida con el financiamiento solicitado y permite confirmar la publicación.<br><br>
+        <b>Escenario 2: Distribución inconsistente</b><br>
+        - <b>Given</b> que la suma de los desembolsos es distinta del monto total solicitado.<br>
+        - <b>When</b> el agricultor intenta confirmar el plan.<br>
+        - <b>Then</b> el sistema bloquea la publicación e informa la diferencia que debe corregirse.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US22</td>
+      <td>Comerciante</td>
+      <td>Media</td>
+      <td>EPIC-02</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Consulta detallada y contacto con el agricultor</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> revisar el detalle de una parcela y contactar a su agricultor,<br>
+        <b>para</b> resolver dudas antes de solicitar una visita o financiarla.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Consulta del detalle</b><br>
+        - <b>Given</b> que el comerciante selecciona una parcela del catálogo.<br>
+        - <b>When</b> abre su ficha.<br>
+        - <b>Then</b> el sistema muestra cultivo, ubicación, extensión, monto solicitado, plan de hitos y datos públicos relevantes del agricultor.<br><br>
+        <b>Escenario 2: Contacto mediante canal habilitado</b><br>
+        - <b>Given</b> que la ficha posee un canal de contacto disponible.<br>
+        - <b>When</b> el comerciante selecciona la opción de contactar, por ejemplo WhatsApp.<br>
+        - <b>Then</b> el sistema abre el canal con el destinatario asociado a la parcela sin exponer información adicional no autorizada.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US23</td>
+      <td>Comerciante</td>
+      <td>Alta</td>
+      <td>EPIC-02</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Recuperación de un pago de financiamiento rechazado</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> reintentar un financiamiento rechazado o elegir otro método de pago,<br>
+        <b>para</b> completar la retención de fondos sin reiniciar toda la operación.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Reintento con el mismo método</b><br>
+        - <b>Given</b> que la transacción fue rechazada y la parcela continúa disponible.<br>
+        - <b>When</b> el comerciante selecciona reintentar.<br>
+        - <b>Then</b> el sistema vuelve a procesar la orden sin duplicar cargos ni reservas de fondos.<br><br>
+        <b>Escenario 2: Cambio de método de pago</b><br>
+        - <b>Given</b> que la transacción anterior no se completó.<br>
+        - <b>When</b> el comerciante elige otro método y confirma el pago.<br>
+        - <b>Then</b> el sistema procesa una nueva orden asociada al mismo financiamiento y conserva el registro del intento fallido.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US24</td>
+      <td>Agricultor</td>
+      <td>Alta</td>
+      <td>EPIC-03</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Registro de datos técnicos y validación de ubicación de la labor</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> registrar insumos, cantidades, notas y ubicación de la labor realizada,<br>
+        <b>para</b> acompañar la evidencia fotográfica con información técnica verificable.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Labor registrada dentro de la parcela</b><br>
+        - <b>Given</b> que el agricultor seleccionó un hito activo y su ubicación coincide con el área de la parcela.<br>
+        - <b>When</b> completa los datos técnicos y guarda la evidencia.<br>
+        - <b>Then</b> el sistema asocia la información, fecha, hora y ubicación al hito correspondiente.<br><br>
+        <b>Escenario 2: Ubicación fuera de la parcela</b><br>
+        - <b>Given</b> que la ubicación capturada no coincide con el perímetro de la parcela.<br>
+        - <b>When</b> el agricultor intenta guardar la evidencia.<br>
+        - <b>Then</b> el sistema muestra la advertencia, permite volver a comprobar la ubicación y evita presentar la evidencia como validada mientras no se resuelva.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US25</td>
+      <td>Agricultor</td>
+      <td>Alta</td>
+      <td>EPIC-03</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Gestión de la cola de sincronización de evidencias</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> consultar y sincronizar las evidencias guardadas sin conexión,<br>
+        <b>para</b> asegurar que todas sean enviadas cuando vuelva a tener Internet.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Visualización y sincronización de pendientes</b><br>
+        - <b>Given</b> que existen evidencias almacenadas localmente y el dispositivo recuperó conexión.<br>
+        - <b>When</b> el agricultor abre la sección de sincronización o selecciona “Sincronizar ahora”.<br>
+        - <b>Then</b> el sistema muestra el número y estado de los elementos pendientes, inicia la carga y confirma cada envío completado.<br><br>
+        <b>Escenario 2: Interrupción durante la sincronización</b><br>
+        - <b>Given</b> que una evidencia se está sincronizando.<br>
+        - <b>When</b> la conexión vuelve a interrumpirse.<br>
+        - <b>Then</b> el sistema conserva el elemento en la cola, informa su estado pendiente y permite reintentar sin duplicarlo.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US26</td>
+      <td>Agricultor</td>
+      <td>Alta</td>
+      <td>EPIC-05</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Recepción de alertas climáticas y recomendaciones para el agricultor</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> recibir alertas climáticas con recomendaciones para mis parcelas,<br>
+        <b>para</b> proteger el cultivo y adaptar oportunamente mis labores.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Riesgo climático relevante</b><br>
+        - <b>Given</b> que se detecta un evento meteorológico severo que afecta a una parcela del agricultor.<br>
+        - <b>When</b> el sistema genera la alerta.<br>
+        - <b>Then</b> muestra el tipo y nivel de riesgo, la parcela afectada, el pronóstico y las acciones recomendadas.<br><br>
+        <b>Escenario 2: Consulta posterior de la alerta</b><br>
+        - <b>Given</b> que existe una alerta vigente para una parcela.<br>
+        - <b>When</b> el agricultor vuelve a ingresar a la aplicación.<br>
+        - <b>Then</b> el sistema mantiene accesible el detalle mientras el riesgo continúe activo.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US27</td>
+      <td>Agricultor</td>
+      <td>Media</td>
+      <td>EPIC-04</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Consulta del detalle y comprobante de un pago recibido</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> consultar el detalle de un pago recibido y descargar su comprobante,<br>
+        <b>para</b> respaldar mis ingresos y relacionarlos con el hito correspondiente.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Consulta del detalle</b><br>
+        - <b>Given</b> que existe un pago registrado en el historial del agricultor.<br>
+        - <b>When</b> selecciona la transacción.<br>
+        - <b>Then</b> el sistema muestra monto, estado, fecha, parcela, hito y referencia de la operación.<br><br>
+        <b>Escenario 2: Descarga del comprobante</b><br>
+        - <b>Given</b> que el pago fue completado y su comprobante está disponible.<br>
+        - <b>When</b> el agricultor selecciona “Descargar comprobante”.<br>
+        - <b>Then</b> el sistema entrega el archivo PDF asociado a la transacción.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US28</td>
+      <td>Comerciante</td>
+      <td>Media</td>
+      <td>EPIC-04</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Historial de financiamientos del comerciante</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> consultar el historial y total de mis financiamientos,<br>
+        <b>para</b> controlar el capital invertido y el estado de cada operación.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Consulta con operaciones registradas</b><br>
+        - <b>Given</b> que el comerciante financió una o más parcelas.<br>
+        - <b>When</b> abre la sección de pagos.<br>
+        - <b>Then</b> el sistema muestra el total invertido y una lista con parcela, agricultor, monto, fecha y estado de cada financiamiento.<br><br>
+        <b>Escenario 2: Historial vacío</b><br>
+        - <b>Given</b> que el comerciante aún no realizó financiamientos.<br>
+        - <b>When</b> abre la sección de pagos.<br>
+        - <b>Then</b> el sistema muestra un estado vacío y ofrece acceso al catálogo de parcelas.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US29</td>
+      <td>Comerciante</td>
+      <td>Media</td>
+      <td>EPIC-04</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Centro de notificaciones del comerciante</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> consultar en un solo lugar las notificaciones de pagos, evidencias, clima y próximos hitos,<br>
+        <b>para</b> atender oportunamente los eventos de las parcelas que financio.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Listado de notificaciones</b><br>
+        - <b>Given</b> que existen eventos asociados a las parcelas financiadas.<br>
+        - <b>When</b> el comerciante abre el centro de notificaciones.<br>
+        - <b>Then</b> el sistema ordena los avisos por fecha e identifica su tipo, parcela relacionada y estado de lectura.<br><br>
+        <b>Escenario 2: Acceso al evento relacionado</b><br>
+        - <b>Given</b> que una notificación está vinculada a un pago, evidencia, alerta climática o hito.<br>
+        - <b>When</b> el comerciante selecciona la notificación.<br>
+        - <b>Then</b> el sistema abre el detalle correspondiente y marca el aviso como leído.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US30</td>
+      <td>Comerciante</td>
+      <td>Alta</td>
+      <td>EPIC-04</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Confirmación de recepción de la cosecha</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> consultar los datos de la entrega y confirmar que recibí la cosecha,<br>
+        <b>para</b> cerrar formalmente el acuerdo productivo y dejar constancia de la recepción.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Recepción confirmada</b><br>
+        - <b>Given</b> que una cosecha vinculada a una parcela financiada figura como pendiente de entrega.<br>
+        - <b>When</b> el comerciante revisa los datos, expresa su conformidad y confirma la recepción.<br>
+        - <b>Then</b> el sistema cambia el estado a “Cosecha recibida”, registra la fecha y hora y notifica al agricultor.<br><br>
+        <b>Escenario 2: Confirmación duplicada</b><br>
+        - <b>Given</b> que la cosecha ya figura como recibida.<br>
+        - <b>When</b> el comerciante intenta confirmar nuevamente la misma entrega.<br>
+        - <b>Then</b> el sistema evita el registro duplicado y muestra el cierre ya existente.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US31</td>
+      <td>Comerciante</td>
+      <td>Alta</td>
+      <td>EPIC-04</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Registro de una incidencia en la entrega de cosecha</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> reportar una incidencia cuando la cosecha no llegue o presente problemas en la entrega,<br>
+        <b>para</b> evitar cerrar el acuerdo como recibido hasta que la situación sea resuelta.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Incidencia registrada con motivo</b><br>
+        - <b>Given</b> que la entrega se encuentra pendiente y el comerciante detecta un problema.<br>
+        - <b>When</b> selecciona reportar una incidencia e ingresa un motivo válido.<br>
+        - <b>Then</b> el sistema registra la incidencia, mantiene la recepción pendiente y notifica al agricultor.<br><br>
+        <b>Escenario 2: Incidencia sin descripción</b><br>
+        - <b>Given</b> que el comerciante intenta reportar un problema sin detallar el motivo.<br>
+        - <b>When</b> confirma el formulario.<br>
+        - <b>Then</b> el sistema impide el envío y solicita una descripción de la incidencia.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US32</td>
+      <td>Agricultor</td>
+      <td>Alta</td>
+      <td>EPIC-02</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Respuesta del agricultor a una solicitud de visita</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> aceptar, proponer otra fecha o rechazar una solicitud de visita presencial,<br>
+        <b>para</b> coordinar con el comerciante de acuerdo con mi disponibilidad.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Aceptación de la fecha propuesta</b><br>
+        - <b>Given</b> que el agricultor recibió una solicitud de visita con datos completos.<br>
+        - <b>When</b> acepta la fecha y hora propuestas.<br>
+        - <b>Then</b> el sistema cambia la visita a “Confirmada” y notifica al comerciante.<br><br>
+        <b>Escenario 2: Propuesta de una nueva fecha</b><br>
+        - <b>Given</b> que el agricultor no está disponible en la fecha solicitada.<br>
+        - <b>When</b> propone una fecha y hora alternativas válidas.<br>
+        - <b>Then</b> el sistema registra la reprogramación como pendiente de respuesta y notifica al comerciante.<br><br>
+        <b>Escenario 3: Rechazo con motivo</b><br>
+        - <b>Given</b> que el agricultor decide no recibir la visita.<br>
+        - <b>When</b> registra el motivo y confirma el rechazo.<br>
+        - <b>Then</b> el sistema cambia el estado a “Visita rechazada” y comunica la decisión al comerciante.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US33</td>
+      <td>Agricultor</td>
+      <td>Media</td>
+      <td>EPIC-05</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Registro de medidas tomadas ante una alerta climática</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> marcar las recomendaciones aplicadas ante una alerta climática,<br>
+        <b>para</b> dejar constancia de las acciones realizadas para proteger el cultivo.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Medidas registradas</b><br>
+        - <b>Given</b> que existe una alerta activa con recomendaciones para una parcela.<br>
+        - <b>When</b> el agricultor selecciona las medidas ejecutadas y confirma la atención.<br>
+        - <b>Then</b> el sistema registra las acciones, la fecha y el usuario, y muestra la alerta como atendida.<br><br>
+        <b>Escenario 2: Alerta consultada sin medidas realizadas</b><br>
+        - <b>Given</b> que el agricultor revisa una alerta pero todavía no ejecuta ninguna recomendación.<br>
+        - <b>When</b> sale del detalle sin confirmar medidas.<br>
+        - <b>Then</b> el sistema conserva la alerta como pendiente de atención.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US34</td>
+      <td>Agricultor</td>
+      <td>Baja</td>
+      <td>EPIC-04</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Calificación del comerciante al finalizar el acuerdo</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Agricultor,<br>
+        <b>quiero</b> calificar al comerciante después de cerrar la entrega,<br>
+        <b>para</b> registrar mi experiencia y contribuir a la confianza entre participantes.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Calificación enviada</b><br>
+        - <b>Given</b> que la cosecha fue recibida y el acuerdo se encuentra cerrado.<br>
+        - <b>When</b> el agricultor selecciona una valoración válida y envía la calificación.<br>
+        - <b>Then</b> el sistema guarda la valoración, muestra una confirmación y la asocia al acuerdo correspondiente.<br><br>
+        <b>Escenario 2: Segundo intento sobre el mismo acuerdo</b><br>
+        - <b>Given</b> que el agricultor ya calificó al comerciante por ese acuerdo.<br>
+        - <b>When</b> intenta enviar otra calificación.<br>
+        - <b>Then</b> el sistema evita el duplicado y muestra la calificación registrada.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>US35</td>
+      <td>Comerciante</td>
+      <td>Alta</td>
+      <td>EPIC-02</td>
+    </tr>
+    <tr>
+      <th align="center">Title</th>
+      <td colspan="3">Seguimiento de un pago de financiamiento en verificación</td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Description</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Como</b> Comerciante,<br>
+        <b>quiero</b> conocer cuando el resultado de un pago aún está en verificación,<br>
+        <b>para</b> no repetir la operación ni asumir que los fondos ya fueron retenidos en Escrow.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="4" align="center">Acceptance Criteria</th>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <b>Escenario 1: Resultado incierto del procesador</b><br>
+        - <b>Given</b> que el comerciante confirmó un pago pero el proveedor no devolvió un resultado definitivo.<br>
+        - <b>When</b> el sistema agota el tiempo normal de espera.<br>
+        - <b>Then</b> muestra el financiamiento como “Pago en verificación”, bloquea nuevos intentos sobre la misma orden y no lo presenta como financiado.<br><br>
+        <b>Escenario 2: Resolución posterior exitosa</b><br>
+        - <b>Given</b> que una orden se encuentra en verificación.<br>
+        - <b>When</b> el procesador confirma posteriormente la transacción.<br>
+        - <b>Then</b> el sistema actualiza el estado a “Fondos retenidos en Escrow” y notifica al comerciante y al agricultor.<br><br>
+        <b>Escenario 3: Resolución posterior fallida</b><br>
+        - <b>Given</b> que una orden se encuentra en verificación.<br>
+        - <b>When</b> el procesador confirma que el pago no se realizó.<br>
+        - <b>Then</b> el sistema cambia el estado a “Pago rechazado” y habilita las opciones para reintentar o cambiar de método.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<table width="100%">
+  <thead>
+    <tr align="center">
+      <th width="20%">Story ID</th>
+      <th width="30%">User</th>
+      <th width="25%">Priority</th>
+      <th width="25%">Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
       <td>TS01</td>
       <td>Developer</td>
       <td>Alta</td>
