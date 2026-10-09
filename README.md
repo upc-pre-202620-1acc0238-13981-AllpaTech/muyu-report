@@ -3711,6 +3711,11 @@ El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario 
 
 <p id="tabla-62"><strong>Tabla 62.</strong> Product Backlog — Orden, User Story Id, Título</p>
 
+<p align="center">
+  <img src="assets/images/chapter02/Trello-ProductBacklog.jpeg" alt="Product Backlog" width="800"/>
+</p>
+
+[Tablero de Trello - Allpatech](https://trello.com/b/dijipklh/allpatech)
 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
