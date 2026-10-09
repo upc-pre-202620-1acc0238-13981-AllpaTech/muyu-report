@@ -3664,31 +3664,51 @@ El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario 
 
 | Orden | User Story Id | Título | Story Points | Sprint |
 | :---: | :--- | :--- | :---: | :---: |
-| 1 | **US-LP01** | Landing Page estática e informativa de ALLPATEK | 5 | Sprint 1 |
-| 2 | **US02** | Búsqueda y filtrado de parcelas disponibles | 5 | Sprint 1 |
-| 3 | **US06** | Publicación y geolocalización de lote agrícola | 5 | Sprint 1 |
-| 4 | **US07** | Solicitud de cotización y negociación de volumen | 3 | Sprint 1 |
-| 5 | **US21** | Envío de contraofertas durante la negociación | 3 | Sprint 1 |
-| 6 | **US08** | Aceptación y firma de contrato digital Escrow | 5 | Sprint 2 |
-| 7 | **US09** | Depósito de fondos iniciales en custodia | 5 | Sprint 2 |
-| 8 | **US04** | Registro y carga de evidencias fotográficas por hito | 5 | Sprint 2 |
-| 9 | **US03** | Aprobación de hito y orden de liberación de fondos | 5 | Sprint 2 |
-| 10 | **US14** | Revisión técnica de evidencias de hito | 3 | Sprint 2 |
-| 12 | **US01** | Registro de perfil y verificación de identidad | 3 | Sprint 3 |
-| 13 | **US16** | Registro de perfil corporativo y validación fiscal | 3 | Sprint 3 |
-| 14 | **TS01** | API RESTful para autenticación y tokens JWT | 5 | Sprint 3 |
-| 15 | **US13** | Configuración de cuenta bancaria para desembolsos | 3 | Sprint 3 |
-| 16 | **TS02** | API RESTful para integración del estado Escrow | 5 | Sprint 3 |
-| 18 | **US05** | Recepción de alertas climáticas de riesgo | 3 | Sprint 4 |
-| 19 | **US10** | Solicitud de prórroga por imprevisto técnico/ambiental | 3 | Sprint 4 |
-| 20 | **US17** | Canal de mensajería para coordinación técnica | 3 | Sprint 4 |
-| 21 | **US23** | Registro de insumos agrícolas y trazabilidad | 3 | Sprint 4 |
-| 22 | **SP01** | Evaluación de sincronización offline de fotografías | 5 | Sprint 4 |
-| 23 | **US11** | Programación de visita presencial a la parcela | 2 | Sprint 4 |
-| 24 | **US20** | Suscripción a alertas de cosechas futuras | 2 | Sprint 4 |
-| 25 | **US15** | Calificación al comprador al finalizar contrato | 2 | Sprint 4 |
-| 26 | **US18** | Evaluación de calidad del productor agrícola | 2 | Sprint 4 |
-| 27 | **US19** | Reporte de incidencias y soporte técnico | 2 | Sprint 4 |
+| 1 | **US01** | Registro inicial de usuario | 3 | Sprint 1 |
+| 2 | **US16** | Inicio de sesión y acceso según rol | 3 | Sprint 1 |
+| 3 | **TS01** | API de Autenticación y JWT | 5 | Sprint 1 |
+| 4 | **TS02** | Middleware de autorización (RBAC) | 5 | Sprint 1 |
+| 5 | **US17** | Recuperación segura de contraseña | 3 | Sprint 1 |
+| 6 | **US18** | Recorrido de bienvenida según el rol | 2 | Sprint 1 |
+| 7 | **US19** | Consulta y actualización del perfil y preferencias | 3 | Sprint 1 |
+| 8 | **US02** | Registro de datos bancarios | 3 | Sprint 1 |
+| 9 | **US03** | Publicación de nueva parcela | 5 | Sprint 2 |
+| 10 | **US21** | Definición de financiamiento y plan de desembolsos de una parcela | 5 | Sprint 2 |
+| 11 | **US20** | Panel resumen de parcelas del agricultor | 3 | Sprint 2 |
+| 12 | **US04** | Búsqueda y filtrado de parcelas | 5 | Sprint 2 |
+| 13 | **US22** | Consulta detallada y contacto con el agricultor | 3 | Sprint 2 |
+| 14 | **TS03** | Servicio de retención en Escrow | 5 | Sprint 3 |
+| 15 | **US05** | Financiamiento directo de parcela | 5 | Sprint 3 |
+| 16 | **US23** | Recuperación de un pago de financiamiento rechazado | 5 | Sprint 3 |
+| 17 | **US35** | Seguimiento de un pago de financiamiento en verificación | 5 | Sprint 3 |
+| 18 | **US28** | Historial de financiamientos del comerciante | 3 | Sprint 3 |
+| 19 | **US06** | Solicitud de visita presencial a la parcela | 5 | Sprint 4 |
+| 20 | **US32** | Respuesta del agricultor a una solicitud de visita | 5 | Sprint 4 |
+| 21 | **US07** | Confirmación de acuerdo y fijación de precio tras visita presencial | 5 | Sprint 4 |
+| 22 | **US15** | Seguimiento de cronograma y avance de hitos en parcelas activas | 5 | Sprint 4 |
+| 23 | **US13** | Solicitud de prórroga por contingencia agrícola | 3 | Sprint 4 |
+| 24 | **SP01** | Evaluación de almacenamiento y sincronización offline de fotografías | 5 | Sprint 5 |
+| 25 | **TS04** | API de almacenamiento de archivos | 5 | Sprint 5 |
+| 26 | **US08** | Registro fotográfico de evidencia | 5 | Sprint 5 |
+| 27 | **US24** | Registro de datos técnicos y validación de ubicación de la labor | 5 | Sprint 5 |
+| 28 | **US09** | Reenvío de evidencia corregida | 3 | Sprint 5 |
+| 29 | **US25** | Gestión de la cola de sincronización de evidencias | 5 | Sprint 5 |
+| 30 | **US10** | Aprobación de evidencia y orden de liberación de pago | 5 | Sprint 6 |
+| 31 | **US11** | Solicitud de corrección técnica | 5 | Sprint 6 |
+| 32 | **TS05** | Motor de liberación de pagos | 5 | Sprint 6 |
+| 33 | **US12** | Visualización de historial de pagos | 3 | Sprint 6 |
+| 34 | **US27** | Consulta del detalle y comprobante de un pago recibido | 3 | Sprint 6 |
+| 35 | **TS06** | Generador de comprobantes PDF | 3 | Sprint 6 |
+| 36 | **US29** | Centro de notificaciones del comerciante | 3 | Sprint 6 |
+| 37 | **TS07** | Webhook de riesgos climáticos | 5 | Sprint 7 |
+| 38 | **TS08** | Motor de alertas meteorológicas | 5 | Sprint 7 |
+| 39 | **US14** | Recepción de alertas climáticas de riesgo | 3 | Sprint 7 |
+| 40 | **US26** | Recepción de alertas climáticas y recomendaciones para el agricultor | 5 | Sprint 7 |
+| 41 | **US33** | Registro de medidas tomadas ante una alerta climática | 3 | Sprint 7 |
+| 42 | **US30** | Confirmación de recepción de la cosecha | 5 | Sprint 7 |
+| 43 | **US31** | Registro de una incidencia en la entrega de cosecha | 5 | Sprint 7 |
+| 44 | **US34** | Calificación del comerciante al finalizar el acuerdo | 2 | Sprint 7 |
+
 <p id="tabla-62"><strong>Tabla 62.</strong> Product Backlog — Orden, User Story Id, Título</p>
 
 
