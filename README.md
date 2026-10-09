@@ -467,6 +467,233 @@ Sustento: la app se lee en exteriores y se usa para decisiones económicas, por 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 #### 3.1.4.3. Mobile Applications Mock-ups
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+###### AGRICULTOR / Publicar una parcela
+
+ Este flujo representa el proceso mediante el cual el agricultor registra una parcela en tres etapas: datos generales, ubicación y plan de financiamiento. El sistema valida los campos obligatorios, las coordenadas y que las cuotas coincidan con el monto solicitado, permitiendo corregir errores sin perder la información ingresada. Al completar las validaciones y aceptar los términos, la parcela se publica con estado Disponible, sin realizar todavía movimientos de fondos.
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-1.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-2.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-3.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+###### AGRICULTOR / Registrar evidencia de un hito
+
+Este flujo muestra cómo el agricultor registra y envía evidencia fotográfica de un hito, incluyendo fecha, ubicación GPS e información del insumo utilizado. El sistema contempla permisos de cámara, validación de ubicación y almacenamiento local cuando no existe conexión, permitiendo sincronizar o reintentar posteriormente. Al completarse el envío, la evidencia queda pendiente de revisión, sin implicar todavía su aprobación ni la liberación del pago. 
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-4.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-5.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-6.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+###### AGRICULTOR / Corregir un hito rechazado
+
+Este flujo representa cómo el agricultor consulta el motivo del rechazo, corrige la información solicitada y envía una nueva versión de la evidencia. El sistema conserva el envío original para mantener la trazabilidad y permite guardar el nuevo registro como borrador cuando la corrección aún no es válida. Después del reenvío, la evidencia queda nuevamente pendiente de revisión, sin liberar automáticamente el pago retenido.
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-7.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-8.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+###### AGRICULTOR / Sincronizar evidencias sin conexión
+
+Este flujo representa el almacenamiento y envío posterior de evidencias registradas sin conexión, conservando fotografías, ubicación y demás metadatos. El sistema respeta la preferencia de uso de Wi-Fi o datos móviles y muestra el estado individual de cada carga, permitiendo reintentar únicamente los registros fallidos. Al finalizar, la cola queda vacía y las evidencias enviadas se incorporan al historial sin duplicarse.
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-9.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-10.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-11.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UF-12.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+###### COMERCIANTE / Financiar una parcela 
+
+Este flujo muestra cómo el comerciante selecciona una parcela disponible, revisa el monto, las cuotas y las condiciones antes de confirmar el pago. Una vez completada la transacción, los fondos quedan retenidos en custodia y la parcela cambia a Financiada, sin liberar todavía pagos al agricultor. También contempla la pérdida de disponibilidad, la falta de aceptación de términos y los pagos no confirmados, evitando reintentos que puedan generar cargos duplicados.
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-1.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-2.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-3.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-4.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+###### COMERCIANTE / Revisar y aprobar o rechazar un hito 
+
+Este flujo muestra cómo el comerciante revisa la fotografía, fecha, ubicación GPS e información técnica de la evidencia presentada. Si la aprueba, se libera únicamente el pago correspondiente al hito; si la rechaza, debe registrar obligatoriamente un motivo y los fondos permanecen retenidos. Cuando existe una corrección, el sistema presenta la nueva versión junto con el historial anterior para mantener la trazabilidad y evitar liberaciones duplicadas.
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-5.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-6.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-7.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-8.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+###### COMERCIANTE / Solicitar una visita presencial
+
+Este flujo muestra cómo el comerciante propone una fecha y hora para visitar una parcela antes de financiarla. El agricultor puede aceptar, rechazar indicando un motivo o sugerir una nueva fecha, que deberá ser confirmada por el comerciante. La coordinación de la visita no reserva la parcela ni genera pagos o movimientos de fondos.
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-9.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-10.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-11.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-12.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-13.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+###### COMERCIANTE / Confirmar la recepción de la cosecha 
+
+Este flujo muestra cómo el comerciante verifica la recepción, cantidad y calidad de la cosecha según las condiciones acordadas. Si existe una entrega incompleta o alguna incidencia, el último pago permanece retenido hasta su resolución. Cuando la recepción es conforme y se autoriza expresamente, se libera la cuota final y se cierra el ciclo de financiamiento.
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-14.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-15.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-16.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/UFC-17.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+###### CIERRES COMPLEMENTARIOS / FORMULARIO → RESULTADO 
+
+- **Flujo de registro de cuenta bancaria**
+Este flujo muestra cómo el agricultor registra y guarda los datos de la cuenta donde recibirá sus desembolsos. Por seguridad, el sistema oculta parte del número de cuenta y permite modificar la información desde el perfil. El registro de los datos no implica su validación por parte del banco.
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/CC-1.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
+- **Flujo de calificación del comerciante**
+Este flujo permite al agricultor calificar al comerciante al finalizar el ciclo de financiamiento, mediante una puntuación y un comentario opcional. Después del envío, el sistema muestra la calificación junto con los datos del contrato concluido. Así se conserva una valoración de la experiencia entre ambas partes.
+
+<p align="center">
+  <img src="assets/images/chapter03/user flow diagrams/CC-2.png"
+       alt="Accessibility: contrast"
+       width="600"/>
+</p>
+
 #### 3.1.4.5. Mobile Applications Prototyping
 
 # Capítulo IV: Product Implementation & Validation
