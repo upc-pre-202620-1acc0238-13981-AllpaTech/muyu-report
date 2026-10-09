@@ -458,6 +458,30 @@ El análisis no certifica el texto sobre fotografías ni sobre fondos variables,
  
 Sustento: la app se lee en exteriores y se usa para decisiones económicas, por lo que el contraste insuficiente es un riesgo real de error.
 
+**Layout Grid**
+
+Muyu emplea una cuadrícula responsive para mantener la alineación y la jerarquía visual entre la Landing Page y la aplicación móvil. La grilla permite distribuir títulos, imágenes, componentes y espacios de forma consistente, evitando posiciones arbitrarias entre pantallas.
+
+Landing Page
+
+La versión desktop utiliza una estructura de columnas que organiza el contenido principal, la navegación y las secciones informativas. Los textos e imágenes se alinean con estas columnas para mantener una lectura clara y una separación uniforme entre bloques.
+
+<p align="center">
+  <img src="assets/images/chapter03/layout-grid/landing-grid.png"
+       alt="Layout grid de la Landing Page de Muyu"
+       width="800"/>
+</p>
+
+Mobile Application
+
+La aplicación móvil utiliza una grilla adaptada al ancho del dispositivo. Los componentes principales respetan los márgenes laterales y las columnas definidas, mientras que elementos como tarjetas, formularios y botones se expanden dentro del área disponible.
+
+<p align="center">
+  <img src="assets/images/chapter03/layout-grid/mobile-grid.png"
+       alt="Layout grid de la aplicación móvil de Muyu"
+       width="350"/>
+</p>
+
 ### 3.1.2. Information Architecture
 #### 3.1.2.1. Organization Systems
 #### 3.1.2.2. Labelling Systems
