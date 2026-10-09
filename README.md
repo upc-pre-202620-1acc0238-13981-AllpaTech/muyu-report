@@ -470,6 +470,8 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Anexo A](#anexo-a-reporte-de-análisis-de-entrevistas-en-power-bi) — Reporte de análisis de entrevistas en Power BI
 - [Anexo B](#anexo-b-needfinding) — Materiales de Needfinding
 
+<div style="page-break-before: always;"></div>
+
 # Capítulo I: Presentación
 
 ## 1.1. Startup Profile
