@@ -374,6 +374,38 @@ landing-muyu/
 
 El archivo `index.html` contiene la estructura semántica y las secciones informativas del producto. `styles.css` concentra la presentación visual, el diseño responsive y los estilos de los componentes. Finalmente, `script.js` implementa la navegación móvil, los acordeones, el cambio de idioma y las demás interacciones de la página.
 
+#### Configuración de la aplicación móvil
+
+La aplicación móvil se desarrolla en Android Studio mediante Kotlin y Jetpack Compose. El código se organiza por funcionalidades asociadas con las capacidades principales del dominio de Muyu.
+
+```text
+app/src/main/
+├── assets/
+├── java/com.example.muyu_app/
+│   ├── core/
+│   ├── features/
+│   │   ├── climate_monitoring/
+│   │   ├── escrow_custody/
+│   │   ├── labor_execution/
+│   │   ├── plot_approval/
+│   │   ├── plot_financing/
+│   │   └── user_management/
+│   ├── navigation/
+│   │   └── AppNavHost.kt
+│   ├── ui/
+│   ├── MainActivity.kt
+│   └── MuyuApp.kt
+├── res/
+└── AndroidManifest.xml
+```
+
+`MainActivity.kt` funciona como punto de entrada de la aplicación, `MuyuApp.kt` contiene la composición general y `AppNavHost.kt` administra la navegación.
+
+La aplicación presenta interfaces diferenciadas para los dos segmentos objetivo. Los agricultores pueden publicar parcelas, consultar tareas, registrar evidencias y revisar sus pagos. Los comerciantes pueden buscar parcelas, financiar acuerdos, revisar evidencias y aprobar o rechazar hitos.
+
+Durante el desarrollo, la aplicación se ejecuta mediante Android Emulator para verificar la navegación, las pantallas de Jetpack Compose y su adaptación a dispositivos móviles.
+
+
 
 ### 4.1.2. Source Code Management
 ### 4.1.3. Source Code Style Guide & Conventions
