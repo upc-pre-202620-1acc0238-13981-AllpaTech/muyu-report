@@ -361,6 +361,19 @@ Para el desarrollo de Muyu se estableció un entorno compuesto por herramientas 
 | Despliegue web | Netlify | Publicar la Landing Page y actualizarla desde GitHub | [Netlify](https://www.netlify.com/) |
 | Modelado | PlantUML | Representar la arquitectura, componentes y modelo del dominio | [PlantUML](https://plantuml.com/) |
 
+#### Configuración de la Landing Page
+
+La Landing Page está implementada como un sitio web estático mediante HTML5, CSS3 y JavaScript. Su estructura principal es:
+
+```text
+landing-muyu/
+├── index.html
+├── styles.css
+└── script.js
+```
+
+El archivo `index.html` contiene la estructura semántica y las secciones informativas del producto. `styles.css` concentra la presentación visual, el diseño responsive y los estilos de los componentes. Finalmente, `script.js` implementa la navegación móvil, los acordeones, el cambio de idioma y las demás interacciones de la página.
+
 
 ### 4.1.2. Source Code Management
 ### 4.1.3. Source Code Style Guide & Conventions
