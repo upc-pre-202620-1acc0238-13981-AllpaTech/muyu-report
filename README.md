@@ -310,6 +310,11 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## 3.1. Product design
 ### 3.1.1. Style Guidelines
+
+En esta sección se presentan los lineamientos visuales y de comunicación
+adoptados para Muyu, con el objetivo de mantener una experiencia consistente
+entre el Landing Page y la aplicación móvil.
+
 #### 3.1.1.1. General Style Guidelines
 Las decisiones visuales y de comunicación de Muyu parten de tres necesidades que surgieron en las entrevistas: la app se usa en el campo, a pleno sol y con las manos ocupadas, el usuario decide sobre dinero y necesita confianza, y la conectividad es limitada. Como referencia de sistema de diseño se adopta Material Design 3 con adaptaciones propias de color, tipografía y componentes.
 
@@ -462,6 +467,211 @@ Sustento: la app se lee en exteriores y se usa para decisiones económicas, por 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
 #### 3.1.3.2. Landing Page Mock-up
+
+El mock-up de la Landing Page de Muyu desarrolla visualmente la propuesta planteada durante el wireframing y aplica los lineamientos definidos en el sistema de diseño. La interfaz utiliza la identidad gráfica de Muyu, la tipografía Urbanist, la paleta de verdes de la marca, componentes con bordes redondeados y una estructura basada en una cuadrícula de columnas.
+
+La página está orientada a los dos segmentos del producto: Agricultor y Comerciante / Comprador. Su contenido presenta primero la propuesta de valor de Muyu, luego muestra las funciones principales, los planes de producción y el funcionamiento del proceso por hitos. Finalmente, diferencia las capacidades disponibles para cada segmento, resuelve preguntas frecuentes y ofrece canales de contacto.
+
+La navegación mantiene una estructura de desplazamiento vertical entre secciones, permitiendo al visitante comprender el producto de forma progresiva sin requerir autenticación.
+
+#### 3.1.3.2. Landing Page Mock-up
+
+El mock-up de la Landing Page de Muyu desarrolla visualmente la propuesta planteada durante el wireframing y aplica los lineamientos definidos en el sistema de diseño. La interfaz utiliza la identidad gráfica de Muyu, la tipografía Urbanist, la paleta de verdes de la marca, componentes con bordes redondeados y una estructura basada en una cuadrícula de columnas.
+
+La página está orientada a los dos segmentos del producto: Agricultor y Comerciante / Comprador. Su contenido presenta primero la propuesta de valor de Muyu, luego muestra las funciones principales, los planes de producción y el funcionamiento del proceso por hitos. Finalmente, diferencia las capacidades disponibles para cada segmento, resuelve preguntas frecuentes y ofrece canales de contacto.
+
+La navegación mantiene una estructura de desplazamiento vertical entre secciones, permitiendo al visitante comprender el producto de forma progresiva sin requerir autenticación.
+
+##### Desktop Web Browser
+
+La versión desktop distribuye el contenido mediante una cuadrícula de 12 columnas. Esta estructura permite mantener alineados títulos, textos, imágenes, tarjetas y llamadas a la acción a lo largo de la página.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/landing-page-mock-up.png"
+       alt="Mock-up completo de la Landing Page de Muyu en versión desktop"
+       width="300"/>
+</p>
+
+##### Hero
+
+El Hero constituye el primer punto de contacto con Muyu. Presenta el logotipo, la navegación principal y una propuesta de valor centrada en conectar el trabajo agrícola con un progreso verificable.
+
+El mensaje introduce tres elementos del producto: acuerdos de producción organizados por hitos, fondos administrados mediante Escrow y evidencias de campo con ubicación y fecha. La llamada a la acción **See how it works** dirige al visitante hacia la explicación del funcionamiento de la plataforma.
+
+Los términos Escrow, GPS Evidence, Offline Mode, Milestones, Climate Alerts y Field Progress funcionan como una síntesis visual de las capacidades principales.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/Hero.png"
+       alt="Mock-up desktop del Hero de Muyu"
+       width="800"/>
+</p>
+
+##### About Muyu
+
+Esta sección introduce el modelo de funcionamiento de Muyu antes de presentar sus funciones específicas. Se comunica la relación entre agricultores y comerciantes mediante hitos de producción, evidencias de campo y pagos asociados al progreso agrícola.
+
+Las imágenes muestran el contexto de uso del producto y refuerzan su relación con actividades realizadas directamente en campo.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/how-does-it-work.png"
+       alt="Mock-up desktop de la introducción al funcionamiento de Muyu"
+       width="800"/>
+</p>
+
+##### Core Features
+
+La sección Core Features presenta las capacidades principales de la plataforma mediante un componente de tipo acordeón. Cada elemento permite concentrar la información y mantener una baja carga visual.
+
+Las funciones consideradas son Escrow por hitos, evidencia con GPS y fecha, funcionamiento sin conexión, alertas climáticas y seguimiento de hitos. Al desplegar una función se muestra una descripción y un recurso visual asociado al contexto de uso.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/core-features.png"
+       alt="Mock-up desktop de las funciones principales de Muyu"
+       width="800"/>
+</p>
+
+##### Product Principles
+
+La franja de atributos resume cuatro conceptos centrales del producto: protección de fondos mediante Escrow, evidencia contextual con GPS y fecha, registro de información con conectividad limitada y organización de la producción mediante hitos.
+
+Este bloque funciona como transición entre las capacidades generales y los planes de producción.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/product-principles.png"
+       alt="Principios principales del funcionamiento de Muyu"
+       width="800"/>
+</p>
+
+##### Production Plans
+
+La sección Production Plans muestra ejemplos de ciclos productivos disponibles en Muyu. Cada tarjeta presenta el cultivo, la duración estimada del ciclo y la cantidad de hitos que organizan su producción.
+
+Los ejemplos representados corresponden a papa Huayro, maíz amarillo y quinua. La información permite comunicar que los planes se adaptan a diferentes cultivos y que cada uno puede contener una estructura distinta de actividades y evidencias.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/production-plans.png"
+       alt="Mock-up desktop de los planes de producción de Muyu"
+       width="800"/>
+</p>
+
+##### How It Works
+
+Esta sección representa de forma resumida el flujo principal de Muyu desde la publicación de una parcela hasta la revisión de un hito.
+
+El proceso se presenta mediante cinco etapas:
+
+1. El agricultor publica una parcela.
+2. El comerciante financia el plan de producción.
+3. El agricultor desarrolla las actividades correspondientes al hito.
+4. Se registra y revisa la evidencia del trabajo.
+5. El comerciante aprueba el hito o solicita una corrección.
+
+La disposición numerada facilita comprender la relación entre ambos segmentos y el flujo general del producto antes de ingresar a la aplicación.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/how-it-works.png"
+       alt="Mock-up desktop del proceso general de Muyu"
+       width="800"/>
+</p>
+
+##### Payments
+
+La sección Payments explica la relación entre el avance de la producción y la liberación de fondos. El proceso se resume en tres estados: fondos asegurados, evidencia aprobada y pago liberado.
+
+Esta representación busca aclarar que el financiamiento no se entrega en una única operación, sino que se encuentra asociado al cumplimiento y revisión de los hitos definidos en el plan de producción.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/payments.png"
+       alt="Mock-up desktop del funcionamiento de los pagos por hitos en Muyu"
+       width="800"/>
+</p>
+
+##### For Farmers and Merchants
+
+Esta sección diferencia las capacidades de Muyu según el segmento del usuario.
+
+Para el Agricultor se destacan el registro de actividades de campo, captura de evidencias con GPS y fecha, almacenamiento temporal sin conexión, seguimiento de hitos y pagos, y recepción de alertas climáticas.
+
+Para el Comerciante / Comprador se muestran la exploración de parcelas y planes de producción, consulta de información agrícola, seguimiento del avance financiado, revisión de evidencias y aprobación o solicitud de correcciones sobre los hitos.
+
+La presentación en dos columnas permite comparar las responsabilidades y beneficios de ambos perfiles sin separarlos del mismo proceso productivo.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/For-Farmers-and-Merchants.png"
+       alt="Mock-up desktop de las capacidades de Muyu para agricultores y comerciantes"
+       width="800"/>
+</p>
+
+##### Frequently Asked Questions
+
+La sección FAQ concentra preguntas relacionadas con el funcionamiento de Muyu, Escrow, evidencias, conectividad, planes de producción, liberación de pagos y alertas climáticas.
+
+Las preguntas utilizan un componente de acordeón para mostrar una respuesta a la vez, reduciendo la cantidad de información visible y facilitando la exploración del contenido.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/FAQ-section.png"
+       alt="Mock-up desktop de la sección de preguntas frecuentes de Muyu"
+       width="800"/>
+</p>
+**FAQ**
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/FAQ-section.png"
+       alt="Mock-up desktop: sección de preguntas frecuentes"
+       width="800"/>
+</p>
+
+##### Testimonials
+
+La sección Testimonials plantea el espacio visual destinado a incorporar experiencias de usuarios durante etapas posteriores de validación. El componente utiliza una estructura de carrusel para alternar entre testimonios de los segmentos Agricultor y Comerciante / Comprador.
+
+En esta etapa, el contenido presentado funciona como referencia visual del componente y no representa testimonios validados del producto.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/testimonials.png"
+       alt="Mock-up desktop del componente destinado a testimonios"
+       width="800"/>
+</p>
+
+##### Call to Action
+
+La llamada a la acción final busca dirigir al visitante hacia la aplicación móvil después de haber presentado el funcionamiento y las capacidades principales de Muyu.
+
+El bloque utiliza una imagen agrícola de fondo y un mensaje breve que conecta la aplicación con el trabajo realizado en campo.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/call.png"
+       alt="Mock-up desktop de la llamada a la acción de Muyu"
+       width="800"/>
+</p>
+
+##### Contact
+
+La sección Contact ofrece un canal directo de comunicación con el equipo de AllpaTech. El formulario solicita información básica del visitante y permite enviar una consulta relacionada con Muyu.
+
+El bloque complementa el formulario con una descripción breve y los datos de contacto del equipo.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/contact.png"
+       alt="Mock-up desktop del formulario de contacto de Muyu"
+       width="800"/>
+</p>
+
+##### Footer
+
+El Footer cierra la experiencia mediante una síntesis de la propuesta de Muyu y enlaces hacia las principales secciones de la Landing Page.
+
+También reúne los accesos legales a Terms and Conditions y Privacy Policy, junto con el selector de idioma EN / ES. La identidad de AllpaTech se mantiene como organización responsable del desarrollo de Muyu.
+
+<p align="center">
+  <img src="assets/images/chapter03/landing-page-mock-up/Footer Section.png"
+       alt="Mock-up desktop del Footer de Muyu"
+       width="800"/>
+</p>
+
+##### Mobile Web Browser
+
+
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
@@ -848,6 +1058,4 @@ Este flujo permite al agricultor calificar al comerciante al finalizar el ciclo 
 # Bibliografía
 
 # Anexos
-
-
 
