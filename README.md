@@ -529,6 +529,178 @@ Antes de integrar una rama se comprueba que:
 ---
 
 ### 4.1.3. Source Code Style Guide & Conventions
+
+Con la finalidad de mantener un código legible, consistente y escalable, se establecieron convenciones para HTML, CSS, JavaScript, Kotlin y C#. Los identificadores técnicos se redactan en inglés y deben expresar claramente su propósito.
+
+#### HTML Conventions
+
+- Utilizar HTML5 semántico.
+- Emplear `<header>`, `<nav>`, `<main>`, `<section>` y `<footer>`.
+- Escribir etiquetas y atributos en minúsculas.
+- Mantener una indentación uniforme.
+- Incluir el atributo `alt` en las imágenes.
+- Utilizar botones para acciones y enlaces para navegación.
+- Incorporar atributos ARIA para mejorar la accesibilidad.
+- Evitar estilos y scripts inline.
+- Declarar `lang`, `charset` y `viewport`.
+
+```html
+<section class="features" id="features">
+  <h2>Verified agricultural progress</h2>
+  <button
+    class="accordion-trigger"
+    type="button"
+    aria-expanded="false">
+    GPS evidence
+  </button>
+</section>
+```
+
+#### CSS Conventions
+
+- Utilizar nombres de clases en `kebab-case`.
+- Aplicar una estructura inspirada en BEM.
+- Centralizar colores y medidas mediante variables CSS.
+- Aplicar un diseño responsive y mobile-first.
+- Evitar selectores excesivamente específicos.
+- Organizar los estilos por componentes.
+- Mantener separados el contenido y su presentación.
+
+```css
+:root {
+  --color-primary: #12563e;
+  --color-secondary: #64748b;
+}
+
+.accordion-item {
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+.accordion-item--active {
+  color: var(--color-primary);
+}
+```
+
+#### JavaScript Conventions
+
+- Utilizar `camelCase` para variables y funciones.
+- Utilizar `PascalCase` para clases.
+- Priorizar `const` y utilizar `let` cuando el valor deba cambiar.
+- Evitar el uso de `var`.
+- Mantener activado el modo estricto.
+- Registrar eventos mediante `addEventListener`.
+- Comprobar la existencia de los elementos antes de manipularlos.
+- Mantener sincronizados los estados visuales y de accesibilidad.
+
+```javascript
+const navToggle = document.querySelector(".nav-toggle");
+const headerNav = document.querySelector(".header-nav");
+
+navToggle?.addEventListener("click", () => {
+  const isOpen = headerNav.classList.toggle("nav-open");
+  navToggle.setAttribute("aria-expanded", String(isOpen));
+});
+```
+
+#### Kotlin and Jetpack Compose Conventions
+
+- Utilizar `PascalCase` para clases, interfaces y composables.
+- Utilizar `camelCase` para variables, parámetros y funciones.
+- Utilizar `UPPER_SNAKE_CASE` para constantes.
+- Mantener los paquetes en minúsculas.
+- Agrupar el código por funcionalidad.
+- Utilizar los sufijos `Screen`, `ViewModel` y `Repository`.
+- Mantener los composables pequeños y reutilizables.
+- Separar las reglas de negocio de la interfaz.
+- Pasar eventos mediante funciones lambda.
+- Recibir `Modifier` como parámetro.
+- Centralizar textos, colores y dimensiones.
+- Administrar la navegación mediante `NavHost`.
+
+```kotlin
+@Composable
+fun MerchantApproveRejectScreen(
+    onApprove: () -> Unit,
+    onReject: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    Column(modifier = modifier.fillMaxSize()) {
+        MerchantEvidenceContent(
+            onApprove = onApprove,
+            onReject = onReject
+        )
+    }
+}
+```
+
+#### C# and .NET Conventions
+
+- Utilizar `PascalCase` para clases, interfaces, métodos y propiedades.
+- Utilizar `camelCase` para parámetros y variables locales.
+- Anteponer `I` a las interfaces.
+- Mantener habilitadas las referencias anulables.
+- Utilizar `async` y `await`.
+- Incorporar `CancellationToken`.
+- Utilizar clases `sealed` cuando no se requiera herencia.
+- Utilizar `record` para contratos y eventos inmutables.
+- Aplicar inyección de dependencias.
+- Evitar reglas de negocio dentro de los controladores.
+- Mantener el dominio independiente de ASP.NET Core y Entity Framework Core.
+- Separar comandos y consultas mediante CQRS.
+- Relacionar bounded contexts mediante identificadores.
+
+```csharp
+public sealed class LoginCommandHandler(
+    IUserRepository userRepository,
+    IJwtProvider jwtProvider)
+{
+    public async Task<LoginResponse?> HandleAsync(
+        LoginCommand command,
+        CancellationToken cancellationToken = default)
+    {
+        var user = await userRepository.GetByEmailAsync(
+            command.Email,
+            cancellationToken);
+
+        return user is null
+            ? null
+            : jwtProvider.CreateResponse(user);
+    }
+}
+```
+
+#### Gherkin Conventions
+
+- Utilizar la estructura `Given-When-Then`.
+- Describir un comportamiento verificable por escenario.
+- Redactar desde la perspectiva del usuario.
+- Evitar detalles técnicos innecesarios.
+- Relacionar cada escenario con una historia de usuario.
+
+```gherkin
+Feature: Merchant milestone review
+
+  Scenario: Approve valid milestone evidence
+    Given the merchant has an active financed agreement
+    And the farmer submitted evidence with date and GPS location
+    When the merchant approves the milestone
+    Then the corresponding milestone payment is released
+    And the evidence status changes to approved
+```
+
+De manera transversal se aplican los siguientes principios:
+
+- **Readability:** código fácil de comprender.
+- **Consistency:** convenciones uniformes.
+- **Single Responsibility:** una responsabilidad por componente.
+- **Modularity:** funcionalidades separadas.
+- **Maintainability:** facilidad para modificar el sistema.
+- **Scalability:** capacidad para incorporar nuevas funcionalidades.
+- **Accessibility:** interfaces comprensibles y accesibles.
+- **Security:** secretos administrados fuera del repositorio.
+
+---
+
 ### 4.1.4. Software Deployment Configuration
 
 ## 4.2. Landing Page & Mobile Application Implementation
