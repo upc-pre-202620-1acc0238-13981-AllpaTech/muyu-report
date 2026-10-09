@@ -1,7 +1,6 @@
-<div align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
+﻿<div align="center">
+    <img alt="UPC logo transparente" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
 </div>
-<h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
 <h3 align="center">Carrera de Ingeniería de Software </h3>
 
@@ -148,37 +147,45 @@ El Student Outcome 7 establece que el estudiante debe ser capaz de adquirir y ap
 </div>
 
 
+<div style="page-break-after: always;"></div>
+
 ## Objetivos SMART
 
 La siguiente sección presenta los objetivos profesionales y de especialización de cada integrante del equipo de forma clara, ordenada y consistente con el criterio SMART (específico, medible, alcanzable, relevante y temporal).
 
+Cada plan plantea dos metas posteriores a la graduación: una para mantener la actualización técnica y otra para avanzar profesionalmente. El cumplimiento se verifica mediante productos concretos, dedicación definida y plazos.
+
 ### Mel Andree Orellana Rodriguez
 
-- **Objetivo 1 (Especialización Técnica):** Dominar de manera práctica el diseño de arquitecturas orientadas a microservicios e infraestructura en la nube en un plazo de 8 meses tras egresar. Para ello, dedicaré 6 horas semanales al desarrollo de proyectos personales complejos y al estudio de buenas prácticas de escalabilidad y rendimiento en software.
-- **Objetivo 2 (Crecimiento Profesional):** Incorporarme como *Software Engineer* en una empresa del sector tecnológico dentro de los primeros 2 años posteriores a la graduación, participando activamente en el diseño, desarrollo y despliegue de soluciones de software eficientes y de alto impacto.
+- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 8 meses después de graduarme, completar una ruta de formación en arquitectura de microservicios y servicios en la nube, dedicando al menos 6 horas semanales y publicando dos proyectos funcionales que documenten decisiones de escalabilidad y rendimiento.
+- **Objetivo 2 (Crecimiento profesional):** Dentro de los 24 meses posteriores a la graduación, obtener un puesto de *Software Engineer* en el sector tecnológico. Para medir el avance, preparar un portafolio con al menos tres proyectos desplegados y postular a un mínimo de cinco vacantes pertinentes por mes hasta incorporarme.
 
 ### Angel Guillermo Berrospi Marin
 
-- **Objetivo 1 (Especialización Técnica):** Aprender a desarrollar aplicaciones web y mobile con distintos tipos de lenguajes y aplicar correctamente una arquitectura sólida, siguiendo los principios y buenas prácticas requeridas para ofrecer un software de calidad.
-- **Objetivo 2 (Crecimiento Profesional):** Recibirme como *Software Engineer* y empezar a trabajar en una empresa del sector tecnológico o afín con el propósito de crear nuevas aplicaciones que solucionen problemas cotidianos.
+- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 12 meses después de graduarme, completar dos cursos de desarrollo web o móvil y aplicar lo aprendido en dos aplicaciones funcionales, documentando pruebas y decisiones de arquitectura en un portafolio público.
+- **Objetivo 2 (Crecimiento profesional):** Conseguir, dentro de los 18 meses posteriores a la graduación, un puesto inicial de desarrollo de software en una empresa tecnológica o afín. Para medir el avance, actualizar el CV y portafolio durante el primer mes y postular a por lo menos cuatro vacantes acordes con mi perfil cada mes hasta obtener el puesto.
 
 ### Emily Juliette Arroyo Gonzales
 
-- **Objetivo 1 (Especialización Técnica):** Aprender durante el próximo año a desarrollar aplicaciones web y móviles utilizando distintos lenguajes, con el propósito de crear proyectos organizados, seguros y de buena calidad.
-- **Objetivo 2 (Crecimiento Profesional):** Graduarme como ingeniera de software y comenzar a trabajar en una empresa tecnológica durante el primer año después de terminar la carrera, participando en la creación de aplicaciones que solucionen problemas cotidianos.
+- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 12 meses después de graduarme, completar dos cursos de desarrollo web y móvil y construir dos proyectos que apliquen controles básicos de seguridad y calidad, publicando su código y documentación en un portafolio.
+- **Objetivo 2 (Crecimiento profesional):** Obtener, dentro de los 12 meses posteriores a la graduación, un puesto inicial en desarrollo de software en una empresa tecnológica. Como indicadores de avance, preparar un CV y portafolio durante el primer mes y realizar al menos cuatro postulaciones pertinentes por mes hasta incorporarme.
 
 ### Jennifer Yamilet Riveros Vera
 
-- **Objetivo 1 (Especialización Técnica):** Desarrollar competencias avanzadas en análisis de datos mediante el diseño de dashboards interactivos en Power BI y la optimización de consultas complejas en SQL Server en un plazo de 6 meses, dedicando 6 horas semanales a la elaboración de proyectos de minería de datos y modelado analítico para la toma de decisiones.
-- **Objetivo 2 (Crecimiento Profesional):** Obtener una posición como Data Analyst o Software Engineer enfocada en soluciones de inteligencia de negocios dentro del primer año tras finalizar la carrera, aplicando análisis de datos e interfaces optimizadas en proyectos de impacto real.
+- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 6 meses después de graduarme, dedicar al menos 6 horas semanales al análisis de datos y completar dos proyectos de portafolio con dashboards en Power BI y consultas optimizadas en SQL Server, documentando los indicadores y hallazgos de cada proyecto.
+- **Objetivo 2 (Crecimiento profesional):** Obtener, dentro de los 12 meses posteriores a la graduación, un puesto de Data Analyst o de desarrollo de software orientado a inteligencia de negocios. Para medir el avance, publicar los dos proyectos del portafolio y postular a un mínimo de cinco vacantes pertinentes por mes hasta incorporarme.
 
 ### Quintanilla Pozo Gonzalo Samuel
 
-- **Objetivo 1 (Especialización Técnica):** Dominar de manera práctica el desarrollo y la arquitectura de software basada en Domain-Driven Design (DDD) y el despliegue de microservicios utilizando frameworks modernos como Spring Boot y Node.js en un plazo de 8 meses. Para lograrlo, mantendré una estricta disciplina técnica, dedicando 6 horas semanales a la construcción de proyectos personales de desarrollo web y móvil que integren bases de datos relacionales y NoSQL.
-- **Objetivo 2 (Crecimiento Profesional):** Expandir y consolidar mis servicios como desarrollador web freelance para clientes independientes y, de manera paralela, incorporarme como Software Engineer Full-Stack en una empresa del sector tecnológico dentro del primer año tras mi graduación, aportando mi capacidad para diseñar e implementar soluciones de software escalables.
+- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 8 meses después de graduarme, dedicar al menos 6 horas semanales a profundizar en DDD y microservicios con Spring Boot y Node.js, y publicar dos proyectos desplegados que integren bases de datos relacionales y NoSQL, junto con su documentación técnica.
+- **Objetivo 2 (Crecimiento profesional):** Dentro de los 12 meses posteriores a la graduación, incorporarme como *Software Engineer Full-Stack* o desarrollar al menos dos proyectos freelance remunerados. Mediré el avance mediante un portafolio con dos soluciones desplegadas y un registro mensual de postulaciones o propuestas a clientes.
 
 ## Tabla de Contenidos
 
+* [Student Outcome 7](#student-outcome-7)
+* [Objetivos SMART](#objetivos-smart)
+
+* [Índice de figuras, tablas y anexos](#índice-de-figuras-tablas-y-anexos)
 * [Capítulo I: Presentación](#capítulo-i-presentación)
   * [1.1. Startup Profile](#11-startup-profile)
     * [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -337,6 +344,132 @@ La siguiente sección presenta los objetivos profesionales y de especialización
 
 <div style="page-break-after: always;"></div>
 
+## Índice de figuras, tablas y anexos
+La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenido de los capítulos, no la portada ni las secciones preliminares. Cada entrada enlaza con su ubicación en el informe; los anexos se referencian desde esta lista y en la sección correspondiente.
+
+### Figuras
+- [Figura 1](#figura-1) — Lean UX Canvas de Muyu
+- [Figura 2](#figura-2) — Distribución de entrevistas por segmento
+- [Figura 3](#figura-3) — Distribución de entrevistados por entorno de trabajo
+- [Figura 4](#figura-4) — Hallazgos del segmento Comerciante / Comprador
+- [Figura 5](#figura-5) — Hallazgos del segmento Agricultor
+- [Figura 6](#figura-6) — Análisis de dispositivos móviles y sistemas operativos
+- [Figura 7](#figura-7) — User Persona del segmento Agricultor
+- [Figura 8](#figura-8) — User Persona del segmento Comerciante / Comprador
+- [Figura 9](#figura-9) — User Journey Map - Segmento Agricultor
+- [Figura 10](#figura-10) — User Journey Map - Segmento Comerciante / Comprador
+- [Figura 11](#figura-11) — Mapa de empatía del segmento Agricultor (Miguel Quispe)
+- [Figura 12](#figura-12) — Mapa de empatía del segmento Comerciante / Comprador (Valeria Mendoza)
+- [Figura 13](#figura-13) — Step 1 - Collect Domain Events
+- [Figura 14](#figura-14) — Step 2 - Refine Domain Events
+- [Figura 15](#figura-15) — Step 3 - Track Causes
+- [Figura 16](#figura-16) — Impact Mapping agricultor
+- [Figura 17](#figura-17) — Impact map comerciante
+- [Figura 18](#figura-18) — EventStorming — EventStormingGeneral
+- [Figura 19](#figura-19) — EventStorming — EventStorming01
+- [Figura 20](#figura-20) — EventStorming — EventStorming02
+- [Figura 21](#figura-21) — Mapeo y Descomposición del Timeline de Procesos
+- [Figura 22](#figura-22) — Delimitación Preliminar e Identificación de Eventos Pivote
+- [Figura 23](#figura-23) — Consolidación e Interconexión de Bounded Contexts
+- [Figura 24](#figura-24) — Vista 1: Registro, Catálogo y Contratación — flows 01
+- [Figura 25](#figura-25) — Vista 2: Custodia Escrow y Trabajo de Campo — flows 02
+- [Figura 26](#figura-26) — Vista 3: Auditoría, Desembolso y Clima — flows 03
+- [Figura 27](#figura-27) — Custodia de Fondos en Escrow (*Core Domain*) — bounded 03
+- [Figura 28](#figura-28) — Ejecución Agrícola y Evidencias (*Core Domain*) — bounded 04
+- [Figura 29](#figura-29) — Financiamiento y Contratación (*Supporting Domain*) — bounded 02
+- [Figura 30](#figura-30) — Gestión y Aprobación de Parcelas (*Supporting Domain*) — bounded 01
+- [Figura 31](#figura-31) — Monitoreo Climático y Riesgos (*Generic Domain*) — bounded 05
+- [Figura 32](#figura-32) — Context Mapping — context
+- [Figura 33](#figura-33) — Software Architecture Context Level Diagrams — context level
+- [Figura 34](#figura-34) — Software Architecture Container Level Diagrams — container level
+- [Figura 35](#figura-35) — Software Architecture Deployment Diagrams — deployment level
+- [Figura 36](#figura-36) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract parcel
+- [Figura 37](#figura-37) — Bounded Context Domain Layer Class Diagrams — class diagram contract parcel
+- [Figura 38](#figura-38) — Bounded Context Database Design Diagram — db diagram contract parcel
+- [Figura 39](#figura-39) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract financiamiento
+- [Figura 40](#figura-40) — Bounded Context Domain Layer Class Diagrams — class diagram contract financiamiento
+- [Figura 41](#figura-41) — Bounded Context Database Design Diagram — db diagram contract financiamiento
+- [Figura 42](#figura-42) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract escrow
+- [Figura 43](#figura-43) — Bounded Context Domain Layer Class Diagrams — class diagram contract escrow
+- [Figura 44](#figura-44) — Bounded Context Database Design Diagram — db diagram contract escrow
+- [Figura 45](#figura-45) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract milestones
+- [Figura 46](#figura-46) — Bounded Context Domain Layer Class Diagrams
+- [Figura 47](#figura-47) — Bounded Context Database Design Diagram
+- [Figura 48](#figura-48) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract climate
+- [Figura 49](#figura-49) — Bounded Context Domain Layer Class Diagrams
+- [Figura 50](#figura-50) — Bounded Context Database Design Diagram — db diagram contract climate
+- [Figura 51](#figura-51) — Bounded Context Software Architecture Component Level Diagrams — level diagrams iam
+- [Figura 52](#figura-52) — Bounded Context Domain Layer Class Diagrams
+- [Figura 53](#figura-53) — Bounded Context Database Design Diagram
+
+### Tablas
+- [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
+- [Tabla 2](#tabla-2) — Competidores — Tipo, Competidor, Descripción
+- [Tabla 3](#tabla-3) — Matriz de análisis competitivo entre Muyu y competidores directos
+- [Tabla 4](#tabla-4) — Matriz de análisis competitivo entre Muyu y competidores indirectos
+- [Tabla 5](#tabla-5) — Estrategias y tácticas frente a competidores — Competidor, Táctica diferenciadora, Fortaleza del rival que enfrentamos
+- [Tabla 6](#tabla-6) — Estrategias y tácticas frente a competidores — Oportunidades (O), Amenazas (A)
+- [Tabla 7](#tabla-7) — Segmento: Comerciante / Comprador — Entrevista 1 a comerciante comprador
+- [Tabla 8](#tabla-8) — Segmento: Comerciante / Comprador — Entrevista 2 a comerciante comprador
+- [Tabla 9](#tabla-9) — Segmento: Agricultor — Entrevista 3 a agricultora
+- [Tabla 10](#tabla-10) — Segmento: Agricultor — Entrevista 4 a trabajador agrícola
+- [Tabla 11](#tabla-11) — Dispositivo móvil de la Entrevista 1 (segmento Agricultor)
+- [Tabla 12](#tabla-12) — Dispositivo móvil de la Entrevista 2 (segmento Comerciante / Comprador)
+- [Tabla 13](#tabla-13) — Dispositivo móvil de la Entrevista 3 (segmento Agricultor)
+- [Tabla 14](#tabla-14) — Dispositivo móvil de la Entrevista 4 (segmento Comerciante / Comprador)
+- [Tabla 15](#tabla-15) — Matriz de tareas de usuario para los segmentos Agricultor y Comerciante / Comprador
+- [Tabla 16](#tabla-16) — 2.3.6. Ubiquitous Language — Term, Spanish equivalent, Definition
+- [Tabla 17](#tabla-17) — User Stories — Epic ID, Título de la Epic, Descripción
+- [Tabla 18](#tabla-18) — User Stories — US01 — Registro inicial de usuario
+- [Tabla 19](#tabla-19) — User Stories — US02 — Registro de datos bancarios
+- [Tabla 20](#tabla-20) — User Stories — US03 — Publicación de nueva parcela
+- [Tabla 21](#tabla-21) — User Stories — US04 — Búsqueda y filtrado de parcelas
+- [Tabla 22](#tabla-22) — User Stories — US05 — Financiamiento directo de parcela
+- [Tabla 23](#tabla-23) — User Stories — US06 — Solicitud de visita presencial a la parcela
+- [Tabla 24](#tabla-24) — User Stories — US07 — Confirmación de acuerdo y fijación de precio tras visita presencial
+- [Tabla 25](#tabla-25) — User Stories — US08 — Registro fotográfico de evidencia
+- [Tabla 26](#tabla-26) — User Stories — US09 — Reenvío de evidencia corregida
+- [Tabla 27](#tabla-27) — User Stories — US10 — Aprobación de evidencia y orden de liberación de pago
+- [Tabla 28](#tabla-28) — User Stories — US11 — Solicitud de corrección técnica
+- [Tabla 29](#tabla-29) — User Stories — US12 — Visualización de historial de pagos
+- [Tabla 30](#tabla-30) — User Stories — US13 — Solicitud de prórroga por contingencia agrícola
+- [Tabla 31](#tabla-31) — User Stories — US14 — Recepción de alertas climáticas de riesgo
+- [Tabla 32](#tabla-32) — User Stories — US15 — Seguimiento de cronograma y avance de hitos en parcelas activas
+- [Tabla 33](#tabla-33) — User Stories — US16 — Inicio de sesión y acceso según rol
+- [Tabla 34](#tabla-34) — User Stories — US17 — Recuperación segura de contraseña
+- [Tabla 35](#tabla-35) — User Stories — US18 — Recorrido de bienvenida según el rol
+- [Tabla 36](#tabla-36) — User Stories — US19 — Consulta y actualización del perfil y preferencias
+- [Tabla 37](#tabla-37) — User Stories — US20 — Panel resumen de parcelas del agricultor
+- [Tabla 38](#tabla-38) — User Stories — US21 — Definición de financiamiento y plan de desembolsos de una parcela
+- [Tabla 39](#tabla-39) — User Stories — US22 — Consulta detallada y contacto con el agricultor
+- [Tabla 40](#tabla-40) — User Stories — US23 — Recuperación de un pago de financiamiento rechazado
+- [Tabla 41](#tabla-41) — User Stories — US24 — Registro de datos técnicos y validación de ubicación de la labor
+- [Tabla 42](#tabla-42) — User Stories — US25 — Gestión de la cola de sincronización de evidencias
+- [Tabla 43](#tabla-43) — User Stories — US26 — Recepción de alertas climáticas y recomendaciones para el agricultor
+- [Tabla 44](#tabla-44) — User Stories — US27 — Consulta del detalle y comprobante de un pago recibido
+- [Tabla 45](#tabla-45) — User Stories — US28 — Historial de financiamientos del comerciante
+- [Tabla 46](#tabla-46) — User Stories — US29 — Centro de notificaciones del comerciante
+- [Tabla 47](#tabla-47) — User Stories — US30 — Confirmación de recepción de la cosecha
+- [Tabla 48](#tabla-48) — User Stories — US31 — Registro de una incidencia en la entrega de cosecha
+- [Tabla 49](#tabla-49) — User Stories — US32 — Respuesta del agricultor a una solicitud de visita
+- [Tabla 50](#tabla-50) — User Stories — US33 — Registro de medidas tomadas ante una alerta climática
+- [Tabla 51](#tabla-51) — User Stories — US34 — Calificación del comerciante al finalizar el acuerdo
+- [Tabla 52](#tabla-52) — User Stories — US35 — Seguimiento de un pago de financiamiento en verificación
+- [Tabla 53](#tabla-53) — User Stories — TS01 — API de Autenticación y JWT
+- [Tabla 54](#tabla-54) — User Stories — TS02 — Middleware de autorización (RBAC)
+- [Tabla 55](#tabla-55) — User Stories — TS03 — Servicio de retención en Escrow
+- [Tabla 56](#tabla-56) — User Stories — TS04 — API de almacenamiento de archivos
+- [Tabla 57](#tabla-57) — User Stories — TS05 — Motor de liberación de pagos
+- [Tabla 58](#tabla-58) — User Stories — TS06 — Generador de comprobantes PDF
+- [Tabla 59](#tabla-59) — User Stories — TS07 — Webhook de riesgos climáticos
+- [Tabla 60](#tabla-60) — User Stories — TS08 — Motor de alertas meteorológicas
+- [Tabla 61](#tabla-61) — User Stories — SP01 — Evaluación de almacenamiento y sincronización offline de fotografías
+- [Tabla 62](#tabla-62) — Product Backlog — Orden, User Story Id, Título
+
+### Anexos
+- [Anexo A](#anexo-a-reporte-de-análisis-de-entrevistas-en-power-bi) — Reporte de análisis de entrevistas en Power BI
+- [Anexo B](#anexo-b-needfinding) — Materiales de Needfinding
+
 # Capítulo I: Presentación
 
 ## 1.1. Startup Profile
@@ -356,7 +489,7 @@ Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalece
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
-      <img src="assets/images/Chapter 1/members/Gonzalo.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+      <img alt="Gonzalo" src="assets/images/Chapter 1/members/Gonzalo.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
     </td>
     <td style="padding: 12px; vertical-align: top;">
       <strong>Gonzalo Samuel Quintanilla Pozo - U202315007</strong><br>
@@ -365,7 +498,7 @@ Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalece
   </tr>
   <tr>
     <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
-      <img src="assets/images/Chapter 1/members/foto-andree.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+      <img alt="foto andree" src="assets/images/Chapter 1/members/foto-andree.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
     </td>
     <td style="padding: 12px; vertical-align: top;">
       <strong>Mel Andree Orellana Rodriguez - U202116018</strong><br>
@@ -374,7 +507,7 @@ Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalece
   </tr>
   <tr>
     <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
-      <img src="assets/images/Chapter 1/members/Jennifer.png" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+      <img alt="Jennifer" src="assets/images/Chapter 1/members/Jennifer.png" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
     </td>
     <td style="padding: 12px; vertical-align: top;">
       <strong>Jennifer Yamilet Riveros Vera - u20241c998</strong><br>
@@ -383,7 +516,7 @@ Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalece
   </tr>
   <tr>
     <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
-      <img src="assets/images/Chapter 1/members/Guillermo.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+      <img alt="Guillermo" src="assets/images/Chapter 1/members/Guillermo.jpg" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
     </td>
     <td style="padding: 12px; vertical-align: top;">
       <strong>Angel Guillermo Berrospi Marin - u202114701</strong><br>
@@ -392,7 +525,7 @@ Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalece
   </tr>
   <tr>
     <td style="padding: 10px; text-align: center; width: 18%; vertical-align: top;">
-      <img src="assets/images/Chapter 1/members/Emily.png" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
+      <img alt="Emily" src="assets/images/Chapter 1/members/Emily.png" width="150" style="border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;"/>
     </td>
     <td style="padding: 12px; vertical-align: top;">
       <strong>Emily Juliette Arroyo Gonzales - U202311469</strong><br>
@@ -400,8 +533,8 @@ Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalece
     </td>
   </tr>
 </table>
-
 </div>
+<p id="tabla-1"><strong>Tabla 1.</strong> Perfiles de los integrantes del equipo</p>
 
 ---
 
@@ -574,6 +707,7 @@ Creemos que mejoraremos la atención de eventos importantes si agricultores y co
 La siguiente figura presenta el Lean UX Canvas elaborado para Muyu.
 
 ![Lean UX Canvas de Muyu](assets/images/Chapter%201/Canvas/Lean%20UX%20Canvas.png)
+<p id="figura-1"><strong>Figura 1.</strong> Lean UX Canvas de Muyu</p>
 
 [Ver en Miro](https://miro.com/app/board/uXjVHpAR0XE=/?share_link_id=138737583873)
 
@@ -632,12 +766,13 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 
 | Tipo | Competidor | Descripción | Características | Website |
 |---|---|---|---|---|
-| Directo |  <img src="assets/images/chapter02/logos/farmizen.png" width="90"><br> (India) | Permite alquilar una mini-parcela de 600 pies² dentro de una granja real por una cuota mensual; el agricultor cultiva el terreno y el usuario recibe la cosecha semanalmente o la recoge en visitas programadas. | App móvil de seguimiento de parcela (Android/iOS); hasta 6 visitas de campo al mes; entrega semanal a domicilio; sin verificación georreferenciada automática de evidencias. | [farmizen.com](https://www.farmizen.com) |
-| Directo | <img src="assets/images/chapter02/logos/cropital.png" width="90"><br> (Filipinas) | Plataforma de crowdfunding que conecta inversionistas con pequeños agricultores filipinos identificados individualmente; el inversionista financia el costo de siembra de una granja específica y recibe entre 3% y 30% de retorno tras la cosecha. | Selección de granja específica y nombrada; seguro agrícola incluido; verificación de campo mediante entrevista y visita presencial; retorno en 3 a 6 meses; sin app móvil. | [cropital.com](https://www.cropital.com) |
-| Directo | <img src="assets/images/chapter02/logos/crowdfarming.png" width="90"><br>(España) | Marketplace B2C donde el consumidor "adopta" un árbol, animal o parcela de un agricultor aliado, pagando por adelantado la producción que recibirá directamente en su domicilio al momento de la cosecha. | Sin intermediarios de distribución; comunicación directa con el agricultor vía fotos/historias; logística propia de envío en Europa; orientado a consumidor final, no a comerciantes. | [crowdfarming.com](https://www.crowdfarming.com) |
-| Indirecto | <img src="assets/images/chapter02/logos/acretrader.png" width="90"><br> (EE. UU.) | Plataforma fintech que fracciona la propiedad de terrenos agrícolas para que inversionistas financien tierra de cultivo a cambio de una renta anual pagada por el operador agrícola arrendatario. | Due diligence documental de tierras; retorno de renta anual fija; sin seguimiento operativo del cultivo ni app móvil; el retorno no depende de la cosecha. | [acretrader.com](https://www.acretrader.com) |
-| Indirecto | <img src="assets/images/chapter02/logos/traive.png" width="90"><br>**Traive** (Brasil / EE. UU.) | Plataforma agrofintech B2B2C que usa inteligencia artificial para generar scoring crediticio y conectar a prestamistas/distribuidores de insumos con agricultores, agilizando la aprobación de crédito agrícola. | Modelo B2B2C (cliente es el prestamista, no el agricultor ni el comerciante); evaluación de riesgo con datos alternativos; sin evidencia de campo ni app móvil. | [traivefinance.com](https://traivefinance.com) |
-| Indirecto | <img src="assets/images/chapter02/logos/kilimo.png" width="90"><br>**Kilimo** (Argentina, con presencia en Perú) | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales vendidos a empresas. | Recomendaciones diarias de riego sin hardware; alianzas corporativas de sostenibilidad; no financia parcelas ni conecta al agricultor con un comprador. | [kilimo.com](https://www.kilimo.com) |
+| Directo |  <img alt="farmizen" src="assets/images/chapter02/logos/farmizen.png" width="90"><br> (India) | Permite alquilar una mini-parcela de 600 pies² dentro de una granja real por una cuota mensual; el agricultor cultiva el terreno y el usuario recibe la cosecha semanalmente o la recoge en visitas programadas. | App móvil de seguimiento de parcela (Android/iOS); hasta 6 visitas de campo al mes; entrega semanal a domicilio; sin verificación georreferenciada automática de evidencias. | [farmizen.com](https://www.farmizen.com) |
+| Directo | <img alt="cropital" src="assets/images/chapter02/logos/cropital.png" width="90"><br> (Filipinas) | Plataforma de crowdfunding que conecta inversionistas con pequeños agricultores filipinos identificados individualmente; el inversionista financia el costo de siembra de una granja específica y recibe entre 3% y 30% de retorno tras la cosecha. | Selección de granja específica y nombrada; seguro agrícola incluido; verificación de campo mediante entrevista y visita presencial; retorno en 3 a 6 meses; sin app móvil. | [cropital.com](https://www.cropital.com) |
+| Directo | <img alt="crowdfarming" src="assets/images/chapter02/logos/crowdfarming.png" width="90"><br>(España) | Marketplace B2C donde el consumidor "adopta" un árbol, animal o parcela de un agricultor aliado, pagando por adelantado la producción que recibirá directamente en su domicilio al momento de la cosecha. | Sin intermediarios de distribución; comunicación directa con el agricultor vía fotos/historias; logística propia de envío en Europa; orientado a consumidor final, no a comerciantes. | [crowdfarming.com](https://www.crowdfarming.com) |
+| Indirecto | <img alt="acretrader" src="assets/images/chapter02/logos/acretrader.png" width="90"><br> (EE. UU.) | Plataforma fintech que fracciona la propiedad de terrenos agrícolas para que inversionistas financien tierra de cultivo a cambio de una renta anual pagada por el operador agrícola arrendatario. | Due diligence documental de tierras; retorno de renta anual fija; sin seguimiento operativo del cultivo ni app móvil; el retorno no depende de la cosecha. | [acretrader.com](https://www.acretrader.com) |
+| Indirecto | <img alt="traive" src="assets/images/chapter02/logos/traive.png" width="90"><br>**Traive** (Brasil / EE. UU.) | Plataforma agrofintech B2B2C que usa inteligencia artificial para generar scoring crediticio y conectar a prestamistas/distribuidores de insumos con agricultores, agilizando la aprobación de crédito agrícola. | Modelo B2B2C (cliente es el prestamista, no el agricultor ni el comerciante); evaluación de riesgo con datos alternativos; sin evidencia de campo ni app móvil. | [traivefinance.com](https://traivefinance.com) |
+| Indirecto | <img alt="kilimo" src="assets/images/chapter02/logos/kilimo.png" width="90"><br>**Kilimo** (Argentina, con presencia en Perú) | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales vendidos a empresas. | Recomendaciones diarias de riego sin hardware; alianzas corporativas de sostenibilidad; no financia parcelas ni conecta al agricultor con un comprador. | [kilimo.com](https://www.kilimo.com) |
+<p id="tabla-2"><strong>Tabla 2.</strong> Competidores — Tipo, Competidor, Descripción</p>
 
 ### 2.1.1. Análisis competitivo
 
@@ -648,7 +783,7 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 **¿Por qué llevar a cabo este análisis?**
 ¿Cómo debe posicionarse Muyu frente a plataformas de alquiler de parcela y crowdfunding agrícola ya validadas (Farmizen, Cropital, CrowdFarming) para maximizar la confianza del comerciante comprador, y qué brechas de transparencia y trazabilidad debemos priorizar frente a ellas?
  
-| | | <br><img src="assets/images/chapter02/logos/muyu.jpeg" width="90"> | <br><img src="assets/images/chapter02/logos/farmizen.png" width="70"> | <br><img src="assets/images/chapter02/logos/cropital.png" width="90"> | <br><img src="assets/images/chapter02/logos/crowdfarming.png" width="70"> |
+| | | <br><img alt="muyu" src="assets/images/chapter02/logos/muyu.jpeg" width="90"> | <br><img alt="farmizen" src="assets/images/chapter02/logos/farmizen.png" width="70"> | <br><img alt="cropital" src="assets/images/chapter02/logos/cropital.png" width="90"> | <br><img alt="crowdfarming" src="assets/images/chapter02/logos/crowdfarming.png" width="70"> |
 |---|---|---|---|---|---|
 | **Perfil** | Overview | Marketplace Agro-as-a-Service que conecta agricultores con comerciantes/compradores mediante financiamiento de una parcela específica por ciclo de cultivo, con Escrow y evidencia georreferenciada. | App que permite alquilar una mini-parcela dentro de una granja real por una cuota mensual, con seguimiento del cultivo desde el celular. | Plataforma de crowdfunding que financia granjas específicas de pequeños agricultores filipinos a cambio de un porcentaje de la cosecha/ganancia. | Marketplace de "adopción" de árboles, animales o parcelas, con entrega directa de la cosecha al consumidor final. |
 | | Ventaja competitiva / ¿Qué valor ofrece al cliente? | Escrow con liberación de fondos por hitos verificables (foto + GPS + fecha/hora) y alertas climáticas preventivas, únicos en este grupo de competidores. | Experiencia "gamificada" tipo Farmville; visitas físicas a la parcela alquilada. | Respaldo institucional internacional (EE. UU., Países Bajos, Malasia) y acceso a seguro agrícola para el productor financiado. | Comunidad de adopción consolidada y logística propia de distribución en Europa. |
@@ -662,6 +797,7 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 | | Debilidades | Marca nueva sin comunidad ni historial de transacciones que genere confianza inicial. | No ofrece custodia de fondos por hitos ni verificación georreferenciada automática; reseñas de usuarios señalan quejas de calidad del producto entregado. | Verificación de campo manual (visitas/entrevistas) sin evidencia fotográfica automatizada ni app móvil, lo que limita su velocidad de aprobación y escala geográfica. | No ofrece custodia de fondos por hitos ni verificación automatizada; modelo orientado al consumidor final, no al comerciante B2B. |
 | | Oportunidades | Mercado local (Perú) sin un competidor directo consolidado; alianzas con cooperativas agrarias. | Incorporar verificación de evidencia tipo Escrow para recuperar confianza. | Digitalizar su proceso de verificación de campo con evidencia fotográfica automatizada. | Expansión a mercados latinoamericanos. |
 | | Amenazas | Ingreso de un competidor internacional (como Cropital o CrowdFarming) al mercado local; resistencia tecnológica de agricultores de mayor edad. | Plataformas con mayor transparencia erosionando su ventaja de confianza. | Plataformas con verificación automatizada y app móvil nativa que ofrecen mayor trazabilidad al mismo costo operativo. | Plataformas locales con menor costo operativo y mejor conocimiento del mercado regional, como Muyu. |
+<p id="tabla-3"><strong>Tabla 3.</strong> Matriz de análisis competitivo entre Muyu y competidores directos</p>
  
 **Análisis para competidores indirectos**
  
@@ -671,7 +807,7 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 
 ¿Qué alternativas de financiamiento agrícola indirectas? ¿Como la inversión fraccionada en tierra? ¿Podrían captar al mismo comerciante/inversionista objetivo de Muyu?, y ¿Cómo debemos diferenciarnos para no ser percibidos como un simple vehículo financiero pasivo?
  
-| | | <br><img src="assets/images/chapter02/logos/muyu.jpeg" width="90"> | <br><img src="assets/images/chapter02/logos/acretrader.png" width="90"> | <br><img src="assets/images/chapter02/logos/traive.png" width="90"> | <br><img src="assets/images/chapter02/logos/kilimo.png" width="90"> |
+| | | <br><img alt="muyu" src="assets/images/chapter02/logos/muyu.jpeg" width="90"> | <br><img alt="acretrader" src="assets/images/chapter02/logos/acretrader.png" width="90"> | <br><img alt="traive" src="assets/images/chapter02/logos/traive.png" width="90"> | <br><img alt="kilimo" src="assets/images/chapter02/logos/kilimo.png" width="90"> |
 |---|---|---|---|---|---|
 | **Perfil** | Overview | Marketplace Agro-as-a-Service que conecta agricultores con comerciantes mediante financiamiento de una parcela específica por ciclo de cultivo. | Plataforma fintech que fracciona la propiedad de terrenos agrícolas para que inversionistas financien tierra a cambio de una renta anual. | Plataforma agrofintech B2B2C que usa IA para generar scoring crediticio y conectar prestamistas/distribuidores de insumos con agricultores. | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales. |
 | | Ventaja competitiva / ¿Qué valor ofrece al cliente? | Trazabilidad operativa diaria del cultivo financiado, con evidencia verificable antes de liberar cada pago. | Solidez financiera y diversificación de portafolio para inversionistas institucionales. | Evaluación de riesgo crediticio en tiempo real con datos alternativos, acelerando la aprobación de crédito para insumos. | Recomendaciones diarias de riego sin instalar hardware, con ingreso adicional por ahorro de agua verificado. |
@@ -685,25 +821,28 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 | | Debilidades | Marca nueva sin comunidad ni historial de transacciones. | Enfocado en el inversionista de tierra; no resuelve la necesidad operativa diaria del agricultor ni el abastecimiento del comerciante. | No brinda visibilidad operativa del cultivo ni evidencia verificable; el agricultor no es su cliente directo. | No resuelve el financiamiento del ciclo de cultivo ni conecta al agricultor con un comprador; su alcance se limita al riego. |
 | | Oportunidades | Mercado local sin competidor directo consolidado. | Integrar servicios de seguimiento de cultivo a su oferta actual. | Integrar evidencia de campo geolocalizada a su scoring de riesgo. | Integrar un módulo de financiamiento o marketplace de cosecha a su base ya instalada de agricultores. |
 | | Amenazas | Ingreso de un competidor internacional al mercado local. | Modelos operativos como Muyu, orientados a la operación diaria y no solo al financiamiento de tierra, pueden captar al segmento de comerciantes que AcreTrader no atiende. | Plataformas como Muyu, que ofrecen visibilidad operativa y pago estructurado por hitos, podrían atraer comerciantes que buscan control directo sin depender de un prestamista intermediario. | Plataformas como Muyu podrían incorporar alertas de riego similares aprovechando su misma integración de datos climáticos, reduciendo la necesidad de un servicio separado. |
+<p id="tabla-4"><strong>Tabla 4.</strong> Matriz de análisis competitivo entre Muyu y competidores indirectos</p>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 | Competidor | Táctica diferenciadora | Fortaleza del rival que enfrentamos | Debilidad del rival que aprovechamos |
 |---|---|---|---|
-| <br><img src="assets/images/chapter02/logos/farmizen.png" width="90"> | Ofrecer evidencia georreferenciada automática (GPS + timestamp) y funcionamiento offline-first como estándar desde el primer lanzamiento, en vez de depender de fotos y reportes manuales dentro de la app. | App ya probada, con más de 10 000 descargas y comunidad activa de consumidores. | No custodia fondos por hitos ni verifica automáticamente el origen de las evidencias; usuarios han reportado quejas de calidad del producto entregado. |
-| <br><img src="assets/images/chapter02/logos/cropital.png" width="90"> | Digitalizar por completo el ciclo de verificación: reemplazar las visitas y entrevistas presenciales por evidencia fotográfica georreferenciada y aprobación remota desde el celular del comerciante. | Respaldo institucional internacional y acceso a seguro agrícola para los productores financiados. | Proceso de verificación de campo manual y sin app móvil, lo que limita la velocidad de aprobación de hitos y la escala geográfica. |
-| <br><img src="assets/images/chapter02/logos/crowdfarming.png" width="90"> | Posicionar a Muyu como proveedor de insumo estable para negocios (restaurantes, distribuidores), en vez de competir por el consumidor final urbano orientado a sostenibilidad. | Comunidad de adopción consolidada y logística de distribución propia en Europa. | No ofrece custodia de fondos por hitos ni verificación automatizada; su logística de última milla no está adaptada a la operación de un comerciante comprador. |
-| <br><img src="assets/images/chapter02/logos/acretrader.png" width="90"> | Diferenciarse de un vehículo de inversión pasiva incorporando herramientas de seguimiento diario del cultivo (evidencia, alertas climáticas) que ningún inversionista de tierra necesita, pero todo comerciante comprador sí. | Solidez financiera y modelo de inversión fraccionada ya validado en Estados Unidos. | No atiende la necesidad operativa de abastecimiento del comerciante ni brinda visibilidad del avance del cultivo; solo ofrece retorno financiero pasivo. |
-| <br><img src="assets/images/chapter02/logos/traive.png" width="90"> | Ofrecer al comerciante control directo del pago y visibilidad del cultivo, sin depender de un tercero prestamista que evalúa el riesgo del agricultor a distancia y sin visibilidad de campo. | Modelo de riesgo crediticio con IA validado, con fondeo internacional (Serie A) y adopción por bancos y distribuidores de insumos. | No brinda visibilidad operativa del cultivo ni evidencia verificable del avance; el agricultor no es su cliente directo, sino el prestamista. |
-| <br><img src="assets/images/chapter02/logos/kilimo.png" width="90"> | Posicionar las alertas climáticas de Muyu como parte de un servicio integral de financiamiento y trazabilidad, cubriendo la necesidad de pago y evidencia que Kilimo no atiende, en vez de competir solo en optimización de riego. | Presencia validada en 7 países y alianzas corporativas de sostenibilidad de alto perfil (Coca-Cola, Microsoft, Google). | No conecta al agricultor con un comprador ni resuelve el financiamiento del ciclo de cultivo; su alcance se limita a la gestión del riego. |
+| <br><img alt="farmizen" src="assets/images/chapter02/logos/farmizen.png" width="90"> | Ofrecer evidencia georreferenciada automática (GPS + timestamp) y funcionamiento offline-first como estándar desde el primer lanzamiento, en vez de depender de fotos y reportes manuales dentro de la app. | App ya probada, con más de 10 000 descargas y comunidad activa de consumidores. | No custodia fondos por hitos ni verifica automáticamente el origen de las evidencias; usuarios han reportado quejas de calidad del producto entregado. |
+| <br><img alt="cropital" src="assets/images/chapter02/logos/cropital.png" width="90"> | Digitalizar por completo el ciclo de verificación: reemplazar las visitas y entrevistas presenciales por evidencia fotográfica georreferenciada y aprobación remota desde el celular del comerciante. | Respaldo institucional internacional y acceso a seguro agrícola para los productores financiados. | Proceso de verificación de campo manual y sin app móvil, lo que limita la velocidad de aprobación de hitos y la escala geográfica. |
+| <br><img alt="crowdfarming" src="assets/images/chapter02/logos/crowdfarming.png" width="90"> | Posicionar a Muyu como proveedor de insumo estable para negocios (restaurantes, distribuidores), en vez de competir por el consumidor final urbano orientado a sostenibilidad. | Comunidad de adopción consolidada y logística de distribución propia en Europa. | No ofrece custodia de fondos por hitos ni verificación automatizada; su logística de última milla no está adaptada a la operación de un comerciante comprador. |
+| <br><img alt="acretrader" src="assets/images/chapter02/logos/acretrader.png" width="90"> | Diferenciarse de un vehículo de inversión pasiva incorporando herramientas de seguimiento diario del cultivo (evidencia, alertas climáticas) que ningún inversionista de tierra necesita, pero todo comerciante comprador sí. | Solidez financiera y modelo de inversión fraccionada ya validado en Estados Unidos. | No atiende la necesidad operativa de abastecimiento del comerciante ni brinda visibilidad del avance del cultivo; solo ofrece retorno financiero pasivo. |
+| <br><img alt="traive" src="assets/images/chapter02/logos/traive.png" width="90"> | Ofrecer al comerciante control directo del pago y visibilidad del cultivo, sin depender de un tercero prestamista que evalúa el riesgo del agricultor a distancia y sin visibilidad de campo. | Modelo de riesgo crediticio con IA validado, con fondeo internacional (Serie A) y adopción por bancos y distribuidores de insumos. | No brinda visibilidad operativa del cultivo ni evidencia verificable del avance; el agricultor no es su cliente directo, sino el prestamista. |
+| <br><img alt="kilimo" src="assets/images/chapter02/logos/kilimo.png" width="90"> | Posicionar las alertas climáticas de Muyu como parte de un servicio integral de financiamiento y trazabilidad, cubriendo la necesidad de pago y evidencia que Kilimo no atiende, en vez de competir solo en optimización de riego. | Presencia validada en 7 países y alianzas corporativas de sostenibilidad de alto perfil (Coca-Cola, Microsoft, Google). | No conecta al agricultor con un comprador ni resuelve el financiamiento del ciclo de cultivo; su alcance se limita a la gestión del riego. |
+<p id="tabla-5"><strong>Tabla 5.</strong> Estrategias y tácticas frente a competidores — Competidor, Táctica diferenciadora, Fortaleza del rival que enfrentamos</p>
 
 A partir del análisis competitivo desarrollado, se consolidan las Fortalezas, Oportunidades, Debilidades y Amenazas (FODA) propias de Muyu, y se cruzan para derivar cuatro grupos de estrategias (Corregir, Afrontar, Mantener, Explotar).
 
 | | **Oportunidades (O)** | **Amenazas (A)** |
 |---|---|---|
-| Matriz F.O.D.A. y C.A.M.E.<br><img src="assets/images/chapter02/logos/muyu.jpeg" width="160"> | O1. Mercado peruano/LatAm sin un competidor directo consolidado que combine Escrow + evidencia georreferenciada.<br>O2. Alianzas con cooperativas y asociaciones agrarias ya constituidas (AGRO RURAL, municipios).<br>O3. Vacío dejado por competidores indirectos: Kilimo no financia, Traive no da visibilidad de campo.<br>O4. Penetración creciente de celulares en zonas rurales. | A1. Ingreso de un competidor internacional directo (Cropital, CrowdFarming o Farmizen) al mercado peruano.<br>A2. Resistencia a la adopción tecnológica de agricultores de mayor edad.<br>A3. Que un competidor indirecto (Kilimo o Traive) integre las funciones que hoy diferencian a Muyu.<br>A4. Variabilidad de conectividad y dispositivos antiguos en zonas rurales. |
+| Matriz F.O.D.A. y C.A.M.E.<br><img alt="muyu" src="assets/images/chapter02/logos/muyu.jpeg" width="160"> | O1. Mercado peruano/LatAm sin un competidor directo consolidado que combine Escrow + evidencia georreferenciada.<br>O2. Alianzas con cooperativas y asociaciones agrarias ya constituidas (AGRO RURAL, municipios).<br>O3. Vacío dejado por competidores indirectos: Kilimo no financia, Traive no da visibilidad de campo.<br>O4. Penetración creciente de celulares en zonas rurales. | A1. Ingreso de un competidor internacional directo (Cropital, CrowdFarming o Farmizen) al mercado peruano.<br>A2. Resistencia a la adopción tecnológica de agricultores de mayor edad.<br>A3. Que un competidor indirecto (Kilimo o Traive) integre las funciones que hoy diferencian a Muyu.<br>A4. Variabilidad de conectividad y dispositivos antiguos en zonas rurales. |
 | **Fortalezas (F)**<br>F1. Escrow con liberación de fondos por hitos verificables (foto + GPS + timestamp), único frente a los 6 competidores analizados.<br>F2. Funcionamiento offline-first adaptado a la conectividad limitada del campo.<br>F3. Resuelve simultáneamente financiamiento y trazabilidad operativa; ningún competidor lo hace a la vez. | **Estrategia Ofensiva (FO)**<br>FO1. Usar el Escrow verificable (F1) como argumento central en alianzas con cooperativas (O2), ofreciendo garantía de pago transparente como gancho de adopción.<br>FO2. Aprovechar el offline-first (F2) para posicionarse en zonas rurales de conectividad limitada (O4) antes que competidores internacionales dependientes de conexión constante.<br>FO3. Capitalizar la propuesta única de financiamiento + trazabilidad (F3) para captar al comerciante que hoy usa soluciones parciales como Kilimo o Traive (O3). | **Estrategia Defensiva (FA)**<br>FA1. Comunicar el Escrow verificable (F1) como sello de confianza ante la eventual llegada de un competidor internacional (A1), acelerando el efecto de red local antes de que aterricen.<br>FA2. Diseñar la app para dispositivos de gama baja y modo offline robusto (F2), mitigando el riesgo de exclusión por conectividad o hardware antiguo (A4).<br>FA3. Mantener el foco en un problema resuelto de punta a punta (F3) para que, si un competidor indirecto agrega una función aislada (A3), no logre igualar la propuesta integral de Muyu. |
 | **Debilidades (D)**<br>D1. Marca nueva sin comunidad de usuarios ni historial de transacciones.<br>D2. Dependencia de un solo canal de captación inicial (alianzas con cooperativas) mientras se consolida un flujo propio de adquisición.<br>D3. Sin integraciones con actores financieros externos (a diferencia de Traive) que amplíen el acceso a crédito de los agricultores. | **Estrategia de Reorientación (DO)**<br>DO1. Usar las alianzas con cooperativas (O2) como fuente de validación social que compense la falta de historial de transacciones (D1).<br>DO2. Explorar en una fase posterior una integración ligera con actores de crédito agrícola (O3) para cerrar la brecha de D3 sin construir un motor de scoring propio desde cero.<br>DO3. Diversificar canales de adquisición más allá de cooperativas (mitigando D2), replicando el gancho de alertas climáticas gratuitas con promotores locales y municipios. | **Estrategia de Supervivencia (DA)**<br>DA1. Priorizar el lanzamiento en un solo valle agrícola (foco de nicho) antes de expandirse, para no exponer la debilidad de marca nueva (D1) frente a un competidor internacional en múltiples frentes (A1).<br>DA2. Mantener llamada telefónica como respaldo de las notificaciones push, para que la dependencia de un solo canal (D2) no se agrave si falla la conectividad (A4).<br>DA3. Documentar y resguardar internamente el motor de reglas del Escrow para reducir el riesgo de réplica por un competidor indirecto (A3) mientras la marca aún no tiene defensa reputacional (D1). |
+<p id="tabla-6"><strong>Tabla 6.</strong> Estrategias y tácticas frente a competidores — Oportunidades (O), Amenazas (A)</p>
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
@@ -812,11 +951,12 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 
   <td colspan="2" valign="top">
     <strong>Foto</strong><br>
-    <img src="assets/images/chapter02/entrevistas/comerciante-01.png" width="220">
+    <img alt="comerciante 01" src="assets/images/chapter02/entrevistas/comerciante-01.png" width="220">
   </td>
 </tr>
 
 </table>
+<p id="tabla-7"><strong>Tabla 7.</strong> Segmento: Comerciante / Comprador — Entrevista 1 a comerciante comprador</p>
 
 <table>
 
@@ -858,11 +998,12 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 
   <td colspan="2" valign="top">
     <strong>Foto</strong><br>
-    <img src="assets/images/chapter02/entrevistas/comerciante-02.png" width="220">
+    <img alt="comerciante 02" src="assets/images/chapter02/entrevistas/comerciante-02.png" width="220">
   </td>
 </tr>
 
 </table>
+<p id="tabla-8"><strong>Tabla 8.</strong> Segmento: Comerciante / Comprador — Entrevista 2 a comerciante comprador</p>
 
 ---
 
@@ -907,11 +1048,12 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 
   <td colspan="2" valign="top">
     <strong>Foto</strong><br>
-    <img src="assets/images/chapter02/entrevistas/agricultor-01.png" width="220">
+    <img alt="agricultor 01" src="assets/images/chapter02/entrevistas/agricultor-01.png" width="220">
   </td>
 </tr>
 
 </table>
+<p id="tabla-9"><strong>Tabla 9.</strong> Segmento: Agricultor — Entrevista 3 a agricultora</p>
 
 <table>
 
@@ -952,13 +1094,12 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 
   <td colspan="2" valign="top">
     <strong>Foto</strong><br>
-    <img src="assets/images/chapter02/entrevistas/agricultor-02.png" width="220">
+    <img alt="agricultor 02" src="assets/images/chapter02/entrevistas/agricultor-02.png" width="220">
   </td>
 </tr>
 
 </table>
-
-<table>
+<p id="tabla-10"><strong>Tabla 10.</strong> Segmento: Agricultor — Entrevista 4 a trabajador agrícola</p>
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -967,6 +1108,7 @@ A continuación les mostraremos detalles de las entrevistas:
 #### Distribución de entrevistas por segmento
 
 ![Distribución de entrevistas por segmento](assets/images/chapter02/analysis/interviews-by-segment.png)
+<p id="figura-2"><strong>Figura 2.</strong> Distribución de entrevistas por segmento</p>
 
 *Nota: El 50% de los entrevistados pertenece al segmento Agricultor y el otro 50% al segmento Comerciante / Comprador. Esta distribución permite analizar las necesidades de quienes trabajan directamente con los cultivos y de quienes dependen del abastecimiento agrícola para desarrollar sus actividades comerciales.*
 
@@ -975,6 +1117,7 @@ A continuación les mostraremos detalles de las entrevistas:
 #### Distribución de entrevistados por entorno de trabajo
 
 ![Distribución de entrevistados por entorno de trabajo](assets/images/chapter02/analysis/interviews-by-environment.png)
+<p id="figura-3"><strong>Figura 3.</strong> Distribución de entrevistados por entorno de trabajo</p>
 
 *Nota: El 50% de los entrevistados desarrolla sus actividades principalmente en un entorno rural, mientras que el otro 50% trabaja en un entorno urbano y comercial.*
 
@@ -983,6 +1126,7 @@ A continuación les mostraremos detalles de las entrevistas:
 #### Hallazgos del segmento Comerciante / Comprador
 
 ![Hallazgos del segmento Comerciante / Comprador](assets/images/chapter02/analysis/commercial-segment-findings.png)
+<p id="figura-4"><strong>Figura 4.</strong> Hallazgos del segmento Comerciante / Comprador</p>
 
 *Nota: El abastecimiento oportuno, la calidad e inocuidad, las evidencias visuales, el riesgo en pagos anticipados, el seguimiento y trazabilidad, y la variación de precios estuvieron presentes en el 100% de las entrevistas del segmento. Los avisos desde el celular y la información del suelo aparecieron en el 50%.*
 *Elaboración propia.*
@@ -993,6 +1137,7 @@ El riesgo asociado a los pagos anticipados también estuvo presente en ambas ent
 #### Hallazgos del segmento Agricultor
 
 ![Hallazgos del segmento Agricultor](assets/images/chapter02/analysis/agricultural-segment-findings.png)
+<p id="figura-5"><strong>Figura 5.</strong> Hallazgos del segmento Agricultor</p>
 
 *Nota: La supervisión del cultivo, el riego y fertilización, y el uso del celular estuvieron presentes en el 100% de las entrevistas del segmento Agricultor. El apoyo técnico, la conectividad limitada, el uso de fotografías, videos y audios, la información climática y el trabajo sin conexión aparecieron en el 50%.*
 *Elaboración propia.*
@@ -1003,6 +1148,8 @@ Asimismo, es vital tomar en consideración que para todos los entrevistados ser�
 
 [Ver archivos del análisis de entrevistas](https://drive.google.com/drive/folders/1oKjyxYU3_nnoHlnLRSSLgNb32xE3QeD8?usp=sharing)
 
+Para consultar los materiales complementarios de entrevistas y Needfinding, véanse el [Anexo A](#anexo-a-reporte-de-análisis-de-entrevistas-en-power-bi) y el [Anexo B](#anexo-b-needfinding).
+
 ### Análisis de Dispositivos Móviles y Sistemas Operativos
 
 A partir de las entrevistas realizadas se identificaron los dispositivos móviles empleados por los participantes de ambos segmentos.
@@ -1011,7 +1158,9 @@ A partir de las entrevistas realizadas se identificaron los dispositivos móvile
 | :--- | :--- | :--- | :--- |
 | **Nombre completo** | Lili Vera Vela | **Segmento** | Agricultor |
 | **Entorno** | Rural | **Modelo de celular** | **iPhone 17** |
-| **Sistema operativo** | iOS | **Dispositivo** | <img src="assets/images/chapter02/devices/iphone-17.jpg" width="140"> |
+| **Sistema operativo** | iOS | **Dispositivo** | <img alt="iphone 17" src="assets/images/chapter02/devices/iphone-17.jpg" width="140"> |
+
+<p id="tabla-11"><strong>Tabla 11.</strong> Dispositivo móvil de la Entrevista 1 (segmento Agricultor)</p>
 
 ---
 
@@ -1019,7 +1168,9 @@ A partir de las entrevistas realizadas se identificaron los dispositivos móvile
 | :--- | :--- | :--- | :--- |
 | **Nombre completo** | Estefanía | **Segmento** | Comerciante / Comprador |
 | **Entorno** | Urbano | **Modelo de celular** | **iPhone 15** |
-| **Sistema operativo** | iOS | **Dispositivo** | <img src="assets/images/chapter02/devices/iphone-15.jpg" width="140"> |
+| **Sistema operativo** | iOS | **Dispositivo** | <img alt="iphone 15" src="assets/images/chapter02/devices/iphone-15.jpg" width="140"> |
+
+<p id="tabla-12"><strong>Tabla 12.</strong> Dispositivo móvil de la Entrevista 2 (segmento Comerciante / Comprador)</p>
 
 ---
 
@@ -1027,7 +1178,9 @@ A partir de las entrevistas realizadas se identificaron los dispositivos móvile
 | :--- | :--- | :--- | :--- |
 | **Nombre completo** | Jorge Manuel Nitales Negro | **Segmento** | Agricultor |
 | **Entorno** | Rural | **Modelo de celular** | **Motorola Fusion H50** |
-| **Sistema operativo** | Android | **Dispositivo** | <img src="assets/images/chapter02/devices/motorola-fusion-h50.jpg" width="140"> |
+| **Sistema operativo** | Android | **Dispositivo** | <img alt="motorola fusion h50" src="assets/images/chapter02/devices/motorola-fusion-h50.jpg" width="140"> |
+
+<p id="tabla-13"><strong>Tabla 13.</strong> Dispositivo móvil de la Entrevista 3 (segmento Agricultor)</p>
 
 ---
 
@@ -1035,7 +1188,9 @@ A partir de las entrevistas realizadas se identificaron los dispositivos móvile
 | :--- | :--- | :--- | :--- |
 | **Nombre completo** | Sebastian Velgara Arturo Chavez | **Segmento** | Comerciante / Comprador |
 | **Entorno** | Urbano | **Modelo de celular** | **iPhone 17** |
-| **Sistema operativo** | iOS | **Imagen** |  <img src="assets/images/chapter02/devices/iphone-17.jpg" width="140"> |
+| **Sistema operativo** | iOS | **Imagen** |  <img alt="iphone 17" src="assets/images/chapter02/devices/iphone-17.jpg" width="140"> |
+
+<p id="tabla-14"><strong>Tabla 14.</strong> Dispositivo móvil de la Entrevista 4 (segmento Comerciante / Comprador)</p>
 
 **Estadística de Sistemas Operativos:**
 
@@ -1043,6 +1198,7 @@ A partir de las entrevistas realizadas se identificaron los dispositivos móvile
 El análisis realizado en Power BI muestra la distribución de los sistemas operativos y dispositivos identificados durante las entrevistas.
 
 ![Análisis de dispositivos móviles y sistemas operativos](assets/images/chapter02/analysis/mobile-devices-operating-systems.png)
+<p id="figura-6"><strong>Figura 6.</strong> Análisis de dispositivos móviles y sistemas operativos</p>
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
@@ -1052,15 +1208,17 @@ A partir de la información obtenida durante las entrevistas y del análisis de 
 #### User Persona: Segmento Agricultor
 
 <div align="center">
-  <img src="assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png" width="524" style="width: 100%; max-width: 524px; height: auto; display: block; margin: 0 auto;" />
+  <img alt="User Persona del segmento Agricultor" src="assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png" width="524" style="width: 100%; max-width: 524px; height: auto; display: block; margin: 0 auto;" />
 </div>
+<p id="figura-7"><strong>Figura 7.</strong> User Persona del segmento Agricultor</p>
 
 #### User Persona: Segmento Comerciante / Comprador
 
 
 <div align="center">
-  <img src="assets/images/chapter02/uxpressia/valeria-user-persona.png" width="524" style="width: 100%; max-width: 524px; height: auto; display: block; margin: 0 auto;" />
+  <img alt="User Persona del segmento Comerciante / Comprador" src="assets/images/chapter02/uxpressia/valeria-user-persona.png" width="524" style="width: 100%; max-width: 524px; height: auto; display: block; margin: 0 auto;" />
 </div>
+<p id="figura-8"><strong>Figura 8.</strong> User Persona del segmento Comerciante / Comprador</p>
 
 ### 2.3.2. User Task Matrix
 
@@ -1136,6 +1294,7 @@ Para la elaboración de la User Task Matrix se consideran las tareas relacionada
   <td>Rara vez</td>
 </tr>
 </table>
+<p id="tabla-15"><strong>Tabla 15.</strong> Matriz de tareas de usuario para los segmentos Agricultor y Comerciante / Comprador</p>
 
 ### 2.3.3. User Journey Mapping
 El recorrido que se describe es un viaje de cinco fases que generalmente va de la esperanza a la frustración: inicia con el descubrimiento (Aware), pasa por una implementación incierta (Join) y alcanza un punto crítico de confusión al enfrentar un problema (Use). Este ciclo de aprendizaje por prueba y error (Develop) y que al final desemboca en (Leave).
@@ -1143,24 +1302,28 @@ El recorrido que se describe es un viaje de cinco fases que generalmente va de l
 
 
 ![User Journey Map - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-user-journey.png)
+<p id="figura-9"><strong>Figura 9.</strong> User Journey Map - Segmento Agricultor</p>
 
 #### User Journey Map: Segmento Comerciante / Comprador
 
 ![User Journey Map - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-mendoza-user-journey.png)
+<p id="figura-10"><strong>Figura 10.</strong> User Journey Map - Segmento Comerciante / Comprador</p>
 
 ### 2.3.4. Empathy Mapping
 
 #### Empathy Map: Segmento Agricultor
 
 <div align="center" style="border: 1px solid #d9d9d9; padding: 10px; margin: 15px 0;">
-  <img src="assets/images/chapter02/uxpressia/miguel-quispe-empathy-map.png" width="500" style="width: 100%; max-width: 500px; height: auto; display: block; margin: 0 auto;" />
+  <img alt="Empathy Map: Segmento Agricultor — miguel quispe empathy map" src="assets/images/chapter02/uxpressia/miguel-quispe-empathy-map.png" width="500" style="width: 100%; max-width: 500px; height: auto; display: block; margin: 0 auto;" />
 </div>
+<p id="figura-11"><strong>Figura 11.</strong> Mapa de empatía del segmento Agricultor (Miguel Quispe)</p>
 
 #### Empathy Map: Segmento Comerciante / Comprador
 
 <div align="center" style="border: 1px solid #d9d9d9; padding: 10px; margin: 15px 0;">
-  <img src="assets/images/chapter02/uxpressia/valeria-mendoza-empathy-map.png" width="500" style="width: 100%; max-width: 500px; height: auto; display: block; margin: 0 auto;" />
+  <img alt="Empathy Map: Segmento Comerciante / Comprador — valeria mendoza empathy map" src="assets/images/chapter02/uxpressia/valeria-mendoza-empathy-map.png" width="500" style="width: 100%; max-width: 500px; height: auto; display: block; margin: 0 auto;" />
 </div>
+<p id="figura-12"><strong>Figura 12.</strong> Mapa de empatía del segmento Comerciante / Comprador (Valeria Mendoza)</p>
 
 ### 2.3.5. Big Picture EventStorming
 
@@ -1171,14 +1334,17 @@ El equipo realizó una sesión de Big Picture Event Storming con el objetivo de 
 En esta etapa se identificaron los eventos principales del dominio, expresados en pasado, sin enfocarse aún en su orden definitivo. El objetivo fue recopilar los hechos más relevantes que ocurren dentro del negocio.
 
 ![Step 1 - Collect Domain Events](assets/images/chapter02/event-storming/step-1-collect-domain-events.png)
+<p id="figura-13"><strong>Figura 13.</strong> Step 1 - Collect Domain Events</p>
 
 #### Step 2: Refine Domain Events
 
 ![Step 2 - Refine Domain Events](assets/images/chapter02/event-storming/step-2-refine-domain-events.png)
+<p id="figura-14"><strong>Figura 14.</strong> Step 2 - Refine Domain Events</p>
 
 #### Step 3: Track Causes
 
 ![Step 3 - Track Causes](assets/images/chapter02/event-storming/step-3-track-causes.png)
+<p id="figura-15"><strong>Figura 15.</strong> Step 3 - Track Causes</p>
 
 En conjunto, el Big Picture Event Storming permitió al equipo comprender de manera general el funcionamiento del negocio, identificar el flujo principal del proceso y reconocer escenarios alternativos que deben ser considerados en el diseño de la solución.
 
@@ -1209,6 +1375,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
 | **Correction Request** | Solicitud de corrección | Solicitud realizada después del rechazo de un hito para que el agricultor corrija o complete la evidencia requerida. |
 | **Payment Release** | Liberación de pago | Liberación de los fondos correspondientes después de que un hito cumple las condiciones establecidas. |
 | **Climate Alert** | Alerta climática | Aviso relacionado con una condición climática que puede afectar las labores agrícolas o el estado del cultivo. |
+<p id="tabla-16"><strong>Tabla 16.</strong> 2.3.6. Ubiquitous Language — Term, Spanish equivalent, Definition</p>
 
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
@@ -1220,6 +1387,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
 | **EPIC-03** | Ejecución Agrícola y Evidencias | Registro de las labores de cultivo en el campo, presentación de reportes y almacenamiento de evidencias fotográficas. |
 | **EPIC-04** | Revisión y Flujo de Pagos | Motor de decisiones del comerciante para aprobar hitos o solicitar correcciones, y la consecuente liberación de pagos. |
 | **EPIC-05** | Proceso Climático | Recepción de datos meteorológicos externos y emisión de alertas de riesgo para proteger las labores agrícolas. |
+<p id="tabla-17"><strong>Tabla 17.</strong> User Stories — Epic ID, Título de la Epic, Descripción</p>
 
 <table width="100%">
   <thead>
@@ -1268,6 +1436,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-18"><strong>Tabla 18.</strong> User Stories — US01 — Registro inicial de usuario</p>
 
 <br>
 
@@ -1318,6 +1487,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-19"><strong>Tabla 19.</strong> User Stories — US02 — Registro de datos bancarios</p>
 
 <br>
 
@@ -1368,6 +1538,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-20"><strong>Tabla 20.</strong> User Stories — US03 — Publicación de nueva parcela</p>
 
 <br>
 
@@ -1418,6 +1589,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-21"><strong>Tabla 21.</strong> User Stories — US04 — Búsqueda y filtrado de parcelas</p>
 
 <br>
 
@@ -1468,6 +1640,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-22"><strong>Tabla 22.</strong> User Stories — US05 — Financiamiento directo de parcela</p>
 
 
 <br>
@@ -1519,6 +1692,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-23"><strong>Tabla 23.</strong> User Stories — US06 — Solicitud de visita presencial a la parcela</p>
 
 <br>
 
@@ -1569,6 +1743,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-24"><strong>Tabla 24.</strong> User Stories — US07 — Confirmación de acuerdo y fijación de precio tras visita presencial</p>
 
 <br>
 
@@ -1619,6 +1794,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-25"><strong>Tabla 25.</strong> User Stories — US08 — Registro fotográfico de evidencia</p>
 
 <br>
 
@@ -1669,6 +1845,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-26"><strong>Tabla 26.</strong> User Stories — US09 — Reenvío de evidencia corregida</p>
 
 <br>
 
@@ -1719,6 +1896,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-27"><strong>Tabla 27.</strong> User Stories — US10 — Aprobación de evidencia y orden de liberación de pago</p>
 
 <br>
 
@@ -1769,6 +1947,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-28"><strong>Tabla 28.</strong> User Stories — US11 — Solicitud de corrección técnica</p>
 
 <br>
 
@@ -1819,6 +1998,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-29"><strong>Tabla 29.</strong> User Stories — US12 — Visualización de historial de pagos</p>
 
 <br>
 
@@ -1869,6 +2049,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-30"><strong>Tabla 30.</strong> User Stories — US13 — Solicitud de prórroga por contingencia agrícola</p>
 
 <br>
 
@@ -1919,6 +2100,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-31"><strong>Tabla 31.</strong> User Stories — US14 — Recepción de alertas climáticas de riesgo</p>
 
 <br>
 
@@ -1969,6 +2151,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-32"><strong>Tabla 32.</strong> User Stories — US15 — Seguimiento de cronograma y avance de hitos en parcelas activas</p>
 
 <br>
 
@@ -2019,6 +2202,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-33"><strong>Tabla 33.</strong> User Stories — US16 — Inicio de sesión y acceso según rol</p>
 
 <br>
 
@@ -2069,6 +2253,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-34"><strong>Tabla 34.</strong> User Stories — US17 — Recuperación segura de contraseña</p>
 
 <br>
 
@@ -2119,6 +2304,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-35"><strong>Tabla 35.</strong> User Stories — US18 — Recorrido de bienvenida según el rol</p>
 
 <br>
 
@@ -2169,6 +2355,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-36"><strong>Tabla 36.</strong> User Stories — US19 — Consulta y actualización del perfil y preferencias</p>
 
 <br>
 
@@ -2219,6 +2406,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-37"><strong>Tabla 37.</strong> User Stories — US20 — Panel resumen de parcelas del agricultor</p>
 
 <br>
 
@@ -2269,6 +2457,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-38"><strong>Tabla 38.</strong> User Stories — US21 — Definición de financiamiento y plan de desembolsos de una parcela</p>
 
 <br>
 
@@ -2319,6 +2508,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-39"><strong>Tabla 39.</strong> User Stories — US22 — Consulta detallada y contacto con el agricultor</p>
 
 <br>
 
@@ -2369,6 +2559,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-40"><strong>Tabla 40.</strong> User Stories — US23 — Recuperación de un pago de financiamiento rechazado</p>
 
 <br>
 
@@ -2419,6 +2610,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-41"><strong>Tabla 41.</strong> User Stories — US24 — Registro de datos técnicos y validación de ubicación de la labor</p>
 
 <br>
 
@@ -2469,6 +2661,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-42"><strong>Tabla 42.</strong> User Stories — US25 — Gestión de la cola de sincronización de evidencias</p>
 
 <br>
 
@@ -2519,6 +2712,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-43"><strong>Tabla 43.</strong> User Stories — US26 — Recepción de alertas climáticas y recomendaciones para el agricultor</p>
 
 <br>
 
@@ -2569,6 +2763,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-44"><strong>Tabla 44.</strong> User Stories — US27 — Consulta del detalle y comprobante de un pago recibido</p>
 
 <br>
 
@@ -2619,6 +2814,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-45"><strong>Tabla 45.</strong> User Stories — US28 — Historial de financiamientos del comerciante</p>
 
 <br>
 
@@ -2669,6 +2865,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-46"><strong>Tabla 46.</strong> User Stories — US29 — Centro de notificaciones del comerciante</p>
 
 <br>
 
@@ -2719,6 +2916,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-47"><strong>Tabla 47.</strong> User Stories — US30 — Confirmación de recepción de la cosecha</p>
 
 <br>
 
@@ -2769,6 +2967,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-48"><strong>Tabla 48.</strong> User Stories — US31 — Registro de una incidencia en la entrega de cosecha</p>
 
 <br>
 
@@ -2823,6 +3022,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-49"><strong>Tabla 49.</strong> User Stories — US32 — Respuesta del agricultor a una solicitud de visita</p>
 
 <br>
 
@@ -2873,6 +3073,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-50"><strong>Tabla 50.</strong> User Stories — US33 — Registro de medidas tomadas ante una alerta climática</p>
 
 <br>
 
@@ -2923,6 +3124,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-51"><strong>Tabla 51.</strong> User Stories — US34 — Calificación del comerciante al finalizar el acuerdo</p>
 
 <br>
 
@@ -2977,6 +3179,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-52"><strong>Tabla 52.</strong> User Stories — US35 — Seguimiento de un pago de financiamiento en verificación</p>
 <br>
 
 <table width="100%">
@@ -3026,6 +3229,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-53"><strong>Tabla 53.</strong> User Stories — TS01 — API de Autenticación y JWT</p>
 
 <br>
 
@@ -3076,6 +3280,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-54"><strong>Tabla 54.</strong> User Stories — TS02 — Middleware de autorización (RBAC)</p>
 
 <br>
 
@@ -3126,6 +3331,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-55"><strong>Tabla 55.</strong> User Stories — TS03 — Servicio de retención en Escrow</p>
 
 <br>
 
@@ -3176,6 +3382,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-56"><strong>Tabla 56.</strong> User Stories — TS04 — API de almacenamiento de archivos</p>
 
 <br>
 
@@ -3226,6 +3433,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-57"><strong>Tabla 57.</strong> User Stories — TS05 — Motor de liberación de pagos</p>
 
 <br>
 
@@ -3276,6 +3484,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-58"><strong>Tabla 58.</strong> User Stories — TS06 — Generador de comprobantes PDF</p>
 
 <br>
 
@@ -3326,6 +3535,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-59"><strong>Tabla 59.</strong> User Stories — TS07 — Webhook de riesgos climáticos</p>
 
 <br>
 
@@ -3376,6 +3586,7 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-60"><strong>Tabla 60.</strong> User Stories — TS08 — Motor de alertas meteorológicas</p>
 
 <br>
 
@@ -3426,20 +3637,23 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
+<p id="tabla-61"><strong>Tabla 61.</strong> User Stories — SP01 — Evaluación de almacenamiento y sincronización offline de fotografías</p>
 
 ### 2.4.2. Impact Mapping
 
 #### Impact Mapping - Agricultor
 
 <p align="center">
-  <img src="assets/images/chapter02/Impact map agricultor.png" Alt="Impact map Agricultor" width="800"/>  
+  <img src="assets/images/chapter02/Impact map agricultor.png" alt="Impact Mapping - Agricultor — Impact map agricultor" width="800"/>
 </p>
+<p id="figura-16"><strong>Figura 16.</strong> Impact Mapping agricultor</p>
 
 #### Impact Mapping - Comerciante
 
 <p align="center">
-  <img src="assets/images/chapter02/impact map comerciante.png" Alt="Impact map Comerciante" width="800"/>  
+  <img src="assets/images/chapter02/impact map comerciante.png" alt="Impact Mapping - Comerciante — impact map comerciante" width="800"/>
 </p>
+<p id="figura-17"><strong>Figura 17.</strong> Impact map comerciante</p>
 
 
 ### 2.4.3. Product Backlog
@@ -3473,6 +3687,7 @@ El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario 
 | 25 | **US15** | Calificación al comprador al finalizar contrato | 2 | Sprint 4 |
 | 26 | **US18** | Evaluación de calidad del productor agrícola | 2 | Sprint 4 |
 | 27 | **US19** | Reporte de incidencias y soporte técnico | 2 | Sprint 4 |
+<p id="tabla-62"><strong>Tabla 62.</strong> Product Backlog — Orden, User Story Id, Título</p>
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
@@ -3485,20 +3700,23 @@ A continuación se presenta la evidencia gráfica dividida en la vista general d
 * **Vista General del Tablero:** Muestra la vista panorámica completa de la línea de tiempo del dominio, abarcando desde la fase de alta de parcelas hasta la conclusión de los contratos agrícolas.
 
 <p align="center">
-  <img src="assets/images/chapter02/EventStormingGeneral.png" width="800" />
+  <img alt="2.5.1. EventStorming — EventStormingGeneral" src="assets/images/chapter02/EventStormingGeneral.png" width="800" />
 </p>
+<p id="figura-18"><strong>Figura 18.</strong> EventStorming — EventStormingGeneral</p>
 
 * **Fase de Onboarding, Registro y Negociación:** Detalla el flujo inicial de captura de coordenadas GPS, publicación de hectáreas en el catálogo y la generación y firma del contrato digital respaldado en PDF.
 
 <p align="center">
-  <img src="assets/images/chapter02/EventStorming01.png" width="400" />
+  <img alt="2.5.1. EventStorming — EventStorming01" src="assets/images/chapter02/EventStorming01.png" width="400" />
 </p>
+<p id="figura-19"><strong>Figura 19.</strong> EventStorming — EventStorming01</p>
 
 * **Fase de Custodia Escrow, Monitoreo Climático y Liberación de Pagos:** Modela la secuencia financiera de bloqueo de fondos en la bóveda, el envío de alertas meteorológicas y la validación de evidencias fotográficas para los desembolsos parciales por hitos cumplidos.
 
 <p align="center">
-  <img src="assets/images/chapter02/EventStorming02.png" width="400" />
+  <img alt="2.5.1. EventStorming — EventStorming02" src="assets/images/chapter02/EventStorming02.png" width="400" />
 </p>
+<p id="figura-20"><strong>Figura 20.</strong> EventStorming — EventStorming02</p>
 
 
 #### 2.5.1.1. Candidate Context Discovery
@@ -3513,8 +3731,9 @@ A continuación, se detalla la evolución progresiva del dominio a través de la
 En la primera etapa se organizó la línea de tiempo del proceso de negocio, dividiendo las acciones, comandos, agregados y sistemas externos en 7 bloques secuenciales:
 
 <p align="center">
-  <img src="assets/images/chapter02/event-storming/discovery-01.png" width="800" />
+  <img alt="Paso 1: Mapeo y Descomposición del Timeline de Procesos — discovery 01" src="assets/images/chapter02/event-storming/discovery-01.png" width="800" />
 </p>
+<p id="figura-21"><strong>Figura 21.</strong> Mapeo y Descomposición del Timeline de Procesos</p>
 
 1. **Financiación de parcelas:** Negociación y acuerdo inicial entre el agricultor y el comerciante.
 2. **Custodia de capital en depósito en garantía:** Proceso de retención de fondos en la pasarela Escrow.
@@ -3531,8 +3750,9 @@ En la primera etapa se organizó la línea de tiempo del proceso de negocio, div
 En esta fase se trazaron los primeros límites candidateando agrupaciones de subprocesos donde se detectaron eventos pivote (cambios significativos de estado o de responsabilidad operativa).
 
 <p align="center">
-  <img src="assets/images/chapter02/event-storming/discovery-02.png" width="800" />
+  <img alt="Paso 2: Delimitación Preliminar e Identificación de Eventos Pivote — discovery 02" src="assets/images/chapter02/event-storming/discovery-02.png" width="800" />
 </p>
+<p id="figura-22"><strong>Figura 22.</strong> Delimitación Preliminar e Identificación de Eventos Pivote</p>
 
 Se identificó de manera temprana la frontera que separa la administración y validación previa del terreno (**Registro y Aprobación de la Parcela**) de los flujos transaccionales y de ejecución que suceden con posterioridad.
 
@@ -3543,8 +3763,9 @@ Se identificó de manera temprana la frontera que separa la administración y va
 En la etapa final, el equipo refinó las agrupaciones hasta definir los **5 Bounded Contexts principales** de la plataforma, modelando los flujos de comunicación e intercambio de eventos de dominio entre ellos:
 
 <p align="center">
-  <img src="assets/images/chapter02/event-storming/discovery-03.png" width="800" />
+  <img alt="Paso 3: Consolidación e Interconexión de Bounded Contexts — discovery 03" src="assets/images/chapter02/event-storming/discovery-03.png" width="800" />
 </p>
+<p id="figura-23"><strong>Figura 23.</strong> Consolidación e Interconexión de Bounded Contexts</p>
 
 1. **Gestión y Aprobación de Parcelas (*Parcel Management Service*):** Bounded Context enfocado en el catálogo de terrenos, geolocalización por coordenadas GPS, tipo de suelo y estado de disponibilidad de la parcela.
 2. **Financiamiento y Contratación (*Agreements / Contract Service*):** Bounded Context responsable de gestionar las ofertas de abastecimiento, la negociación de volúmenes y la formalización de contratos agrícolas digitales.
@@ -3567,8 +3788,9 @@ A continuación, se documenta la colaboración distribuida en tres vistas clave 
 Modela el proceso desde el alta del terreno hasta la solicitud del contrato comercial:
 
 <p align="center">
-  <img src="assets/images/chapter02/event-storming/flows-01.png" width="800" />
+  <img alt="Vista 1: Registro, Catálogo y Contratación — flows 01" src="assets/images/chapter02/event-storming/flows-01.png" width="800" />
 </p>
+<p id="figura-24"><strong>Figura 24.</strong> Vista 1: Registro, Catálogo y Contratación — flows 01</p>
 
 1. **Registrar Parcela:** El agricultor ingresa datos del terreno (área, ubicación GPS, fotos) desde la App Móvil.
 2. **Validar Parcela:** La App envía la información al Bounded Context de *Gestión de Parcelas*.
@@ -3585,8 +3807,9 @@ Modela el proceso desde el alta del terreno hasta la solicitud del contrato come
 Modela la retención del capital en garantía y el registro de evidencias en el campo:
 
 <p align="center">
-  <img src="assets/images/chapter02/event-storming/flows-02.png" width="800" />
+  <img alt="Vista 2: Custodia Escrow y Trabajo de Campo — flows 02" src="assets/images/chapter02/event-storming/flows-02.png" width="800" />
 </p>
+<p id="figura-25"><strong>Figura 25.</strong> Vista 2: Custodia Escrow y Trabajo de Campo — flows 02</p>
 
 1. **Depositar Capital:** El comerciante transfiere los fondos requeridos hacia el Bounded Context de *Custodia Escrow*.
 2. **Contrato Activado:** Confirmado el depósito, se emite el estado de activación del acuerdo agrícola.
@@ -3601,8 +3824,9 @@ Modela la retención del capital en garantía y el registro de evidencias en el 
 Modela la aprobación de entregables, la liberación de pagos y la notificación preventiva de alertas meteorológicas:
 
 <p align="center">
-  <img src="assets/images/chapter02/event-storming/flows-03.png" width="800" />
+  <img alt="Vista 3: Auditoría, Desembolso y Clima — flows 03" src="assets/images/chapter02/event-storming/flows-03.png" width="800" />
 </p>
+<p id="figura-26"><strong>Figura 26.</strong> Vista 3: Auditoría, Desembolso y Clima — flows 03</p>
 
 1. **Aprobar Hito:** El comerciante evalúa las pruebas recibidas desde la App Móvil y emite su conformidad.
 2. **Procesar Aprobación:** La App comunica la decisión al Bounded Context de *Ejecución y Evidencias*.
@@ -3623,8 +3847,9 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 
 
 <p align="center">
-  <img src="assets/images/chapter02/event-storming/bounded-03.png" width="700" />
+  <img alt="1. Custodia de Fondos en Escrow (*Core Domain*) — bounded 03" src="assets/images/chapter02/event-storming/bounded-03.png" width="700" />
 </p>
+<p id="figura-27"><strong>Figura 27.</strong> Custodia de Fondos en Escrow (*Core Domain*) — bounded 03</p>
 
 
 * **Descripción:** Administrar la retención de capital en garantía y la ejecución de desembolsos parciales irreversibles tras la aprobación de cada hito.
@@ -3638,8 +3863,9 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 
 
 <p align="center">
-  <img src="assets/images/chapter02/event-storming/bounded-04.png" width="700" />
+  <img alt="2. Ejecución Agrícola y Evidencias (*Core Domain*) — bounded 04" src="assets/images/chapter02/event-storming/bounded-04.png" width="700" />
 </p>
+<p id="figura-28"><strong>Figura 28.</strong> Ejecución Agrícola y Evidencias (*Core Domain*) — bounded 04</p>
 
 
 * **Descripción:** Gestionar el calendario de actividades en campo, la captura offline de evidencias fotográficas georreferenciadas y la revisión/aprobación de hitos.
@@ -3652,8 +3878,9 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 
 
 <p align="center">
-  <img src="assets/images/chapter02/event-storming/bounded-02.png" width="700" />
+  <img alt="3. Financiamiento y Contratación (*Supporting Domain*) — bounded 02" src="assets/images/chapter02/event-storming/bounded-02.png" width="700" />
 </p>
+<p id="figura-29"><strong>Figura 29.</strong> Financiamiento y Contratación (*Supporting Domain*) — bounded 02</p>
 
 * **Descripción:** Permitir explorar el catálogo de parcelas aprobadas, simular rendimientos, negociar condiciones comerciales y formalizar contratos digitales.
 * **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
@@ -3665,8 +3892,9 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 
 
 <p align="center">
-  <img src="assets/images/chapter02/event-storming/bounded-01.png" width="700" />
+  <img alt="4. Gestión y Aprobación de Parcelas (*Supporting Domain*) — bounded 01" src="assets/images/chapter02/event-storming/bounded-01.png" width="700" />
 </p>
+<p id="figura-30"><strong>Figura 30.</strong> Gestión y Aprobación de Parcelas (*Supporting Domain*) — bounded 01</p>
 
 * **Descripción:** Registrar parcelas agrícolas mediante georreferenciación GPS, validar la documentación de propiedad y publicar terrenos aptos en el catálogo público.
 * **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
@@ -3677,8 +3905,9 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 #### 5. Monitoreo Climático y Riesgos (*Generic Domain*)
 
 <p align="center">
-  <img src="assets/images/chapter02/event-storming/bounded-05.png" width="700" />
+  <img alt="5. Monitoreo Climático y Riesgos (*Generic Domain*) — bounded 05" src="assets/images/chapter02/event-storming/bounded-05.png" width="700" />
 </p>
+<p id="figura-31"><strong>Figura 31.</strong> Monitoreo Climático y Riesgos (*Generic Domain*) — bounded 05</p>
 
 * **Descripción:** Recopilar datos meteorológicos externos en tiempo real, evaluar patrones de riesgo climático y emitir alertas preventivas automáticas hacia los usuarios.
 * **Clasificación Estratégica:** Domain: *Generic* | Business Model: *Cost Reduction* | Evolution: *Commodity*.
@@ -3692,8 +3921,9 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 A continuación, se presenta el diagrama de Context Mapping (Mapa de Contexto) del proyecto Muyu. Este diagrama ilustra de manera clara la estructura estratégica de la solución, definiendo los límites explícitos entre los distintos Bounded Contexts (Contextos Delimitados) identificados en el sistema y estableciendo las relaciones de integración, flujo de datos y patrones de comunicación (como Customer-Supplier, Shared Kernel, o Upstream/Downstream) que gobiernan la interacción entre cada uno de los microservicios y módulos de la plataforma.
 
 <p align="center">
-  <img src="assets/images/chapter02/context.png" width="400"/>
+  <img alt="2.5.2. Context Mapping — context" src="assets/images/chapter02/context.png" width="400"/>
 </p>
+<p id="figura-32"><strong>Figura 32.</strong> Context Mapping — context</p>
 
 
 ### 2.5.3. Software Architecture
@@ -3704,19 +3934,22 @@ Para entender cómo se relaciona la aplicación móvil MUYU con su entorno, el d
 
 Este diagrama de contexto ilustra cómo la aplicación móvil MUYU interactúa de forma general con los usuarios en campo y los servicios externos del sistema.
 
-  <img src="assets/images/chapter02/context-level.png" width="1000"/>  
+  <img alt="2.5.3.1. Software Architecture Context Level Diagrams — context level" src="assets/images/chapter02/context-level.png" width="1000"/>
+<p id="figura-33"><strong>Figura 33.</strong> Software Architecture Context Level Diagrams — context level</p>
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 Este diagrama de contenedores muestra los bloques tecnológicos internos de MUYU, destacando la aplicación cliente, su base de datos local para modo offline y los microservicios backend.
 
- <img src="assets/images/chapter02/container-level.png" width="1000"/>  
+ <img alt="2.5.3.2. Software Architecture Container Level Diagrams — container level" src="assets/images/chapter02/container-level.png" width="1000"/>
+<p id="figura-34"><strong>Figura 34.</strong> Software Architecture Container Level Diagrams — container level</p>
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 Este diagrama de despliegue representa la infraestructura física y en la nube donde se ejecuta la aplicación móvil y se conectan sus servidores.
 
- <img src="assets/images/chapter02/deployment-level.png" width="1000"/>  
+ <img alt="2.5.3.3. Software Architecture Deployment Level Diagrams — deployment level" src="assets/images/chapter02/deployment-level.png" width="1000"/>
+<p id="figura-35"><strong>Figura 35.</strong> Software Architecture Deployment Diagrams — deployment level</p>
 
 
 ## 2.6. Tactical-Level Domain-Driven Design
@@ -3764,23 +3997,26 @@ Gestiona la persistencia espacial y la integración con validadores de mapas.
 Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Gestión y Aprobación de Parcelas**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_parcel.png" alt="Contract Parcel Component Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_parcel.png" alt="2.6.1.5. Bounded Context Software Architecture Component Level Diagrams — level diagrams contract parcel" width="800" />
 </div>
+<p id="figura-36"><strong>Figura 36.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract parcel</p>
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Parcel`) y cómo interactúa con los servicios de comando y consulta (CQRS).
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_parcel.png" alt="Contract Escrow Class Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_parcel.png" alt="2.6.1.6.1. Bounded Context Domain Layer Class Diagrams — class diagram contract parcel" width="800" />
 </div>
+<p id="figura-37"><strong>Figura 37.</strong> Bounded Context Domain Layer Class Diagrams — class diagram contract parcel</p>
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 Este diagrama relacional conectando `parcels` y `parcel_boundaries`, donde cada límite geográfico pertenece a una parcela, garantizando la trazabilidad espacial del terreno.
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_parcel.png" alt="Contract Escrow Database Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_parcel.png" alt="2.6.1.6.2. Bounded Context Database Design Diagram — db diagram contract parcel" width="800" />
 </div>
+<p id="figura-38"><strong>Figura 38.</strong> Bounded Context Database Design Diagram — db diagram contract parcel</p>
 
 ### 2.6.2. Bounded Context: Financiamiento y Contratación Service
 Representa la capacidad del sistema encargada de gestionar la exploración del catálogo de parcelas, la generación de propuestas de financiamiento, la negociación de condiciones y la formalización de contratos digitales de abastecimiento. La entidad principal es `Agreement`, la cual concentra las reglas de negocio del acuerdo entre el agricultor y el comerciante.
@@ -3823,23 +4059,26 @@ Gestiona la persistencia de los contratos y la publicación de eventos al bus de
 Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Financiamiento y Contratación**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_financiamiento.png" alt="Contract Parcel Component Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_financiamiento.png" alt="2.6.2.5. Bounded Context Software Architecture Component Level Diagrams — level diagrams contract financiamiento" width="800" />
 </div>
+<p id="figura-39"><strong>Figura 39.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract financiamiento</p>
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Agreement`) y cómo interactúa con los servicios de comando y consulta (CQRS).
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_financiamiento.png" alt="Contract Escrow Class Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_financiamiento.png" alt="2.6.2.6.1. Bounded Context Domain Layer Class Diagrams — class diagram contract financiamiento" width="800" />
 </div>
+<p id="figura-40"><strong>Figura 40.</strong> Bounded Context Domain Layer Class Diagrams — class diagram contract financiamiento</p>
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 Este diagrama relacional conectando `agreements` y `disbursement_plans`, donde cada plan de pago por hito pertenece a un contrato comercial establecido.
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_financiamiento.png" alt="Contract Escrow Database Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_financiamiento.png" alt="2.6.2.6.2. Bounded Context Database Design Diagram — db diagram contract financiamiento" width="800" />
 </div>
+<p id="figura-41"><strong>Figura 41.</strong> Bounded Context Database Design Diagram — db diagram contract financiamiento</p>
 
 
 ### 2.6.3. Bounded Context: Custodia de Fondos en Escrow Service
@@ -3882,21 +4121,24 @@ Gestiona la persistencia de los registros financieros y la integración con enti
 Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Custodia de Fondos en Escrow**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_escrow.png" alt="Contract Parcel Component Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_escrow.png" alt="2.6.3.5. Bounded Context Software Architecture Component Level Diagrams — level diagrams contract escrow" width="800" />
 </div>
+<p id="figura-42"><strong>Figura 42.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract escrow</p>
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`EscrowAccount`) y cómo interactúa con los servicios de comando y consulta (CQRS).
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_escrow.png" alt="Contract Escrow Class Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_escrow.png" alt="2.6.3.6.1. Bounded Context Domain Layer Class Diagrams — class diagram contract escrow" width="800" />
 </div>
+<p id="figura-43"><strong>Figura 43.</strong> Bounded Context Domain Layer Class Diagrams — class diagram contract escrow</p>
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 Este diagrama relacional conectando `escrow_accounts` y `payout_records`, donde cada registro de desembolso pertenece a una bóveda de retención, garantizando la trazabilidad de la custodia.
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_escrow.png" alt="Contract Escrow Database Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_escrow.png" alt="2.6.3.6.2. Bounded Context Database Design Diagram — db diagram contract escrow" width="800" />
 </div>
+<p id="figura-44"><strong>Figura 44.</strong> Bounded Context Database Design Diagram — db diagram contract escrow</p>
 
 
 ### 2.6.4. Bounded Context: Ejecución Agrícola y Evidencias Service
@@ -3938,22 +4180,25 @@ Gestiona la persistencia de las etapas, el almacenamiento de objetos binarios (i
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Ejecución Agrícola y Evidencias**, aplicando el patrón CQRS y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_milestones.png" alt="Contract Parcel Component Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_milestones.png" alt="2.6.4.5. Bounded Context Software Architecture Component Level Diagrams" width="800" />
 </div>
+<p id="figura-45"><strong>Figura 45.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract milestones</p>
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`Milestone`) y cómo interactúa con los servicios de comando y consulta (CQRS).
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_milestones.png" alt="Contract Escrow Class Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_milestones.png" alt="2.6.4.6.1. Bounded Context Domain Layer Class Diagrams" width="800" />
 </div>
+<p id="figura-46"><strong>Figura 46.</strong> Bounded Context Domain Layer Class Diagrams</p>
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 Este diagrama relacional conecta `milestones` y `evidences`, donde cada evidencia fotográfica pertenece a un hito productivo, garantizando la trazabilidad visual del cultivo.
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_milestones.png" alt="Contract Escrow Database Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_milestones.png" alt="2.6.4.6.2. Bounded Context Database Design Diagram — db diagram contract milestones" width="800" />
 </div>
+<p id="figura-47"><strong>Figura 47.</strong> Bounded Context Database Design Diagram</p>
 
 ### 2.6.5. Bounded Context: Monitoreo Climático y Riesgos Service
 Representa la capacidad del sistema encargada de recopilar datos meteorológicos externos en tiempo real (OpenWeather API), evaluar patrones de riesgo climático y emitir alertas preventivas automáticas hacia los agricultores y comerciantes. Su propósito es mitigar el impacto de fenómenos adversos en el ciclo de cultivo. La entidad principal es `ClimateAlert`, la cual consolida las métricas de riesgo y el nivel de severidad.
@@ -3994,23 +4239,26 @@ Gestiona la persistencia del historial de alertas y la integración con proveedo
 Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Monitoreo Climático y Riesgos**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_climate.png" alt="Contract Parcel Component Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_climate.png" alt="2.6.5.5. Bounded Context Software Architecture Component Level Diagrams — level diagrams contract climate" width="800" />
 </div>
+<p id="figura-48"><strong>Figura 48.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract climate</p>
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`ClimateAlert`) y cómo interactúa con los servicios de comando y consulta (CQRS).
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_climate.png" alt="Contract Escrow Class Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/class_diagram_contract_climate.png" alt="2.6.5.6.1. Bounded Context Domain Layer Class Diagrams — class diagram contract climate" width="800" />
 </div>
+<p id="figura-49"><strong>Figura 49.</strong> Bounded Context Domain Layer Class Diagrams</p>
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 Este diagrama detalla la tabla que soporta el historial de alertas detectadas para las parcelas financiadas, permitiendo la trazabilidad de los eventos meteorológicos críticos notificados a los usuarios.
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_climate.png" alt="Contract Escrow Database Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/db_diagram_contract_climate.png" alt="2.6.5.6.2. Bounded Context Database Design Diagram" width="800" />
 </div>
+<p id="figura-50"><strong>Figura 50.</strong> Bounded Context Database Design Diagram — db diagram contract climate</p>
 
 ### 2.6.6. Bounded Context: Gestión de Usuarios (IAM) Service
 
@@ -4053,23 +4301,26 @@ Gestiona la persistencia segura de las credenciales y las integraciones con serv
 Este diagrama detalla la arquitectura interna a nivel de componentes para el contexto **Gestión de Usuarios (IAM)**, aplicando el patrón CQRS (separación de operaciones de lectura y escritura) y la inyección de dependencias a través de las capas de Interfaz, Aplicación, Dominio e Infraestructura.
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/level_diagrams_iam.png" alt="IAM Component Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/level_diagrams_iam.png" alt="2.6.6.5. Bounded Context Software Architecture Component Level Diagrams — level diagrams iam" width="800" />
 </div>
+<p id="figura-51"><strong>Figura 51.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams iam</p>
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
 Este diagrama muestra el modelo de clases de la capa de dominio, destacando el Aggregate Root principal (`User`) y cómo interactúa con los servicios de comando, consulta y los roles asignados.
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/class_diagram_iam.png" alt="IAM Class Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/class_diagram_iam.png" alt="2.6.6.6.1. Bounded Context Domain Layer Class Diagrams — class diagram iam" width="800" />
 </div>
+<p id="figura-52"><strong>Figura 52.</strong> Bounded Context Domain Layer Class Diagrams</p>
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 Este diagrama relacional conecta `users` y `roles`, estructurando el almacenamiento seguro de credenciales y garantizando la correcta autorización mediante la relación de perfiles en el ecosistema.
 
 <div align="center">
-  <img src="assets/images/chapter02/Sprint2/db_diagram_iam.png" alt="IAM Database Diagram" width="800" />
+  <img src="assets/images/chapter02/Sprint2/db_diagram_iam.png" alt="2.6.6.6.2. Bounded Context Database Design Diagram" width="800" />
 </div>
+<p id="figura-53"><strong>Figura 53.</strong> Bounded Context Database Design Diagram</p>
 
 
 
@@ -4158,6 +4409,8 @@ Este diagrama relacional conecta `users` y `roles`, estructurando el almacenamie
 # Bibliografía
 
 # Anexos
+
+El material complementario se organiza en el [Anexo A](#anexo-a-reporte-de-análisis-de-entrevistas-en-power-bi), con el reporte de entrevistas, y el [Anexo B](#anexo-b-needfinding), con los materiales de Needfinding.
 
 El Anexo A complementa el análisis principal y presenta el reporte completo de entrevistas desarrollado en Power BI, así como los materiales relacionados que respaldan la validación de hallazgos.
 
