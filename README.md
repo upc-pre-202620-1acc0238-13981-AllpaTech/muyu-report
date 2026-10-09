@@ -405,7 +405,51 @@ La aplicación presenta interfaces diferenciadas para los dos segmentos objetivo
 
 Durante el desarrollo, la aplicación se ejecuta mediante Android Emulator para verificar la navegación, las pantallas de Jetpack Compose y su adaptación a dispositivos móviles.
 
+#### Configuración del backend
 
+El backend está desarrollado como un monolito modular con .NET 8, ASP.NET Core y C#. Su arquitectura aplica Domain-Driven Design, CQRS y separación por bounded contexts.
+
+```text
+Muyu/
+├── src/
+│   ├── Host/
+│   │   └── Muyu.API/
+│   ├── BoundedContexts/
+│   │   ├── Agreements/
+│   │   ├── ClimateAlerts/
+│   │   ├── Escrow/
+│   │   ├── IAM/
+│   │   ├── ParcelManagement/
+│   │   └── Tracking/
+│   └── BuildingBlocks/
+│       └── Muyu.Shared/
+├── Dockerfile
+├── Directory.Build.props
+├── global.json
+└── Muyu.sln
+```
+
+Cada bounded context se divide en:
+
+```text
+Domain/
+Application/
+Infrastructure/
+Presentation/
+```
+
+La capa `Domain` contiene las entidades, agregados, objetos de valor y eventos del negocio. `Application` define comandos, consultas, handlers y puertos. `Infrastructure` implementa la persistencia y las integraciones externas. `Presentation` expone las operaciones mediante controladores REST.
+
+Para ejecutar el backend localmente se utilizan los siguientes comandos:
+
+```powershell
+dotnet restore Muyu.sln
+dotnet run --project src/Host/Muyu.API/Muyu.API.csproj
+```
+
+En el entorno de desarrollo, Swagger está disponible en la ruta `/swagger`.
+
+---
 
 ### 4.1.2. Source Code Management
 ### 4.1.3. Source Code Style Guide & Conventions
