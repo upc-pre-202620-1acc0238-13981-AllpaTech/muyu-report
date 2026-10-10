@@ -61,9 +61,6 @@
 |   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de User Stories para 2.4.1. User Stories.                              |  
 |   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de Impact mapping agricultor y comerciante para 2.4.2. Impact Mapping.                              | 
 |   AV1   | 17-09-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.5.1.1. Candidate Context Discovery. |
-|   TB1   | 09-10-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.4.1 User Stories. |
-|   TB1   | 09-10-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.4.2. Impact Mapping |
-|   TB1   | 09-10-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.4.3. Product Backlog |
 |   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette     | Edición de portada del informe. |
 |   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette       | Desarrollo del 1.1.1. Descripción de la Startup y 1.1.2. Perfiles de integrantes del equipo  |
 |   AV1   | 17-09-2026 | Arroyo Gonzales, Emily Juliette       | Desarrollo del 1.2.1. Antecedentes y problemática y 1.2.2. Lean UX Process |
@@ -73,6 +70,12 @@
 | AV1 | 17-09-2026 | Riveros Vera, Jennifer Yamilet | Elaboración y actualización de User Personas, User Task Matrix, User Journey Maps y Empathy Maps para los segmentos objetivo. |
 | AV1 | 17-09-2026 | Riveros Vera, Jennifer Yamilet | Desarrollo del análisis de entrevistas y dispositivos móviles. |
 | AV1 | 17-09-2026 | Riveros Vera, Jennifer Yamilet | Desarrollo del Big Picture Event Storming y elaboración de la sección Ubiquitous Language. |
+|   TB1   | 09-10-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.4.1 User Stories. |
+|   TB1   | 09-10-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.4.2. Impact Mapping |
+|   TB1   | 09-10-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.4.3. Product Backlog |
+|   TB1   | 10-10-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 3.1.4.3.  Mobile Applications Mock-ups |
+|   TB1   | 09-10-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.4.3. Product Backlog |
+
 </div>
 
 ## Project Report Collaboration Insights
