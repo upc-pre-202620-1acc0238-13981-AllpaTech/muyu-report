@@ -665,14 +665,6 @@ La página está orientada a los dos segmentos del producto: Agricultor y Comerc
 
 La navegación mantiene una estructura de desplazamiento vertical entre secciones, permitiendo al visitante comprender el producto de forma progresiva sin requerir autenticación.
 
-#### 3.1.3.2. Landing Page Mock-up
-
-El mock-up de la Landing Page de Muyu desarrolla visualmente la propuesta planteada durante el wireframing y aplica los lineamientos definidos en el sistema de diseño. La interfaz utiliza la identidad gráfica de Muyu, la tipografía Urbanist, la paleta de verdes de la marca, componentes con bordes redondeados y una estructura basada en una cuadrícula de columnas.
-
-La página está orientada a los dos segmentos del producto: Agricultor y Comerciante / Comprador. Su contenido presenta primero la propuesta de valor de Muyu, luego muestra las funciones principales, los planes de producción y el funcionamiento del proceso por hitos. Finalmente, diferencia las capacidades disponibles para cada segmento, resuelve preguntas frecuentes y ofrece canales de contacto.
-
-La navegación mantiene una estructura de desplazamiento vertical entre secciones, permitiendo al visitante comprender el producto de forma progresiva sin requerir autenticación.
-
 ##### Desktop Web Browser
 
 La versión desktop distribuye el contenido mediante una cuadrícula de 12 columnas. Esta estructura permite mantener alineados títulos, textos, imágenes, tarjetas y llamadas a la acción a lo largo de la página.
