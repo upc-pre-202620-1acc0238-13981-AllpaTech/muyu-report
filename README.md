@@ -9,7 +9,7 @@
 <h3 align="center"> NRC </h3>
 <h3 align="center"> 13981 </h3>
 
-<h3 align="center"> Informe Avance 1</h3>
+<h3 align="center"> Informe Trabajo Parcial</h3>
 
 
 <h3 align="center"> Docente</h3>
@@ -37,7 +37,7 @@
 </div>
 
 <h3 align="center">Periodo 2026-2</h3>
-<h3 align="center">Septiembre 2026</h3>
+<h3 align="center">Octubre 2026</h3>
 
 
 <div style="page-break-after: always;"></div>
