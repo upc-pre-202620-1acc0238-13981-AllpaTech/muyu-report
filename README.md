@@ -929,11 +929,11 @@ En el presente Sprint 1, el alcance funcional y técnico se ha dividido en tres 
 
 | Team Member (Last Name, First Name) | GitHub Username | Landing Page Leader (L) / Collaborator (C) | Mobile Application Leader (L) / Collaborator (C) | Services & Deployment Leader (L) / Collaborator (C) |
 |---|---|--------------------------------------------|--------------------------------------------------|---|
-| Orellana Rodriguez, Mel Andree | u202116018 | C                                          | L                                                | C |
-| Berrospi Marin, Angel Guillermo | u202114701 | C                                          | C                                                | C |
-| Arroyo Gonzales, Emily Juliette | u202311469 | C                                          | C                                                | C |
-| Riveros Vera, Jennifer Yamilet | u20241c998 | L                                          | C                                                | C |
-| Quintanilla Pozo, Gonzalo Samuel | u202315007 | L                                          | C                                                | L |
+| Orellana Rodriguez, Mel Andree | melandree8 | C                                          | L                                                | C |
+| Berrospi Marin, Angel Guillermo | Guille-berrs | C                                          | C                                                | C |
+| Arroyo Gonzales, Emily Juliette | Em2920 | C                                          | C                                                | C |
+| Riveros Vera, Jennifer Yamilet | Jennivz | L                                          | C                                                | C |
+| Quintanilla Pozo, Gonzalo Samuel | GoldQP | L                                          | C                                                | L |
 
 #### 4.2.1.3. Sprint Backlog 1
 
