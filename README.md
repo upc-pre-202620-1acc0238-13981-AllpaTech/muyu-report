@@ -3860,7 +3860,7 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 <p align="center">
   <img alt="1. Custodia de Fondos en Escrow (*Core Domain*) — bounded 03" src="assets/images/chapter02/event-storming/bounded-03.png" width="700" />
 </p>
-<p id="figura-27"><strong>Figura 27.</strong> Custodia de Fondos en Escrow (*Core Domain*) — bounded 03</p>
+<p id="figura-27"><strong>Figura .</strong> Custodia de Fondos en Escrow (*Core Domain*) — bounded 03</p>
 
 
 * **Descripción:** Administrar la retención de capital en garantía y la ejecución de desembolsos parciales irreversibles tras la aprobación de cada hito.
@@ -3876,7 +3876,7 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 <p align="center">
   <img alt="2. Ejecución Agrícola y Evidencias (*Core Domain*) — bounded 04" src="assets/images/chapter02/event-storming/bounded-04.png" width="700" />
 </p>
-<p id="figura-28"><strong>Figura 28.</strong> Ejecución Agrícola y Evidencias (*Core Domain*) — bounded 04</p>
+<p id="figura-28"><strong>Figura .</strong> Ejecución Agrícola y Evidencias (*Core Domain*) — bounded 04</p>
 
 
 * **Descripción:** Gestionar el calendario de actividades en campo, la captura offline de evidencias fotográficas georreferenciadas y la revisión/aprobación de hitos.
@@ -3891,7 +3891,7 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 <p align="center">
   <img alt="3. Financiamiento y Contratación (*Supporting Domain*) — bounded 02" src="assets/images/chapter02/event-storming/bounded-02.png" width="700" />
 </p>
-<p id="figura-29"><strong>Figura 29.</strong> Financiamiento y Contratación (*Supporting Domain*) — bounded 02</p>
+<p id="figura-29"><strong>Figura .</strong> Financiamiento y Contratación (*Supporting Domain*) — bounded 02</p>
 
 * **Descripción:** Permitir explorar el catálogo de parcelas aprobadas, simular rendimientos, negociar condiciones comerciales y formalizar contratos digitales.
 * **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
@@ -3905,7 +3905,7 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 <p align="center">
   <img alt="4. Gestión y Aprobación de Parcelas (*Supporting Domain*) — bounded 01" src="assets/images/chapter02/event-storming/bounded-01.png" width="700" />
 </p>
-<p id="figura-30"><strong>Figura 30.</strong> Gestión y Aprobación de Parcelas (*Supporting Domain*) — bounded 01</p>
+<p id="figura-30"><strong>Figura .</strong> Gestión y Aprobación de Parcelas (*Supporting Domain*) — bounded 01</p>
 
 * **Descripción:** Registrar parcelas agrícolas mediante georreferenciación GPS, validar la documentación de propiedad y publicar terrenos aptos en el catálogo público.
 * **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
@@ -3918,11 +3918,25 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 <p align="center">
   <img alt="5. Monitoreo Climático y Riesgos (*Generic Domain*) — bounded 05" src="assets/images/chapter02/event-storming/bounded-05.png" width="700" />
 </p>
-<p id="figura-31"><strong>Figura 31.</strong> Monitoreo Climático y Riesgos (*Generic Domain*) — bounded 05</p>
+<p id="figura-31"><strong>Figura .</strong> Monitoreo Climático y Riesgos (*Generic Domain*) — bounded 05</p>
 
 * **Descripción:** Recopilar datos meteorológicos externos en tiempo real, evaluar patrones de riesgo climático y emitir alertas preventivas automáticas hacia los usuarios.
 * **Clasificación Estratégica:** Domain: *Generic* | Business Model: *Cost Reduction* | Evolution: *Commodity*.
 * **Entradas y Salidas:** Ingiere datos climáticos de la API externa (OpenWeather) y consultas de pronóstico; emite alertas automáticas de riesgo detectado hacia la App Móvil y los usuarios.
+
+---
+
+#### 6. Gestión de Usuarios (Generic Domain)
+
+<p align="center">
+  <img alt="6. Gestión de Usuarios (*Generic Domain*) — bounded 06" src="assets/images/chapter02/gestionUsuarios.png" width="700" />
+</p>
+<p id="figura-32"><strong>Figura .</strong> Gestión de Usuarios (*Generic Domain*) — bounded 06</p>
+
+- **Descripción:** Administrar el ciclo de vida de cuentas, registro, autenticación y asignación de roles (Agricultor y Comerciante) mediante la verificación de identidad.
+- **Clasificación Estratégica:** Domain: *Generic* | Business Model: *Revenue Enabler* | Evolution: *Custom Built*.
+- **Entradas y Salidas:** Recibe peticiones de registro, inicio de sesión y recuperación de clave desde Auth Provider y la App Móvil; emite notificaciones de usuario registrado y autenticado hacia la App Móvil y Gestión de Parcelas.
+
 
 
 
