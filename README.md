@@ -3943,12 +3943,56 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 ### 2.5.2. Context Mapping
 
 
-A continuación, se presenta el diagrama de Context Mapping (Mapa de Contexto) del proyecto Muyu. Este diagrama ilustra de manera clara la estructura estratégica de la solución, definiendo los límites explícitos entre los distintos Bounded Contexts (Contextos Delimitados) identificados en el sistema y estableciendo las relaciones de integración, flujo de datos y patrones de comunicación (como Customer-Supplier, Shared Kernel, o Upstream/Downstream) que gobiernan la interacción entre cada uno de los microservicios y módulos de la plataforma.
+En esta sección se documenta el proceso de elaboración del mapa de contextos (*Context Map*), evaluando cómo se relacionan y comunican los diferentes *Bounded Contexts* de la aplicación **MUYU**. Para ello, el equipo revisó la información obtenida durante las sesiones de *EventStorming* y exploró activamente diferentes alternativas de diseño mediante preguntas de arquitectura, considerando los patrones de integración establecidos por Domain-Driven Design (DDD).
+
+
+
+## 1. Contextos Acotados Identificados (Bounded Contexts)
+
+
+A partir de los grupos de capacidades identificados en la fase de exploración del negocio, se establecieron los siguientes *Bounded Contexts*:
+
+1. **Gestión de Usuarios y Acceso:** Registro de agricultores y comerciantes, gestión de credenciales, roles y autenticación.
+2. **Gestión y Aprobación de Parcelas:** Geolocalización, catastro, validación documental y verificación del estado registral de los terrenos.
+3. **Financiamiento y Contratación:** Catálogo de parcelas disponibles, propuestas de inversión,
+4. **Custodia de Fondos en Escrow:** Retención de capital en depósito en garantía y liberación condicionada al cumplimiento de hitos.
+5. **Ejecución Agrícola y Evidencias:** Monitoreo del ciclo de cultivo, sincronización *offline-first* de labores en campo, alertas meteorológicas y registro fotográfico de pruebas.
+6. **Revisión y Aprobación de Hitos:** Evaluación de evidencias presentadas por el agricultor, atención de observaciones y aprobación de hitos para desembolso.
+
+
+## 2. Proceso de Elaboración y Evaluación de Candidatos
+
+
+El equipo analizó múltiples alternativas de diseño respondiendo a preguntas clave sobre cómo organizar y aislar las capacidades (*capabilities*) del sistema:
+
+
+### Candidato A: Unificación de Parcelas y Financiamiento
+
+* **Pregunta evaluada:** *¿Qué pasaría si tomamos las capacidades de gestión de parcelas y financiamiento y las agrupamos en un único Bounded Context?*
+* **Análisis:** Aunque el financiamiento se realiza sobre una parcela específica, agrupar la validación legal/registral del terreno con el cálculo de rendimientos y contratos financieros generaba un contexto muy grande e inestable. La validación registral de la tierra cambia con menor frecuencia y bajo reglas legales distintas a los acuerdos comerciales de inversión.
+* **Decisión:** **Descartado.** Se mantuvieron como contextos independientes (*Gestión y Aprobación de Parcelas* y *Financiamiento y Contratación*).
+
+
+### Candidato B: Descomposición de la Ejecución Agrícola y la Revisión de Hitos
+* **Pregunta evaluada:** *¿Qué pasaría si descomponemos el capability de ejecución agrícola y movemos la revisión de evidencias a un Bounded Context independiente?*
+* **Análisis:** La ejecución agrícola opera principalmente *offline-first* en dispositivos móviles en campo, mientras que la revisión de hitos es una tarea de evaluación ejecutada por el comerciante o inversor. Descomponer esta capacidad evita que la indisponibilidad de la red en la revisión afecte el trabajo diario del agricultor en el campo.
+* **Decisión:** **Aprobado.** Se separaron en *Ejecución Agrícola y Evidencias* (captura en campo) y *Revisión y Aprobación de Hitos* (gestión administrativa de cumplimiento).
+
+
+### Candidato C: Aislamiento del Core Capability de Custodia de Fondos (Escrow)
+* **Pregunta evaluada:** *¿Qué pasaría si aislamos los core capabilities financieros y creamos un Bounded Context dedicado para el Escrow en lugar de un shared service genérico de pagos?*
+* **Análisis:** La retención de capital y el desembolso condicionado por hito requieren reglas de inmutabilidad y auditoría estrictas. Un servicio compartido de pagos diluiría estas reglas y expondría lógica financiera crítica a otros contextos.
+* **Decisión:** **Aprobado.** Se definió el *Bounded Context de Custodia de Fondos en Escrow*, aislado de la lógica de contratación e integrado exclusivamente mediante eventos de dominio asíncronos (`HitoAprobado`).
+
+
+### Candidato D: Integración de Datos Meteorológicos con Capa Anticorrupción (ACL)
+* **Pregunta evaluada:** *¿Qué pasaría si integramos un proveedor externo para las capacidades de clima y alertas meteorológicas en lugar de implementarlo internamente?*
+* **Análisis:** La plataforma requiere alertas meteorológicas en tiempo real para alertar al agricultor. Se decidió consumir una API externa de clima (como OpenWeather API). Para evitar que los esquemas JSON de terceros contaminen nuestro dominio, se implementa una capa de traducción.
+
 
 <p align="center">
-  <img alt="2.5.2. Context Mapping — context" src="assets/images/chapter02/context.png" width="400"/>
+  <img alt="2.5.2. Context Mapping — context" src="assets/images/chapter02/ContextMapping.png" width="1000"/>
 </p>
-<p id="figura-32"><strong>Figura 32.</strong> Context Mapping — context</p>
 
 
 ### 2.5.3. Software Architecture
