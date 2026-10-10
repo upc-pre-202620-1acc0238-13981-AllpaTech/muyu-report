@@ -1786,6 +1786,276 @@ Pantalla para el monitoreo de los contratos activos, permitiendo ver el progreso
 />
 
 #### 3.1.4.3. Mobile Applications Mock-ups
+
+#### AGRICULTOR 
+###### AGRICULTOR / Gestión de parcelas, visitas, prórrogas y alertas
+
+El agricultor comienza en el panel principal, donde consulta cuántas parcelas posee, los hitos aprobados y los cultivos activos. Desde allí puede ingresar al detalle de una parcela para revisar su estado de financiamiento, progreso e hitos.
+También puede:
+- Registrar el resultado de una visita presencial, indicando si se alcanzó o no un acuerdo.
+- Consultar visitas anteriores o coordinar una nueva visita.
+- Aceptar, rechazar o proponer otra fecha cuando recibe una solicitud del comerciante.
+- Solicitar una prórroga para un hito, indicando una nueva fecha y el motivo del retraso.
+- Consultar alertas climáticas, el nivel de riesgo, recomendaciones preventivas y el pronóstico.
+El flujo termina dejando registrada la decisión correspondiente y notificando a la otra parte. Las visitas solo coordinan el encuentro: no reservan la parcela ni generan movimientos de dinero.
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter01.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter02.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter03.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter04.JPG"
+       width="600"/>
+</p>
+
+###### AGRICULTOR / Publicación de parcelas y registro de evidencias
+
+El agricultor accede a “Mis parcelas”, donde puede buscar, filtrar, consultar alertas y crear una nueva publicación.
+La publicación se realiza en tres pasos:
+- Ingresa fotografías, nombre, cultivo, área y fecha estimada de cosecha.
+- Registra la ubicación mediante GPS o selección manual, incluyendo región, provincia, distrito y referencias.
+- Define el monto solicitado, duración del ciclo, cantidad de hitos y distribución de los desembolsos.
+Antes de publicar, debe aceptar el acuerdo de financiamiento mediante Escrow. La aplicación valida campos obligatorios, ubicación y que la suma de los hitos coincida con el financiamiento solicitado.
+Una vez financiada la parcela, el agricultor selecciona un hito, toma o carga fotografías, registra los insumos y cantidades utilizadas y valida el GPS. La evidencia puede guardarse sin conexión, corregirse si la ubicación es incorrecta y enviarse cuando haya Internet. Después del envío queda “en espera de revisión”; esto todavía no significa que el pago haya sido aprobado.
+
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter01.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter02.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter03.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter04.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter05.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter06.JPG"
+       width="600"/>
+</p>
+
+###### AGRICULTOR / Sincronización de evidencias sin conexión
+
+El agricultor consulta una cola con todas las evidencias guardadas localmente. Cada elemento muestra parcela, hito, fotografía, fecha, ubicación y estado de sincronización.
+El flujo contempla:
+- Esperar una conexión disponible.
+- Respetar la preferencia de “solo Wi-Fi”.
+- Cargar varias evidencias cuando vuelve la conexión.
+- Mostrar el porcentaje de avance.
+- Distinguir entre elementos enviados y fallidos.
+- Reintentar únicamente los elementos que presentaron error.
+Al finalizar, la pantalla informa cuántas evidencias se enviaron y cuántas continúan pendientes. La sincronización no equivale a la aprobación del hito.
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion3/chapter01.JPG"
+       width="600"/>
+</p>
+
+###### AGRICULTOR / Historial y detalle de pagos
+
+El agricultor ingresa al módulo de pagos para consultar el total recibido y los desembolsos completados o pendientes. Puede filtrar el historial según su estado y abrir una transacción específica.
+El detalle presenta:
+- Importe recibido.
+- Parcela e hito correspondiente.
+- Fecha del desembolso.
+- Cuenta bancaria de destino.
+- Identificador de la transacción.
+- Secuencia del proceso Escrow: evidencia aprobada, fondos liberados y pago recibido.
+También puede descargar el comprobante en PDF. Si aún no tiene pagos, se muestra un estado vacío que explica que primero debe existir un financiamiento y una evidencia aprobada.
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion4/chapter01.JPG"
+       width="600"/>
+</p>
+
+###### AGRICULTOR / Perfil, soporte, seguridad y cierre del contrato
+
+Desde su perfil, el agricultor puede consultar y actualizar sus datos de contacto, canal de alertas climáticas, preferencia de sincronización y cuenta bancaria para recibir desembolsos.
+Además, puede:
+- Llamar al soporte.
+- Reportar un problema, incluso sin conexión, para enviarlo posteriormente desde la cola.
+- Cambiar la contraseña o el PIN.
+- Recuperar la contraseña por correo.
+- Confirmar su PIN de seguridad.
+- Registrar una nueva contraseña cumpliendo sus reglas.
+- Calificar al comerciante cuando termina el contrato.
+El flujo de calificación permite seleccionar estrellas, escribir un comentario opcional y consultar la confirmación junto con el contrato finalizado.
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion5/chapter01.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion5/chapter02.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/agricultor/seccion5/chapter03.JPG"
+       width="600"/>
+</p>
+
+#### COMERCIANTE 
+###### COMERCIANTE / Búsqueda, financiamiento y visita a parcelas
+
+El comerciante comienza en el catálogo, donde busca cultivos o ubicaciones y utiliza filtros como cercanía o recomendaciones. Cada resultado presenta cultivo, superficie, ubicación, monto solicitado y datos del agricultor.
+Al abrir una parcela puede revisar:
+- Información del cultivo.
+- Experiencia y reputación del agricultor.
+- Ubicación verificada por GPS.
+- Plan de hitos y desembolsos.
+- Estado financiero cuando ya está financiada.
+Para financiarla, revisa el monto, acepta las condiciones de Escrow, selecciona un medio de pago y confirma la operación. El sistema contempla financiamiento exitoso, pago no confirmado y parcela financiada previamente por otra persona, evitando duplicidades.
+También puede solicitar una visita antes del financiamiento, indicando fecha, hora y mensaje. La solicitud queda pendiente hasta que el agricultor la acepte, rechace o proponga otra fecha. Cuando se confirma, aparecen el punto de encuentro y los datos de contacto.
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter01.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter02.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter03.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter04.JPG"
+       width="600"/>
+</p>
+
+###### COMERCIANTE / Riesgo climático y revisión de evidencias
+
+El comerciante consulta sus parcelas financiadas y las alertas meteorológicas asociadas. Cuando existe un riesgo elevado puede revisar el pronóstico, posible impacto en el cultivo, contactar al agricultor o evaluar una solicitud de prórroga.
+Al recibir una evidencia de un hito, revisa:
+- Fotografías.
+- Fecha y hora.
+- Ubicación GPS.
+- Condiciones climáticas.
+- Insumo y cantidad aplicada.
+- Observaciones del agricultor.
+- Historial de correcciones.
+Después decide entre:
+- Aprobar: libera exclusivamente el pago correspondiente al hito.
+- Rechazar: mantiene el dinero retenido y exige seleccionar y explicar el motivo.
+Si la evidencia es rechazada, el agricultor conserva el registro original, adjunta una nueva fotografía o corrige los datos y vuelve a enviarla. El comerciante recibe la nueva versión para repetir la evaluación.
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter01.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter02.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter03.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter04.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter05.JPG"
+       width="600"/>
+</p>
+
+###### COMERCIANTE / Notificaciones, entrega de cosecha e incidencias
+
+El centro de notificaciones reúne solicitudes de revisión, prórrogas, alertas climáticas y avisos de cosecha programada.
+Cuando llega la fecha de entrega, el comerciante consulta:
+- Producto y parcela.
+- Cantidad acordada.
+- Cantidad entregada.
+- Calidad.
+- Fecha, hora y ubicación.
+- Pago final retenido en Escrow.
+Si todo es correcto, confirma la recepción, aprueba el hito de cosecha y autoriza la liberación del último desembolso. Con ello se completan todos los hitos y se cierra el ciclo.
+Si la cosecha no llegó o la cantidad es incompleta, puede contactar al agricultor o registrar una incidencia con tipo, descripción y fotografías. Mientras el problema no se resuelva, la aprobación final y el dinero permanecen bloqueados.
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion3/chapter01.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion3/chapter02.JPG"
+       width="600"/>
+</p>
+
+###### COMERCIANTE / Historial de desembolsos y solicitudes de prórroga
+
+El comerciante consulta el total liberado durante el año y el historial de pagos realizados por parcela e hito. Cada registro muestra al agricultor, importe, fecha, método de transferencia y estado.
+Desde una solicitud de prórroga puede comparar:
+- Fecha original.
+- Nueva fecha propuesta.
+- Motivo indicado por el agricultor.
+- Hito afectado.
+El comerciante decide si aprueba o rechaza la nueva fecha. Aprobar modifica únicamente el plazo del hito: no libera dinero ni cambia el monto total del contrato.
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion4/chapter01.JPG"
+       width="600"/>
+</p>
+
+###### COMERCIANTE / Perfil, preferencias y recuperación de contraseña
+
+Desde el perfil, el comerciante administra los datos de su empresa, contacto, preferencias de alertas meteorológicas y avisos sobre nuevas parcelas. También consulta sus métodos de pago guardados, términos legales y opciones de seguridad.
+El flujo de recuperación de contraseña funciona así:
+- El sistema informa que enviará instrucciones si el correo está registrado.
+- El comerciante puede reenviar las instrucciones.
+- Verifica su PIN de seguridad.
+- Registra y confirma una nueva contraseña.
+- Recibe la confirmación del cambio.
+- Regresa al inicio de sesión con sus nuevas credenciales.
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion5/chapter01.JPG"
+       width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-application/comerciante/seccion5/chapter02.JPG"
+       width="600"/>
+</p>
+
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
 ##### Publicar una parcela
@@ -2807,275 +3077,6 @@ Pantalla para el monitoreo de los contratos activos, permitiendo ver el progreso
 />
 
 #### 3.1.4.5. Mobile Applications Prototyping
-
-#### AGRICULTOR 
-###### AGRICULTOR / Gestión de parcelas, visitas, prórrogas y alertas
-
-El agricultor comienza en el panel principal, donde consulta cuántas parcelas posee, los hitos aprobados y los cultivos activos. Desde allí puede ingresar al detalle de una parcela para revisar su estado de financiamiento, progreso e hitos.
-También puede:
-- Registrar el resultado de una visita presencial, indicando si se alcanzó o no un acuerdo.
-- Consultar visitas anteriores o coordinar una nueva visita.
-- Aceptar, rechazar o proponer otra fecha cuando recibe una solicitud del comerciante.
-- Solicitar una prórroga para un hito, indicando una nueva fecha y el motivo del retraso.
-- Consultar alertas climáticas, el nivel de riesgo, recomendaciones preventivas y el pronóstico.
-El flujo termina dejando registrada la decisión correspondiente y notificando a la otra parte. Las visitas solo coordinan el encuentro: no reservan la parcela ni generan movimientos de dinero.
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter01.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter02.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter03.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter04.JPG"
-       width="600"/>
-</p>
-
-###### AGRICULTOR / Publicación de parcelas y registro de evidencias
-
-El agricultor accede a “Mis parcelas”, donde puede buscar, filtrar, consultar alertas y crear una nueva publicación.
-La publicación se realiza en tres pasos:
-- Ingresa fotografías, nombre, cultivo, área y fecha estimada de cosecha.
-- Registra la ubicación mediante GPS o selección manual, incluyendo región, provincia, distrito y referencias.
-- Define el monto solicitado, duración del ciclo, cantidad de hitos y distribución de los desembolsos.
-Antes de publicar, debe aceptar el acuerdo de financiamiento mediante Escrow. La aplicación valida campos obligatorios, ubicación y que la suma de los hitos coincida con el financiamiento solicitado.
-Una vez financiada la parcela, el agricultor selecciona un hito, toma o carga fotografías, registra los insumos y cantidades utilizadas y valida el GPS. La evidencia puede guardarse sin conexión, corregirse si la ubicación es incorrecta y enviarse cuando haya Internet. Después del envío queda “en espera de revisión”; esto todavía no significa que el pago haya sido aprobado.
-
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter01.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter02.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter03.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter04.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter05.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter06.JPG"
-       width="600"/>
-</p>
-
-###### AGRICULTOR / Sincronización de evidencias sin conexión
-
-El agricultor consulta una cola con todas las evidencias guardadas localmente. Cada elemento muestra parcela, hito, fotografía, fecha, ubicación y estado de sincronización.
-El flujo contempla:
-- Esperar una conexión disponible.
-- Respetar la preferencia de “solo Wi-Fi”.
-- Cargar varias evidencias cuando vuelve la conexión.
-- Mostrar el porcentaje de avance.
-- Distinguir entre elementos enviados y fallidos.
-- Reintentar únicamente los elementos que presentaron error.
-Al finalizar, la pantalla informa cuántas evidencias se enviaron y cuántas continúan pendientes. La sincronización no equivale a la aprobación del hito.
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion3/chapter01.JPG"
-       width="600"/>
-</p>
-
-###### AGRICULTOR / Historial y detalle de pagos
-
-El agricultor ingresa al módulo de pagos para consultar el total recibido y los desembolsos completados o pendientes. Puede filtrar el historial según su estado y abrir una transacción específica.
-El detalle presenta:
-- Importe recibido.
-- Parcela e hito correspondiente.
-- Fecha del desembolso.
-- Cuenta bancaria de destino.
-- Identificador de la transacción.
-- Secuencia del proceso Escrow: evidencia aprobada, fondos liberados y pago recibido.
-También puede descargar el comprobante en PDF. Si aún no tiene pagos, se muestra un estado vacío que explica que primero debe existir un financiamiento y una evidencia aprobada.
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion4/chapter01.JPG"
-       width="600"/>
-</p>
-
-###### AGRICULTOR / Perfil, soporte, seguridad y cierre del contrato
-
-Desde su perfil, el agricultor puede consultar y actualizar sus datos de contacto, canal de alertas climáticas, preferencia de sincronización y cuenta bancaria para recibir desembolsos.
-Además, puede:
-- Llamar al soporte.
-- Reportar un problema, incluso sin conexión, para enviarlo posteriormente desde la cola.
-- Cambiar la contraseña o el PIN.
-- Recuperar la contraseña por correo.
-- Confirmar su PIN de seguridad.
-- Registrar una nueva contraseña cumpliendo sus reglas.
-- Calificar al comerciante cuando termina el contrato.
-El flujo de calificación permite seleccionar estrellas, escribir un comentario opcional y consultar la confirmación junto con el contrato finalizado.
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion5/chapter01.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion5/chapter02.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/agricultor/seccion5/chapter03.JPG"
-       width="600"/>
-</p>
-
-#### COMERCIANTE 
-###### COMERCIANTE / Búsqueda, financiamiento y visita a parcelas
-
-El comerciante comienza en el catálogo, donde busca cultivos o ubicaciones y utiliza filtros como cercanía o recomendaciones. Cada resultado presenta cultivo, superficie, ubicación, monto solicitado y datos del agricultor.
-Al abrir una parcela puede revisar:
-- Información del cultivo.
-- Experiencia y reputación del agricultor.
-- Ubicación verificada por GPS.
-- Plan de hitos y desembolsos.
-- Estado financiero cuando ya está financiada.
-Para financiarla, revisa el monto, acepta las condiciones de Escrow, selecciona un medio de pago y confirma la operación. El sistema contempla financiamiento exitoso, pago no confirmado y parcela financiada previamente por otra persona, evitando duplicidades.
-También puede solicitar una visita antes del financiamiento, indicando fecha, hora y mensaje. La solicitud queda pendiente hasta que el agricultor la acepte, rechace o proponga otra fecha. Cuando se confirma, aparecen el punto de encuentro y los datos de contacto.
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter01.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter02.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter03.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter04.JPG"
-       width="600"/>
-</p>
-
-###### COMERCIANTE / Riesgo climático y revisión de evidencias
-
-El comerciante consulta sus parcelas financiadas y las alertas meteorológicas asociadas. Cuando existe un riesgo elevado puede revisar el pronóstico, posible impacto en el cultivo, contactar al agricultor o evaluar una solicitud de prórroga.
-Al recibir una evidencia de un hito, revisa:
-- Fotografías.
-- Fecha y hora.
-- Ubicación GPS.
-- Condiciones climáticas.
-- Insumo y cantidad aplicada.
-- Observaciones del agricultor.
-- Historial de correcciones.
-Después decide entre:
-- Aprobar: libera exclusivamente el pago correspondiente al hito.
-- Rechazar: mantiene el dinero retenido y exige seleccionar y explicar el motivo.
-Si la evidencia es rechazada, el agricultor conserva el registro original, adjunta una nueva fotografía o corrige los datos y vuelve a enviarla. El comerciante recibe la nueva versión para repetir la evaluación.
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter01.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter02.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter03.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter04.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter05.JPG"
-       width="600"/>
-</p>
-
-###### COMERCIANTE / Notificaciones, entrega de cosecha e incidencias
-
-El centro de notificaciones reúne solicitudes de revisión, prórrogas, alertas climáticas y avisos de cosecha programada.
-Cuando llega la fecha de entrega, el comerciante consulta:
-- Producto y parcela.
-- Cantidad acordada.
-- Cantidad entregada.
-- Calidad.
-- Fecha, hora y ubicación.
-- Pago final retenido en Escrow.
-Si todo es correcto, confirma la recepción, aprueba el hito de cosecha y autoriza la liberación del último desembolso. Con ello se completan todos los hitos y se cierra el ciclo.
-Si la cosecha no llegó o la cantidad es incompleta, puede contactar al agricultor o registrar una incidencia con tipo, descripción y fotografías. Mientras el problema no se resuelva, la aprobación final y el dinero permanecen bloqueados.
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion3/chapter01.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion3/chapter02.JPG"
-       width="600"/>
-</p>
-
-###### COMERCIANTE / Historial de desembolsos y solicitudes de prórroga
-
-El comerciante consulta el total liberado durante el año y el historial de pagos realizados por parcela e hito. Cada registro muestra al agricultor, importe, fecha, método de transferencia y estado.
-Desde una solicitud de prórroga puede comparar:
-- Fecha original.
-- Nueva fecha propuesta.
-- Motivo indicado por el agricultor.
-- Hito afectado.
-El comerciante decide si aprueba o rechaza la nueva fecha. Aprobar modifica únicamente el plazo del hito: no libera dinero ni cambia el monto total del contrato.
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion4/chapter01.JPG"
-       width="600"/>
-</p>
-
-###### COMERCIANTE / Perfil, preferencias y recuperación de contraseña
-
-Desde el perfil, el comerciante administra los datos de su empresa, contacto, preferencias de alertas meteorológicas y avisos sobre nuevas parcelas. También consulta sus métodos de pago guardados, términos legales y opciones de seguridad.
-El flujo de recuperación de contraseña funciona así:
-- El sistema informa que enviará instrucciones si el correo está registrado.
-- El comerciante puede reenviar las instrucciones.
-- Verifica su PIN de seguridad.
-- Registra y confirma una nueva contraseña.
-- Recibe la confirmación del cambio.
-- Regresa al inicio de sesión con sus nuevas credenciales.
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion5/chapter01.JPG"
-       width="600"/>
-</p>
-
-<p align="center">
-  <img src="assets/images/chapter03/mobile-application/comerciante/seccion5/chapter02.JPG"
-       width="600"/>
-</p>
-
 # Capítulo IV: Product Implementation & Validation
 
 ## 4.1. Software Configuration Management
