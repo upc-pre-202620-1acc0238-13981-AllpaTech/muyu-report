@@ -1246,6 +1246,151 @@ La siguiente imagen evidencia la visualización y validación de la Landing Page
 
 
 #### 4.2.1.6. Execution Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de ejecución de los componentes implementados durante el Sprint 1 del proyecto Muyu. La versión desarrollada comprende la Landing Page publicada en Netlify, la aplicación móvil ejecutada en un dispositivo Android y la Fake API desplegada mediante Render.
+
+Durante la ejecución se verificó el funcionamiento del registro e inicio de sesión, la navegación de acuerdo con el rol del usuario, el recorrido de bienvenida, la publicación de parcelas, el registro de evidencias agrícolas, la visualización de información por parte del comerciante, la gestión del perfil y el cierre de sesión. También se comprobó la comunicación entre la aplicación móvil y la Fake API publicada.
+
+##### Ejecución de la Landing Page
+
+La Landing Page de Muyu comunica la propuesta de valor del producto a agricultores y comerciantes. Presenta información sobre el funcionamiento de la plataforma, sus principales beneficios y las opciones disponibles para cada segmento objetivo.
+
+La interfaz fue desarrollada con HTML5, CSS3 y JavaScript. Los recursos gráficos se almacenan localmente en la carpeta `assets`, mientras que el diseño responsive permite visualizar correctamente el contenido desde computadoras y dispositivos móviles.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/landing-page-execution.png"
+       alt="Ejecución de la Landing Page de Muyu"
+       width="900"/>
+</p>
+
+URL de la Landing Page: [Landing Page de Muyu](https://allpatech.netlify.app/)
+
+##### Ejecución del registro de usuario
+
+La aplicación móvil permite crear una cuenta seleccionando el rol de agricultor o comerciante. Durante el registro, el usuario debe completar los datos solicitados y aceptar los términos y condiciones del servicio.
+
+Después de registrar correctamente la cuenta, la aplicación dirige al usuario a la pantalla de inicio de sesión para que pueda ingresar con las credenciales creadas.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/mobile-register-execution.png"
+       alt="Ejecución del registro de usuario en Muyu"
+       width="150"/>
+</p>
+
+##### Ejecución del inicio de sesión
+
+La pantalla de inicio de sesión permite ingresar mediante el correo electrónico y la contraseña registrados. La aplicación envía las credenciales a la Fake API y, cuando son válidas, obtiene la información necesaria para identificar al usuario y su rol.
+
+Según el rol autenticado, la aplicación muestra la navegación y las funcionalidades correspondientes al agricultor o al comerciante.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/mobile-login-execution.png"
+       alt="Ejecución del inicio de sesión en Muyu"
+       width="150"/>
+</p>
+
+##### Ejecución del recorrido de bienvenida
+
+Antes de ingresar al flujo de autenticación, la aplicación presenta un recorrido de bienvenida que explica las principales funcionalidades de Muyu. El usuario puede avanzar entre las pantallas o seleccionar la opción para omitir el recorrido.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/mobile-onboarding-execution.png"
+       alt="Ejecución del recorrido de bienvenida"
+       width="350"/>
+</p>
+
+##### Ejecución de la aplicación para el agricultor
+
+Al iniciar sesión como agricultor, la aplicación presenta las opciones relacionadas con la publicación y administración de parcelas, el registro de evidencias agrícolas, la sincronización de información, la consulta de pagos y la administración del perfil.
+
+La siguiente evidencia muestra una parcela publicada por un agricultor, incluyendo su imagen, ubicación, cultivo, plan de financiamiento, hitos agrícolas y estado actual.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/farmer-parcel-execution.png"
+       alt="Ejecución de una parcela publicada por el agricultor"
+       width="550"/>
+</p>
+
+##### Ejecución del registro de evidencias agrícolas
+
+El agricultor puede seleccionar uno de los hitos definidos para la parcela: siembra, riego, fertilización o cosecha. Después de seleccionar el hito, la aplicación permite registrar una fotografía, los datos del insumo utilizado, la cantidad aplicada y notas adicionales.
+
+La evidencia registrada se asocia con la parcela correspondiente y se sincroniza con la Fake API cuando existe conexión a Internet.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/milestone-selection-execution.png"
+       alt="Selección de un hito agrícola"
+       width="300"/>
+</p>
+
+##### Ejecución de la aplicación para el comerciante
+
+Al iniciar sesión como comerciante, la aplicación presenta las funcionalidades asignadas a este rol. El comerciante puede consultar las parcelas publicadas por los agricultores y revisar su información antes de tomar una decisión de financiamiento.
+
+La información mostrada incluye el nombre de la parcela, el cultivo, la ubicación, el monto solicitado, el estado de financiamiento y las evidencias agrícolas registradas.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/merchant-plots-execution.png"
+       alt="Ejecución de la aplicación para el comerciante"
+       width="350"/>
+</p>
+
+##### Ejecución del perfil y cierre de sesión
+
+La sección de perfil muestra la información del usuario autenticado y las opciones disponibles para administrar su cuenta. Desde esta pantalla también se puede acceder a los términos y condiciones de Muyu.
+
+Al seleccionar la opción `Cerrar sesión`, la aplicación elimina los datos de autenticación almacenados y dirige al usuario a la pantalla de inicio de sesión. De esta manera, el usuario debe volver a ingresar sus credenciales para acceder nuevamente a la aplicación.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/profile-execution.png"
+       alt="Ejecución del perfil y cierre de sesión"
+       width="350"/>
+</p>
+
+##### Ejecución de la Fake API
+
+La Fake API de Muyu fue implementada con Node.js y desplegada como un Web Service en Render. El servicio proporciona los endpoints utilizados por la aplicación móvil para registrar usuarios, iniciar sesión, consultar usuarios, publicar parcelas, actualizar parcelas y registrar operaciones de financiamiento.
+
+La página principal presenta un panel visual con el estado del servicio, los recursos disponibles y los endpoints que pueden utilizarse.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/fake-api-dashboard-execution.png"
+       alt="Panel principal de la Fake API desplegada en Render"
+       width="800"/>
+</p>
+
+URL de ejecución de la Fake API: [Muyu Fake API](https://muyu-fake-api.onrender.com)
+
+##### Ejecución del recurso de usuarios
+
+El endpoint `GET /api/users` permite consultar los usuarios almacenados en la Fake API. Por seguridad, la respuesta no muestra las contraseñas de las cuentas registradas.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/fake-api-users-execution.png"
+       alt="Usuarios registrados en la Fake API"
+       width="800"/>
+</p>
+
+URL del recurso de usuarios: [Usuarios registrados](https://muyu-fake-api.onrender.com/api/users)
+
+##### Ejecución del recurso de parcelas
+
+El endpoint `GET /api/plots` permite consultar las parcelas disponibles en la Fake API. La información recuperada es utilizada por la aplicación móvil para mostrar las parcelas publicadas tanto al agricultor como al comerciante.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/fake-api-plots-execution.png"
+       alt="Parcelas registradas en la Fake API"
+       width="800"/>
+</p>
+
+URL del recurso de parcelas: [Parcelas registradas](https://muyu-fake-api.onrender.com/api/plots)
+
+##### Video de presentación y ejecución del producto
+
+Para complementar las evidencias anteriores, se presenta un video demostrativo de la ejecución del producto. En el video se muestra la Landing Page publicada, el registro de un usuario, el inicio de sesión, la navegación según el rol, la publicación de una parcela, el registro de una evidencia agrícola y la consulta de los recursos disponibles en la Fake API.
+
+URL del video de ejecución: [Video demostrativo de Muyu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCPhj365qy1Sol_dUGuOvuqAbJlhNxuP2YE31yVt3JUi4U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Fhhdg)
+
 #### 4.2.1.7. Services Documentation Evidence for Sprint Review
 #### 4.2.1.8. Software Deployment Evidence for Sprint Review
 #### 4.2.1.9. Team Collaboration Insights during Sprint
