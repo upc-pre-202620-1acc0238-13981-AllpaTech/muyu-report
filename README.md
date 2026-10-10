@@ -657,6 +657,160 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
+
+##### Hero
+  
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-1.png"
+       alt="Hero"
+       width="10000"/>
+  </p>
+
+##### About Muyu
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-2.png"
+       alt="About Muyu"
+       width="10000"/>
+  </p>
+
+##### Core Features
+ 
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-3.png"
+       alt="Core Features"
+       width="10000"/>
+  </p>
+
+##### Production Plans
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-4.png"
+       alt="Production Plans"
+       width="10000"/>
+  </p>
+
+##### How It Works
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-5.png"
+       alt="How It Works"
+       width="10000"/>
+  </p>
+
+##### Payments
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-6.png"
+       alt="Payments"
+       width="10000"/>
+  </p>
+
+##### For Farmers and Merchants
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-7.png"
+       alt="For Farmers and Merchants"
+       width="10000"/>
+  </p>
+
+##### Frequently Asked Questions
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-8.png"
+       alt="Frequently Asked Questions"
+       width="10000"/>
+  </p>
+
+##### Testimonials
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-9.png"
+       alt="Testimonials"
+       width="10000"/>
+  </p>
+
+##### Call to Action
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-10.png"
+       alt="Call to Action"
+       width="10000"/>
+  </p>
+
+##### Contact
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-11.png"
+       alt="Contact"
+       width="10000"/>
+  </p>
+
+##### Footer
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPD-12.png"
+       alt="Footer"
+       width="10000"/>
+  </p>
+
+- Mobile Web Browser
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPM-1.png"
+       width="10000"/>
+  </p>
+
+    <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPM-2.png"
+       width="10000"/>
+  </p>
+
+    <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPM-3.png"
+       width="10000"/>
+  </p>
+
+    <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPM-4.png"
+       width="10000"/>
+  </p>
+
+    <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPM-4.2.png"
+       width="10000"/>
+  </p>
+
+    <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPM-5.png"
+       width="10000"/>
+  </p>
+
+    <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPM-6.png"
+       width="10000"/>
+  </p>
+
+    <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPM-7.png"
+       width="10000"/>
+  </p>
+
+    <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPM-8.png"
+       width="10000"/>
+  </p>
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPM-9.png"
+       width="10000"/>
+  </p>
+
+  <p align="center">
+  <img src="assets/images/chapter03/wireframe landing page/WFLPM-10.png"
+       width="10000"/>
+  </p>
+
 #### 3.1.3.2. Landing Page Mock-up
 
 El mock-up de la Landing Page de Muyu desarrolla visualmente la propuesta planteada durante el wireframing y aplica los lineamientos definidos en el sistema de diseño. La interfaz utiliza la identidad gráfica de Muyu, la tipografía Urbanist, la paleta de verdes de la marca, componentes con bordes redondeados y una estructura basada en una cuadrícula de columnas.
