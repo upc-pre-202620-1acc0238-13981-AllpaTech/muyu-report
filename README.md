@@ -1498,6 +1498,123 @@ La Fake API utiliza un archivo JSON local para almacenar temporalmente la inform
 ---
 
 #### 4.2.1.8. Software Deployment Evidence for Sprint Review
+
+En esta sección se presentan los procesos realizados para desplegar los componentes desarrollados durante el Sprint 1. La Landing Page fue publicada mediante Netlify y la Fake API fue desplegada mediante Render. La aplicación móvil fue compilada desde Android Studio para generar una versión instalable en dispositivos Android.
+
+##### Despliegue de la Landing Page mediante Netlify
+
+La Landing Page se encuentra almacenada en un repositorio independiente de GitHub. Para su publicación se utilizó Netlify, conectando la plataforma con la rama `main` del repositorio `Landing-page`.
+
+El proceso de despliegue fue el siguiente:
+
+1. Se creó el repositorio de la Landing Page en GitHub.
+2. Se incorporaron los archivos `index.html`, `styles.css`, `script.js` y la carpeta `assets`.
+3. Se conectó el repositorio con Netlify.
+4. Se seleccionó la rama `main` como fuente del despliegue.
+5. Netlify detectó los archivos estáticos y publicó la página.
+6. Los cambios enviados posteriormente a la rama `main` activaron automáticamente un nuevo despliegue.
+
+La estructura desplegada de la Landing Page es la siguiente:
+
+```text
+landing-muyu/
+├── assets/
+├── index.html
+├── styles.css
+└── script.js
+```
+
+##### Evidencia 1: Landing Page publicada en Netlify
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/landing-page-test.png"
+       alt="Prueba funcional de la Landing Page"
+       width="850"/>
+</p>
+
+
+URL de la Landing Page: [Landing Page de Muyu](https://allpatech.netlify.app/#)
+
+##### Despliegue de la Fake API mediante Render
+
+La Fake API se encuentra almacenada en el repositorio `fake-api` de la organización AllpaTech. Para su publicación se utilizó Render mediante un Web Service configurado con Node.js.
+
+La configuración utilizada para el despliegue fue la siguiente:
+
+| Configuración | Valor |
+|---|---|
+| Service Type | Web Service |
+| Runtime | Node |
+| Repository | `AllpaTech/fake-api` |
+| Branch | `main` |
+| Build Command | `npm install` |
+| Start Command | `npm start` |
+| Health Check Path | `/health` |
+| Auto-Deploy | Enabled |
+
+El proceso de despliegue fue el siguiente:
+
+1. Se creó el repositorio de la Fake API en GitHub.
+2. Se incorporó el código fuente desarrollado con Node.js.
+3. Se configuraron los archivos `package.json` y `render.yaml`.
+4. Se conectó el repositorio con Render.
+5. Se configuró el comando de inicio `npm start`.
+6. Render construyó y publicó el servicio.
+7. Se activó el despliegue automático después de cada actualización enviada a la rama `main`.
+
+##### Evidencia 2: Web Service publicado en Render
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/fake-api-health-check.png"
+       alt="Prueba de disponibilidad de la Fake API"
+       width="850"/>
+</p>
+
+URL de la Fake API: [Muyu Fake API](https://muyu-fake-api.onrender.com)
+
+##### Evidencia 3: Despliegue automático desde GitHub
+
+La integración entre GitHub y Render permite generar un nuevo despliegue cada vez que se envían cambios a la rama `main` del repositorio de la Fake API.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/git-hub.png"
+       alt="Prueba de disponibilidad de la Fake API"
+       width="850"/>
+</p>
+
+##### Generación de la aplicación móvil
+
+La aplicación móvil fue desarrollada con Kotlin y Jetpack Compose desde Android Studio. Después de integrar la aplicación con la Fake API publicada, se ejecutó el proceso de compilación para verificar que el proyecto pudiera generar una versión instalable.
+
+El proceso realizado fue el siguiente:
+
+1. Se abrió el proyecto `muyuapp` en Android Studio.
+2. Se sincronizaron las dependencias mediante Gradle.
+3. Se configuró la URL de la Fake API publicada en Render.
+4. Se ejecutó la compilación del proyecto.
+5. Android Studio finalizó el proceso con el resultado `BUILD SUCCESSFUL`.
+6. Se generó un archivo APK para su instalación en dispositivos Android.
+
+##### Evidencia 4: Compilación exitosa de la aplicación móvil
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/android-build-successful.png"
+       alt="Compilación exitosa de la aplicación móvil"
+       width="900"/>
+</p>
+
+##### Evidencia 5: Archivo APK generado
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/android-apk-generated.png"
+       alt="Archivo APK generado desde Android Studio"
+       width="400"/>
+</p>
+
+Como resultado del proceso de despliegue, la Landing Page y la Fake API pueden utilizarse desde Internet sin depender de un servidor local. Por su parte, la aplicación móvil puede instalarse en un dispositivo Android mediante el archivo APK generado.
+
+---
+
 #### 4.2.1.9. Team Collaboration Insights during Sprint
 
 
