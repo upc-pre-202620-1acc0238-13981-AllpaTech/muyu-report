@@ -866,6 +866,88 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
+
+En esta sección se presentan los wireframes diseñados para la aplicación móvil de Muyu. Estos esquemas definen la estructura visual, la distribución de los componentes y la jerarquía de la información antes de aplicar el diseño visual final (UI). Se han categorizado según los dos actores principales del sistema: **Agricultor** y **Comerciante**.
+
+##### Perfil: Agricultor
+
+**Pantalla Principal (Home)**
+Vista central (Dashboard) donde el agricultor puede ver un resumen rápido de sus actividades, tareas pendientes y accesos directos a sus cultivos.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-agricultor-home.png" alt="Wireframe Agricultor Home" width="500"/>
+</p>
+
+**Gestión de Parcelas (Plot)**
+Interfaz para visualizar, registrar y administrar los detalles específicos de las parcelas agrícolas.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-agricultor-plot.png" alt="Wireframe Agricultor Plot" width="500"/>
+</p>
+
+**Sincronización Offline (Sync)**
+Pantalla fundamental para zonas rurales con baja conectividad, permitiendo al agricultor sincronizar sus datos de campo cuando recupere la conexión a internet.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-agricultor-sync.png" alt="Wireframe Agricultor Sync" width="500"/>
+</p>
+
+**Gestión de Pagos (Payment)**
+Vista de la billetera o sección financiera para solicitar, recibir y gestionar los desembolsos por parte de los comerciantes.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-agricultor-payment.png" alt="Wireframe Agricultor Payment" width="500"/>
+</p>
+
+**Perfil de Usuario (Profile)**
+Configuración de la cuenta del agricultor, datos personales y preferencias de la aplicación.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-agricultor-profile.png" alt="Wireframe Agricultor Profile" width="500"/>
+</p>
+
+**Estado y Seguimiento (Estado)**
+Pantalla dedicada al seguimiento del estado de los cultivos, avance de los hitos y condiciones actuales.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-agricultor-estado.png" alt="Wireframe Agricultor Estado" width="100"/>
+</p>
+
+---
+
+##### Perfil: Comerciante
+
+**Exploración de Catálogo (Catálogo)**
+Interfaz que permite al comerciante buscar, filtrar y explorar las diferentes parcelas y cultivos disponibles para financiamiento o compra.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-comerciante-catalogo.png" alt="Wireframe Comerciante Catalogo" width="500"/>
+</p>
+
+**Detalle de Parcela (Plot)**
+Vista detallada de una parcela seleccionada desde el catálogo, mostrando información técnica y métricas para la toma de decisiones.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-comerciante-plot.png" alt="Wireframe Comerciante Plot" width="500"/>
+</p>
+
+**Pagos y Financiamiento (Payment)**
+Pasarela y gestión de transacciones para que el comerciante pueda realizar los pagos de las cuotas o desembolsos de los contratos de escrow.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-comerciante-payment.png" alt="Wireframe Comerciante Payment" width="500"/>
+</p>
+
+**Notificaciones (Notifications)**
+Centro de alertas sobre actualizaciones de hitos, cambios climáticos severos o confirmaciones de transacciones.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-comerciante-notifications.png" alt="Wireframe Comerciante Notifications" width="150"/>
+</p>
+
+**Perfil de Usuario (Profile)**
+Gestión del perfil del comerciante, historial de inversiones, reputación y ajustes de la cuenta.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-comerciante-profile.png" alt="Wireframe Comerciante Profile" width="500"/>
+</p>
+
+**Estado de Inversión (Estado)**
+Pantalla para el monitoreo de los contratos activos, permitiendo ver el progreso de las parcelas financiadas y la validación de sus hitos.
+<p align="center">
+  <img src="assets/images/chapter03/wireframes/wiframes-comerciante-estado.png" alt="Wireframe Comerciante Estado" width="100"/>
+</p>
+
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
 ##### Publicar una parcela
