@@ -8585,6 +8585,31 @@ Como resultado del trabajo colaborativo, el equipo logró completar la primera v
 
 # Conclusiones y Recomendaciones
 
+## Conclusiones
+
+En el desarrollo del producto **Muyu**, la startup **AllpaTech** abordó una problemática real del agro peruano: la **falta de coordinación y confianza** entre **agricultores** y **comerciantes** cuando se registran labores, se presentan evidencias y se liberan fondos por hitos. Las entrevistas, el análisis de competidores y los artefactos de Needfinding (personas, journey maps, empatía y Event Storming) permitieron confirmar que la propuesta debe priorizar **evidencia verificable**, **trabajo con conectividad limitada** y **transparencia en los acuerdos de financiamiento**.
+
+La **arquitectura** documentada con **modelo C4**, **Context Map** y **DDD** (estrategia y diseño táctico) estableció una base **modular y escalable** para la aplicación móvil, el backend en **.NET 8**, la **Fake API** y la **Landing Page**. Esto facilitó que el equipo implementara en paralelo sin perder alineación con el dominio.
+
+En **diseño UX/UI**, se definieron lineamientos visuales (Material Design 3 adaptado al campo), wireframes, wireflows, mock-ups y diagramas de flujo para **agricultor** y **comerciante**, además del diseño de la landing. El enfoque **mobile-first** y **offline-first** responde al contexto de uso en zonas rurales y a la necesidad de interfaces legibles bajo sol y con manos ocupadas.
+
+En el **Sprint 1** se obtuvo evidencia concreta de implementación: estructura del frontend, landing responsive, bounded context de **Users**, backend y Fake API, pruebas y despliegues (Netlify, Railway, etc.), y flujos iniciales de la app móvil (autenticación, onboarding, parcelas, entre otros). El trabajo colaborativo mediante **Git** y ramas por capítulo permitió integrar avances de todo el equipo en `develop`.
+
+En conjunto, el proyecto demuestra que **Muyu** es viable como marketplace agro con diferenciación en **Escrow por hitos verificables** y **evidencia georreferenciada**, frente a competidores que no cubren de forma integrada confianza, trazabilidad y uso móvil en campo. Aún restan sprints para completar el producto mínimo, validarlo con usuarios reales y cerrar integraciones críticas (pagos, notificaciones, reglas de negocio completas).
+
+
+## Recomendaciones
+
+- Realizar **entrevistas de validación** (sección 4.3) con prototipos navegables para comprobar que agricultores y comerciantes comprenden el flujo de evidencias, hitos y Escrow.
+- En los **Sprint 2 y 3**, priorizar el ciclo completo del negocio (parcela → financiamiento → evidencia → aprobación → pago) y mejorar la experiencia **offline** con estados de sincronización visibles.
+- Completar los **Bounded Contexts** pendientes, migrar de la Fake API al **backend real** y reforzar seguridad (JWT, roles y validación de evidencia georreferenciada).
+- Ampliar **pruebas automatizadas** en los flujos críticos y registrar evidencias en cada sprint review.
+- Mantener integraciones frecuentes a `develop`, actualizar el **registro de versiones** del informe y elaborar los **videos** de validación, producto y equipo solicitados en la entrega.
+
+
+
+
+
 # Video App Validation
 
 # Video About the product
