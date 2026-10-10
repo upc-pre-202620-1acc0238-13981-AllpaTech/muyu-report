@@ -804,6 +804,7 @@ Las preguntas utilizan un componente de acordeón para mostrar una respuesta a l
        alt="Mock-up desktop de la sección de preguntas frecuentes de Muyu"
        width="800"/>
 </p>
+
 **FAQ**
 
 <p align="center">
