@@ -3966,21 +3966,21 @@ Para entender cómo se relaciona la aplicación móvil MUYU con su entorno, el d
 
 Este diagrama de contexto ilustra cómo la aplicación móvil MUYU interactúa de forma general con los usuarios en campo y los servicios externos del sistema.
 
-  <img alt="2.5.3.1. Software Architecture Context Level Diagrams — context level" src="assets/images/chapter02/context-level.png" width="1000"/>
+  <img alt="2.5.3.1. Software Architecture Context Level Diagrams — context level" src="assets/images/chapter02/C4_Context.png" width="1000"/>
 <p id="figura-33"><strong>Figura 33.</strong> Software Architecture Context Level Diagrams — context level</p>
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 Este diagrama de contenedores muestra los bloques tecnológicos internos de MUYU, destacando la aplicación cliente, su base de datos local para modo offline y los microservicios backend.
 
- <img alt="2.5.3.2. Software Architecture Container Level Diagrams — container level" src="assets/images/chapter02/container-level.png" width="1000"/>
+ <img alt="2.5.3.2. Software Architecture Container Level Diagrams — container level" src="assets/images/chapter02/C4_Container.png" width="1000"/>
 <p id="figura-34"><strong>Figura 34.</strong> Software Architecture Container Level Diagrams — container level</p>
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 Este diagrama de despliegue representa la infraestructura física y en la nube donde se ejecuta la aplicación móvil y se conectan sus servidores.
 
- <img alt="2.5.3.3. Software Architecture Deployment Level Diagrams — deployment level" src="assets/images/chapter02/deployment-level.png" width="1000"/>
+ <img alt="2.5.3.3. Software Architecture Deployment Level Diagrams — deployment level" src="assets/images/chapter02/C4_Deployment.png" width="1000"/>
 <p id="figura-35"><strong>Figura 35.</strong> Software Architecture Deployment Diagrams — deployment level</p>
 
 
