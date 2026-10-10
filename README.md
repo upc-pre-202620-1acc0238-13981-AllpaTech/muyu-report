@@ -4599,7 +4599,7 @@ Sustento: la app se lee en exteriores y se usa para decisiones económicas, por 
 
 Muyu emplea una cuadrícula responsive para mantener la alineación y la jerarquía visual entre la Landing Page y la aplicación móvil. La grilla permite distribuir títulos, imágenes, componentes y espacios de forma consistente, evitando posiciones arbitrarias entre pantallas.
 
-Landing Page
+**Landing Page**
 
 La versión desktop utiliza una estructura de columnas que organiza el contenido principal, la navegación y las secciones informativas. Los textos e imágenes se alinean con estas columnas para mantener una lectura clara y una separación uniforme entre bloques.
 
@@ -4609,7 +4609,7 @@ La versión desktop utiliza una estructura de columnas que organiza el contenido
        width="800"/>
 </p>
 
-Mobile Application
+**Mobile Application**
 
 La aplicación móvil utiliza una grilla adaptada al ancho del dispositivo. Los componentes principales respetan los márgenes laterales y las columnas definidas, mientras que elementos como tarjetas, formularios y botones se expanden dentro del área disponible.
 
@@ -4948,6 +4948,8 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
        width="100"/>
   </p>
 
+  [Ver en Figma](https://www.figma.com/design/UqCTwgxtwsgNu1uqXNjGhy/MUYU-COMPLETO?node-id=494-9299&t=svsUvtulsHkjMfJ2-1)
+
 #### 3.1.3.2. Landing Page Mock-up
 
 El mock-up de la Landing Page de Muyu desarrolla visualmente la propuesta planteada durante el wireframing y aplica los lineamientos definidos en el sistema de diseño. La interfaz utiliza la identidad gráfica de Muyu, la tipografía Urbanist, la paleta de verdes de la marca, componentes con bordes redondeados y una estructura basada en una cuadrícula de columnas.
@@ -5242,6 +5244,7 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
        width="150"/>
   </p>
 
+ [Ver en Figma](https://www.figma.com/design/UqCTwgxtwsgNu1uqXNjGhy/MUYU-COMPLETO?node-id=494-9299&t=svsUvtulsHkjMfJ2-1)
 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
@@ -5328,6 +5331,7 @@ Pantalla para el monitoreo de los contratos activos, permitiendo ver el progreso
   <img src="assets/images/chapter03/wireframes/wiframes-comerciante-estado.png" alt="Wireframe Comerciante Estado" width="100"/>
 </p>
 
+ [Ver en Figma](https://www.figma.com/design/UqCTwgxtwsgNu1uqXNjGhy/MUYU-COMPLETO?node-id=565-18866&t=svsUvtulsHkjMfJ2-1)
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
@@ -5924,6 +5928,9 @@ Pantalla para el monitoreo de los contratos activos, permitiendo ver el progreso
   width="100%"
 />
 
+
+ [Ver en Figma](https://www.figma.com/design/UqCTwgxtwsgNu1uqXNjGhy/MUYU-COMPLETO?node-id=7-1323&t=svsUvtulsHkjMfJ2-1)
+
 #### 3.1.4.3. Mobile Applications Mock-ups
 
 #### AGRICULTOR 
@@ -6194,6 +6201,8 @@ El flujo de recuperación de contraseña funciona así:
        width="600"/>
 </p>
 
+
+ [Ver en Figma](https://www.figma.com/design/UqCTwgxtwsgNu1uqXNjGhy/MUYU-COMPLETO?node-id=0-1&t=svsUvtulsHkjMfJ2-1)
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
@@ -7214,6 +7223,8 @@ El flujo de recuperación de contraseña funciona así:
   src="assets/images/chapter03/user flow diagrams/CC-2.png"
   width="100%"
 />
+
+ [Ver en Figma](https://www.figma.com/design/UqCTwgxtwsgNu1uqXNjGhy/MUYU-COMPLETO?node-id=9-1248&t=svsUvtulsHkjMfJ2-1)
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
