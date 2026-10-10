@@ -903,7 +903,39 @@ Esta configuración permite que los componentes de Muyu se construyan, validen y
 ## 4.2. Landing Page & Mobile Application Implementation
 ### 4.2.1. Sprint 1
 #### 4.2.1.1. Sprint Planning 1
+
+| Sprint #1 |  |
+|---|---|
+| **Sprint Planning Background** |  |
+| **Date** | 2026-10-08 |
+| **Time** | 10:00 AM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** | Quintanilla Pozo, Gonzalo Samuel |
+| **Attendees (to planning meeting)** | Orellana Rodriguez, Mel Andree / Berrospi Marin, Angel Guillermo / Arroyo Gonzales, Emily Juliette / Riveros Vera, Jennifer Yamilet / Quintanilla Pozo, Gonzalo Samuel |
+| **Sprint 0 Review Summary** | Al ser la primera iteración de implementación del producto, no existe un Sprint anterior para revisar. El equipo se enfocó en organizar los repositorios, configurar las herramientas de desarrollo y definir las funcionalidades que serían implementadas durante el Sprint 1. |
+| **Sprint 0 Retrospective Summary** | Al ser el primer Sprint, no se cuenta con una retrospectiva anterior. El equipo acordó utilizar GitHub para el control de versiones, mantener una comunicación constante y organizar el trabajo mediante ramas y commits descriptivos. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 1 Goal** | **Our focus is on** implementing the initial authentication, onboarding and user profile functionalities for the Muyu mobile application, together with the first version of the Landing Page and the services required by the application.<br><br>**We believe it delivers** an initial functional product that allows farmers and merchants to register, log in, select their role and access the main application interface.<br><br>**This will be confirmed when** users can register and log in according to their role, complete the onboarding process, manage their profile and access the published Landing Page. |
+| **Sprint 1 Velocity** | 27 Story Points |
+| **Sum of Story Points** | 27 Story Points (US01: 3, US16: 3, TS01: 5, TS02: 5, US17: 3, US18: 2, US19: 3, US02: 3). |
+
 #### 4.2.1.2. Aspect Leaders and Collaborators
+
+En el presente Sprint 1, el alcance funcional y técnico se ha dividido en tres aspectos principales para garantizar una entrega eficiente:
+
+1. **Landing Page:** desarrollo de la interfaz web, identidad visual y publicación mediante Netlify.
+2. **Mobile Application:** implementación de las interfaces y funcionalidades principales de la aplicación móvil en Android Studio.
+3. **Services & Deployment:** implementación de los servicios utilizados por la aplicación móvil y despliegue de la Fake API mediante Render.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page Leader (L) / Collaborator (C) | Mobile Application Leader (L) / Collaborator (C) | Services & Deployment Leader (L) / Collaborator (C) |
+|---|---|---|---|---|
+| Orellana Rodriguez, Mel Andree | u202116018 | C | C | C |
+| Berrospi Marin, Angel Guillermo | u202114701 | C | C | C |
+| Arroyo Gonzales, Emily Juliette | u202311469 | C | C | C |
+| Riveros Vera, Jennifer Yamilet | u20241c998 | L | C | C |
+| Quintanilla Pozo, Gonzalo Samuel | u202315007 | C | L | L |
+
+
 #### 4.2.1.3. Sprint Backlog 1
 #### 4.2.1.4. Development Evidence for Sprint Review
 #### 4.2.1.5. Testing Suite Evidence for Sprint Review
@@ -911,6 +943,8 @@ Esta configuración permite que los componentes de Muyu se construyan, validen y
 #### 4.2.1.7. Services Documentation Evidence for Sprint Review
 #### 4.2.1.8. Software Deployment Evidence for Sprint Review
 #### 4.2.1.9. Team Collaboration Insights during Sprint
+
+
 ### 4.2.2. Sprint 2
 #### 4.2.2.1. Sprint Planning 2
 #### 4.2.2.2. Aspect Leaders and Collaborators
