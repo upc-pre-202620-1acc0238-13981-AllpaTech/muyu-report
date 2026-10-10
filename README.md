@@ -483,11 +483,178 @@ La aplicación móvil utiliza una grilla adaptada al ancho del dispositivo. Los 
 </p>
 
 ### 3.1.2. Information Architecture
+
+La arquitectura de información de la aplicación móvil Muyu define cómo se organiza, etiqueta, busca y navega el contenido para que los dos tipos de usuario, Agricultor y Comerciante, puedan acceder de forma directa a las tareas relacionadas con sus objetivos.
+
+Las decisiones responden a los hallazgos obtenidos durante las entrevistas. El Agricultor trabaja directamente en campo, en ocasiones con conectividad limitada y mientras realiza otras actividades, por lo que necesita una navegación con pocas opciones y acciones directas. El Comerciante toma decisiones relacionadas con financiamiento, revisión de evidencias y aprobación de hitos, por lo que necesita identificar rápidamente qué parcelas o actividades requieren su atención.
+
 #### 3.1.2.1. Organization Systems
-#### 3.1.2.2. Labelling Systems
+
+**Sistemas de organización visual**
+
+| Sistema | Aplicación | Justificación |
+|---|---|---|
+| Jerárquico | La navegación parte de Inicio o Catálogo, continúa hacia una parcela y posteriormente hacia sus hitos, evidencias, financiamiento o información asociada. Las pantallas de detalle presentan primero el nombre y estado de la parcela, seguido de la información relacionada con su ciclo productivo. | Permite que el usuario comprenda en qué nivel se encuentra y cuál es el contexto de la información que está revisando. |
+| Secuencial | Se aplica en procesos que requieren un orden definido, como publicación de parcelas, financiamiento, registro de evidencias, recuperación de contraseña y confirmaciones. | Divide tareas extensas en pasos breves y reduce errores en procesos que requieren ingresar información o confirmar operaciones. |
+| Por estado | Las parcelas, evidencias, hitos, solicitudes y pagos se organizan mediante estados visibles como Available, Funded, Pending, Awaiting review, Approved y Correction needed. | Permite reconocer rápidamente qué elementos requieren atención o qué etapa del proceso se encuentra activa. |
+
+**Esquemas de categorización del contenido**
+
+| Esquema | Aplicación |
+|---|---|
+| Por audiencia o rol | Cada rol cuenta con navegación inferior, pantalla inicial y acciones principales diferentes. El Agricultor publica parcelas, registra evidencias y gestiona la sincronización. El Comerciante explora parcelas, financia planes de producción y revisa hitos. |
+| Por estado | Las parcelas y los hitos se identifican mediante badges como Available, Funded, Pending, Awaiting review, Approved y Correction needed. |
+| Cronológico | Se emplea en el historial de pagos, notificaciones, evidencias registradas y fechas asociadas a hitos o solicitudes de visita. |
+| Por tema | El Perfil agrupa información de contacto, preferencias de notificaciones, pagos, seguridad, ayuda y documentos legales. |
+| Geográfico | Se emplea en la ubicación de parcelas, verificación mediante GPS y búsqueda relacionada con ubicación. |
+| Alfabético | No se utiliza como criterio principal, ya que las parcelas se consultan principalmente por cultivo, ubicación, estado o relación con el usuario. |
+
+#### 3.1.2.2. Labeling Systems
+
+El sistema de etiquetado utiliza términos breves, orientados a la tarea y consistentes entre pantallas. El idioma predeterminado de la interfaz es inglés y se considera español latinoamericano (`es_419`) como alternativa.
+
+Las etiquetas buscan anticipar claramente el contenido o la acción asociada. Por ejemplo, Payments dirige al historial y estado de pagos, mientras que Sync identifica la sección donde el Agricultor puede revisar las evidencias pendientes de sincronización.
+
+**Navegación inferior**
+
+| Rol | Labels (en_US) | Equivalente es_419 |
+|---|---|---|
+| Agricultor | Home, Plots, Sync, Payments, Profile | Inicio, Parcelas, Sincronización, Pagos, Perfil |
+| Comerciante | Catalog, My plots, Alerts, Payments, Profile | Catálogo, Mis parcelas, Alertas, Pagos, Perfil |
+
+**Farmer**
+<p align="center">
+  <img src="assets/images/chapter03/navbar/navbar-farmers.png"
+       alt="Navbar farmers"
+       width="200"/>
+</p>
+
+**Merchant**
+
+<p align="center">
+  <img src="assets/images/chapter03/navbar/navbar-merchants.png"
+       alt="Navbar merchants"
+       width="200"/>
+</p>
+
+Las diferencias entre ambas barras de navegación responden a los objetivos de cada segmento. El Agricultor dispone de Sync para gestionar evidencias registradas con conectividad limitada. El Comerciante dispone de Catalog para explorar oportunidades de producción y Alerts` para revisar eventos relevantes relacionados con sus parcelas financiadas.
+
+**Acciones principales**
+
+| Label | Ubicación | Asociación esperada |
+|---|---|---|
+| Publish | Agricultor, Inicio o Parcelas | Inicia el registro de una nueva parcela. |
+| Record evidence | Agricultor, detalle de parcela | Inicia el registro de evidencia para un hito. |
+| Take photo | Agricultor, registro de evidencia | Abre la cámara para capturar una fotografía. |
+| Open gallery | Agricultor, registro de evidencia | Permite seleccionar una fotografía existente. |
+| Submit evidence | Agricultor, revisión de evidencia | Envía la evidencia registrada. Si no existe conexión, permanece pendiente de sincronización. |
+| Fund plot | Comerciante, detalle de parcela | Inicia el proceso de financiamiento del plan de producción. |
+| Approve and release payment | Comerciante, revisión de evidencia | Aprueba el hito y autoriza la liberación del pago correspondiente. |
+| Reject and explain reason | Comerciante, revisión de evidencia | Rechaza la evidencia y solicita una corrección indicando el motivo. |
+| Request visit | Comerciante, parcela | Inicia la coordinación de una visita presencial. |
+
+El uso de etiquetas como Approve and release payment comunica directamente la consecuencia de la acción. Esto resulta más claro que utilizar términos genéricos como Confirm en operaciones relacionadas con dinero.
+
+**Estados**
+
+| Badge | Significado | Equivalencia funcional |
+|---|---|---|
+| Available | Parcela publicada y disponible para financiamiento. | Parcela disponible |
+| Funded | Parcela con un acuerdo de financiamiento activo. | Parcela financiada |
+| Pending | Hito que aún requiere completar una actividad o presentar evidencia. | Pendiente |
+| Awaiting review | Evidencia enviada y pendiente de revisión por el Comerciante. | Evidencia presentada para revisión |
+| Approved | Hito revisado y aprobado. | Hito aprobado |
+| Correction needed | La evidencia requiere una nueva versión o corrección. | Corrección solicitada |
+| Submitted | Evidencia enviada correctamente al servidor. | Evidencia presentada |
+
+Los nombres extensos utilizados en la documentación se reducen en los badges para facilitar su lectura en una pantalla móvil. Las equivalencias se mantienen relacionadas con el Ubiquitous Language del proyecto para conservar consistencia entre diseño, documentación y desarrollo.
+
 #### 3.1.2.3. SEO Tags and Meta Tags
+
+Debido a que Muyu corresponde a una aplicación móvil, se consideran elementos de App Store Optimization (ASO) para describir y facilitar la identificación de la aplicación en una tienda de aplicaciones. Los elementos SEO correspondientes al sitio web público se documentan dentro de la Landing Page.
+
+| Elemento | en_US (predeterminado) | es_419 |
+|---|---|---|
+| App Title | Muyu: Fund and Track Crops | Muyu: Financia tus Cultivos |
+| App Subtitle | Escrow-protected farm funding | Financiamiento agrícola con Escrow |
+| Short Description | Fund farm plots, verify progress with GPS photos and pay by milestone. | Financia parcelas, verifica avances con fotos GPS y gestiona pagos por hitos. |
+| Keywords | farming, crops, agriculture, escrow, harvest, farmer, plots, weather alerts, offline, evidence, gps, peru | agricultura, cultivos, parcelas, escrow, cosecha, agricultor, alertas, sin conexion, evidencia, gps, peru |
+
+**App description (en_US)**
+
+Muyu connects farmers and merchants through agricultural production plans organized by milestones. Farmers publish their plots and register field progress using GPS and timestamped evidence, including situations with limited connectivity. Merchants can explore available plots, fund production plans, follow progress and review evidence before approving each milestone. Funds remain in Escrow and are released according to the approval of the corresponding milestone. Muyu also provides weather alerts related to conditions that may affect agricultural activities.
+
+**App description (es_419)**
+
+Muyu conecta a agricultores y comerciantes mediante planes de producción agrícola organizados por hitos. Los agricultores publican sus parcelas y registran el avance del trabajo mediante evidencias con GPS, fecha y hora, incluso en situaciones con conectividad limitada. Los comerciantes pueden explorar parcelas disponibles, financiar planes de producción, seguir su progreso y revisar las evidencias antes de aprobar cada hito. Los fondos permanecen en Escrow y se liberan de acuerdo con la aprobación del hito correspondiente. Muyu también proporciona alertas sobre condiciones climáticas que pueden afectar las actividades agrícolas.
+
 #### 3.1.2.4. Searching Systems
+
+Los sistemas de búsqueda de Muyu se adaptan al contexto de cada sección y evitan presentar una cantidad excesiva de filtros en pantallas móviles.
+
+| Contexto | Opciones de búsqueda y filtros | Presentación de resultados |
+|---|---|---|
+| Catálogo, Comerciante | Búsqueda por cultivo o ubicación, opciones rápidas como All, Near me y Recommended, junto con filtros relacionados con las características de la parcela. | Tarjetas con fotografía, nombre de parcela, agricultor, monto solicitado, cultivo, área, ubicación e información relevante del productor. |
+| Parcelas, Agricultor | Búsqueda por nombre de parcela o ubicación y filtrado por estado. | Tarjetas con nombre, cultivo, estado, hito actual, progreso y acceso al detalle de la parcela. |
+| My plots, Comerciante | Visualización de parcelas financiadas y opción para priorizar aquellas que requieren revisión. | Tarjetas con estado, progreso, hito actual y acciones pendientes. |
+| Payments, ambos roles | Organización cronológica y filtros relacionados con el estado del pago. | Lista de transacciones con parcela, hito, monto, fecha y estado. |
+| Alerts, Comerciante | Consulta de alertas relacionadas con clima, evidencias, solicitudes y próximos eventos. | Lista de notificaciones que dirige directamente al contexto relacionado. |
+
+Cuando una búsqueda no obtiene resultados, el sistema muestra un estado vacío e indica al usuario que puede modificar la búsqueda o los filtros. La cantidad de filtros se mantiene reducida para facilitar su uso en pantallas pequeñas.
+
 #### 3.1.2.5. Navigation Systems
+
+Muyu combina distintos sistemas de navegación para mantener disponibles las secciones principales y, al mismo tiempo, permitir acciones relacionadas con el contexto actual.
+
+| Sistema | Elementos | Función |
+|---|---|---|
+| Global | Barra de navegación inferior con cinco opciones según el rol. | Mantiene acceso permanente a las principales áreas de la aplicación. Cada opción combina icono y texto. |
+| Local | Flecha de regreso, título de pantalla y datos contextuales como parcela, cultivo o ciclo. | Permite identificar la ubicación actual dentro del flujo y regresar al nivel anterior. |
+| Contextual | Botones como Record evidence, Fund plot, Approve and release payment, Request visit o Correct evidence. | Permiten iniciar acciones directamente desde el contenido que el usuario está revisando. |
+| Secuencial | Indicadores de pasos y botones para continuar o regresar en procesos como publicación de parcelas y financiamiento. | Orientan al usuario en tareas que requieren un orden definido. |
+| Basado en notificaciones | Alertas climáticas, solicitudes de extensión, evidencias pendientes de revisión, pagos y eventos relacionados con la cosecha. | Permiten acceder directamente al detalle relacionado con un evento. |
+
+**Rutas principales**
+
+- **Agricultor, registrar evidencia:**  
+  <p align="center">
+  <img src="assets/images/chapter03/rutas/registrar-evidencia.png"
+       alt="Registrar evidencia"
+       width="10000"/>
+  </p>
+
+- **Agricultor, publicar una parcela:**  
+  <p align="center">
+  <img src="assets/images/chapter03/rutas/publicar.png"
+       alt="Publicar parcela"
+       width="10000"/>
+  </p>
+
+- **Comerciante, financiar una parcela:**  
+  <p align="center">
+  <img src="assets/images/chapter03/rutas/financiar.png"
+       alt="Financiar parcela"
+       width="10000"/>
+  </p>
+
+- **Comerciante, revisar un hito:**  
+  <p align="center">
+  <img src="assets/images/chapter03/rutas/revisar-hito.png"
+       alt="Revisar-hito"
+       width="10000"/>
+  </p>
+
+- **Comerciante, solicitar una visita:**  
+  <p align="center">
+  <img src="assets/images/chapter03/rutas/solicitar.png"
+       alt="Solicitar visita"
+       width="10000"/>
+  </p>
+
+**Criterios de diseño**
+
+La navegación inferior se limita a cinco opciones por rol y combina iconos con etiquetas para reducir ambigüedad. Los controles táctiles principales mantienen un área mínima de interacción de 48 px. Las acciones relacionadas con una parcela se presentan dentro de su contexto, evitando que el usuario tenga que regresar al menú principal para continuar una tarea.
+
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
 #### 3.1.3.2. Landing Page Mock-up
