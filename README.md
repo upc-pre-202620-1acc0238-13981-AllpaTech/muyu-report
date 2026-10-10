@@ -75,6 +75,20 @@
 |   TB1   | 09-10-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.4.3. Product Backlog |
 |   TB1   | 10-10-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 3.1.4.3.  Mobile Applications Mock-ups |
 |   TB1   | 09-10-2026 | Berrospi Marin, Angel Guillermo      | Desarrollo de 2.4.3. Product Backlog |
+|   TB1   | 09-10-2026 | Orellana Rodriguez, Mel Andree      | Desarrollo de la Estructura del Frontend |
+|   TB1   | 09-10-2026 | Orellana Rodriguez, Mel Andree      | Implentación Responsive en el Landing Page |
+|   TB1   | 09-10-2026 | Orellana Rodriguez, Mel Andree      | Correciones en el Backend |
+|   TB1   | 09-10-2026 | Orellana Rodriguez, Mel Andree      | Corecciones del Impact Mapping |
+|   TB1   | 09-10-2026 | Orellana Rodriguez, Mel Andree      | Implementación del Bounded Context Users |
+|   TB1   | 09-10-2026 | Quintanilla Pozo, Gonzalo Samue    | Implementación del Backend |
+|   TB1   | 09-10-2026 | Quintanilla Pozo, Gonzalo Samue    | Implementación de la Fake Api |
+|   TB1   | 09-10-2026 | Quintanilla Pozo, Gonzalo Samue    | Correciones del Frontend en la parte de Evidencias |
+|   TB1   | 09-10-2026 | Quintanilla Pozo, Gonzalo Samue    | Implementación de la Estructura de la Landing |
+|   TB1   | 09-10-2026 | Quintanilla Pozo, Gonzalo Samue    | Despliegue de la Landing |
+|   TB1   | 09-10-2026 | Quintanilla Pozo, Gonzalo Samue    | Despliegue del Frontend  |
+|   TB1   | 09-10-2026 | Quintanilla Pozo, Gonzalo Samue    | Despliegue de la Fake Api  |
+|   TB1   | 09-10-2026 | Quintanilla Pozo, Gonzalo Samue    | Despliegue del Backend  |
+
 
 </div>
 
