@@ -935,8 +935,37 @@ En el presente Sprint 1, el alcance funcional y técnico se ha dividido en tres 
 | Riveros Vera, Jennifer Yamilet | u20241c998 | L                                          | C                                                | C |
 | Quintanilla Pozo, Gonzalo Samuel | u202315007 | L                                          | C                                                | L |
 
-
 #### 4.2.1.3. Sprint Backlog 1
+
+El presente Sprint Backlog detalla las historias de usuario y tareas técnicas seleccionadas para la primera iteración del proyecto Muyu. El objetivo principal del Sprint 1 fue implementar el registro e inicio de sesión de usuarios, el recorrido de bienvenida según el rol, la recuperación de contraseña, la gestión del perfil, el registro de datos bancarios y los servicios de autenticación y autorización necesarios para la aplicación móvil.
+
+A continuación, se presenta la captura del tablero de Trello utilizado para organizar y controlar el estado de las actividades del Sprint.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/sprint-backlog-1.png"
+       alt="Sprint Backlog 1 en Trello"
+       width="900"/>
+</p>
+
+URL del tablero completo en Trello: [AllpaTech - App Móvil - Sprint 1](https://trello.com/b/0BQ2sVie/allpatech)
+
+| Sprint # | 1 |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US01 | Registro inicial de usuario | WI-01 | Diseño del formulario de registro | Diseñar la interfaz para el registro de agricultores y comerciantes. | 3 | Riveros, Jennifer | Done |
+| US01 | Registro inicial de usuario | WI-02 | Implementación del registro | Implementar el formulario y conectar el registro con la Fake API. | 5 | Quintanilla, Gonzalo | Done |
+| US16 | Inicio de sesión y acceso según rol | WI-03 | Diseño del formulario de inicio de sesión | Diseñar la interfaz para el ingreso de correo electrónico y contraseña. | 3 | Arroyo, Emily | Done |
+| US16 | Inicio de sesión y acceso según rol | WI-04 | Implementación del inicio de sesión | Conectar la aplicación móvil con el servicio de autenticación y redirigir al usuario según su rol. | 5 | Berrospi, Angel | Done |
+| US18 | Recorrido de bienvenida según el rol | WI-05 | Diseño de las pantallas de bienvenida | Diseñar las pantallas del recorrido de bienvenida para la aplicación móvil. | 3 | Riveros, Jennifer | Done |
+| US18 | Recorrido de bienvenida según el rol | WI-06 | Implementación del onboarding | Implementar las pantallas de bienvenida y la selección del rol del usuario. | 4 | Arroyo, Emily | Done |
+| TS01 | API de autenticación y JWT | WI-07 | Servicio de autenticación | Implementar los endpoints necesarios para el registro e inicio de sesión de usuarios. | 5 | Orellana, Mel Andree | In Process |
+| TS01 | API de autenticación y JWT | WI-08 | Integración de la aplicación con la API | Configurar Retrofit para consumir los servicios publicados en Render. | 4 | Quintanilla, Gonzalo | In Process |
+| TS02 | Middleware de autorización por roles | WI-09 | Control de acceso por rol | Gestionar el acceso a las funcionalidades de agricultor y comerciante según el usuario autenticado. | 5 | Berrospi, Angel | In Process |
+| US17 | Recuperación segura de contraseña | WI-10 | Recuperación de contraseña | Implementar la interfaz y el flujo para solicitar el restablecimiento de la contraseña. | 3 | Arroyo, Emily | To Do |
+| US19 | Consulta y actualización del perfil | WI-11 | Gestión del perfil | Permitir que el agricultor y el comerciante consulten y actualicen sus datos personales. | 4 | Orellana, Mel Andree | To Do |
+| US02 | Registro de datos bancarios | WI-12 | Formulario de datos bancarios | Implementar el formulario para registrar la información bancaria del usuario. | 3 | Riveros, Jennifer | To Do |
+
 #### 4.2.1.4. Development Evidence for Sprint Review
 #### 4.2.1.5. Testing Suite Evidence for Sprint Review
 #### 4.2.1.6. Execution Evidence for Sprint Review
