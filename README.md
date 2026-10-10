@@ -1188,6 +1188,63 @@ En la siguiente tabla se presentan todos los commits registrados en las ramas ut
 | `AllpaTech/Landing-page` | `main` | [`ebd27d0`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Landing-page/commit/ebd27d0c9480179693aed1ee99a53a6151e47584) | `feat:` | replace landing page with new version | 09/10/2026 |
 
 #### 4.2.1.5. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 1 se realizaron pruebas unitarias, instrumentadas y funcionales para verificar el funcionamiento de la aplicación móvil, la Landing Page y la Fake API. Las pruebas se concentraron principalmente en el registro de usuarios, inicio de sesión, navegación según el rol, recorrido de bienvenida, cierre de sesión y comunicación con los servicios publicados.
+
+La aplicación Android cuenta con una prueba unitaria local mediante JUnit y una prueba instrumentada mediante AndroidJUnit4. Debido a que el proyecto se encuentra en su primera iteración, la validación de las funcionalidades principales también se realizó mediante pruebas manuales ejecutadas desde un emulador y un dispositivo Android.
+
+| Test ID | User Story / Technical Story | Test Type | Test Scenario | Expected Result | Obtained Result | Status |
+|---|---|---|---|---|---|---|
+| TC-01 | US01 – Registro inicial de usuario | Functional | Registrar un usuario completando los datos requeridos y seleccionando el rol de agricultor. | La cuenta debe registrarse correctamente y el usuario debe ser redirigido a la pantalla de inicio de sesión. | El usuario fue registrado en la Fake API y posteriormente fue dirigido al inicio de sesión. | Passed |
+| TC-02 | US01 – Registro inicial de usuario | Functional | Intentar registrar una cuenta sin completar los campos obligatorios. | La aplicación debe impedir el registro y mostrar la validación correspondiente. | El formulario mantuvo deshabilitada la continuación hasta completar los campos requeridos. | Passed |
+| TC-03 | US16 – Inicio de sesión y acceso según rol | Functional | Iniciar sesión con las credenciales de un agricultor registrado. | La aplicación debe autenticar al usuario y mostrar las funcionalidades correspondientes al agricultor. | El agricultor pudo iniciar sesión y acceder a la navegación correspondiente a su rol. | Passed |
+| TC-04 | US16 – Inicio de sesión y acceso según rol | Functional | Iniciar sesión con las credenciales de un comerciante registrado. | La aplicación debe autenticar al usuario y mostrar las funcionalidades correspondientes al comerciante. | El comerciante pudo iniciar sesión y acceder a la interfaz asignada a su rol. | Passed |
+| TC-05 | US16 – Inicio de sesión y acceso según rol | Functional | Ingresar credenciales incorrectas en el formulario de inicio de sesión. | La aplicación debe rechazar el acceso y mantener al usuario en la pantalla de inicio de sesión. | El servicio rechazó las credenciales inválidas y no permitió el acceso a la aplicación. | Passed |
+| TC-06 | US18 – Recorrido de bienvenida según el rol | Functional | Abrir la aplicación por primera vez y avanzar por las pantallas de bienvenida. | La aplicación debe mostrar el recorrido inicial y permitir continuar hasta el inicio de sesión. | Las pantallas de onboarding se mostraron correctamente y permitieron avanzar al flujo de autenticación. | Passed |
+| TC-07 | US19 – Consulta y actualización del perfil | Functional | Acceder al perfil del usuario autenticado. | La aplicación debe mostrar la información y las opciones disponibles para el usuario. | La información del perfil fue mostrada correctamente según el usuario autenticado. | Passed |
+| TC-08 | US16 – Cierre de sesión | Functional | Seleccionar la opción “Cerrar sesión” desde el perfil. | La sesión debe eliminarse y la aplicación debe regresar a la pantalla de inicio de sesión. | La información de la sesión fue eliminada y el usuario fue redirigido al inicio de sesión. | Passed |
+| TC-09 | TS01 – Servicio de autenticación | Integration | Enviar una solicitud de registro desde la aplicación móvil hacia la Fake API publicada en Render. | La API debe crear el usuario y responder con un resultado satisfactorio. | La Fake API recibió la solicitud y registró al usuario correctamente. | Passed |
+| TC-10 | TS01 – Servicio de autenticación | Integration | Enviar una solicitud de inicio de sesión con credenciales registradas. | La API debe validar las credenciales y devolver la información del usuario autenticado. | El servicio validó las credenciales y permitió iniciar sesión desde la aplicación móvil. | Passed |
+| TC-11 | Fake API – Health Check | Integration | Acceder al endpoint principal de la Fake API desplegada en Render. | El servicio debe responder indicando que se encuentra en ejecución. | El servicio respondió con el estado `running` y la ruta base `/api/`. | Passed |
+| TC-12 | Mobile Application | Unit Test | Ejecutar la prueba `addition_isCorrect()` mediante JUnit. | La operación debe comprobar que `2 + 2` es igual a `4`. | La aserción se ejecutó con el resultado esperado. | Passed |
+| TC-13 | Mobile Application | Instrumented Test | Ejecutar la prueba `useAppContext()` en un dispositivo o emulador Android. | El contexto debe utilizar el package name `com.example.muyu_app`. | El package name obtenido coincidió con el definido en el proyecto. | Passed |
+| TC-14 | Mobile Application | Build Test | Compilar la aplicación desde Android Studio. | La compilación debe finalizar sin errores que impidan generar la aplicación. | Android Studio mostró el mensaje `BUILD SUCCESSFUL`. | Passed |
+| TC-15 | Landing Page | Functional and Responsive | Abrir la Landing Page desde un navegador y revisar sus secciones principales. | El contenido, las imágenes, los botones y la navegación deben mostrarse correctamente. | Las secciones y los recursos locales se visualizaron correctamente en la versión publicada. | Passed |
+| TC-16 | Landing Page | Responsive | Visualizar la Landing Page en resoluciones de escritorio y dispositivo móvil. | La interfaz debe adaptarse al ancho de la pantalla sin perder contenido. | La distribución del contenido se adaptó correctamente a ambas resoluciones. | Passed |
+
+La siguiente imagen evidencia la compilación satisfactoria de la aplicación móvil desde Android Studio:
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/android-build-successful.png"
+       alt="Compilación exitosa de la aplicación móvil"
+       width="850"/>
+</p>
+
+La siguiente imagen evidencia la ejecución de la aplicación móvil y la validación del flujo de autenticación:
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/mobile-authentication-test.jpeg"
+       alt="Prueba funcional del flujo de autenticación"
+       width="150"/>
+</p>
+
+La siguiente imagen evidencia que la Fake API se encuentra publicada y disponible mediante Render:
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/fake-api-health-check.png"
+       alt="Prueba de disponibilidad de la Fake API"
+       width="850"/>
+</p>
+
+La siguiente imagen evidencia la visualización y validación de la Landing Page publicada:
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/landing-page-test.png"
+       alt="Prueba funcional de la Landing Page"
+       width="850"/>
+</p>
+
+
 #### 4.2.1.6. Execution Evidence for Sprint Review
 #### 4.2.1.7. Services Documentation Evidence for Sprint Review
 #### 4.2.1.8. Software Deployment Evidence for Sprint Review
