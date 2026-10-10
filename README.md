@@ -8646,45 +8646,110 @@ URL del tablero: [AllpaTech - App Móvil - Sprint 1](https://trello.com/b/0BQ2sV
 Como resultado del trabajo colaborativo, el equipo logró completar la primera versión de la Landing Page, la aplicación móvil y los servicios necesarios para demostrar el funcionamiento integrado de Muyu. Asimismo, se mantuvo actualizada la documentación del producto y se registraron los avances mediante el historial de commits de los repositorios.
 
 
-### 4.2.2. Sprint 2
-#### 4.2.2.1. Sprint Planning 2
-#### 4.2.2.2. Aspect Leaders and Collaborators
-#### 4.2.2.3. Sprint Backlog 2
-#### 4.2.2.4. Development Evidence for Sprint Review
-#### 4.2.2.5. Testing Suite Evidence for Sprint Review
-#### 4.2.2.6. Execution Evidence for Sprint Review
-#### 4.2.2.7. Services Documentation Evidence for Sprint Review
-#### 4.2.2.8. Software Deployment Evidence for Sprint Review
-#### 4.2.2.9. Team Collaboration Insights during Sprint
-### 4.2.3. Sprint 3
-#### 4.2.3.1. Sprint Planning 3
-#### 4.2.3.2. Aspect Leaders and Collaborators
-#### 4.2.3.3. Sprint Backlog 3
-#### 4.2.3.4. Development Evidence for Sprint Review
-#### 4.2.3.5. Testing Suite Evidence for Sprint Review
-#### 4.2.3.6. Execution Evidence for Sprint Review
-#### 4.2.3.7. Services Documentation Evidence for Sprint Review
-#### 4.2.3.8. Software Deployment Evidence for Sprint Review
-#### 4.2.3.9. Team Collaboration Insights during Sprint
-
-## 4.3. Validation Interviews
-### 4.3.1. Diseño de Entrevistas
-### 4.3.2. Registro de Entrevistas
-### 4.3.3. Evaluaciones según heurísticas
-
-
 
 # Conclusiones y Recomendaciones
 
-# Video App Validation
+## Conclusiones
 
-# Video About the product
+1. El desarrollo de Muyu permitió validar la viabilidad de una solución digital orientada a facilitar la conexión entre agricultores y comerciantes, centralizando procesos como el registro de parcelas, la búsqueda de financiamiento, la gestión de acuerdos, el seguimiento de hitos productivos y la presentación de evidencias.
 
-# Video About the team
+2. Las entrevistas y actividades de Needfinding permitieron identificar que los agricultores necesitan mecanismos más accesibles y transparentes para presentar sus parcelas y solicitar financiamiento. Asimismo, los comerciantes requieren información verificable sobre el terreno, el productor y el avance de cada etapa agrícola antes de comprometer sus recursos.
 
-# Glosario
+3. La Landing Page permitió comunicar la propuesta de valor de Muyu y presentar sus principales funcionalidades a los potenciales usuarios. Su publicación en Netlify permitió disponer de una versión accesible mediante Internet y adaptable a diferentes tamaños de pantalla.
+
+4. La aplicación móvil permitió implementar los principales flujos correspondientes a los roles de agricultor y comerciante. Entre estos se encuentran el registro e inicio de sesión, la publicación y visualización de parcelas, el registro de evidencias, la revisión de hitos, la gestión del perfil y el cierre de sesión.
+
+5. La separación de funcionalidades según el rol del usuario permitió ofrecer una experiencia más clara. El agricultor puede publicar su parcela y presentar evidencias del proceso productivo, mientras que el comerciante puede consultar oportunidades, evaluar información y revisar los avances relacionados con el financiamiento.
+
+6. El backend de Muyu fue desarrollado con .NET 8 y ASP.NET Core utilizando una arquitectura de monolito modular, DDD y CQRS. Esta organización permitió separar responsabilidades en módulos como IAM, Parcel Management, Agreements, Escrow, Tracking y Climate Alerts.
+
+7. La documentación de los servicios mediante Swagger y OpenAPI facilitó la comprensión y prueba de los endpoints. Mediante esta interfaz fue posible comprobar operaciones como el registro de usuarios, inicio de sesión, autenticación mediante JWT, consulta del perfil y registro de parcelas.
+
+8. El despliegue del backend en Railway permitió contar con una API disponible públicamente y sin dependencia del entorno local. Asimismo, el uso de un volumen persistente permitió conservar la base de datos SQLite durante los reinicios y nuevos despliegues del servicio.
+
+9. La implementación de autenticación mediante JWT y autorización basada en roles permitió restringir las operaciones del sistema. De esta manera, cada usuario solamente puede acceder a los servicios correspondientes a su rol dentro de Muyu.
+
+10. La Fake API desplegada en Render permitió probar inicialmente la comunicación de la aplicación móvil con un servicio remoto. Esta estrategia facilitó la validación de los flujos mientras se continuaba desarrollando y estabilizando el backend principal.
+
+11. El uso de Git y GitHub permitió mantener un historial de cambios, trabajar mediante ramas y consolidar los aportes realizados por los integrantes. Trello permitió organizar las historias de usuario y tareas de acuerdo con su estado dentro del Sprint.
+
+12. Las pruebas funcionales realizadas permitieron detectar y corregir problemas relacionados con el registro de usuarios, la persistencia de datos, la navegación, el cierre de sesión, el registro de evidencias y la compatibilidad entre diferentes versiones de la base de datos.
+
+13. En términos generales, el Sprint permitió obtener una primera versión funcional de los principales componentes de Muyu: Landing Page, aplicación móvil, Fake API y backend. Estos resultados proporcionan una base técnica que puede continuar evolucionando en los siguientes Sprints.
+
+## Recomendaciones
+
+1. Completar progresivamente la integración de la aplicación móvil con el backend principal, reemplazando los servicios simulados de la Fake API por los endpoints desplegados en Railway.
+
+2. Incorporar una base de datos administrada, como PostgreSQL, cuando el sistema pase a un entorno con mayor cantidad de usuarios. SQLite resulta suficiente para el prototipo, pero una base de datos cliente-servidor ofrecerá mejores posibilidades de escalabilidad, concurrencia, respaldo y administración.
+
+3. Implementar migraciones formales con Entity Framework Core para mantener un historial controlado de los cambios realizados en el esquema de la base de datos y reducir los riesgos durante futuros despliegues.
+
+4. Ampliar la cobertura de pruebas unitarias, pruebas de integración y pruebas de interfaz. Se recomienda automatizar casos relacionados con autenticación, autorización por roles, registro de parcelas, acuerdos, evidencias y desembolsos.
+
+5. Incorporar un servicio de almacenamiento especializado para las fotografías y evidencias, como Azure Blob Storage, Amazon S3 o Cloudinary. Esto evitará almacenar archivos directamente en el servidor del backend y facilitará su disponibilidad.
+
+6. Fortalecer la validación de identidad de los usuarios mediante servicios externos oficiales o especializados. Esto permitiría comprobar de manera más confiable el DNI de los agricultores y el RUC de los comerciantes.
+
+7. Implementar mecanismos de recuperación de contraseña mediante correo electrónico y tokens temporales, evitando exponer información sensible y permitiendo que el usuario recupere el acceso de manera segura.
+
+8. Mantener las claves JWT, credenciales y configuraciones sensibles exclusivamente como variables de entorno. Estos valores no deben almacenarse directamente en el código fuente ni publicarse en GitHub.
+
+9. Incorporar mecanismos de renovación y revocación de tokens, como refresh tokens, para mejorar la administración de sesiones y permitir el cierre de sesión seguro desde distintos dispositivos.
+
+10. Implementar copias de seguridad periódicas de la base de datos y establecer un procedimiento documentado de recuperación ante fallos.
+
+11. Incorporar monitoreo, trazabilidad y registro centralizado de errores para detectar oportunamente problemas en producción. También se recomienda configurar alertas relacionadas con errores HTTP, disponibilidad y consumo de recursos.
+
+12. Continuar realizando pruebas de usabilidad con agricultores y comerciantes reales. Esto permitirá validar si los formularios, términos utilizados, botones y flujos son comprensibles para el público objetivo.
+
+13. Optimizar la aplicación móvil para escenarios con conectividad limitada. Se recomienda implementar almacenamiento temporal, sincronización posterior y mensajes claros cuando el dispositivo se encuentre sin conexión.
+
+14. Mejorar la accesibilidad de la Landing Page y la aplicación móvil mediante contraste adecuado, textos alternativos, tamaños legibles, navegación clara y compatibilidad con tecnologías de asistencia.
+
+15. Mantener actualizados los Términos y Condiciones y la Política de Privacidad, indicando claramente qué información se recopila, para qué se utiliza y cómo puede el usuario solicitar su modificación o eliminación.
+
+16. Continuar utilizando GitHub y Trello para documentar el trabajo del equipo. Se recomienda mantener commits descriptivos, Pull Requests revisados y tareas correctamente asignadas para conservar la trazabilidad del proyecto.
+
 
 # Bibliografía
+
+Android Developers. (s. f.). *Android Developers documentation*. Google. Recuperado el 10 de octubre de 2026, de https://developer.android.com/docs
+
+Android Developers. (s. f.). *Jetpack Compose*. Google. Recuperado el 10 de octubre de 2026, de https://developer.android.com/compose
+
+Atlassian. (s. f.). *Trello guide*. Recuperado el 10 de octubre de 2026, de https://trello.com/guide
+
+GitHub. (s. f.). *GitHub documentation*. Recuperado el 10 de octubre de 2026, de https://docs.github.com/
+
+GitHub. (s. f.). *About GitHub and Git*. Recuperado el 10 de octubre de 2026, de https://docs.github.com/en/get-started/start-your-journey/about-github-and-git
+
+Google. (s. f.). *Material Design 3*. Recuperado el 10 de octubre de 2026, de https://m3.material.io/
+
+JetBrains. (s. f.). *Kotlin documentation*. Recuperado el 10 de octubre de 2026, de https://kotlinlang.org/docs/home.html
+
+Microsoft. (s. f.). *ASP.NET Core documentation*. Microsoft Learn. Recuperado el 10 de octubre de 2026, de https://learn.microsoft.com/aspnet/core/
+
+Microsoft. (s. f.). *ASP.NET Core Web API documentation with Swagger/OpenAPI*. Microsoft Learn. Recuperado el 10 de octubre de 2026, de https://learn.microsoft.com/aspnet/core/tutorials/web-api-help-pages-using-swagger
+
+Microsoft. (s. f.). *.NET 8 documentation*. Microsoft Learn. Recuperado el 10 de octubre de 2026, de https://learn.microsoft.com/dotnet/core/whats-new/dotnet-8/overview
+
+Microsoft. (s. f.). *Entity Framework Core documentation*. Microsoft Learn. Recuperado el 10 de octubre de 2026, de https://learn.microsoft.com/ef/core/
+
+Microsoft. (s. f.). *SQLite database provider for Entity Framework Core*. Microsoft Learn. Recuperado el 10 de octubre de 2026, de https://learn.microsoft.com/ef/core/providers/sqlite/
+
+Netlify. (s. f.). *Netlify documentation*. Recuperado el 10 de octubre de 2026, de https://docs.netlify.com/
+
+OpenAPI Initiative. (s. f.). *OpenAPI Specification*. Recuperado el 10 de octubre de 2026, de https://spec.openapis.org/oas/latest.html
+
+Railway. (s. f.). *Railway documentation*. Recuperado el 10 de octubre de 2026, de https://docs.railway.com/
+
+Render. (s. f.). *Render documentation*. Recuperado el 10 de octubre de 2026, de https://render.com/docs
+
+SmartBear Software. (s. f.). *Swagger documentation*. Recuperado el 10 de octubre de 2026, de https://swagger.io/docs/
+
+SQLite Consortium. (s. f.). *SQLite documentation*. Recuperado el 10 de octubre de 2026, de https://www.sqlite.org/docs.html
+
 
 # Anexos
 
