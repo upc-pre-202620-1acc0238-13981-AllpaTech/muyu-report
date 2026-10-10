@@ -1192,96 +1192,598 @@ Pantalla para el monitoreo de los contratos activos, permitiendo ver el progreso
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
+- Perfil - Agricultor:
+
+
 ##### Publicar una parcela
 
- Wireflow que muestra cómo el agricultor registra los datos y la ubicación de su parcela, define el plan de financiamiento y acepta sus condiciones. Al completar las validaciones, la parcela se publica como Disponible y queda visible para recibir solicitudes de financiamiento.
 
-<p align="center">
-  <img src="assets/images/chapter03/wireflow diagrams/WF-1.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Agricultor</td>
+    <td><strong>Número</strong></td>
+    <td>1</td>
+  </tr>
 
-##### Registrar evidencia de un hito 
 
-Wireflow que muestra el registro de una evidencia fotográfica, junto con la fecha, ubicación GPS e información del insumo utilizado. Tras validar y enviar los datos, la evidencia queda Pendiente de revisión; si no existe conexión, se almacena localmente para sincronizarse después.
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Agricultor, quiero registrar las dimensiones y ubicación de mi
+      parcela, para hacer visible mi oferta a los compradores.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/wireflow diagrams/WF-2.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
 
-##### Corregir un hito rechazado 
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      El agricultor accede a la sección de parcelas y selecciona la opción
+      para publicar una nueva parcela. El sistema muestra el primer paso del
+      formulario, donde se registran las fotografías, el nombre de la parcela,
+      el tipo de cultivo, el área y la fecha estimada de cosecha.
+      <br><br>
+      Después de completar los campos obligatorios, el agricultor continúa
+      con el registro de la ubicación. En esta etapa puede utilizar su
+      ubicación actual y completar la región, provincia, distrito y dirección
+      de referencia. El sistema valida la información y las coordenadas GPS
+      antes de habilitar el siguiente paso.
+      <br><br>
+      A continuación, se presenta el plan de financiamiento con el monto
+      solicitado, la duración del ciclo, la cantidad de hitos y la distribución
+      de los desembolsos. El agricultor revisa la información y acepta las
+      condiciones para habilitar la confirmación.
+      <br><br>
+      Finalmente, el agricultor confirma la publicación. El sistema guarda la
+      información, asigna a la parcela el estado “Publicada” y muestra una
+      confirmación. La parcela aparece en la sección “My Plots” como disponible
+      para ser consultada por los comerciantes.
+    </td>
+  </tr>
+</table>
 
-Wireflow que muestra la consulta del motivo de rechazo, la corrección de la evidencia y el envío de una nueva versión. El registro original se conserva para mantener la trazabilidad y la evidencia corregida queda Pendiente de revisión, sin liberar automáticamente el pago retenido.
 
-<p align="center">
-  <img src="assets/images/chapter03/wireflow diagrams/WF-3.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<div align="center">
 
-##### Atender una alerta climática 
 
-Wireflow que muestra la consulta del nivel de riesgo climático y las recomendaciones preventivas para proteger el cultivo. Después de registrar las medidas realizadas, la alerta queda como Atendida, aunque el riesgo continúa activo y debe mantenerse el monitoreo.
+<img
+  src="assets/images/chapter03/wireflow diagrams/WF-1.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/wireflow diagrams/WF-4.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
 
-##### Sincronizar evidencias sin conexión 
+<p><strong>Wireflow Diagram - 1</strong></p>
 
-Wireflow que muestra el almacenamiento local y la sincronización de evidencias registradas sin conexión. Al recuperar una conexión permitida, se envían los registros pendientes y solo se reintentan aquellos que presentan errores, evitando pérdidas o duplicados.
 
-<p align="center">
-  <img src="assets/images/chapter03/wireflow diagrams/WF-5.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFD-1.png"
+  width="100%"
+/>
+
+
+</div>
+
+
+##### Registrar evidencia de un hito
+
+
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Agricultor</td>
+    <td><strong>Número</strong></td>
+    <td>2</td>
+  </tr>
+
+
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Agricultor, quiero subir evidencias fotográficas con geolocalización
+      de mi cultivo, para demostrar el avance de la tarea en el hito actual.
+    </td>
+  </tr>
+
+
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      El agricultor abre una parcela financiada y selecciona el hito pendiente
+      de Fertilización. Luego, elige la opción “Record evidence” para iniciar
+      el registro.
+      <br><br>
+      El sistema muestra la pantalla de registro de evidencia, donde el
+      agricultor toma una fotografía o la selecciona desde la galería. La
+      aplicación registra la fecha, la hora y la ubicación GPS. Además, el
+      agricultor indica el insumo utilizado y la cantidad aplicada.
+      <br><br>
+      Después de completar la información, el agricultor continúa a la
+      revisión. El sistema presenta la fotografía y los datos capturados para
+      comprobar que la ubicación se encuentre dentro de la parcela y que la
+      información esté completa.
+      <br><br>
+      Finalmente, el agricultor selecciona “Submit evidence”. El servidor
+      recibe la evidencia y cambia su estado a “Submitted” o “Pendiente de
+      revisión”. El desembolso de S/ 2 000 permanece retenido hasta que el
+      comerciante revise y apruebe la evidencia.
+    </td>
+  </tr>
+</table>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WF-2.png"
+  width="100%"
+/>
+
+
+<p><strong><center> Wireflow Diagram - 2</center></strong></p>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFD-2.png"
+  width="100%"
+/>
+
+
+##### Corregir un hito rechazado
+
+
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Agricultor</td>
+    <td><strong>Número</strong></td>
+    <td>3</td>
+  </tr>
+
+
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Agricultor, quiero reenviar evidencias corregidas, para que el
+      comerciante pueda aprobarlas.
+    </td>
+  </tr>
+
+
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      El agricultor abre el detalle del hito rechazado. El sistema muestra el
+      motivo del rechazo, la evidencia original y el monto que continúa
+      retenido. Después de revisar la observación del comerciante, el
+      agricultor selecciona “Correct evidence”.
+      <br><br>
+      El sistema abre una nueva versión de la evidencia y conserva el registro
+      original. El agricultor adjunta una fotografía corregida, indica el
+      insumo utilizado y la cantidad aplicada, y escribe una nota explicando
+      la corrección realizada.
+      <br><br>
+      Antes del reenvío, el sistema valida la fotografía, la fecha, la
+      ubicación GPS y los datos registrados. El agricultor comprueba que la
+      nueva evidencia atienda el motivo del rechazo y selecciona “Resubmit
+      evidence”.
+      <br><br>
+      Finalmente, el sistema registra la corrección como una nueva versión,
+      conserva la evidencia original en el historial y cambia su estado a
+      “Submitted” o “Pendiente de revisión”. El desembolso de S/ 2 000
+      permanece retenido hasta que el comerciante revise nuevamente la
+      evidencia.
+    </td>
+  </tr>
+</table>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WF-3.png"
+  width="100%"
+/>
+
+
+<p><strong><center>Wireflow Diagram - 3</center></strong></p>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFD-3.png"
+  width="100%"
+/>
+
+
+##### Consultar una alerta climática
+
+
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Agricultor</td>
+    <td><strong>Número</strong></td>
+    <td>4</td>
+  </tr>
+
+
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Agricultor, quiero consultar el riesgo climático y registrar las
+      medidas preventivas realizadas, para proteger mi cultivo ante condiciones
+      meteorológicas adversas.
+    </td>
+  </tr>
+
+
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      El agricultor accede a la sección “My Plots”. El sistema muestra las
+      parcelas registradas y señala que Esperanza Plot presenta un riesgo de
+      lluvia intensa. El agricultor selecciona el indicador “Heavy rain risk”
+      para consultar la alerta.
+      <br><br>
+      El sistema presenta la información meteorológica correspondiente:
+      precipitación estimada de 42 mm, duración de 24 horas y nivel de riesgo
+      alto. También muestra las recomendaciones preventivas para proteger el
+      cultivo.
+      <br><br>
+      Después de realizar las medidas fuera de la aplicación, el agricultor
+      registra que revisó el drenaje, protegió los insumos y postergó la
+      fertilización durante la lluvia.
+      <br><br>
+      Finalmente, el sistema guarda las medidas registradas y muestra la alerta
+      con el estado “Addressed” o “Atendida”. El riesgo meteorológico permanece
+      activo, debido a que registrar la atención no detiene la lluvia ni
+      garantiza la protección del cultivo.
+    </td>
+  </tr>
+</table>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WF-4.png"
+  width="100%"
+/>
+
+
+<p> <center> <strong>Wireflow Diagram - 4 </center></strong></p>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFD-4.png"
+  width="100%"
+/>
+
+
+##### Sincronizar evidencias sin conexión
+
+
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Agricultor</td>
+    <td><strong>Número</strong></td>
+    <td>5</td>
+  </tr>
+
+
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Agricultor, quiero enviar las evidencias guardadas al recuperar la
+      conexión, para no perderlas ni duplicarlas.
+    </td>
+  </tr>
+
+
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      El agricultor accede a la sección “Sync”. El sistema muestra tres
+      evidencias pendientes, almacenadas localmente junto con sus fotografías,
+      coordenadas GPS, fechas y demás metadatos.
+      <br><br>
+      Cuando se recupera una conexión permitida, el sistema inicia la
+      sincronización de la cola y muestra el progreso individual de cada
+      evidencia. Cada registro se envía una sola vez para evitar duplicados.
+      <br><br>
+      Dos evidencias se envían correctamente y cambian su estado a
+      “Submitted”. Si una evidencia presenta un error, los registros enviados
+      permanecen en el historial y únicamente la evidencia fallida continúa
+      pendiente.
+      <br><br>
+      El agricultor selecciona “Retry Molinos”. El sistema reintenta solamente
+      el registro fallido y completa su envío sin volver a procesar las otras
+      evidencias.
+      <br><br>
+      Finalmente, el sistema muestra cero evidencias pendientes, tres nuevos
+      registros enviados y un historial total de quince evidencias. Los
+      registros sincronizados se conservan sin pérdidas ni duplicados.
+    </td>
+  </tr>
+</table>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WF-5.png"
+  width="100%"
+/>
+
+
+<p> <center> <strong>Wireflow Diagram - 5 </center></strong></p>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFD-5.png"
+  width="100%"
+/>
+
+
+- Perfil - Comerciante:
 
 
 ##### Financiar una parcela
 
-Wireflow que muestra la selección de una parcela, la revisión del plan de desembolsos y la confirmación del financiamiento. Al aceptar las condiciones y completar el pago, los fondos quedan retenidos en custodia para liberarse conforme se aprueben los hitos.
 
-<p align="center">
-  <img src="assets/images/chapter03/wireflow diagrams/WFC-1.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Comerciante</td>
+    <td><strong>Número</strong></td>
+    <td>6</td>
+  </tr>
 
-##### Revisar y aprobar o rechazar un hito
 
-Wireflow que muestra la revisión de la evidencia y la decisión de aprobarla o rechazarla. La aprobación libera únicamente el pago correspondiente al hito, mientras que el rechazo exige registrar un motivo y mantiene los fondos retenidos.
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Comerciante, quiero financiar de forma directa una parcela
+      eligiendo entre los métodos de pago habilitados, para transferir los
+      fondos a custodia y asegurar el ciclo productivo.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/wireflow diagrams/WFC-2.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      La comerciante accede al catálogo de parcelas disponibles y selecciona
+      Esperanza Plot. El sistema muestra los detalles del cultivo, el área, la
+      ubicación y la información del agricultor.
+      <br><br>
+      Después de revisar la parcela, la comerciante selecciona la opción para
+      financiarla. El sistema presenta el monto total de S/ 8 500 y el plan de
+      desembolsos correspondiente a los hitos de Planting, Irrigation,
+      Fertilization y Harvest.
+      <br><br>
+      La comerciante selecciona un método de pago, revisa el funcionamiento de
+      Escrow y acepta los términos y condiciones. El sistema habilita la
+      continuación y muestra la revisión final del contrato con el monto,
+      destinatario, parcela y distribución de las cuotas.
+      <br><br>
+      La comerciante confirma el financiamiento y realiza el pago de S/ 8 500.
+      El sistema procesa la transacción, cambia el estado de la parcela a
+      “Financiada” y transfiere el monto a retención en Escrow.
+      <br><br>
+      Finalmente, el sistema muestra la confirmación del financiamiento,
+      notifica al agricultor y permite consultar la parcela financiada o
+      descargar el comprobante. Los fondos permanecen retenidos hasta la
+      aprobación de los hitos correspondientes.
+    </td>
+  </tr>
+</table>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFC-1.png"
+  width="100%"
+/>
+
+
+<p> <center> <strong>Wireflow Diagram - 6 </center></strong></p>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFDC-1.png"
+  width="100%"
+/>
+
+
+##### Revisar, aprobar o rechazar un hito
+
+
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Comerciante</td>
+    <td><strong>Número</strong></td>
+    <td>7</td>
+  </tr>
+
+
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Comerciante, quiero validar la evidencia de un hito y aprobarla o
+      rechazarla con una justificación, para liberar únicamente la cuota
+      correspondiente cuando el trabajo cumpla los criterios establecidos.
+    </td>
+  </tr>
+
+
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      La comerciante accede a la sección “My Plots” y filtra las parcelas que
+      tienen evidencias pendientes de revisión. Luego, selecciona Esperanza
+      Plot y abre la evidencia correspondiente al hito de Fertilización.
+      <br><br>
+      El sistema presenta la fotografía enviada, la fecha, la ubicación GPS,
+      el insumo utilizado, la cantidad aplicada y la nota del agricultor. La
+      comerciante revisa la información y comprueba que la evidencia se
+      encuentre dentro de la parcela y cumpla los criterios del hito.
+      <br><br>
+      La comerciante selecciona “Approve and release payment”. El sistema
+      muestra una revisión final con la evidencia y la cuota de S/ 2 000 que
+      será liberada. También informa que la aprobación no puede deshacerse y
+      que únicamente se procesará el pago correspondiente a Fertilización.
+      <br><br>
+      Después de verificar las consecuencias, la comerciante confirma la
+      aprobación. El sistema cambia el estado del hito a “Aprobado” y procesa
+      la liberación de S/ 2 000 al medio de cobro del agricultor.
+      <br><br>
+      Finalmente, el sistema muestra tres de cuatro hitos aprobados, un total
+      liberado de S/ 6 000 y un saldo de S/ 2 500 retenido en Escrow. También
+      notifica al agricultor y permite consultar la parcela o el comprobante.
+    </td>
+  </tr>
+</table>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFC-2.png"
+  width="100%"
+/>
+
+
+<p> <center> <strong>Wireflow Diagram - 7 </center></strong></p>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFDC-2.png"
+  width="100%"
+/>
+
 
 ##### Solicitar una visita presencial
 
-  Wireflow que muestra la propuesta de una fecha y hora para realizar una visita presencial antes del financiamiento. La solicitud queda pendiente hasta recibir una respuesta y, al ser aceptada, se confirma la coordinación sin reservar la parcela ni generar pagos.
 
-<p align="center">
-  <img src="assets/images/chapter03/wireflow diagrams/WFC-3.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Comerciante</td>
+    <td><strong>Número</strong></td>
+    <td>8</td>
+  </tr>
 
-##### Confirmar la recepción de la cosecha 
 
-Wireflow que muestra la verificación de la cantidad y calidad de la cosecha recibida. Cuando la entrega es conforme y se autoriza expresamente, se libera el último desembolso y se completa el ciclo de financiamiento.
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Comerciante, quiero agendar una fecha para visitar la parcela de
+      forma presencial, para inspeccionar el estado del terreno y conversar
+      con el agricultor antes de formalizar el financiamiento.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/wireflow diagrams/WFC-4.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      La comerciante accede al detalle de Esperanza Plot antes de iniciar el
+      financiamiento y selecciona la opción para solicitar una visita
+      presencial.
+      <br><br>
+      El sistema muestra el formulario de coordinación. La comerciante
+      selecciona una fecha disponible, establece la hora de preferencia y
+      escribe un mensaje opcional indicando el aspecto de la parcela que desea
+      inspeccionar.
+      <br><br>
+      Después de completar la información, la comerciante selecciona “Send
+      request”. El sistema registra la solicitud con el estado “Pendiente”,
+      muestra la fecha y hora propuestas y notifica al agricultor.
+      <br><br>
+      Cuando el agricultor acepta la solicitud, el sistema cambia su estado a
+      “Confirmada”. La pantalla muestra la fecha y hora realmente acordadas,
+      el punto de encuentro, las coordenadas y los datos de contacto del
+      agricultor.
+      <br><br>
+      Finalmente, la comerciante puede consultar nuevamente la parcela o
+      regresar a sus alertas. La coordinación de la visita no reserva ni
+      financia la parcela y tampoco genera cargos o depósitos en Escrow.
+    </td>
+  </tr>
+</table>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFC-3.png"
+  width="100%"
+/>
+
+
+<p> <center> <strong>Wireflow Diagram - 8 </center></strong></p>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFDC-3.png"
+  width="100%"
+/>
+
+
+##### Confirmar la recepción de la cosecha
+
+
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Comerciante</td>
+    <td><strong>Número</strong></td>
+    <td>9</td>
+  </tr>
+
+
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Comerciante, quiero confirmar una entrega conforme y autorizar el
+      último desembolso, para cerrar el ciclo productivo después de recibir la
+      cosecha acordada.
+    </td>
+  </tr>
+
+
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      La comerciante accede al detalle de la entrega correspondiente al hito
+      final de Harvest. El sistema muestra la fotografía de respaldo, la
+      fecha, las coordenadas GPS y los datos registrados por el agricultor.
+      <br><br>
+      La comerciante compara la cantidad acordada de 4 000 kg con la cantidad
+      recibida y comprueba que la calidad de la cosecha sea aceptable. Después
+      de verificar que la entrega esté completa y conforme, selecciona
+      “Confirm receipt”.
+      <br><br>
+      El sistema presenta la revisión final de la recepción, incluyendo la
+      cantidad acordada, la cantidad recibida, la calidad, el agricultor y el
+      pago contractual pendiente de S/ 2 500.
+      <br><br>
+      La comerciante confirma expresamente la recepción física de los 4 000 kg
+      y autoriza la liberación del último desembolso. El sistema habilita el
+      botón de confirmación y procesa el pago final al agricultor.
+      <br><br>
+      Finalmente, el sistema cambia el estado del hito Harvest a “Aprobado”,
+      completa los cuatro hitos del contrato y muestra un total liberado de
+      S/ 8 500. El saldo de Escrow queda en S/ 0 y se habilita la descarga del
+      comprobante y la consulta del contrato finalizado.
+    </td>
+  </tr>
+</table>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFC-4.png"
+  width="100%"
+/>
+
+
+<p> <center> <strong>Wireflow Diagram - 9 </center></strong></p>
+
+
+<img
+  src="assets/images/chapter03/wireflow diagrams/WFDC-4.png"
+  width="100%"
+/>
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
