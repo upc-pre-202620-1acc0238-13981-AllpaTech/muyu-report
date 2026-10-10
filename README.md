@@ -84,7 +84,7 @@
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| Angel Guillermo Berrospi Marin | Desarrollo de User stories y creación de su estructura, Desarrollo de Impact Mapping, Desarrollo de Entrevistas, Creación de la estructura de Porduct Backlog. |
+| Angel Guillermo Berrospi Marin | Desarrollo de la actualización de las User stories y creación de su estructura, Desarrollo de la actualización del Impact Mapping, Desarrollo de Entrevistas, Desarrollo de la actualización del Porduct Backlog y su estructura, Desarrollo de Mobile Applications . |
 | Mel Andree Orellana Rodriguez | Creación e inicialización de la estructura técnica del reporte, desarrollo de la sección de elicitación de requerimientos, priorización del Product Backlog, diseño y desarrollo de diagramas de EventStorming (Big Picture), Bounded Context Canvases, Context Map, y diagramas de arquitectura de software C4 (Contexto, Contenedor y Despliegue). |
 |Emily Juliette Arroyo Gonzales| Desarrollo de la edición del informe y redacción del capítulo 1|
 | Jennifer Yamilet Riveros Vera | Diseño y registro de entrevistas; incorporación de evidencias; elaboración y actualización de User Personas, User Task Matrix, User Journey Maps y Empathy Maps; análisis de entrevistas y dispositivos móviles; desarrollo del Big Picture Event Storming; elaboración del Ubiquitous Language|
@@ -166,28 +166,28 @@ Cada plan plantea dos metas posteriores a la graduación: una para mantener la a
 ### Mel Andree Orellana Rodriguez
 
 - **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 8 meses después de graduarme, completar una ruta de formación en arquitectura de microservicios y servicios en la nube, dedicando al menos 6 horas semanales y publicando dos proyectos funcionales que documenten decisiones de escalabilidad y rendimiento.
-- **Objetivo 2 (Crecimiento profesional):** Dentro de los 24 meses posteriores a la graduación, obtener un puesto de *Software Engineer* en el sector tecnológico. Para medir el avance, preparar un portafolio con al menos tres proyectos desplegados y postular a un mínimo de cinco vacantes pertinentes por mes hasta incorporarme.
+- **Objetivo 2 (Crecimiento profesional):** Obtener un puesto de Software Engineer en una empresa del sector tecnológico dentro de los 24 meses posteriores a la graduación, respaldado por un portafolio de al menos tres proyectos desplegados y un ritmo de postulación mínima de cinco vacantes pertinentes al mes.
+
 
 ### Angel Guillermo Berrospi Marin
 
-- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 12 meses después de graduarme, completar dos cursos de desarrollo web o móvil y aplicar lo aprendido en dos aplicaciones funcionales, documentando pruebas y decisiones de arquitectura en un portafolio público.
-- **Objetivo 2 (Crecimiento profesional):** Conseguir, dentro de los 18 meses posteriores a la graduación, un puesto inicial de desarrollo de software en una empresa tecnológica o afín. Para medir el avance, actualizar el CV y portafolio durante el primer mes y postular a por lo menos cuatro vacantes acordes con mi perfil cada mes hasta obtener el puesto.
+- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 12 meses posteriores a la graduación, completar dos cursos certificados en desarrollo web frontend y backend (stack moderno), dedicando al menos 5 horas semanales y publicando dos aplicaciones web funcionales con pruebas unitarias y documentación de arquitectura en un repositorio público.
+- **Objetivo 2 (Crecimiento profesional):** Conseguir un puesto de desarrollo de software junior dentro de los 18 meses posteriores a la graduación, habiendo optimizado el CV y portafolio durante el primer mes y postulando a un mínimo de cuatro vacantes alineadas al perfil por mes.
 
 ### Emily Juliette Arroyo Gonzales
 
-- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 12 meses después de graduarme, completar dos cursos de desarrollo web y móvil y construir dos proyectos que apliquen controles básicos de seguridad y calidad, publicando su código y documentación en un portafolio.
-- **Objetivo 2 (Crecimiento profesional):** Obtener, dentro de los 12 meses posteriores a la graduación, un puesto inicial en desarrollo de software en una empresa tecnológica. Como indicadores de avance, preparar un CV y portafolio durante el primer mes y realizar al menos cuatro postulaciones pertinentes por mes hasta incorporarme.
+- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 12 meses posteriores a la graduación, completar dos cursos certificados en desarrollo de aplicaciones web y móviles, dedicando al menos 5 horas semanales y publicando en un repositorio público dos proyectos funcionales que implementen autenticación segura y buenas prácticas de clean code.
+- **Objetivo 2 (Crecimiento profesional):** Obtener un puesto inicial en desarrollo de software dentro de los 12 meses posteriores a la graduación, finalizando el CV y portafolio en el primer mes y enviando un mínimo de cuatro postulaciones pertinentes por mes hasta la contratación.
 
 ### Jennifer Yamilet Riveros Vera
 
-- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 6 meses después de graduarme, dedicar al menos 6 horas semanales al análisis de datos y completar dos proyectos de portafolio con dashboards en Power BI y consultas optimizadas en SQL Server, documentando los indicadores y hallazgos de cada proyecto.
-- **Objetivo 2 (Crecimiento profesional):** Obtener, dentro de los 12 meses posteriores a la graduación, un puesto de Data Analyst o de desarrollo de software orientado a inteligencia de negocios. Para medir el avance, publicar los dos proyectos del portafolio y postular a un mínimo de cinco vacantes pertinentes por mes hasta incorporarme.
+- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 6 meses posteriores a la graduación, dedicar un mínimo de 6 horas semanales al análisis de datos para construir y publicar dos proyectos en portafolio que integren tableros interactivos en Power BI y consultas optimizadas en SQL Server, documentando métricas y hallazgos clave.
+- **Objetivo 2 (Crecimiento profesional):** Obtener un puesto como Data Analyst o desarrolladora orientada a Business Intelligence dentro de los 12 meses posteriores a la graduación, respaldada por la publicación de dos casos prácticos en el portafolio y postulando a un mínimo de cinco vacantes pertinentes al mes.
 
 ### Quintanilla Pozo Gonzalo Samuel
 
-- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 8 meses después de graduarme, dedicar al menos 6 horas semanales a profundizar en DDD y microservicios con Spring Boot y Node.js, y publicar dos proyectos desplegados que integren bases de datos relacionales y NoSQL, junto con su documentación técnica.
-- **Objetivo 2 (Crecimiento profesional):** Dentro de los 12 meses posteriores a la graduación, incorporarme como *Software Engineer Full-Stack* o desarrollar al menos dos proyectos freelance remunerados. Mediré el avance mediante un portafolio con dos soluciones desplegadas y un registro mensual de postulaciones o propuestas a clientes.
-
+- **Objetivo 1 (Aprendizaje continuo):** Durante los primeros 8 meses posteriores a la graduación, dedicar un mínimo de 6 horas semanales al diseño guiado por el dominio (DDD) y microservicios con Spring Boot y Node.js, publicando y desplegando dos proyectos funcionales que integren bases de datos relacionales y NoSQL con su respectiva documentación de arquitectura.
+- **Objetivo 2 (Crecimiento profesional):** Dentro de los 12 meses posteriores a la graduación, incorporarme como Software Engineer Full-Stack o completar dos contratos freelance remunerados, manteniendo un portafolio con dos soluciones desplegadas y enviando al menos cinco postulaciones laborales o propuestas de servicio al mes.
 ## Tabla de Contenidos
 
 * [Student Outcome 7](#student-outcome-7)
