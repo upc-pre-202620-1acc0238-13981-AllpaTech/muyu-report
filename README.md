@@ -1617,6 +1617,78 @@ Como resultado del proceso de despliegue, la Landing Page y la Fake API pueden u
 
 #### 4.2.1.9. Team Collaboration Insights during Sprint
 
+Durante el Sprint 1, el equipo organizó el trabajo mediante la distribución de responsabilidades relacionadas con la documentación, el diseño de interfaces, el desarrollo de la Landing Page, la implementación de la aplicación móvil, el desarrollo de servicios y la preparación de los despliegues.
+
+GitHub fue utilizado como herramienta principal para el control de versiones. El proyecto se dividió en diferentes repositorios para mantener separados los componentes de documentación, Landing Page, aplicación móvil, backend y Fake API.
+
+Los repositorios utilizados durante el Sprint 1 fueron los siguientes:
+
+| Repository | Purpose |
+|---|---|
+| `muyu-report` | Documentación del proyecto, historias de usuario, arquitectura y evidencias del Sprint. |
+| `Landing-page` | Código fuente y recursos visuales de la Landing Page. |
+| `muyu-app` | Código fuente de la aplicación móvil desarrollada en Android Studio. |
+| `muyu-backend` | Implementación inicial de la arquitectura y servicios backend en .NET. |
+| `fake-api` | Servicio de demostración consumido por la aplicación móvil. |
+
+El equipo utilizó commits descriptivos para registrar los cambios realizados. En el repositorio del reporte se utilizó la rama `develop` para integrar la documentación, mientras que los repositorios de implementación utilizaron la rama `main` para mantener la versión funcional de cada componente.
+
+La distribución de las principales responsabilidades durante el Sprint 1 fue la siguiente:
+
+| Team Member | Main Contribution during Sprint 1 |
+|---|---|
+| Orellana Rodriguez, Mel Andree | Actualización de Context Mapping, Bounded Context Canvases, diagramas C4 y documentación de arquitectura. |
+| Berrospi Marin, Angel Guillermo | Elaboración y actualización de historias de usuario, Impact Mapping, Product Backlog y evidencias del tablero de trabajo. |
+| Arroyo Gonzales, Emily Juliette | Revisión del contenido del reporte, objetivos del proyecto, aportes de colaboración y documentación correspondiente a los segmentos objetivo. |
+| Riveros Vera, Jennifer Yamilet | Desarrollo y actualización de elementos visuales, perfiles de usuario, documentación del reporte y componentes de la Landing Page. |
+| Quintanilla Pozo, Gonzalo Samuel | Implementación de la aplicación móvil, backend, Fake API, integración con Render, actualización de la Landing Page y documentación técnica. |
+
+La comunicación del equipo permitió coordinar los avances y mantener alineados los artefactos de análisis con la implementación técnica. Los integrantes revisaron el contenido incorporado al reporte y actualizaron las tareas del Sprint según el progreso alcanzado.
+
+##### Evidencia 1: Contribuciones en el repositorio del reporte
+
+El historial del repositorio `muyu-report` evidencia la participación de los integrantes en la documentación, arquitectura, historias de usuario, análisis del producto y actualización de los artefactos correspondientes al Sprint.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/report-contributors.png"
+       alt="Contribuciones del equipo en el repositorio del reporte"
+       width="400"/>
+</p>
+
+##### Evidencia 2: Contribuciones en el repositorio de la Landing Page
+
+El historial del repositorio `Landing-page` muestra los cambios realizados en la estructura visual, contenido, recursos gráficos, estilos e interacciones de la página.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/landing-contributors.png"
+       alt="Contribuciones en el repositorio de la Landing Page"
+       width="400"/>
+</p>
+
+##### Evidencia 3: Historial de commits de la aplicación móvil
+
+El repositorio `muyu-app` conserva el código fuente de la aplicación desarrollada con Kotlin y Jetpack Compose, incluyendo las pantallas, navegación, lógica de presentación e integración con la Fake API.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/mobile-commits.png"
+       alt="Historial de commits de la aplicación móvil"
+       width="400"/>
+</p>
+
+##### Evidencia 4: Tablero de seguimiento del Sprint
+
+El tablero de Trello permitió organizar las historias de usuario y tareas técnicas en los estados `To Do`, `In Process` y `Done`. Esta distribución facilitó el seguimiento de las actividades y permitió identificar las funcionalidades completadas y pendientes.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/sprint-backlog-1.png"
+       alt="Tablero de seguimiento del Sprint 1"
+       width="900"/>
+</p>
+
+URL del tablero: [AllpaTech - App Móvil - Sprint 1](https://trello.com/b/0BQ2sVie/allpatech)
+
+Como resultado del trabajo colaborativo, el equipo logró completar la primera versión de la Landing Page, la aplicación móvil y los servicios necesarios para demostrar el funcionamiento integrado de Muyu. Asimismo, se mantuvo actualizada la documentación del producto y se registraron los avances mediante el historial de commits de los repositorios.
+
 
 ### 4.2.2. Sprint 2
 #### 4.2.2.1. Sprint Planning 2
