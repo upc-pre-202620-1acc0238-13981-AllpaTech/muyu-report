@@ -1392,6 +1392,111 @@ Para complementar las evidencias anteriores, se presenta un video demostrativo d
 URL del video de ejecución: [Video demostrativo de Muyu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCPhj365qy1Sol_dUGuOvuqAbJlhNxuP2YE31yVt3JUi4U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Fhhdg)
 
 #### 4.2.1.7. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1 se implementó una Fake API REST para permitir la comunicación entre la aplicación móvil y un servicio publicado en Internet. Esta API fue desarrollada con Node.js y desplegada mediante Render.
+
+La Fake API proporciona servicios para el registro e inicio de sesión de usuarios, consulta de usuarios registrados, publicación y actualización de parcelas, consulta de parcelas disponibles y registro del financiamiento realizado por un comerciante.
+
+La URL base utilizada por la aplicación móvil es la siguiente:
+
+```text
+https://muyu-fake-api.onrender.com/api/
+```
+
+Los servicios implementados durante el Sprint 1 son los siguientes:
+
+| Servicio (Endpoint) | Método | Descripción | Payload / Parámetros |
+|---|---|---|---|
+| `https://muyu-fake-api.onrender.com/health` | `GET` | Verifica la disponibilidad de la Fake API. | No requiere parámetros. |
+| `https://muyu-fake-api.onrender.com/api` | `GET` | Muestra la información general de la API y los recursos disponibles. | No requiere parámetros. |
+| `https://muyu-fake-api.onrender.com/api/users` | `GET` | Devuelve la lista de usuarios registrados sin mostrar sus contraseñas. | No requiere parámetros. |
+| `https://muyu-fake-api.onrender.com/api/users/register` | `POST` | Registra una cuenta de agricultor o comerciante. | `name`, `email`, `password`, `role`, `phone` y `birthdate`. |
+| `https://muyu-fake-api.onrender.com/api/users/login` | `POST` | Valida las credenciales y devuelve la información del usuario autenticado. | `email` y `password`. |
+| `https://muyu-fake-api.onrender.com/api/plots` | `GET` | Devuelve las parcelas registradas y publicadas en la Fake API. | No requiere parámetros. |
+| `https://muyu-fake-api.onrender.com/api/plots` | `POST` | Registra una nueva parcela asociada a un agricultor. | Nombre, cultivo, área, ubicación, monto, imagen, coordenadas y datos del plan. |
+| `https://muyu-fake-api.onrender.com/api/plots/:id` | `PUT` | Actualiza la información de una parcela, incluyendo sus evidencias e hitos agrícolas. | `id` de la parcela y propiedades que serán actualizadas. |
+| `https://muyu-fake-api.onrender.com/api/plots/:id/fund` | `POST` | Registra el financiamiento de una parcela por parte de un comerciante. | `id` de la parcela y token del comerciante autenticado. |
+
+Para el registro de usuarios se utiliza una solicitud con el siguiente formato:
+
+```json
+{
+  "name": "Samuel Quispe",
+  "email": "samuel.quispe@example.com",
+  "password": "Muyu1234",
+  "role": "farmer",
+  "phone": "987654321",
+  "birthdate": "10 Oct 1995"
+}
+```
+
+Cuando el registro se realiza correctamente, el servicio responde con la información pública del usuario y un token de sesión:
+
+```json
+{
+  "token": "generated-session-token",
+  "email": "samuel.quispe@example.com",
+  "firstName": "Samuel",
+  "lastName": "Quispe",
+  "role": "farmer"
+}
+```
+
+Para iniciar sesión se utiliza una solicitud con el siguiente formato:
+
+```json
+{
+  "email": "samuel.quispe@example.com",
+  "password": "Muyu1234"
+}
+```
+
+El token devuelto por el servicio puede enviarse en las siguientes solicitudes mediante el encabezado de autorización:
+
+```text
+Authorization: Bearer <token>
+```
+
+##### Evidencia 1: Panel de recursos de la Fake API
+
+La página principal de la Fake API presenta el estado del servicio, la cantidad de usuarios y parcelas almacenadas, así como los endpoints disponibles.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/fake-api-dashboard-execution.png"
+       alt="Panel principal de la Fake API desplegada en Render"
+       width="800"/>
+</p>
+
+URL del servicio: [Muyu Fake API](https://muyu-fake-api.onrender.com)
+
+##### Evidencia 2: Consulta de usuarios registrados
+
+El recurso `/api/users` permite verificar los usuarios registrados en el servicio. Las contraseñas no son incluidas en la respuesta para evitar la exposición de información sensible.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/fake-api-users-execution.png"
+       alt="Usuarios registrados en la Fake API"
+       width="800"/>
+</p>
+
+URL del recurso: [Usuarios registrados](https://muyu-fake-api.onrender.com/api/users)
+
+##### Evidencia 3: Consulta de parcelas publicadas
+
+El recurso `/api/plots` devuelve las parcelas utilizadas por la aplicación móvil. Esta información puede ser consultada tanto por las funcionalidades del agricultor como por las del comerciante.
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-1/fake-api-plots-execution.png"
+       alt="Parcelas registradas en la Fake API"
+       width="800"/>
+</p>
+
+URL del recurso: [Parcelas registradas](https://muyu-fake-api.onrender.com/api/plots)
+
+La Fake API utiliza un archivo JSON local para almacenar temporalmente la información registrada. Debido a que se encuentra desplegada mediante el plan gratuito de Render, los datos creados durante la ejecución pueden reiniciarse después de un nuevo despliegue o reinicio del servicio. Esta implementación es utilizada como servicio de demostración durante el desarrollo del producto.
+
+---
+
 #### 4.2.1.8. Software Deployment Evidence for Sprint Review
 #### 4.2.1.9. Team Collaboration Insights during Sprint
 
