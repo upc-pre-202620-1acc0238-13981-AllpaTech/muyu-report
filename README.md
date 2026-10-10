@@ -663,7 +663,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-1.png"
        alt="Hero"
-       width="800"/>
+       width="400"/>
   </p>
 
 ##### About Muyu
@@ -671,7 +671,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-2.png"
        alt="About Muyu"
-       width="800"/>
+       width="400"/>
   </p>
 
 ##### Core Features
@@ -679,7 +679,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-3.png"
        alt="Core Features"
-       width="800"/>
+       width="400"/>
   </p>
 
 ##### Production Plans
@@ -687,7 +687,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-4.png"
        alt="Production Plans"
-       width="800"/>
+       width="400"/>
   </p>
 
 ##### How It Works
@@ -695,7 +695,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-5.png"
        alt="How It Works"
-       width="800"/>
+       width="400"/>
   </p>
 
 ##### Payments
@@ -703,7 +703,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-6.png"
        alt="Payments"
-       width="800"/>
+       width="400"/>
   </p>
 
 ##### For Farmers and Merchants
@@ -711,7 +711,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-7.png"
        alt="For Farmers and Merchants"
-       width="800"/>
+       width="400"/>
   </p>
 
 ##### Frequently Asked Questions
@@ -719,7 +719,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-8.png"
        alt="Frequently Asked Questions"
-       width="800"/>
+       width="400"/>
   </p>
 
 ##### Testimonials
@@ -727,7 +727,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-9.png"
        alt="Testimonials"
-       width="800"/>
+       width="400"/>
   </p>
 
 ##### Call to Action
@@ -735,7 +735,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-10.png"
        alt="Call to Action"
-       width="800"/>
+       width="400"/>
   </p>
 
 ##### Contact
@@ -743,7 +743,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-11.png"
        alt="Contact"
-       width="800"/>
+       width="400"/>
   </p>
 
 ##### Footer
@@ -751,7 +751,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-12.png"
        alt="Footer"
-       width="800"/>
+       width="400"/>
   </p>
 
 - Mobile Web Browser
