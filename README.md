@@ -1788,231 +1788,1023 @@ Pantalla para el monitoreo de los contratos activos, permitiendo ver el progreso
 #### 3.1.4.3. Mobile Applications Mock-ups
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
-###### AGRICULTOR / Publicar una parcela
+##### Publicar una parcela
 
- Este flujo representa el proceso mediante el cual el agricultor registra una parcela en tres etapas: datos generales, ubicación y plan de financiamiento. El sistema valida los campos obligatorios, las coordenadas y que las cuotas coincidan con el monto solicitado, permitiendo corregir errores sin perder la información ingresada. Al completar las validaciones y aceptar los términos, la parcela se publica con estado Disponible, sin realizar todavía movimientos de fondos.
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Agricultor</td>
+    <td><strong>Número</strong></td>
+    <td>1</td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-1.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Agricultor, quiero registrar las dimensiones y ubicación de mi
+      parcela, para hacer visible mi oferta a los compradores.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-2.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      El agricultor inicia el proceso desde la opción “Publish”. En la primera
+      pantalla, registra las fotografías y los datos principales de la parcela;
+      luego, presiona “Next: location”.
+      <br><br>
+      En la pantalla de ubicación, registra o confirma las coordenadas y
+      completa la región, provincia, distrito y dirección de referencia.
+      Después, selecciona “Next: financing”.
+      <br><br>
+      El sistema muestra el plan de financiamiento. El agricultor revisa el
+      monto solicitado, la duración del ciclo, los hitos y la distribución de
+      las cuotas. Luego, acepta el acuerdo y confirma la publicación.
+      <br><br>
+      Finalmente, el sistema muestra la confirmación y permite acceder a “My
+      Plots”, donde la nueva parcela aparece con el estado “Available”.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-3.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>Unhappy Paths</strong></td>
+    <td colspan="3">
+      Si el agricultor omite el nombre, el área, las fotografías u otro dato
+      obligatorio, el sistema resalta los campos incompletos y deshabilita el
+      botón para continuar al paso de ubicación.
+      <br><br>
+      Si la ubicación no fue registrada o la región, provincia o distrito son
+      inválidos, el sistema muestra los mensajes de validación correspondientes
+      e impide continuar al plan de financiamiento.
+      <br><br>
+      Si la suma de las cuotas no coincide con el monto total solicitado de
+      S/ 8 500, el sistema muestra la diferencia, deshabilita la publicación y
+      solicita ajustar los importes del plan.
+      <br><br>
+      Si el agricultor no acepta los términos del acuerdo de financiamiento, el
+      sistema mantiene deshabilitado el botón “Publish plot”.
+      <br><br>
+      Si el agricultor decide abandonar el proceso, puede guardar la
+      información como borrador y continuar posteriormente.
+      <br><br>
+      Consideraciones:
+      <ul>
+        <li>
+          Los campos obligatorios deben completarse antes de avanzar.
+        </li>
+        <li>
+          La ubicación debe corresponder a una región, provincia y distrito
+          válidos.
+        </li>
+        <li>
+          La suma de los desembolsos debe coincidir con el monto total
+          solicitado.
+        </li>
+        <li>
+          La publicación deja la parcela disponible, pero no deposita fondos ni
+          confirma un financiamiento.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-###### AGRICULTOR / Registrar evidencia de un hito
+<p align="center"><strong>User Flow - 1</strong></p>
 
-Este flujo muestra cómo el agricultor registra y envía evidencia fotográfica de un hito, incluyendo fecha, ubicación GPS e información del insumo utilizado. El sistema contempla permisos de cámara, validación de ubicación y almacenamiento local cuando no existe conexión, permitiendo sincronizar o reintentar posteriormente. Al completarse el envío, la evidencia queda pendiente de revisión, sin implicar todavía su aprobación ni la liberación del pago. 
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-1.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-4.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-2.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-5.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-3.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-6.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+##### Registrar evidencia de un hito
 
-###### AGRICULTOR / Corregir un hito rechazado
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Agricultor</td>
+    <td><strong>Número</strong></td>
+    <td>2</td>
+  </tr>
 
-Este flujo representa cómo el agricultor consulta el motivo del rechazo, corrige la información solicitada y envía una nueva versión de la evidencia. El sistema conserva el envío original para mantener la trazabilidad y permite guardar el nuevo registro como borrador cuando la corrección aún no es válida. Después del reenvío, la evidencia queda nuevamente pendiente de revisión, sin liberar automáticamente el pago retenido.
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Agricultor, quiero subir evidencias fotográficas con geolocalización
+      de mi cultivo, para demostrar el avance de la tarea en el hito actual.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-7.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      El agricultor abre Esperanza Plot y selecciona “Record evidence” en el
+      hito pendiente de Fertilización.
+      <br><br>
+      En la pantalla de registro, toma una fotografía o selecciona una imagen
+      desde la galería. La aplicación registra automáticamente la fecha, la
+      hora y las coordenadas GPS. Luego, el agricultor indica el insumo
+      utilizado, la cantidad aplicada y presiona “Continue”.
+      <br><br>
+      El sistema muestra la pantalla de revisión con la fotografía, la
+      ubicación registrada y los datos de la actividad. El agricultor verifica
+      la información y selecciona “Submit evidence”.
+      <br><br>
+      Finalmente, el sistema recibe la evidencia y muestra la confirmación del
+      envío. El registro cambia al estado “Submitted” o “Pendiente de revisión”
+      y queda disponible para la evaluación del comerciante.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-8.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>Unhappy Paths</strong></td>
+    <td colspan="3">
+      Si la aplicación no tiene permiso para utilizar la cámara, el sistema
+      informa que no puede capturar la fotografía y permite abrir la
+      configuración del dispositivo o seleccionar una imagen desde la
+      galería.
+      <br><br>
+      Si la fotografía tiene un formato no admitido o supera el tamaño máximo
+      permitido, el sistema rechaza el archivo y solicita seleccionar o
+      capturar otra imagen.
+      <br><br>
+      Si el agricultor omite el insumo utilizado, la cantidad aplicada u otro
+      dato obligatorio, el sistema resalta los campos incompletos e impide
+      continuar a la revisión.
+      <br><br>
+      Si las coordenadas GPS no coinciden con la ubicación de la parcela, el
+      sistema bloquea el envío, conserva el borrador y solicita corregir o
+      capturar nuevamente la ubicación.
+      <br><br>
+      Si no existe una conexión permitida al momento del envío, la aplicación
+      guarda la fotografía y sus metadatos en la cola local. Cuando se recupera
+      la conexión, el sistema sincroniza los registros pendientes.
+      <br><br>
+      Si una evidencia falla durante la sincronización, el sistema conserva los
+      registros enviados correctamente y permite reintentar únicamente el
+      registro fallido, sin eliminar ni duplicar información.
+      <br><br>
+      Consideraciones:
+      <ul>
+        <li>
+          La fotografía debe cumplir el formato y tamaño máximo permitido.
+        </li>
+        <li>
+          La evidencia debe incluir fecha, hora, GPS, insumo y cantidad
+          aplicada.
+        </li>
+        <li>
+          La ubicación registrada debe encontrarse dentro de la parcela.
+        </li>
+        <li>
+          Las evidencias guardadas sin conexión deben conservar sus fotografías
+          y metadatos hasta completar la sincronización.
+        </li>
+        <li>
+          El estado “Submitted” o “Pendiente de revisión” no significa que la
+          evidencia haya sido aprobada ni que el pago haya sido liberado.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-###### AGRICULTOR / Sincronizar evidencias sin conexión
+<p align="center"><strong>User Flow - 2</strong></p>
 
-Este flujo representa el almacenamiento y envío posterior de evidencias registradas sin conexión, conservando fotografías, ubicación y demás metadatos. El sistema respeta la preferencia de uso de Wi-Fi o datos móviles y muestra el estado individual de cada carga, permitiendo reintentar únicamente los registros fallidos. Al finalizar, la cola queda vacía y las evidencias enviadas se incorporan al historial sin duplicarse.
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-4.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-9.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-5.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-10.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-6.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-11.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-7.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UF-12.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+##### Corregir un hito rechazado
 
-###### COMERCIANTE / Financiar una parcela 
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Agricultor</td>
+    <td><strong>Número</strong></td>
+    <td>3</td>
+  </tr>
 
-Este flujo muestra cómo el comerciante selecciona una parcela disponible, revisa el monto, las cuotas y las condiciones antes de confirmar el pago. Una vez completada la transacción, los fondos quedan retenidos en custodia y la parcela cambia a Financiada, sin liberar todavía pagos al agricultor. También contempla la pérdida de disponibilidad, la falta de aceptación de términos y los pagos no confirmados, evitando reintentos que puedan generar cargos duplicados.
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Agricultor, quiero reenviar evidencias corregidas, para que el
+      comerciante pueda aprobarlas.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-1.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      El agricultor abre el detalle del hito de Fertilización y consulta el
+      motivo por el cual la evidencia fue rechazada. La pantalla también
+      muestra la evidencia original y el monto que permanece retenido.
+      <br><br>
+      El agricultor selecciona “Correct evidence”. El sistema abre una nueva
+      versión de la evidencia y conserva la fotografía y los datos del envío
+      anterior en el historial.
+      <br><br>
+      En la pantalla de corrección, el agricultor adjunta una fotografía más
+      clara, verifica el insumo utilizado, registra la cantidad aplicada y
+      escribe una nota explicando la corrección. Luego, comprueba que la
+      ubicación GPS sea válida.
+      <br><br>
+      Después de revisar la nueva información, selecciona “Resubmit evidence”.
+      El sistema registra la evidencia como una nueva versión y muestra la
+      confirmación del reenvío.
+      <br><br>
+      Finalmente, la corrección queda en estado “Submitted” o “Pendiente de
+      revisión”. La evidencia original y el motivo del rechazo permanecen
+      disponibles en el historial.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-2.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>Unhappy Paths</strong></td>
+    <td colspan="3">
+      Si la nueva fotografía o los datos registrados no corrigen el motivo del
+      rechazo, el sistema conserva la evidencia como borrador e impide
+      reenviarla hasta que la observación sea atendida.
+      <br><br>
+      Si el agricultor omite la fotografía, el insumo utilizado, la cantidad
+      aplicada u otro dato obligatorio, el sistema resalta los campos
+      incompletos y mantiene deshabilitado el reenvío.
+      <br><br>
+      Si la fotografía tiene un formato no admitido o supera el tamaño
+      permitido, el sistema rechaza el archivo y solicita seleccionar una nueva
+      imagen.
+      <br><br>
+      Si las coordenadas GPS no coinciden con la parcela, el sistema bloquea el
+      reenvío, conserva el borrador y solicita corregir la ubicación.
+      <br><br>
+      Si no existe una conexión permitida, la aplicación guarda la nueva
+      versión en la cola local. Cuando se recupera la conexión, el sistema
+      sincroniza únicamente el registro pendiente.
+      <br><br>
+      Si la evidencia ya fue aprobada, el sistema bloquea cualquier intento de
+      reemplazarla o crear una nueva corrección sobre la misma versión.
+      <br><br>
+      Consideraciones:
+      <ul>
+        <li>
+          La evidencia original y el motivo del rechazo deben conservarse en
+          el historial.
+        </li>
+        <li>
+          La corrección debe registrarse como una nueva versión y no debe
+          sobrescribir la evidencia anterior.
+        </li>
+        <li>
+          El agricultor puede guardar la corrección como borrador y continuar
+          posteriormente.
+        </li>
+        <li>
+          El estado “Pendiente de revisión” no significa que la evidencia haya
+          sido aprobada.
+        </li>
+        <li>
+          El reenvío de la corrección no libera automáticamente los S/ 2 000
+          retenidos.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-3.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<p align="center"><strong>User Flow - 3</strong></p>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-4.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-8.png"
+  width="100%"
+/>
 
-###### COMERCIANTE / Revisar y aprobar o rechazar un hito 
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-9.png"
+  width="100%"
+/>
 
-Este flujo muestra cómo el comerciante revisa la fotografía, fecha, ubicación GPS e información técnica de la evidencia presentada. Si la aprueba, se libera únicamente el pago correspondiente al hito; si la rechaza, debe registrar obligatoriamente un motivo y los fondos permanecen retenidos. Cuando existe una corrección, el sistema presenta la nueva versión junto con el historial anterior para mantener la trazabilidad y evitar liberaciones duplicadas.
+##### Consultar una alerta climática
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-5.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Agricultor</td>
+    <td><strong>Número</strong></td>
+    <td>4</td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-6.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Agricultor, quiero consultar el riesgo climático y registrar las
+      medidas preventivas realizadas, para proteger mi cultivo ante
+      condiciones meteorológicas adversas.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-7.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      El agricultor accede a “My Plots” y revisa el estado de sus parcelas. En
+      Esperanza Plot identifica el indicador “Heavy rain risk”.
+      <br><br>
+      El agricultor selecciona la alerta para consultar su información. El
+      sistema muestra una precipitación estimada de 42 mm, una duración de
+      24 horas y un nivel de riesgo alto.
+      <br><br>
+      La pantalla también presenta las medidas preventivas registradas por el
+      agricultor: revisión del drenaje, protección de los insumos y
+      postergación de la fertilización durante la lluvia.
+      <br><br>
+      Finalmente, el sistema muestra la alerta con el estado “Addressed” o
+      “Atendida” y conserva visible la advertencia de que el riesgo
+      meteorológico continúa activo.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-8.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>Unhappy Paths</strong></td>
+    <td colspan="3">
+      Si el agricultor todavía no ha realizado o registrado las medidas
+      preventivas, el sistema no cambia la alerta al estado “Addressed”. La
+      alerta permanece pendiente y el usuario regresa a “My Plots” para
+      continuar monitoreando el riesgo.
+      <br><br>
+      Si una parcela no presenta riesgos meteorológicos activos, el sistema
+      muestra el estado “No active alerts” y no habilita el acceso al detalle
+      de una alerta.
+      <br><br>
+      Si el agricultor solamente consulta la alerta, pero no registra las
+      medidas realizadas, el sistema conserva el estado pendiente y no
+      considera la alerta como atendida.
+      <br><br>
+      Aunque las medidas preventivas hayan sido registradas, el sistema no
+      elimina ni desactiva el riesgo meteorológico. La lluvia y el nivel de
+      riesgo permanecen visibles mientras continúe la condición climática.
+      <br><br>
+      Consideraciones:
+      <ul>
+        <li>
+          Las medidas preventivas se realizan fuera de la aplicación.
+        </li>
+        <li>
+          Consultar las recomendaciones no equivale a registrar su ejecución.
+        </li>
+        <li>
+          El estado “Addressed” confirma el registro de la atención, pero no
+          garantiza la protección del cultivo.
+        </li>
+        <li>
+          Una alerta atendida puede continuar mostrando un nivel de riesgo
+          alto.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-###### COMERCIANTE / Solicitar una visita presencial
+<p align="center"><strong>User Flow - 4</strong></p>
 
-Este flujo muestra cómo el comerciante propone una fecha y hora para visitar una parcela antes de financiarla. El agricultor puede aceptar, rechazar indicando un motivo o sugerir una nueva fecha, que deberá ser confirmada por el comerciante. La coordinación de la visita no reserva la parcela ni genera pagos o movimientos de fondos.
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-10.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-9.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-11.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-10.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+##### Sincronizar evidencias sin conexión
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-11.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Agricultor</td>
+    <td><strong>Número</strong></td>
+    <td>5</td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-12.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Agricultor, quiero sincronizar las evidencias guardadas al recuperar
+      la conexión, para enviarlas sin perderlas ni duplicarlas.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-13.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      El agricultor accede a la sección “Synchronization”. El sistema muestra
+      tres evidencias pendientes almacenadas localmente, junto con sus
+      fotografías, fechas y ubicaciones registradas.
+      <br><br>
+      Cuando se recupera una conexión permitida, el sistema inicia la
+      sincronización y muestra el progreso individual de cada evidencia. Dos
+      registros se envían correctamente y uno presenta un error.
+      <br><br>
+      El agricultor selecciona “Retry Molinos”. El sistema reintenta únicamente
+      la evidencia que falló, sin volver a enviar los registros que ya fueron
+      procesados.
+      <br><br>
+      Finalmente, la sincronización termina correctamente. El sistema muestra
+      cero evidencias pendientes, tres registros enviados y un historial total
+      de quince evidencias.
+    </td>
+  </tr>
 
-###### COMERCIANTE / Confirmar la recepción de la cosecha 
+  <tr>
+    <td><strong>Unhappy Paths</strong></td>
+    <td colspan="3">
+      Si existe conexión mediante datos móviles, pero la preferencia del
+      agricultor permite sincronizar únicamente por Wi-Fi, el sistema no inicia
+      la carga automáticamente. El agricultor puede esperar una conexión Wi-Fi
+      o autorizar expresamente el uso de datos móviles.
+      <br><br>
+      Si la señal todavía no se ha recuperado, el sistema mantiene las tres
+      evidencias en la cola local con el estado “Waiting for connection” y
+      conserva sus fotografías, fechas, coordenadas GPS y demás metadatos.
+      <br><br>
+      Si la conexión se interrumpe durante la sincronización, el sistema
+      conserva como enviados los registros que finalizaron correctamente y
+      mantiene en la cola únicamente la evidencia incompleta.
+      <br><br>
+      Si una evidencia falla durante el envío, el sistema muestra el estado
+      “Error: Retry” y permite reintentar solamente ese registro. Las demás
+      evidencias no se eliminan ni se vuelven a enviar.
+      <br><br>
+      Si el nuevo intento vuelve a fallar, la evidencia permanece en la cola
+      local y el agricultor puede seleccionar “Try again later” para continuar
+      posteriormente.
+      <br><br>
+      Consideraciones:
+      <ul>
+        <li>
+          La aplicación debe comprobar la preferencia de conexión antes de
+          iniciar o reanudar una carga.
+        </li>
+        <li>
+          Los registros pendientes deben conservar sus fotografías y
+          metadatos mientras no exista una conexión permitida.
+        </li>
+        <li>
+          Una carga parcial no debe borrar las evidencias pendientes ni
+          duplicar las que ya fueron enviadas.
+        </li>
+        <li>
+          El historial debe aumentar únicamente cuando cada evidencia complete
+          su envío.
+        </li>
+        <li>
+          El estado “Sent” confirma la sincronización, pero no significa que la
+          evidencia haya sido aprobada.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-Este flujo muestra cómo el comerciante verifica la recepción, cantidad y calidad de la cosecha según las condiciones acordadas. Si existe una entrega incompleta o alguna incidencia, el último pago permanece retenido hasta su resolución. Cuando la recepción es conforme y se autoriza expresamente, se libera la cuota final y se cierra el ciclo de financiamiento.
+<p align="center"><strong>User Flow - 5</strong></p>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-14.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-12.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-15.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-13.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-16.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-14.png"
+  width="100%"
+/>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/UFC-17.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+<img
+  src="assets/images/chapter03/user flow diagrams/USFA-15.png"
+  width="100%"
+/>
 
-###### CIERRES COMPLEMENTARIOS / FORMULARIO → RESULTADO 
+##### Financiar una parcela
 
-- **Flujo de registro de cuenta bancaria**
-Este flujo muestra cómo el agricultor registra y guarda los datos de la cuenta donde recibirá sus desembolsos. Por seguridad, el sistema oculta parte del número de cuenta y permite modificar la información desde el perfil. El registro de los datos no implica su validación por parte del banco.
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Comerciante</td>
+    <td><strong>Número</strong></td>
+    <td>6</td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/CC-1.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Comerciante, quiero financiar de forma directa una parcela eligiendo
+      entre los métodos de pago habilitados, para transferir los fondos a
+      custodia y asegurar el ciclo productivo.
+    </td>
+  </tr>
 
-- **Flujo de calificación del comerciante**
-Este flujo permite al agricultor calificar al comerciante al finalizar el ciclo de financiamiento, mediante una puntuación y un comentario opcional. Después del envío, el sistema muestra la calificación junto con los datos del contrato concluido. Así se conserva una valoración de la experiencia entre ambas partes.
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      La comerciante accede al catálogo de parcelas disponibles y selecciona la
+      parcela “Esperanza Plot”. El sistema muestra sus características,
+      ubicación exacta y la información del agricultor.
+      <br><br>
+      La comerciante selecciona “Finance plot”. El sistema muestra el monto
+      total de S/ 8 500 y el plan de desembolso dividido entre los hitos de
+      Planting, Irrigation, Fertilization y Harvest.
+      <br><br>
+      La comerciante revisa el funcionamiento de Escrow, acepta los términos del
+      financiamiento y continúa a la revisión final.
+      <br><br>
+      El sistema presenta el monto total, el destinatario, la parcela, el
+      financista, el método de pago y el plan de desembolso. La comerciante
+      verifica la información y selecciona “Confirm and pay S/ 8 500”.
+      <br><br>
+      Finalmente, el sistema confirma el financiamiento y muestra que los
+      S/ 8 500 permanecen retenidos en Escrow. Los fondos serán liberados al
+      agricultor conforme se apruebe cada hito.
+    </td>
+  </tr>
 
-<p align="center">
-  <img src="assets/images/chapter03/user flow diagrams/CC-2.png"
-       alt="Accessibility: contrast"
-       width="600"/>
-</p>
+  <tr>
+    <td><strong>Unhappy Paths</strong></td>
+    <td colspan="3">
+      Si la parcela deja de estar disponible después de ser seleccionada, el
+      sistema interrumpe el financiamiento e informa que otro comerciante inició
+      el proceso. La comerciante puede consultar otras parcelas o regresar al
+      catálogo.
+      <br><br>
+      Si la comerciante no acepta los términos del financiamiento, el sistema
+      mantiene deshabilitada la opción “Continue”. La información permanece en
+      la pantalla para que pueda revisar las condiciones y aceptarlas.
+      <br><br>
+      Si el pago no puede confirmarse, el sistema muestra el estado “Payment was
+      not confirmed” y conserva la operación como no confirmada.
+      <br><br>
+      Antes de realizar un nuevo intento, la comerciante debe revisar sus
+      transacciones para comprobar que no exista un cargo confirmado. Después
+      puede cambiar el método de pago o seleccionar “Retry after reviewing”.
+      <br><br>
+      Consideraciones:
+      <ul>
+        <li>
+          La aplicación debe comprobar que la parcela continúe disponible antes
+          de avanzar con el financiamiento.
+        </li>
+        <li>
+          La confirmación debe permanecer deshabilitada mientras la comerciante
+          no acepte expresamente los términos.
+        </li>
+        <li>
+          Una respuesta de pago inconclusa no debe considerarse un
+          financiamiento confirmado.
+        </li>
+        <li>
+          El sistema debe verificar la operación anterior antes de permitir un
+          nuevo intento, para evitar pagos duplicados.
+        </li>
+        <li>
+          Los fondos confirmados deben permanecer retenidos en Escrow y
+          liberarse únicamente cuando se aprueben los hitos correspondientes.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong>User Flow - 6</strong></p>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-1.png"
+  width="100%"
+/>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-2.png"
+  width="100%"
+/>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-3.png"
+  width="100%"
+/>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-4.png"
+  width="100%"
+/>
+
+##### Revisar y aprobar o rechazar un hito
+
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Comerciante</td>
+    <td><strong>Número</strong></td>
+    <td>7</td>
+  </tr>
+
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Comerciante, quiero revisar la evidencia de un hito y aprobarla o
+      rechazarla con un motivo, para liberar únicamente la cuota correspondiente
+      cuando el avance sea conforme.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      La comerciante accede a “My plots” y selecciona la parcela Esperanza, que
+      tiene una evidencia de Fertilización pendiente de revisión.
+      <br><br>
+      El sistema muestra la evidencia enviada por el agricultor, incluyendo las
+      fotografías, la fecha, las coordenadas GPS, la ubicación verificada, el
+      insumo utilizado, la cantidad aplicada y la nota registrada.
+      <br><br>
+      La comerciante selecciona “Approve”. El sistema informa que la aprobación
+      liberará únicamente la cuota de S/ 2 000 correspondiente al hito de
+      Fertilización y muestra el saldo que permanecerá retenido en Escrow.
+      <br><br>
+      La comerciante continúa a “Confirm approval”, revisa nuevamente la
+      evidencia y las consecuencias financieras, y selecciona “Approve and
+      release S/ 2 000”.
+      <br><br>
+      Finalmente, el sistema confirma la aprobación del hito, libera S/ 2 000 al
+      agricultor y muestra tres de cuatro hitos aprobados, S/ 6 000 liberados y
+      S/ 2 500 todavía retenidos en Escrow.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>Unhappy Paths</strong></td>
+    <td colspan="3">
+      Si la evidencia no demuestra correctamente el cumplimiento del hito, la
+      comerciante selecciona “Reject and explain why”. El sistema muestra un
+      formulario para indicar el motivo y la corrección requerida.
+      <br><br>
+      Si la comerciante intenta confirmar el rechazo sin escribir un motivo, el
+      sistema muestra el mensaje “A rejection reason is required”, mantiene la
+      evidencia pendiente de revisión y no libera ningún fondo.
+      <br><br>
+      Si la comerciante registra un motivo válido, el sistema confirma el
+      rechazo, notifica al agricultor y conserva retenidos los S/ 2 000 del hito.
+      El estado financiero permanece con dos de cuatro hitos aprobados,
+      S/ 4 000 liberados y S/ 4 500 retenidos en Escrow.
+      <br><br>
+      Si el agricultor envía una versión corregida, la comerciante debe revisar
+      la nueva evidencia junto con el motivo anterior y el historial de
+      versiones. La evidencia inicial no debe utilizarse para tomar la nueva
+      decisión.
+      <br><br>
+      Si la comerciante cancela la confirmación de aprobación, el sistema vuelve
+      a la revisión de la evidencia sin liberar la cuota ni modificar su estado.
+      <br><br>
+      Consideraciones:
+      <ul>
+        <li>
+          La aplicación debe mostrar la fotografía, fecha, GPS, insumo, cantidad
+          y notas antes de permitir una decisión.
+        </li>
+        <li>
+          El rechazo debe exigir un motivo escrito y una indicación clara de la
+          corrección necesaria.
+        </li>
+        <li>
+          Una evidencia rechazada debe permanecer en el historial y conservar
+          los fondos correspondientes en Escrow.
+        </li>
+        <li>
+          Una evidencia corregida debe revisarse como una nueva versión sin
+          eliminar el registro original ni el motivo del rechazo.
+        </li>
+        <li>
+          La aprobación debe liberar solamente la cuota del hito revisado y no
+          el saldo completo del contrato.
+        </li>
+        <li>
+          El sistema debe impedir la liberación duplicada de una cuota que ya
+          fue aprobada.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong>User Flow - 7</strong></p>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-5.png"
+  width="100%"
+/>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-6.png"
+  width="100%"
+/>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-7.png"
+  width="100%"
+/>
+
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-8.png"
+  width="100%"
+/>
+
+##### Solicitar una visita presencial
+
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Comerciante</td>
+    <td><strong>Número</strong></td>
+    <td>8</td>
+  </tr>
+
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Comerciante, quiero agendar una fecha para visitar la parcela de
+      forma presencial, para inspeccionar el estado del terreno y conversar con
+      el agricultor antes de formalizar el financiamiento.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      La comerciante accede a la parcela Esperanza y selecciona la opción
+      “Request a visit”. El sistema muestra el formulario para coordinar la
+      visita con el agricultor.
+      <br><br>
+      La comerciante selecciona el 28 de agosto de 2026, elige las 10:00 como
+      hora preferida y añade un mensaje indicando que desea revisar el sistema
+      de irrigación.
+      <br><br>
+      La comerciante selecciona “Send request”. El sistema registra la solicitud
+      y muestra el estado “Awaiting confirmation” mientras espera la respuesta
+      del agricultor.
+      <br><br>
+      El agricultor revisa la fecha, la hora y el motivo de la visita. Luego
+      acepta la solicitud y envía su respuesta.
+      <br><br>
+      Finalmente, el sistema notifica a la comerciante y muestra la visita como
+      confirmada para el 28 de agosto de 2026 a las 10:00, junto con el punto de
+      encuentro y la información de contacto del agricultor.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>Unhappy Paths</strong></td>
+    <td colspan="3">
+      Si la comerciante no completa la fecha o la hora, el sistema señala el
+      campo faltante, conserva los datos ingresados y mantiene deshabilitada la
+      opción “Send request” hasta que complete la información obligatoria.
+      <br><br>
+      Si el agricultor no puede recibir a la comerciante en la fecha solicitada,
+      puede rechazar la visita e indicar un motivo. El sistema notifica el
+      rechazo y permite a la comerciante proponer otra fecha o regresar a la
+      parcela.
+      <br><br>
+      Si el agricultor propone una fecha alternativa, el sistema muestra la
+      solicitud original y la nueva propuesta. La visita permanece sin confirmar
+      hasta que la comerciante acepte expresamente la nueva fecha.
+      <br><br>
+      Si la comerciante acepta la nueva propuesta, el sistema confirma la visita
+      con la fecha y hora acordadas. Si la rechaza, la solicitud permanece sin
+      confirmar y puede revisarse nuevamente o sustituirse por otra propuesta.
+      <br><br>
+      Si el agricultor todavía no responde, el sistema mantiene la solicitud con
+      el estado “Awaiting confirmation”. La fecha propuesta no debe mostrarse
+      como una visita confirmada.
+      <br><br>
+      Consideraciones:
+      <ul>
+        <li>
+          La fecha y la hora son obligatorias para enviar una solicitud de
+          visita.
+        </li>
+        <li>
+          El mensaje para el agricultor es opcional y no debe bloquear el envío.
+        </li>
+        <li>
+          El agricultor puede aceptar la solicitud, rechazarla con un motivo o
+          proponer otra fecha.
+        </li>
+        <li>
+          Una fecha alternativa debe ser aceptada por la comerciante antes de
+          mostrarse como confirmada.
+        </li>
+        <li>
+          El estado final debe conservar la fecha y la hora realmente acordadas
+          por ambas partes.
+        </li>
+        <li>
+          Solicitar o confirmar una visita no reserva ni financia la parcela y
+          tampoco genera cargos o movimientos en Escrow.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong>User Flow - 8</strong></p>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-9.png"
+  width="100%"
+/>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-10.png"
+  width="100%"
+/>
+
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-11.png"
+  width="100%"
+/>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-12.png"
+  width="100%"
+/>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-13.png"
+  width="100%"
+/>
+
+##### Confirmar la recepción de la cosecha
+
+<table>
+  <tr>
+    <td><strong>User Persona</strong></td>
+    <td>Comerciante</td>
+    <td><strong>Número</strong></td>
+    <td>9</td>
+  </tr>
+
+  <tr>
+    <td><strong>User Goal</strong></td>
+    <td colspan="3">
+      Como Comerciante, quiero confirmar la recepción conforme de la cosecha y
+      autorizar el último desembolso, para cerrar el ciclo productivo únicamente
+      después de verificar la entrega.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>Happy path</strong></td>
+    <td colspan="3">
+      La comerciante accede al detalle de la entrega de la parcela Esperanza. El
+      sistema muestra la fotografía, la ubicación GPS, la fecha de entrega, la
+      cantidad acordada de 4 000 kg y la cantidad recibida de 4 000 kg.
+      <br><br>
+      La comerciante verifica que la cosecha fue recibida, que la cantidad
+      coincide con lo acordado y que la calidad cumple con los requisitos. Luego
+      selecciona “Confirm receipt”.
+      <br><br>
+      El sistema muestra la revisión final de la entrega y detalla que la última
+      cuota corresponde a S/ 2 500. También informa que el saldo de Escrow
+      pasará de S/ 2 500 a S/ 0.
+      <br><br>
+      La comerciante confirma que recibió físicamente los 4 000 kg de papa
+      Huayro y acepta expresamente la liberación de S/ 2 500 al agricultor.
+      Después selecciona “Confirm receipt and release S/ 2 500”.
+      <br><br>
+      Finalmente, el sistema registra la cosecha como recibida, libera la cuota
+      final de S/ 2 500, muestra cuatro de cuatro hitos aprobados y deja el saldo
+      de Escrow en S/ 0.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>Unhappy Paths</strong></td>
+    <td colspan="3">
+      Si la cosecha todavía no fue recibida físicamente, el sistema muestra el
+      estado “Harvest not yet received” y mantiene la cuota final de S/ 2 500
+      retenida en Escrow. La comerciante puede contactar al agricultor, reportar
+      un retraso o regresar a la parcela.
+      <br><br>
+      Si la cantidad recibida no coincide con la cantidad acordada, la
+      comerciante debe registrar una incidencia. Por ejemplo, si recibe
+      3 600 kg de los 4 000 kg acordados, el sistema muestra una diferencia de
+      400 kg y solicita una descripción del problema.
+      <br><br>
+      Si la calidad de la cosecha no cumple con los requisitos, la comerciante
+      puede seleccionar el tipo de incidencia, describir el problema y adjuntar
+      fotografías como evidencia. El sistema conserva la entrega sin aprobar y
+      mantiene retenida la cuota final.
+      <br><br>
+      Si la comerciante confirma la recepción física, pero no autoriza
+      expresamente la liberación del pago, el sistema mantiene deshabilitada la
+      opción “Confirm receipt and release S/ 2 500”. La comerciante puede aceptar
+      el consentimiento o cancelar y revisar nuevamente la entrega.
+      <br><br>
+      Si se registra una incidencia, el hito de Cosecha permanece sin aprobar,
+      el ciclo continúa con tres de cuatro hitos completados y los S/ 2 500
+      permanecen en Escrow hasta que el problema sea resuelto.
+      <br><br>
+      Consideraciones:
+      <ul>
+        <li>
+          La recepción solo puede confirmarse después de verificar que la
+          entrega ocurrió físicamente.
+        </li>
+        <li>
+          La cantidad y la calidad recibidas deben compararse con las
+          condiciones acordadas antes de aprobar la cosecha.
+        </li>
+        <li>
+          Una entrega ausente, parcial o no conforme debe conservar la cuota
+          final retenida en Escrow.
+        </li>
+        <li>
+          La recepción física y la autorización para liberar fondos requieren
+          confirmaciones explícitas.
+        </li>
+        <li>
+          El sistema no debe cerrar el cuarto hito ni liberar S/ 2 500 sin el
+          consentimiento de la comerciante.
+        </li>
+        <li>
+          La liberación final debe dejar cuatro de cuatro hitos aprobados,
+          S/ 8 500 liberados en total y un saldo de Escrow de S/ 0.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><strong>User Flow - 9</strong></p>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-14.png"
+  width="100%"
+/>
+
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-15.png"
+  width="100%"
+/>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-16.png"
+  width="100%"
+/>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/USFC-17.png"
+  width="100%"
+/>
+
+##### CIERRES COMPLEMENTARIOS / FORMULARIO → RESULTADO
+
+<img
+  src="assets/images/chapter03/user flow diagrams/CC-1.png"
+  width="100%"
+/>
+
+<img
+  src="assets/images/chapter03/user flow diagrams/CC-2.png"
+  width="100%"
+/>
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
