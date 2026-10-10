@@ -402,126 +402,317 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 
 ### Figuras
 - [Figura 1](#figura-1) — Lean UX Canvas de Muyu
-- [Figura 2](#figura-2) — Distribución de entrevistas por segmento
-- [Figura 3](#figura-3) — Distribución de entrevistados por entorno de trabajo
-- [Figura 4](#figura-4) — Hallazgos del segmento Comerciante / Comprador
-- [Figura 5](#figura-5) — Hallazgos del segmento Agricultor
-- [Figura 6](#figura-6) — Análisis de dispositivos móviles y sistemas operativos
-- [Figura 7](#figura-7) — User Persona del segmento Agricultor
-- [Figura 8](#figura-8) — User Persona del segmento Comerciante / Comprador
-- [Figura 9](#figura-9) — User Journey Map - Segmento Agricultor
-- [Figura 10](#figura-10) — User Journey Map - Segmento Comerciante / Comprador
-- [Figura 11](#figura-11) — Mapa de empatía del segmento Agricultor (Miguel Quispe)
-- [Figura 12](#figura-12) — Mapa de empatía del segmento Comerciante / Comprador (Valeria Mendoza)
-- [Figura 13](#figura-13) — Step 1 - Collect Domain Events
-- [Figura 14](#figura-14) — Step 2 - Refine Domain Events
-- [Figura 15](#figura-15) — Step 3 - Track Causes
-- [Figura 16](#figura-16) — Impact Mapping agricultor
-- [Figura 17](#figura-17) — Impact map comerciante
-- [Figura 18](#figura-18) — EventStorming — EventStormingGeneral
-- [Figura 19](#figura-19) — EventStorming — EventStorming01
-- [Figura 20](#figura-20) — EventStorming — EventStorming02
-- [Figura 21](#figura-21) — Mapeo y Descomposición del Timeline de Procesos
-- [Figura 22](#figura-22) — Delimitación Preliminar e Identificación de Eventos Pivote
-- [Figura 23](#figura-23) — Consolidación e Interconexión de Bounded Contexts
-- [Figura 24](#figura-24) — Vista 1: Registro, Catálogo y Contratación — flows 01
-- [Figura 25](#figura-25) — Vista 2: Custodia Escrow y Trabajo de Campo — flows 02
-- [Figura 26](#figura-26) — Vista 3: Auditoría, Desembolso y Clima — flows 03
-- [Figura 27](#figura-27) — Custodia de Fondos en Escrow (*Core Domain*) — bounded 03
-- [Figura 28](#figura-28) — Ejecución Agrícola y Evidencias (*Core Domain*) — bounded 04
-- [Figura 29](#figura-29) — Financiamiento y Contratación (*Supporting Domain*) — bounded 02
-- [Figura 30](#figura-30) — Gestión y Aprobación de Parcelas (*Supporting Domain*) — bounded 01
-- [Figura 31](#figura-31) — Monitoreo Climático y Riesgos (*Generic Domain*) — bounded 05
-- [Figura 32](#figura-32) — Context Mapping — context
-- [Figura 33](#figura-33) — Software Architecture Context Level Diagrams — context level
-- [Figura 34](#figura-34) — Software Architecture Container Level Diagrams — container level
-- [Figura 35](#figura-35) — Software Architecture Deployment Diagrams — deployment level
-- [Figura 36](#figura-36) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract parcel
-- [Figura 37](#figura-37) — Bounded Context Domain Layer Class Diagrams — class diagram contract parcel
-- [Figura 38](#figura-38) — Bounded Context Database Design Diagram — db diagram contract parcel
-- [Figura 39](#figura-39) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract financiamiento
-- [Figura 40](#figura-40) — Bounded Context Domain Layer Class Diagrams — class diagram contract financiamiento
-- [Figura 41](#figura-41) — Bounded Context Database Design Diagram — db diagram contract financiamiento
-- [Figura 42](#figura-42) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract escrow
-- [Figura 43](#figura-43) — Bounded Context Domain Layer Class Diagrams — class diagram contract escrow
-- [Figura 44](#figura-44) — Bounded Context Database Design Diagram — db diagram contract escrow
-- [Figura 45](#figura-45) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract milestones
-- [Figura 46](#figura-46) — Bounded Context Domain Layer Class Diagrams
-- [Figura 47](#figura-47) — Bounded Context Database Design Diagram
-- [Figura 48](#figura-48) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract climate
-- [Figura 49](#figura-49) — Bounded Context Domain Layer Class Diagrams
-- [Figura 50](#figura-50) — Bounded Context Database Design Diagram — db diagram contract climate
-- [Figura 51](#figura-51) — Bounded Context Software Architecture Component Level Diagrams — level diagrams iam
-- [Figura 52](#figura-52) — Bounded Context Domain Layer Class Diagrams
-- [Figura 53](#figura-53) — Bounded Context Database Design Diagram
+- [Figura 2](#figura-2) — Lean UX Canvas de Muyu
+- [Figura 3](#figura-3) — Distribución de entrevistas por segmento
+- [Figura 4](#figura-4) — Distribución de entrevistas por segmento
+- [Figura 5](#figura-5) — Distribución de entrevistados por entorno de trabajo
+- [Figura 6](#figura-6) — Distribución de entrevistados por entorno de trabajo
+- [Figura 7](#figura-7) — Hallazgos del segmento Comerciante / Comprador
+- [Figura 8](#figura-8) — Hallazgos del segmento Comerciante / Comprador
+- [Figura 9](#figura-9) — Hallazgos del segmento Agricultor
+- [Figura 10](#figura-10) — Hallazgos del segmento Agricultor
+- [Figura 11](#figura-11) — Análisis de dispositivos móviles y sistemas operativos
+- [Figura 12](#figura-12) — Análisis de dispositivos móviles y sistemas operativos
+- [Figura 13](#figura-13) — User Persona del segmento Agricultor
+- [Figura 14](#figura-14) — User Persona del segmento Comerciante / Comprador
+- [Figura 15](#figura-15) — User Journey Map - Segmento Agricultor
+- [Figura 16](#figura-16) — User Journey Map - Segmento Agricultor
+- [Figura 17](#figura-17) — User Journey Map - Segmento Comerciante / Comprador
+- [Figura 18](#figura-18) — Mapa de empatía del segmento Agricultor (Miguel Quispe)
+- [Figura 19](#figura-19) — Mapa de empatía del segmento Comerciante / Comprador (Valeria Mendoza)
+- [Figura 20](#figura-20) — Step 1 - Collect Domain Events
+- [Figura 21](#figura-21) — Step 1 - Collect Domain Events
+- [Figura 22](#figura-22) — Step 2 - Refine Domain Events
+- [Figura 23](#figura-23) — Step 3 - Track Causes
+- [Figura 24](#figura-24) — Impact Mapping - Agricultor — Impact map agricultor
+- [Figura 25](#figura-25) — Impact Mapping agricultor
+- [Figura 26](#figura-26) — Impact map comerciante
+- [Figura 27](#figura-27) — Product Backlog
+- [Figura 28](#figura-28) — Paso 1: Mapeo y Descomposición del Timeline de Procesos — discovery 01
+- [Figura 29](#figura-29) — Mapeo y Descomposición del Timeline de Procesos
+- [Figura 30](#figura-30) — Paso 2: Delimitación Preliminar e Identificación de Eventos Pivote — discovery 02
+- [Figura 31](#figura-31) — Delimitación Preliminar e Identificación de Eventos Pivote
+- [Figura 32](#figura-32) — Paso 3: Consolidación e Interconexión de Bounded Contexts — discovery 03
+- [Figura 33](#figura-33) — Consolidación e Interconexión de Bounded Contexts
+- [Figura 34](#figura-34) — Vista 1: Registro, Catálogo y Contratación — flows 01
+- [Figura 35](#figura-35) — Vista 1: Registro, Catálogo y Contratación — flows 01
+- [Figura 36](#figura-36) — Vista 2: Custodia Escrow y Trabajo de Campo — flows 02
+- [Figura 37](#figura-37) — Vista 2: Custodia Escrow y Trabajo de Campo — flows 02
+- [Figura 38](#figura-38) — Vista 3: Auditoría, Desembolso y Clima — flows 03
+- [Figura 39](#figura-39) — Vista 3: Auditoría, Desembolso y Clima — flows 03
+- [Figura 40](#figura-40) — Custodia de Fondos en Escrow (Core Domain) — bounded 03
+- [Figura 41](#figura-41) — Custodia de Fondos en Escrow (Core Domain) — bounded 03
+- [Figura 42](#figura-42) — Ejecución Agrícola y Evidencias (Core Domain) — bounded 04
+- [Figura 43](#figura-43) — Ejecución Agrícola y Evidencias (Core Domain) — bounded 04
+- [Figura 44](#figura-44) — Financiamiento y Contratación (Supporting Domain) — bounded 02
+- [Figura 45](#figura-45) — Financiamiento y Contratación (Supporting Domain) — bounded 02
+- [Figura 46](#figura-46) — Gestión y Aprobación de Parcelas (Supporting Domain) — bounded 01
+- [Figura 47](#figura-47) — Gestión y Aprobación de Parcelas (Supporting Domain) — bounded 01
+- [Figura 48](#figura-48) — Monitoreo Climático y Riesgos (Generic Domain) — bounded 05
+- [Figura 49](#figura-49) — Monitoreo Climático y Riesgos (Generic Domain) — bounded 05
+- [Figura 50](#figura-50) — Gestión de Usuarios (Generic Domain) — bounded 06
+- [Figura 51](#figura-51) — Gestión de Usuarios (Generic Domain) — bounded 06
+- [Figura 52](#figura-52) — Context Mapping — context
+- [Figura 53](#figura-53) — Software Architecture Context Level Diagrams — context level
+- [Figura 54](#figura-54) — Software Architecture Container Level Diagrams — container level
+- [Figura 55](#figura-55) — Software Architecture Deployment Diagrams — deployment level
+- [Figura 56](#figura-56) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract parcel
+- [Figura 57](#figura-57) — Bounded Context Domain Layer Class Diagrams — class diagram contract parcel
+- [Figura 58](#figura-58) — Bounded Context Database Design Diagram — db diagram contract parcel
+- [Figura 59](#figura-59) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract financiamiento
+- [Figura 60](#figura-60) — Bounded Context Domain Layer Class Diagrams — class diagram contract financiamiento
+- [Figura 61](#figura-61) — Bounded Context Database Design Diagram — db diagram contract financiamiento
+- [Figura 62](#figura-62) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract escrow
+- [Figura 63](#figura-63) — Bounded Context Domain Layer Class Diagrams — class diagram contract escrow
+- [Figura 64](#figura-64) — Bounded Context Database Design Diagram — db diagram contract escrow
+- [Figura 65](#figura-65) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract milestones
+- [Figura 66](#figura-66) — Bounded Context Domain Layer Class Diagrams
+- [Figura 67](#figura-67) — Bounded Context Database Design Diagram
+- [Figura 68](#figura-68) — Bounded Context Software Architecture Component Level Diagrams — level diagrams contract climate
+- [Figura 69](#figura-69) — Bounded Context Domain Layer Class Diagrams
+- [Figura 70](#figura-70) — Bounded Context Database Design Diagram — db diagram contract climate
+- [Figura 71](#figura-71) — Bounded Context Software Architecture Component Level Diagrams — level diagrams iam
+- [Figura 72](#figura-72) — Bounded Context Domain Layer Class Diagrams
+- [Figura 73](#figura-73) — Bounded Context Database Design Diagram
+- [Figura 74](#figura-74) — Logo horizontal de Muyu
+- [Figura 75](#figura-75) — Asistente visual de Muyu
+- [Figura 76](#figura-76) — Asistente de autenticación de Muyu
+- [Figura 77](#figura-77) — Colors
+- [Figura 78](#figura-78) — Iconographies
+- [Figura 79](#figura-79) — Typography
+- [Figura 80](#figura-80) — Spacing and shape
+- [Figura 81](#figura-81) — Core components
+- [Figura 82](#figura-82) — Tone of Communication
+- [Figura 83](#figura-83) — Accessibility: contrast
+- [Figura 84](#figura-84) — Layout grid de la Landing Page de Muyu
+- [Figura 85](#figura-85) — Layout grid de la aplicación móvil de Muyu
+- [Figura 86](#figura-86) — Navbar farmers
+- [Figura 87](#figura-87) — Navbar merchants
+- [Figura 88](#figura-88) — Registrar evidencia
+- [Figura 89](#figura-89) — Publicar parcela
+- [Figura 90](#figura-90) — Financiar parcela
+- [Figura 91](#figura-91) — Revisar-hito
+- [Figura 92](#figura-92) — Solicitar visita
+- [Figura 93](#figura-93) — Hero
+- [Figura 94](#figura-94) — About Muyu
+- [Figura 95](#figura-95) — Core Features
+- [Figura 96](#figura-96) — Production Plans
+- [Figura 97](#figura-97) — How It Works
+- [Figura 98](#figura-98) — Payments
+- [Figura 99](#figura-99) — For Farmers and Merchants
+- [Figura 100](#figura-100) — Frequently Asked Questions
+- [Figura 101](#figura-101) — Testimonials
+- [Figura 102](#figura-102) — Call to Action
+- [Figura 103](#figura-103) — Contact
+- [Figura 104](#figura-104) — Footer
+- [Figura 105](#figura-105) — Footer
+- [Figura 106](#figura-106) — Footer
+- [Figura 107](#figura-107) — Footer
+- [Figura 108](#figura-108) — Footer
+- [Figura 109](#figura-109) — Footer
+- [Figura 110](#figura-110) — Footer
+- [Figura 111](#figura-111) — Footer
+- [Figura 112](#figura-112) — Footer
+- [Figura 113](#figura-113) — Footer
+- [Figura 114](#figura-114) — Footer
+- [Figura 115](#figura-115) — Footer
+- [Figura 116](#figura-116) — Mock-up completo de la Landing Page de Muyu en versión desktop
+- [Figura 117](#figura-117) — Mock-up desktop del Hero de Muyu
+- [Figura 118](#figura-118) — Mock-up desktop de la introducción al funcionamiento de Muyu
+- [Figura 119](#figura-119) — Mock-up desktop de las funciones principales de Muyu
+- [Figura 120](#figura-120) — Principios principales del funcionamiento de Muyu
+- [Figura 121](#figura-121) — Mock-up desktop de los planes de producción de Muyu
+- [Figura 122](#figura-122) — Mock-up desktop del proceso general de Muyu
+- [Figura 123](#figura-123) — Mock-up desktop del funcionamiento de los pagos por hitos en Muyu
+- [Figura 124](#figura-124) — Mock-up desktop de las capacidades de Muyu para agricultores y comerciantes
+- [Figura 125](#figura-125) — Mock-up desktop de la sección de preguntas frecuentes de Muyu
+- [Figura 126](#figura-126) — Mock-up desktop: sección de preguntas frecuentes
+- [Figura 127](#figura-127) — Mock-up desktop del componente destinado a testimonios
+- [Figura 128](#figura-128) — Mock-up desktop de la llamada a la acción de Muyu
+- [Figura 129](#figura-129) — Mock-up desktop del formulario de contacto de Muyu
+- [Figura 130](#figura-130) — Mock-up desktop del Footer de Muyu
+- [Figura 131](#figura-131) — Hero
+- [Figura 132](#figura-132) — About Muyu
+- [Figura 133](#figura-133) — Core Features
+- [Figura 134](#figura-134) — Production Plans
+- [Figura 135](#figura-135) — How It Works
+- [Figura 136](#figura-136) — Payments
+- [Figura 137](#figura-137) — For Farmers and Merchants
+- [Figura 138](#figura-138) — Frequently Asked Questions
+- [Figura 139](#figura-139) — Testimonials
+- [Figura 140](#figura-140) — Call to Action
+- [Figura 141](#figura-141) — Contact
+- [Figura 142](#figura-142) — Footer
+- [Figura 143](#figura-143) — Wireframe Agricultor Home
+- [Figura 144](#figura-144) — Wireframe Agricultor Plot
+- [Figura 145](#figura-145) — Wireframe Agricultor Sync
+- [Figura 146](#figura-146) — Wireframe Agricultor Payment
+- [Figura 147](#figura-147) — Wireframe Agricultor Profile
+- [Figura 148](#figura-148) — Wireframe Agricultor Estado
+- [Figura 149](#figura-149) — Wireframe Comerciante Catalogo
+- [Figura 150](#figura-150) — Wireframe Comerciante Plot
+- [Figura 151](#figura-151) — Wireframe Comerciante Payment
+- [Figura 152](#figura-152) — Wireframe Comerciante Notifications
+- [Figura 153](#figura-153) — Wireframe Comerciante Profile
+- [Figura 154](#figura-154) — Wireframe Comerciante Estado
+- [Figura 155](#figura-155) — AGRICULTOR / Gestión de parcelas, visitas, prórrogas y alertas
+- [Figura 156](#figura-156) — AGRICULTOR / Gestión de parcelas, visitas, prórrogas y alertas
+- [Figura 157](#figura-157) — AGRICULTOR / Gestión de parcelas, visitas, prórrogas y alertas
+- [Figura 158](#figura-158) — AGRICULTOR / Gestión de parcelas, visitas, prórrogas y alertas
+- [Figura 159](#figura-159) — AGRICULTOR / Publicación de parcelas y registro de evidencias
+- [Figura 160](#figura-160) — AGRICULTOR / Publicación de parcelas y registro de evidencias
+- [Figura 161](#figura-161) — AGRICULTOR / Publicación de parcelas y registro de evidencias
+- [Figura 162](#figura-162) — AGRICULTOR / Publicación de parcelas y registro de evidencias
+- [Figura 163](#figura-163) — AGRICULTOR / Publicación de parcelas y registro de evidencias
+- [Figura 164](#figura-164) — AGRICULTOR / Publicación de parcelas y registro de evidencias
+- [Figura 165](#figura-165) — AGRICULTOR / Sincronización de evidencias sin conexión
+- [Figura 166](#figura-166) — AGRICULTOR / Historial y detalle de pagos
+- [Figura 167](#figura-167) — AGRICULTOR / Perfil, soporte, seguridad y cierre del contrato
+- [Figura 168](#figura-168) — AGRICULTOR / Perfil, soporte, seguridad y cierre del contrato
+- [Figura 169](#figura-169) — AGRICULTOR / Perfil, soporte, seguridad y cierre del contrato
+- [Figura 170](#figura-170) — COMERCIANTE / Búsqueda, financiamiento y visita a parcelas
+- [Figura 171](#figura-171) — COMERCIANTE / Búsqueda, financiamiento y visita a parcelas
+- [Figura 172](#figura-172) — COMERCIANTE / Búsqueda, financiamiento y visita a parcelas
+- [Figura 173](#figura-173) — COMERCIANTE / Búsqueda, financiamiento y visita a parcelas
+- [Figura 174](#figura-174) — COMERCIANTE / Riesgo climático y revisión de evidencias
+- [Figura 175](#figura-175) — COMERCIANTE / Riesgo climático y revisión de evidencias
+- [Figura 176](#figura-176) — COMERCIANTE / Riesgo climático y revisión de evidencias
+- [Figura 177](#figura-177) — COMERCIANTE / Riesgo climático y revisión de evidencias
+- [Figura 178](#figura-178) — COMERCIANTE / Riesgo climático y revisión de evidencias
+- [Figura 179](#figura-179) — COMERCIANTE / Notificaciones, entrega de cosecha e incidencias
+- [Figura 180](#figura-180) — COMERCIANTE / Notificaciones, entrega de cosecha e incidencias
+- [Figura 181](#figura-181) — COMERCIANTE / Historial de desembolsos y solicitudes de prórroga
+- [Figura 182](#figura-182) — COMERCIANTE / Perfil, preferencias y recuperación de contraseña
+- [Figura 183](#figura-183) — COMERCIANTE / Perfil, preferencias y recuperación de contraseña
+- [Figura 184](#figura-184) — Video del prototipo interactivo de la aplicación móvil Muyu
+- [Figura 185](#figura-185) — Prototipo interactivo de la aplicación móvil Muyu
+- [Figura 186](#figura-186) — Sprint Backlog 1 en Trello
+- [Figura 187](#figura-187) — Compilación exitosa de la aplicación móvil
+- [Figura 188](#figura-188) — Prueba funcional del flujo de autenticación
+- [Figura 189](#figura-189) — Prueba de disponibilidad de la Fake API
+- [Figura 190](#figura-190) — Prueba funcional de la Landing Page
+- [Figura 191](#figura-191) — Ejecución de la Landing Page de Muyu
+- [Figura 192](#figura-192) — Ejecución del registro de usuario en Muyu
+- [Figura 193](#figura-193) — Ejecución del inicio de sesión en Muyu
+- [Figura 194](#figura-194) — Ejecución del recorrido de bienvenida
+- [Figura 195](#figura-195) — Ejecución de una parcela publicada por el agricultor
+- [Figura 196](#figura-196) — Selección de un hito agrícola
+- [Figura 197](#figura-197) — Ejecución de la aplicación para el comerciante
+- [Figura 198](#figura-198) — Ejecución del perfil y cierre de sesión
+- [Figura 199](#figura-199) — Panel principal de la Fake API desplegada en Render
+- [Figura 200](#figura-200) — Usuarios registrados en la Fake API
+- [Figura 201](#figura-201) — Parcelas registradas en la Fake API
+- [Figura 202](#figura-202) — Panel principal de la Fake API desplegada en Render
+- [Figura 203](#figura-203) — Usuarios registrados en la Fake API
+- [Figura 204](#figura-204) — Parcelas registradas en la Fake API
+- [Figura 205](#figura-205) — Prueba funcional de la Landing Page
+- [Figura 206](#figura-206) — Prueba de disponibilidad de la Fake API
+- [Figura 207](#figura-207) — Prueba de disponibilidad de la Fake API
+- [Figura 208](#figura-208) — Compilación exitosa de la aplicación móvil
+- [Figura 209](#figura-209) — Archivo APK generado desde Android Studio
+- [Figura 210](#figura-210) — Contribuciones del equipo en el repositorio del reporte
+- [Figura 211](#figura-211) — Contribuciones en el repositorio de la Landing Page
+- [Figura 212](#figura-212) — Historial de commits de la aplicación móvil
+- [Figura 213](#figura-213) — Tablero de seguimiento del Sprint 1
 
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
-- [Tabla 2](#tabla-2) — Competidores — Tipo, Competidor, Descripción
-- [Tabla 3](#tabla-3) — Matriz de análisis competitivo entre Muyu y competidores directos
-- [Tabla 4](#tabla-4) — Matriz de análisis competitivo entre Muyu y competidores indirectos
-- [Tabla 5](#tabla-5) — Estrategias y tácticas frente a competidores — Competidor, Táctica diferenciadora, Fortaleza del rival que enfrentamos
-- [Tabla 6](#tabla-6) — Estrategias y tácticas frente a competidores — Oportunidades (O), Amenazas (A)
-- [Tabla 7](#tabla-7) — Segmento: Comerciante / Comprador — Entrevista 1 a comerciante comprador
-- [Tabla 8](#tabla-8) — Segmento: Comerciante / Comprador — Entrevista 2 a comerciante comprador
-- [Tabla 9](#tabla-9) — Segmento: Agricultor — Entrevista 3 a agricultora
-- [Tabla 10](#tabla-10) — Segmento: Agricultor — Entrevista 4 a trabajador agrícola
-- [Tabla 11](#tabla-11) — Dispositivo móvil de la Entrevista 1 (segmento Agricultor)
-- [Tabla 12](#tabla-12) — Dispositivo móvil de la Entrevista 2 (segmento Comerciante / Comprador)
-- [Tabla 13](#tabla-13) — Dispositivo móvil de la Entrevista 3 (segmento Agricultor)
-- [Tabla 14](#tabla-14) — Dispositivo móvil de la Entrevista 4 (segmento Comerciante / Comprador)
-- [Tabla 15](#tabla-15) — Matriz de tareas de usuario para los segmentos Agricultor y Comerciante / Comprador
-- [Tabla 16](#tabla-16) — 2.3.6. Ubiquitous Language — Term, Spanish equivalent, Definition
-- [Tabla 17](#tabla-17) — User Stories — Epic ID, Título de la Epic, Descripción
-- [Tabla 18](#tabla-18) — User Stories — US01 — Registro inicial de usuario
-- [Tabla 19](#tabla-19) — User Stories — US02 — Registro de datos bancarios
-- [Tabla 20](#tabla-20) — User Stories — US03 — Publicación de nueva parcela
-- [Tabla 21](#tabla-21) — User Stories — US04 — Búsqueda y filtrado de parcelas
-- [Tabla 22](#tabla-22) — User Stories — US05 — Financiamiento directo de parcela
-- [Tabla 23](#tabla-23) — User Stories — US06 — Solicitud de visita presencial a la parcela
-- [Tabla 24](#tabla-24) — User Stories — US07 — Confirmación de acuerdo y fijación de precio tras visita presencial
-- [Tabla 25](#tabla-25) — User Stories — US08 — Registro fotográfico de evidencia
-- [Tabla 26](#tabla-26) — User Stories — US09 — Reenvío de evidencia corregida
-- [Tabla 27](#tabla-27) — User Stories — US10 — Aprobación de evidencia y orden de liberación de pago
-- [Tabla 28](#tabla-28) — User Stories — US11 — Solicitud de corrección técnica
-- [Tabla 29](#tabla-29) — User Stories — US12 — Visualización de historial de pagos
-- [Tabla 30](#tabla-30) — User Stories — US13 — Solicitud de prórroga por contingencia agrícola
-- [Tabla 31](#tabla-31) — User Stories — US14 — Recepción de alertas climáticas de riesgo
-- [Tabla 32](#tabla-32) — User Stories — US15 — Seguimiento de cronograma y avance de hitos en parcelas activas
-- [Tabla 33](#tabla-33) — User Stories — US16 — Inicio de sesión y acceso según rol
-- [Tabla 34](#tabla-34) — User Stories — US17 — Recuperación segura de contraseña
-- [Tabla 35](#tabla-35) — User Stories — US18 — Recorrido de bienvenida según el rol
-- [Tabla 36](#tabla-36) — User Stories — US19 — Consulta y actualización del perfil y preferencias
-- [Tabla 37](#tabla-37) — User Stories — US20 — Panel resumen de parcelas del agricultor
-- [Tabla 38](#tabla-38) — User Stories — US21 — Definición de financiamiento y plan de desembolsos de una parcela
-- [Tabla 39](#tabla-39) — User Stories — US22 — Consulta detallada y contacto con el agricultor
-- [Tabla 40](#tabla-40) — User Stories — US23 — Recuperación de un pago de financiamiento rechazado
-- [Tabla 41](#tabla-41) — User Stories — US24 — Registro de datos técnicos y validación de ubicación de la labor
-- [Tabla 42](#tabla-42) — User Stories — US25 — Gestión de la cola de sincronización de evidencias
-- [Tabla 43](#tabla-43) — User Stories — US26 — Recepción de alertas climáticas y recomendaciones para el agricultor
-- [Tabla 44](#tabla-44) — User Stories — US27 — Consulta del detalle y comprobante de un pago recibido
-- [Tabla 45](#tabla-45) — User Stories — US28 — Historial de financiamientos del comerciante
-- [Tabla 46](#tabla-46) — User Stories — US29 — Centro de notificaciones del comerciante
-- [Tabla 47](#tabla-47) — User Stories — US30 — Confirmación de recepción de la cosecha
-- [Tabla 48](#tabla-48) — User Stories — US31 — Registro de una incidencia en la entrega de cosecha
-- [Tabla 49](#tabla-49) — User Stories — US32 — Respuesta del agricultor a una solicitud de visita
-- [Tabla 50](#tabla-50) — User Stories — US33 — Registro de medidas tomadas ante una alerta climática
-- [Tabla 51](#tabla-51) — User Stories — US34 — Calificación del comerciante al finalizar el acuerdo
-- [Tabla 52](#tabla-52) — User Stories — US35 — Seguimiento de un pago de financiamiento en verificación
-- [Tabla 53](#tabla-53) — User Stories — TS01 — API de Autenticación y JWT
-- [Tabla 54](#tabla-54) — User Stories — TS02 — Middleware de autorización (RBAC)
-- [Tabla 55](#tabla-55) — User Stories — TS03 — Servicio de retención en Escrow
-- [Tabla 56](#tabla-56) — User Stories — TS04 — API de almacenamiento de archivos
-- [Tabla 57](#tabla-57) — User Stories — TS05 — Motor de liberación de pagos
-- [Tabla 58](#tabla-58) — User Stories — TS06 — Generador de comprobantes PDF
-- [Tabla 59](#tabla-59) — User Stories — TS07 — Webhook de riesgos climáticos
-- [Tabla 60](#tabla-60) — User Stories — TS08 — Motor de alertas meteorológicas
-- [Tabla 61](#tabla-61) — User Stories — SP01 — Evaluación de almacenamiento y sincronización offline de fotografías
-- [Tabla 62](#tabla-62) — Product Backlog — Orden, User Story Id, Título
+- [Tabla 2](#tabla-2) — Competidores
+- [Tabla 3](#tabla-3) — Competidores — Tipo, Competidor, Descripción
+- [Tabla 4](#tabla-4) — ¿Por qué llevar a cabo este análisis?
+- [Tabla 5](#tabla-5) — Matriz de análisis competitivo entre Muyu y competidores directos
+- [Tabla 6](#tabla-6) — ¿Por qué llevar a cabo este análisis?
+- [Tabla 7](#tabla-7) — Matriz de análisis competitivo entre Muyu y competidores indirectos
+- [Tabla 8](#tabla-8) — Estrategias y tácticas frente a competidores — Competidor, Táctica diferenciadora, Fortaleza del rival que enfrentamos
+- [Tabla 9](#tabla-9) — Estrategias y tácticas frente a competidores — Oportunidades (O), Amenazas (A)
+- [Tabla 10](#tabla-10) — Segmento: Comerciante / Comprador — Entrevista 1 a comerciante comprador
+- [Tabla 11](#tabla-11) — Segmento: Comerciante / Comprador — Entrevista 2 a comerciante comprador
+- [Tabla 12](#tabla-12) — Segmento: Agricultor — Entrevista 3 a agricultora
+- [Tabla 13](#tabla-13) — Segmento: Agricultor — Entrevista 4 a trabajador agrícola
+- [Tabla 14](#tabla-14) — Análisis de Dispositivos Móviles y Sistemas Operativos
+- [Tabla 15](#tabla-15) — Dispositivo móvil de la Entrevista 1 (segmento Agricultor)
+- [Tabla 16](#tabla-16) — Dispositivo móvil de la Entrevista 2 (segmento Comerciante / Comprador)
+- [Tabla 17](#tabla-17) — Dispositivo móvil de la Entrevista 3 (segmento Agricultor)
+- [Tabla 18](#tabla-18) — Dispositivo móvil de la Entrevista 4 (segmento Comerciante / Comprador)
+- [Tabla 19](#tabla-19) — Matriz de tareas de usuario para los segmentos Agricultor y Comerciante / Comprador
+- [Tabla 20](#tabla-20) — Ubiquitous Language
+- [Tabla 21](#tabla-21) — Ubiquitous Language — Term, Spanish equivalent, Definition
+- [Tabla 22](#tabla-22) — User Stories — Epic ID, Título de la Epic, Descripción
+- [Tabla 23](#tabla-23) — User Stories — US01 — Registro inicial de usuario
+- [Tabla 24](#tabla-24) — User Stories — US02 — Registro de datos bancarios
+- [Tabla 25](#tabla-25) — User Stories — US03 — Publicación de nueva parcela
+- [Tabla 26](#tabla-26) — User Stories — US04 — Búsqueda y filtrado de parcelas
+- [Tabla 27](#tabla-27) — User Stories — US05 — Financiamiento directo de parcela
+- [Tabla 28](#tabla-28) — User Stories — US06 — Solicitud de visita presencial a la parcela
+- [Tabla 29](#tabla-29) — User Stories — US07 — Confirmación de acuerdo y fijación de precio tras visita presencial
+- [Tabla 30](#tabla-30) — User Stories — US08 — Registro fotográfico de evidencia
+- [Tabla 31](#tabla-31) — User Stories — US09 — Reenvío de evidencia corregida
+- [Tabla 32](#tabla-32) — User Stories — US10 — Aprobación de evidencia y orden de liberación de pago
+- [Tabla 33](#tabla-33) — User Stories — US11 — Solicitud de corrección técnica
+- [Tabla 34](#tabla-34) — User Stories — US12 — Visualización de historial de pagos
+- [Tabla 35](#tabla-35) — User Stories — US13 — Solicitud de prórroga por contingencia agrícola
+- [Tabla 36](#tabla-36) — User Stories — US14 — Recepción de alertas climáticas de riesgo
+- [Tabla 37](#tabla-37) — User Stories — US15 — Seguimiento de cronograma y avance de hitos en parcelas activas
+- [Tabla 38](#tabla-38) — User Stories — US16 — Inicio de sesión y acceso según rol
+- [Tabla 39](#tabla-39) — User Stories — US17 — Recuperación segura de contraseña
+- [Tabla 40](#tabla-40) — User Stories — US18 — Recorrido de bienvenida según el rol
+- [Tabla 41](#tabla-41) — User Stories — US19 — Consulta y actualización del perfil y preferencias
+- [Tabla 42](#tabla-42) — User Stories — US20 — Panel resumen de parcelas del agricultor
+- [Tabla 43](#tabla-43) — User Stories — US21 — Definición de financiamiento y plan de desembolsos de una parcela
+- [Tabla 44](#tabla-44) — User Stories — US22 — Consulta detallada y contacto con el agricultor
+- [Tabla 45](#tabla-45) — User Stories — US23 — Recuperación de un pago de financiamiento rechazado
+- [Tabla 46](#tabla-46) — User Stories — US24 — Registro de datos técnicos y validación de ubicación de la labor
+- [Tabla 47](#tabla-47) — User Stories — US25 — Gestión de la cola de sincronización de evidencias
+- [Tabla 48](#tabla-48) — User Stories — US26 — Recepción de alertas climáticas y recomendaciones para el agricultor
+- [Tabla 49](#tabla-49) — User Stories — US27 — Consulta del detalle y comprobante de un pago recibido
+- [Tabla 50](#tabla-50) — User Stories — US28 — Historial de financiamientos del comerciante
+- [Tabla 51](#tabla-51) — User Stories — US29 — Centro de notificaciones del comerciante
+- [Tabla 52](#tabla-52) — User Stories — US30 — Confirmación de recepción de la cosecha
+- [Tabla 53](#tabla-53) — User Stories — US31 — Registro de una incidencia en la entrega de cosecha
+- [Tabla 54](#tabla-54) — User Stories — US32 — Respuesta del agricultor a una solicitud de visita
+- [Tabla 55](#tabla-55) — User Stories — US33 — Registro de medidas tomadas ante una alerta climática
+- [Tabla 56](#tabla-56) — User Stories — US34 — Calificación del comerciante al finalizar el acuerdo
+- [Tabla 57](#tabla-57) — User Stories — US35 — Seguimiento de un pago de financiamiento en verificación
+- [Tabla 58](#tabla-58) — User Stories — TS01 — API de Autenticación y JWT
+- [Tabla 59](#tabla-59) — User Stories — TS02 — Middleware de autorización (RBAC)
+- [Tabla 60](#tabla-60) — User Stories — TS03 — Servicio de retención en Escrow
+- [Tabla 61](#tabla-61) — User Stories — TS04 — API de almacenamiento de archivos
+- [Tabla 62](#tabla-62) — User Stories — TS05 — Motor de liberación de pagos
+- [Tabla 63](#tabla-63) — User Stories — TS06 — Generador de comprobantes PDF
+- [Tabla 64](#tabla-64) — User Stories — TS07 — Webhook de riesgos climáticos
+- [Tabla 65](#tabla-65) — User Stories — TS08 — Motor de alertas meteorológicas
+- [Tabla 66](#tabla-66) — User Stories — SP01 — Evaluación de almacenamiento y sincronización offline de fotografías
+- [Tabla 67](#tabla-67) — Product Backlog
+- [Tabla 68](#tabla-68) — Product Backlog — Orden, User Story Id, Título
+- [Tabla 69](#tabla-69) — Colors
+- [Tabla 70](#tabla-70) — Typography
+- [Tabla 71](#tabla-71) — Accessibility: contrast
+- [Tabla 72](#tabla-72) — Sistemas de organización visual
+- [Tabla 73](#tabla-73) — Esquemas de categorización del contenido
+- [Tabla 74](#tabla-74) — Navegación inferior
+- [Tabla 75](#tabla-75) — Acciones principales
+- [Tabla 76](#tabla-76) — Estados
+- [Tabla 77](#tabla-77) — SEO Tags and Meta Tags
+- [Tabla 78](#tabla-78) — Searching Systems
+- [Tabla 79](#tabla-79) — Navigation Systems
+- [Tabla 80](#tabla-80) — Software Development Environment Configuration
+- [Tabla 81](#tabla-81) — Source Code Management
+- [Tabla 82](#tabla-82) — Landing Page Deployment
+- [Tabla 83](#tabla-83) — Deployment Verification
+- [Tabla 84](#tabla-84) — Sprint Planning 1
+- [Tabla 85](#tabla-85) — Aspect Leaders and Collaborators
+- [Tabla 86](#tabla-86) — Sprint Backlog 1
+- [Tabla 87](#tabla-87) — Development Evidence for Sprint Review
+- [Tabla 88](#tabla-88) — Testing Suite Evidence for Sprint Review
+- [Tabla 89](#tabla-89) — Services Documentation Evidence for Sprint Review
+- [Tabla 90](#tabla-90) — Despliegue de la Fake API mediante Render
+- [Tabla 91](#tabla-91) — Team Collaboration Insights during Sprint
+- [Tabla 92](#tabla-92) — Team Collaboration Insights during Sprint
 
 ### Anexos
 - [Anexo A](#anexo-a-reporte-de-análisis-de-entrevistas-en-power-bi) — Reporte de análisis de entrevistas en Power BI
 - [Anexo B](#anexo-b-needfinding) — Materiales de Needfinding
+- [Anexo C](#anexo-c-video-de-presentación-de-tb1) — Video de presentación de TB1
 
 <div style="page-break-before: always;"></div>
 
@@ -589,6 +780,8 @@ Con Muyu buscamos simplificar la coordinación del trabajo agrícola y fortalece
   </tr>
 </table>
 </div>
+La [Tabla 1](#tabla-1) presenta perfiles de los integrantes del equipo.
+
 <p id="tabla-1"><strong>Tabla 1.</strong> Perfiles de los integrantes del equipo</p>
 
 ---
@@ -761,8 +954,14 @@ Creemos que mejoraremos la atención de eventos importantes si agricultores y co
 
 La siguiente figura presenta el Lean UX Canvas elaborado para Muyu.
 
-![Lean UX Canvas de Muyu](assets/images/Chapter%201/Canvas/Lean%20UX%20Canvas.png)
+La [Figura 1](#figura-1) muestra lean ux canvas de muyu.
+
 <p id="figura-1"><strong>Figura 1.</strong> Lean UX Canvas de Muyu</p>
+
+![Lean UX Canvas de Muyu](assets/images/Chapter%201/Canvas/Lean%20UX%20Canvas.png)
+La [Figura 2](#figura-2) presenta lean ux canvas de muyu.
+
+<p id="figura-2"><strong>Figura 2.</strong> Lean UX Canvas de Muyu</p>
 
 [Ver en Miro](https://miro.com/app/board/uXjVHpAR0XE=/?share_link_id=138737583873)
 
@@ -819,6 +1018,10 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 ## 2.1. Competidores
 
 
+La [Tabla 2](#tabla-2) organiza la información correspondiente a competidores.
+
+<p id="tabla-2"><strong>Tabla 2.</strong> Competidores</p>
+
 | Tipo | Competidor | Descripción | Características | Website |
 |---|---|---|---|---|
 | Directo |  <img alt="farmizen" src="assets/images/chapter02/logos/farmizen.png" width="90"><br> (India) | Permite alquilar una mini-parcela de 600 pies² dentro de una granja real por una cuota mensual; el agricultor cultiva el terreno y el usuario recibe la cosecha semanalmente o la recoge en visitas programadas. | App móvil de seguimiento de parcela (Android/iOS); hasta 6 visitas de campo al mes; entrega semanal a domicilio; sin verificación georreferenciada automática de evidencias. | [farmizen.com](https://www.farmizen.com) |
@@ -827,7 +1030,9 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 | Indirecto | <img alt="acretrader" src="assets/images/chapter02/logos/acretrader.png" width="90"><br> (EE. UU.) | Plataforma fintech que fracciona la propiedad de terrenos agrícolas para que inversionistas financien tierra de cultivo a cambio de una renta anual pagada por el operador agrícola arrendatario. | Due diligence documental de tierras; retorno de renta anual fija; sin seguimiento operativo del cultivo ni app móvil; el retorno no depende de la cosecha. | [acretrader.com](https://www.acretrader.com) |
 | Indirecto | <img alt="traive" src="assets/images/chapter02/logos/traive.png" width="90"><br>**Traive** (Brasil / EE. UU.) | Plataforma agrofintech B2B2C que usa inteligencia artificial para generar scoring crediticio y conectar a prestamistas/distribuidores de insumos con agricultores, agilizando la aprobación de crédito agrícola. | Modelo B2B2C (cliente es el prestamista, no el agricultor ni el comerciante); evaluación de riesgo con datos alternativos; sin evidencia de campo ni app móvil. | [traivefinance.com](https://traivefinance.com) |
 | Indirecto | <img alt="kilimo" src="assets/images/chapter02/logos/kilimo.png" width="90"><br>**Kilimo** (Argentina, con presencia en Perú) | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales vendidos a empresas. | Recomendaciones diarias de riego sin hardware; alianzas corporativas de sostenibilidad; no financia parcelas ni conecta al agricultor con un comprador. | [kilimo.com](https://www.kilimo.com) |
-<p id="tabla-2"><strong>Tabla 2.</strong> Competidores — Tipo, Competidor, Descripción</p>
+La [Tabla 3](#tabla-3) presenta competidores — tipo, competidor, descripción.
+
+<p id="tabla-3"><strong>Tabla 3.</strong> Competidores — Tipo, Competidor, Descripción</p>
 
 ### 2.1.1. Análisis competitivo
 
@@ -838,6 +1043,10 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 **¿Por qué llevar a cabo este análisis?**
 ¿Cómo debe posicionarse Muyu frente a plataformas de alquiler de parcela y crowdfunding agrícola ya validadas (Farmizen, Cropital, CrowdFarming) para maximizar la confianza del comerciante comprador, y qué brechas de transparencia y trazabilidad debemos priorizar frente a ellas?
  
+La [Tabla 4](#tabla-4) organiza la información correspondiente a ¿por qué llevar a cabo este análisis?.
+
+<p id="tabla-4"><strong>Tabla 4.</strong> ¿Por qué llevar a cabo este análisis?</p>
+
 | | | <br><img alt="muyu" src="assets/images/chapter02/logos/muyu.jpeg" width="90"> | <br><img alt="farmizen" src="assets/images/chapter02/logos/farmizen.png" width="70"> | <br><img alt="cropital" src="assets/images/chapter02/logos/cropital.png" width="90"> | <br><img alt="crowdfarming" src="assets/images/chapter02/logos/crowdfarming.png" width="70"> |
 |---|---|---|---|---|---|
 | **Perfil** | Overview | Marketplace Agro-as-a-Service que conecta agricultores con comerciantes/compradores mediante financiamiento de una parcela específica por ciclo de cultivo, con Escrow y evidencia georreferenciada. | App que permite alquilar una mini-parcela dentro de una granja real por una cuota mensual, con seguimiento del cultivo desde el celular. | Plataforma de crowdfunding que financia granjas específicas de pequeños agricultores filipinos a cambio de un porcentaje de la cosecha/ganancia. | Marketplace de "adopción" de árboles, animales o parcelas, con entrega directa de la cosecha al consumidor final. |
@@ -852,7 +1061,9 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 | | Debilidades | Marca nueva sin comunidad ni historial de transacciones que genere confianza inicial. | No ofrece custodia de fondos por hitos ni verificación georreferenciada automática; reseñas de usuarios señalan quejas de calidad del producto entregado. | Verificación de campo manual (visitas/entrevistas) sin evidencia fotográfica automatizada ni app móvil, lo que limita su velocidad de aprobación y escala geográfica. | No ofrece custodia de fondos por hitos ni verificación automatizada; modelo orientado al consumidor final, no al comerciante B2B. |
 | | Oportunidades | Mercado local (Perú) sin un competidor directo consolidado; alianzas con cooperativas agrarias. | Incorporar verificación de evidencia tipo Escrow para recuperar confianza. | Digitalizar su proceso de verificación de campo con evidencia fotográfica automatizada. | Expansión a mercados latinoamericanos. |
 | | Amenazas | Ingreso de un competidor internacional (como Cropital o CrowdFarming) al mercado local; resistencia tecnológica de agricultores de mayor edad. | Plataformas con mayor transparencia erosionando su ventaja de confianza. | Plataformas con verificación automatizada y app móvil nativa que ofrecen mayor trazabilidad al mismo costo operativo. | Plataformas locales con menor costo operativo y mejor conocimiento del mercado regional, como Muyu. |
-<p id="tabla-3"><strong>Tabla 3.</strong> Matriz de análisis competitivo entre Muyu y competidores directos</p>
+La [Tabla 5](#tabla-5) presenta matriz de análisis competitivo entre muyu y competidores directos.
+
+<p id="tabla-5"><strong>Tabla 5.</strong> Matriz de análisis competitivo entre Muyu y competidores directos</p>
  
 **Análisis para competidores indirectos**
  
@@ -862,6 +1073,10 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 
 ¿Qué alternativas de financiamiento agrícola indirectas? ¿Como la inversión fraccionada en tierra? ¿Podrían captar al mismo comerciante/inversionista objetivo de Muyu?, y ¿Cómo debemos diferenciarnos para no ser percibidos como un simple vehículo financiero pasivo?
  
+La [Tabla 6](#tabla-6) organiza la información correspondiente a ¿por qué llevar a cabo este análisis?.
+
+<p id="tabla-6"><strong>Tabla 6.</strong> ¿Por qué llevar a cabo este análisis?</p>
+
 | | | <br><img alt="muyu" src="assets/images/chapter02/logos/muyu.jpeg" width="90"> | <br><img alt="acretrader" src="assets/images/chapter02/logos/acretrader.png" width="90"> | <br><img alt="traive" src="assets/images/chapter02/logos/traive.png" width="90"> | <br><img alt="kilimo" src="assets/images/chapter02/logos/kilimo.png" width="90"> |
 |---|---|---|---|---|---|
 | **Perfil** | Overview | Marketplace Agro-as-a-Service que conecta agricultores con comerciantes mediante financiamiento de una parcela específica por ciclo de cultivo. | Plataforma fintech que fracciona la propiedad de terrenos agrícolas para que inversionistas financien tierra a cambio de una renta anual. | Plataforma agrofintech B2B2C que usa IA para generar scoring crediticio y conectar prestamistas/distribuidores de insumos con agricultores. | Plataforma SaaS climática que usa IA, satélites y datos meteorológicos para optimizar el riego y monetizar el ahorro de agua como créditos ambientales. |
@@ -876,7 +1091,9 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 | | Debilidades | Marca nueva sin comunidad ni historial de transacciones. | Enfocado en el inversionista de tierra; no resuelve la necesidad operativa diaria del agricultor ni el abastecimiento del comerciante. | No brinda visibilidad operativa del cultivo ni evidencia verificable; el agricultor no es su cliente directo. | No resuelve el financiamiento del ciclo de cultivo ni conecta al agricultor con un comprador; su alcance se limita al riego. |
 | | Oportunidades | Mercado local sin competidor directo consolidado. | Integrar servicios de seguimiento de cultivo a su oferta actual. | Integrar evidencia de campo geolocalizada a su scoring de riesgo. | Integrar un módulo de financiamiento o marketplace de cosecha a su base ya instalada de agricultores. |
 | | Amenazas | Ingreso de un competidor internacional al mercado local. | Modelos operativos como Muyu, orientados a la operación diaria y no solo al financiamiento de tierra, pueden captar al segmento de comerciantes que AcreTrader no atiende. | Plataformas como Muyu, que ofrecen visibilidad operativa y pago estructurado por hitos, podrían atraer comerciantes que buscan control directo sin depender de un prestamista intermediario. | Plataformas como Muyu podrían incorporar alertas de riego similares aprovechando su misma integración de datos climáticos, reduciendo la necesidad de un servicio separado. |
-<p id="tabla-4"><strong>Tabla 4.</strong> Matriz de análisis competitivo entre Muyu y competidores indirectos</p>
+La [Tabla 7](#tabla-7) presenta matriz de análisis competitivo entre muyu y competidores indirectos.
+
+<p id="tabla-7"><strong>Tabla 7.</strong> Matriz de análisis competitivo entre Muyu y competidores indirectos</p>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -888,7 +1105,9 @@ Este segmento comprende comerciantes, distribuidores, propietarios de restaurant
 | <br><img alt="acretrader" src="assets/images/chapter02/logos/acretrader.png" width="90"> | Diferenciarse de un vehículo de inversión pasiva incorporando herramientas de seguimiento diario del cultivo (evidencia, alertas climáticas) que ningún inversionista de tierra necesita, pero todo comerciante comprador sí. | Solidez financiera y modelo de inversión fraccionada ya validado en Estados Unidos. | No atiende la necesidad operativa de abastecimiento del comerciante ni brinda visibilidad del avance del cultivo; solo ofrece retorno financiero pasivo. |
 | <br><img alt="traive" src="assets/images/chapter02/logos/traive.png" width="90"> | Ofrecer al comerciante control directo del pago y visibilidad del cultivo, sin depender de un tercero prestamista que evalúa el riesgo del agricultor a distancia y sin visibilidad de campo. | Modelo de riesgo crediticio con IA validado, con fondeo internacional (Serie A) y adopción por bancos y distribuidores de insumos. | No brinda visibilidad operativa del cultivo ni evidencia verificable del avance; el agricultor no es su cliente directo, sino el prestamista. |
 | <br><img alt="kilimo" src="assets/images/chapter02/logos/kilimo.png" width="90"> | Posicionar las alertas climáticas de Muyu como parte de un servicio integral de financiamiento y trazabilidad, cubriendo la necesidad de pago y evidencia que Kilimo no atiende, en vez de competir solo en optimización de riego. | Presencia validada en 7 países y alianzas corporativas de sostenibilidad de alto perfil (Coca-Cola, Microsoft, Google). | No conecta al agricultor con un comprador ni resuelve el financiamiento del ciclo de cultivo; su alcance se limita a la gestión del riego. |
-<p id="tabla-5"><strong>Tabla 5.</strong> Estrategias y tácticas frente a competidores — Competidor, Táctica diferenciadora, Fortaleza del rival que enfrentamos</p>
+La [Tabla 8](#tabla-8) presenta estrategias y tácticas frente a competidores — competidor, táctica diferenciadora, fortaleza del rival que enfrentamos.
+
+<p id="tabla-8"><strong>Tabla 8.</strong> Estrategias y tácticas frente a competidores — Competidor, Táctica diferenciadora, Fortaleza del rival que enfrentamos</p>
 
 A partir del análisis competitivo desarrollado, se consolidan las Fortalezas, Oportunidades, Debilidades y Amenazas (FODA) propias de Muyu, y se cruzan para derivar cuatro grupos de estrategias (Corregir, Afrontar, Mantener, Explotar).
 
@@ -897,7 +1116,9 @@ A partir del análisis competitivo desarrollado, se consolidan las Fortalezas, O
 | Matriz F.O.D.A. y C.A.M.E.<br><img alt="muyu" src="assets/images/chapter02/logos/muyu.jpeg" width="160"> | O1. Mercado peruano/LatAm sin un competidor directo consolidado que combine Escrow + evidencia georreferenciada.<br>O2. Alianzas con cooperativas y asociaciones agrarias ya constituidas (AGRO RURAL, municipios).<br>O3. Vacío dejado por competidores indirectos: Kilimo no financia, Traive no da visibilidad de campo.<br>O4. Penetración creciente de celulares en zonas rurales. | A1. Ingreso de un competidor internacional directo (Cropital, CrowdFarming o Farmizen) al mercado peruano.<br>A2. Resistencia a la adopción tecnológica de agricultores de mayor edad.<br>A3. Que un competidor indirecto (Kilimo o Traive) integre las funciones que hoy diferencian a Muyu.<br>A4. Variabilidad de conectividad y dispositivos antiguos en zonas rurales. |
 | **Fortalezas (F)**<br>F1. Escrow con liberación de fondos por hitos verificables (foto + GPS + timestamp), único frente a los 6 competidores analizados.<br>F2. Funcionamiento offline-first adaptado a la conectividad limitada del campo.<br>F3. Resuelve simultáneamente financiamiento y trazabilidad operativa; ningún competidor lo hace a la vez. | **Estrategia Ofensiva (FO)**<br>FO1. Usar el Escrow verificable (F1) como argumento central en alianzas con cooperativas (O2), ofreciendo garantía de pago transparente como gancho de adopción.<br>FO2. Aprovechar el offline-first (F2) para posicionarse en zonas rurales de conectividad limitada (O4) antes que competidores internacionales dependientes de conexión constante.<br>FO3. Capitalizar la propuesta única de financiamiento + trazabilidad (F3) para captar al comerciante que hoy usa soluciones parciales como Kilimo o Traive (O3). | **Estrategia Defensiva (FA)**<br>FA1. Comunicar el Escrow verificable (F1) como sello de confianza ante la eventual llegada de un competidor internacional (A1), acelerando el efecto de red local antes de que aterricen.<br>FA2. Diseñar la app para dispositivos de gama baja y modo offline robusto (F2), mitigando el riesgo de exclusión por conectividad o hardware antiguo (A4).<br>FA3. Mantener el foco en un problema resuelto de punta a punta (F3) para que, si un competidor indirecto agrega una función aislada (A3), no logre igualar la propuesta integral de Muyu. |
 | **Debilidades (D)**<br>D1. Marca nueva sin comunidad de usuarios ni historial de transacciones.<br>D2. Dependencia de un solo canal de captación inicial (alianzas con cooperativas) mientras se consolida un flujo propio de adquisición.<br>D3. Sin integraciones con actores financieros externos (a diferencia de Traive) que amplíen el acceso a crédito de los agricultores. | **Estrategia de Reorientación (DO)**<br>DO1. Usar las alianzas con cooperativas (O2) como fuente de validación social que compense la falta de historial de transacciones (D1).<br>DO2. Explorar en una fase posterior una integración ligera con actores de crédito agrícola (O3) para cerrar la brecha de D3 sin construir un motor de scoring propio desde cero.<br>DO3. Diversificar canales de adquisición más allá de cooperativas (mitigando D2), replicando el gancho de alertas climáticas gratuitas con promotores locales y municipios. | **Estrategia de Supervivencia (DA)**<br>DA1. Priorizar el lanzamiento en un solo valle agrícola (foco de nicho) antes de expandirse, para no exponer la debilidad de marca nueva (D1) frente a un competidor internacional en múltiples frentes (A1).<br>DA2. Mantener llamada telefónica como respaldo de las notificaciones push, para que la dependencia de un solo canal (D2) no se agrave si falla la conectividad (A4).<br>DA3. Documentar y resguardar internamente el motor de reglas del Escrow para reducir el riesgo de réplica por un competidor indirecto (A3) mientras la marca aún no tiene defensa reputacional (D1). |
-<p id="tabla-6"><strong>Tabla 6.</strong> Estrategias y tácticas frente a competidores — Oportunidades (O), Amenazas (A)</p>
+La [Tabla 9](#tabla-9) presenta estrategias y tácticas frente a competidores — oportunidades (o), amenazas (a).
+
+<p id="tabla-9"><strong>Tabla 9.</strong> Estrategias y tácticas frente a competidores — Oportunidades (O), Amenazas (A)</p>
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
@@ -1011,7 +1232,9 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 </tr>
 
 </table>
-<p id="tabla-7"><strong>Tabla 7.</strong> Segmento: Comerciante / Comprador — Entrevista 1 a comerciante comprador</p>
+La [Tabla 10](#tabla-10) presenta segmento: comerciante / comprador — entrevista 1 a comerciante comprador.
+
+<p id="tabla-10"><strong>Tabla 10.</strong> Segmento: Comerciante / Comprador — Entrevista 1 a comerciante comprador</p>
 
 <table>
 
@@ -1058,7 +1281,9 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 </tr>
 
 </table>
-<p id="tabla-8"><strong>Tabla 8.</strong> Segmento: Comerciante / Comprador — Entrevista 2 a comerciante comprador</p>
+La [Tabla 11](#tabla-11) presenta segmento: comerciante / comprador — entrevista 2 a comerciante comprador.
+
+<p id="tabla-11"><strong>Tabla 11.</strong> Segmento: Comerciante / Comprador — Entrevista 2 a comerciante comprador</p>
 
 ---
 
@@ -1108,7 +1333,9 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 </tr>
 
 </table>
-<p id="tabla-9"><strong>Tabla 9.</strong> Segmento: Agricultor — Entrevista 3 a agricultora</p>
+La [Tabla 12](#tabla-12) presenta segmento: agricultor — entrevista 3 a agricultora.
+
+<p id="tabla-12"><strong>Tabla 12.</strong> Segmento: Agricultor — Entrevista 3 a agricultora</p>
 
 <table>
 
@@ -1154,7 +1381,9 @@ Se busca comprender los desafíos actuales del agricultor en el campo relacionad
 </tr>
 
 </table>
-<p id="tabla-10"><strong>Tabla 10.</strong> Segmento: Agricultor — Entrevista 4 a trabajador agrícola</p>
+La [Tabla 13](#tabla-13) presenta segmento: agricultor — entrevista 4 a trabajador agrícola.
+
+<p id="tabla-13"><strong>Tabla 13.</strong> Segmento: Agricultor — Entrevista 4 a trabajador agrícola</p>
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -1162,8 +1391,14 @@ A continuación les mostraremos detalles de las entrevistas:
 
 #### Distribución de entrevistas por segmento
 
+La [Figura 3](#figura-3) muestra distribución de entrevistas por segmento.
+
+<p id="figura-3"><strong>Figura 3.</strong> Distribución de entrevistas por segmento</p>
+
 ![Distribución de entrevistas por segmento](assets/images/chapter02/analysis/interviews-by-segment.png)
-<p id="figura-2"><strong>Figura 2.</strong> Distribución de entrevistas por segmento</p>
+La [Figura 4](#figura-4) presenta distribución de entrevistas por segmento.
+
+<p id="figura-4"><strong>Figura 4.</strong> Distribución de entrevistas por segmento</p>
 
 *Nota: El 50% de los entrevistados pertenece al segmento Agricultor y el otro 50% al segmento Comerciante / Comprador. Esta distribución permite analizar las necesidades de quienes trabajan directamente con los cultivos y de quienes dependen del abastecimiento agrícola para desarrollar sus actividades comerciales.*
 
@@ -1171,8 +1406,14 @@ A continuación les mostraremos detalles de las entrevistas:
 
 #### Distribución de entrevistados por entorno de trabajo
 
+La [Figura 5](#figura-5) muestra distribución de entrevistados por entorno de trabajo.
+
+<p id="figura-5"><strong>Figura 5.</strong> Distribución de entrevistados por entorno de trabajo</p>
+
 ![Distribución de entrevistados por entorno de trabajo](assets/images/chapter02/analysis/interviews-by-environment.png)
-<p id="figura-3"><strong>Figura 3.</strong> Distribución de entrevistados por entorno de trabajo</p>
+La [Figura 6](#figura-6) presenta distribución de entrevistados por entorno de trabajo.
+
+<p id="figura-6"><strong>Figura 6.</strong> Distribución de entrevistados por entorno de trabajo</p>
 
 *Nota: El 50% de los entrevistados desarrolla sus actividades principalmente en un entorno rural, mientras que el otro 50% trabaja en un entorno urbano y comercial.*
 
@@ -1180,8 +1421,14 @@ A continuación les mostraremos detalles de las entrevistas:
 
 #### Hallazgos del segmento Comerciante / Comprador
 
+La [Figura 7](#figura-7) muestra hallazgos del segmento comerciante / comprador.
+
+<p id="figura-7"><strong>Figura 7.</strong> Hallazgos del segmento Comerciante / Comprador</p>
+
 ![Hallazgos del segmento Comerciante / Comprador](assets/images/chapter02/analysis/commercial-segment-findings.png)
-<p id="figura-4"><strong>Figura 4.</strong> Hallazgos del segmento Comerciante / Comprador</p>
+La [Figura 8](#figura-8) presenta hallazgos del segmento comerciante / comprador.
+
+<p id="figura-8"><strong>Figura 8.</strong> Hallazgos del segmento Comerciante / Comprador</p>
 
 *Nota: El abastecimiento oportuno, la calidad e inocuidad, las evidencias visuales, el riesgo en pagos anticipados, el seguimiento y trazabilidad, y la variación de precios estuvieron presentes en el 100% de las entrevistas del segmento. Los avisos desde el celular y la información del suelo aparecieron en el 50%.*
 *Elaboración propia.*
@@ -1191,8 +1438,14 @@ El riesgo asociado a los pagos anticipados también estuvo presente en ambas ent
 
 #### Hallazgos del segmento Agricultor
 
+La [Figura 9](#figura-9) muestra hallazgos del segmento agricultor.
+
+<p id="figura-9"><strong>Figura 9.</strong> Hallazgos del segmento Agricultor</p>
+
 ![Hallazgos del segmento Agricultor](assets/images/chapter02/analysis/agricultural-segment-findings.png)
-<p id="figura-5"><strong>Figura 5.</strong> Hallazgos del segmento Agricultor</p>
+La [Figura 10](#figura-10) presenta hallazgos del segmento agricultor.
+
+<p id="figura-10"><strong>Figura 10.</strong> Hallazgos del segmento Agricultor</p>
 
 *Nota: La supervisión del cultivo, el riego y fertilización, y el uso del celular estuvieron presentes en el 100% de las entrevistas del segmento Agricultor. El apoyo técnico, la conectividad limitada, el uso de fotografías, videos y audios, la información climática y el trabajo sin conexión aparecieron en el 50%.*
 *Elaboración propia.*
@@ -1209,13 +1462,19 @@ Para consultar los materiales complementarios de entrevistas y Needfinding, véa
 
 A partir de las entrevistas realizadas se identificaron los dispositivos móviles empleados por los participantes de ambos segmentos.
 
+La [Tabla 14](#tabla-14) organiza la información correspondiente a análisis de dispositivos móviles y sistemas operativos.
+
+<p id="tabla-14"><strong>Tabla 14.</strong> Análisis de Dispositivos Móviles y Sistemas Operativos</p>
+
 | Entrevista #1 |  |  |  |
 | :--- | :--- | :--- | :--- |
 | **Nombre completo** | Lili Vera Vela | **Segmento** | Agricultor |
 | **Entorno** | Rural | **Modelo de celular** | **iPhone 17** |
 | **Sistema operativo** | iOS | **Dispositivo** | <img alt="iphone 17" src="assets/images/chapter02/devices/iphone-17.jpg" width="140"> |
 
-<p id="tabla-11"><strong>Tabla 11.</strong> Dispositivo móvil de la Entrevista 1 (segmento Agricultor)</p>
+La [Tabla 15](#tabla-15) presenta dispositivo móvil de la entrevista 1 (segmento agricultor).
+
+<p id="tabla-15"><strong>Tabla 15.</strong> Dispositivo móvil de la Entrevista 1 (segmento Agricultor)</p>
 
 ---
 
@@ -1225,7 +1484,9 @@ A partir de las entrevistas realizadas se identificaron los dispositivos móvile
 | **Entorno** | Urbano | **Modelo de celular** | **iPhone 15** |
 | **Sistema operativo** | iOS | **Dispositivo** | <img alt="iphone 15" src="assets/images/chapter02/devices/iphone-15.jpg" width="140"> |
 
-<p id="tabla-12"><strong>Tabla 12.</strong> Dispositivo móvil de la Entrevista 2 (segmento Comerciante / Comprador)</p>
+La [Tabla 16](#tabla-16) presenta dispositivo móvil de la entrevista 2 (segmento comerciante / comprador).
+
+<p id="tabla-16"><strong>Tabla 16.</strong> Dispositivo móvil de la Entrevista 2 (segmento Comerciante / Comprador)</p>
 
 ---
 
@@ -1235,7 +1496,9 @@ A partir de las entrevistas realizadas se identificaron los dispositivos móvile
 | **Entorno** | Rural | **Modelo de celular** | **Motorola Fusion H50** |
 | **Sistema operativo** | Android | **Dispositivo** | <img alt="motorola fusion h50" src="assets/images/chapter02/devices/motorola-fusion-h50.jpg" width="140"> |
 
-<p id="tabla-13"><strong>Tabla 13.</strong> Dispositivo móvil de la Entrevista 3 (segmento Agricultor)</p>
+La [Tabla 17](#tabla-17) presenta dispositivo móvil de la entrevista 3 (segmento agricultor).
+
+<p id="tabla-17"><strong>Tabla 17.</strong> Dispositivo móvil de la Entrevista 3 (segmento Agricultor)</p>
 
 ---
 
@@ -1245,15 +1508,23 @@ A partir de las entrevistas realizadas se identificaron los dispositivos móvile
 | **Entorno** | Urbano | **Modelo de celular** | **iPhone 17** |
 | **Sistema operativo** | iOS | **Imagen** |  <img alt="iphone 17" src="assets/images/chapter02/devices/iphone-17.jpg" width="140"> |
 
-<p id="tabla-14"><strong>Tabla 14.</strong> Dispositivo móvil de la Entrevista 4 (segmento Comerciante / Comprador)</p>
+La [Tabla 18](#tabla-18) presenta dispositivo móvil de la entrevista 4 (segmento comerciante / comprador).
+
+<p id="tabla-18"><strong>Tabla 18.</strong> Dispositivo móvil de la Entrevista 4 (segmento Comerciante / Comprador)</p>
 
 **Estadística de Sistemas Operativos:**
 
 
 El análisis realizado en Power BI muestra la distribución de los sistemas operativos y dispositivos identificados durante las entrevistas.
 
+La [Figura 11](#figura-11) muestra análisis de dispositivos móviles y sistemas operativos.
+
+<p id="figura-11"><strong>Figura 11.</strong> Análisis de dispositivos móviles y sistemas operativos</p>
+
 ![Análisis de dispositivos móviles y sistemas operativos](assets/images/chapter02/analysis/mobile-devices-operating-systems.png)
-<p id="figura-6"><strong>Figura 6.</strong> Análisis de dispositivos móviles y sistemas operativos</p>
+La [Figura 12](#figura-12) presenta análisis de dispositivos móviles y sistemas operativos.
+
+<p id="figura-12"><strong>Figura 12.</strong> Análisis de dispositivos móviles y sistemas operativos</p>
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
@@ -1265,7 +1536,9 @@ A partir de la información obtenida durante las entrevistas y del análisis de 
 <div align="center">
   <img alt="User Persona del segmento Agricultor" src="assets/images/chapter02/uxpressia/miguel-quispe-user-persona.png" width="524" style="width: 100%; max-width: 524px; height: auto; display: block; margin: 0 auto;" />
 </div>
-<p id="figura-7"><strong>Figura 7.</strong> User Persona del segmento Agricultor</p>
+La [Figura 13](#figura-13) presenta user persona del segmento agricultor.
+
+<p id="figura-13"><strong>Figura 13.</strong> User Persona del segmento Agricultor</p>
 
 #### User Persona: Segmento Comerciante / Comprador
 
@@ -1273,7 +1546,9 @@ A partir de la información obtenida durante las entrevistas y del análisis de 
 <div align="center">
   <img alt="User Persona del segmento Comerciante / Comprador" src="assets/images/chapter02/uxpressia/valeria-user-persona.png" width="524" style="width: 100%; max-width: 524px; height: auto; display: block; margin: 0 auto;" />
 </div>
-<p id="figura-8"><strong>Figura 8.</strong> User Persona del segmento Comerciante / Comprador</p>
+La [Figura 14](#figura-14) presenta user persona del segmento comerciante / comprador.
+
+<p id="figura-14"><strong>Figura 14.</strong> User Persona del segmento Comerciante / Comprador</p>
 
 ### 2.3.2. User Task Matrix
 
@@ -1349,20 +1624,30 @@ Para la elaboración de la User Task Matrix se consideran las tareas relacionada
   <td>Rara vez</td>
 </tr>
 </table>
-<p id="tabla-15"><strong>Tabla 15.</strong> Matriz de tareas de usuario para los segmentos Agricultor y Comerciante / Comprador</p>
+La [Tabla 19](#tabla-19) presenta matriz de tareas de usuario para los segmentos agricultor y comerciante / comprador.
+
+<p id="tabla-19"><strong>Tabla 19.</strong> Matriz de tareas de usuario para los segmentos Agricultor y Comerciante / Comprador</p>
 
 ### 2.3.3. User Journey Mapping
 El recorrido que se describe es un viaje de cinco fases que generalmente va de la esperanza a la frustración: inicia con el descubrimiento (Aware), pasa por una implementación incierta (Join) y alcanza un punto crítico de confusión al enfrentar un problema (Use). Este ciclo de aprendizaje por prueba y error (Develop) y que al final desemboca en (Leave).
 #### User Journey Map: Segmento Agricultor
 
 
+La [Figura 15](#figura-15) muestra user journey map - segmento agricultor.
+
+<p id="figura-15"><strong>Figura 15.</strong> User Journey Map - Segmento Agricultor</p>
+
 ![User Journey Map - Segmento Agricultor](assets/images/chapter02/uxpressia/miguel-quispe-user-journey.png)
-<p id="figura-9"><strong>Figura 9.</strong> User Journey Map - Segmento Agricultor</p>
+La [Figura 16](#figura-16) presenta user journey map - segmento agricultor.
+
+<p id="figura-16"><strong>Figura 16.</strong> User Journey Map - Segmento Agricultor</p>
 
 #### User Journey Map: Segmento Comerciante / Comprador
 
 ![User Journey Map - Segmento Comerciante / Comprador](assets/images/chapter02/uxpressia/valeria-mendoza-user-journey.png)
-<p id="figura-10"><strong>Figura 10.</strong> User Journey Map - Segmento Comerciante / Comprador</p>
+La [Figura 17](#figura-17) presenta user journey map - segmento comerciante / comprador.
+
+<p id="figura-17"><strong>Figura 17.</strong> User Journey Map - Segmento Comerciante / Comprador</p>
 
 ### 2.3.4. Empathy Mapping
 
@@ -1371,14 +1656,18 @@ El recorrido que se describe es un viaje de cinco fases que generalmente va de l
 <div align="center" style="border: 1px solid #d9d9d9; padding: 10px; margin: 15px 0;">
   <img alt="Empathy Map: Segmento Agricultor — miguel quispe empathy map" src="assets/images/chapter02/uxpressia/miguel-quispe-empathy-map.png" width="500" style="width: 100%; max-width: 500px; height: auto; display: block; margin: 0 auto;" />
 </div>
-<p id="figura-11"><strong>Figura 11.</strong> Mapa de empatía del segmento Agricultor (Miguel Quispe)</p>
+La [Figura 18](#figura-18) presenta mapa de empatía del segmento agricultor (miguel quispe).
+
+<p id="figura-18"><strong>Figura 18.</strong> Mapa de empatía del segmento Agricultor (Miguel Quispe)</p>
 
 #### Empathy Map: Segmento Comerciante / Comprador
 
 <div align="center" style="border: 1px solid #d9d9d9; padding: 10px; margin: 15px 0;">
   <img alt="Empathy Map: Segmento Comerciante / Comprador — valeria mendoza empathy map" src="assets/images/chapter02/uxpressia/valeria-mendoza-empathy-map.png" width="500" style="width: 100%; max-width: 500px; height: auto; display: block; margin: 0 auto;" />
 </div>
-<p id="figura-12"><strong>Figura 12.</strong> Mapa de empatía del segmento Comerciante / Comprador (Valeria Mendoza)</p>
+La [Figura 19](#figura-19) presenta mapa de empatía del segmento comerciante / comprador (valeria mendoza).
+
+<p id="figura-19"><strong>Figura 19.</strong> Mapa de empatía del segmento Comerciante / Comprador (Valeria Mendoza)</p>
 
 ### 2.3.5. Big Picture EventStorming
 
@@ -1388,18 +1677,28 @@ El equipo realizó una sesión de Big Picture Event Storming con el objetivo de 
 
 En esta etapa se identificaron los eventos principales del dominio, expresados en pasado, sin enfocarse aún en su orden definitivo. El objetivo fue recopilar los hechos más relevantes que ocurren dentro del negocio.
 
+La [Figura 20](#figura-20) muestra step 1 - collect domain events.
+
+<p id="figura-20"><strong>Figura 20.</strong> Step 1 - Collect Domain Events</p>
+
 ![Step 1 - Collect Domain Events](assets/images/chapter02/event-storming/step-1-collect-domain-events.png)
-<p id="figura-13"><strong>Figura 13.</strong> Step 1 - Collect Domain Events</p>
+La [Figura 21](#figura-21) presenta step 1 - collect domain events.
+
+<p id="figura-21"><strong>Figura 21.</strong> Step 1 - Collect Domain Events</p>
 
 #### Step 2: Refine Domain Events
 
 ![Step 2 - Refine Domain Events](assets/images/chapter02/event-storming/step-2-refine-domain-events.png)
-<p id="figura-14"><strong>Figura 14.</strong> Step 2 - Refine Domain Events</p>
+La [Figura 22](#figura-22) presenta step 2 - refine domain events.
+
+<p id="figura-22"><strong>Figura 22.</strong> Step 2 - Refine Domain Events</p>
 
 #### Step 3: Track Causes
 
 ![Step 3 - Track Causes](assets/images/chapter02/event-storming/step-3-track-causes.png)
-<p id="figura-15"><strong>Figura 15.</strong> Step 3 - Track Causes</p>
+La [Figura 23](#figura-23) presenta step 3 - track causes.
+
+<p id="figura-23"><strong>Figura 23.</strong> Step 3 - Track Causes</p>
 
 En conjunto, el Big Picture Event Storming permitió al equipo comprender de manera general el funcionamiento del negocio, identificar el flujo principal del proceso y reconocer escenarios alternativos que deben ser considerados en el diseño de la solución.
 
@@ -1410,6 +1709,10 @@ En conjunto, el Big Picture Event Storming permitió al equipo comprender de man
 El Ubiquitous Language de AgroFlow establece un vocabulario común para los conceptos principales del dominio agrícola y de financiamiento manejados por agricultores, comerciantes y el equipo de desarrollo.
 
 El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conocimiento del dominio y valide los conceptos con los stakeholders.
+
+La [Tabla 20](#tabla-20) organiza la información correspondiente a ubiquitous language.
+
+<p id="tabla-20"><strong>Tabla 20.</strong> Ubiquitous Language</p>
 
 | Term | Spanish equivalent | Definition |
 |---|---|---|
@@ -1430,7 +1733,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
 | **Correction Request** | Solicitud de corrección | Solicitud realizada después del rechazo de un hito para que el agricultor corrija o complete la evidencia requerida. |
 | **Payment Release** | Liberación de pago | Liberación de los fondos correspondientes después de que un hito cumple las condiciones establecidas. |
 | **Climate Alert** | Alerta climática | Aviso relacionado con una condición climática que puede afectar las labores agrícolas o el estado del cultivo. |
-<p id="tabla-16"><strong>Tabla 16.</strong> 2.3.6. Ubiquitous Language — Term, Spanish equivalent, Definition</p>
+La [Tabla 21](#tabla-21) presenta ubiquitous language — term, spanish equivalent, definition.
+
+<p id="tabla-21"><strong>Tabla 21.</strong> 2.3.6. Ubiquitous Language — Term, Spanish equivalent, Definition</p>
 
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
@@ -1442,7 +1747,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
 | **EPIC-03** | Ejecución Agrícola y Evidencias | Registro de las labores de cultivo en el campo, presentación de reportes y almacenamiento de evidencias fotográficas. |
 | **EPIC-04** | Revisión y Flujo de Pagos | Motor de decisiones del comerciante para aprobar hitos o solicitar correcciones, y la consecuente liberación de pagos. |
 | **EPIC-05** | Proceso Climático | Recepción de datos meteorológicos externos y emisión de alertas de riesgo para proteger las labores agrícolas. |
-<p id="tabla-17"><strong>Tabla 17.</strong> User Stories — Epic ID, Título de la Epic, Descripción</p>
+La [Tabla 22](#tabla-22) presenta user stories — epic id, título de la epic, descripción.
+
+<p id="tabla-22"><strong>Tabla 22.</strong> User Stories — Epic ID, Título de la Epic, Descripción</p>
 
 <table width="100%">
   <thead>
@@ -1491,7 +1798,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-18"><strong>Tabla 18.</strong> User Stories — US01 — Registro inicial de usuario</p>
+La [Tabla 23](#tabla-23) presenta user stories — us01 — registro inicial de usuario.
+
+<p id="tabla-23"><strong>Tabla 23.</strong> User Stories — US01 — Registro inicial de usuario</p>
 
 <br>
 
@@ -1542,7 +1851,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-19"><strong>Tabla 19.</strong> User Stories — US02 — Registro de datos bancarios</p>
+La [Tabla 24](#tabla-24) presenta user stories — us02 — registro de datos bancarios.
+
+<p id="tabla-24"><strong>Tabla 24.</strong> User Stories — US02 — Registro de datos bancarios</p>
 
 <br>
 
@@ -1593,7 +1904,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-20"><strong>Tabla 20.</strong> User Stories — US03 — Publicación de nueva parcela</p>
+La [Tabla 25](#tabla-25) presenta user stories — us03 — publicación de nueva parcela.
+
+<p id="tabla-25"><strong>Tabla 25.</strong> User Stories — US03 — Publicación de nueva parcela</p>
 
 <br>
 
@@ -1644,7 +1957,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-21"><strong>Tabla 21.</strong> User Stories — US04 — Búsqueda y filtrado de parcelas</p>
+La [Tabla 26](#tabla-26) presenta user stories — us04 — búsqueda y filtrado de parcelas.
+
+<p id="tabla-26"><strong>Tabla 26.</strong> User Stories — US04 — Búsqueda y filtrado de parcelas</p>
 
 <br>
 
@@ -1695,7 +2010,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-22"><strong>Tabla 22.</strong> User Stories — US05 — Financiamiento directo de parcela</p>
+La [Tabla 27](#tabla-27) presenta user stories — us05 — financiamiento directo de parcela.
+
+<p id="tabla-27"><strong>Tabla 27.</strong> User Stories — US05 — Financiamiento directo de parcela</p>
 
 
 <br>
@@ -1747,7 +2064,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-23"><strong>Tabla 23.</strong> User Stories — US06 — Solicitud de visita presencial a la parcela</p>
+La [Tabla 28](#tabla-28) presenta user stories — us06 — solicitud de visita presencial a la parcela.
+
+<p id="tabla-28"><strong>Tabla 28.</strong> User Stories — US06 — Solicitud de visita presencial a la parcela</p>
 
 <br>
 
@@ -1798,7 +2117,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-24"><strong>Tabla 24.</strong> User Stories — US07 — Confirmación de acuerdo y fijación de precio tras visita presencial</p>
+La [Tabla 29](#tabla-29) presenta user stories — us07 — confirmación de acuerdo y fijación de precio tras visita presencial.
+
+<p id="tabla-29"><strong>Tabla 29.</strong> User Stories — US07 — Confirmación de acuerdo y fijación de precio tras visita presencial</p>
 
 <br>
 
@@ -1849,7 +2170,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-25"><strong>Tabla 25.</strong> User Stories — US08 — Registro fotográfico de evidencia</p>
+La [Tabla 30](#tabla-30) presenta user stories — us08 — registro fotográfico de evidencia.
+
+<p id="tabla-30"><strong>Tabla 30.</strong> User Stories — US08 — Registro fotográfico de evidencia</p>
 
 <br>
 
@@ -1900,7 +2223,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-26"><strong>Tabla 26.</strong> User Stories — US09 — Reenvío de evidencia corregida</p>
+La [Tabla 31](#tabla-31) presenta user stories — us09 — reenvío de evidencia corregida.
+
+<p id="tabla-31"><strong>Tabla 31.</strong> User Stories — US09 — Reenvío de evidencia corregida</p>
 
 <br>
 
@@ -1951,7 +2276,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-27"><strong>Tabla 27.</strong> User Stories — US10 — Aprobación de evidencia y orden de liberación de pago</p>
+La [Tabla 32](#tabla-32) presenta user stories — us10 — aprobación de evidencia y orden de liberación de pago.
+
+<p id="tabla-32"><strong>Tabla 32.</strong> User Stories — US10 — Aprobación de evidencia y orden de liberación de pago</p>
 
 <br>
 
@@ -2002,7 +2329,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-28"><strong>Tabla 28.</strong> User Stories — US11 — Solicitud de corrección técnica</p>
+La [Tabla 33](#tabla-33) presenta user stories — us11 — solicitud de corrección técnica.
+
+<p id="tabla-33"><strong>Tabla 33.</strong> User Stories — US11 — Solicitud de corrección técnica</p>
 
 <br>
 
@@ -2053,7 +2382,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-29"><strong>Tabla 29.</strong> User Stories — US12 — Visualización de historial de pagos</p>
+La [Tabla 34](#tabla-34) presenta user stories — us12 — visualización de historial de pagos.
+
+<p id="tabla-34"><strong>Tabla 34.</strong> User Stories — US12 — Visualización de historial de pagos</p>
 
 <br>
 
@@ -2104,7 +2435,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-30"><strong>Tabla 30.</strong> User Stories — US13 — Solicitud de prórroga por contingencia agrícola</p>
+La [Tabla 35](#tabla-35) presenta user stories — us13 — solicitud de prórroga por contingencia agrícola.
+
+<p id="tabla-35"><strong>Tabla 35.</strong> User Stories — US13 — Solicitud de prórroga por contingencia agrícola</p>
 
 <br>
 
@@ -2155,7 +2488,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-31"><strong>Tabla 31.</strong> User Stories — US14 — Recepción de alertas climáticas de riesgo</p>
+La [Tabla 36](#tabla-36) presenta user stories — us14 — recepción de alertas climáticas de riesgo.
+
+<p id="tabla-36"><strong>Tabla 36.</strong> User Stories — US14 — Recepción de alertas climáticas de riesgo</p>
 
 <br>
 
@@ -2206,7 +2541,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-32"><strong>Tabla 32.</strong> User Stories — US15 — Seguimiento de cronograma y avance de hitos en parcelas activas</p>
+La [Tabla 37](#tabla-37) presenta user stories — us15 — seguimiento de cronograma y avance de hitos en parcelas activas.
+
+<p id="tabla-37"><strong>Tabla 37.</strong> User Stories — US15 — Seguimiento de cronograma y avance de hitos en parcelas activas</p>
 
 <br>
 
@@ -2257,7 +2594,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-33"><strong>Tabla 33.</strong> User Stories — US16 — Inicio de sesión y acceso según rol</p>
+La [Tabla 38](#tabla-38) presenta user stories — us16 — inicio de sesión y acceso según rol.
+
+<p id="tabla-38"><strong>Tabla 38.</strong> User Stories — US16 — Inicio de sesión y acceso según rol</p>
 
 <br>
 
@@ -2308,7 +2647,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-34"><strong>Tabla 34.</strong> User Stories — US17 — Recuperación segura de contraseña</p>
+La [Tabla 39](#tabla-39) presenta user stories — us17 — recuperación segura de contraseña.
+
+<p id="tabla-39"><strong>Tabla 39.</strong> User Stories — US17 — Recuperación segura de contraseña</p>
 
 <br>
 
@@ -2359,7 +2700,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-35"><strong>Tabla 35.</strong> User Stories — US18 — Recorrido de bienvenida según el rol</p>
+La [Tabla 40](#tabla-40) presenta user stories — us18 — recorrido de bienvenida según el rol.
+
+<p id="tabla-40"><strong>Tabla 40.</strong> User Stories — US18 — Recorrido de bienvenida según el rol</p>
 
 <br>
 
@@ -2410,7 +2753,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-36"><strong>Tabla 36.</strong> User Stories — US19 — Consulta y actualización del perfil y preferencias</p>
+La [Tabla 41](#tabla-41) presenta user stories — us19 — consulta y actualización del perfil y preferencias.
+
+<p id="tabla-41"><strong>Tabla 41.</strong> User Stories — US19 — Consulta y actualización del perfil y preferencias</p>
 
 <br>
 
@@ -2461,7 +2806,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-37"><strong>Tabla 37.</strong> User Stories — US20 — Panel resumen de parcelas del agricultor</p>
+La [Tabla 42](#tabla-42) presenta user stories — us20 — panel resumen de parcelas del agricultor.
+
+<p id="tabla-42"><strong>Tabla 42.</strong> User Stories — US20 — Panel resumen de parcelas del agricultor</p>
 
 <br>
 
@@ -2512,7 +2859,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-38"><strong>Tabla 38.</strong> User Stories — US21 — Definición de financiamiento y plan de desembolsos de una parcela</p>
+La [Tabla 43](#tabla-43) presenta user stories — us21 — definición de financiamiento y plan de desembolsos de una parcela.
+
+<p id="tabla-43"><strong>Tabla 43.</strong> User Stories — US21 — Definición de financiamiento y plan de desembolsos de una parcela</p>
 
 <br>
 
@@ -2563,7 +2912,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-39"><strong>Tabla 39.</strong> User Stories — US22 — Consulta detallada y contacto con el agricultor</p>
+La [Tabla 44](#tabla-44) presenta user stories — us22 — consulta detallada y contacto con el agricultor.
+
+<p id="tabla-44"><strong>Tabla 44.</strong> User Stories — US22 — Consulta detallada y contacto con el agricultor</p>
 
 <br>
 
@@ -2614,7 +2965,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-40"><strong>Tabla 40.</strong> User Stories — US23 — Recuperación de un pago de financiamiento rechazado</p>
+La [Tabla 45](#tabla-45) presenta user stories — us23 — recuperación de un pago de financiamiento rechazado.
+
+<p id="tabla-45"><strong>Tabla 45.</strong> User Stories — US23 — Recuperación de un pago de financiamiento rechazado</p>
 
 <br>
 
@@ -2665,7 +3018,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-41"><strong>Tabla 41.</strong> User Stories — US24 — Registro de datos técnicos y validación de ubicación de la labor</p>
+La [Tabla 46](#tabla-46) presenta user stories — us24 — registro de datos técnicos y validación de ubicación de la labor.
+
+<p id="tabla-46"><strong>Tabla 46.</strong> User Stories — US24 — Registro de datos técnicos y validación de ubicación de la labor</p>
 
 <br>
 
@@ -2716,7 +3071,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-42"><strong>Tabla 42.</strong> User Stories — US25 — Gestión de la cola de sincronización de evidencias</p>
+La [Tabla 47](#tabla-47) presenta user stories — us25 — gestión de la cola de sincronización de evidencias.
+
+<p id="tabla-47"><strong>Tabla 47.</strong> User Stories — US25 — Gestión de la cola de sincronización de evidencias</p>
 
 <br>
 
@@ -2767,7 +3124,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-43"><strong>Tabla 43.</strong> User Stories — US26 — Recepción de alertas climáticas y recomendaciones para el agricultor</p>
+La [Tabla 48](#tabla-48) presenta user stories — us26 — recepción de alertas climáticas y recomendaciones para el agricultor.
+
+<p id="tabla-48"><strong>Tabla 48.</strong> User Stories — US26 — Recepción de alertas climáticas y recomendaciones para el agricultor</p>
 
 <br>
 
@@ -2818,7 +3177,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-44"><strong>Tabla 44.</strong> User Stories — US27 — Consulta del detalle y comprobante de un pago recibido</p>
+La [Tabla 49](#tabla-49) presenta user stories — us27 — consulta del detalle y comprobante de un pago recibido.
+
+<p id="tabla-49"><strong>Tabla 49.</strong> User Stories — US27 — Consulta del detalle y comprobante de un pago recibido</p>
 
 <br>
 
@@ -2869,7 +3230,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-45"><strong>Tabla 45.</strong> User Stories — US28 — Historial de financiamientos del comerciante</p>
+La [Tabla 50](#tabla-50) presenta user stories — us28 — historial de financiamientos del comerciante.
+
+<p id="tabla-50"><strong>Tabla 50.</strong> User Stories — US28 — Historial de financiamientos del comerciante</p>
 
 <br>
 
@@ -2920,7 +3283,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-46"><strong>Tabla 46.</strong> User Stories — US29 — Centro de notificaciones del comerciante</p>
+La [Tabla 51](#tabla-51) presenta user stories — us29 — centro de notificaciones del comerciante.
+
+<p id="tabla-51"><strong>Tabla 51.</strong> User Stories — US29 — Centro de notificaciones del comerciante</p>
 
 <br>
 
@@ -2971,7 +3336,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-47"><strong>Tabla 47.</strong> User Stories — US30 — Confirmación de recepción de la cosecha</p>
+La [Tabla 52](#tabla-52) presenta user stories — us30 — confirmación de recepción de la cosecha.
+
+<p id="tabla-52"><strong>Tabla 52.</strong> User Stories — US30 — Confirmación de recepción de la cosecha</p>
 
 <br>
 
@@ -3022,7 +3389,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-48"><strong>Tabla 48.</strong> User Stories — US31 — Registro de una incidencia en la entrega de cosecha</p>
+La [Tabla 53](#tabla-53) presenta user stories — us31 — registro de una incidencia en la entrega de cosecha.
+
+<p id="tabla-53"><strong>Tabla 53.</strong> User Stories — US31 — Registro de una incidencia en la entrega de cosecha</p>
 
 <br>
 
@@ -3077,7 +3446,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-49"><strong>Tabla 49.</strong> User Stories — US32 — Respuesta del agricultor a una solicitud de visita</p>
+La [Tabla 54](#tabla-54) presenta user stories — us32 — respuesta del agricultor a una solicitud de visita.
+
+<p id="tabla-54"><strong>Tabla 54.</strong> User Stories — US32 — Respuesta del agricultor a una solicitud de visita</p>
 
 <br>
 
@@ -3128,7 +3499,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-50"><strong>Tabla 50.</strong> User Stories — US33 — Registro de medidas tomadas ante una alerta climática</p>
+La [Tabla 55](#tabla-55) presenta user stories — us33 — registro de medidas tomadas ante una alerta climática.
+
+<p id="tabla-55"><strong>Tabla 55.</strong> User Stories — US33 — Registro de medidas tomadas ante una alerta climática</p>
 
 <br>
 
@@ -3179,7 +3552,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-51"><strong>Tabla 51.</strong> User Stories — US34 — Calificación del comerciante al finalizar el acuerdo</p>
+La [Tabla 56](#tabla-56) presenta user stories — us34 — calificación del comerciante al finalizar el acuerdo.
+
+<p id="tabla-56"><strong>Tabla 56.</strong> User Stories — US34 — Calificación del comerciante al finalizar el acuerdo</p>
 
 <br>
 
@@ -3234,7 +3609,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-52"><strong>Tabla 52.</strong> User Stories — US35 — Seguimiento de un pago de financiamiento en verificación</p>
+La [Tabla 57](#tabla-57) presenta user stories — us35 — seguimiento de un pago de financiamiento en verificación.
+
+<p id="tabla-57"><strong>Tabla 57.</strong> User Stories — US35 — Seguimiento de un pago de financiamiento en verificación</p>
 <br>
 
 <table width="100%">
@@ -3284,7 +3661,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-53"><strong>Tabla 53.</strong> User Stories — TS01 — API de Autenticación y JWT</p>
+La [Tabla 58](#tabla-58) presenta user stories — ts01 — api de autenticación y jwt.
+
+<p id="tabla-58"><strong>Tabla 58.</strong> User Stories — TS01 — API de Autenticación y JWT</p>
 
 <br>
 
@@ -3335,7 +3714,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-54"><strong>Tabla 54.</strong> User Stories — TS02 — Middleware de autorización (RBAC)</p>
+La [Tabla 59](#tabla-59) presenta user stories — ts02 — middleware de autorización (rbac).
+
+<p id="tabla-59"><strong>Tabla 59.</strong> User Stories — TS02 — Middleware de autorización (RBAC)</p>
 
 <br>
 
@@ -3386,7 +3767,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-55"><strong>Tabla 55.</strong> User Stories — TS03 — Servicio de retención en Escrow</p>
+La [Tabla 60](#tabla-60) presenta user stories — ts03 — servicio de retención en escrow.
+
+<p id="tabla-60"><strong>Tabla 60.</strong> User Stories — TS03 — Servicio de retención en Escrow</p>
 
 <br>
 
@@ -3437,7 +3820,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-56"><strong>Tabla 56.</strong> User Stories — TS04 — API de almacenamiento de archivos</p>
+La [Tabla 61](#tabla-61) presenta user stories — ts04 — api de almacenamiento de archivos.
+
+<p id="tabla-61"><strong>Tabla 61.</strong> User Stories — TS04 — API de almacenamiento de archivos</p>
 
 <br>
 
@@ -3488,7 +3873,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-57"><strong>Tabla 57.</strong> User Stories — TS05 — Motor de liberación de pagos</p>
+La [Tabla 62](#tabla-62) presenta user stories — ts05 — motor de liberación de pagos.
+
+<p id="tabla-62"><strong>Tabla 62.</strong> User Stories — TS05 — Motor de liberación de pagos</p>
 
 <br>
 
@@ -3539,7 +3926,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-58"><strong>Tabla 58.</strong> User Stories — TS06 — Generador de comprobantes PDF</p>
+La [Tabla 63](#tabla-63) presenta user stories — ts06 — generador de comprobantes pdf.
+
+<p id="tabla-63"><strong>Tabla 63.</strong> User Stories — TS06 — Generador de comprobantes PDF</p>
 
 <br>
 
@@ -3590,7 +3979,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-59"><strong>Tabla 59.</strong> User Stories — TS07 — Webhook de riesgos climáticos</p>
+La [Tabla 64](#tabla-64) presenta user stories — ts07 — webhook de riesgos climáticos.
+
+<p id="tabla-64"><strong>Tabla 64.</strong> User Stories — TS07 — Webhook de riesgos climáticos</p>
 
 <br>
 
@@ -3641,7 +4032,9 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-60"><strong>Tabla 60.</strong> User Stories — TS08 — Motor de alertas meteorológicas</p>
+La [Tabla 65](#tabla-65) presenta user stories — ts08 — motor de alertas meteorológicas.
+
+<p id="tabla-65"><strong>Tabla 65.</strong> User Stories — TS08 — Motor de alertas meteorológicas</p>
 
 <br>
 
@@ -3692,28 +4085,42 @@ El lenguaje se mantendrá actualizado conforme el equipo obtenga un mayor conoci
     </tr>
   </tbody>
 </table>
-<p id="tabla-61"><strong>Tabla 61.</strong> User Stories — SP01 — Evaluación de almacenamiento y sincronización offline de fotografías</p>
+La [Tabla 66](#tabla-66) presenta user stories — sp01 — evaluación de almacenamiento y sincronización offline de fotografías.
+
+<p id="tabla-66"><strong>Tabla 66.</strong> User Stories — SP01 — Evaluación de almacenamiento y sincronización offline de fotografías</p>
 
 ### 2.4.2. Impact Mapping
 
 #### Impact Mapping - Agricultor
 
+La [Figura 24](#figura-24) muestra impact mapping - agricultor — impact map agricultor.
+
+<p id="figura-24"><strong>Figura 24.</strong> Impact Mapping - Agricultor — Impact map agricultor</p>
+
 <p align="center">
   <img src="assets/images/chapter02/uxpressia/ImpactMap-Agricultor.png" alt="Impact Mapping - Agricultor — Impact map agricultor" width="800"/>
 </p>
-<p id="figura-16"><strong>Figura 16.</strong> Impact Mapping agricultor</p>
+La [Figura 25](#figura-25) presenta impact mapping agricultor.
+
+<p id="figura-25"><strong>Figura 25.</strong> Impact Mapping agricultor</p>
 
 #### Impact Mapping - Comerciante
 
 <p align="center">
   <img src="assets/images/chapter02/uxpressia/ImpactMap-Comerciante.png" alt="Impact Mapping - Comerciante — impact map comerciante" width="800"/>
 </p>
-<p id="figura-17"><strong>Figura 17.</strong> Impact map comerciante</p>
+La [Figura 26](#figura-26) presenta impact map comerciante.
+
+<p id="figura-26"><strong>Figura 26.</strong> Impact map comerciante</p>
 
 
 ### 2.4.3. Product Backlog
 
 El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario y tareas técnicas del proyecto. Siguiendo Scrum, los elementos se ordenan strictly por su valor de negocio para agricultores y comercializadores. Por ello, el Sprint 1 se enfoca en la Landing Page y en los módulos clave de búsqueda y negociación de parcelas, dejando la seguridad y autenticación para Sprints posteriores.
+
+La [Tabla 67](#tabla-67) organiza la información correspondiente a product backlog.
+
+<p id="tabla-67"><strong>Tabla 67.</strong> Product Backlog</p>
 
 | Orden | User Story Id | Título | Story Points | Sprint |
 | :---: | :--- | :--- | :---: | :---: |
@@ -3762,7 +4169,13 @@ El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario 
 | 43 | **US31** | Registro de una incidencia en la entrega de cosecha | 5 | Sprint 7 |
 | 44 | **US34** | Calificación del comerciante al finalizar el acuerdo | 2 | Sprint 7 |
 
-<p id="tabla-62"><strong>Tabla 62.</strong> Product Backlog — Orden, User Story Id, Título</p>
+La [Tabla 68](#tabla-68) presenta product backlog — orden, user story id, título.
+
+<p id="tabla-68"><strong>Tabla 68.</strong> Product Backlog — Orden, User Story Id, Título</p>
+
+La [Figura 27](#figura-27) muestra product backlog.
+
+<p id="figura-27"><strong>Figura 27.</strong> Product Backlog</p>
 
 <p align="center">
   <img src="assets/images/chapter02/Trello-ProductBacklog.jpeg" alt="Product Backlog" width="800"/>
@@ -3789,10 +4202,16 @@ A continuación, se detalla la evolución progresiva del dominio a través de la
 
 En la primera etapa se organizó la línea de tiempo del proceso de negocio, dividiendo las acciones, comandos, agregados y sistemas externos en 7 bloques secuenciales:
 
+La [Figura 28](#figura-28) muestra paso 1: mapeo y descomposición del timeline de procesos — discovery 01.
+
+<p id="figura-28"><strong>Figura 28.</strong> Paso 1: Mapeo y Descomposición del Timeline de Procesos — discovery 01</p>
+
 <p align="center">
   <img alt="Paso 1: Mapeo y Descomposición del Timeline de Procesos — discovery 01" src="assets/images/chapter02/event-storming/discovery-01.png" width="800" />
 </p>
-<p id="figura-21"><strong>Figura 21.</strong> Mapeo y Descomposición del Timeline de Procesos</p>
+La [Figura 29](#figura-29) presenta mapeo y descomposición del timeline de procesos.
+
+<p id="figura-29"><strong>Figura 29.</strong> Mapeo y Descomposición del Timeline de Procesos</p>
 
 1. **Financiación de parcelas:** Negociación y acuerdo inicial entre el agricultor y el comerciante.
 2. **Custodia de capital en depósito en garantía:** Proceso de retención de fondos en la pasarela Escrow.
@@ -3808,10 +4227,16 @@ En la primera etapa se organizó la línea de tiempo del proceso de negocio, div
 
 En esta fase se trazaron los primeros límites candidateando agrupaciones de subprocesos donde se detectaron eventos pivote (cambios significativos de estado o de responsabilidad operativa).
 
+La [Figura 30](#figura-30) muestra paso 2: delimitación preliminar e identificación de eventos pivote — discovery 02.
+
+<p id="figura-30"><strong>Figura 30.</strong> Paso 2: Delimitación Preliminar e Identificación de Eventos Pivote — discovery 02</p>
+
 <p align="center">
   <img alt="Paso 2: Delimitación Preliminar e Identificación de Eventos Pivote — discovery 02" src="assets/images/chapter02/event-storming/discovery-02.png" width="800" />
 </p>
-<p id="figura-22"><strong>Figura 22.</strong> Delimitación Preliminar e Identificación de Eventos Pivote</p>
+La [Figura 31](#figura-31) presenta delimitación preliminar e identificación de eventos pivote.
+
+<p id="figura-31"><strong>Figura 31.</strong> Delimitación Preliminar e Identificación de Eventos Pivote</p>
 
 Se identificó de manera temprana la frontera que separa la administración y validación previa del terreno (**Registro y Aprobación de la Parcela**) de los flujos transaccionales y de ejecución que suceden con posterioridad.
 
@@ -3821,10 +4246,16 @@ Se identificó de manera temprana la frontera que separa la administración y va
 
 En la etapa final, el equipo refinó las agrupaciones hasta definir los **5 Bounded Contexts principales** de la plataforma, modelando los flujos de comunicación e intercambio de eventos de dominio entre ellos:
 
+La [Figura 32](#figura-32) muestra paso 3: consolidación e interconexión de bounded contexts — discovery 03.
+
+<p id="figura-32"><strong>Figura 32.</strong> Paso 3: Consolidación e Interconexión de Bounded Contexts — discovery 03</p>
+
 <p align="center">
   <img alt="Paso 3: Consolidación e Interconexión de Bounded Contexts — discovery 03" src="assets/images/chapter02/boundedContext.png" width="800" />
 </p>
-<p id="figura-23"><strong>Figura 23.</strong> Consolidación e Interconexión de Bounded Contexts</p>
+La [Figura 33](#figura-33) presenta consolidación e interconexión de bounded contexts.
+
+<p id="figura-33"><strong>Figura 33.</strong> Consolidación e Interconexión de Bounded Contexts</p>
 
 1. **Gestión y Aprobación de Parcelas (*Parcel Management Service*):** Bounded Context enfocado en el catálogo de terrenos, geolocalización por coordenadas GPS, tipo de suelo y estado de disponibilidad de la parcela.
 2. **Financiamiento y Contratación (*Agreements / Contract Service*):** Bounded Context responsable de gestionar las ofertas de abastecimiento, la negociación de volúmenes y la formalización de contratos agrícolas digitales.
@@ -3846,10 +4277,16 @@ A continuación, se documenta la colaboración distribuida en tres vistas clave 
 
 Modela el proceso desde el alta del terreno hasta la solicitud del contrato comercial:
 
+La [Figura 34](#figura-34) muestra vista 1: registro, catálogo y contratación — flows 01.
+
+<p id="figura-34"><strong>Figura 34.</strong> Vista 1: Registro, Catálogo y Contratación — flows 01</p>
+
 <p align="center">
   <img alt="Vista 1: Registro, Catálogo y Contratación — flows 01" src="assets/images/chapter02/event-storming/flows-01.png" width="800" />
 </p>
-<p id="figura-24"><strong>Figura 24.</strong> Vista 1: Registro, Catálogo y Contratación — flows 01</p>
+La [Figura 35](#figura-35) presenta vista 1: registro, catálogo y contratación — flows 01.
+
+<p id="figura-35"><strong>Figura 35.</strong> Vista 1: Registro, Catálogo y Contratación — flows 01</p>
 
 1. **Registrar Parcela:** El agricultor ingresa datos del terreno (área, ubicación GPS, fotos) desde la App Móvil.
 2. **Validar Parcela:** La App envía la información al Bounded Context de *Gestión de Parcelas*.
@@ -3865,10 +4302,16 @@ Modela el proceso desde el alta del terreno hasta la solicitud del contrato come
 
 Modela la retención del capital en garantía y el registro de evidencias en el campo:
 
+La [Figura 36](#figura-36) muestra vista 2: custodia escrow y trabajo de campo — flows 02.
+
+<p id="figura-36"><strong>Figura 36.</strong> Vista 2: Custodia Escrow y Trabajo de Campo — flows 02</p>
+
 <p align="center">
   <img alt="Vista 2: Custodia Escrow y Trabajo de Campo — flows 02" src="assets/images/chapter02/event-storming/flows-02.png" width="800" />
 </p>
-<p id="figura-25"><strong>Figura 25.</strong> Vista 2: Custodia Escrow y Trabajo de Campo — flows 02</p>
+La [Figura 37](#figura-37) presenta vista 2: custodia escrow y trabajo de campo — flows 02.
+
+<p id="figura-37"><strong>Figura 37.</strong> Vista 2: Custodia Escrow y Trabajo de Campo — flows 02</p>
 
 1. **Depositar Capital:** El comerciante transfiere los fondos requeridos hacia el Bounded Context de *Custodia Escrow*.
 2. **Contrato Activado:** Confirmado el depósito, se emite el estado de activación del acuerdo agrícola.
@@ -3882,10 +4325,16 @@ Modela la retención del capital en garantía y el registro de evidencias en el 
 
 Modela la aprobación de entregables, la liberación de pagos y la notificación preventiva de alertas meteorológicas:
 
+La [Figura 38](#figura-38) muestra vista 3: auditoría, desembolso y clima — flows 03.
+
+<p id="figura-38"><strong>Figura 38.</strong> Vista 3: Auditoría, Desembolso y Clima — flows 03</p>
+
 <p align="center">
   <img alt="Vista 3: Auditoría, Desembolso y Clima — flows 03" src="assets/images/chapter02/event-storming/flows-03.png" width="800" />
 </p>
-<p id="figura-26"><strong>Figura 26.</strong> Vista 3: Auditoría, Desembolso y Clima — flows 03</p>
+La [Figura 39](#figura-39) presenta vista 3: auditoría, desembolso y clima — flows 03.
+
+<p id="figura-39"><strong>Figura 39.</strong> Vista 3: Auditoría, Desembolso y Clima — flows 03</p>
 
 1. **Aprobar Hito:** El comerciante evalúa las pruebas recibidas desde la App Móvil y emite su conformidad.
 2. **Procesar Aprobación:** La App comunica la decisión al Bounded Context de *Ejecución y Evidencias*.
@@ -3905,10 +4354,16 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 #### 1. Custodia de Fondos en Escrow (*Core Domain*)
 
 
+La [Figura 40](#figura-40) muestra custodia de fondos en escrow (core domain) — bounded 03.
+
+<p id="figura-40"><strong>Figura 40.</strong> Custodia de Fondos en Escrow (Core Domain) — bounded 03</p>
+
 <p align="center">
   <img alt="1. Custodia de Fondos en Escrow (*Core Domain*) — bounded 03" src="assets/images/chapter02/event-storming/bounded-03.png" width="700" />
 </p>
-<p id="figura-27"><strong>Figura .</strong> Custodia de Fondos en Escrow (*Core Domain*) — bounded 03</p>
+La [Figura 41](#figura-41) presenta custodia de fondos en escrow (core domain) — bounded 03.
+
+<p id="figura-41"><strong>Figura 41.</strong> Custodia de Fondos en Escrow (*Core Domain*) — bounded 03</p>
 
 
 * **Descripción:** Administrar la retención de capital en garantía y la ejecución de desembolsos parciales irreversibles tras la aprobación de cada hito.
@@ -3921,10 +4376,16 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 
 
 
+La [Figura 42](#figura-42) muestra ejecución agrícola y evidencias (core domain) — bounded 04.
+
+<p id="figura-42"><strong>Figura 42.</strong> Ejecución Agrícola y Evidencias (Core Domain) — bounded 04</p>
+
 <p align="center">
   <img alt="2. Ejecución Agrícola y Evidencias (*Core Domain*) — bounded 04" src="assets/images/chapter02/event-storming/bounded-04.png" width="700" />
 </p>
-<p id="figura-28"><strong>Figura .</strong> Ejecución Agrícola y Evidencias (*Core Domain*) — bounded 04</p>
+La [Figura 43](#figura-43) presenta ejecución agrícola y evidencias (core domain) — bounded 04.
+
+<p id="figura-43"><strong>Figura 43.</strong> Ejecución Agrícola y Evidencias (*Core Domain*) — bounded 04</p>
 
 
 * **Descripción:** Gestionar el calendario de actividades en campo, la captura offline de evidencias fotográficas georreferenciadas y la revisión/aprobación de hitos.
@@ -3936,10 +4397,16 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 #### 3. Financiamiento y Contratación (*Supporting Domain*)
 
 
+La [Figura 44](#figura-44) muestra financiamiento y contratación (supporting domain) — bounded 02.
+
+<p id="figura-44"><strong>Figura 44.</strong> Financiamiento y Contratación (Supporting Domain) — bounded 02</p>
+
 <p align="center">
   <img alt="3. Financiamiento y Contratación (*Supporting Domain*) — bounded 02" src="assets/images/chapter02/event-storming/bounded-02.png" width="700" />
 </p>
-<p id="figura-29"><strong>Figura .</strong> Financiamiento y Contratación (*Supporting Domain*) — bounded 02</p>
+La [Figura 45](#figura-45) presenta financiamiento y contratación (supporting domain) — bounded 02.
+
+<p id="figura-45"><strong>Figura 45.</strong> Financiamiento y Contratación (*Supporting Domain*) — bounded 02</p>
 
 * **Descripción:** Permitir explorar el catálogo de parcelas aprobadas, simular rendimientos, negociar condiciones comerciales y formalizar contratos digitales.
 * **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
@@ -3950,10 +4417,16 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 #### 4. Gestión y Aprobación de Parcelas (*Supporting Domain*)
 
 
+La [Figura 46](#figura-46) muestra gestión y aprobación de parcelas (supporting domain) — bounded 01.
+
+<p id="figura-46"><strong>Figura 46.</strong> Gestión y Aprobación de Parcelas (Supporting Domain) — bounded 01</p>
+
 <p align="center">
   <img alt="4. Gestión y Aprobación de Parcelas (*Supporting Domain*) — bounded 01" src="assets/images/chapter02/event-storming/bounded-01.png" width="700" />
 </p>
-<p id="figura-30"><strong>Figura .</strong> Gestión y Aprobación de Parcelas (*Supporting Domain*) — bounded 01</p>
+La [Figura 47](#figura-47) presenta gestión y aprobación de parcelas (supporting domain) — bounded 01.
+
+<p id="figura-47"><strong>Figura 47.</strong> Gestión y Aprobación de Parcelas (*Supporting Domain*) — bounded 01</p>
 
 * **Descripción:** Registrar parcelas agrícolas mediante georreferenciación GPS, validar la documentación de propiedad y publicar terrenos aptos en el catálogo público.
 * **Clasificación Estratégica:** Domain: *Supporting* | Business Model: *Engagement* | Evolution: *Custom Built*.
@@ -3963,10 +4436,16 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 
 #### 5. Monitoreo Climático y Riesgos (*Generic Domain*)
 
+La [Figura 48](#figura-48) muestra monitoreo climático y riesgos (generic domain) — bounded 05.
+
+<p id="figura-48"><strong>Figura 48.</strong> Monitoreo Climático y Riesgos (Generic Domain) — bounded 05</p>
+
 <p align="center">
   <img alt="5. Monitoreo Climático y Riesgos (*Generic Domain*) — bounded 05" src="assets/images/chapter02/event-storming/bounded-05.png" width="700" />
 </p>
-<p id="figura-31"><strong>Figura .</strong> Monitoreo Climático y Riesgos (*Generic Domain*) — bounded 05</p>
+La [Figura 49](#figura-49) presenta monitoreo climático y riesgos (generic domain) — bounded 05.
+
+<p id="figura-49"><strong>Figura 49.</strong> Monitoreo Climático y Riesgos (*Generic Domain*) — bounded 05</p>
 
 * **Descripción:** Recopilar datos meteorológicos externos en tiempo real, evaluar patrones de riesgo climático y emitir alertas preventivas automáticas hacia los usuarios.
 * **Clasificación Estratégica:** Domain: *Generic* | Business Model: *Cost Reduction* | Evolution: *Commodity*.
@@ -3976,10 +4455,16 @@ En esta sección, el equipo diseña sus *candidate bounded contexts*, detallando
 
 #### 6. Gestión de Usuarios (Generic Domain)
 
+La [Figura 50](#figura-50) muestra gestión de usuarios (generic domain) — bounded 06.
+
+<p id="figura-50"><strong>Figura 50.</strong> Gestión de Usuarios (Generic Domain) — bounded 06</p>
+
 <p align="center">
   <img alt="6. Gestión de Usuarios (*Generic Domain*) — bounded 06" src="assets/images/chapter02/gestionUsuarios.png" width="700" />
 </p>
-<p id="figura-32"><strong>Figura .</strong> Gestión de Usuarios (*Generic Domain*) — bounded 06</p>
+La [Figura 51](#figura-51) presenta gestión de usuarios (generic domain) — bounded 06.
+
+<p id="figura-51"><strong>Figura 51.</strong> Gestión de Usuarios (*Generic Domain*) — bounded 06</p>
 
 - **Descripción:** Administrar el ciclo de vida de cuentas, registro, autenticación y asignación de roles (Agricultor y Comerciante) mediante la verificación de identidad.
 - **Clasificación Estratégica:** Domain: *Generic* | Business Model: *Revenue Enabler* | Evolution: *Custom Built*.
@@ -4038,6 +4523,10 @@ El equipo analizó múltiples alternativas de diseño respondiendo a preguntas c
 * **Análisis:** La plataforma requiere alertas meteorológicas en tiempo real para alertar al agricultor. Se decidió consumir una API externa de clima (como OpenWeather API). Para evitar que los esquemas JSON de terceros contaminen nuestro dominio, se implementa una capa de traducción.
 
 
+La [Figura 52](#figura-52) muestra context mapping — context.
+
+<p id="figura-52"><strong>Figura 52.</strong> Context Mapping — context</p>
+
 <p align="center">
   <img alt="2.5.2. Context Mapping — context" src="assets/images/chapter02/ContextMapping.png" width="1000"/>
 </p>
@@ -4052,21 +4541,27 @@ Para entender cómo se relaciona la aplicación móvil MUYU con su entorno, el d
 Este diagrama de contexto ilustra cómo la aplicación móvil MUYU interactúa de forma general con los usuarios en campo y los servicios externos del sistema.
 
   <img alt="2.5.3.1. Software Architecture Context Level Diagrams — context level" src="assets/images/chapter02/C4_Context.png" width="1000"/>
-<p id="figura-33"><strong>Figura 33.</strong> Software Architecture Context Level Diagrams — context level</p>
+La [Figura 53](#figura-53) presenta software architecture context level diagrams — context level.
+
+<p id="figura-53"><strong>Figura 53.</strong> Software Architecture Context Level Diagrams — context level</p>
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 Este diagrama de contenedores muestra los bloques tecnológicos internos de MUYU, destacando la aplicación cliente, su base de datos local para modo offline y los microservicios backend.
 
  <img alt="2.5.3.2. Software Architecture Container Level Diagrams — container level" src="assets/images/chapter02/C4_Container.png" width="1000"/>
-<p id="figura-34"><strong>Figura 34.</strong> Software Architecture Container Level Diagrams — container level</p>
+La [Figura 54](#figura-54) presenta software architecture container level diagrams — container level.
+
+<p id="figura-54"><strong>Figura 54.</strong> Software Architecture Container Level Diagrams — container level</p>
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 Este diagrama de despliegue representa la infraestructura física y en la nube donde se ejecuta la aplicación móvil y se conectan sus servidores.
 
  <img alt="2.5.3.3. Software Architecture Deployment Level Diagrams — deployment level" src="assets/images/chapter02/C4_Deployment.png" width="1000"/>
-<p id="figura-35"><strong>Figura 35.</strong> Software Architecture Deployment Diagrams — deployment level</p>
+La [Figura 55](#figura-55) presenta software architecture deployment diagrams — deployment level.
+
+<p id="figura-55"><strong>Figura 55.</strong> Software Architecture Deployment Diagrams — deployment level</p>
 
 
 ## 2.6. Tactical-Level Domain-Driven Design
@@ -4116,7 +4611,9 @@ Este diagrama detalla la arquitectura interna a nivel de componentes para el con
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_parcel.png" alt="2.6.1.5. Bounded Context Software Architecture Component Level Diagrams — level diagrams contract parcel" width="800" />
 </div>
-<p id="figura-36"><strong>Figura 36.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract parcel</p>
+La [Figura 56](#figura-56) presenta bounded context software architecture component level diagrams — level diagrams contract parcel.
+
+<p id="figura-56"><strong>Figura 56.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract parcel</p>
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
@@ -4125,7 +4622,9 @@ Este diagrama muestra el modelo de clases de la capa de dominio, destacando el A
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/class_diagram_contract_parcel.png" alt="2.6.1.6.1. Bounded Context Domain Layer Class Diagrams — class diagram contract parcel" width="800" />
 </div>
-<p id="figura-37"><strong>Figura 37.</strong> Bounded Context Domain Layer Class Diagrams — class diagram contract parcel</p>
+La [Figura 57](#figura-57) presenta bounded context domain layer class diagrams — class diagram contract parcel.
+
+<p id="figura-57"><strong>Figura 57.</strong> Bounded Context Domain Layer Class Diagrams — class diagram contract parcel</p>
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 Este diagrama relacional conectando `parcels` y `parcel_boundaries`, donde cada límite geográfico pertenece a una parcela, garantizando la trazabilidad espacial del terreno.
@@ -4133,7 +4632,9 @@ Este diagrama relacional conectando `parcels` y `parcel_boundaries`, donde cada 
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/db_diagram_contract_parcel.png" alt="2.6.1.6.2. Bounded Context Database Design Diagram — db diagram contract parcel" width="800" />
 </div>
-<p id="figura-38"><strong>Figura 38.</strong> Bounded Context Database Design Diagram — db diagram contract parcel</p>
+La [Figura 58](#figura-58) presenta bounded context database design diagram — db diagram contract parcel.
+
+<p id="figura-58"><strong>Figura 58.</strong> Bounded Context Database Design Diagram — db diagram contract parcel</p>
 
 ### 2.6.2. Bounded Context: Financiamiento y Contratación Service
 Representa la capacidad del sistema encargada de gestionar la exploración del catálogo de parcelas, la generación de propuestas de financiamiento, la negociación de condiciones y la formalización de contratos digitales de abastecimiento. La entidad principal es `Agreement`, la cual concentra las reglas de negocio del acuerdo entre el agricultor y el comerciante.
@@ -4178,7 +4679,9 @@ Este diagrama detalla la arquitectura interna a nivel de componentes para el con
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_financiamiento.png" alt="2.6.2.5. Bounded Context Software Architecture Component Level Diagrams — level diagrams contract financiamiento" width="800" />
 </div>
-<p id="figura-39"><strong>Figura 39.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract financiamiento</p>
+La [Figura 59](#figura-59) presenta bounded context software architecture component level diagrams — level diagrams contract financiamiento.
+
+<p id="figura-59"><strong>Figura 59.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract financiamiento</p>
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
@@ -4187,7 +4690,9 @@ Este diagrama muestra el modelo de clases de la capa de dominio, destacando el A
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/class_diagram_contract_financiamiento.png" alt="2.6.2.6.1. Bounded Context Domain Layer Class Diagrams — class diagram contract financiamiento" width="800" />
 </div>
-<p id="figura-40"><strong>Figura 40.</strong> Bounded Context Domain Layer Class Diagrams — class diagram contract financiamiento</p>
+La [Figura 60](#figura-60) presenta bounded context domain layer class diagrams — class diagram contract financiamiento.
+
+<p id="figura-60"><strong>Figura 60.</strong> Bounded Context Domain Layer Class Diagrams — class diagram contract financiamiento</p>
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
@@ -4195,7 +4700,9 @@ Este diagrama relacional conectando `agreements` y `disbursement_plans`, donde c
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/db_diagram_contract_financiamiento.png" alt="2.6.2.6.2. Bounded Context Database Design Diagram — db diagram contract financiamiento" width="800" />
 </div>
-<p id="figura-41"><strong>Figura 41.</strong> Bounded Context Database Design Diagram — db diagram contract financiamiento</p>
+La [Figura 61](#figura-61) presenta bounded context database design diagram — db diagram contract financiamiento.
+
+<p id="figura-61"><strong>Figura 61.</strong> Bounded Context Database Design Diagram — db diagram contract financiamiento</p>
 
 
 ### 2.6.3. Bounded Context: Custodia de Fondos en Escrow Service
@@ -4240,7 +4747,9 @@ Este diagrama detalla la arquitectura interna a nivel de componentes para el con
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_escrow.png" alt="2.6.3.5. Bounded Context Software Architecture Component Level Diagrams — level diagrams contract escrow" width="800" />
 </div>
-<p id="figura-42"><strong>Figura 42.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract escrow</p>
+La [Figura 62](#figura-62) presenta bounded context software architecture component level diagrams — level diagrams contract escrow.
+
+<p id="figura-62"><strong>Figura 62.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract escrow</p>
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
@@ -4248,14 +4757,18 @@ Este diagrama muestra el modelo de clases de la capa de dominio, destacando el A
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/class_diagram_contract_escrow.png" alt="2.6.3.6.1. Bounded Context Domain Layer Class Diagrams — class diagram contract escrow" width="800" />
 </div>
-<p id="figura-43"><strong>Figura 43.</strong> Bounded Context Domain Layer Class Diagrams — class diagram contract escrow</p>
+La [Figura 63](#figura-63) presenta bounded context domain layer class diagrams — class diagram contract escrow.
+
+<p id="figura-63"><strong>Figura 63.</strong> Bounded Context Domain Layer Class Diagrams — class diagram contract escrow</p>
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 Este diagrama relacional conectando `escrow_accounts` y `payout_records`, donde cada registro de desembolso pertenece a una bóveda de retención, garantizando la trazabilidad de la custodia.
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/db_diagram_contract_escrow.png" alt="2.6.3.6.2. Bounded Context Database Design Diagram — db diagram contract escrow" width="800" />
 </div>
-<p id="figura-44"><strong>Figura 44.</strong> Bounded Context Database Design Diagram — db diagram contract escrow</p>
+La [Figura 64](#figura-64) presenta bounded context database design diagram — db diagram contract escrow.
+
+<p id="figura-64"><strong>Figura 64.</strong> Bounded Context Database Design Diagram — db diagram contract escrow</p>
 
 
 ### 2.6.4. Bounded Context: Ejecución Agrícola y Evidencias Service
@@ -4299,7 +4812,9 @@ Este diagrama detalla la arquitectura interna a nivel de componentes para el con
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_milestones.png" alt="2.6.4.5. Bounded Context Software Architecture Component Level Diagrams" width="800" />
 </div>
-<p id="figura-45"><strong>Figura 45.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract milestones</p>
+La [Figura 65](#figura-65) presenta bounded context software architecture component level diagrams — level diagrams contract milestones.
+
+<p id="figura-65"><strong>Figura 65.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract milestones</p>
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
@@ -4308,14 +4823,18 @@ Este diagrama muestra el modelo de clases de la capa de dominio, destacando el A
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/class_diagram_contract_milestones.png" alt="2.6.4.6.1. Bounded Context Domain Layer Class Diagrams" width="800" />
 </div>
-<p id="figura-46"><strong>Figura 46.</strong> Bounded Context Domain Layer Class Diagrams</p>
+La [Figura 66](#figura-66) presenta bounded context domain layer class diagrams.
+
+<p id="figura-66"><strong>Figura 66.</strong> Bounded Context Domain Layer Class Diagrams</p>
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 Este diagrama relacional conecta `milestones` y `evidences`, donde cada evidencia fotográfica pertenece a un hito productivo, garantizando la trazabilidad visual del cultivo.
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/db_diagram_contract_milestones.png" alt="2.6.4.6.2. Bounded Context Database Design Diagram — db diagram contract milestones" width="800" />
 </div>
-<p id="figura-47"><strong>Figura 47.</strong> Bounded Context Database Design Diagram</p>
+La [Figura 67](#figura-67) presenta bounded context database design diagram.
+
+<p id="figura-67"><strong>Figura 67.</strong> Bounded Context Database Design Diagram</p>
 
 ### 2.6.5. Bounded Context: Monitoreo Climático y Riesgos Service
 Representa la capacidad del sistema encargada de recopilar datos meteorológicos externos en tiempo real (OpenWeather API), evaluar patrones de riesgo climático y emitir alertas preventivas automáticas hacia los agricultores y comerciantes. Su propósito es mitigar el impacto de fenómenos adversos en el ciclo de cultivo. La entidad principal es `ClimateAlert`, la cual consolida las métricas de riesgo y el nivel de severidad.
@@ -4358,7 +4877,9 @@ Este diagrama detalla la arquitectura interna a nivel de componentes para el con
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/level_diagrams_contract_climate.png" alt="2.6.5.5. Bounded Context Software Architecture Component Level Diagrams — level diagrams contract climate" width="800" />
 </div>
-<p id="figura-48"><strong>Figura 48.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract climate</p>
+La [Figura 68](#figura-68) presenta bounded context software architecture component level diagrams — level diagrams contract climate.
+
+<p id="figura-68"><strong>Figura 68.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams contract climate</p>
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
@@ -4367,7 +4888,9 @@ Este diagrama muestra el modelo de clases de la capa de dominio, destacando el A
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/class_diagram_contract_climate.png" alt="2.6.5.6.1. Bounded Context Domain Layer Class Diagrams — class diagram contract climate" width="800" />
 </div>
-<p id="figura-49"><strong>Figura 49.</strong> Bounded Context Domain Layer Class Diagrams</p>
+La [Figura 69](#figura-69) presenta bounded context domain layer class diagrams.
+
+<p id="figura-69"><strong>Figura 69.</strong> Bounded Context Domain Layer Class Diagrams</p>
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 Este diagrama detalla la tabla que soporta el historial de alertas detectadas para las parcelas financiadas, permitiendo la trazabilidad de los eventos meteorológicos críticos notificados a los usuarios.
@@ -4375,7 +4898,9 @@ Este diagrama detalla la tabla que soporta el historial de alertas detectadas pa
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/db_diagram_contract_climate.png" alt="2.6.5.6.2. Bounded Context Database Design Diagram" width="800" />
 </div>
-<p id="figura-50"><strong>Figura 50.</strong> Bounded Context Database Design Diagram — db diagram contract climate</p>
+La [Figura 70](#figura-70) presenta bounded context database design diagram — db diagram contract climate.
+
+<p id="figura-70"><strong>Figura 70.</strong> Bounded Context Database Design Diagram — db diagram contract climate</p>
 
 ### 2.6.6. Bounded Context: Gestión de Usuarios (IAM) Service
 
@@ -4420,7 +4945,9 @@ Este diagrama detalla la arquitectura interna a nivel de componentes para el con
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/level_diagrams_iam.png" alt="2.6.6.5. Bounded Context Software Architecture Component Level Diagrams — level diagrams iam" width="800" />
 </div>
-<p id="figura-51"><strong>Figura 51.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams iam</p>
+La [Figura 71](#figura-71) presenta bounded context software architecture component level diagrams — level diagrams iam.
+
+<p id="figura-71"><strong>Figura 71.</strong> Bounded Context Software Architecture Component Level Diagrams — level diagrams iam</p>
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
@@ -4429,7 +4956,9 @@ Este diagrama muestra el modelo de clases de la capa de dominio, destacando el A
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/class_diagram_iam.png" alt="2.6.6.6.1. Bounded Context Domain Layer Class Diagrams — class diagram iam" width="800" />
 </div>
-<p id="figura-52"><strong>Figura 52.</strong> Bounded Context Domain Layer Class Diagrams</p>
+La [Figura 72](#figura-72) presenta bounded context domain layer class diagrams.
+
+<p id="figura-72"><strong>Figura 72.</strong> Bounded Context Domain Layer Class Diagrams</p>
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 Este diagrama relacional conecta `users` y `roles`, estructurando el almacenamiento seguro de credenciales y garantizando la correcta autorización mediante la relación de perfiles en el ecosistema.
@@ -4437,7 +4966,9 @@ Este diagrama relacional conecta `users` y `roles`, estructurando el almacenamie
 <div align="center">
   <img src="assets/images/chapter02/Sprint2/db_diagram_iam.png" alt="2.6.6.6.2. Bounded Context Database Design Diagram" width="800" />
 </div>
-<p id="figura-53"><strong>Figura 53.</strong> Bounded Context Database Design Diagram</p>
+La [Figura 73](#figura-73) presenta bounded context database design diagram.
+
+<p id="figura-73"><strong>Figura 73.</strong> Bounded Context Database Design Diagram</p>
 
 
 
@@ -4461,6 +4992,10 @@ La identidad visual de Muyu se compone de un isotipo inspirado en el crecimiento
 
 #### Logo e isotipo
 
+La [Figura 74](#figura-74) muestra logo horizontal de muyu.
+
+<p id="figura-74"><strong>Figura 74.</strong> Logo horizontal de Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter03/branding/muyu-logo-horizontal.png"
        alt="Logo horizontal de Muyu"
@@ -4470,6 +5005,10 @@ La identidad visual de Muyu se compone de un isotipo inspirado en el crecimiento
 El logotipo horizontal combina el isotipo y el nombre **MUYU**. Para el ícono de la aplicación se emplea únicamente el isotipo, permitiendo mantener su reconocimiento y legibilidad en tamaños reducidos.
 
 #### Asistente visual de la aplicación
+
+La [Figura 75](#figura-75) muestra asistente visual de muyu.
+
+<p id="figura-75"><strong>Figura 75.</strong> Asistente visual de Muyu</p>
 
 <p align="center">
   <img src="assets/images/chapter03/branding/muyu-mobile-assistant.png"
@@ -4481,6 +5020,10 @@ El asistente visual se utiliza dentro de la aplicación para acompañar al usuar
 
 #### Asistente de autenticación y orientación
 
+La [Figura 76](#figura-76) muestra asistente de autenticación de muyu.
+
+<p id="figura-76"><strong>Figura 76.</strong> Asistente de autenticación de Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter03/branding/muyu-authentication-assistant.png"
        alt="Asistente de autenticación de Muyu"
@@ -4491,6 +5034,10 @@ El segundo recurso ilustrativo cumple una función explicativa en procesos como 
 
 **Colors**
 
+La [Figura 77](#figura-77) muestra colors.
+
+<p id="figura-77"><strong>Figura 77.</strong> Colors</p>
+
 <p align="center">
   <img src="assets/images/chapter03/colors/colors.png"
        alt="Colors"
@@ -4499,6 +5046,10 @@ El segundo recurso ilustrativo cumple una función explicativa en procesos como 
 
 La paleta se organiza en tres grupos: marca (verdes), estados y neutros. Cada color se define como token con nombre por función, por ejemplo `color/primary` o `color/warning`, de modo que un cambio de verde de marca se propaga a todas las pantallas.
  
+La [Tabla 69](#tabla-69) organiza la información correspondiente a colors.
+
+<p id="tabla-69"><strong>Tabla 69.</strong> Colors</p>
+
 | Token | Valor | Uso |
 |---|---|---|
 | color/primary | #4A7C1E | Acciones y elemento seleccionado de la navegación |
@@ -4514,6 +5065,10 @@ Sustento: los nombres semánticos separan el propósito de la apariencia. El est
 
 **Iconographies**
 
+La [Figura 78](#figura-78) muestra iconographies.
+
+<p id="figura-78"><strong>Figura 78.</strong> Iconographies</p>
+
 <p align="center">
   <img src="assets/images/chapter03/iconographies/iconographies.png"
        alt="Iconographies"
@@ -4521,6 +5076,10 @@ Sustento: los nombres semánticos separan el propósito de la apariencia. El est
 </p>
 
 **Typography**
+
+La [Figura 79](#figura-79) muestra typography.
+
+<p id="figura-79"><strong>Figura 79.</strong> Typography</p>
 
 <p align="center">
   <img src="assets/images/chapter03/typography/typography.png"
@@ -4530,6 +5089,10 @@ Sustento: los nombres semánticos separan el propósito de la apariencia. El est
 
 Urbanist es la familia de trabajo. Es geométrica, abierta y legible en tamaños pequeños a la intemperie. Fredoka SemiBold se reserva para el logotipo y las pantallas de autenticación, donde la mascota marca el tono. La escala tipográfica se limita a los tamaños 12, 16, 20, 24 y 32 px.
  
+La [Tabla 70](#tabla-70) organiza la información correspondiente a typography.
+
+<p id="tabla-70"><strong>Tabla 70.</strong> Typography</p>
+
 | Estilo | Especificación |
 |---|---|
 | Display / autenticación | Fredoka 600, 32/40 |
@@ -4543,6 +5106,10 @@ Sustento: una jerarquía corta facilita la exploración y la comprensión, y los
 
 **Spacing and shape**
 
+La [Figura 80](#figura-80) muestra spacing and shape.
+
+<p id="figura-80"><strong>Figura 80.</strong> Spacing and shape</p>
+
 <p align="center">
   <img src="assets/images/chapter03/spacing-and-shape/spacing-and-shape.png"
        alt="Spacing and shape"
@@ -4555,6 +5122,10 @@ Sustento: los principios de proximidad y región común de Gestalt agrupan la in
 
 **Core components**
 
+La [Figura 81](#figura-81) muestra core components.
+
+<p id="figura-81"><strong>Figura 81.</strong> Core components</p>
+
 <p align="center">
   <img src="assets/images/chapter03/core-components/core-components.png"
        alt="Core components"
@@ -4564,6 +5135,10 @@ Sustento: los principios de proximidad y región común de Gestalt agrupan la in
 Los componentes base son los badges de estado, los botones (primario, secundario, de peligro y deshabilitado), la tarjeta de parcela y la navegación inferior. Se construyen una sola vez con variantes. Las etiquetas son cortas y orientadas a la tarea: "Approve & release payment" nombra la consecuencia de la acción mejor que un "Confirm" genérico, y "Correction requested" indica al agricultor qué debe hacer a continuación. La navegación del Agricultor usa Home, My plots, Sync, Payments y Profile. La del Comerciante usa Catalog, My plots, Alerts, Payments y Profile. Las diferencias responden a los objetivos de cada rol.
 
 **Tone of Communication**
+
+La [Figura 82](#figura-82) muestra tone of communication.
+
+<p id="figura-82"><strong>Figura 82.</strong> Tone of Communication</p>
 
 <p align="center">
   <img src="assets/images/chapter03/tone-of-communication/tone-of-communication.png"
@@ -4575,6 +5150,10 @@ Muyu se ubica así en las cuatro dimensiones: serio con una envoltura amistosa, 
 
 **Accessibility: contrast**
 
+La [Figura 83](#figura-83) muestra accessibility: contrast.
+
+<p id="figura-83"><strong>Figura 83.</strong> Accessibility: contrast</p>
+
 <p align="center">
   <img src="assets/images/chapter03/accessibility-contrast/accessibility-contrast.png"
        alt="Accessibility: contrast"
@@ -4583,6 +5162,10 @@ Muyu se ubica así en las cuatro dimensiones: serio con una envoltura amistosa, 
 
 El contraste se verifica contra WCAG AA: 4,5:1 para texto normal y 3:1 para texto grande. En los primeros borradores cinco combinaciones no cumplían y se corrigieron conservando el aspecto original:
  
+La [Tabla 71](#tabla-71) organiza la información correspondiente a accessibility: contrast.
+
+<p id="tabla-71"><strong>Tabla 71.</strong> Accessibility: contrast</p>
+
 | Elemento | Antes | Después |
 |---|---|---|
 | Badge Pendiente | #A65E12 sobre #FED2BD (3,58:1) | #85490D (5,13:1) |
@@ -4603,6 +5186,10 @@ Muyu emplea una cuadrícula responsive para mantener la alineación y la jerarqu
 
 La versión desktop utiliza una estructura de columnas que organiza el contenido principal, la navegación y las secciones informativas. Los textos e imágenes se alinean con estas columnas para mantener una lectura clara y una separación uniforme entre bloques.
 
+La [Figura 84](#figura-84) muestra layout grid de la landing page de muyu.
+
+<p id="figura-84"><strong>Figura 84.</strong> Layout grid de la Landing Page de Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter03/layout-grid/landing-grid.png"
        alt="Layout grid de la Landing Page de Muyu"
@@ -4612,6 +5199,10 @@ La versión desktop utiliza una estructura de columnas que organiza el contenido
 **Mobile Application**
 
 La aplicación móvil utiliza una grilla adaptada al ancho del dispositivo. Los componentes principales respetan los márgenes laterales y las columnas definidas, mientras que elementos como tarjetas, formularios y botones se expanden dentro del área disponible.
+
+La [Figura 85](#figura-85) muestra layout grid de la aplicación móvil de muyu.
+
+<p id="figura-85"><strong>Figura 85.</strong> Layout grid de la aplicación móvil de Muyu</p>
 
 <p align="center">
   <img src="assets/images/chapter03/layout-grid/mobile-grid.png"
@@ -4629,6 +5220,10 @@ Las decisiones responden a los hallazgos obtenidos durante las entrevistas. El A
 
 **Sistemas de organización visual**
 
+La [Tabla 72](#tabla-72) organiza la información correspondiente a sistemas de organización visual.
+
+<p id="tabla-72"><strong>Tabla 72.</strong> Sistemas de organización visual</p>
+
 | Sistema | Aplicación | Justificación |
 |---|---|---|
 | Jerárquico | La navegación parte de Inicio o Catálogo, continúa hacia una parcela y posteriormente hacia sus hitos, evidencias, financiamiento o información asociada. Las pantallas de detalle presentan primero el nombre y estado de la parcela, seguido de la información relacionada con su ciclo productivo. | Permite que el usuario comprenda en qué nivel se encuentra y cuál es el contexto de la información que está revisando. |
@@ -4636,6 +5231,10 @@ Las decisiones responden a los hallazgos obtenidos durante las entrevistas. El A
 | Por estado | Las parcelas, evidencias, hitos, solicitudes y pagos se organizan mediante estados visibles como Available, Funded, Pending, Awaiting review, Approved y Correction needed. | Permite reconocer rápidamente qué elementos requieren atención o qué etapa del proceso se encuentra activa. |
 
 **Esquemas de categorización del contenido**
+
+La [Tabla 73](#tabla-73) organiza la información correspondiente a esquemas de categorización del contenido.
+
+<p id="tabla-73"><strong>Tabla 73.</strong> Esquemas de categorización del contenido</p>
 
 | Esquema | Aplicación |
 |---|---|
@@ -4654,12 +5253,20 @@ Las etiquetas buscan anticipar claramente el contenido o la acción asociada. Po
 
 **Navegación inferior**
 
+La [Tabla 74](#tabla-74) organiza la información correspondiente a navegación inferior.
+
+<p id="tabla-74"><strong>Tabla 74.</strong> Navegación inferior</p>
+
 | Rol | Labels (en_US) | Equivalente es_419 |
 |---|---|---|
 | Agricultor | Home, Plots, Sync, Payments, Profile | Inicio, Parcelas, Sincronización, Pagos, Perfil |
 | Comerciante | Catalog, My plots, Alerts, Payments, Profile | Catálogo, Mis parcelas, Alertas, Pagos, Perfil |
 
 **Farmer**
+La [Figura 86](#figura-86) muestra navbar farmers.
+
+<p id="figura-86"><strong>Figura 86.</strong> Navbar farmers</p>
+
 <p align="center">
   <img src="assets/images/chapter03/navbar/navbar-farmers.png"
        alt="Navbar farmers"
@@ -4667,6 +5274,10 @@ Las etiquetas buscan anticipar claramente el contenido o la acción asociada. Po
 </p>
 
 **Merchant**
+
+La [Figura 87](#figura-87) muestra navbar merchants.
+
+<p id="figura-87"><strong>Figura 87.</strong> Navbar merchants</p>
 
 <p align="center">
   <img src="assets/images/chapter03/navbar/navbar-merchants.png"
@@ -4677,6 +5288,10 @@ Las etiquetas buscan anticipar claramente el contenido o la acción asociada. Po
 Las diferencias entre ambas barras de navegación responden a los objetivos de cada segmento. El Agricultor dispone de Sync para gestionar evidencias registradas con conectividad limitada. El Comerciante dispone de Catalog para explorar oportunidades de producción y Alerts` para revisar eventos relevantes relacionados con sus parcelas financiadas.
 
 **Acciones principales**
+
+La [Tabla 75](#tabla-75) organiza la información correspondiente a acciones principales.
+
+<p id="tabla-75"><strong>Tabla 75.</strong> Acciones principales</p>
 
 | Label | Ubicación | Asociación esperada |
 |---|---|---|
@@ -4694,6 +5309,10 @@ El uso de etiquetas como Approve and release payment comunica directamente la co
 
 **Estados**
 
+La [Tabla 76](#tabla-76) organiza la información correspondiente a estados.
+
+<p id="tabla-76"><strong>Tabla 76.</strong> Estados</p>
+
 | Badge | Significado | Equivalencia funcional |
 |---|---|---|
 | Available | Parcela publicada y disponible para financiamiento. | Parcela disponible |
@@ -4709,6 +5328,10 @@ Los nombres extensos utilizados en la documentación se reducen en los badges pa
 #### 3.1.2.3. SEO Tags and Meta Tags
 
 Debido a que Muyu corresponde a una aplicación móvil, se consideran elementos de App Store Optimization (ASO) para describir y facilitar la identificación de la aplicación en una tienda de aplicaciones. Los elementos SEO correspondientes al sitio web público se documentan dentro de la Landing Page.
+
+La [Tabla 77](#tabla-77) organiza la información correspondiente a seo tags and meta tags.
+
+<p id="tabla-77"><strong>Tabla 77.</strong> SEO Tags and Meta Tags</p>
 
 | Elemento | en_US (predeterminado) | es_419 |
 |---|---|---|
@@ -4729,6 +5352,10 @@ Muyu conecta a agricultores y comerciantes mediante planes de producción agríc
 
 Los sistemas de búsqueda de Muyu se adaptan al contexto de cada sección y evitan presentar una cantidad excesiva de filtros en pantallas móviles.
 
+La [Tabla 78](#tabla-78) organiza la información correspondiente a searching systems.
+
+<p id="tabla-78"><strong>Tabla 78.</strong> Searching Systems</p>
+
 | Contexto | Opciones de búsqueda y filtros | Presentación de resultados |
 |---|---|---|
 | Catálogo, Comerciante | Búsqueda por cultivo o ubicación, opciones rápidas como All, Near me y Recommended, junto con filtros relacionados con las características de la parcela. | Tarjetas con fotografía, nombre de parcela, agricultor, monto solicitado, cultivo, área, ubicación e información relevante del productor. |
@@ -4743,6 +5370,10 @@ Cuando una búsqueda no obtiene resultados, el sistema muestra un estado vacío 
 
 Muyu combina distintos sistemas de navegación para mantener disponibles las secciones principales y, al mismo tiempo, permitir acciones relacionadas con el contexto actual.
 
+La [Tabla 79](#tabla-79) organiza la información correspondiente a navigation systems.
+
+<p id="tabla-79"><strong>Tabla 79.</strong> Navigation Systems</p>
+
 | Sistema | Elementos | Función |
 |---|---|---|
 | Global | Barra de navegación inferior con cinco opciones según el rol. | Mantiene acceso permanente a las principales áreas de la aplicación. Cada opción combina icono y texto. |
@@ -4754,6 +5385,10 @@ Muyu combina distintos sistemas de navegación para mantener disponibles las sec
 **Rutas principales**
 
 - **Agricultor, registrar evidencia:**  
+La [Figura 88](#figura-88) muestra registrar evidencia.
+
+<p id="figura-88"><strong>Figura 88.</strong> Registrar evidencia</p>
+
   <p align="center">
   <img src="assets/images/chapter03/rutas/registrar-evidencia.png"
        alt="Registrar evidencia"
@@ -4761,6 +5396,10 @@ Muyu combina distintos sistemas de navegación para mantener disponibles las sec
   </p>
 
 - **Agricultor, publicar una parcela:**  
+La [Figura 89](#figura-89) muestra publicar parcela.
+
+<p id="figura-89"><strong>Figura 89.</strong> Publicar parcela</p>
+
   <p align="center">
   <img src="assets/images/chapter03/rutas/publicar.png"
        alt="Publicar parcela"
@@ -4768,6 +5407,10 @@ Muyu combina distintos sistemas de navegación para mantener disponibles las sec
   </p>
 
 - **Comerciante, financiar una parcela:**  
+La [Figura 90](#figura-90) muestra financiar parcela.
+
+<p id="figura-90"><strong>Figura 90.</strong> Financiar parcela</p>
+
   <p align="center">
   <img src="assets/images/chapter03/rutas/financiar.png"
        alt="Financiar parcela"
@@ -4775,6 +5418,10 @@ Muyu combina distintos sistemas de navegación para mantener disponibles las sec
   </p>
 
 - **Comerciante, revisar un hito:**  
+La [Figura 91](#figura-91) muestra revisar-hito.
+
+<p id="figura-91"><strong>Figura 91.</strong> Revisar-hito</p>
+
   <p align="center">
   <img src="assets/images/chapter03/rutas/revisar-hito.png"
        alt="Revisar-hito"
@@ -4782,6 +5429,10 @@ Muyu combina distintos sistemas de navegación para mantener disponibles las sec
   </p>
 
 - **Comerciante, solicitar una visita:**  
+La [Figura 92](#figura-92) muestra solicitar visita.
+
+<p id="figura-92"><strong>Figura 92.</strong> Solicitar visita</p>
+
   <p align="center">
   <img src="assets/images/chapter03/rutas/solicitar.png"
        alt="Solicitar visita"
@@ -4797,6 +5448,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
 
 ##### Hero
   
+La [Figura 93](#figura-93) muestra hero.
+
+<p id="figura-93"><strong>Figura 93.</strong> Hero</p>
+
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-1.png"
        alt="Hero"
@@ -4804,6 +5459,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   </p>
 
 ##### About Muyu
+
+La [Figura 94](#figura-94) muestra about muyu.
+
+<p id="figura-94"><strong>Figura 94.</strong> About Muyu</p>
 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-2.png"
@@ -4813,6 +5472,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
 
 ##### Core Features
  
+La [Figura 95](#figura-95) muestra core features.
+
+<p id="figura-95"><strong>Figura 95.</strong> Core Features</p>
+
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-3.png"
        alt="Core Features"
@@ -4820,6 +5483,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   </p>
 
 ##### Production Plans
+
+La [Figura 96](#figura-96) muestra production plans.
+
+<p id="figura-96"><strong>Figura 96.</strong> Production Plans</p>
 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-4.png"
@@ -4829,6 +5496,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
 
 ##### How It Works
 
+La [Figura 97](#figura-97) muestra how it works.
+
+<p id="figura-97"><strong>Figura 97.</strong> How It Works</p>
+
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-5.png"
        alt="How It Works"
@@ -4836,6 +5507,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   </p>
 
 ##### Payments
+
+La [Figura 98](#figura-98) muestra payments.
+
+<p id="figura-98"><strong>Figura 98.</strong> Payments</p>
 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-6.png"
@@ -4845,6 +5520,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
 
 ##### For Farmers and Merchants
 
+La [Figura 99](#figura-99) muestra for farmers and merchants.
+
+<p id="figura-99"><strong>Figura 99.</strong> For Farmers and Merchants</p>
+
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-7.png"
        alt="For Farmers and Merchants"
@@ -4852,6 +5531,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   </p>
 
 ##### Frequently Asked Questions
+
+La [Figura 100](#figura-100) muestra frequently asked questions.
+
+<p id="figura-100"><strong>Figura 100.</strong> Frequently Asked Questions</p>
 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-8.png"
@@ -4861,6 +5544,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
 
 ##### Testimonials
 
+La [Figura 101](#figura-101) muestra testimonials.
+
+<p id="figura-101"><strong>Figura 101.</strong> Testimonials</p>
+
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-9.png"
        alt="Testimonials"
@@ -4868,6 +5555,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   </p>
 
 ##### Call to Action
+
+La [Figura 102](#figura-102) muestra call to action.
+
+<p id="figura-102"><strong>Figura 102.</strong> Call to Action</p>
 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-10.png"
@@ -4877,6 +5568,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
 
 ##### Contact
 
+La [Figura 103](#figura-103) muestra contact.
+
+<p id="figura-103"><strong>Figura 103.</strong> Contact</p>
+
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-11.png"
        alt="Contact"
@@ -4884,6 +5579,10 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   </p>
 
 ##### Footer
+
+La [Figura 104](#figura-104) muestra footer.
+
+<p id="figura-104"><strong>Figura 104.</strong> Footer</p>
 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-12.png"
@@ -4893,55 +5592,99 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
 
 - Mobile Web Browser
 
+La [Figura 105](#figura-105) muestra footer.
+
+<p id="figura-105"><strong>Figura 105.</strong> Footer</p>
+
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-1.png"
        width="100"/>
   </p>
+
+La [Figura 106](#figura-106) muestra footer.
+
+<p id="figura-106"><strong>Figura 106.</strong> Footer</p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-2.png"
        width="100"/>
   </p>
 
+La [Figura 107](#figura-107) muestra footer.
+
+<p id="figura-107"><strong>Figura 107.</strong> Footer</p>
+
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-3.png"
        width="100"/>
   </p>
+
+La [Figura 108](#figura-108) muestra footer.
+
+<p id="figura-108"><strong>Figura 108.</strong> Footer</p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-4.png"
        width="100"/>
   </p>
 
+La [Figura 109](#figura-109) muestra footer.
+
+<p id="figura-109"><strong>Figura 109.</strong> Footer</p>
+
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-4.2.png"
        width="100"/>
   </p>
+
+La [Figura 110](#figura-110) muestra footer.
+
+<p id="figura-110"><strong>Figura 110.</strong> Footer</p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-5.png"
        width="100"/>
   </p>
 
+La [Figura 111](#figura-111) muestra footer.
+
+<p id="figura-111"><strong>Figura 111.</strong> Footer</p>
+
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-6.png"
        width="100"/>
   </p>
+
+La [Figura 112](#figura-112) muestra footer.
+
+<p id="figura-112"><strong>Figura 112.</strong> Footer</p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-7.png"
        width="100"/>
   </p>
 
+La [Figura 113](#figura-113) muestra footer.
+
+<p id="figura-113"><strong>Figura 113.</strong> Footer</p>
+
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-8.png"
        width="100"/>
   </p>
 
+La [Figura 114](#figura-114) muestra footer.
+
+<p id="figura-114"><strong>Figura 114.</strong> Footer</p>
+
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-9.png"
        width="100"/>
   </p>
+
+La [Figura 115](#figura-115) muestra footer.
+
+<p id="figura-115"><strong>Figura 115.</strong> Footer</p>
 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-10.png"
@@ -4962,6 +5705,10 @@ La navegación mantiene una estructura de desplazamiento vertical entre seccione
 
 La versión desktop distribuye el contenido mediante una cuadrícula de 12 columnas. Esta estructura permite mantener alineados títulos, textos, imágenes, tarjetas y llamadas a la acción a lo largo de la página.
 
+La [Figura 116](#figura-116) muestra mock-up completo de la landing page de muyu en versión desktop.
+
+<p id="figura-116"><strong>Figura 116.</strong> Mock-up completo de la Landing Page de Muyu en versión desktop</p>
+
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/landing-page-mock-up.png"
        alt="Mock-up completo de la Landing Page de Muyu en versión desktop"
@@ -4976,6 +5723,10 @@ El mensaje introduce tres elementos del producto: acuerdos de producción organi
 
 Los términos Escrow, GPS Evidence, Offline Mode, Milestones, Climate Alerts y Field Progress funcionan como una síntesis visual de las capacidades principales.
 
+La [Figura 117](#figura-117) muestra mock-up desktop del hero de muyu.
+
+<p id="figura-117"><strong>Figura 117.</strong> Mock-up desktop del Hero de Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/Hero.png"
        alt="Mock-up desktop del Hero de Muyu"
@@ -4987,6 +5738,10 @@ Los términos Escrow, GPS Evidence, Offline Mode, Milestones, Climate Alerts y F
 Esta sección introduce el modelo de funcionamiento de Muyu antes de presentar sus funciones específicas. Se comunica la relación entre agricultores y comerciantes mediante hitos de producción, evidencias de campo y pagos asociados al progreso agrícola.
 
 Las imágenes muestran el contexto de uso del producto y refuerzan su relación con actividades realizadas directamente en campo.
+
+La [Figura 118](#figura-118) muestra mock-up desktop de la introducción al funcionamiento de muyu.
+
+<p id="figura-118"><strong>Figura 118.</strong> Mock-up desktop de la introducción al funcionamiento de Muyu</p>
 
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/how-does-it-work.png"
@@ -5000,6 +5755,10 @@ La sección Core Features presenta las capacidades principales de la plataforma 
 
 Las funciones consideradas son Escrow por hitos, evidencia con GPS y fecha, funcionamiento sin conexión, alertas climáticas y seguimiento de hitos. Al desplegar una función se muestra una descripción y un recurso visual asociado al contexto de uso.
 
+La [Figura 119](#figura-119) muestra mock-up desktop de las funciones principales de muyu.
+
+<p id="figura-119"><strong>Figura 119.</strong> Mock-up desktop de las funciones principales de Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/core-features.png"
        alt="Mock-up desktop de las funciones principales de Muyu"
@@ -5012,6 +5771,10 @@ La franja de atributos resume cuatro conceptos centrales del producto: protecci�
 
 Este bloque funciona como transición entre las capacidades generales y los planes de producción.
 
+La [Figura 120](#figura-120) muestra principios principales del funcionamiento de muyu.
+
+<p id="figura-120"><strong>Figura 120.</strong> Principios principales del funcionamiento de Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/product-principles.png"
        alt="Principios principales del funcionamiento de Muyu"
@@ -5023,6 +5786,10 @@ Este bloque funciona como transición entre las capacidades generales y los plan
 La sección Production Plans muestra ejemplos de ciclos productivos disponibles en Muyu. Cada tarjeta presenta el cultivo, la duración estimada del ciclo y la cantidad de hitos que organizan su producción.
 
 Los ejemplos representados corresponden a papa Huayro, maíz amarillo y quinua. La información permite comunicar que los planes se adaptan a diferentes cultivos y que cada uno puede contener una estructura distinta de actividades y evidencias.
+
+La [Figura 121](#figura-121) muestra mock-up desktop de los planes de producción de muyu.
+
+<p id="figura-121"><strong>Figura 121.</strong> Mock-up desktop de los planes de producción de Muyu</p>
 
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/production-plans.png"
@@ -5044,6 +5811,10 @@ El proceso se presenta mediante cinco etapas:
 
 La disposición numerada facilita comprender la relación entre ambos segmentos y el flujo general del producto antes de ingresar a la aplicación.
 
+La [Figura 122](#figura-122) muestra mock-up desktop del proceso general de muyu.
+
+<p id="figura-122"><strong>Figura 122.</strong> Mock-up desktop del proceso general de Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/how-it-works.png"
        alt="Mock-up desktop del proceso general de Muyu"
@@ -5055,6 +5826,10 @@ La disposición numerada facilita comprender la relación entre ambos segmentos 
 La sección Payments explica la relación entre el avance de la producción y la liberación de fondos. El proceso se resume en tres estados: fondos asegurados, evidencia aprobada y pago liberado.
 
 Esta representación busca aclarar que el financiamiento no se entrega en una única operación, sino que se encuentra asociado al cumplimiento y revisión de los hitos definidos en el plan de producción.
+
+La [Figura 123](#figura-123) muestra mock-up desktop del funcionamiento de los pagos por hitos en muyu.
+
+<p id="figura-123"><strong>Figura 123.</strong> Mock-up desktop del funcionamiento de los pagos por hitos en Muyu</p>
 
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/payments.png"
@@ -5072,6 +5847,10 @@ Para el Comerciante / Comprador se muestran la exploración de parcelas y planes
 
 La presentación en dos columnas permite comparar las responsabilidades y beneficios de ambos perfiles sin separarlos del mismo proceso productivo.
 
+La [Figura 124](#figura-124) muestra mock-up desktop de las capacidades de muyu para agricultores y comerciantes.
+
+<p id="figura-124"><strong>Figura 124.</strong> Mock-up desktop de las capacidades de Muyu para agricultores y comerciantes</p>
+
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/For-Farmers-and-Merchants.png"
        alt="Mock-up desktop de las capacidades de Muyu para agricultores y comerciantes"
@@ -5084,6 +5863,10 @@ La sección FAQ concentra preguntas relacionadas con el funcionamiento de Muyu, 
 
 Las preguntas utilizan un componente de acordeón para mostrar una respuesta a la vez, reduciendo la cantidad de información visible y facilitando la exploración del contenido.
 
+La [Figura 125](#figura-125) muestra mock-up desktop de la sección de preguntas frecuentes de muyu.
+
+<p id="figura-125"><strong>Figura 125.</strong> Mock-up desktop de la sección de preguntas frecuentes de Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/FAQ-section.png"
        alt="Mock-up desktop de la sección de preguntas frecuentes de Muyu"
@@ -5091,6 +5874,10 @@ Las preguntas utilizan un componente de acordeón para mostrar una respuesta a l
 </p>
 
 **FAQ**
+
+La [Figura 126](#figura-126) muestra mock-up desktop: sección de preguntas frecuentes.
+
+<p id="figura-126"><strong>Figura 126.</strong> Mock-up desktop: sección de preguntas frecuentes</p>
 
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/FAQ-section.png"
@@ -5104,6 +5891,10 @@ La sección Testimonials plantea el espacio visual destinado a incorporar experi
 
 En esta etapa, el contenido presentado funciona como referencia visual del componente y no representa testimonios validados del producto.
 
+La [Figura 127](#figura-127) muestra mock-up desktop del componente destinado a testimonios.
+
+<p id="figura-127"><strong>Figura 127.</strong> Mock-up desktop del componente destinado a testimonios</p>
+
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/testimonials.png"
        alt="Mock-up desktop del componente destinado a testimonios"
@@ -5115,6 +5906,10 @@ En esta etapa, el contenido presentado funciona como referencia visual del compo
 La llamada a la acción final busca dirigir al visitante hacia la aplicación móvil después de haber presentado el funcionamiento y las capacidades principales de Muyu.
 
 El bloque utiliza una imagen agrícola de fondo y un mensaje breve que conecta la aplicación con el trabajo realizado en campo.
+
+La [Figura 128](#figura-128) muestra mock-up desktop de la llamada a la acción de muyu.
+
+<p id="figura-128"><strong>Figura 128.</strong> Mock-up desktop de la llamada a la acción de Muyu</p>
 
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/call.png"
@@ -5128,6 +5923,10 @@ La sección Contact ofrece un canal directo de comunicación con el equipo de Al
 
 El bloque complementa el formulario con una descripción breve y los datos de contacto del equipo.
 
+La [Figura 129](#figura-129) muestra mock-up desktop del formulario de contacto de muyu.
+
+<p id="figura-129"><strong>Figura 129.</strong> Mock-up desktop del formulario de contacto de Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/contact.png"
        alt="Mock-up desktop del formulario de contacto de Muyu"
@@ -5140,6 +5939,10 @@ El Footer cierra la experiencia mediante una síntesis de la propuesta de Muyu y
 
 También reúne los accesos legales a Terms and Conditions y Privacy Policy, junto con el selector de idioma EN / ES. La identidad de AllpaTech se mantiene como organización responsable del desarrollo de Muyu.
 
+La [Figura 130](#figura-130) muestra mock-up desktop del footer de muyu.
+
+<p id="figura-130"><strong>Figura 130.</strong> Mock-up desktop del Footer de Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter03/landing-page-mock-up/Footer Section.png"
        alt="Mock-up desktop del Footer de Muyu"
@@ -5150,6 +5953,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
 
 ##### Hero
   
+La [Figura 131](#figura-131) muestra hero.
+
+<p id="figura-131"><strong>Figura 131.</strong> Hero</p>
+
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/hero-mockup.png"
        alt="Hero"
@@ -5157,6 +5964,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
   </p>
 
 ##### About Muyu
+
+La [Figura 132](#figura-132) muestra about muyu.
+
+<p id="figura-132"><strong>Figura 132.</strong> About Muyu</p>
 
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/about-mockup.png"
@@ -5166,6 +5977,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
 
 ##### Core Features
  
+La [Figura 133](#figura-133) muestra core features.
+
+<p id="figura-133"><strong>Figura 133.</strong> Core Features</p>
+
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/feature-mockup.png"
        alt="Core Features"
@@ -5173,6 +5988,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
   </p>
 
 ##### Production Plans
+
+La [Figura 134](#figura-134) muestra production plans.
+
+<p id="figura-134"><strong>Figura 134.</strong> Production Plans</p>
 
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/planes-mockup.png"
@@ -5182,6 +6001,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
 
 ##### How It Works
 
+La [Figura 135](#figura-135) muestra how it works.
+
+<p id="figura-135"><strong>Figura 135.</strong> How It Works</p>
+
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/How-it-work-mockup.png"
        alt="How It Works"
@@ -5189,6 +6012,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
   </p>
 
 ##### Payments
+
+La [Figura 136](#figura-136) muestra payments.
+
+<p id="figura-136"><strong>Figura 136.</strong> Payments</p>
 
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/payments-mockup.png"
@@ -5198,6 +6025,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
 
 ##### For Farmers and Merchants
 
+La [Figura 137](#figura-137) muestra for farmers and merchants.
+
+<p id="figura-137"><strong>Figura 137.</strong> For Farmers and Merchants</p>
+
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/For-Farmers-and-Merchants-mockup.png"
        alt="For Farmers and Merchants"
@@ -5205,6 +6036,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
   </p>
 
 ##### Frequently Asked Questions
+
+La [Figura 138](#figura-138) muestra frequently asked questions.
+
+<p id="figura-138"><strong>Figura 138.</strong> Frequently Asked Questions</p>
 
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/faq-mockup.png"
@@ -5214,6 +6049,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
 
 ##### Testimonials
 
+La [Figura 139](#figura-139) muestra testimonials.
+
+<p id="figura-139"><strong>Figura 139.</strong> Testimonials</p>
+
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/testimonials-mockup.png"
        alt="Testimonials"
@@ -5221,6 +6060,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
   </p>
 
 ##### Call to Action
+
+La [Figura 140](#figura-140) muestra call to action.
+
+<p id="figura-140"><strong>Figura 140.</strong> Call to Action</p>
 
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/call-mockup.png"
@@ -5230,6 +6073,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
 
 ##### Contact
 
+La [Figura 141](#figura-141) muestra contact.
+
+<p id="figura-141"><strong>Figura 141.</strong> Contact</p>
+
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/contact-mockup.png"
        alt="Contact"
@@ -5237,6 +6084,10 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
   </p>
 
 ##### Footer
+
+La [Figura 142](#figura-142) muestra footer.
+
+<p id="figura-142"><strong>Figura 142.</strong> Footer</p>
 
   <p align="center">
   <img src="assets/images/chapter03/mockup-landing-page/footer-mockup.png"
@@ -5257,36 +6108,60 @@ En esta sección se presentan los wireframes diseñados para la aplicación móv
 
 **Pantalla Principal (Home)**
 Vista central (Dashboard) donde el agricultor puede ver un resumen rápido de sus actividades, tareas pendientes y accesos directos a sus cultivos.
+La [Figura 143](#figura-143) muestra wireframe agricultor home.
+
+<p id="figura-143"><strong>Figura 143.</strong> Wireframe Agricultor Home</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-agricultor-home.png" alt="Wireframe Agricultor Home" width="500"/>
 </p>
 
 **Gestión de Parcelas (Plot)**
 Interfaz para visualizar, registrar y administrar los detalles específicos de las parcelas agrícolas.
+La [Figura 144](#figura-144) muestra wireframe agricultor plot.
+
+<p id="figura-144"><strong>Figura 144.</strong> Wireframe Agricultor Plot</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-agricultor-plot.png" alt="Wireframe Agricultor Plot" width="500"/>
 </p>
 
 **Sincronización Offline (Sync)**
 Pantalla fundamental para zonas rurales con baja conectividad, permitiendo al agricultor sincronizar sus datos de campo cuando recupere la conexión a internet.
+La [Figura 145](#figura-145) muestra wireframe agricultor sync.
+
+<p id="figura-145"><strong>Figura 145.</strong> Wireframe Agricultor Sync</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-agricultor-sync.png" alt="Wireframe Agricultor Sync" width="500"/>
 </p>
 
 **Gestión de Pagos (Payment)**
 Vista de la billetera o sección financiera para solicitar, recibir y gestionar los desembolsos por parte de los comerciantes.
+La [Figura 146](#figura-146) muestra wireframe agricultor payment.
+
+<p id="figura-146"><strong>Figura 146.</strong> Wireframe Agricultor Payment</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-agricultor-payment.png" alt="Wireframe Agricultor Payment" width="500"/>
 </p>
 
 **Perfil de Usuario (Profile)**
 Configuración de la cuenta del agricultor, datos personales y preferencias de la aplicación.
+La [Figura 147](#figura-147) muestra wireframe agricultor profile.
+
+<p id="figura-147"><strong>Figura 147.</strong> Wireframe Agricultor Profile</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-agricultor-profile.png" alt="Wireframe Agricultor Profile" width="500"/>
 </p>
 
 **Estado y Seguimiento (Estado)**
 Pantalla dedicada al seguimiento del estado de los cultivos, avance de los hitos y condiciones actuales.
+La [Figura 148](#figura-148) muestra wireframe agricultor estado.
+
+<p id="figura-148"><strong>Figura 148.</strong> Wireframe Agricultor Estado</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-agricultor-estado.png" alt="Wireframe Agricultor Estado" width="100"/>
 </p>
@@ -5297,36 +6172,60 @@ Pantalla dedicada al seguimiento del estado de los cultivos, avance de los hitos
 
 **Exploración de Catálogo (Catálogo)**
 Interfaz que permite al comerciante buscar, filtrar y explorar las diferentes parcelas y cultivos disponibles para financiamiento o compra.
+La [Figura 149](#figura-149) muestra wireframe comerciante catalogo.
+
+<p id="figura-149"><strong>Figura 149.</strong> Wireframe Comerciante Catalogo</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-comerciante-catalogo.png" alt="Wireframe Comerciante Catalogo" width="500"/>
 </p>
 
 **Detalle de Parcela (Plot)**
 Vista detallada de una parcela seleccionada desde el catálogo, mostrando información técnica y métricas para la toma de decisiones.
+La [Figura 150](#figura-150) muestra wireframe comerciante plot.
+
+<p id="figura-150"><strong>Figura 150.</strong> Wireframe Comerciante Plot</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-comerciante-plot.png" alt="Wireframe Comerciante Plot" width="500"/>
 </p>
 
 **Pagos y Financiamiento (Payment)**
 Pasarela y gestión de transacciones para que el comerciante pueda realizar los pagos de las cuotas o desembolsos de los contratos de escrow.
+La [Figura 151](#figura-151) muestra wireframe comerciante payment.
+
+<p id="figura-151"><strong>Figura 151.</strong> Wireframe Comerciante Payment</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-comerciante-payment.png" alt="Wireframe Comerciante Payment" width="500"/>
 </p>
 
 **Notificaciones (Notifications)**
 Centro de alertas sobre actualizaciones de hitos, cambios climáticos severos o confirmaciones de transacciones.
+La [Figura 152](#figura-152) muestra wireframe comerciante notifications.
+
+<p id="figura-152"><strong>Figura 152.</strong> Wireframe Comerciante Notifications</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-comerciante-notifications.png" alt="Wireframe Comerciante Notifications" width="150"/>
 </p>
 
 **Perfil de Usuario (Profile)**
 Gestión del perfil del comerciante, historial de inversiones, reputación y ajustes de la cuenta.
+La [Figura 153](#figura-153) muestra wireframe comerciante profile.
+
+<p id="figura-153"><strong>Figura 153.</strong> Wireframe Comerciante Profile</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-comerciante-profile.png" alt="Wireframe Comerciante Profile" width="500"/>
 </p>
 
 **Estado de Inversión (Estado)**
 Pantalla para el monitoreo de los contratos activos, permitiendo ver el progreso de las parcelas financiadas y la validación de sus hitos.
+La [Figura 154](#figura-154) muestra wireframe comerciante estado.
+
+<p id="figura-154"><strong>Figura 154.</strong> Wireframe Comerciante Estado</p>
+
 <p align="center">
   <img src="assets/images/chapter03/wireframes/wiframes-comerciante-estado.png" alt="Wireframe Comerciante Estado" width="100"/>
 </p>
@@ -5945,20 +6844,36 @@ También puede:
 - Consultar alertas climáticas, el nivel de riesgo, recomendaciones preventivas y el pronóstico.
 El flujo termina dejando registrada la decisión correspondiente y notificando a la otra parte. Las visitas solo coordinan el encuentro: no reservan la parcela ni generan movimientos de dinero.
 
+La [Figura 155](#figura-155) muestra agricultor / gestión de parcelas, visitas, prórrogas y alertas.
+
+<p id="figura-155"><strong>Figura 155.</strong> AGRICULTOR / Gestión de parcelas, visitas, prórrogas y alertas</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter01.JPG"
        width="600"/>
 </p>
+
+La [Figura 156](#figura-156) muestra agricultor / gestión de parcelas, visitas, prórrogas y alertas.
+
+<p id="figura-156"><strong>Figura 156.</strong> AGRICULTOR / Gestión de parcelas, visitas, prórrogas y alertas</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter02.JPG"
        width="600"/>
 </p>
 
+La [Figura 157](#figura-157) muestra agricultor / gestión de parcelas, visitas, prórrogas y alertas.
+
+<p id="figura-157"><strong>Figura 157.</strong> AGRICULTOR / Gestión de parcelas, visitas, prórrogas y alertas</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter03.JPG"
        width="600"/>
 </p>
+
+La [Figura 158](#figura-158) muestra agricultor / gestión de parcelas, visitas, prórrogas y alertas.
+
+<p id="figura-158"><strong>Figura 158.</strong> AGRICULTOR / Gestión de parcelas, visitas, prórrogas y alertas</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion1/chapter04.JPG"
@@ -5976,30 +6891,54 @@ Antes de publicar, debe aceptar el acuerdo de financiamiento mediante Escrow. La
 Una vez financiada la parcela, el agricultor selecciona un hito, toma o carga fotografías, registra los insumos y cantidades utilizadas y valida el GPS. La evidencia puede guardarse sin conexión, corregirse si la ubicación es incorrecta y enviarse cuando haya Internet. Después del envío queda “en espera de revisión”; esto todavía no significa que el pago haya sido aprobado.
 
 
+La [Figura 159](#figura-159) muestra agricultor / publicación de parcelas y registro de evidencias.
+
+<p id="figura-159"><strong>Figura 159.</strong> AGRICULTOR / Publicación de parcelas y registro de evidencias</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter01.JPG"
        width="600"/>
 </p>
+
+La [Figura 160](#figura-160) muestra agricultor / publicación de parcelas y registro de evidencias.
+
+<p id="figura-160"><strong>Figura 160.</strong> AGRICULTOR / Publicación de parcelas y registro de evidencias</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter02.JPG"
        width="600"/>
 </p>
 
+La [Figura 161](#figura-161) muestra agricultor / publicación de parcelas y registro de evidencias.
+
+<p id="figura-161"><strong>Figura 161.</strong> AGRICULTOR / Publicación de parcelas y registro de evidencias</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter03.JPG"
        width="600"/>
 </p>
+
+La [Figura 162](#figura-162) muestra agricultor / publicación de parcelas y registro de evidencias.
+
+<p id="figura-162"><strong>Figura 162.</strong> AGRICULTOR / Publicación de parcelas y registro de evidencias</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter04.JPG"
        width="600"/>
 </p>
 
+La [Figura 163](#figura-163) muestra agricultor / publicación de parcelas y registro de evidencias.
+
+<p id="figura-163"><strong>Figura 163.</strong> AGRICULTOR / Publicación de parcelas y registro de evidencias</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter05.JPG"
        width="600"/>
 </p>
+
+La [Figura 164](#figura-164) muestra agricultor / publicación de parcelas y registro de evidencias.
+
+<p id="figura-164"><strong>Figura 164.</strong> AGRICULTOR / Publicación de parcelas y registro de evidencias</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion2/chapter06.JPG"
@@ -6018,6 +6957,10 @@ El flujo contempla:
 - Reintentar únicamente los elementos que presentaron error.
 Al finalizar, la pantalla informa cuántas evidencias se enviaron y cuántas continúan pendientes. La sincronización no equivale a la aprobación del hito.
 
+La [Figura 165](#figura-165) muestra agricultor / sincronización de evidencias sin conexión.
+
+<p id="figura-165"><strong>Figura 165.</strong> AGRICULTOR / Sincronización de evidencias sin conexión</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion3/chapter01.JPG"
        width="600"/>
@@ -6034,6 +6977,10 @@ El detalle presenta:
 - Identificador de la transacción.
 - Secuencia del proceso Escrow: evidencia aprobada, fondos liberados y pago recibido.
 También puede descargar el comprobante en PDF. Si aún no tiene pagos, se muestra un estado vacío que explica que primero debe existir un financiamiento y una evidencia aprobada.
+
+La [Figura 166](#figura-166) muestra agricultor / historial y detalle de pagos.
+
+<p id="figura-166"><strong>Figura 166.</strong> AGRICULTOR / Historial y detalle de pagos</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion4/chapter01.JPG"
@@ -6053,15 +7000,27 @@ Además, puede:
 - Calificar al comerciante cuando termina el contrato.
 El flujo de calificación permite seleccionar estrellas, escribir un comentario opcional y consultar la confirmación junto con el contrato finalizado.
 
+La [Figura 167](#figura-167) muestra agricultor / perfil, soporte, seguridad y cierre del contrato.
+
+<p id="figura-167"><strong>Figura 167.</strong> AGRICULTOR / Perfil, soporte, seguridad y cierre del contrato</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion5/chapter01.JPG"
        width="600"/>
 </p>
 
+La [Figura 168](#figura-168) muestra agricultor / perfil, soporte, seguridad y cierre del contrato.
+
+<p id="figura-168"><strong>Figura 168.</strong> AGRICULTOR / Perfil, soporte, seguridad y cierre del contrato</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion5/chapter02.JPG"
        width="600"/>
 </p>
+
+La [Figura 169](#figura-169) muestra agricultor / perfil, soporte, seguridad y cierre del contrato.
+
+<p id="figura-169"><strong>Figura 169.</strong> AGRICULTOR / Perfil, soporte, seguridad y cierre del contrato</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/agricultor/seccion5/chapter03.JPG"
@@ -6081,20 +7040,36 @@ Al abrir una parcela puede revisar:
 Para financiarla, revisa el monto, acepta las condiciones de Escrow, selecciona un medio de pago y confirma la operación. El sistema contempla financiamiento exitoso, pago no confirmado y parcela financiada previamente por otra persona, evitando duplicidades.
 También puede solicitar una visita antes del financiamiento, indicando fecha, hora y mensaje. La solicitud queda pendiente hasta que el agricultor la acepte, rechace o proponga otra fecha. Cuando se confirma, aparecen el punto de encuentro y los datos de contacto.
 
+La [Figura 170](#figura-170) muestra comerciante / búsqueda, financiamiento y visita a parcelas.
+
+<p id="figura-170"><strong>Figura 170.</strong> COMERCIANTE / Búsqueda, financiamiento y visita a parcelas</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter01.JPG"
        width="600"/>
 </p>
+
+La [Figura 171](#figura-171) muestra comerciante / búsqueda, financiamiento y visita a parcelas.
+
+<p id="figura-171"><strong>Figura 171.</strong> COMERCIANTE / Búsqueda, financiamiento y visita a parcelas</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter02.JPG"
        width="600"/>
 </p>
 
+La [Figura 172](#figura-172) muestra comerciante / búsqueda, financiamiento y visita a parcelas.
+
+<p id="figura-172"><strong>Figura 172.</strong> COMERCIANTE / Búsqueda, financiamiento y visita a parcelas</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter03.JPG"
        width="600"/>
 </p>
+
+La [Figura 173](#figura-173) muestra comerciante / búsqueda, financiamiento y visita a parcelas.
+
+<p id="figura-173"><strong>Figura 173.</strong> COMERCIANTE / Búsqueda, financiamiento y visita a parcelas</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion1/chapter04.JPG"
@@ -6117,25 +7092,45 @@ Después decide entre:
 - Rechazar: mantiene el dinero retenido y exige seleccionar y explicar el motivo.
 Si la evidencia es rechazada, el agricultor conserva el registro original, adjunta una nueva fotografía o corrige los datos y vuelve a enviarla. El comerciante recibe la nueva versión para repetir la evaluación.
 
+La [Figura 174](#figura-174) muestra comerciante / riesgo climático y revisión de evidencias.
+
+<p id="figura-174"><strong>Figura 174.</strong> COMERCIANTE / Riesgo climático y revisión de evidencias</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter01.JPG"
        width="600"/>
 </p>
+
+La [Figura 175](#figura-175) muestra comerciante / riesgo climático y revisión de evidencias.
+
+<p id="figura-175"><strong>Figura 175.</strong> COMERCIANTE / Riesgo climático y revisión de evidencias</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter02.JPG"
        width="600"/>
 </p>
 
+La [Figura 176](#figura-176) muestra comerciante / riesgo climático y revisión de evidencias.
+
+<p id="figura-176"><strong>Figura 176.</strong> COMERCIANTE / Riesgo climático y revisión de evidencias</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter03.JPG"
        width="600"/>
 </p>
 
+La [Figura 177](#figura-177) muestra comerciante / riesgo climático y revisión de evidencias.
+
+<p id="figura-177"><strong>Figura 177.</strong> COMERCIANTE / Riesgo climático y revisión de evidencias</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter04.JPG"
        width="600"/>
 </p>
+
+La [Figura 178](#figura-178) muestra comerciante / riesgo climático y revisión de evidencias.
+
+<p id="figura-178"><strong>Figura 178.</strong> COMERCIANTE / Riesgo climático y revisión de evidencias</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion2/chapter05.JPG"
@@ -6155,10 +7150,18 @@ Cuando llega la fecha de entrega, el comerciante consulta:
 Si todo es correcto, confirma la recepción, aprueba el hito de cosecha y autoriza la liberación del último desembolso. Con ello se completan todos los hitos y se cierra el ciclo.
 Si la cosecha no llegó o la cantidad es incompleta, puede contactar al agricultor o registrar una incidencia con tipo, descripción y fotografías. Mientras el problema no se resuelva, la aprobación final y el dinero permanecen bloqueados.
 
+La [Figura 179](#figura-179) muestra comerciante / notificaciones, entrega de cosecha e incidencias.
+
+<p id="figura-179"><strong>Figura 179.</strong> COMERCIANTE / Notificaciones, entrega de cosecha e incidencias</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion3/chapter01.JPG"
        width="600"/>
 </p>
+
+La [Figura 180](#figura-180) muestra comerciante / notificaciones, entrega de cosecha e incidencias.
+
+<p id="figura-180"><strong>Figura 180.</strong> COMERCIANTE / Notificaciones, entrega de cosecha e incidencias</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion3/chapter02.JPG"
@@ -6174,6 +7177,10 @@ Desde una solicitud de prórroga puede comparar:
 - Motivo indicado por el agricultor.
 - Hito afectado.
 El comerciante decide si aprueba o rechaza la nueva fecha. Aprobar modifica únicamente el plazo del hito: no libera dinero ni cambia el monto total del contrato.
+
+La [Figura 181](#figura-181) muestra comerciante / historial de desembolsos y solicitudes de prórroga.
+
+<p id="figura-181"><strong>Figura 181.</strong> COMERCIANTE / Historial de desembolsos y solicitudes de prórroga</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion4/chapter01.JPG"
@@ -6191,10 +7198,18 @@ El flujo de recuperación de contraseña funciona así:
 - Recibe la confirmación del cambio.
 - Regresa al inicio de sesión con sus nuevas credenciales.
 
+La [Figura 182](#figura-182) muestra comerciante / perfil, preferencias y recuperación de contraseña.
+
+<p id="figura-182"><strong>Figura 182.</strong> COMERCIANTE / Perfil, preferencias y recuperación de contraseña</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion5/chapter01.JPG"
        width="600"/>
 </p>
+
+La [Figura 183](#figura-183) muestra comerciante / perfil, preferencias y recuperación de contraseña.
+
+<p id="figura-183"><strong>Figura 183.</strong> COMERCIANTE / Perfil, preferencias y recuperación de contraseña</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-application/comerciante/seccion5/chapter02.JPG"
@@ -7266,6 +8281,10 @@ Las interacciones mantienen la arquitectura de información establecida para cad
 **Enlace al prototipo:**  
 [Video del prototipo interactivo de Muyu](https://youtu.be/FmUKW6Y49tc?si=aTAZK8n7Ug031f4t)
 
+La [Figura 184](#figura-184) muestra video del prototipo interactivo de la aplicación móvil muyu.
+
+<p id="figura-184"><strong>Figura 184.</strong> Video del prototipo interactivo de la aplicación móvil Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter03/mobile-prototyping/video-prototype.png"
        alt="Video del prototipo interactivo de la aplicación móvil Muyu"
@@ -7274,6 +8293,10 @@ Las interacciones mantienen la arquitectura de información establecida para cad
 
 **Enlace al prototipo:**  
 [Ver prototipo interactivo de Muyu](https://www.figma.com/design/UqCTwgxtwsgNu1uqXNjGhy/MUYU-COMPLETO?node-id=0-1&t=KfI5HyH45zr9I4mm-1)
+
+La [Figura 185](#figura-185) muestra prototipo interactivo de la aplicación móvil muyu.
+
+<p id="figura-185"><strong>Figura 185.</strong> Prototipo interactivo de la aplicación móvil Muyu</p>
 
 <p align="center">
   <img src="assets/images/chapter03/mobile-prototyping/mobile-prototype.png"
@@ -7293,6 +8316,10 @@ Esta gestión permite mantener la trazabilidad de los cambios, facilitar el trab
 ### 4.1.1. Software Development Environment Configuration
 
 Para el desarrollo de Muyu se estableció un entorno compuesto por herramientas especializadas para la implementación de la Landing Page, la aplicación móvil Android y el backend. También se utilizaron plataformas de diseño, documentación, control de versiones y despliegue que apoyan las diferentes etapas del ciclo de vida del producto.
+
+La [Tabla 80](#tabla-80) organiza la información correspondiente a software development environment configuration.
+
+<p id="tabla-80"><strong>Tabla 80.</strong> Software Development Environment Configuration</p>
 
 | Proceso | Recurso o plataforma | Finalidad dentro del proyecto | Medio de acceso |
 |---|---|---|---|
@@ -7411,6 +8438,10 @@ En el entorno de desarrollo, Swagger está disponible en la ruta `/swagger`.
 ### 4.1.2. Source Code Management
 
 El código fuente de Muyu se administra mediante Git y GitHub. La Landing Page, la aplicación móvil y el backend se mantienen como proyectos independientes debido a que utilizan tecnologías y procesos de despliegue diferentes.
+
+La [Tabla 81](#tabla-81) organiza la información correspondiente a source code management.
+
+<p id="tabla-81"><strong>Tabla 81.</strong> Source Code Management</p>
 
 | Componente | Repositorio |
 |---|---|
@@ -7695,6 +8726,10 @@ El proceso de despliegue mediante Netlify es:
 
 Debido a que la Landing Page utiliza HTML, CSS y JavaScript sin un framework, no necesita un comando de construcción.
 
+La [Tabla 82](#tabla-82) organiza la información correspondiente a landing page deployment.
+
+<p id="tabla-82"><strong>Tabla 82.</strong> Landing Page Deployment</p>
+
 | Configuración | Valor |
 |---|---|
 | Plataforma | Netlify |
@@ -7845,6 +8880,10 @@ La configuración móvil debe considerar:
 
 #### Deployment Verification
 
+La [Tabla 83](#tabla-83) organiza la información correspondiente a deployment verification.
+
+<p id="tabla-83"><strong>Tabla 83.</strong> Deployment Verification</p>
+
 | Componente | Verificación |
 |---|---|
 | Landing Page en Netlify | Carga correcta, navegación, imágenes, HTTPS y diseño responsive |
@@ -7859,6 +8898,10 @@ Esta configuración permite que los componentes de Muyu se construyan, validen y
 ## 4.2. Landing Page & Mobile Application Implementation
 ### 4.2.1. Sprint 1
 #### 4.2.1.1. Sprint Planning 1
+
+La [Tabla 84](#tabla-84) organiza la información correspondiente a sprint planning 1.
+
+<p id="tabla-84"><strong>Tabla 84.</strong> Sprint Planning 1</p>
 
 | Sprint #1 |  |
 |---|---|
@@ -7883,6 +8926,10 @@ En el presente Sprint 1, el alcance funcional y técnico se ha dividido en tres 
 2. **Mobile Application:** implementación de las interfaces y funcionalidades principales de la aplicación móvil en Android Studio.
 3. **Services & Deployment:** implementación de los servicios utilizados por la aplicación móvil y despliegue de la Fake API mediante Render.
 
+La [Tabla 85](#tabla-85) organiza la información correspondiente a aspect leaders and collaborators.
+
+<p id="tabla-85"><strong>Tabla 85.</strong> Aspect Leaders and Collaborators</p>
+
 | Team Member (Last Name, First Name) | GitHub Username | Landing Page Leader (L) / Collaborator (C) | Mobile Application Leader (L) / Collaborator (C) | Services & Deployment Leader (L) / Collaborator (C) |
 |---|---|--------------------------------------------|--------------------------------------------------|---|
 | Orellana Rodriguez, Mel Andree | melandree8 | C                                          | L                                                | C |
@@ -7897,6 +8944,10 @@ El presente Sprint Backlog detalla las historias de usuario y tareas técnicas s
 
 A continuación, se presenta la captura del tablero de Trello utilizado para organizar y controlar el estado de las actividades del Sprint.
 
+La [Figura 186](#figura-186) muestra sprint backlog 1 en trello.
+
+<p id="figura-186"><strong>Figura 186.</strong> Sprint Backlog 1 en Trello</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/sprint-backlog-1.png"
        alt="Sprint Backlog 1 en Trello"
@@ -7904,6 +8955,10 @@ A continuación, se presenta la captura del tablero de Trello utilizado para org
 </p>
 
 URL del tablero completo en Trello: [AllpaTech - App Móvil - Sprint 1](https://trello.com/b/0BQ2sVie/allpatech)
+
+La [Tabla 86](#tabla-86) organiza la información correspondiente a sprint backlog 1.
+
+<p id="tabla-86"><strong>Tabla 86.</strong> Sprint Backlog 1</p>
 
 | Sprint # | 1 |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|
@@ -7927,6 +8982,10 @@ URL del tablero completo en Trello: [AllpaTech - App Móvil - Sprint 1](https://
 Durante el Sprint 1, el equipo desarroll&oacute; la primera versi&oacute;n funcional de la Landing Page, la aplicaci&oacute;n m&oacute;vil, los servicios del backend y la documentaci&oacute;n t&eacute;cnica del proyecto Muyu. Los avances realizados se registraron mediante commits en los repositorios de GitHub de la organizaci&oacute;n AllpaTech.
 
 En la siguiente tabla se presentan todos los commits registrados en las ramas utilizadas por el equipo:
+
+La [Tabla 87](#tabla-87) organiza la información correspondiente a development evidence for sprint review.
+
+<p id="tabla-87"><strong>Tabla 87.</strong> Development Evidence for Sprint Review</p>
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|-|---|
@@ -8149,6 +9208,10 @@ Durante el Sprint 1 se realizaron pruebas unitarias, instrumentadas y funcionale
 
 La aplicación Android cuenta con una prueba unitaria local mediante JUnit y una prueba instrumentada mediante AndroidJUnit4. Debido a que el proyecto se encuentra en su primera iteración, la validación de las funcionalidades principales también se realizó mediante pruebas manuales ejecutadas desde un emulador y un dispositivo Android.
 
+La [Tabla 88](#tabla-88) organiza la información correspondiente a testing suite evidence for sprint review.
+
+<p id="tabla-88"><strong>Tabla 88.</strong> Testing Suite Evidence for Sprint Review</p>
+
 | Test ID | User Story / Technical Story | Test Type | Test Scenario | Expected Result | Obtained Result | Status |
 |---|---|---|---|---|---|---|
 | TC-01 | US01 – Registro inicial de usuario | Functional | Registrar un usuario completando los datos requeridos y seleccionando el rol de agricultor. | La cuenta debe registrarse correctamente y el usuario debe ser redirigido a la pantalla de inicio de sesión. | El usuario fue registrado en la Fake API y posteriormente fue dirigido al inicio de sesión. | Passed |
@@ -8170,6 +9233,10 @@ La aplicación Android cuenta con una prueba unitaria local mediante JUnit y una
 
 La siguiente imagen evidencia la compilación satisfactoria de la aplicación móvil desde Android Studio:
 
+La [Figura 187](#figura-187) muestra compilación exitosa de la aplicación móvil.
+
+<p id="figura-187"><strong>Figura 187.</strong> Compilación exitosa de la aplicación móvil</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/android-build-successful.png"
        alt="Compilación exitosa de la aplicación móvil"
@@ -8177,6 +9244,10 @@ La siguiente imagen evidencia la compilación satisfactoria de la aplicación m�
 </p>
 
 La siguiente imagen evidencia la ejecución de la aplicación móvil y la validación del flujo de autenticación:
+
+La [Figura 188](#figura-188) muestra prueba funcional del flujo de autenticación.
+
+<p id="figura-188"><strong>Figura 188.</strong> Prueba funcional del flujo de autenticación</p>
 
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/mobile-authentication-test.jpeg"
@@ -8186,6 +9257,10 @@ La siguiente imagen evidencia la ejecución de la aplicación móvil y la valida
 
 La siguiente imagen evidencia que la Fake API se encuentra publicada y disponible mediante Render:
 
+La [Figura 189](#figura-189) muestra prueba de disponibilidad de la fake api.
+
+<p id="figura-189"><strong>Figura 189.</strong> Prueba de disponibilidad de la Fake API</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/fake-api-health-check.png"
        alt="Prueba de disponibilidad de la Fake API"
@@ -8193,6 +9268,10 @@ La siguiente imagen evidencia que la Fake API se encuentra publicada y disponibl
 </p>
 
 La siguiente imagen evidencia la visualización y validación de la Landing Page publicada:
+
+La [Figura 190](#figura-190) muestra prueba funcional de la landing page.
+
+<p id="figura-190"><strong>Figura 190.</strong> Prueba funcional de la Landing Page</p>
 
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/landing-page-test.png"
@@ -8213,6 +9292,10 @@ La Landing Page de Muyu comunica la propuesta de valor del producto a agricultor
 
 La interfaz fue desarrollada con HTML5, CSS3 y JavaScript. Los recursos gráficos se almacenan localmente en la carpeta `assets`, mientras que el diseño responsive permite visualizar correctamente el contenido desde computadoras y dispositivos móviles.
 
+La [Figura 191](#figura-191) muestra ejecución de la landing page de muyu.
+
+<p id="figura-191"><strong>Figura 191.</strong> Ejecución de la Landing Page de Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/landing-page-execution.png"
        alt="Ejecución de la Landing Page de Muyu"
@@ -8227,6 +9310,10 @@ La aplicación móvil permite crear una cuenta seleccionando el rol de agriculto
 
 Después de registrar correctamente la cuenta, la aplicación dirige al usuario a la pantalla de inicio de sesión para que pueda ingresar con las credenciales creadas.
 
+La [Figura 192](#figura-192) muestra ejecución del registro de usuario en muyu.
+
+<p id="figura-192"><strong>Figura 192.</strong> Ejecución del registro de usuario en Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/mobile-register-execution.png"
        alt="Ejecución del registro de usuario en Muyu"
@@ -8239,6 +9326,10 @@ La pantalla de inicio de sesión permite ingresar mediante el correo electrónic
 
 Según el rol autenticado, la aplicación muestra la navegación y las funcionalidades correspondientes al agricultor o al comerciante.
 
+La [Figura 193](#figura-193) muestra ejecución del inicio de sesión en muyu.
+
+<p id="figura-193"><strong>Figura 193.</strong> Ejecución del inicio de sesión en Muyu</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/mobile-login-execution.png"
        alt="Ejecución del inicio de sesión en Muyu"
@@ -8248,6 +9339,10 @@ Según el rol autenticado, la aplicación muestra la navegación y las funcional
 ##### Ejecución del recorrido de bienvenida
 
 Antes de ingresar al flujo de autenticación, la aplicación presenta un recorrido de bienvenida que explica las principales funcionalidades de Muyu. El usuario puede avanzar entre las pantallas o seleccionar la opción para omitir el recorrido.
+
+La [Figura 194](#figura-194) muestra ejecución del recorrido de bienvenida.
+
+<p id="figura-194"><strong>Figura 194.</strong> Ejecución del recorrido de bienvenida</p>
 
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/mobile-onboarding-execution.png"
@@ -8261,6 +9356,10 @@ Al iniciar sesión como agricultor, la aplicación presenta las opciones relacio
 
 La siguiente evidencia muestra una parcela publicada por un agricultor, incluyendo su imagen, ubicación, cultivo, plan de financiamiento, hitos agrícolas y estado actual.
 
+La [Figura 195](#figura-195) muestra ejecución de una parcela publicada por el agricultor.
+
+<p id="figura-195"><strong>Figura 195.</strong> Ejecución de una parcela publicada por el agricultor</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/farmer-parcel-execution.png"
        alt="Ejecución de una parcela publicada por el agricultor"
@@ -8272,6 +9371,10 @@ La siguiente evidencia muestra una parcela publicada por un agricultor, incluyen
 El agricultor puede seleccionar uno de los hitos definidos para la parcela: siembra, riego, fertilización o cosecha. Después de seleccionar el hito, la aplicación permite registrar una fotografía, los datos del insumo utilizado, la cantidad aplicada y notas adicionales.
 
 La evidencia registrada se asocia con la parcela correspondiente y se sincroniza con la Fake API cuando existe conexión a Internet.
+
+La [Figura 196](#figura-196) muestra selección de un hito agrícola.
+
+<p id="figura-196"><strong>Figura 196.</strong> Selección de un hito agrícola</p>
 
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/milestone-selection-execution.png"
@@ -8285,6 +9388,10 @@ Al iniciar sesión como comerciante, la aplicación presenta las funcionalidades
 
 La información mostrada incluye el nombre de la parcela, el cultivo, la ubicación, el monto solicitado, el estado de financiamiento y las evidencias agrícolas registradas.
 
+La [Figura 197](#figura-197) muestra ejecución de la aplicación para el comerciante.
+
+<p id="figura-197"><strong>Figura 197.</strong> Ejecución de la aplicación para el comerciante</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/merchant-plots-execution.png"
        alt="Ejecución de la aplicación para el comerciante"
@@ -8296,6 +9403,10 @@ La información mostrada incluye el nombre de la parcela, el cultivo, la ubicaci
 La sección de perfil muestra la información del usuario autenticado y las opciones disponibles para administrar su cuenta. Desde esta pantalla también se puede acceder a los términos y condiciones de Muyu.
 
 Al seleccionar la opción `Cerrar sesión`, la aplicación elimina los datos de autenticación almacenados y dirige al usuario a la pantalla de inicio de sesión. De esta manera, el usuario debe volver a ingresar sus credenciales para acceder nuevamente a la aplicación.
+
+La [Figura 198](#figura-198) muestra ejecución del perfil y cierre de sesión.
+
+<p id="figura-198"><strong>Figura 198.</strong> Ejecución del perfil y cierre de sesión</p>
 
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/profile-execution.png"
@@ -8309,6 +9420,10 @@ La Fake API de Muyu fue implementada con Node.js y desplegada como un Web Servic
 
 La página principal presenta un panel visual con el estado del servicio, los recursos disponibles y los endpoints que pueden utilizarse.
 
+La [Figura 199](#figura-199) muestra panel principal de la fake api desplegada en render.
+
+<p id="figura-199"><strong>Figura 199.</strong> Panel principal de la Fake API desplegada en Render</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/fake-api-dashboard-execution.png"
        alt="Panel principal de la Fake API desplegada en Render"
@@ -8321,6 +9436,10 @@ URL de ejecución de la Fake API: [Muyu Fake API](https://muyu-fake-api.onrender
 
 El endpoint `GET /api/users` permite consultar los usuarios almacenados en la Fake API. Por seguridad, la respuesta no muestra las contraseñas de las cuentas registradas.
 
+La [Figura 200](#figura-200) muestra usuarios registrados en la fake api.
+
+<p id="figura-200"><strong>Figura 200.</strong> Usuarios registrados en la Fake API</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/fake-api-users-execution.png"
        alt="Usuarios registrados en la Fake API"
@@ -8332,6 +9451,10 @@ URL del recurso de usuarios: [Usuarios registrados](https://muyu-fake-api.onrend
 ##### Ejecución del recurso de parcelas
 
 El endpoint `GET /api/plots` permite consultar las parcelas disponibles en la Fake API. La información recuperada es utilizada por la aplicación móvil para mostrar las parcelas publicadas tanto al agricultor como al comerciante.
+
+La [Figura 201](#figura-201) muestra parcelas registradas en la fake api.
+
+<p id="figura-201"><strong>Figura 201.</strong> Parcelas registradas en la Fake API</p>
 
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/fake-api-plots-execution.png"
@@ -8360,6 +9483,10 @@ https://muyu-fake-api.onrender.com/api/
 ```
 
 Los servicios implementados durante el Sprint 1 son los siguientes:
+
+La [Tabla 89](#tabla-89) organiza la información correspondiente a services documentation evidence for sprint review.
+
+<p id="tabla-89"><strong>Tabla 89.</strong> Services Documentation Evidence for Sprint Review</p>
 
 | Servicio (Endpoint) | Método | Descripción | Payload / Parámetros |
 |---|---|---|---|
@@ -8417,6 +9544,10 @@ Authorization: Bearer <token>
 
 La página principal de la Fake API presenta el estado del servicio, la cantidad de usuarios y parcelas almacenadas, así como los endpoints disponibles.
 
+La [Figura 202](#figura-202) muestra panel principal de la fake api desplegada en render.
+
+<p id="figura-202"><strong>Figura 202.</strong> Panel principal de la Fake API desplegada en Render</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/fake-api-dashboard-execution.png"
        alt="Panel principal de la Fake API desplegada en Render"
@@ -8429,6 +9560,10 @@ URL del servicio: [Muyu Fake API](https://muyu-fake-api.onrender.com)
 
 El recurso `/api/users` permite verificar los usuarios registrados en el servicio. Las contraseñas no son incluidas en la respuesta para evitar la exposición de información sensible.
 
+La [Figura 203](#figura-203) muestra usuarios registrados en la fake api.
+
+<p id="figura-203"><strong>Figura 203.</strong> Usuarios registrados en la Fake API</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/fake-api-users-execution.png"
        alt="Usuarios registrados en la Fake API"
@@ -8440,6 +9575,10 @@ URL del recurso: [Usuarios registrados](https://muyu-fake-api.onrender.com/api/u
 ##### Evidencia 3: Consulta de parcelas publicadas
 
 El recurso `/api/plots` devuelve las parcelas utilizadas por la aplicación móvil. Esta información puede ser consultada tanto por las funcionalidades del agricultor como por las del comerciante.
+
+La [Figura 204](#figura-204) muestra parcelas registradas en la fake api.
+
+<p id="figura-204"><strong>Figura 204.</strong> Parcelas registradas en la Fake API</p>
 
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/fake-api-plots-execution.png"
@@ -8482,6 +9621,10 @@ landing-muyu/
 
 ##### Evidencia 1: Landing Page publicada en Netlify
 
+La [Figura 205](#figura-205) muestra prueba funcional de la landing page.
+
+<p id="figura-205"><strong>Figura 205.</strong> Prueba funcional de la Landing Page</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/landing-page-test.png"
        alt="Prueba funcional de la Landing Page"
@@ -8496,6 +9639,10 @@ URL de la Landing Page: [Landing Page de Muyu](https://allpatech.netlify.app/#)
 La Fake API se encuentra almacenada en el repositorio `fake-api` de la organización AllpaTech. Para su publicación se utilizó Render mediante un Web Service configurado con Node.js.
 
 La configuración utilizada para el despliegue fue la siguiente:
+
+La [Tabla 90](#tabla-90) organiza la información correspondiente a despliegue de la fake api mediante render.
+
+<p id="tabla-90"><strong>Tabla 90.</strong> Despliegue de la Fake API mediante Render</p>
 
 | Configuración | Valor |
 |---|---|
@@ -8520,6 +9667,10 @@ El proceso de despliegue fue el siguiente:
 
 ##### Evidencia 2: Web Service publicado en Render
 
+La [Figura 206](#figura-206) muestra prueba de disponibilidad de la fake api.
+
+<p id="figura-206"><strong>Figura 206.</strong> Prueba de disponibilidad de la Fake API</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/fake-api-health-check.png"
        alt="Prueba de disponibilidad de la Fake API"
@@ -8531,6 +9682,10 @@ URL de la Fake API: [Muyu Fake API](https://muyu-fake-api.onrender.com)
 ##### Evidencia 3: Despliegue automático desde GitHub
 
 La integración entre GitHub y Render permite generar un nuevo despliegue cada vez que se envían cambios a la rama `main` del repositorio de la Fake API.
+
+La [Figura 207](#figura-207) muestra prueba de disponibilidad de la fake api.
+
+<p id="figura-207"><strong>Figura 207.</strong> Prueba de disponibilidad de la Fake API</p>
 
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/git-hub.png"
@@ -8553,6 +9708,10 @@ El proceso realizado fue el siguiente:
 
 ##### Evidencia 4: Compilación exitosa de la aplicación móvil
 
+La [Figura 208](#figura-208) muestra compilación exitosa de la aplicación móvil.
+
+<p id="figura-208"><strong>Figura 208.</strong> Compilación exitosa de la aplicación móvil</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/android-build-successful.png"
        alt="Compilación exitosa de la aplicación móvil"
@@ -8560,6 +9719,10 @@ El proceso realizado fue el siguiente:
 </p>
 
 ##### Evidencia 5: Archivo APK generado
+
+La [Figura 209](#figura-209) muestra archivo apk generado desde android studio.
+
+<p id="figura-209"><strong>Figura 209.</strong> Archivo APK generado desde Android Studio</p>
 
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/android-apk-generated.png"
@@ -8579,6 +9742,10 @@ GitHub fue utilizado como herramienta principal para el control de versiones. El
 
 Los repositorios utilizados durante el Sprint 1 fueron los siguientes:
 
+La [Tabla 91](#tabla-91) organiza la información correspondiente a team collaboration insights during sprint.
+
+<p id="tabla-91"><strong>Tabla 91.</strong> Team Collaboration Insights during Sprint</p>
+
 | Repository | Purpose |
 |---|---|
 | `muyu-report` | Documentación del proyecto, historias de usuario, arquitectura y evidencias del Sprint. |
@@ -8590,6 +9757,10 @@ Los repositorios utilizados durante el Sprint 1 fueron los siguientes:
 El equipo utilizó commits descriptivos para registrar los cambios realizados. En el repositorio del reporte se utilizó la rama `develop` para integrar la documentación, mientras que los repositorios de implementación utilizaron la rama `main` para mantener la versión funcional de cada componente.
 
 La distribución de las principales responsabilidades durante el Sprint 1 fue la siguiente:
+
+La [Tabla 92](#tabla-92) organiza la información correspondiente a team collaboration insights during sprint.
+
+<p id="tabla-92"><strong>Tabla 92.</strong> Team Collaboration Insights during Sprint</p>
 
 | Team Member | Main Contribution during Sprint 1 |
 |---|---|
@@ -8605,6 +9776,10 @@ La comunicación del equipo permitió coordinar los avances y mantener alineados
 
 El historial del repositorio `muyu-report` evidencia la participación de los integrantes en la documentación, arquitectura, historias de usuario, análisis del producto y actualización de los artefactos correspondientes al Sprint.
 
+La [Figura 210](#figura-210) muestra contribuciones del equipo en el repositorio del reporte.
+
+<p id="figura-210"><strong>Figura 210.</strong> Contribuciones del equipo en el repositorio del reporte</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/report-contributors.png"
        alt="Contribuciones del equipo en el repositorio del reporte"
@@ -8614,6 +9789,10 @@ El historial del repositorio `muyu-report` evidencia la participación de los in
 ##### Evidencia 2: Contribuciones en el repositorio de la Landing Page
 
 El historial del repositorio `Landing-page` muestra los cambios realizados en la estructura visual, contenido, recursos gráficos, estilos e interacciones de la página.
+
+La [Figura 211](#figura-211) muestra contribuciones en el repositorio de la landing page.
+
+<p id="figura-211"><strong>Figura 211.</strong> Contribuciones en el repositorio de la Landing Page</p>
 
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/landing-contributors.png"
@@ -8625,6 +9804,10 @@ El historial del repositorio `Landing-page` muestra los cambios realizados en la
 
 El repositorio `muyu-app` conserva el código fuente de la aplicación desarrollada con Kotlin y Jetpack Compose, incluyendo las pantallas, navegación, lógica de presentación e integración con la Fake API.
 
+La [Figura 212](#figura-212) muestra historial de commits de la aplicación móvil.
+
+<p id="figura-212"><strong>Figura 212.</strong> Historial de commits de la aplicación móvil</p>
+
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/mobile-commits.png"
        alt="Historial de commits de la aplicación móvil"
@@ -8634,6 +9817,10 @@ El repositorio `muyu-app` conserva el código fuente de la aplicación desarroll
 ##### Evidencia 4: Tablero de seguimiento del Sprint
 
 El tablero de Trello permitió organizar las historias de usuario y tareas técnicas en los estados `To Do`, `In Process` y `Done`. Esta distribución facilitó el seguimiento de las actividades y permitió identificar las funcionalidades completadas y pendientes.
+
+La [Figura 213](#figura-213) muestra tablero de seguimiento del sprint 1.
+
+<p id="figura-213"><strong>Figura 213.</strong> Tablero de seguimiento del Sprint 1</p>
 
 <p align="center">
   <img src="assets/images/chapter04/sprint-1/sprint-backlog-1.png"
@@ -8753,7 +9940,7 @@ SQLite Consortium. (s. f.). *SQLite documentation*. Recuperado el 10 de octubre 
 
 # Anexos
 
-El material complementario se organiza en el [Anexo A](#anexo-a-reporte-de-análisis-de-entrevistas-en-power-bi), con el reporte de entrevistas, y el [Anexo B](#anexo-b-needfinding), con los materiales de Needfinding.
+El material complementario se organiza en el [Anexo A](#anexo-a-reporte-de-análisis-de-entrevistas-en-power-bi), que reúne el reporte de entrevistas; el [Anexo B](#anexo-b-needfinding), que contiene los materiales de Needfinding; y el [Anexo C](#anexo-c-video-de-presentación-de-tb1), que presenta el video de la entrega TB1.
 
 El Anexo A complementa el análisis principal y presenta el reporte completo de entrevistas desarrollado en Power BI, así como los materiales relacionados que respaldan la validación de hallazgos.
 
@@ -8765,3 +9952,9 @@ Se incluye el reporte elaborado en Power BI y los archivos relacionados con el p
 ## Anexo B. Needfinding
 
 [Acceder a las imagenes del Needfinding](https://drive.google.com/drive/folders/1duMlYLnnMw7aKBI8piZhUOFh11Hg-Plf?usp=sharing)
+
+## Anexo C. Video de presentación de TB1
+
+Este anexo contiene el video correspondiente a la presentación de la entrega TB1 del proyecto Muyu. En la exposición se presentan y explican los principales avances realizados por el equipo durante esta etapa del proyecto, incluyendo el diseño de la solución, los artefactos UI/UX, los flujos de usuario y los avances relacionados con la implementación del producto.
+
+[Acceder al video de presentación de TB1](https://youtu.be/I2mho2Nnh34)
