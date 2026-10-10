@@ -928,12 +928,12 @@ En el presente Sprint 1, el alcance funcional y técnico se ha dividido en tres 
 3. **Services & Deployment:** implementación de los servicios utilizados por la aplicación móvil y despliegue de la Fake API mediante Render.
 
 | Team Member (Last Name, First Name) | GitHub Username | Landing Page Leader (L) / Collaborator (C) | Mobile Application Leader (L) / Collaborator (C) | Services & Deployment Leader (L) / Collaborator (C) |
-|---|---|---|---|---|
-| Orellana Rodriguez, Mel Andree | u202116018 | C | C | C |
-| Berrospi Marin, Angel Guillermo | u202114701 | C | C | C |
-| Arroyo Gonzales, Emily Juliette | u202311469 | C | C | C |
-| Riveros Vera, Jennifer Yamilet | u20241c998 | L | C | C |
-| Quintanilla Pozo, Gonzalo Samuel | u202315007 | C | L | L |
+|---|---|--------------------------------------------|--------------------------------------------------|---|
+| Orellana Rodriguez, Mel Andree | u202116018 | C                                          | L                                                | C |
+| Berrospi Marin, Angel Guillermo | u202114701 | C                                          | C                                                | C |
+| Arroyo Gonzales, Emily Juliette | u202311469 | C                                          | C                                                | C |
+| Riveros Vera, Jennifer Yamilet | u20241c998 | L                                          | C                                                | C |
+| Quintanilla Pozo, Gonzalo Samuel | u202315007 | L                                          | C                                                | L |
 
 
 #### 4.2.1.3. Sprint Backlog 1
