@@ -88,6 +88,14 @@
 |   TB1   | 09-10-2026 | Quintanilla Pozo, Gonzalo Samue    | Despliegue del Frontend  |
 |   TB1   | 09-10-2026 | Quintanilla Pozo, Gonzalo Samue    | Despliegue de la Fake Api  |
 |   TB1   | 09-10-2026 | Quintanilla Pozo, Gonzalo Samue    | Despliegue del Backend  |
+| TB1     | 10-10-2026 | Riveros Vera, Jennifer Yamilet     | Desarrollo de Style Guidelines y sistema visual de Muyu |
+| TB1     | 10-10-2026 | Riveros Vera, Jennifer Yamilet     | Desarrollo de Information Architecture de la aplicación móvil |
+| TB1     | 10-10-2026 | Riveros Vera, Jennifer Yamilet     | Diseño de Landing Page Wireframe y Mock-up |
+| TB1     | 10-10-2026 | Riveros Vera, Jennifer Yamilet     | Diseño responsive de la Landing Page para Desktop y Mobile |
+| TB1     | 10-10-2026 | Riveros Vera, Jennifer Yamilet     | Diseño UX/UI de la aplicación móvil para Agricultor y Comerciante |
+| TB1     | 10-10-2026 | Riveros Vera, Jennifer Yamilet     | Diseño de Wireflows y User Flow Diagrams de la aplicación móvil |
+| TB1     | 10-10-2026 | Riveros Vera, Jennifer Yamilet     | Diseño de flujos de parcelas, evidencias, pagos, sincronización, alertas y visitas |
+| TB1     | 10-10-2026 | Riveros Vera, Jennifer Yamilet     | Creación y organización de assets gráficos y componentes del Capítulo III |
 
 
 </div>
@@ -101,7 +109,7 @@
 | Angel Guillermo Berrospi Marin | Desarrollo de la actualización de las User stories y creación de su estructura, Desarrollo de la actualización del Impact Mapping, Desarrollo de Entrevistas, Desarrollo de la actualización del Porduct Backlog y su estructura, Desarrollo de Mobile Applications . |
 | Mel Andree Orellana Rodriguez | Creación e inicialización de la estructura técnica del reporte, desarrollo de la sección de elicitación de requerimientos, priorización del Product Backlog, diseño y desarrollo de diagramas de EventStorming (Big Picture), Bounded Context Canvases, Context Map, Desarrollo de la Estructura del Frontend, Implementación Responsive en el Landing Page, Correcciones en el Backend, Correcciones del Impact Mapping, Implementación del Bounded Context Users y diagramas de arquitectura de software C4 (Contexto, Contenedor y Despliegue). |
 |Emily Juliette Arroyo Gonzales| Desarrollo de la edición del informe y redacción del capítulo 1|
-| Jennifer Yamilet Riveros Vera | Diseño y registro de entrevistas; incorporación de evidencias; elaboración y actualización de User Personas, User Task Matrix, User Journey Maps y Empathy Maps; análisis de entrevistas y dispositivos móviles; desarrollo del Big Picture Event Storming; elaboración del Ubiquitous Language|
+| Jennifer Yamilet Riveros Vera | Diseño y registro de entrevistas para los segmentos Agricultor y Comerciante / Comprador; elaboración y actualización de User Personas, User Task Matrix, User Journey Maps y Empathy Maps; análisis de entrevistas y dispositivos móviles; participación en Big Picture Event Storming y Ubiquitous Language. Para TB1, desarrollo del diseño UI/UX del Capítulo III, incluyendo Style Guidelines, Information Architecture, Landing Page Wireframe y Mock-up, diseño responsive, mock-ups de la aplicación móvil, Wireflows y User Flow Diagrams para los flujos de Agricultor y Comerciante, además de la organización de componentes y assets visuales del producto. |
 |Gonzalo Samuel Quintanilla Pozo | Desarrollo del diseño táctico de la arquitectura de software mediante Domain-Driven Design (Capítulo 2.6). Lideré la estructuración de las capas de Dominio, Interfaz, Aplicación e Infraestructura, así como la elaboración de los diagramas de componentes, diagramas de clases de dominio y diseño de esquemas de base de datos para los Bounded Contexts: Contract & Escrow Service, Parcel Management Service, Implementación del Backend, Implementación de la Fake Api, Correcciones del Frontend en la parte de Evidencias, Implementación de la Estructura de la Landing, Despliegue de la Landing, Despliegue del Frontend, Despliegue de la Fake Api, Despliegue del Backend y MUYU Mobile Offline Sync Context.|
 </div>
 
@@ -142,6 +150,17 @@ El Student Outcome 7 establece que el estudiante debe ser capaz de adquirir y ap
             <li><b>AV1 - Jennifer Yamilet Riveros Vera:</b> Investigué y apliqué técnicas de Needfinding y modelado de dominio durante el desarrollo del Capítulo II. Elaboré User Personas, User Task Matrix, User Journey Maps y Empathy Maps a partir de la información obtenida en las entrevistas. También desarrollé el análisis de entrevistas y dispositivos móviles, y apliqué Big Picture Event Storming y Ubiquitous Language para representar y definir conceptos relevantes del dominio.</li>
             <li><b>AV1 - Gonzalo Samuel Quintanilla Pozo:</b> Asumí el liderazgo técnico en el diseño táctico de la arquitectura (Domain-Driven Design) desde la sección 2.6. Me encargué de estructurar las capas de Dominio, Aplicación e Infraestructura, y elaboré los diagramas de componentes, clases y diseño de base de datos (relacional y local) para los Bounded Contexts del proyecto.</li>
               <li><b> TB1 - Gonzalo Samuel Quintanilla Pozo:</b> Investigué y apliqué conceptos avanzados de arquitectura de software en .NET 8 (CQRS, monolito modular) e integración continua para servicios web. Implementé la arquitectura base del backend, construí y desplegué la Fake API, realicé correcciones en el flujo de evidencias del frontend y gestioné el despliegue en entornos de producción para la Landing Page, la Fake API y el servicio Backend.</li>
+              <li>
+              <b>TB1 - Jennifer Yamilet Riveros Vera:</b>
+              Actualicé y apliqué conocimientos de diseño UX/UI para desarrollar el Capítulo III de Muyu. 
+              Definí los Style Guidelines del producto, incluyendo branding, colores, tipografía, iconografía, 
+              espaciado, componentes, tono de comunicación y criterios de accesibilidad. Asimismo, desarrollé 
+              la Information Architecture mediante sistemas de organización, etiquetado, búsqueda y navegación, 
+              y diseñé los wireframes, mock-ups y estructura responsive de la Landing Page. Para la aplicación 
+              móvil, trabajé los mock-ups, wireflows y User Flow Diagrams de los segmentos Agricultor y Comerciante, 
+              alineando los flujos de parcelas, evidencias, pagos, sincronización, alertas y visitas con las 
+              necesidades identificadas en las entrevistas.
+            </li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -162,6 +181,16 @@ El Student Outcome 7 establece que el estudiante debe ser capaz de adquirir y ap
              <li><b>AV1 - Jennifer Yamilet Riveros Vera:</b> Durante la elaboración de los artefactos de Needfinding y modelado del dominio, revisé y adapté continuamente mis conocimientos para corregir User Personas, User Journey Maps y el Big Picture Event Storming conforme avanzaba la comprensión del proyecto.</li>
              <li><b>AV1 - Gonzalo Samuel Quintanilla Pozo:</b> Planifiqué el desarrollo de los esquemas tácticos asegurando su entrega en los plazos establecidos. Coordiné activamente con mis compañeros para garantizar que mis diagramas de bases de datos y clases estuvieran perfectamente alineados con el EventStorming y el Context Mapping general construido por el resto del equipo.</li>
               <li><b> TB1 - Gonzalo Samuel Quintanilla Pozo:</b> Reconocí la importancia de adaptar la infraestructura y los entornos de ejecución a las necesidades cambiantes del proyecto, gestionando el ciclo de vida de los despliegues y resolviendo problemas de integración entre la Fake API y los componentes de frontend para la captura de evidencias en campo.</li>
+              <li>
+              <b>TB1 - Jennifer Yamilet Riveros Vera:</b>
+              Durante el desarrollo del Capítulo III revisé y ajusté de forma continua las decisiones de diseño 
+              conforme se validaban los flujos y se identificaban inconsistencias entre las entrevistas, los 
+              User Personas y las pantallas de Muyu. Profundicé en el uso de Figma, sistemas de diseño, 
+              arquitectura de información, diseño responsive y criterios de accesibilidad para mejorar la 
+              coherencia entre la Landing Page y la aplicación móvil. Este proceso me permitió reconocer que 
+              el diseño de una solución de software requiere aprender, contrastar y corregir continuamente las 
+              decisiones tomadas a partir de nueva evidencia y de la evolución del producto.
+            </li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -8584,31 +8613,6 @@ Como resultado del trabajo colaborativo, el equipo logró completar la primera v
 
 
 # Conclusiones y Recomendaciones
-
-## Conclusiones
-
-En el desarrollo del producto **Muyu**, la startup **AllpaTech** abordó una problemática real del agro peruano: la **falta de coordinación y confianza** entre **agricultores** y **comerciantes** cuando se registran labores, se presentan evidencias y se liberan fondos por hitos. Las entrevistas, el análisis de competidores y los artefactos de Needfinding (personas, journey maps, empatía y Event Storming) permitieron confirmar que la propuesta debe priorizar **evidencia verificable**, **trabajo con conectividad limitada** y **transparencia en los acuerdos de financiamiento**.
-
-La **arquitectura** documentada con **modelo C4**, **Context Map** y **DDD** (estrategia y diseño táctico) estableció una base **modular y escalable** para la aplicación móvil, el backend en **.NET 8**, la **Fake API** y la **Landing Page**. Esto facilitó que el equipo implementara en paralelo sin perder alineación con el dominio.
-
-En **diseño UX/UI**, se definieron lineamientos visuales (Material Design 3 adaptado al campo), wireframes, wireflows, mock-ups y diagramas de flujo para **agricultor** y **comerciante**, además del diseño de la landing. El enfoque **mobile-first** y **offline-first** responde al contexto de uso en zonas rurales y a la necesidad de interfaces legibles bajo sol y con manos ocupadas.
-
-En el **Sprint 1** se obtuvo evidencia concreta de implementación: estructura del frontend, landing responsive, bounded context de **Users**, backend y Fake API, pruebas y despliegues (Netlify, Railway, etc.), y flujos iniciales de la app móvil (autenticación, onboarding, parcelas, entre otros). El trabajo colaborativo mediante **Git** y ramas por capítulo permitió integrar avances de todo el equipo en `develop`.
-
-En conjunto, el proyecto demuestra que **Muyu** es viable como marketplace agro con diferenciación en **Escrow por hitos verificables** y **evidencia georreferenciada**, frente a competidores que no cubren de forma integrada confianza, trazabilidad y uso móvil en campo. Aún restan sprints para completar el producto mínimo, validarlo con usuarios reales y cerrar integraciones críticas (pagos, notificaciones, reglas de negocio completas).
-
-
-## Recomendaciones
-
-- Realizar **entrevistas de validación** (sección 4.3) con prototipos navegables para comprobar que agricultores y comerciantes comprenden el flujo de evidencias, hitos y Escrow.
-- En los **Sprint 2 y 3**, priorizar el ciclo completo del negocio (parcela → financiamiento → evidencia → aprobación → pago) y mejorar la experiencia **offline** con estados de sincronización visibles.
-- Completar los **Bounded Contexts** pendientes, migrar de la Fake API al **backend real** y reforzar seguridad (JWT, roles y validación de evidencia georreferenciada).
-- Ampliar **pruebas automatizadas** en los flujos críticos y registrar evidencias en cada sprint review.
-- Mantener integraciones frecuentes a `develop`, actualizar el **registro de versiones** del informe y elaborar los **videos** de validación, producto y equipo solicitados en la entrega.
-
-
-
-
 
 # Video App Validation
 
