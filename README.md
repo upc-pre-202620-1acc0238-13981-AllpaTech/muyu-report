@@ -7217,6 +7217,59 @@ El flujo de recuperación de contraseña funciona así:
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
+El prototipo interactivo de Muyu fue desarrollado a partir de los Mock-ups y User Flow Diagrams definidos previamente. Su objetivo es representar la navegación principal de la aplicación móvil y permitir comprobar la relación entre las acciones del Agricultor y del Comerciante dentro de los principales procesos del producto.
+
+Las interacciones mantienen la arquitectura de información establecida para cada segmento. El Agricultor dispone de las secciones `Home`, `Plots`, `Sync`, `Payments` y `Profile`, mientras que el Comerciante utiliza `Catalog`, `My plots`, `Alerts`, `Payments` y `Profile`. Esta diferencia permite que cada usuario acceda directamente a las funciones relacionadas con sus tareas principales.
+
+##### Principales flujos incluidos en el prototipo
+
+**Agricultor**
+
+- Publicación y gestión de parcelas.
+- Registro y envío de evidencias de campo.
+- Registro de evidencias con conectividad limitada.
+- Sincronización de evidencias pendientes.
+- Corrección de evidencias rechazadas.
+- Consulta de alertas climáticas.
+- Gestión de solicitudes de visita.
+- Consulta del historial y detalle de pagos.
+- Gestión del perfil y datos de cuenta.
+
+**Comerciante**
+
+- Exploración de parcelas desde `Catalog`.
+- Consulta del detalle de una parcela.
+- Financiamiento de un plan de producción.
+- Seguimiento de parcelas financiadas.
+- Revisión de evidencias asociadas a hitos.
+- Aprobación de hitos y liberación de pagos.
+- Solicitud de correcciones.
+- Gestión de solicitudes de visita.
+- Revisión de solicitudes de extensión.
+- Consulta de alertas y eventos relacionados con la producción.
+- Confirmación de recepción de la cosecha.
+- Consulta del historial de pagos.
+
+##### Prototipo interactivo
+
+**Enlace al prototipo:**  
+[Video del prototipo interactivo de Muyu](https://youtu.be/FmUKW6Y49tc?si=aTAZK8n7Ug031f4t)
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-prototyping/video-prototype.png"
+       alt="Video del prototipo interactivo de la aplicación móvil Muyu"
+       width="800"/>
+</p>
+
+**Enlace al prototipo:**  
+[Ver prototipo interactivo de Muyu](https://www.figma.com/design/UqCTwgxtwsgNu1uqXNjGhy/MUYU-COMPLETO?node-id=0-1&t=KfI5HyH45zr9I4mm-1)
+
+<p align="center">
+  <img src="assets/images/chapter03/mobile-prototyping/mobile-prototype.png"
+       alt="Prototipo interactivo de la aplicación móvil Muyu"
+       width="800"/>
+</p>
+
 <div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Implementation & Validation
