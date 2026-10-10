@@ -3723,32 +3723,11 @@ El Product Backlog de ALLPATEK reúne y prioriza todas las historias de usuario 
 [Tablero de Trello - Allpatech](https://trello.com/b/dijipklh/allpatech)
 
 ## 2.5. Strategic-Level Domain-Driven Design
+
 ### 2.5.1. EventStorming
 
-En esta sección se documenta el EventStorming realizado por el equipo de TerraNova para modelar el dominio de la plataforma ALLPATEK. Esta dinámica permitió mapear los eventos clave del dominio, los comandos accionados por los actores (Productor Agrícola y Comerciante, los puntos de dolor operacionales y las integraciones con sistemas externos como la Bóveda Escrow, el motor n8n y la API de OpenWeather.
+En esta sección se documenta el EventStorming realizado por el equipo de Allpatech para modelar el dominio de la plataforma Muyu. Esta dinámica permitió mapear los eventos clave del dominio, los comandos accionados por los actores (Productor Agrícola y Comerciante, los puntos de dolor operacionales y las integraciones con sistemas externos como la Bóveda Escrow, el motor n8n y la API de OpenWeather.
 
-A continuación se presenta la evidencia gráfica dividida en la vista general del tablero y las secciones detalladas del flujo de negocio:
-
-* **Vista General del Tablero:** Muestra la vista panorámica completa de la línea de tiempo del dominio, abarcando desde la fase de alta de parcelas hasta la conclusión de los contratos agrícolas.
-
-<p align="center">
-  <img alt="2.5.1. EventStorming — EventStormingGeneral" src="assets/images/chapter02/EventStormingGeneral.png" width="800" />
-</p>
-<p id="figura-18"><strong>Figura 18.</strong> EventStorming — EventStormingGeneral</p>
-
-* **Fase de Onboarding, Registro y Negociación:** Detalla el flujo inicial de captura de coordenadas GPS, publicación de hectáreas en el catálogo y la generación y firma del contrato digital respaldado en PDF.
-
-<p align="center">
-  <img alt="2.5.1. EventStorming — EventStorming01" src="assets/images/chapter02/EventStorming01.png" width="400" />
-</p>
-<p id="figura-19"><strong>Figura 19.</strong> EventStorming — EventStorming01</p>
-
-* **Fase de Custodia Escrow, Monitoreo Climático y Liberación de Pagos:** Modela la secuencia financiera de bloqueo de fondos en la bóveda, el envío de alertas meteorológicas y la validación de evidencias fotográficas para los desembolsos parciales por hitos cumplidos.
-
-<p align="center">
-  <img alt="2.5.1. EventStorming — EventStorming02" src="assets/images/chapter02/EventStorming02.png" width="400" />
-</p>
-<p id="figura-20"><strong>Figura 20.</strong> EventStorming — EventStorming02</p>
 
 
 #### 2.5.1.1. Candidate Context Discovery
@@ -3795,7 +3774,7 @@ Se identificó de manera temprana la frontera que separa la administración y va
 En la etapa final, el equipo refinó las agrupaciones hasta definir los **5 Bounded Contexts principales** de la plataforma, modelando los flujos de comunicación e intercambio de eventos de dominio entre ellos:
 
 <p align="center">
-  <img alt="Paso 3: Consolidación e Interconexión de Bounded Contexts — discovery 03" src="assets/images/chapter02/event-storming/discovery-03.png" width="800" />
+  <img alt="Paso 3: Consolidación e Interconexión de Bounded Contexts — discovery 03" src="assets/images/chapter02/boundedContext.png" width="800" />
 </p>
 <p id="figura-23"><strong>Figura 23.</strong> Consolidación e Interconexión de Bounded Contexts</p>
 
