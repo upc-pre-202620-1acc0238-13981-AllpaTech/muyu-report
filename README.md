@@ -663,7 +663,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-1.png"
        alt="Hero"
-       width="10000"/>
+       width="800"/>
   </p>
 
 ##### About Muyu
@@ -671,7 +671,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-2.png"
        alt="About Muyu"
-       width="10000"/>
+       width="800"/>
   </p>
 
 ##### Core Features
@@ -679,7 +679,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-3.png"
        alt="Core Features"
-       width="10000"/>
+       width="800"/>
   </p>
 
 ##### Production Plans
@@ -687,7 +687,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-4.png"
        alt="Production Plans"
-       width="10000"/>
+       width="800"/>
   </p>
 
 ##### How It Works
@@ -695,7 +695,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-5.png"
        alt="How It Works"
-       width="10000"/>
+       width="800"/>
   </p>
 
 ##### Payments
@@ -703,7 +703,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-6.png"
        alt="Payments"
-       width="10000"/>
+       width="800"/>
   </p>
 
 ##### For Farmers and Merchants
@@ -711,7 +711,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-7.png"
        alt="For Farmers and Merchants"
-       width="10000"/>
+       width="800"/>
   </p>
 
 ##### Frequently Asked Questions
@@ -719,7 +719,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-8.png"
        alt="Frequently Asked Questions"
-       width="10000"/>
+       width="800"/>
   </p>
 
 ##### Testimonials
@@ -727,7 +727,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-9.png"
        alt="Testimonials"
-       width="10000"/>
+       width="800"/>
   </p>
 
 ##### Call to Action
@@ -735,7 +735,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-10.png"
        alt="Call to Action"
-       width="10000"/>
+       width="800"/>
   </p>
 
 ##### Contact
@@ -743,7 +743,7 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-11.png"
        alt="Contact"
-       width="10000"/>
+       width="800"/>
   </p>
 
 ##### Footer
@@ -751,64 +751,64 @@ La navegación inferior se limita a cinco opciones por rol y combina iconos con 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPD-12.png"
        alt="Footer"
-       width="10000"/>
+       width="800"/>
   </p>
 
 - Mobile Web Browser
 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-1.png"
-       width="10000"/>
+       width="100"/>
   </p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-2.png"
-       width="10000"/>
+       width="100"/>
   </p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-3.png"
-       width="10000"/>
+       width="100"/>
   </p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-4.png"
-       width="10000"/>
+       width="100"/>
   </p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-4.2.png"
-       width="10000"/>
+       width="100"/>
   </p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-5.png"
-       width="10000"/>
+       width="100"/>
   </p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-6.png"
-       width="10000"/>
+       width="100"/>
   </p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-7.png"
-       width="10000"/>
+       width="100"/>
   </p>
 
     <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-8.png"
-       width="10000"/>
+       width="100"/>
   </p>
 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-9.png"
-       width="10000"/>
+       width="100"/>
   </p>
 
   <p align="center">
   <img src="assets/images/chapter03/wireframe landing page/WFLPM-10.png"
-       width="10000"/>
+       width="100"/>
   </p>
 
 #### 3.1.3.2. Landing Page Mock-up
