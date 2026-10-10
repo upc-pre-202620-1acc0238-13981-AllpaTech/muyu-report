@@ -1009,6 +1009,102 @@ También reúne los accesos legales a Terms and Conditions y Privacy Policy, jun
 
 ##### Mobile Web Browser
 
+##### Hero
+  
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/hero-mockup.png"
+       alt="Hero"
+       width="150"/>
+  </p>
+
+##### About Muyu
+
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/about-mockup.png"
+       alt="About Muyu"
+       width="150"/>
+  </p>
+
+##### Core Features
+ 
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/feature-mockup.png"
+       alt="Core Features"
+       width="150"/>
+  </p>
+
+##### Production Plans
+
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/planes-mockup.png"
+       alt="Production Plans"
+       width="150"/>
+  </p>
+
+##### How It Works
+
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/How-it-work-mockup.png"
+       alt="How It Works"
+       width="150"/>
+  </p>
+
+##### Payments
+
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/payments-mockup.png"
+       alt="Payments"
+       width="150"/>
+  </p>
+
+##### For Farmers and Merchants
+
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/For-Farmers-and-Merchants-mockup.png"
+       alt="For Farmers and Merchants"
+       width="150"/>
+  </p>
+
+##### Frequently Asked Questions
+
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/faq-mockup.png"
+       alt="Frequently Asked Questions"
+       width="150"/>
+  </p>
+
+##### Testimonials
+
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/testimonials-mockup.png"
+       alt="Testimonials"
+       width="150"/>
+  </p>
+
+##### Call to Action
+
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/call-mockup.png"
+       alt="Call to Action"
+       width="150"/>
+  </p>
+
+##### Contact
+
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/contact-mockup.png"
+       alt="Contact"
+       width="150"/>
+  </p>
+
+##### Footer
+
+  <p align="center">
+  <img src="assets/images/chapter03/mockup-landing-page/footer-mockup.png"
+       alt="Footer"
+       width="150"/>
+  </p>
+
 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
