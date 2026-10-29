@@ -9891,6 +9891,37 @@ La [Tabla 95](#tabla-95) registra los work items asociados al trabajo de esta it
 | US20 | Panel resumen de parcelas del agricultor | WI-16 | Aislamiento de datos por usuario | Persistir la sesión, volver al login sin usuario autenticado y quitar los respaldos a cuentas de demostración. | 5 | Riveros, Jennifer | Done |
 | US03 | Publicación de nueva parcela | WI-17 | Ajustes del formulario de publicación | Ajustar el formulario de información de la parcela y el selector de fechas reutilizable. | 3 | Riveros, Jennifer | Done |
 
+### 4.2.2.4. Development Evidence for Sprint Review
+
+Los avances implementados durante el Sprint 2 se registraron mediante commits realizados principalmente sobre la rama `main` del repositorio `AllpaTech/muyu-app`. La [Tabla 96](#tabla-96) presenta los commits asociados al trabajo documentado en esta iteración.
+
+<p id="tabla-96"><strong>Tabla 96.</strong> Development Evidence for Sprint Review</p>
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| `AllpaTech/muyu-app` | `main` | [`bb360e3`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/bb360e3e7f404e14634bb02a729d9fe4caf509dc) | `build:` | enable core library desugaring for java.time on API 24-25 | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`350bf32`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/350bf32465b961d52304c52c02efbfc1a016287d) | `feat(payments):` | build farmer payment history from real milestones | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`83d1cab`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/83d1cabbc53c232ef09c2b881611d7f7238c9bf4) | `feat(payments):` | build merchant payment history from approved milestones | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`96879c0`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/96879c04c1c238a5094ed8587002f5cda4cd3508) | `fix(merchant):` | remove demo account and demo plot fallbacks | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`e9efe22`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/e9efe22b086bd64ff289dc551b220b9ef0fed152) | `fix(farmer):` | remove demo account and demo plot fallbacks | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`29ea910`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/29ea91072d654c01463ce5ea5183b1874edde0be) | `feat(nav):` | redirect to login without a session and skip to role selection with one | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`d627c99`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/d627c99bf4be402931076dc684f66212b1290c1e) | `fix(api):` | reject local API requests without an authenticated user | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`98df1b8`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/98df1b8f94195212f4c800774da4f780eee4d8d0) | `feat(session):` | persist and restore user session | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`0a18455`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/0a18455e6034832b53345c03cbe5f392f4c406c5) | `feat(home):` | redesign farmer home based on Figma | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`10f6b71`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/10f6b71f9ecd3ed207c322e494a94e1ec99aa749) | `feat(home):` | add crop illustrations, flag and weather icon | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`87ea1f4`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/87ea1f426192f22d5110e2375f68707f90d93f74) | `feat(auth):` | update registration form | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`4a65a98`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/4a65a98404b3f8bfbf68454f4288ac984cb4accb) | `feat(evidence):` | add milestone images and update milestone selection and extension | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`aae0436`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/aae043670ea2e67c80915fc6bb074c20662a1088) | `feat(visits):` | add visit requests screen | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`5bc26ed`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/5bc26edcee5cff8a9d3d1f8a377a0f89b0d751b5) | `feat(designsystem):` | add reusable date picker field | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`7bda389`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/7bda3891a8b5da52ca691cc89ac9ac2298d997f4) | `feat(designsystem):` | add standard icon sizes | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`bca875b`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/bca875b927b04028969ed78b90a2dbbbefb251cb) | `build:` | agrega material-icons-extended | 26/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`2795f9a`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/2795f9af99d5e0267c1f9715ef4ea88850741f90) | `feat(farmer-home):` | add status-aware plot tracking flow | 23/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`f581860`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/f58186027ad664a90edb2a9b36cc22b00d53167f) | `style(plot-detail):` | align plot information with Figma | 23/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`d768c1e`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/d768c1ef2024bed0aba5a225d7284e04e87fe3c7) | `fix(plots):` | show real plot photos with fallback | 23/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`98a9692`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/98a9692f309b940992845bc4c8decf41b02a3ca8) | `feat(farmer-home):` | redesign plot cards with images | 23/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`f6b233f`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/f6b233fe6f0e7a42f6cdfd6e3b3eaccaa4b31734) | `feat(farmer-home):` | improve dashboard layout and empty state | 23/10/2026 |
+| `AllpaTech/muyu-app` | `main` | [`63949eb`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/63949eb87a63880c4bcc41c4a3be66777ce2a984) | `feat(farmer-home):` | add empty plots state | 23/10/2026 |
+
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
