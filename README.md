@@ -9834,6 +9834,63 @@ Como resultado del trabajo colaborativo, el equipo logró completar la primera v
 
 
 
+## 4.2.2. Sprint 2
+
+El Sprint 2 continuó el desarrollo de Muyu a partir de los fundamentos implementados durante el Sprint 1. El alcance se centró en la publicación y gestión de parcelas, el panel resumen del agricultor, la búsqueda y filtrado de parcelas, la consulta detallada y la definición del financiamiento asociado a cada parcela.
+
+### 4.2.2.1. Sprint Planning 2
+
+La [Tabla 93](#tabla-93) organiza la información correspondiente al Sprint Planning 2.
+
+<p id="tabla-93"><strong>Tabla 93.</strong> Sprint Planning 2</p>
+
+| Sprint #2 | |
+|---|---|
+| **Sprint Planning Background** | |
+| **Date** | [fecha de la reunión] |
+| **Time** | [hora] |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** | [nombre] |
+| **Attendees (to planning meeting)** | Orellana Rodriguez, Mel Andree / Berrospi Marin, Angel Guillermo / Arroyo Gonzales, Emily Juliette / Riveros Vera, Jennifer Yamilet / Quintanilla Pozo, Gonzalo Samuel |
+| **Sprint 1 Review Summary** | En el Sprint 1 se publicó la Landing Page en Netlify, se implementaron el registro, el inicio de sesión, el onboarding y la selección de rol en la aplicación móvil, y se desplegaron la Fake API en Render y el backend en Railway. Quedaron en proceso la API de autenticación con JWT, el control de acceso por rol, la recuperación de contraseña, la gestión del perfil y los datos bancarios. |
+| **Sprint 1 Retrospective Summary** | El equipo detectó que la aplicación podía mostrar datos de demostración cuando se perdía la sesión del usuario. Se acordó que cada cuenta debe ver solo sus propios datos, que una cuenta nueva debe empezar vacía y que los cambios se registren en commits pequeños por tema. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | **Our focus is on** implementing plot publication, the farmer's plot dashboard, plot search and filtering, and the financing plan of each plot.<br><br>**We believe it delivers** a farmer experience where each account manages only its own plots and follows their status, and a merchant experience where available plots can be found and reviewed.<br><br>**This will be confirmed when** a newly registered farmer starts with no plots, publishes a plot that appears in Home and My Plots, filters it by status, and a merchant can find it and see its details. |
+| **Sprint 2 Velocity** | 21 Story Points |
+| **Sum of Story Points** | 21 Story Points (US03: 5, US21: 5, US20: 3, US04: 5, US22: 3). |
+
+### 4.2.2.2. Aspect Leaders and Collaborators
+
+Para el Sprint 2 se distribuyeron responsabilidades de liderazgo y colaboración entre los integrantes del equipo con el objetivo de completar las historias seleccionadas y mantener la integración entre aplicación móvil, servicios y documentación. La [Tabla 94](#tabla-94) presenta la asignación acordada para los aspectos de esta iteración.
+
+<p id="tabla-94"><strong>Tabla 94.</strong> Aspect Leaders and Collaborators</p>
+
+| Team Member (Last Name, First Name) | GitHub Username | Mobile Application (L/C) | Services & Deployment (L/C) | Landing Page (L/C) | UI/UX & Documentation (L/C) |
+|---|---|---|---|---|---|
+| Orellana Rodriguez, Mel Andree | melandree8 | C | C | L | C |
+| Berrospi Marin, Angel Guillermo | Guille-berrs | C | C | C | C |
+| Arroyo Gonzales, Emily Juliette | Em2920 | C | C | C | L |
+| Riveros Vera, Jennifer Yamilet | Jennivz | L | C | C | L |
+| Quintanilla Pozo, Gonzalo Samuel | GoldQP | C | L | C | C |
+
+### 4.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 organiza las historias planificadas para la publicación y consulta de parcelas. Las tareas realizadas por Jennifer Yamilet Riveros Vera comenzaron con el identificador WI-13, manteniendo la secuencia del Sprint Backlog 1. Los estados utilizados pueden ser `To-do`, `In-Process`, `To-Review` o `Done`, según el avance verificable de cada work item.
+
+La [Tabla 95](#tabla-95) registra los work items asociados al trabajo de esta iteración.
+
+<p id="tabla-95"><strong>Tabla 95.</strong> Sprint Backlog 2</p>
+
+| Sprint # | 2 |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US20 | Panel resumen de parcelas del agricultor | WI-13 | Rediseño del Home del agricultor | Implementar el Home según el mockup de Figma: header con clima, buscador, filtros y tarjetas de parcelas. | 6 | Riveros, Jennifer | Done |
+| US20 | Panel resumen de parcelas del agricultor | WI-14 | Estado vacío del Home | Mostrar un estado vacío con acceso a Plot cuando la cuenta no tiene parcelas. | 2 | Riveros, Jennifer | Done |
+| US04 | Búsqueda y filtrado de parcelas | WI-15 | Filtros por estado de la parcela | Filtrar las parcelas por Funded, Approved y Pending según el estado real registrado. | 3 | Riveros, Jennifer | Done |
+| US20 | Panel resumen de parcelas del agricultor | WI-16 | Aislamiento de datos por usuario | Persistir la sesión, volver al login sin usuario autenticado y quitar los respaldos a cuentas de demostración. | 5 | Riveros, Jennifer | Done |
+| US03 | Publicación de nueva parcela | WI-17 | Ajustes del formulario de publicación | Ajustar el formulario de información de la parcela y el selector de fechas reutilizable. | 3 | Riveros, Jennifer | Done |
+
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
