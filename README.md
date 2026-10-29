@@ -99,6 +99,10 @@
 | TB1 | 10-10-2026 | Arroyo Gonzales, Emily Juliette | Diseño de pantallas seleccionadas para los mockup de la aplicación móvil |
 | TB1 | 10-10-2026 | Arroyo Gonzales, Emily Juliette | Redacción de los Wireflow Diagrams de la aplicación móvil |
 | TB1 | 10-10-2026 | Arroyo Gonzales, Emily Juliette | Redacción de los User Flow Diagrams de la aplicación móvil |
+| AV2 | 29-10-2026 | Riveros Vera, Jennifer Yamilet | Desarrollo de la sección 4.2.2 Sprint 2 en el informe. |
+| AV2 | 26-10-2026 | Riveros Vera, Jennifer Yamilet | Historial de pagos del agricultor y del comerciante calculado desde los hitos. |
+| AV2 | 26-10-2026 | Riveros Vera, Jennifer Yamilet | Persistencia de sesión y aislamiento de datos por usuario en la aplicación móvil. |
+| AV2 | 26-10-2026 | Riveros Vera, Jennifer Yamilet | Rediseño del Home del agricultor según Figma, con filtros por estado y estado vacío. |
 
 </div>
 
@@ -626,6 +630,9 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 212](#figura-212) — Historial de commits de la aplicación móvil
 - [Figura 213](#figura-213) — Tablero de seguimiento del Sprint 1
 
+- [Figura 218](#figura-218) — GitHub Insights de la aplicación móvil
+- [Figura 219](#figura-219) — GitHub Contributors de la aplicación móvil
+- [Tabla 97.1](#tabla-971) — Testing Commits Evidence
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
 - [Tabla 2](#tabla-2) — Competidores
@@ -9984,6 +9991,66 @@ La [Figura 217](#figura-217) muestra el estado vacío de Payments para una cuent
 Como apoyo manual se verificó el recorrido desde una cuenta nueva, la publicación de una parcela, los filtros por estado, la persistencia de sesión y el cambio entre cuentas. El resultado de estas pruebas debe actualizarse únicamente con evidencia obtenida en ejecución real.
 
 El video de navegación del Sprint 2 muestra el recorrido completo por el Home, los filtros, el estado vacío y Payment: [Video App Validation Sprint 2](https://example.com/pendiente-video-sprint-2).
+
+### 4.2.2.7. Services Documentation Evidence for Sprint Review
+
+La aplicación móvil mantiene persistencia local de la sesión y valida la autenticación antes de consumir o modificar datos de parcelas. Durante el Sprint 2, estas reglas se aplicaron para impedir el uso de cuentas o parcelas de demostración y asegurar que cada usuario acceda únicamente a su propia información.
+
+La [Tabla 98](#tabla-98) resume los servicios y contratos relacionados con el trabajo desarrollado en la iteración.
+
+<p id="tabla-98"><strong>Tabla 98.</strong> Services Documentation Evidence for Sprint Review</p>
+
+| Component | Evidence | Expected Behavior | Sprint 2 Result |
+|---|---|---|---|
+| Session persistence | Local session storage and restoration | Restore the authenticated user after reopening the app. | Implemented |
+| Route protection | Navigation to login without a session | Prevent access to authenticated screens without a user. | Implemented |
+| Plot data isolation | User-scoped local requests | Reject local API requests without the authenticated user. | Implemented |
+| Farmer dashboard | Plot list and status-aware cards | Display only plots belonging to the authenticated farmer. | Implemented |
+| Plot filters | Status filters and text search | Return plots matching the selected status and query. | Implemented |
+
+### 4.2.2.8. Software Deployment Evidence for Sprint Review
+
+El despliegue de la aplicación móvil continuó mediante la generación de artefactos instalables desde Android Studio. El código fue integrado en la rama `main` del repositorio de la aplicación móvil y la compilación fue validada mediante Clean Project y Assemble Project.
+
+La [Tabla 99](#tabla-99) resume la evidencia de despliegue del Sprint 2.
+
+<p id="tabla-99"><strong>Tabla 99.</strong> Software Deployment Evidence for Sprint Review</p>
+
+| Repository | Branch | Deployment or Build Artifact | Verification |
+|---|---|---|---|
+| `AllpaTech/muyu-app` | `main` | APK y código fuente Android | Compilación `BUILD SUCCESSFUL in 46s` |
+
+### 4.2.2.9. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo continuó utilizando GitHub y el tablero de gestión para coordinar las actividades. Los commits realizados por cada integrante permitieron mantener trazabilidad entre las tareas del Sprint Backlog y los cambios integrados en los repositorios.
+
+La [Tabla 100](#tabla-100) resume las contribuciones documentadas de la iteración.
+
+<p id="tabla-100"><strong>Tabla 100.</strong> Team Collaboration Insights during Sprint</p>
+
+| Team Member | Main Sprint 2 Contributions |
+|---|---|
+| Orellana Rodriguez, Mel Andree | Colaboración técnica, integración y documentación asignada. |
+| Berrospi Marin, Angel Guillermo | Desarrollo y colaboración técnica asignada al Sprint 2. |
+| Arroyo Gonzales, Emily Juliette | Colaboración UI/UX, documentación y revisión de entregables. |
+| Riveros Vera, Jennifer Yamilet | Rediseño del Home, estado vacío, filtros, aislamiento de datos por usuario, persistencia de sesión y publicación de parcelas. |
+| Quintanilla Pozo, Gonzalo Samuel | Integración, despliegue, servicios y colaboración técnica asignada al Sprint 2. |
+
+Las siguientes capturas deben provenir de los analíticos de los repositorios utilizados en la implementación. Cada integrante debe contar con evidencia de contribución, commits y actividad verificable durante el Sprint.
+
+La [Figura 218](#figura-218) muestra los Insights del repositorio de implementación móvil.
+
+<p id="figura-218"><strong>Figura 218.</strong> GitHub Insights de la aplicación móvil</p>
+
+<p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-insights.png" alt="GitHub Insights de muyu-app" width="850"/></p>
+
+La [Figura 219](#figura-219) muestra los Contributors del repositorio de implementación móvil.
+
+<p id="figura-219"><strong>Figura 219.</strong> GitHub Contributors de la aplicación móvil</p>
+
+<p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-contributors.png" alt="GitHub Contributors de muyu-app" width="850"/></p>
+
+La interpretación de estas analíticas debe confirmar qué integrantes realizaron cambios efectivos, quiénes lideraron componentes y cuáles fueron las contribuciones colaborativas. Las contribuciones documentadas deben contrastarse con los commits reales antes de cerrar el Sprint.
 
 # Conclusiones y Recomendaciones
 
