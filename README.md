@@ -9922,6 +9922,58 @@ Los avances implementados durante el Sprint 2 se registraron mediante commits re
 | `AllpaTech/muyu-app` | `main` | [`f6b233f`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/f6b233fe6f0e7a42f6cdfd6e3b3eaccaa4b31734) | `feat(farmer-home):` | improve dashboard layout and empty state | 23/10/2026 |
 | `AllpaTech/muyu-app` | `main` | [`63949eb`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/63949eb87a63880c4bcc41c4a3be66777ce2a984) | `feat(farmer-home):` | add empty plots state | 23/10/2026 |
 
+### 4.2.2.5. Testing Suite Evidence for Sprint Review
+
+El Testing Suite del Sprint 2 comprende las pruebas automatizadas de los Web Services: Unit Tests, Integration Tests y Acceptance Tests con BDD mediante archivos `.feature` escritos en Gherkin y sus respectivos Steps. Estos artefactos corresponden al repositorio de backend y deben registrarse en commits con el prefijo `test:`. Las pruebas manuales de la aplicación móvil se documentan únicamente como evidencia complementaria en Execution Evidence.
+
+<p id="tabla-97"><strong>Tabla 97.</strong> Testing Suite Evidence for Sprint Review</p>
+
+| Test ID | User Story / Technical Story | Test Type | Test Scenario | Expected Result | Obtained Result | Status |
+|---|---|---|---|---|---|---|
+| UT2-01 | US03 / US20 | Unit Test | Validar reglas de creación y asociación de parcelas a una cuenta de agricultor. | Las reglas aceptan datos válidos y rechazan asociaciones incorrectas. | Pendiente de evidencia del backend | Pending |
+| IT2-01 | US03 / US20 | Integration Test | Crear una parcela mediante el servicio y consultarla desde el flujo del agricultor. | La parcela creada aparece bajo la cuenta autenticada y persiste en el servicio. | Pendiente de evidencia del backend | Pending |
+| AT2-01 | US04 / US20 / US22 | Acceptance Test BDD | Ejecutar el escenario Gherkin de búsqueda, filtro y consulta de parcelas. | Los escenarios `.feature` finalizan exitosamente con sus Steps. | Pendiente de evidencia del backend | Pending |
+
+La [Tabla 97.1](#tabla-971) registra los commits de testing. Mientras el responsable del backend no incorpore commits `test:` reales, la tabla debe permanecer como evidencia pendiente y no deben atribuirse commits de funcionalidad móvil a esta suite.
+
+<p id="tabla-971"><strong>Tabla 97.1.</strong> Testing Commits Evidence</p>
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| `AllpaTech/muyu-backend` | `main` | `[commit test pendiente]` | `test:` | Unit, integration and BDD feature evidence | `[fecha pendiente]` |
+
+### 4.2.2.6. Execution Evidence for Sprint Review
+
+Las capturas siguientes documentan la ejecución de las funcionalidades desarrolladas para el panel del agricultor y el aislamiento de datos por cuenta.
+
+La [Figura 214](#figura-214) muestra el Home del agricultor con parcelas.
+
+<p id="figura-214"><strong>Figura 214.</strong> Home del agricultor con parcelas</p>
+
+<p align="center"><img src="assets/images/chapter04/sprint-2/home-con-parcelas.png" alt="Home del agricultor con parcelas" width="300"/></p>
+
+La [Figura 215](#figura-215) muestra el estado vacío de una cuenta nueva.
+
+<p id="figura-215"><strong>Figura 215.</strong> Estado vacío del Home con una cuenta nueva</p>
+
+<p align="center"><img src="assets/images/chapter04/sprint-2/home-estado-vacio.png" alt="Estado vacío del Home" width="300"/></p>
+
+La [Figura 216](#figura-216) muestra un filtro aplicado en el Home.
+
+<p id="figura-216"><strong>Figura 216.</strong> Filtro aplicado en el Home del agricultor</p>
+
+<p align="center"><img src="assets/images/chapter04/sprint-2/home-filtro-pending.png" alt="Filtro Pending aplicado en el Home" width="300"/></p>
+
+La [Figura 217](#figura-217) muestra el estado vacío de Payments para una cuenta sin financiamiento.
+
+<p id="figura-217"><strong>Figura 217.</strong> Estado vacío de Payments</p>
+
+<p align="center"><img src="assets/images/chapter04/sprint-2/payment-estado-vacio.png" alt="Payment vacío en una cuenta sin financiamiento" width="300"/></p>
+
+Como apoyo manual se verificó el recorrido desde una cuenta nueva, la publicación de una parcela, los filtros por estado, la persistencia de sesión y el cambio entre cuentas. El resultado de estas pruebas debe actualizarse únicamente con evidencia obtenida en ejecución real.
+
+El video de navegación del Sprint 2 muestra el recorrido completo por el Home, los filtros, el estado vacío y Payment: [Video App Validation Sprint 2](https://example.com/pendiente-video-sprint-2).
+
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
