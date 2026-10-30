@@ -103,6 +103,12 @@
 | AV2 | 26-10-2026 | Riveros Vera, Jennifer Yamilet | Historial de pagos del agricultor y del comerciante calculado desde los hitos. |
 | AV2 | 26-10-2026 | Riveros Vera, Jennifer Yamilet | Persistencia de sesión y aislamiento de datos por usuario en la aplicación móvil. |
 | AV2 | 26-10-2026 | Riveros Vera, Jennifer Yamilet | Rediseño del Home del agricultor según Figma, con filtros por estado y estado vacío. |
+|   AV2   | 30-10-2026 | Quintanilla Pozo, Gonzalo Samuel      | Implementación del flujo móvil del comerciante: catálogo y detalle de parcelas, ubicación dinámica, solicitud y confirmación de visitas, financiamiento multietapa, manejo de pagos no confirmados y parcelas no disponibles, comprobante PDF, navegación al historial de transacciones y ajustes del inicio de sesión. |
+| AV2 | 30-10-2026 | Quintanilla Pozo, Gonzalo Samuel | Corrección del inicio de sesión mediante la eliminación de las opciones de Google y Facebook y conexión de las credenciales con <code>LoginUseCase</code>. |
+| AV2 | 30-10-2026 | Quintanilla Pozo, Gonzalo Samuel | Implementación del catálogo del comerciante, carga y filtrado local de parcelas, detalle de la parcela y tarjeta de ubicación dinámica. |
+| AV2 | 30-10-2026 | Quintanilla Pozo, Gonzalo Samuel | Desarrollo del flujo de solicitud de visitas con selección de fecha y hora, envío de la propuesta, visualización dinámica de solicitudes y aceptación desde el rol agricultor. |
+| AV2 | 30-10-2026 | Quintanilla Pozo, Gonzalo Samuel | Desarrollo del financiamiento multietapa con método de pago, términos, desembolsos, validación de disponibilidad y manejo de pagos no confirmados. |
+| AV2 | 30-10-2026 | Quintanilla Pozo, Gonzalo Samuel | Generación del comprobante PDF, navegación al historial de transacciones e integración de rutas y modelos requeridos por el flujo del comerciante. |
 
 </div>
 
@@ -176,6 +182,7 @@ El Student Outcome 7 establece que el estudiante debe ser capaz de adquirir y ap
                         <li><b>AV2 - Jennifer Yamilet Riveros Vera:</b> Al probar la aplicación detecté que, al perderse la sesión, se mostraban parcelas de una cuenta de demostración. Esto me llevó a revisar el ciclo de vida de una cuenta nueva y a corregir la sesión, los datos por usuario y los pagos. También organicé mis cambios en commits pequeños por tema, y reconocí que la implementación necesita validarse con los flujos reales del usuario y no solo con su apariencia.</li>
             <li><b>AV1 - Gonzalo Samuel Quintanilla Pozo:</b> Asumí el liderazgo técnico en el diseño táctico de la arquitectura (Domain-Driven Design) desde la sección 2.6. Me encargué de estructurar las capas de Dominio, Aplicación e Infraestructura, y elaboré los diagramas de componentes, clases y diseño de base de datos (relacional y local) para los Bounded Contexts del proyecto.</li>
               <li><b> TB1 - Gonzalo Samuel Quintanilla Pozo:</b> Investigué y apliqué conceptos avanzados de arquitectura de software en .NET 8 (CQRS, monolito modular) e integración continua para servicios web. Implementé la arquitectura base del backend, construí y desplegué la Fake API, realicé correcciones en el flujo de evidencias del frontend y gestioné el despliegue en entornos de producción para la Landing Page, la Fake API y el servicio Backend.</li>
+              <li><b>AV2 - Gonzalo Samuel Quintanilla Pozo:</b> Actualicé y apliqué conocimientos de Android nativo con Kotlin y Jetpack Compose para completar el flujo del comerciante. Implementé la carga y filtrado del catálogo, el detalle con ubicación dinámica, la solicitud y confirmación de visitas entre roles, el financiamiento por etapas, los estados de pago no confirmado y parcela no disponible, la generación de comprobantes PDF y la navegación al historial de transacciones. Además, ajusté el inicio de sesión para mantener la autenticación mediante <code>LoginUseCase</code> y retirar opciones sociales que no forman parte del alcance.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -204,6 +211,7 @@ El Student Outcome 7 establece que el estudiante debe ser capaz de adquirir y ap
               decisiones tomadas a partir de nueva evidencia y de la evolución del producto.</li>
              <li><b>AV1 - Gonzalo Samuel Quintanilla Pozo:</b> Planifiqué el desarrollo de los esquemas tácticos asegurando su entrega en los plazos establecidos. Coordiné activamente con mis compañeros para garantizar que mis diagramas de bases de datos y clases estuvieran perfectamente alineados con el EventStorming y el Context Mapping general construido por el resto del equipo.</li>
               <li><b> TB1 - Gonzalo Samuel Quintanilla Pozo:</b> Reconocí la importancia de adaptar la infraestructura y los entornos de ejecución a las necesidades cambiantes del proyecto, gestionando el ciclo de vida de los despliegues y resolviendo problemas de integración entre la Fake API y los componentes de frontend para la captura de evidencias en campo.</li>
+              <li><b>AV2 - Gonzalo Samuel Quintanilla Pozo:</b> Para resolver las diferencias entre los mockups de Figma y la implementación móvil, revisé cada estado del flujo del comerciante, dividí el trabajo en commits pequeños y validé la integración mediante compilación y pruebas. Este proceso reforzó mi aprendizaje sobre navegación con Compose, manejo de estados alternativos, generación de archivos PDF y coordinación de información entre los roles de comerciante y agricultor.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -9889,11 +9897,11 @@ Para el Sprint 2 se distribuyeron responsabilidades de liderazgo y colaboración
 | Berrospi Marin, Angel Guillermo | Guille-berrs | C | C | C | C |
 | Arroyo Gonzales, Emily Juliette | Em2920 | C | C | C | L |
 | Riveros Vera, Jennifer Yamilet | Jennivz | L | C | C | L |
-| Quintanilla Pozo, Gonzalo Samuel | GoldQP | C | L | C | C |
+| Quintanilla Pozo, Gonzalo Samuel | GoldQP | L | C | C | C |
 
 ### 4.2.2.3. Sprint Backlog 2
 
-El Sprint Backlog 2 organiza las historias planificadas para la publicación y consulta de parcelas. Las tareas realizadas por Jennifer Yamilet Riveros Vera comenzaron con el identificador WI-13, manteniendo la secuencia del Sprint Backlog 1. Los estados utilizados pueden ser `To-do`, `In-Process`, `To-Review` o `Done`, según el avance verificable de cada work item.
+El Sprint Backlog 2 organiza las historias planificadas para la publicación, consulta y financiamiento de parcelas. Las tareas realizadas por Jennifer Yamilet Riveros Vera comenzaron con el identificador WI-13 y las desarrolladas por Gonzalo Samuel Quintanilla Pozo continuaron desde WI-18, manteniendo la secuencia del Sprint Backlog 1. Los estados utilizados pueden ser `To-do`, `In-Process`, `To-Review` o `Done`, según el avance verificable de cada work item.
 
 La [Tabla 95](#tabla-95) registra los work items asociados al trabajo de esta iteración.
 
@@ -9908,6 +9916,11 @@ La [Tabla 95](#tabla-95) registra los work items asociados al trabajo de esta it
 | US04 | Búsqueda y filtrado de parcelas | WI-15 | Filtros por estado de la parcela | Filtrar las parcelas por Funded, Approved y Pending según el estado real registrado. | 3 | Riveros, Jennifer | Done |
 | US20 | Panel resumen de parcelas del agricultor | WI-16 | Aislamiento de datos por usuario | Persistir la sesión, volver al login sin usuario autenticado y quitar los respaldos a cuentas de demostración. | 5 | Riveros, Jennifer | Done |
 | US03 | Publicación de nueva parcela | WI-17 | Ajustes del formulario de publicación | Ajustar el formulario de información de la parcela y el selector de fechas reutilizable. | 3 | Riveros, Jennifer | Done |
+| US04 | Búsqueda y filtrado de parcelas | WI-18 | Catálogo de parcelas del comerciante | Implementar la carga local de parcelas disponibles, búsqueda textual, filtros y navegación hacia el detalle seleccionado. | 5 | Quintanilla, Gonzalo | Done |
+| US22 | Consulta detallada y contacto con el agricultor | WI-19 | Detalle y ubicación de la parcela | Mostrar la información productiva, el agricultor, la ubicación dinámica y las acciones para financiar o solicitar una visita. | 4 | Quintanilla, Gonzalo | Done |
+| US22 | Consulta detallada y contacto con el agricultor | WI-20 | Solicitud y confirmación de visita | Permitir al comerciante proponer fecha, hora y mensaje; permitir al agricultor aceptar la solicitud; y mostrar el estado confirmado y el punto de encuentro. | 6 | Quintanilla, Gonzalo | Done |
+| US21 | Definición de financiamiento y plan de desembolsos de una parcela | WI-21 | Financiamiento multietapa y estados alternativos | Implementar el resumen, método de pago, aceptación de términos, revisión final, confirmación, pago no confirmado y parcela no disponible. | 7 | Quintanilla, Gonzalo | Done |
+| US21 | Definición de financiamiento y plan de desembolsos de una parcela | WI-22 | Comprobante e historial de transacciones | Generar el comprobante PDF, mostrar los fondos en Escrow y conectar la revisión de movimientos con el historial de pagos. | 4 | Quintanilla, Gonzalo | Done |
 
 ### 4.2.2.4. Development Evidence for Sprint Review
 
@@ -9939,6 +9952,30 @@ Los avances implementados durante el Sprint 2 se registraron mediante commits re
 | `AllpaTech/muyu-app` | `main` | [`98a9692`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/98a9692f309b940992845bc4c8decf41b02a3ca8) | `feat(farmer-home):` | redesign plot cards with images | 23/10/2026 |
 | `AllpaTech/muyu-app` | `main` | [`f6b233f`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/f6b233fe6f0e7a42f6cdfd6e3b3eaccaa4b31734) | `feat(farmer-home):` | improve dashboard layout and empty state | 23/10/2026 |
 | `AllpaTech/muyu-app` | `main` | [`63949eb`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/63949eb87a63880c4bcc41c4a3be66777ce2a984) | `feat(farmer-home):` | add empty plots state | 23/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`b04420f`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/b04420f) | `refactor(login):` | remove Google and Facebook login options from LoginScreen | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`94c0e71`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/94c0e71) | `feat(auth):` | connect credential input to LoginUseCase in LoginScreen | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`242d902`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/242d902) | `feat(merchant):` | add dynamic location card to MerchantPlotDetailScreen | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`1e1cd7a`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/1e1cd7a) | `feat(merchant):` | implement MerchantVisitRequestScreen and MerchantVisitSentScreen | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`8aa0c38`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/8aa0c38) | `feat(merchant):` | integrate date picker and time selector in MerchantVisitRequestScreen | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`e7cd4cb`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/e7cd4cb) | `feat(merchant):` | enhance VisitRequestsScreen with dynamic request display and acceptance functionality | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`6d9cd62`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/6d9cd62) | `feat(fund):` | enhance FundPlotScreen with multi-stage funding process and navigation callbacks | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`17229de`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/17229de) | `feat(merchant):` | handle plot checks and add transaction history navigation to visit request flow | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`c4e4ad8`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/c4e4ad8) | `feat(merchant):` | implement PDF receipt generation in FundSuccessScreen | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`8719ae7`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/8719ae7) | `feat:` | add MerchantVisitRequest data class and integrate into AppContainer | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`8bc613c`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/8bc613c) | `feat(navigation):` | add MerchantVisitRequest and MerchantVisitSent screens to AppNavHost | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`cff5eee`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/cff5eee) | `feat(merchant):` | add request visit button to MerchantPlotDetailScreen | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`3608694`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/3608694) | `feat(merchant):` | add strings for visit request functionality | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`ec97041`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/ec97041) | `feat(merchant):` | add strings for visit request functionality | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`afb8d6a`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/afb8d6a) | `feat(navigation):` | add onBackToCatalog callback to FundPlotScreen | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`4d1feff`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/4d1feff) | `feat(merchant):` | add new strings for financing and payment processes | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`416a346`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/416a346) | `feat(merchant):` | add new strings for financing and payment processes | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`699a0d7`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/699a0d7) | `feat(vcs):` | add initial VCS configuration for Git integration | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`35c03c8`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/35c03c8) | `feat(merchant):` | add MerchantVisitRequest data class for visit proposal handling | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`da0ff6d`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/da0ff6d) | `feat(merchant):` | enhance FundPlotScreen to include transaction check callback | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`46afcfd`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/46afcfd) | `feat(merchant):` | add documentation for local plot loading and filtering in MerchantCatalogScreen | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`b6f523c`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/b6f523c) | `feat(merchant):` | add visit request status strings to strings.xml | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`91bf79f`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/91bf79f) | `feat(merchant):` | add visit request status strings to strings.xml | 30/10/2026 |
+| `AllpaTech/muyu-app` | `develop` | [`c18c13f`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/c18c13f) | `chore:` | update .gitignore to include Kotlin build directory | 30/10/2026 |
 
 ### 4.2.2.5. Testing Suite Evidence for Sprint Review
 
@@ -9990,6 +10027,8 @@ La [Figura 217](#figura-217) muestra el estado vacío de Payments para una cuent
 
 Como apoyo manual se verificó el recorrido desde una cuenta nueva, la publicación de una parcela, los filtros por estado, la persistencia de sesión y el cambio entre cuentas. El resultado de estas pruebas debe actualizarse únicamente con evidencia obtenida en ejecución real.
 
+Como evidencia funcional del trabajo de Gonzalo se verificó también el recorrido del comerciante desde el catálogo hacia el detalle de una parcela, la solicitud de una visita con fecha y hora, la aceptación de la solicitud desde el rol agricultor y la consulta posterior del estado confirmado. Asimismo, se revisaron el financiamiento por etapas, el estado de pago no confirmado, la parcela no disponible, el almacenamiento de fondos en Escrow y la generación del comprobante PDF.
+
 El video de navegación del Sprint 2 muestra el recorrido completo por el Home, los filtros, el estado vacío y Payment: [Video App Validation Sprint 2](https://example.com/pendiente-video-sprint-2).
 
 ### 4.2.2.7. Services Documentation Evidence for Sprint Review
@@ -10007,6 +10046,11 @@ La [Tabla 98](#tabla-98) resume los servicios y contratos relacionados con el tr
 | Plot data isolation | User-scoped local requests | Reject local API requests without the authenticated user. | Implemented |
 | Farmer dashboard | Plot list and status-aware cards | Display only plots belonging to the authenticated farmer. | Implemented |
 | Plot filters | Status filters and text search | Return plots matching the selected status and query. | Implemented |
+| Merchant catalog | Local plot loading, text search and catalog filters | Display available plots and open the selected plot detail. | Implemented |
+| Merchant plot detail | Dynamic location and farmer contact actions | Display plot, farmer and location data and expose financing and visit actions. | Implemented |
+| Visit workflow | Visit proposal, acceptance and status tracking | Share the proposed date, time and message between merchant and farmer and preserve its status. | Implemented |
+| Financing workflow | Multi-stage funding, payment method and Escrow states | Review and confirm financing while handling unavailable plots and unconfirmed payments. | Implemented |
+| Receipt generation | PDF receipt from the funding success screen | Generate a downloadable financing receipt after confirmation. | Implemented |
 
 ### 4.2.2.8. Software Deployment Evidence for Sprint Review
 
@@ -10019,6 +10063,7 @@ La [Tabla 99](#tabla-99) resume la evidencia de despliegue del Sprint 2.
 | Repository | Branch | Deployment or Build Artifact | Verification |
 |---|---|---|---|
 | `AllpaTech/muyu-app` | `main` | APK y código fuente Android | Compilación `BUILD SUCCESSFUL in 46s` |
+| `AllpaTech/muyu-app` | `develop` | Flujo móvil del comerciante y código fuente Android | Cambios integrados y trazables mediante commits del catálogo, visitas y financiamiento. |
 
 ### 4.2.2.9. Team Collaboration Insights during Sprint
 
@@ -10034,7 +10079,7 @@ La [Tabla 100](#tabla-100) resume las contribuciones documentadas de la iteraci�
 | Berrospi Marin, Angel Guillermo | Desarrollo y colaboración técnica asignada al Sprint 2. |
 | Arroyo Gonzales, Emily Juliette | Colaboración UI/UX, documentación y revisión de entregables. |
 | Riveros Vera, Jennifer Yamilet | Rediseño del Home, estado vacío, filtros, aislamiento de datos por usuario, persistencia de sesión y publicación de parcelas. |
-| Quintanilla Pozo, Gonzalo Samuel | Integración, despliegue, servicios y colaboración técnica asignada al Sprint 2. |
+| Quintanilla Pozo, Gonzalo Samuel | Implementación del catálogo del comerciante, detalle y ubicación de parcelas, solicitudes y confirmación de visitas, financiamiento multietapa, estados alternativos de pago, comprobante PDF, navegación al historial de transacciones y ajustes del inicio de sesión. |
 
 Las siguientes capturas deben provenir de los analíticos de los repositorios utilizados en la implementación. Cada integrante debe contar con evidencia de contribución, commits y actividad verificable durante el Sprint.
 
