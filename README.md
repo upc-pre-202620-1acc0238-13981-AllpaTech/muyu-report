@@ -10098,7 +10098,7 @@ La [Tabla 99](#tabla-99) resume la evidencia de despliegue del Sprint 2.
 
 ### 4.2.2.9. Team Collaboration Insights during Sprint
 
-Durante el Sprint 2, el equipo continuó utilizando GitHub y el tablero de gestión para coordinar las actividades. Los commits realizados por cada integrante permitieron mantener trazabilidad entre las tareas del Sprint Backlog y los cambios integrados en los repositorios.
+Durante el Sprint 2, el equipo continuó utilizando GitHub y el tablero de gestión para coordinar las actividades. Los commits realizados por cada integrante permitieron mantener trazabilidad entre las tareas del Sprint Backlog y los cambios integrados en las ramas `main` y `develop` del repositorio de la aplicación móvil.
 
 La [Tabla 100](#tabla-100) resume las contribuciones documentadas de la iteración.
 
@@ -10106,7 +10106,7 @@ La [Tabla 100](#tabla-100) resume las contribuciones documentadas de la iteraci�
 
 | Team Member | Main Sprint 2 Contributions |
 |---|---|
-| Orellana Rodriguez, Mel Andree | Colaboración técnica, integración y documentación asignada. |
+| Orellana Rodriguez, Mel Andree | Restyle del catálogo, My Plots, perfil y notificaciones del comerciante según Figma; implementación del flujo de revisión, aprobación y rechazo de evidencias de hito; detalle de parcela financiada con CTA de fondeo; historial de pagos vinculado a la parcela seleccionada; corrección del flujo de publicación para no completar ubicación ni monto por defecto; e integración de estos cambios en `develop` de `muyu-app`, además de la actualización del Sprint Backlog 2 y de la evidencia de desarrollo en el informe. |
 | Berrospi Marin, Angel Guillermo | Desarrollo y colaboración técnica asignada al Sprint 2. |
 | Arroyo Gonzales, Emily Juliette | Colaboración UI/UX, documentación y revisión de entregables. |
 | Riveros Vera, Jennifer Yamilet | Rediseño del Home, estado vacío, filtros, aislamiento de datos por usuario, persistencia de sesión y publicación de parcelas. |
@@ -10126,7 +10126,7 @@ La [Figura 219](#figura-219) muestra los Contributors del repositorio de impleme
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-contributors.png" alt="GitHub Contributors de muyu-app" width="850"/></p>
 
-La interpretación de estas analíticas debe confirmar qué integrantes realizaron cambios efectivos, quiénes lideraron componentes y cuáles fueron las contribuciones colaborativas. Las contribuciones documentadas deben contrastarse con los commits reales antes de cerrar el Sprint.
+La interpretación de estas analíticas debe confirmar qué integrantes realizaron cambios efectivos, quiénes lideraron componentes y cuáles fueron las contribuciones colaborativas. El gráfico de Contributors de `main` no incluye los commits integrados solo en `develop`; por ello, las contribuciones de Mel Andree Orellana Rodriguez deben contrastarse con los commits de esa rama y con la [Tabla 96](#tabla-96) antes de cerrar el Sprint.
 
 # Conclusiones y Recomendaciones
 
