@@ -9901,7 +9901,7 @@ Para el Sprint 2 se distribuyeron responsabilidades de liderazgo y colaboración
 
 ### 4.2.2.3. Sprint Backlog 2
 
-El Sprint Backlog 2 organiza las historias planificadas para la publicación, consulta y financiamiento de parcelas. Las tareas realizadas por Jennifer Yamilet Riveros Vera comenzaron con el identificador WI-13 y las desarrolladas por Gonzalo Samuel Quintanilla Pozo continuaron desde WI-18, manteniendo la secuencia del Sprint Backlog 1. Los estados utilizados pueden ser `To-do`, `In-Process`, `To-Review` o `Done`, según el avance verificable de cada work item.
+El Sprint Backlog 2 organiza las historias planificadas para la publicación, consulta y financiamiento de parcelas, además de los work items que adelantaron la revisión de evidencias, el historial de pagos y la identidad visual del comerciante. Las tareas de Jennifer Yamilet Riveros Vera comenzaron con el identificador WI-13, las de Gonzalo Samuel Quintanilla Pozo continuaron desde WI-18 y las de Mel Andree Orellana Rodriguez se registraron desde WI-23, manteniendo la secuencia del Sprint Backlog 1. Los estados utilizados pueden ser `To-do`, `In-Process`, `To-Review` o `Done`, según el avance verificable de cada work item.
 
 La [Tabla 95](#tabla-95) registra los work items asociados al trabajo de esta iteración.
 
@@ -9921,6 +9921,12 @@ La [Tabla 95](#tabla-95) registra los work items asociados al trabajo de esta it
 | US22 | Consulta detallada y contacto con el agricultor | WI-20 | Solicitud y confirmación de visita | Permitir al comerciante proponer fecha, hora y mensaje; permitir al agricultor aceptar la solicitud; y mostrar el estado confirmado y el punto de encuentro. | 6 | Quintanilla, Gonzalo | Done |
 | US21 | Definición de financiamiento y plan de desembolsos de una parcela | WI-21 | Financiamiento multietapa y estados alternativos | Implementar el resumen, método de pago, aceptación de términos, revisión final, confirmación, pago no confirmado y parcela no disponible. | 7 | Quintanilla, Gonzalo | Done |
 | US21 | Definición de financiamiento y plan de desembolsos de una parcela | WI-22 | Comprobante e historial de transacciones | Generar el comprobante PDF, mostrar los fondos en Escrow y conectar la revisión de movimientos con el historial de pagos. | 4 | Quintanilla, Gonzalo | Done |
+| US04 | Búsqueda y filtrado de parcelas | WI-23 | Restyle del catálogo del comerciante | Rediseñar el header, el buscador, los chips de filtro, las tarjetas de cultivo y el toggle de idioma del catálogo según Figma. | 5 | Orellana, Mel Andree | Done |
+| US22 | Consulta detallada y contacto con el agricultor | WI-24 | Restyle de My Plots, perfil y alertas | Unificar el fondo verde del catálogo, restylear My Plots con banner climático, actualizar el perfil del comerciante y rediseñar las notificaciones con íconos por tipo. | 5 | Orellana, Mel Andree | Done |
+| US10 | Aprobación de evidencia y orden de liberación de pago | WI-25 | Flujo de revisión de evidencias de hito | Implementar las pantallas de evidencia, confirmación, aprobación, rechazo y resultado, junto con los assets y la navegación del flujo de revisión. | 7 | Orellana, Mel Andree | Done |
+| US22 | Consulta detallada y contacto con el agricultor | WI-26 | Detalle financiado y CTA de fondeo | Mostrar el detalle restyleado de la parcela financiada y fijar las acciones de financiar o revisar evidencia por encima de la barra inferior. | 5 | Orellana, Mel Andree | Done |
+| US12 | Visualización de historial de pagos | WI-27 | Historial y detalle de pagos por parcela | Restylear el historial de pagos del agricultor y vincular el detalle y la evidencia al hito de la parcela seleccionada. | 4 | Orellana, Mel Andree | Done |
+| US03 | Publicación de nueva parcela | WI-28 | Publicación sin datos por defecto | Evitar que el flujo de publicación complete ubicación y monto con valores predeterminados y enviar solo los datos ingresados por el agricultor. | 2 | Orellana, Mel Andree | Done |
 
 ### 4.2.2.4. Development Evidence for Sprint Review
 
