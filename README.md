@@ -109,6 +109,12 @@
 | AV2 | 30-10-2026 | Quintanilla Pozo, Gonzalo Samuel | Desarrollo del flujo de solicitud de visitas con selección de fecha y hora, envío de la propuesta, visualización dinámica de solicitudes y aceptación desde el rol agricultor. |
 | AV2 | 30-10-2026 | Quintanilla Pozo, Gonzalo Samuel | Desarrollo del financiamiento multietapa con método de pago, términos, desembolsos, validación de disponibilidad y manejo de pagos no confirmados. |
 | AV2 | 30-10-2026 | Quintanilla Pozo, Gonzalo Samuel | Generación del comprobante PDF, navegación al historial de transacciones e integración de rutas y modelos requeridos por el flujo del comerciante. |
+| AV2 | 27-10-2026 | Orellana Rodriguez, Mel Andree | Restyle de My Plots, notificaciones y flujo de revisión de evidencias del comerciante: confirmación, aprobación, rechazo y resultado. |
+| AV2 | 28-10-2026 | Orellana Rodriguez, Mel Andree | Restyle del catálogo, perfil y detalle financiado del comerciante, con toggle de idioma y CTA de fondeo o evidencia. |
+| AV2 | 28-10-2026 | Orellana Rodriguez, Mel Andree | Historial de pagos del agricultor vinculado a la parcela seleccionada y corrección del flujo de publicación para no completar ubicación ni monto por defecto. |
+| AV2 | 31-10-2026 | Orellana Rodriguez, Mel Andree | Actualización del Sprint Backlog 2 (4.2.2.3) con los work items WI-23 a WI-28. |
+| AV2 | 31-10-2026 | Orellana Rodriguez, Mel Andree | Incorporación de la evidencia de desarrollo (4.2.2.4) con los commits de <code>develop</code> del flujo del comerciante. |
+| AV2 | 31-10-2026 | Orellana Rodriguez, Mel Andree | Actualización de Team Collaboration Insights (4.2.2.9) con las contribuciones verificables del Sprint 2. |
 
 </div>
 
