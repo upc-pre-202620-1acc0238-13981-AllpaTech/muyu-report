@@ -10151,6 +10151,99 @@ La [Figura 220](#figura-220) muestra los Contributors del repositorio de impleme
 
 La interpretación de estas analíticas debe confirmar qué integrantes realizaron cambios efectivos, quiénes lideraron componentes y cuáles fueron las contribuciones colaborativas. El gráfico de Contributors de `main` no incluye los commits integrados solo en `develop`; por ello, las contribuciones de Mel Andree Orellana Rodriguez deben contrastarse con los commits de esa rama y con la [Tabla 96](#tabla-96) antes de cerrar el Sprint.
 
+## 4.3. Validation Interviews
+
+En esta sección se documenta la entrevista de validación realizada al finalizar el Sprint 2 con una usuaria del segmento Agricultor. El objetivo fue comprobar si los flujos implementados en la aplicación móvil Muyu (registro, publicación de parcelas, registro de evidencias, sincronización y pagos) se entienden y responden a las necesidades identificadas durante el Needfinding.
+
+### 4.3.1. Diseño de Entrevistas
+
+La aplicación todavía no se encuentra publicada en una tienda de aplicaciones. Por ello, la sesión se realizó por Google Meet: la entrevistadora compartió la pantalla del emulador y la entrevistada indicó en voz alta dónde tocar o qué escribir, como si tuviera el celular en la mano. Antes de cada acción se le preguntó qué esperaba que ocurriera y, después, si el resultado era el esperado. Para los datos de tarjetas y cuentas bancarias se usaron únicamente datos de prueba.
+
+La [Tabla 101](#tabla-101) resume la estructura de la entrevista de validación del segmento Agricultor.
+
+<p id="tabla-101"><strong>Tabla 101.</strong> Diseño de la entrevista de validación — Segmento Agricultor</p>
+
+| Etapa | Contenido |
+|---|---|
+| Bienvenida y consentimiento | Presentación del equipo y de Muyu, y autorización para grabar la sesión con fines académicos. |
+| Contexto | Trabajo en el campo, uso del celular y calidad de la señal en la parcela. |
+| Tarea 1 | Registrarse y elegir el rol de agricultor. |
+| Tarea 2 | Publicar una parcela: foto, nombre, cultivo, área, cosecha estimada, ubicación, monto y ciclo. |
+| Tarea 3 | Encontrar dónde registrar la cuenta bancaria o tarjeta para recibir los desembolsos. |
+| Tarea 4 | Con la parcela ya financiada por un comerciante, registrar la evidencia de un hito. |
+| Tarea 5 | Encontrar la sincronización de evidencias y la sección de pagos. |
+| Preguntas posteriores | Facilidad de uso, métodos de pago preferidos y aspectos por mejorar. |
+| Escala | Del 1 al 5, ¿cuánto recomendaría la aplicación? |
+
+### 4.3.2. Registro de Entrevistas
+
+La [Tabla 102](#tabla-102) presenta el registro de la entrevista de validación con la agricultora Lili Vera Vela, quien también participó en las entrevistas de Needfinding. La parte del registro de la cuenta se omitió del video para proteger sus datos personales, y su teléfono y correo aparecen difuminados.
+
+<p id="tabla-102"><strong>Tabla 102.</strong> Segmento: Agricultor — Entrevista de validación 1</p>
+
+<table>
+
+<tr><th colspan="4">Entrevista de validación #1</th></tr>
+
+<tr>
+  <td><strong>Nombre completo</strong></td>
+  <td colspan="3">Lili Vera Vela</td>
+</tr>
+
+<tr>
+  <td><strong>Edad</strong></td>
+  <td>52 años</td>
+  <td><strong>Ubicación</strong></td>
+  <td>Camporredondo, Luya, Amazonas</td>
+</tr>
+
+<tr>
+  <td><strong>Ocupación</strong></td>
+  <td>Agricultora de café</td>
+  <td><strong>Fecha, inicio y duración</strong></td>
+  <td>06/11/2026 · 00:00-17:10</td>
+</tr>
+
+<tr>
+  <td><strong>Enlace</strong></td>
+  <td colspan="3">
+    <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1">
+      upc-pre-202620-1acc0238-13981-allpatech-app-validation-av2.mp4
+    </a>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" valign="top">
+    <strong>Resumen</strong><br>
+    Lili usa el celular sobre todo para enviar evidencias del avance de su cultivo de café. Contó que en Amazonas la señal se pierde con las lluvias, los truenos y las tormentas, lo que dificulta la comunicación. Durante la sesión eligió el rol de agricultor sin dificultad y publicó la parcela «La Fortaleza» (café, 1 ha) con un monto de S/ 30,000 y un ciclo de 12 meses. Al buscar dónde publicar, primero pensó en su perfil, por lo que el botón Publicar debe ser más visible. Para registrar su cuenta fue directamente a Perfil y Cuenta bancaria. Con la parcela financiada, registró la evidencia de la cosecha y encontró la sincronización y los pagos sin ayuda. Sobre los métodos de pago, indicó que Yape y Plin no le parecen adecuados por su límite y que prefiere recibir los desembolsos en una cuenta bancaria. Señaló que la ubicación debería permitir especificar más provincias. Calificó la aplicación con 4 de 5 y comentó que le resultó bastante fácil y que es un buen avance para las personas de provincia.
+  </td>
+
+  <td colspan="2" valign="top">
+    <strong>Foto</strong><br>
+    <img alt="Entrevista de validación con agricultora" src="assets/images/chapter04/videos/validacion-agricultor-01.jpg" width="220">
+  </td>
+</tr>
+
+</table>
+
+### 4.3.3. Evaluaciones según heurísticas
+
+A partir de lo observado en la sesión, el equipo evaluó los problemas encontrados con las heurísticas de usabilidad de Nielsen. La severidad se califica de 1 (cosmético) a 4 (impide completar la tarea).
+
+La [Tabla 103](#tabla-103) resume la evaluación.
+
+<p id="tabla-103"><strong>Tabla 103.</strong> Evaluación según heurísticas — Entrevista de validación 1</p>
+
+| Problema observado | Heurística | Severidad | Recomendación |
+|---|---|---|---|
+| La usuaria buscó la opción para publicar una parcela en su perfil antes de encontrar el botón Publicar. | Visibilidad del estado del sistema | 2 | Dar más contraste y tamaño al botón Publicar en Mis parcelas. |
+| La ubicación no permite especificar todas las provincias y distritos de la usuaria. | Coincidencia entre el sistema y el mundo real | 3 | Ampliar el catálogo de regiones, provincias y distritos del formulario de ubicación. |
+| Escribir el correo con «@» fue difícil durante el registro. | Flexibilidad y eficiencia de uso | 2 | Usar el teclado de correo electrónico en el campo Email y permitir el inicio de sesión con el número de teléfono. |
+| La usuaria prefiere recibir los desembolsos en una cuenta bancaria, porque Yape y Plin tienen límite por transferencia. | Coincidencia entre el sistema y el mundo real | 2 | Priorizar la cuenta bancaria como método de cobro y mantener el aviso del límite de S/ 500 por transferencia. |
+| Al registrar la tarjeta hubo dudas con la fecha de vencimiento, y el campo no avanza bien al escribir el año. | Prevención de errores | 2 | Corregir la posición del cursor en el campo MM/AA y mostrar un ejemplo de formato. |
+| La alerta climática no muestra datos si la ubicación del dispositivo está desactivada. | Ayuda y documentación | 1 | Explicar por qué se necesita la ubicación y ofrecer un botón para activarla. |
+
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
