@@ -423,9 +423,9 @@ Cada plan plantea dos metas posteriores a la graduación: una para mantener la a
     * [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     * [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 * [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
-* [Video App Validation](#video-app-validation)
-* [Video About the product](#video-about-the-product)
-* [Video About the team](#video-about-the-team)
+  * [Video App Validation](#video-app-validation)
+  * [Video About the product](#video-about-the-product)
+  * [Video About the team](#video-about-the-team)
 * [Glosario](#glosario)
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
@@ -10560,13 +10560,13 @@ Usar la ubicación registrada de la parcela cuando el GPS no esté disponible y 
 16. Continuar utilizando GitHub y Trello para documentar el trabajo del equipo. Se recomienda mantener commits descriptivos, Pull Requests revisados y tareas correctamente asignadas para conservar la trazabilidad del proyecto.
 
 
-# Video App Validation
+## Video App Validation
 
-Este video presenta la entrevista de validación de la aplicación móvil Muyu con una agricultora de café de Amazonas, descrita en la sección [4.3. Validation Interviews](#43-validation-interviews). En él se observa a la usuaria guiar el uso de la aplicación desde la elección del rol hasta la publicación de una parcela, el registro de una evidencia, la sincronización y la consulta de pagos, además de sus comentarios finales sobre los métodos de pago y la ubicación.
+Este video documenta la evaluación de la aplicación móvil Muyu mediante una prueba con una usuaria del segmento Agricultor, descrita en la sección [4.3. Validation Interviews](#43-validation-interviews). La usuaria guía el uso de la aplicación desde la elección del rol hasta la publicación de una parcela, el registro de una evidencia, la sincronización y la consulta de pagos. Los problemas observados se evalúan con el Formato para Evaluación de User Experience según Heurísticas en la sección [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas).
 
-La [Figura 221](#figura-221) muestra la portada del video de validación de la aplicación.
+La [Figura 227](#figura-227) muestra la portada del video de validación de la aplicación.
 
-<p id="figura-221"><strong>Figura 221.</strong> Video App Validation</p>
+<p id="figura-227"><strong>Figura 227.</strong> Video App Validation</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1">
@@ -10574,15 +10574,16 @@ La [Figura 221](#figura-221) muestra la portada del video de validación de la a
   </a>
 </p>
 
-URL del video: [upc-pre-202620-1acc0238-13981-allpatech-app-validation-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1) (17:10)
+URL del video en OneDrive: [upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1)<br>
+Duración: 17:10
 
-# Video About the team
+## Video About the team
 
-Este video presenta cómo trabajó el equipo AllpaTech durante el desarrollo de Muyu: la organización con Scrum y Trello, las reuniones virtuales, las entrevistas con agricultores y comerciantes, el diseño centrado en el usuario, el desarrollo con GitHub, un fragmento de la entrevista de validación y la retrospectiva del equipo. Al final, cada integrante comparte lo que aportó y aprendió.
+Este video resume el proceso de trabajo del equipo AllpaTech durante el desarrollo de Muyu. Muestra la organización con Scrum y Trello, las reuniones virtuales, las entrevistas con agricultores y comerciantes, el diseño centrado en el usuario, el desarrollo con GitHub, un fragmento de la entrevista de validación y la retrospectiva del equipo, con narración en voz en off. Al final, cada integrante presenta ante cámara las actividades que realizó, cómo contribuyó al logro del student outcome y las competencias que desarrolló.
 
-La [Figura 222](#figura-222) muestra la portada del video About the team.
+La [Figura 228](#figura-228) muestra un cuadro representativo del video About the team.
 
-<p id="figura-222"><strong>Figura 222.</strong> Video About the team</p>
+<p id="figura-228"><strong>Figura 228.</strong> Video About the team</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO">
@@ -10590,7 +10591,30 @@ La [Figura 222](#figura-222) muestra la portada del video About the team.
   </a>
 </p>
 
-URL del video: [upc-pre-202620-1acc0238-13981-allpatech-about-the-team-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO) (10:05)
+URL del video en OneDrive: [upc-pre-202620-1acc0238-13981-allpatech-about-the-team-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO)<br>
+Duración: 10:05
+
+La [Tabla 111](#tabla-111) presenta la pauta de secuencias de contenido del video con el inicio de cada sección.
+
+<p id="tabla-111"><strong>Tabla 111.</strong> Pauta de secuencias del video About the team</p>
+
+| Inicio (hh:mm:ss) | Sección |
+|---|---|
+| 00:00:00 | Portada |
+| 00:00:04 | Presentación del equipo y organización con Scrum, Trello y reuniones virtuales |
+| 00:01:12 | Entrevistas con agricultores y comerciantes |
+| 00:02:18 | Diseño centrado en el usuario: User Personas, Journey Maps y mockups |
+| 00:02:41 | Desarrollo y colaboración en GitHub |
+| 00:03:23 | Validación de la aplicación |
+| 00:03:37 | Fragmento de la entrevista de validación |
+| 00:04:19 | Retrospectiva del equipo |
+| 00:04:53 | Testimonios del equipo |
+| 00:04:56 | Testimonio de Arroyo Gonzales, Emily Juliette |
+| 00:06:01 | Testimonio de Orellana Rodriguez, Mel Andree |
+| 00:07:01 | Testimonio de Berrospi Marin, Angel Guillermo |
+| 00:07:55 | Testimonio de Quintanilla Pozo, Gonzalo Samuel |
+| 00:08:53 | Testimonio de Riveros Vera, Jennifer Yamilet |
+| 00:10:01 | Cierre |
 
 # Bibliografía
 
