@@ -657,6 +657,8 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 218](#figura-218) — Estado vacío de Payments
 - [Figura 219](#figura-219) — GitHub Insights de la aplicación móvil
 - [Figura 220](#figura-220) — GitHub Contributors de la aplicación móvil
+- [Figura 221](#figura-221) — Video App Validation
+- [Figura 222](#figura-222) — Video About the team
 - [Tabla 97.1](#tabla-971) — Testing Commits Evidence
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
@@ -10308,6 +10310,38 @@ La [Tabla 103](#tabla-103) resume la evaluación.
 
 16. Continuar utilizando GitHub y Trello para documentar el trabajo del equipo. Se recomienda mantener commits descriptivos, Pull Requests revisados y tareas correctamente asignadas para conservar la trazabilidad del proyecto.
 
+
+# Video App Validation
+
+Este video presenta la entrevista de validación de la aplicación móvil Muyu con una agricultora de café de Amazonas, descrita en la sección [4.3. Validation Interviews](#43-validation-interviews). En él se observa a la usuaria guiar el uso de la aplicación desde la elección del rol hasta la publicación de una parcela, el registro de una evidencia, la sincronización y la consulta de pagos, además de sus comentarios finales sobre los métodos de pago y la ubicación.
+
+La [Figura 221](#figura-221) muestra la portada del video de validación de la aplicación.
+
+<p id="figura-221"><strong>Figura 221.</strong> Video App Validation</p>
+
+<p align="center">
+  <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1">
+    <img src="assets/images/chapter04/videos/video-app-validation.jpg" alt="Video App Validation de Muyu" width="700"/>
+  </a>
+</p>
+
+URL del video: [upc-pre-202620-1acc0238-13981-allpatech-app-validation-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1) (17:10)
+
+# Video About the team
+
+Este video presenta cómo trabajó el equipo AllpaTech durante el desarrollo de Muyu: la organización con Scrum y Trello, las reuniones virtuales, las entrevistas con agricultores y comerciantes, el diseño centrado en el usuario, el desarrollo con GitHub, un fragmento de la entrevista de validación y la retrospectiva del equipo. Al final, cada integrante comparte lo que aportó y aprendió.
+
+La [Figura 222](#figura-222) muestra la portada del video About the team.
+
+<p id="figura-222"><strong>Figura 222.</strong> Video About the team</p>
+
+<p align="center">
+  <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO">
+    <img src="assets/images/chapter04/videos/video-about-the-team.jpg" alt="Video About the team de AllpaTech" width="700"/>
+  </a>
+</p>
+
+URL del video: [upc-pre-202620-1acc0238-13981-allpatech-about-the-team-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO) (10:05)
 
 # Bibliografía
 
