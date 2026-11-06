@@ -10085,7 +10085,7 @@ Como apoyo manual se verificó el recorrido desde una cuenta nueva, la publicaci
 
 Como evidencia funcional del trabajo de Gonzalo se verificó también el recorrido del comerciante desde el catálogo hacia el detalle de una parcela, la solicitud de una visita con fecha y hora, la aceptación de la solicitud desde el rol agricultor y la consulta posterior del estado confirmado. Asimismo, se revisaron el financiamiento por etapas, el estado de pago no confirmado, la parcela no disponible, el almacenamiento de fondos en Escrow y la generación del comprobante PDF.
 
-El video de navegación del Sprint 2 muestra el recorrido completo por el Home, los filtros, el estado vacío y Payment: [Video App Validation Sprint 2](https://example.com/pendiente-video-sprint-2).
+La ejecución de la aplicación con una usuaria real se muestra en la entrevista de validación del Sprint 2, que recorre el Home, la publicación de una parcela, el registro de evidencias, la sincronización y Payments: [Video App Validation](#video-app-validation).
 
 ### 4.2.2.7. Services Documentation Evidence for Sprint Review
 
