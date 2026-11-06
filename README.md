@@ -659,12 +659,11 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 220](#figura-220) — GitHub Contributors de la aplicación móvil
 - [Figura 221](#figura-221) — Botón Publicar en Mis parcelas
 - [Figura 222](#figura-222) — Formulario de ubicación de la parcela
-- [Figura 223](#figura-223) — Formulario de registro de cuenta
-- [Figura 224](#figura-224) — Pantalla Cuenta bancaria con billeteras digitales
-- [Figura 225](#figura-225) — Campo de vencimiento de la tarjeta
-- [Figura 226](#figura-226) — Alerta climática sin ubicación
-- [Figura 227](#figura-227) — Video App Validation
-- [Figura 228](#figura-228) — Video About the team
+- [Figura 223](#figura-223) — Pantalla Cuenta bancaria con billeteras digitales
+- [Figura 224](#figura-224) — Campo de vencimiento de la tarjeta
+- [Figura 225](#figura-225) — Alerta climática sin ubicación
+- [Figura 226](#figura-226) — Video App Validation
+- [Figura 227](#figura-227) — Video About the team
 - [Tabla 97.1](#tabla-971) — Testing Commits Evidence
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
@@ -10429,10 +10428,9 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 |---|---|---|---|
 | 1 | El botón Publicar no se distingue lo suficiente en Mis parcelas | 2 | Information Architecture: Is it findable? |
 | 2 | La ubicación no permite especificar la provincia y el distrito reales del agricultor | 3 | Usability: Coincidencia entre el sistema y el mundo real |
-| 3 | El registro exige escribir un correo con «@», difícil para usuarios con poca práctica en el teclado | 2 | Inclusive Design: Ofrece opciones |
-| 4 | Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos | 2 | Usability: Coincidencia entre el sistema y el mundo real |
-| 5 | El campo de vencimiento de la tarjeta desordena los dígitos del año | 3 | Usability: Prevención de errores |
-| 6 | La alerta climática no muestra datos cuando la ubicación está desactivada | 2 | Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores |
+| 3 | Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos | 2 | Usability: Coincidencia entre el sistema y el mundo real |
+| 4 | El campo de vencimiento de la tarjeta desordena los dígitos del año | 3 | Usability: Prevención de errores |
+| 5 | La alerta climática no muestra datos cuando la ubicación está desactivada | 2 | Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -10474,26 +10472,7 @@ La [Figura 222](#figura-222) muestra el formulario de ubicación de la parcela.
 
 Usar listas de región, provincia y distrito basadas en el ubigeo oficial del INEI y permitir corregir la ubicación detectada por el GPS.
 
-**PROBLEMA #3: El registro exige escribir un correo con «@»**
-
-Severidad: 2<br>
-Heurística violada: Inclusive Design - Ofrece opciones
-
-*Problema:*
-
-Durante el registro, escribir el correo electrónico dictado por la usuaria tomó varios intentos, sobre todo por el símbolo «@». Para agricultores con poca práctica en el teclado del celular, el correo es una barrera para crear la cuenta.
-
-La [Figura 223](#figura-223) muestra el formulario de registro.
-
-<p id="figura-223"><strong>Figura 223.</strong> Formulario de registro de cuenta</p>
-
-<p align="center"><img src="assets/images/chapter04/validation/heuristica-03-registro.jpg" alt="Formulario de registro de cuenta" width="300"/></p>
-
-*Recomendación:*
-
-Mostrar el teclado de correo electrónico en el campo Email y permitir el registro e inicio de sesión con el número de celular.
-
-**PROBLEMA #4: Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos**
+**PROBLEMA #3: Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos**
 
 Severidad: 2<br>
 Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
@@ -10502,9 +10481,9 @@ Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
 
 La usuaria indicó que Yape y Plin no le parecen adecuados para recibir los desembolsos porque tienen un límite por transferencia y que prefiere una cuenta bancaria. En la pantalla Cuenta bancaria, las billeteras digitales tienen el mismo peso visual que la cuenta.
 
-La [Figura 224](#figura-224) muestra la pantalla Cuenta bancaria.
+La [Figura 223](#figura-223) muestra la pantalla Cuenta bancaria.
 
-<p id="figura-224"><strong>Figura 224.</strong> Pantalla Cuenta bancaria con billeteras digitales</p>
+<p id="figura-223"><strong>Figura 223.</strong> Pantalla Cuenta bancaria con billeteras digitales</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-04-cuenta-bancaria.jpg" alt="Pantalla Cuenta bancaria con Yape y Plin" width="300"/></p>
 
@@ -10512,7 +10491,7 @@ La [Figura 224](#figura-224) muestra la pantalla Cuenta bancaria.
 
 Presentar la cuenta bancaria como método principal de cobro y mostrar Yape y Plin como opción secundaria para montos pequeños, manteniendo el aviso del límite de S/ 500 por transferencia.
 
-**PROBLEMA #5: El campo de vencimiento de la tarjeta desordena los dígitos del año**
+**PROBLEMA #4: El campo de vencimiento de la tarjeta desordena los dígitos del año**
 
 Severidad: 3<br>
 Heurística violada: Usabilidad - Prevención de errores
@@ -10521,9 +10500,9 @@ Heurística violada: Usabilidad - Prevención de errores
 
 Al registrar la tarjeta hubo dudas con la fecha de vencimiento. En una prueba posterior se comprobó que, al escribir 1228, el campo muestra 12/82, porque el cursor queda antes del último dígito después de insertar la barra.
 
-La [Figura 225](#figura-225) muestra el campo de vencimiento con el año desordenado.
+La [Figura 224](#figura-224) muestra el campo de vencimiento con el año desordenado.
 
-<p id="figura-225"><strong>Figura 225.</strong> Campo de vencimiento de la tarjeta</p>
+<p id="figura-224"><strong>Figura 224.</strong> Campo de vencimiento de la tarjeta</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-05-tarjeta.jpg" alt="Campo de vencimiento con el año desordenado" width="300"/></p>
 
@@ -10531,7 +10510,7 @@ La [Figura 225](#figura-225) muestra el campo de vencimiento con el año desorde
 
 Corregir la posición del cursor en el campo MM/AA, mostrar un ejemplo del formato y validar que la fecha no esté vencida antes de guardar.
 
-**PROBLEMA #6: La alerta climática no muestra datos cuando la ubicación está desactivada**
+**PROBLEMA #5: La alerta climática no muestra datos cuando la ubicación está desactivada**
 
 Severidad: 2<br>
 Heurística violada: Usabilidad - Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores
@@ -10540,9 +10519,9 @@ Heurística violada: Usabilidad - Ayuda a los usuarios a reconocer, diagnosticar
 
 Al abrir la alerta climática con la ubicación del dispositivo desactivada, la pantalla solo muestra un texto pequeño y no ofrece una forma directa de activarla, por lo que durante la sesión no se pudo mostrar el clima de la parcela.
 
-La [Figura 226](#figura-226) muestra la pantalla de alerta climática sin ubicación.
+La [Figura 225](#figura-225) muestra la pantalla de alerta climática sin ubicación.
 
-<p id="figura-226"><strong>Figura 226.</strong> Alerta climática sin ubicación</p>
+<p id="figura-225"><strong>Figura 225.</strong> Alerta climática sin ubicación</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-06-alerta-clima.jpg" alt="Alerta climática sin ubicación activada" width="300"/></p>
 
@@ -10619,9 +10598,9 @@ Usar la ubicación registrada de la parcela cuando el GPS no esté disponible y 
 
 Este video documenta la evaluación de la aplicación móvil Muyu mediante una prueba con una usuaria del segmento Agricultor, descrita en la sección [4.3. Validation Interviews](#43-validation-interviews). La usuaria guía el uso de la aplicación desde la elección del rol hasta la publicación de una parcela, el registro de una evidencia, la sincronización y la consulta de pagos. Los problemas observados se evalúan con el Formato para Evaluación de User Experience según Heurísticas en la sección [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas).
 
-La [Figura 227](#figura-227) muestra la portada del video de validación de la aplicación.
+La [Figura 226](#figura-226) muestra la portada del video de validación de la aplicación.
 
-<p id="figura-227"><strong>Figura 227.</strong> Video App Validation</p>
+<p id="figura-226"><strong>Figura 226.</strong> Video App Validation</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1">
@@ -10636,9 +10615,9 @@ Duración: 17:10
 
 Este video resume el proceso de trabajo del equipo AllpaTech durante el desarrollo de Muyu. Muestra la organización con Scrum y Trello, las reuniones virtuales, las entrevistas con agricultores y comerciantes, el diseño centrado en el usuario, el desarrollo con GitHub, un fragmento de la entrevista de validación y la retrospectiva del equipo, con narración en voz en off. Al final, cada integrante presenta ante cámara las actividades que realizó, cómo contribuyó al logro del student outcome y las competencias que desarrolló.
 
-La [Figura 228](#figura-228) muestra un cuadro representativo del video About the team.
+La [Figura 227](#figura-227) muestra un cuadro representativo del video About the team.
 
-<p id="figura-228"><strong>Figura 228.</strong> Video About the team</p>
+<p id="figura-227"><strong>Figura 227.</strong> Video About the team</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO">
