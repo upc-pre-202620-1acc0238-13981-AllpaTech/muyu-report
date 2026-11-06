@@ -10379,9 +10379,9 @@ La evaluación de las sesiones de validación sigue el formato UX Heuristics & P
 | | |
 |---|---|
 | **CARRERA** | Ingeniería de Software |
-| **CURSO** | 1ACC0238 Aplicaciones para Dispositivos Móviles |
+| **CURSO** | 1acc0238 Aplicaciones para dispositivos móviles |
 | **NRC** | 13981 |
-| **PROFESORES** | Jorge Luis Mayta Guillermo |
+| **PROFESORES** | Todos |
 | **AUDITOR** | AllpaTech |
 | **CLIENTE(S)** | Lili Vera Vela (segmento Agricultor) |
 
@@ -10410,16 +10410,16 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 **ESCALA DE SEVERIDAD:**
 
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.*
 
 <p id="tabla-109"><strong>Tabla 109.</strong> Escala de severidad</p>
 
 | Nivel | Descripción |
 |---|---|
-| 1 | Problema superficial: puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
-| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+| 1 | Problema superficial: Puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
 
 **TABLA RESUMEN:**
 
@@ -10458,7 +10458,7 @@ Aumentar el tamaño y el contraste del botón Publicar y mostrar también un acc
 **PROBLEMA #2: La ubicación no permite especificar la provincia y el distrito reales del agricultor**
 
 Severidad: 3<br>
-Heurística violada: Usability - Coincidencia entre el sistema y el mundo real
+Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
 
 *Problema:*
 
@@ -10496,7 +10496,7 @@ Mostrar el teclado de correo electrónico en el campo Email y permitir el regist
 **PROBLEMA #4: Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos**
 
 Severidad: 2<br>
-Heurística violada: Usability - Coincidencia entre el sistema y el mundo real
+Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
 
 *Problema:*
 
@@ -10515,7 +10515,7 @@ Presentar la cuenta bancaria como método principal de cobro y mostrar Yape y Pl
 **PROBLEMA #5: El campo de vencimiento de la tarjeta desordena los dígitos del año**
 
 Severidad: 3<br>
-Heurística violada: Usability - Prevención de errores
+Heurística violada: Usabilidad - Prevención de errores
 
 *Problema:*
 
@@ -10534,7 +10534,7 @@ Corregir la posición del cursor en el campo MM/AA, mostrar un ejemplo del forma
 **PROBLEMA #6: La alerta climática no muestra datos cuando la ubicación está desactivada**
 
 Severidad: 2<br>
-Heurística violada: Usability - Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores
+Heurística violada: Usabilidad - Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores
 
 *Problema:*
 
