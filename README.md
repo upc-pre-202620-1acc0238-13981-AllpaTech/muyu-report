@@ -650,9 +650,13 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 211](#figura-211) — Contribuciones en el repositorio de la Landing Page
 - [Figura 212](#figura-212) — Historial de commits de la aplicación móvil
 - [Figura 213](#figura-213) — Tablero de seguimiento del Sprint 1
-
-- [Figura 218](#figura-218) — GitHub Insights de la aplicación móvil
-- [Figura 219](#figura-219) — GitHub Contributors de la aplicación móvil
+- [Figura 214](#figura-214) — Reunión del equipo para la revisión de parcelas
+- [Figura 215](#figura-215) — Home del agricultor con parcelas
+- [Figura 216](#figura-216) — Estado vacío del Home con una cuenta nueva
+- [Figura 217](#figura-217) — Filtro aplicado en el Home del agricultor
+- [Figura 218](#figura-218) — Estado vacío de Payments
+- [Figura 219](#figura-219) — GitHub Insights de la aplicación móvil
+- [Figura 220](#figura-220) — GitHub Contributors de la aplicación móvil
 - [Tabla 97.1](#tabla-971) — Testing Commits Evidence
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
@@ -9886,10 +9890,10 @@ La [Tabla 93](#tabla-93) organiza la información correspondiente al Sprint Plan
 | Sprint #2 | |
 |---|---|
 | **Sprint Planning Background** | |
-| **Date** | [fecha de la reunión] |
-| **Time** | [hora] |
-| **Location** | Reunión virtual mediante Discord |
-| **Prepared By** | [nombre] |
+| **Date** | 2026-11-06 |
+| **Time** | 12:13 PM |
+| **Location** | Reunión virtual mediante Google Meet |
+| **Prepared By** | Riveros Vera, Jennifer Yamilet |
 | **Attendees (to planning meeting)** | Orellana Rodriguez, Mel Andree / Berrospi Marin, Angel Guillermo / Arroyo Gonzales, Emily Juliette / Riveros Vera, Jennifer Yamilet / Quintanilla Pozo, Gonzalo Samuel |
 | **Sprint 1 Review Summary** | En el Sprint 1 se publicó la Landing Page en Netlify, se implementaron el registro, el inicio de sesión, el onboarding y la selección de rol en la aplicación móvil, y se desplegaron la Fake API en Render y el backend en Railway. Quedaron en proceso la API de autenticación con JWT, el control de acceso por rol, la recuperación de contraseña, la gestión del perfil y los datos bancarios. |
 | **Sprint 1 Retrospective Summary** | El equipo detectó que la aplicación podía mostrar datos de demostración cuando se perdía la sesión del usuario. Se acordó que cada cuenta debe ver solo sus propios datos, que una cuenta nueva debe empezar vacía y que los cambios se registren en commits pequeños por tema. |
@@ -9897,6 +9901,12 @@ La [Tabla 93](#tabla-93) organiza la información correspondiente al Sprint Plan
 | **Sprint 2 Goal** | **Our focus is on** implementing plot publication, the farmer's plot dashboard, plot search and filtering, and the financing plan of each plot.<br><br>**We believe it delivers** a farmer experience where each account manages only its own plots and follows their status, and a merchant experience where available plots can be found and reviewed.<br><br>**This will be confirmed when** a newly registered farmer starts with no plots, publishes a plot that appears in Home and My Plots, filters it by status, and a merchant can find it and see its details. |
 | **Sprint 2 Velocity** | 21 Story Points |
 | **Sum of Story Points** | 21 Story Points (US03: 5, US21: 5, US20: 3, US04: 5, US22: 3). |
+
+La [Figura 214](#figura-214) muestra la reunión virtual del equipo realizada mediante Google Meet, en la que se revisó el flujo de publicación de parcelas en la aplicación móvil con la participación de todos los integrantes.
+
+<p id="figura-214"><strong>Figura 214.</strong> Reunión del equipo para la revisión de parcelas</p>
+
+<p align="center"><img src="assets/images/chapter04/sprint-2/sprint-planning-2-meeting.png" alt="Reunión del equipo en Google Meet para la revisión de parcelas" width="900"/></p>
 
 ### 4.2.2.2. Aspect Leaders and Collaborators
 
@@ -10045,27 +10055,27 @@ La [Tabla 97.1](#tabla-971) registra los commits de testing. Mientras el respons
 
 Las capturas siguientes documentan la ejecución de las funcionalidades desarrolladas para el panel del agricultor y el aislamiento de datos por cuenta.
 
-La [Figura 214](#figura-214) muestra el Home del agricultor con parcelas.
+La [Figura 215](#figura-215) muestra el Home del agricultor con parcelas.
 
-<p id="figura-214"><strong>Figura 214.</strong> Home del agricultor con parcelas</p>
+<p id="figura-215"><strong>Figura 215.</strong> Home del agricultor con parcelas</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/home-con-parcelas.png" alt="Home del agricultor con parcelas" width="300"/></p>
 
-La [Figura 215](#figura-215) muestra el estado vacío de una cuenta nueva.
+La [Figura 216](#figura-216) muestra el estado vacío de una cuenta nueva.
 
-<p id="figura-215"><strong>Figura 215.</strong> Estado vacío del Home con una cuenta nueva</p>
+<p id="figura-216"><strong>Figura 216.</strong> Estado vacío del Home con una cuenta nueva</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/home-estado-vacio.png" alt="Estado vacío del Home" width="300"/></p>
 
-La [Figura 216](#figura-216) muestra un filtro aplicado en el Home.
+La [Figura 217](#figura-217) muestra un filtro aplicado en el Home.
 
-<p id="figura-216"><strong>Figura 216.</strong> Filtro aplicado en el Home del agricultor</p>
+<p id="figura-217"><strong>Figura 217.</strong> Filtro aplicado en el Home del agricultor</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/home-filtro-pending.png" alt="Filtro Pending aplicado en el Home" width="300"/></p>
 
-La [Figura 217](#figura-217) muestra el estado vacío de Payments para una cuenta sin financiamiento.
+La [Figura 218](#figura-218) muestra el estado vacío de Payments para una cuenta sin financiamiento.
 
-<p id="figura-217"><strong>Figura 217.</strong> Estado vacío de Payments</p>
+<p id="figura-218"><strong>Figura 218.</strong> Estado vacío de Payments</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/payment-estado-vacio.png" alt="Payment vacío en una cuenta sin financiamiento" width="300"/></p>
 
@@ -10127,15 +10137,15 @@ La [Tabla 100](#tabla-100) resume las contribuciones documentadas de la iteraci�
 
 Las siguientes capturas deben provenir de los analíticos de los repositorios utilizados en la implementación. Cada integrante debe contar con evidencia de contribución, commits y actividad verificable durante el Sprint.
 
-La [Figura 218](#figura-218) muestra los Insights del repositorio de implementación móvil.
+La [Figura 219](#figura-219) muestra los Insights del repositorio de implementación móvil.
 
-<p id="figura-218"><strong>Figura 218.</strong> GitHub Insights de la aplicación móvil</p>
+<p id="figura-219"><strong>Figura 219.</strong> GitHub Insights de la aplicación móvil</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-insights.png" alt="GitHub Insights de muyu-app" width="850"/></p>
 
-La [Figura 219](#figura-219) muestra los Contributors del repositorio de implementación móvil.
+La [Figura 220](#figura-220) muestra los Contributors del repositorio de implementación móvil.
 
-<p id="figura-219"><strong>Figura 219.</strong> GitHub Contributors de la aplicación móvil</p>
+<p id="figura-220"><strong>Figura 220.</strong> GitHub Contributors de la aplicación móvil</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-contributors.png" alt="GitHub Contributors de muyu-app" width="850"/></p>
 
