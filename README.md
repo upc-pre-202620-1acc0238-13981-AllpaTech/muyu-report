@@ -10592,6 +10592,7 @@ La [Figura 228](#figura-228) muestra un cuadro representativo del video About th
 </p>
 
 URL del video en OneDrive: [upc-pre-202620-1acc0238-13981-allpatech-about-the-team-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO)<br>
+URL del video en YouTube: [About the team - AllpaTech](https://youtu.be/2ZrIt9hB1wM)<br>
 Duración: 10:05
 
 La [Tabla 111](#tabla-111) presenta la pauta de secuencias de contenido del video con el inicio de cada sección.
