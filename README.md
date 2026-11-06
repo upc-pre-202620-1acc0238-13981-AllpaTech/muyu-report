@@ -10165,35 +10165,90 @@ En esta sección se registran las entrevistas de validación realizadas al final
 
 ### 4.3.1. Diseño de Entrevistas
 
-La aplicación todavía no se encuentra publicada en una tienda de aplicaciones. Por ello, las sesiones se realizan por Google Meet: el entrevistador comparte la pantalla del emulador o del navegador y el entrevistado indica en voz alta dónde tocar o qué escribir, como si tuviera el celular en la mano. Antes de cada acción se le pregunta qué espera que ocurra y, después, si el resultado era el esperado. Para los datos de tarjetas y cuentas bancarias se usan únicamente datos de prueba.
+La aplicación todavía no se encuentra publicada en una tienda de aplicaciones. Por ello, las sesiones se realizan por Google Meet: el entrevistador comparte la pantalla del emulador y el entrevistado indica en voz alta dónde tocar o qué escribir, como si tuviera el celular en la mano. Antes de cada acción se le pregunta qué espera que ocurra y, después, si el resultado era el esperado. Para los datos de tarjetas y cuentas bancarias se usan únicamente datos de prueba.
 
-Cada sesión sigue la misma estructura: bienvenida y consentimiento para grabar, preguntas de contexto, tareas en la Landing Page y en la aplicación, preguntas posteriores y una escala del 1 al 5 sobre cuánto recomendaría la aplicación.
+Cada sesión sigue la misma estructura para ambos segmentos: bienvenida y consentimiento para grabar, preguntas de contexto, tareas en la aplicación, preguntas posteriores a las tareas, escalas de evaluación y cierre.
 
-La [Tabla 101](#tabla-101) presenta los elementos y user flows que se validan con el segmento Agricultor.
+#### Segmento Agricultor
 
-<p id="tabla-101"><strong>Tabla 101.</strong> Diseño de la entrevista de validación — Segmento Agricultor</p>
+**Preguntas de contexto**
 
-| Producto | User flow | Tarea para el entrevistado |
+1. ¿Me podría contar cómo es su trabajo en el campo y cómo usa el celular?
+2. ¿Cómo es la señal de internet en su terreno?
+
+**Tareas en la aplicación**
+
+La [Tabla 101](#tabla-101) presenta las tareas que se indican al agricultor y el user flow de la aplicación que valida cada una.
+
+<p id="tabla-101"><strong>Tabla 101.</strong> Tareas y user flows de la entrevista de validación — Segmento Agricultor</p>
+
+| # | Tarea para el entrevistado | User flow |
 |---|---|---|
-| Landing Page | Conocer la propuesta de valor | Explicar con sus palabras qué ofrece Muyu a un agricultor y encontrar dónde descargar la aplicación. |
-| Aplicación móvil | Registro y elección de rol | Crear una cuenta y elegir el rol de agricultor. |
-| Aplicación móvil | Publicación de parcela | Publicar una parcela con foto, nombre, cultivo, área, cosecha estimada, ubicación, monto y ciclo. |
-| Aplicación móvil | Cuenta de cobro | Encontrar dónde registrar la cuenta bancaria o tarjeta para recibir los desembolsos. |
-| Aplicación móvil | Registro de evidencia | Con la parcela financiada, registrar la evidencia de un hito con foto, insumo y cantidad. |
-| Aplicación móvil | Sincronización y pagos | Encontrar las evidencias sincronizadas y el estado de los pagos. |
+| 1 | Cree una cuenta como agricultor y complete el recorrido de bienvenida. | Registro, elección de rol y onboarding |
+| 2 | Complete su perfil y registre sus datos bancarios. | Perfil y cuenta bancaria |
+| 3 | Publique una parcela nueva con sus datos de cultivo y fechas. | Publicación de parcela |
+| 4 | Encuentre su parcela en el panel y filtre por estado. | Home y filtros por estado |
+| 5 | Acepte una solicitud de visita de un comerciante. | Solicitudes de visita |
+| 6 | Consulte el historial y el detalle de un pago. | Historial y detalle de pagos |
 
-La [Tabla 102](#tabla-102) presenta los elementos y user flows que se validan con el segmento Comerciante.
+**Preguntas después de las tareas**
 
-<p id="tabla-102"><strong>Tabla 102.</strong> Diseño de la entrevista de validación — Segmento Comerciante</p>
+1. ¿Entendió las pantallas de bienvenida? ¿Qué cambiaría del texto o de las imágenes?
+2. ¿Qué paso del formulario de publicación le tomó más tiempo? ¿Qué dato no sabía cómo llenar?
+3. ¿Le fue fácil saber qué estado tiene cada parcela? ¿Los nombres de los estados le resultaron claros?
+4. ¿Qué le pareció la información del clima en la pantalla principal? ¿Qué otro dato necesita ahí?
+5. ¿Qué le pareció el tamaño de los botones y de las letras para usarlos en el campo?
+6. ¿Entendió cuándo recibe cada pago? ¿Qué información le falta?
+7. ¿Qué tarea de su día le gustaría resolver con la aplicación y todavía no puede?
+8. ¿Cree que usaría la aplicación a diario? ¿Qué se lo impediría?
 
-| Producto | User flow | Tarea para el entrevistado |
+**Escalas y cierre**
+
+1. En una escala de 1 a 5, ¿qué tan fácil fue usar la aplicación?
+2. En una escala de 1 a 5, ¿qué tanta confianza le genera para trabajar con la otra parte?
+3. ¿Qué le recomendaría a un conocido y qué le advertiría?
+
+#### Segmento Comerciante
+
+**Preguntas de contexto**
+
+1. ¿Me podría contar a qué se dedica y qué productos agrícolas compra?
+2. ¿Cómo hace hoy una compra anticipada o una reserva de producto?
+
+**Tareas en la aplicación**
+
+La [Tabla 102](#tabla-102) presenta las tareas que se indican al comerciante y el user flow de la aplicación que valida cada una.
+
+<p id="tabla-102"><strong>Tabla 102.</strong> Tareas y user flows de la entrevista de validación — Segmento Comerciante</p>
+
+| # | Tarea para el entrevistado | User flow |
 |---|---|---|
-| Landing Page | Conocer la propuesta de valor | Explicar con sus palabras cómo Muyu protege el dinero del comerciante y encontrar dónde descargar la aplicación. |
-| Aplicación móvil | Registro y elección de rol | Crear una cuenta y elegir el rol de comerciante. |
-| Aplicación móvil | Catálogo y detalle | Buscar una parcela disponible y revisar su ubicación, agricultor y plan de desembolsos. |
-| Aplicación móvil | Solicitud de visita | Solicitar una visita a la parcela con fecha y hora. |
-| Aplicación móvil | Financiamiento en Escrow | Elegir un método de pago, aceptar los términos y financiar la parcela. |
-| Aplicación móvil | Aprobación de hitos | Revisar la evidencia de un hito y aprobarla o rechazarla con un motivo. |
+| 1 | Cree una cuenta como comerciante y llegue a la pantalla principal. | Registro y elección de rol |
+| 2 | Busque una parcela de papa y filtre los resultados. | Catálogo, búsqueda y filtros |
+| 3 | Abra el detalle de una parcela y solicite una visita. | Detalle de parcela y solicitud de visita |
+| 4 | Financie una parcela hasta recibir el comprobante. | Financiamiento en Escrow y comprobante |
+| 5 | Revise la evidencia de un hito y apruebe o rechace el pago. | Revisión y aprobación de evidencias |
+| 6 | Encuentre el historial de pagos y los fondos retenidos en Escrow. | Historial de pagos y saldo en Escrow |
+| 7 | Abra las notificaciones y diga qué significa cada una. | Notificaciones |
+
+**Preguntas después de las tareas**
+
+1. ¿Qué esperaba ver al terminar el registro? ¿Algo le resultó confuso?
+2. ¿Encontró con facilidad la parcela que buscaba? ¿Qué filtro agregaría?
+3. ¿Qué información del detalle de la parcela le ayudó a decidir? ¿Cuál faltó?
+4. Durante el financiamiento, ¿entendió cuánto pagaba y cuándo se liberaba cada parte? ¿Qué paso le generó duda?
+5. ¿Cuánta seguridad le da saber que el dinero queda retenido en Escrow? ¿Qué más necesitaría ver?
+6. Al revisar la evidencia, ¿tenía datos suficientes para aprobar o rechazar? ¿Qué dato le da más confianza, como fecha, ubicación o tarea?
+7. ¿Las notificaciones le avisan lo importante? ¿Qué aviso falta?
+8. ¿Con qué frecuencia le gustaría revisar el avance de su parcela?
+9. ¿Usaría Muyu para su próxima compra? ¿Qué lo detendría?
+10. Si cambiara una sola cosa de la aplicación, ¿cuál sería?
+
+**Escalas y cierre**
+
+1. En una escala de 1 a 5, ¿qué tan fácil fue usar la aplicación?
+2. En una escala de 1 a 5, ¿qué tanta confianza le genera para trabajar con la otra parte?
+3. ¿Qué le recomendaría a un conocido y qué le advertiría?
 
 ### 4.3.2. Registro de Entrevistas
 
