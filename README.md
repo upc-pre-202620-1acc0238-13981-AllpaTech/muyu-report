@@ -423,9 +423,9 @@ Cada plan plantea dos metas posteriores a la graduación: una para mantener la a
     * [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     * [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 * [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
-* [Video App Validation](#video-app-validation)
-* [Video About the product](#video-about-the-product)
-* [Video About the team](#video-about-the-team)
+  * [Video App Validation](#video-app-validation)
+  * [Video About the product](#video-about-the-product)
+  * [Video About the team](#video-about-the-team)
 * [Glosario](#glosario)
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
@@ -657,8 +657,14 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 218](#figura-218) — Estado vacío de Payments
 - [Figura 219](#figura-219) — GitHub Insights de la aplicación móvil
 - [Figura 220](#figura-220) — GitHub Contributors de la aplicación móvil
-- [Figura 221](#figura-221) — Video App Validation
-- [Figura 222](#figura-222) — Video About the team
+- [Figura 221](#figura-221) — Botón Publicar en Mis parcelas
+- [Figura 222](#figura-222) — Formulario de ubicación de la parcela
+- [Figura 223](#figura-223) — Formulario de registro de cuenta
+- [Figura 224](#figura-224) — Pantalla Cuenta bancaria con billeteras digitales
+- [Figura 225](#figura-225) — Campo de vencimiento de la tarjeta
+- [Figura 226](#figura-226) — Alerta climática sin ubicación
+- [Figura 227](#figura-227) — Video App Validation
+- [Figura 228](#figura-228) — Video About the team
 - [Tabla 97.1](#tabla-971) — Testing Commits Evidence
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
@@ -10155,33 +10161,102 @@ La interpretación de estas analíticas debe confirmar qué integrantes realizar
 
 ## 4.3. Validation Interviews
 
-En esta sección se documenta la entrevista de validación realizada al finalizar el Sprint 2 con una usuaria del segmento Agricultor. El objetivo fue comprobar si los flujos implementados en la aplicación móvil Muyu (registro, publicación de parcelas, registro de evidencias, sincronización y pagos) se entienden y responden a las necesidades identificadas durante el Needfinding.
+En esta sección se registran las entrevistas de validación realizadas al finalizar el Sprint 2 con usuarios de los segmentos Agricultor y Comerciante. El objetivo es comprobar si los flujos implementados en la Landing Page y en la aplicación móvil Muyu se entienden y responden a las necesidades identificadas durante el Needfinding.
 
 ### 4.3.1. Diseño de Entrevistas
 
-La aplicación todavía no se encuentra publicada en una tienda de aplicaciones. Por ello, la sesión se realizó por Google Meet: la entrevistadora compartió la pantalla del emulador y la entrevistada indicó en voz alta dónde tocar o qué escribir, como si tuviera el celular en la mano. Antes de cada acción se le preguntó qué esperaba que ocurriera y, después, si el resultado era el esperado. Para los datos de tarjetas y cuentas bancarias se usaron únicamente datos de prueba.
+La aplicación todavía no se encuentra publicada en una tienda de aplicaciones. Por ello, las sesiones se realizan por Google Meet: el entrevistador comparte la pantalla del emulador y el entrevistado indica en voz alta dónde tocar o qué escribir, como si tuviera el celular en la mano. Antes de cada acción se le pregunta qué espera que ocurra y, después, si el resultado era el esperado. Para los datos de tarjetas y cuentas bancarias se usan únicamente datos de prueba.
 
-La [Tabla 101](#tabla-101) resume la estructura de la entrevista de validación del segmento Agricultor.
+Cada sesión sigue la misma estructura para ambos segmentos: bienvenida y consentimiento para grabar, preguntas de contexto, tareas en la aplicación, preguntas posteriores a las tareas, escalas de evaluación y cierre.
 
-<p id="tabla-101"><strong>Tabla 101.</strong> Diseño de la entrevista de validación — Segmento Agricultor</p>
+#### Segmento Agricultor
 
-| Etapa | Contenido |
-|---|---|
-| Bienvenida y consentimiento | Presentación del equipo y de Muyu, y autorización para grabar la sesión con fines académicos. |
-| Contexto | Trabajo en el campo, uso del celular y calidad de la señal en la parcela. |
-| Tarea 1 | Registrarse y elegir el rol de agricultor. |
-| Tarea 2 | Publicar una parcela: foto, nombre, cultivo, área, cosecha estimada, ubicación, monto y ciclo. |
-| Tarea 3 | Encontrar dónde registrar la cuenta bancaria o tarjeta para recibir los desembolsos. |
-| Tarea 4 | Con la parcela ya financiada por un comerciante, registrar la evidencia de un hito. |
-| Tarea 5 | Encontrar la sincronización de evidencias y la sección de pagos. |
-| Preguntas posteriores | Facilidad de uso, métodos de pago preferidos y aspectos por mejorar. |
-| Escala | Del 1 al 5, ¿cuánto recomendaría la aplicación? |
+**Preguntas de contexto**
+
+1. ¿Me podría contar cómo es su trabajo en el campo y cómo usa el celular?
+2. ¿Cómo es la señal de internet en su terreno?
+
+**Tareas en la aplicación**
+
+La [Tabla 101](#tabla-101) presenta las tareas que se indican al agricultor y el user flow de la aplicación que valida cada una.
+
+<p id="tabla-101"><strong>Tabla 101.</strong> Tareas y user flows de la entrevista de validación — Segmento Agricultor</p>
+
+| # | Tarea para el entrevistado | User flow |
+|---|---|---|
+| 1 | Cree una cuenta como agricultor y complete el recorrido de bienvenida. | Registro, elección de rol y onboarding |
+| 2 | Complete su perfil y registre sus datos bancarios. | Perfil y cuenta bancaria |
+| 3 | Publique una parcela nueva con sus datos de cultivo y fechas. | Publicación de parcela |
+| 4 | Encuentre su parcela en el panel y filtre por estado. | Home y filtros por estado |
+| 5 | Acepte una solicitud de visita de un comerciante. | Solicitudes de visita |
+| 6 | Consulte el historial y el detalle de un pago. | Historial y detalle de pagos |
+
+**Preguntas después de las tareas**
+
+1. ¿Entendió las pantallas de bienvenida? ¿Qué cambiaría del texto o de las imágenes?
+2. ¿Qué paso del formulario de publicación le tomó más tiempo? ¿Qué dato no sabía cómo llenar?
+3. ¿Le fue fácil saber qué estado tiene cada parcela? ¿Los nombres de los estados le resultaron claros?
+4. ¿Qué le pareció la información del clima en la pantalla principal? ¿Qué otro dato necesita ahí?
+5. ¿Qué le pareció el tamaño de los botones y de las letras para usarlos en el campo?
+6. ¿Entendió cuándo recibe cada pago? ¿Qué información le falta?
+7. ¿Qué tarea de su día le gustaría resolver con la aplicación y todavía no puede?
+8. ¿Cree que usaría la aplicación a diario? ¿Qué se lo impediría?
+
+**Escalas y cierre**
+
+1. En una escala de 1 a 5, ¿qué tan fácil fue usar la aplicación?
+2. En una escala de 1 a 5, ¿qué tanta confianza le genera para trabajar con la otra parte?
+3. ¿Qué le recomendaría a un conocido y qué le advertiría?
+
+#### Segmento Comerciante
+
+**Preguntas de contexto**
+
+1. ¿Me podría contar a qué se dedica y qué productos agrícolas compra?
+2. ¿Cómo hace hoy una compra anticipada o una reserva de producto?
+
+**Tareas en la aplicación**
+
+La [Tabla 102](#tabla-102) presenta las tareas que se indican al comerciante y el user flow de la aplicación que valida cada una.
+
+<p id="tabla-102"><strong>Tabla 102.</strong> Tareas y user flows de la entrevista de validación — Segmento Comerciante</p>
+
+| # | Tarea para el entrevistado | User flow |
+|---|---|---|
+| 1 | Cree una cuenta como comerciante y llegue a la pantalla principal. | Registro y elección de rol |
+| 2 | Busque una parcela de papa y filtre los resultados. | Catálogo, búsqueda y filtros |
+| 3 | Abra el detalle de una parcela y solicite una visita. | Detalle de parcela y solicitud de visita |
+| 4 | Financie una parcela hasta recibir el comprobante. | Financiamiento en Escrow y comprobante |
+| 5 | Revise la evidencia de un hito y apruebe o rechace el pago. | Revisión y aprobación de evidencias |
+| 6 | Encuentre el historial de pagos y los fondos retenidos en Escrow. | Historial de pagos y saldo en Escrow |
+| 7 | Abra las notificaciones y diga qué significa cada una. | Notificaciones |
+
+**Preguntas después de las tareas**
+
+1. ¿Qué esperaba ver al terminar el registro? ¿Algo le resultó confuso?
+2. ¿Encontró con facilidad la parcela que buscaba? ¿Qué filtro agregaría?
+3. ¿Qué información del detalle de la parcela le ayudó a decidir? ¿Cuál faltó?
+4. Durante el financiamiento, ¿entendió cuánto pagaba y cuándo se liberaba cada parte? ¿Qué paso le generó duda?
+5. ¿Cuánta seguridad le da saber que el dinero queda retenido en Escrow? ¿Qué más necesitaría ver?
+6. Al revisar la evidencia, ¿tenía datos suficientes para aprobar o rechazar? ¿Qué dato le da más confianza, como fecha, ubicación o tarea?
+7. ¿Las notificaciones le avisan lo importante? ¿Qué aviso falta?
+8. ¿Con qué frecuencia le gustaría revisar el avance de su parcela?
+9. ¿Usaría Muyu para su próxima compra? ¿Qué lo detendría?
+10. Si cambiara una sola cosa de la aplicación, ¿cuál sería?
+
+**Escalas y cierre**
+
+1. En una escala de 1 a 5, ¿qué tan fácil fue usar la aplicación?
+2. En una escala de 1 a 5, ¿qué tanta confianza le genera para trabajar con la otra parte?
+3. ¿Qué le recomendaría a un conocido y qué le advertiría?
 
 ### 4.3.2. Registro de Entrevistas
 
-La [Tabla 102](#tabla-102) presenta el registro de la entrevista de validación con la agricultora Lili Vera Vela, quien también participó en las entrevistas de Needfinding. La parte del registro de la cuenta se omitió del video para proteger sus datos personales, y su teléfono y correo aparecen difuminados.
+Se realizan entre 3 y 5 entrevistas por segmento. Cada registro incluye los datos del entrevistado, una captura del video, el enlace del video en OneDrive con el inicio y la duración de la entrevista, y un resumen de sus principales apreciaciones sobre las tareas asignadas.
 
-<p id="tabla-102"><strong>Tabla 102.</strong> Segmento: Agricultor — Entrevista de validación 1</p>
+La [Tabla 103](#tabla-103) presenta el registro de la entrevista de validación con la agricultora Lili Vera Vela, quien también participó en las entrevistas de Needfinding. La parte del registro de la cuenta se omitió del video para proteger sus datos personales, y su teléfono y correo aparecen difuminados.
+
+<p id="tabla-103"><strong>Tabla 103.</strong> Segmento: Agricultor — Entrevista de validación 1</p>
 
 <table>
 
@@ -10195,22 +10270,22 @@ La [Tabla 102](#tabla-102) presenta el registro de la entrevista de validación 
 <tr>
   <td><strong>Edad</strong></td>
   <td>52 años</td>
-  <td><strong>Ubicación</strong></td>
-  <td>Camporredondo, Luya, Amazonas</td>
+  <td><strong>Distrito</strong></td>
+  <td>Camporredondo (Luya, Amazonas)</td>
 </tr>
 
 <tr>
   <td><strong>Ocupación</strong></td>
   <td>Agricultora de café</td>
   <td><strong>Fecha, inicio y duración</strong></td>
-  <td>06/11/2026 · 00:00-17:10</td>
+  <td>06/11/2026 · 00:00 - 17:10</td>
 </tr>
 
 <tr>
   <td><strong>Enlace</strong></td>
   <td colspan="3">
     <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1">
-      upc-pre-202620-1acc0238-13981-allpatech-app-validation-av2.mp4
+      upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4
     </a>
   </td>
 </tr>
@@ -10229,22 +10304,251 @@ La [Tabla 102](#tabla-102) presenta el registro de la entrevista de validación 
 
 </table>
 
+La [Tabla 104](#tabla-104) presenta el registro de la entrevista de validación 2 del segmento Agricultor.
+
+<p id="tabla-104"><strong>Tabla 104.</strong> Segmento: Agricultor — Entrevista de validación 2</p>
+
+<table>
+<tr><th colspan="4">Entrevista de validación #2</th></tr>
+<tr><td><strong>Nombre completo</strong></td><td colspan="3"></td></tr>
+<tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
+<tr><td><strong>Ocupación</strong></td><td></td><td><strong>Fecha, inicio y duración</strong></td><td></td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3"></td></tr>
+<tr><td colspan="2" valign="top"><strong>Resumen</strong><br></td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
+</table>
+
+La [Tabla 105](#tabla-105) presenta el registro de la entrevista de validación 3 del segmento Agricultor.
+
+<p id="tabla-105"><strong>Tabla 105.</strong> Segmento: Agricultor — Entrevista de validación 3</p>
+
+<table>
+<tr><th colspan="4">Entrevista de validación #3</th></tr>
+<tr><td><strong>Nombre completo</strong></td><td colspan="3"></td></tr>
+<tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
+<tr><td><strong>Ocupación</strong></td><td></td><td><strong>Fecha, inicio y duración</strong></td><td></td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3"></td></tr>
+<tr><td colspan="2" valign="top"><strong>Resumen</strong><br></td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
+</table>
+
+La [Tabla 106](#tabla-106) presenta el registro de la entrevista de validación 1 del segmento Comerciante.
+
+<p id="tabla-106"><strong>Tabla 106.</strong> Segmento: Comerciante — Entrevista de validación 1</p>
+
+<table>
+<tr><th colspan="4">Entrevista de validación #1</th></tr>
+<tr><td><strong>Nombre completo</strong></td><td colspan="3"></td></tr>
+<tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
+<tr><td><strong>Ocupación</strong></td><td></td><td><strong>Fecha, inicio y duración</strong></td><td></td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3"></td></tr>
+<tr><td colspan="2" valign="top"><strong>Resumen</strong><br></td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
+</table>
+
+La [Tabla 107](#tabla-107) presenta el registro de la entrevista de validación 2 del segmento Comerciante.
+
+<p id="tabla-107"><strong>Tabla 107.</strong> Segmento: Comerciante — Entrevista de validación 2</p>
+
+<table>
+<tr><th colspan="4">Entrevista de validación #2</th></tr>
+<tr><td><strong>Nombre completo</strong></td><td colspan="3"></td></tr>
+<tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
+<tr><td><strong>Ocupación</strong></td><td></td><td><strong>Fecha, inicio y duración</strong></td><td></td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3"></td></tr>
+<tr><td colspan="2" valign="top"><strong>Resumen</strong><br></td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
+</table>
+
+La [Tabla 108](#tabla-108) presenta el registro de la entrevista de validación 3 del segmento Comerciante.
+
+<p id="tabla-108"><strong>Tabla 108.</strong> Segmento: Comerciante — Entrevista de validación 3</p>
+
+<table>
+<tr><th colspan="4">Entrevista de validación #3</th></tr>
+<tr><td><strong>Nombre completo</strong></td><td colspan="3"></td></tr>
+<tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
+<tr><td><strong>Ocupación</strong></td><td></td><td><strong>Fecha, inicio y duración</strong></td><td></td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3"></td></tr>
+<tr><td colspan="2" valign="top"><strong>Resumen</strong><br></td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
+</table>
+
 ### 4.3.3. Evaluaciones según heurísticas
 
-A partir de lo observado en la sesión, el equipo evaluó los problemas encontrados con las heurísticas de usabilidad de Nielsen. La severidad se califica de 1 (cosmético) a 4 (impide completar la tarea).
+La evaluación de las sesiones de validación sigue el formato UX Heuristics & Principles Evaluation, que considera heurísticas de usabilidad, arquitectura de información e inclusive design.
 
-La [Tabla 103](#tabla-103) resume la evaluación.
+**UX Heuristics & Principles Evaluation**<br>
+**Usability - Inclusive Design - Information Architecture**
 
-<p id="tabla-103"><strong>Tabla 103.</strong> Evaluación según heurísticas — Entrevista de validación 1</p>
+| | |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | 1acc0238 Aplicaciones para dispositivos móviles |
+| **NRC** | 13981 |
+| **PROFESORES** | Todos |
+| **AUDITOR** | AllpaTech |
+| **CLIENTE(S)** | Lili Vera Vela (segmento Agricultor) |
 
-| Problema observado | Heurística | Severidad | Recomendación |
+**SITE o APP A EVALUAR:**
+
+Muyu, aplicación móvil para agricultores y comerciantes (Android).
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo con el rol de agricultor.
+2. Publicación de una parcela.
+3. Registro de una cuenta bancaria o tarjeta para recibir desembolsos.
+4. Registro de la evidencia de un hito de una parcela financiada.
+5. Consulta de la sincronización de evidencias.
+6. Consulta de los pagos recibidos.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Navegación por la Landing Page.
+2. Búsqueda y financiamiento de una parcela desde el rol comerciante.
+3. Solicitud y confirmación de visitas a la parcela.
+4. Aprobación o rechazo de evidencias de hitos.
+5. Confirmación de la recepción de la cosecha y reporte de incidencias.
+
+**ESCALA DE SEVERIDAD:**
+
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.*
+
+<p id="tabla-109"><strong>Tabla 109.</strong> Escala de severidad</p>
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: Puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA RESUMEN:**
+
+<p id="tabla-110"><strong>Tabla 110.</strong> Tabla resumen de la evaluación según heurísticas</p>
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
 |---|---|---|---|
-| La usuaria buscó la opción para publicar una parcela en su perfil antes de encontrar el botón Publicar. | Visibilidad del estado del sistema | 2 | Dar más contraste y tamaño al botón Publicar en Mis parcelas. |
-| La ubicación no permite especificar todas las provincias y distritos de la usuaria. | Coincidencia entre el sistema y el mundo real | 3 | Ampliar el catálogo de regiones, provincias y distritos del formulario de ubicación. |
-| Escribir el correo con «@» fue difícil durante el registro. | Flexibilidad y eficiencia de uso | 2 | Usar el teclado de correo electrónico en el campo Email y permitir el inicio de sesión con el número de teléfono. |
-| La usuaria prefiere recibir los desembolsos en una cuenta bancaria, porque Yape y Plin tienen límite por transferencia. | Coincidencia entre el sistema y el mundo real | 2 | Priorizar la cuenta bancaria como método de cobro y mantener el aviso del límite de S/ 500 por transferencia. |
-| Al registrar la tarjeta hubo dudas con la fecha de vencimiento, y el campo no avanza bien al escribir el año. | Prevención de errores | 2 | Corregir la posición del cursor en el campo MM/AA y mostrar un ejemplo de formato. |
-| La alerta climática no muestra datos si la ubicación del dispositivo está desactivada. | Ayuda y documentación | 1 | Explicar por qué se necesita la ubicación y ofrecer un botón para activarla. |
+| 1 | El botón Publicar no se distingue lo suficiente en Mis parcelas | 2 | Information Architecture: Is it findable? |
+| 2 | La ubicación no permite especificar la provincia y el distrito reales del agricultor | 3 | Usability: Coincidencia entre el sistema y el mundo real |
+| 3 | El registro exige escribir un correo con «@», difícil para usuarios con poca práctica en el teclado | 2 | Inclusive Design: Ofrece opciones |
+| 4 | Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos | 2 | Usability: Coincidencia entre el sistema y el mundo real |
+| 5 | El campo de vencimiento de la tarjeta desordena los dígitos del año | 3 | Usability: Prevención de errores |
+| 6 | La alerta climática no muestra datos cuando la ubicación está desactivada | 2 | Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1: El botón Publicar no se distingue lo suficiente en Mis parcelas**
+
+Severidad: 2<br>
+Heurística violada: Information Architecture - Is it findable?
+
+*Problema:*
+
+Cuando se le pidió publicar una parcela, la usuaria buscó primero la opción en su perfil. El botón Publicar se encuentra en la cabecera de Mis parcelas, pero su tamaño y contraste no lo destacan frente al resto de la pantalla.
+
+La [Figura 221](#figura-221) muestra la pantalla Mis parcelas con el botón Publicar.
+
+<p id="figura-221"><strong>Figura 221.</strong> Botón Publicar en Mis parcelas</p>
+
+<p align="center"><img src="assets/images/chapter04/validation/heuristica-01-publicar.jpg" alt="Pantalla Mis parcelas con el botón Publicar" width="300"/></p>
+
+*Recomendación:*
+
+Aumentar el tamaño y el contraste del botón Publicar y mostrar también un acceso a publicar en el estado vacío de Mis parcelas.
+
+**PROBLEMA #2: La ubicación no permite especificar la provincia y el distrito reales del agricultor**
+
+Severidad: 3<br>
+Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
+
+*Problema:*
+
+La parcela de la usuaria se encuentra en el distrito de Camporredondo, provincia de Luya. Como la prueba se hizo en un emulador, el formulario tomó la ubicación del dispositivo (provincia y distrito de Chachapoyas) y el distrito real tuvo que escribirse en la dirección de referencia. La usuaria señaló que faltaría poder especificar más provincias.
+
+La [Figura 222](#figura-222) muestra el formulario de ubicación de la parcela.
+
+<p id="figura-222"><strong>Figura 222.</strong> Formulario de ubicación de la parcela</p>
+
+<p align="center"><img src="assets/images/chapter04/validation/heuristica-02-ubicacion.jpg" alt="Formulario de ubicación de la parcela" width="300"/></p>
+
+*Recomendación:*
+
+Usar listas de región, provincia y distrito basadas en el ubigeo oficial del INEI y permitir corregir la ubicación detectada por el GPS.
+
+**PROBLEMA #3: El registro exige escribir un correo con «@»**
+
+Severidad: 2<br>
+Heurística violada: Inclusive Design - Ofrece opciones
+
+*Problema:*
+
+Durante el registro, escribir el correo electrónico dictado por la usuaria tomó varios intentos, sobre todo por el símbolo «@». Para agricultores con poca práctica en el teclado del celular, el correo es una barrera para crear la cuenta.
+
+La [Figura 223](#figura-223) muestra el formulario de registro.
+
+<p id="figura-223"><strong>Figura 223.</strong> Formulario de registro de cuenta</p>
+
+<p align="center"><img src="assets/images/chapter04/validation/heuristica-03-registro.jpg" alt="Formulario de registro de cuenta" width="300"/></p>
+
+*Recomendación:*
+
+Mostrar el teclado de correo electrónico en el campo Email y permitir el registro e inicio de sesión con el número de celular.
+
+**PROBLEMA #4: Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos**
+
+Severidad: 2<br>
+Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
+
+*Problema:*
+
+La usuaria indicó que Yape y Plin no le parecen adecuados para recibir los desembolsos porque tienen un límite por transferencia y que prefiere una cuenta bancaria. En la pantalla Cuenta bancaria, las billeteras digitales tienen el mismo peso visual que la cuenta.
+
+La [Figura 224](#figura-224) muestra la pantalla Cuenta bancaria.
+
+<p id="figura-224"><strong>Figura 224.</strong> Pantalla Cuenta bancaria con billeteras digitales</p>
+
+<p align="center"><img src="assets/images/chapter04/validation/heuristica-04-cuenta-bancaria.jpg" alt="Pantalla Cuenta bancaria con Yape y Plin" width="300"/></p>
+
+*Recomendación:*
+
+Presentar la cuenta bancaria como método principal de cobro y mostrar Yape y Plin como opción secundaria para montos pequeños, manteniendo el aviso del límite de S/ 500 por transferencia.
+
+**PROBLEMA #5: El campo de vencimiento de la tarjeta desordena los dígitos del año**
+
+Severidad: 3<br>
+Heurística violada: Usabilidad - Prevención de errores
+
+*Problema:*
+
+Al registrar la tarjeta hubo dudas con la fecha de vencimiento. En una prueba posterior se comprobó que, al escribir 1228, el campo muestra 12/82, porque el cursor queda antes del último dígito después de insertar la barra.
+
+La [Figura 225](#figura-225) muestra el campo de vencimiento con el año desordenado.
+
+<p id="figura-225"><strong>Figura 225.</strong> Campo de vencimiento de la tarjeta</p>
+
+<p align="center"><img src="assets/images/chapter04/validation/heuristica-05-tarjeta.jpg" alt="Campo de vencimiento con el año desordenado" width="300"/></p>
+
+*Recomendación:*
+
+Corregir la posición del cursor en el campo MM/AA, mostrar un ejemplo del formato y validar que la fecha no esté vencida antes de guardar.
+
+**PROBLEMA #6: La alerta climática no muestra datos cuando la ubicación está desactivada**
+
+Severidad: 2<br>
+Heurística violada: Usabilidad - Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores
+
+*Problema:*
+
+Al abrir la alerta climática con la ubicación del dispositivo desactivada, la pantalla solo muestra un texto pequeño y no ofrece una forma directa de activarla, por lo que durante la sesión no se pudo mostrar el clima de la parcela.
+
+La [Figura 226](#figura-226) muestra la pantalla de alerta climática sin ubicación.
+
+<p id="figura-226"><strong>Figura 226.</strong> Alerta climática sin ubicación</p>
+
+<p align="center"><img src="assets/images/chapter04/validation/heuristica-06-alerta-clima.jpg" alt="Alerta climática sin ubicación activada" width="300"/></p>
+
+*Recomendación:*
+
+Usar la ubicación registrada de la parcela cuando el GPS no esté disponible y mostrar un botón para activar la ubicación con una explicación de por qué se necesita.
 
 # Conclusiones y Recomendaciones
 
@@ -10311,13 +10615,13 @@ La [Tabla 103](#tabla-103) resume la evaluación.
 16. Continuar utilizando GitHub y Trello para documentar el trabajo del equipo. Se recomienda mantener commits descriptivos, Pull Requests revisados y tareas correctamente asignadas para conservar la trazabilidad del proyecto.
 
 
-# Video App Validation
+## Video App Validation
 
-Este video presenta la entrevista de validación de la aplicación móvil Muyu con una agricultora de café de Amazonas, descrita en la sección [4.3. Validation Interviews](#43-validation-interviews). En él se observa a la usuaria guiar el uso de la aplicación desde la elección del rol hasta la publicación de una parcela, el registro de una evidencia, la sincronización y la consulta de pagos, además de sus comentarios finales sobre los métodos de pago y la ubicación.
+Este video documenta la evaluación de la aplicación móvil Muyu mediante una prueba con una usuaria del segmento Agricultor, descrita en la sección [4.3. Validation Interviews](#43-validation-interviews). La usuaria guía el uso de la aplicación desde la elección del rol hasta la publicación de una parcela, el registro de una evidencia, la sincronización y la consulta de pagos. Los problemas observados se evalúan con el Formato para Evaluación de User Experience según Heurísticas en la sección [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas).
 
-La [Figura 221](#figura-221) muestra la portada del video de validación de la aplicación.
+La [Figura 227](#figura-227) muestra la portada del video de validación de la aplicación.
 
-<p id="figura-221"><strong>Figura 221.</strong> Video App Validation</p>
+<p id="figura-227"><strong>Figura 227.</strong> Video App Validation</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1">
@@ -10325,15 +10629,16 @@ La [Figura 221](#figura-221) muestra la portada del video de validación de la a
   </a>
 </p>
 
-URL del video: [upc-pre-202620-1acc0238-13981-allpatech-app-validation-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1) (17:10)
+URL del video en OneDrive: [upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1)<br>
+Duración: 17:10
 
-# Video About the team
+## Video About the team
 
-Este video presenta cómo trabajó el equipo AllpaTech durante el desarrollo de Muyu: la organización con Scrum y Trello, las reuniones virtuales, las entrevistas con agricultores y comerciantes, el diseño centrado en el usuario, el desarrollo con GitHub, un fragmento de la entrevista de validación y la retrospectiva del equipo. Al final, cada integrante comparte lo que aportó y aprendió.
+Este video resume el proceso de trabajo del equipo AllpaTech durante el desarrollo de Muyu. Muestra la organización con Scrum y Trello, las reuniones virtuales, las entrevistas con agricultores y comerciantes, el diseño centrado en el usuario, el desarrollo con GitHub, un fragmento de la entrevista de validación y la retrospectiva del equipo, con narración en voz en off. Al final, cada integrante presenta ante cámara las actividades que realizó, cómo contribuyó al logro del student outcome y las competencias que desarrolló.
 
-La [Figura 222](#figura-222) muestra la portada del video About the team.
+La [Figura 228](#figura-228) muestra un cuadro representativo del video About the team.
 
-<p id="figura-222"><strong>Figura 222.</strong> Video About the team</p>
+<p id="figura-228"><strong>Figura 228.</strong> Video About the team</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO">
@@ -10341,7 +10646,31 @@ La [Figura 222](#figura-222) muestra la portada del video About the team.
   </a>
 </p>
 
-URL del video: [upc-pre-202620-1acc0238-13981-allpatech-about-the-team-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO) (10:05)
+URL del video en OneDrive: [upc-pre-202620-1acc0238-13981-allpatech-about-the-team-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO)<br>
+URL del video en YouTube: [About the team - AllpaTech](https://youtu.be/2ZrIt9hB1wM)<br>
+Duración: 10:05
+
+La [Tabla 111](#tabla-111) presenta la pauta de secuencias de contenido del video con el inicio de cada sección.
+
+<p id="tabla-111"><strong>Tabla 111.</strong> Pauta de secuencias del video About the team</p>
+
+| Inicio (hh:mm:ss) | Sección |
+|---|---|
+| 00:00:00 | Portada |
+| 00:00:04 | Presentación del equipo y organización con Scrum, Trello y reuniones virtuales |
+| 00:01:12 | Entrevistas con agricultores y comerciantes |
+| 00:02:18 | Diseño centrado en el usuario: User Personas, Journey Maps y mockups |
+| 00:02:41 | Desarrollo y colaboración en GitHub |
+| 00:03:23 | Validación de la aplicación |
+| 00:03:37 | Fragmento de la entrevista de validación |
+| 00:04:19 | Retrospectiva del equipo |
+| 00:04:53 | Testimonios del equipo |
+| 00:04:56 | Testimonio de Arroyo Gonzales, Emily Juliette |
+| 00:06:01 | Testimonio de Orellana Rodriguez, Mel Andree |
+| 00:07:01 | Testimonio de Berrospi Marin, Angel Guillermo |
+| 00:07:55 | Testimonio de Quintanilla Pozo, Gonzalo Samuel |
+| 00:08:53 | Testimonio de Riveros Vera, Jennifer Yamilet |
+| 00:10:01 | Cierre |
 
 # Bibliografía
 
