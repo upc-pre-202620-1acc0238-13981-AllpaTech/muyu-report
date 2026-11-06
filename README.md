@@ -660,9 +660,8 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 221](#figura-221) — Botón Publicar en Mis parcelas
 - [Figura 222](#figura-222) — Formulario de ubicación de la parcela
 - [Figura 223](#figura-223) — Pantalla Cuenta bancaria con billeteras digitales
-- [Figura 224](#figura-224) — Alerta climática sin ubicación
-- [Figura 225](#figura-225) — Video App Validation
-- [Figura 226](#figura-226) — Video About the team
+- [Figura 224](#figura-224) — Video App Validation
+- [Figura 225](#figura-225) — Video About the team
 - [Tabla 97.1](#tabla-971) — Testing Commits Evidence
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
@@ -10428,7 +10427,6 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 1 | El botón Publicar no se distingue lo suficiente en Mis parcelas | 2 | Information Architecture: Is it findable? |
 | 2 | La ubicación no permite especificar la provincia y el distrito reales del agricultor | 3 | Usability: Coincidencia entre el sistema y el mundo real |
 | 3 | Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos | 2 | Usability: Coincidencia entre el sistema y el mundo real |
-| 4 | La alerta climática no muestra datos cuando la ubicación está desactivada | 2 | Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -10488,25 +10486,6 @@ La [Figura 223](#figura-223) muestra la pantalla Cuenta bancaria.
 *Recomendación:*
 
 Presentar la cuenta bancaria como método principal de cobro y mostrar Yape y Plin como opción secundaria para montos pequeños, manteniendo el aviso del límite de S/ 500 por transferencia.
-
-**PROBLEMA #4: La alerta climática no muestra datos cuando la ubicación está desactivada**
-
-Severidad: 2<br>
-Heurística violada: Usabilidad - Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores
-
-*Problema:*
-
-Al abrir la alerta climática con la ubicación del dispositivo desactivada, la pantalla solo muestra un texto pequeño y no ofrece una forma directa de activarla, por lo que durante la sesión no se pudo mostrar el clima de la parcela.
-
-La [Figura 224](#figura-224) muestra la pantalla de alerta climática sin ubicación.
-
-<p id="figura-224"><strong>Figura 224.</strong> Alerta climática sin ubicación</p>
-
-<p align="center"><img src="assets/images/chapter04/validation/heuristica-06-alerta-clima.jpg" alt="Alerta climática sin ubicación activada" width="300"/></p>
-
-*Recomendación:*
-
-Usar la ubicación registrada de la parcela cuando el GPS no esté disponible y mostrar un botón para activar la ubicación con una explicación de por qué se necesita.
 
 # Conclusiones y Recomendaciones
 
@@ -10577,9 +10556,9 @@ Usar la ubicación registrada de la parcela cuando el GPS no esté disponible y 
 
 Este video documenta la evaluación de la aplicación móvil Muyu mediante una prueba con una usuaria del segmento Agricultor, descrita en la sección [4.3. Validation Interviews](#43-validation-interviews). La usuaria guía el uso de la aplicación desde la elección del rol hasta la publicación de una parcela, el registro de una evidencia, la sincronización y la consulta de pagos. Los problemas observados se evalúan con el Formato para Evaluación de User Experience según Heurísticas en la sección [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas).
 
-La [Figura 225](#figura-225) muestra la portada del video de validación de la aplicación.
+La [Figura 224](#figura-224) muestra la portada del video de validación de la aplicación.
 
-<p id="figura-225"><strong>Figura 225.</strong> Video App Validation</p>
+<p id="figura-224"><strong>Figura 224.</strong> Video App Validation</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1">
@@ -10594,9 +10573,9 @@ Duración: 17:10
 
 Este video resume el proceso de trabajo del equipo AllpaTech durante el desarrollo de Muyu. Muestra la organización con Scrum y Trello, las reuniones virtuales, las entrevistas con agricultores y comerciantes, el diseño centrado en el usuario, el desarrollo con GitHub, un fragmento de la entrevista de validación y la retrospectiva del equipo, con narración en voz en off. Al final, cada integrante presenta ante cámara las actividades que realizó, cómo contribuyó al logro del student outcome y las competencias que desarrolló.
 
-La [Figura 226](#figura-226) muestra un cuadro representativo del video About the team.
+La [Figura 225](#figura-225) muestra un cuadro representativo del video About the team.
 
-<p id="figura-226"><strong>Figura 226.</strong> Video About the team</p>
+<p id="figura-225"><strong>Figura 225.</strong> Video About the team</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO">
