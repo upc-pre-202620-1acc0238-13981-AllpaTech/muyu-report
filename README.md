@@ -10336,11 +10336,13 @@ La [Tabla 106](#tabla-106) presenta el registro de la entrevista de validación 
 
 <table>
 <tr><th colspan="4">Entrevista de validación #1</th></tr>
-<tr><td><strong>Nombre completo</strong></td><td colspan="3"></td></tr>
-<tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
-<tr><td><strong>Ocupación</strong></td><td></td><td><strong>Fecha, inicio y duración</strong></td><td></td></tr>
-<tr><td><strong>Enlace</strong></td><td colspan="3"></td></tr>
-<tr><td colspan="2" valign="top"><strong>Resumen</strong><br></td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
+<tr><td><strong>Nombre completo</strong></td><td colspan="3">Estefania Casa Paiva</td></tr>
+<tr><td><strong>Edad</strong></td><td>25 años</td><td><strong>Distrito</strong></td><td>San Juan de Lurigancho</td></tr>
+<tr><td><strong>Ocupación</strong></td><td>Comerciante mayorista de productos agrícolas</td><td><strong>Fecha, inicio y duración</strong></td><td>05/11/26  0:00 - 8:00</td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3">    <a href="https://bit.ly/4io9N1m">
+      upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4
+    </a></td></tr>
+<tr><td colspan="2" valign="top"><strong>Resumen</strong><br>Estefania explicó que suele reservar productos por teléfono o WhatsApp y que prefiere visitar la parcela antes de adelantar dinero a un agricultor que aún no conoce. Al probar MUYU, pudo encontrar una parcela de papa, solicitar una visita y completar el financiamiento de prueba hasta obtener el comprobante. Su principal duda fue cómo se libera el dinero en cada etapa y qué pasa con los fondos retenidos en Escrow si hay un atraso o un desacuerdo. También sugirió filtrar las parcelas por fecha de cosecha y mostrar cuántos kilos se pueden reservar. Para aprobar un pago, valoró contar con una foto clara, la fecha y la descripción del trabajo realizado. Calificó la facilidad de uso con 4 de 5 y la confianza con 3 de 5. Probaría MUYU con un pedido pequeño y señaló como mejora prioritaria mostrar, antes de confirmar el financiamiento, cuánto pagará, cuánto quedará retenido y cuándo se liberará cada parte.</td><td colspan="2" valign="top"><strong>Foto</strong><br><img alt="Entrevista de validación con comerciante" src="assets/images/chapter04/videos/validation-inteview-comerciante-sprint-2.png" width="220"></td></tr>
 </table>
 
 La [Tabla 107](#tabla-107) presenta el registro de la entrevista de validación 2 del segmento Comerciante.
