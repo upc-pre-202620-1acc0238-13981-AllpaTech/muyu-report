@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
     <img alt="UPC logo transparente" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
 </div>
 
@@ -119,6 +119,7 @@
 | AV2 | 29-10-2026 | Berrospi Marin, Angel Guillermo | Ajuste de los encabezados de las pantallas del agricultor al color verde oscuro del diseño y unificación de componentes visuales. |
 | AV2 | 29-10-2026 | Berrospi Marin, Angel Guillermo | Implementación del flujo visual para cambiar y recuperar la contraseña, con ingreso de datos, confirmación y navegación. |
 | AV2 | 29-10-2026 | Berrospi Marin, Angel Guillermo | Implementación de las pantallas para ingresar y confirmar un nuevo PIN desde el perfil del agricultor, con confirmación visual y retorno al perfil. |
+| Sprint 3 | 08-11-2026 | Riveros Vera, Jennifer Yamilet | Registro de la evidencia de la aplicación Flutter y de la conexión con el backend en la sección 4.2.3 Sprint 3. |
 </div>
 
 ## Project Report Collaboration Insights
@@ -662,6 +663,7 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 223](#figura-223) — Pantalla Cuenta bancaria con billeteras digitales
 - [Figura 224](#figura-224) — Video App Validation
 - [Figura 225](#figura-225) — Video About the team
+- [Figura 225.1](#figura-2251) — Inicio de sesión de la aplicación Flutter
 - [Tabla 97.1](#tabla-971) — Testing Commits Evidence
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
@@ -10155,6 +10157,139 @@ La [Figura 220](#figura-220) muestra los Contributors del repositorio de impleme
 <p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-contributors.png" alt="GitHub Contributors de muyu-app" width="850"/></p>
 
 La interpretación de estas analíticas debe confirmar qué integrantes realizaron cambios efectivos, quiénes lideraron componentes y cuáles fueron las contribuciones colaborativas. El gráfico de Contributors de `main` no incluye los commits integrados solo en `develop`; por ello, las contribuciones de Mel Andree Orellana Rodriguez deben contrastarse con los commits de esa rama y con la [Tabla 96](#tabla-96) antes de cerrar el Sprint.
+
+## 4.2.3. Sprint 3
+
+El Sprint 3 inició la versión multiplataforma de Muyu con Flutter y Dart en el repositorio `AllpaTech/Muyu-app-flutter`, y conectó las aplicaciones móviles con el backend desplegado del equipo, dejando de usar la Fake API. Esta sección registra únicamente evidencia verificable en los repositorios. Los datos marcados como `[pendiente]` deben ser completados por el equipo.
+
+### 4.2.3.1. Sprint Planning 3
+
+La [Tabla 99.1](#tabla-991) organiza la información correspondiente al Sprint Planning 3.
+
+<p id="tabla-991"><strong>Tabla 99.1.</strong> Sprint Planning 3</p>
+
+| Sprint #3 | |
+|---|---|
+| **Date** | `[pendiente]` |
+| **Time** | `[pendiente]` |
+| **Location** | `[pendiente]` |
+| **Prepared By** | `[pendiente]` |
+| **Attendees** | `[pendiente]` |
+| **Sprint 2 Review Summary** | `[pendiente]` |
+| **Sprint 2 Retrospective Summary** | `[pendiente]` |
+| **Sprint Goal** | `[pendiente]` |
+| **Sprint Velocity** | `[pendiente]` |
+| **Sum of Story Points** | `[pendiente]` |
+
+### 4.2.3.2. Aspect Leaders and Collaborators
+
+`[pendiente]`: el equipo debe registrar los líderes y colaboradores de cada aspecto del Sprint 3.
+
+### 4.2.3.3. Sprint Backlog 3
+
+La [Tabla 99.2](#tabla-992) registra los work items verificables en los repositorios. Las estimaciones deben ser confirmadas por el equipo.
+
+<p id="tabla-992"><strong>Tabla 99.2.</strong> Sprint Backlog 3</p>
+
+| Sprint # | 3 |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US01 | Registro inicial de usuario | WI-29 | Base de la app Flutter y registro | Crear el proyecto Flutter, el tema de Muyu, la internacionalización en inglés y español latinoamericano y la pantalla de registro. | `[pendiente]` | Riveros, Jennifer | Done |
+| US16 | Inicio de sesión y acceso según rol | WI-30 | Login y selección de rol en Flutter | Implementar el inicio de sesión, la selección de rol y la navegación según la sesión. | `[pendiente]` | Riveros, Jennifer | Done |
+| TS01 | API de Autenticación y JWT | WI-31 | Conexión de Flutter con el backend | Reemplazar la Fake API por el backend, leer el token JWT y agregar el DNI al registro. | `[pendiente]` | Riveros, Jennifer | Integrado en `develop`; falta prueba con cuenta real |
+| US20 | Panel resumen de parcelas del agricultor | WI-32 | Mis Parcelas en Flutter | Listar las parcelas del agricultor desde el backend, con búsqueda, filtros y estados vacío y de error. | `[pendiente]` | Riveros, Jennifer | In Review (PR #3) |
+| US03 | Publicación de nueva parcela | WI-33 | Publicación de parcela en Flutter | Implementar el flujo de tres pasos y guardar la parcela en el backend. | `[pendiente]` | Riveros, Jennifer | In Review (PR #3) |
+| US01 | Registro inicial de usuario | WI-34 | Registro con backend en Kotlin | Ir al login tras registrarse, evitar envíos dobles, avisar si el correo ya existe y aceptar solo Gmail. | `[pendiente]` | Riveros, Jennifer | Done |
+| TS01 | API de Autenticación y JWT | WI-35 | Sincronización estable en Kotlin | Enviar solo los registros del usuario y evitar que un rechazo del backend cierre la aplicación. | `[pendiente]` | Riveros, Jennifer | Done |
+| US04 | Búsqueda y filtrado de parcelas | WI-36 | Catálogo y perfiles en Flutter | Implementar el catálogo del comerciante y los perfiles de agricultor y comerciante. | `[pendiente]` | Orellana, Mel Andree | In Progress |
+
+### 4.2.3.4. Development Evidence for Sprint Review
+
+La [Tabla 99.3](#tabla-993) registra los commits del Sprint 3 integrados en `develop` o enviados a revisión mediante pull request.
+
+<p id="tabla-993"><strong>Tabla 99.3.</strong> Development Evidence for Sprint Review</p>
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`43e60b1`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/43e60b1a1a9e9ee9755161260537950c416a4e97) | `chore:` | scaffold Flutter project for Android, iOS and web | 2026-11-07 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`ae87b27`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/ae87b27dad74cd7753254cf889732be500b91143) | `chore(deps):` | add Riverpod, go_router, http and localization packages | 2026-11-07 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`26ab222`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/26ab222bc629279d92ff43efec286f2c1b72ef37) | `feat(core):` | add Muyu theme, EN/ES-419 localization, API client and storage | 2026-11-07 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`950578d`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/950578d7e8473aa2dfeddaaa73e3936b486958d3) | `feat(user-management):` | add splash, login, register and role selection screens | 2026-11-07 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`5807821`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/58078210c4501be9f29d9421428ce278515c1e1e) | `feat(navigation):` | route by session and role to empty farmer and merchant homes | 2026-11-07 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`eb39ad9`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/eb39ad9c3606c023db4f790e4046d40411408558) | `docs:` | describe stack, structure and GitFlow in the README | 2026-11-07 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`c8a7725`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/c8a77254d1a0a528d2ef24b6115127a2c54afa64) | `fix(network):` | report TLS and connection failures as network errors | 2026-11-08 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`8915113`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/891511360368bf56b9fa27774b1b34b9986b5ef9) | `feat(user-management):` | connect login and registration to the team backend | 2026-11-08 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`260a526`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/260a526d81da273dab4d6d6bad19982237314524) | `feat(user-management):` | accept only Gmail addresses at registration | 2026-11-08 |
+| `AllpaTech/Muyu-app-flutter` | `feature/farmer-plots` | [`75897a8`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/75897a89abee0b5e8db76ea71172998485eb6d56) | `feat(network):` | add authenticated GET and PUT requests to the API client | 2026-11-08 |
+| `AllpaTech/Muyu-app-flutter` | `feature/farmer-plots` | [`da647d4`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/da647d4b0054e2abdc8edfd05a6ceb033f1af694) | `feat(i18n):` | add farmer plots and publish plot texts | 2026-11-08 |
+| `AllpaTech/Muyu-app-flutter` | `feature/farmer-plots` | [`110cb07`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/110cb07e2816f0bdfab2d7dd475d1a362c262742) | `feat(plot-approval):` | load and publish farmer plots through the backend | 2026-11-08 |
+| `AllpaTech/Muyu-app-flutter` | `feature/farmer-plots` | [`1e434e5`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/1e434e5410d813882e627b97f8ca9d4ee2243721) | `feat(plot-approval):` | add the My Plots screen and the publish flow | 2026-11-08 |
+| `AllpaTech/muyu-app` | `develop` | [`9ed5442`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/9ed5442434aef3f74b94fd6b51ff871bd0159d59) | `fix(sync):` | send only the user's own records and stop crashing on rejected syncs | 2026-11-08 |
+| `AllpaTech/muyu-app` | `develop` | [`b4a176c`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/b4a176ce036d2d90a044112043681935989e6567) | `fix(auth):` | go to login after registering and report an already registered email | 2026-11-08 |
+| `AllpaTech/muyu-app` | `develop` | [`2c60548`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/2c60548c75c90a4e3e5d32edb76a24d4d892593e) | `feat(auth):` | accept only Gmail addresses at registration | 2026-11-08 |
+
+### 4.2.3.5. Testing Suite Evidence for Sprint Review
+
+La [Tabla 99.4](#tabla-994) resume las pruebas ejecutadas. En Flutter, `flutter analyze` no reportó observaciones y `flutter test` aprobó 29 pruebas en la rama `feature/farmer-plots`, con las respuestas del backend simuladas.
+
+<p id="tabla-994"><strong>Tabla 99.4.</strong> Testing Suite Evidence for Sprint Review</p>
+
+| Test ID | User Story / Technical Story | Test Type | Test Scenario | Expected Result | Obtained Result | Status |
+|---|---|---|---|---|---|---|
+| UT3-01 | US01 | Unit Test (Flutter) | Validar las reglas de registro: nombre, Gmail, teléfono, DNI, edad y contraseña. | Se rechaza cada dato inválido con su error. | Las reglas se cumplen. | Passed |
+| UT3-02 | TS01 | Unit Test (Flutter) | Enviar login y registro al backend y convertir su respuesta y sus errores. | Se leen el token, el nombre y el rol; 401, 400, 409 y fallas de red se distinguen. | Las respuestas se convierten correctamente. | Passed |
+| UT3-03 | US16 | Unit Test (Flutter) | Redirigir según la sesión y el rol. | Cada estado de sesión llega a su pantalla. | Las redirecciones son correctas. | Passed |
+| UT3-04 | US03 / US20 | Unit Test (Flutter) | Listar solo las parcelas propias, publicar con el siguiente id y calcular el plan de desembolsos. | El registro coincide con el de Kotlin y los hitos suman el total. | Los resultados son correctos. | Passed |
+| WT3-01 | US03 / US20 | Widget Test (Flutter) | Mostrar el estado vacío, buscar, filtrar y validar el primer paso de publicación. | Sin datos demo; la publicación no avanza con campos vacíos. | El comportamiento es el esperado. | Passed |
+| UT3-05 | TS01 | Unit Test (Kotlin) | Decidir qué parcelas y visitas sincroniza cada usuario (`SyncScopeTest`, 5 pruebas). | Solo se envían los registros en los que participa el usuario. | Las reglas se cumplen. | Passed |
+| MT3-01 | US01 / US16 | Prueba manual (Kotlin) | En el emulador Pixel_8 con el backend desplegado: registrar una cuenta, iniciar sesión y abrir el catálogo. | Se muestran las parcelas de otros usuarios, sin cierres. | El catálogo cargó una parcela de otro usuario, sin cierres ni rechazos en el log. | Passed |
+| MT3-02 | TS01 | Prueba manual (Flutter) | Iniciar sesión con una cuenta inexistente contra el backend desplegado. | El backend responde 401 y la app muestra credenciales inválidas. | Se mostró el mensaje esperado. | Passed |
+| MT3-03 | US03 / US20 / US16 | Prueba manual (Flutter) | Iniciar sesión con una cuenta real, publicar una parcela y verla en Mis Parcelas. | La parcela queda guardada en el backend. | `[pendiente]` | Pendiente |
+
+### 4.2.3.6. Execution Evidence for Sprint Review
+
+La [Figura 225.1](#figura-2251) muestra la aplicación Flutter ejecutándose en el emulador Pixel_8. Las capturas de Mis Parcelas y Publicar con una cuenta real quedan `[pendiente]` hasta completar la prueba MT3-03.
+
+<p id="figura-2251"><strong>Figura 225.1.</strong> Inicio de sesión de la aplicación Flutter</p>
+
+<p align="center"><img src="assets/images/chapter04/sprint-3/flutter-login.png" alt="Pantalla de inicio de sesión de Muyu en Flutter" width="300"/></p>
+
+### 4.2.3.7. Services Documentation Evidence for Sprint Review
+
+La [Tabla 99.5](#tabla-995) resume los servicios del backend que consume la aplicación Flutter. El contrato se consultó en la documentación Swagger del backend desplegado.
+
+<p id="tabla-995"><strong>Tabla 99.5.</strong> Services Documentation Evidence for Sprint Review</p>
+
+| Método | Endpoint | Uso en Flutter | Autenticación |
+|---|---|---|---|
+| POST | `/api/v1/auth/login` | Iniciar sesión y obtener el token JWT. | No |
+| POST | `/api/v1/auth/register` | Registrar una cuenta con nombre, correo, teléfono, DNI, fecha de nacimiento y contraseña. | No |
+| GET | `/api/v1/mobile/plots` | Obtener las parcelas para Mis Parcelas y calcular el siguiente id. | Bearer JWT |
+| PUT | `/api/v1/mobile/plots/{id}` | Guardar una parcela publicada. | Bearer JWT |
+
+### 4.2.3.8. Software Deployment Evidence for Sprint Review
+
+La [Tabla 99.6](#tabla-996) resume los artefactos del Sprint 3. Las aplicaciones consumen el backend desplegado en `https://muyu-backend-production.up.railway.app/api/v1/`.
+
+<p id="tabla-996"><strong>Tabla 99.6.</strong> Software Deployment Evidence for Sprint Review</p>
+
+| Repository | Branch | Deployment or Build Artifact | Verification |
+|---|---|---|---|
+| `AllpaTech/Muyu-app-flutter` | `feature/farmer-plots` | APK de depuración | `flutter build apk --debug` exitoso e instalación en el emulador Pixel_8. |
+| `AllpaTech/muyu-app` | `develop` | APK de depuración | `BUILD SUCCESSFUL` e instalación en el emulador Pixel_8. |
+
+### 4.2.3.9. Team Collaboration Insights during Sprint
+
+La [Tabla 99.7](#tabla-997) resume las contribuciones verificables del Sprint 3. Las capturas de GitHub Insights quedan `[pendiente]`.
+
+<p id="tabla-997"><strong>Tabla 99.7.</strong> Team Collaboration Insights during Sprint</p>
+
+| Integrante | Contribución verificable | Pull Requests |
+|---|---|---|
+| Riveros Vera, Jennifer Yamilet | Base de la app Flutter, autenticación con el backend, Mis Parcelas, publicación de parcela y correcciones de sincronización y registro en Kotlin. | [Flutter #1](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/pull/1), [#2](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/pull/2), [#3](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/pull/3); [Kotlin #10](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/pull/10), [#11](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/pull/11) |
+| Orellana Rodriguez, Mel Andree | Catálogo del comerciante, perfiles de agricultor y comerciante y barras de navegación en Flutter, en la rama `feature/app-user-management`. | En desarrollo |
+| Quintanilla Pozo, Gonzalo Samuel | Conexión de la aplicación Kotlin con el backend y campo DNI en el registro. | Commit `86029f6` en `develop` |
 
 ## 4.3. Validation Interviews
 
