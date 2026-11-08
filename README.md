@@ -10336,7 +10336,7 @@ La [Tabla 106](#tabla-106) presenta el registro de la entrevista de validación 
 <tr><td><strong>Nombre completo</strong></td><td colspan="3">Sebastián Vergara</td></tr>
 <tr><td><strong>Edad</strong></td><td>22 años</td><td><strong>Distrito</strong></td><td>San Juan de Lurigancho</td></tr>
 <tr><td><strong>Ocupación</strong></td><td>Trabaja en el rubro de gastronomia y ayuda en produccion</td><td><strong>Fecha, inicio y duración</strong></td><td>2026-06-15, 8 minutos</td></tr>
-<tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/1qob8d2jApjbwadKZeMDUbXAYiCF-FF08/view" target="_blank">Ver video de la entrevista en Google Drive</a></td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3"><a href="" target="_blank">Ver video de la entrevista en Google Drive</a></td></tr>
 <tr><td colspan="2" valign="top"><strong>Resumen</strong><br>Sebastián evaluó el prototipo enfocado en el rol de comerciante (chef). Navegó por el catálogo de parcelas y el sistema de financiamiento. Destacó el valor de la app para restaurantes de cocina de autor y comida saludable que necesitan insumos específicos y trazabilidad natural. Le agradó la variedad de métodos de pago y la comunicación con el agricultor, manifestando total disposición para utilizar la herramienta en su labor profesional.</td><td colspan="2" valign="top"><strong>Foto</strong><br>[Inserta aquí la captura o imagen de Sebastián durante la videollamada]</td></tr>
 </table>
 
