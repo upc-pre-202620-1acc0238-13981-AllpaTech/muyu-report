@@ -665,6 +665,13 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 225](#figura-225) — Video About the team
 - [Figura 225.1](#figura-2251) — Inicio de sesión de la aplicación Flutter
 - [Tabla 97.1](#tabla-971) — Testing Commits Evidence
+- [Tabla 99.1](#tabla-991) — Sprint Planning 3
+- [Tabla 99.2](#tabla-992) — Sprint Backlog 3
+- [Tabla 99.3](#tabla-993) — Development Evidence for Sprint Review
+- [Tabla 99.4](#tabla-994) — Testing Suite Evidence for Sprint Review
+- [Tabla 99.5](#tabla-995) — Services Documentation Evidence for Sprint Review
+- [Tabla 99.6](#tabla-996) — Software Deployment Evidence for Sprint Review
+- [Tabla 99.7](#tabla-997) — Team Collaboration Insights during Sprint
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
 - [Tabla 2](#tabla-2) — Competidores
