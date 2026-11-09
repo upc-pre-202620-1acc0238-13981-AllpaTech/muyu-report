@@ -10382,6 +10382,16 @@ La evaluación de las sesiones de validación sigue el formato UX Heuristics & P
 | **AUDITOR** | AllpaTech |
 | **CLIENTE(S)** | Lili Vera Vela (segmento Agricultor) |
 
+| | |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | 1acc0238 Aplicaciones para dispositivos móviles |
+| **NRC** | 13981 |
+| **PROFESORES** | Todos |
+| **AUDITOR** | AllpaTech |
+| **CLIENTE(S)** | Estefania Casa Paiva (segmento Comerciante) |
+
+
 **SITE o APP A EVALUAR:**
 
 Muyu, aplicación móvil para agricultores y comerciantes (Android).
@@ -10427,6 +10437,9 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 1 | El botón Publicar no se distingue lo suficiente en Mis parcelas | 2 | Information Architecture: Is it findable? |
 | 2 | La ubicación no permite especificar la provincia y el distrito reales del agricultor | 3 | Usability: Coincidencia entre el sistema y el mundo real |
 | 3 | Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos | 2 | Usability: Coincidencia entre el sistema y el mundo real |
+| 4 | El financiamiento no muestra con suficiente claridad el monto retenido y la liberación de pagos por etapa| 3 | Usabilidad: Visibilidad del estado del sistema |
+| 5 | Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha| 2 | nformation Architecture: Is it findable? |
+| 6 | Las notificaciones no priorizan claramente las evidencias pendientes de revisión | 2 |Usabilidad: Reconocimiento antes que recuerdo |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -10486,6 +10499,69 @@ La [Figura 223](#figura-223) muestra la pantalla Cuenta bancaria.
 *Recomendación:*
 
 Presentar la cuenta bancaria como método principal de cobro y mostrar Yape y Plin como opción secundaria para montos pequeños, manteniendo el aviso del límite de S/ 500 por transferencia.
+
+**PROBLEMA #4: El financiamiento no muestra con suficiente claridad el monto retenido y la liberación de pagos por etapa**
+
+Severidad: 3
+Heurística violada: Usabilidad - Visibilidad del estado del sistema
+
+*Problema:*
+
+Durante la prueba, el comerciante pudo completar el financiamiento y llegar al comprobante. Sin embargo, indicó que tuvo dudas sobre cuánto dinero quedaba retenido en Escrow, cuánto se liberaría en cada hito y qué ocurriría con los fondos si la cosecha se retrasaba o existía un desacuerdo.
+
+La información del monto total está disponible, pero el comerciante necesita comprender cómo se distribuye el dinero durante el proceso antes de confirmar el financiamiento. Esta incertidumbre puede afectar su decisión de financiar una parcela.
+
+La [Figura 224](#224) muestra el flujo de financiamiento antes de confirmar el pago.
+
+<p id="figura-224"><strong>Figura 224.</strong> Pantalla de financiamiento de una parcela</p>
+
+<p align="center"><img src="assets/images/chapter04/validation/heuristica-05-fund-plot.png" alt="Pantalla de financiamiento de una parcela" width="300"/></p>
+
+*Recomendación:*
+
+Mostrar un resumen antes de confirmar el financiamiento con el monto total, el importe retenido en Escrow, los hitos asociados y el importe que se liberará al aprobar cada uno. También se debe incluir una explicación breve sobre el tratamiento de los fondos ante un retraso o desacuerdo.
+
+**PROBLEMA #5: Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha**
+
+Severidad: 2
+Heurística violada: Information Architecture - Is it findable?
+
+*Problema:*
+
+El comerciante logró encontrar una parcela de papa mediante los filtros disponibles. Sin embargo, señaló que para planificar sus compras necesita conocer qué parcelas estarán listas en una semana determinada. La fecha de cosecha aparece dentro del detalle de cada parcela, por lo que debe abrir varias opciones para comparar su disponibilidad.
+
+La ausencia de un filtro por fecha o semana estimada de cosecha incrementa el tiempo necesario para localizar parcelas adecuadas para un pedido específico.
+
+La [Figura 225](#225) muestra  el catálogo de parcelas y las opciones de filtro disponibles.
+
+<p id="figura-225"><strong>Figura 225.</strong> Catálogo de parcelas y opciones de filtro</p>
+
+<p align="center"><img src="assets/images/chapter04/validation/heuristica-06-filter-plot.png" alt="Pantalla de financiamiento de una parcela" width="300"/></p>
+
+*Recomendación:*
+
+Agregar filtros por rango de fecha, semana o mes estimado de cosecha. También se puede mostrar la fecha de disponibilidad en cada tarjeta del catálogo para facilitar la comparación entre parcelas.
+
+**PROBLEMA #6:Las notificaciones no priorizan claramente las evidencias pendientes de revisión**
+
+Severidad: 2
+Heurística violada: Usabilidad - Reconocimiento antes que recuerdo
+
+*Problema:*
+
+Al revisar las notificaciones, el comerciante pudo identificar avisos relacionados con cultivos, pagos y clima. No obstante, indicó que el aviso más importante para su actividad es saber cuándo existe una evidencia pendiente de revisar, ya que esta revisión determina si debe aprobar o rechazar la liberación de un pago.
+
+Las notificaciones comparten una presentación similar y no distinguen visualmente aquellas que requieren una acción inmediata. El comerciante debe revisar cada aviso para identificar qué tarea tiene pendiente.
+
+La [Figura 226](#226) muestra  la pantalla de notificaciones del comerciante.
+
+<p id="figura-226"><strong>Figura 226.</strong> Notificaciones del comerciante</p>
+
+<p align="center"><img src="assets/images/chapter04/validation/heuristica-07-notification.png" alt="Pantalla de Notificaciones del comerciante" width="300"/></p>
+
+*Recomendación:*
+
+Agregar filtros por rango de fecha, semana o mes estimado de cosecha. También se puede mostrar la fecha de disponibilidad en cada tarjeta del catálogo para facilitar la comparación entre parcelas.
 
 # Conclusiones y Recomendaciones
 
