@@ -9955,10 +9955,14 @@ La [Tabla 95](#tabla-95) registra los work items asociados al trabajo de esta it
 | US22 | Consulta detallada y contacto con el agricultor | WI-26 | Detalle financiado y CTA de fondeo | Mostrar el detalle restyleado de la parcela financiada y fijar las acciones de financiar o revisar evidencia por encima de la barra inferior. | 5 | Orellana, Mel Andree | Done |
 | US12 | Visualización de historial de pagos | WI-27 | Historial y detalle de pagos por parcela | Restylear el historial de pagos del agricultor y vincular el detalle y la evidencia al hito de la parcela seleccionada. | 4 | Orellana, Mel Andree | Done |
 | US03 | Publicación de nueva parcela | WI-28 | Publicación sin datos por defecto | Evitar que el flujo de publicación complete ubicación y monto con valores predeterminados y enviar solo los datos ingresados por el agricultor. | 2 | Orellana, Mel Andree | Done |
+| US22 | Consulta detallada y contacto con el agricultor | WI-29 | Detalle y gestión de parcelas en Flutter | Habilitar la apertura de las tarjetas del catálogo y de Mis parcelas; mostrar el detalle para agricultor y comerciante; y permitir al agricultor editar o eliminar una parcela mediante el backend. | 6 | Quintanilla, Gonzalo | To-Review |
+| US21 | Definición de financiamiento y plan de desembolsos de una parcela | WI-30 | Flujo de financiamiento en Flutter | Implementar selección del método de pago, aceptación de términos, confirmación, resultado exitoso, pagos en verificación y consulta de parcelas financiadas, persistiendo la operación mediante el backend. | 7 | Quintanilla, Gonzalo | To-Review |
 
 ### 4.2.2.4. Development Evidence for Sprint Review
 
 Los avances implementados durante el Sprint 2 se registraron mediante commits en las ramas `main` y `develop` del repositorio `AllpaTech/muyu-app`. En `main` se documenta el trabajo de Jennifer Yamilet Riveros Vera sobre el Home del agricultor, la persistencia de sesión y el aislamiento de datos por usuario. En `develop` se documenta el trabajo de Mel Andree Orellana Rodriguez sobre el catálogo, el detalle financiado, la revisión de evidencias y el historial de pagos, así como el flujo de visitas y financiamiento de Gonzalo Samuel Quintanilla Pozo. La [Tabla 96](#tabla-96) presenta los commits asociados al trabajo documentado en esta iteración.
+
+La migración de los flujos de detalle de parcela y financiamiento a Flutter se desarrolla en el repositorio `AllpaTech/Muyu-app-flutter`, mediante las ramas `feature/farmer-plot-detail` y `feature/plot-financing`. Debido a que estos cambios se encuentran en estado `To-Review`, sus filas de Development Evidence deberán incorporarse a la Tabla 96 cuando existan commits y Pull Requests verificables; no se consignan identificadores provisionales como evidencia.
 
 <p id="tabla-96"><strong>Tabla 96.</strong> Development Evidence for Sprint Review</p>
 
@@ -10047,6 +10051,8 @@ El Testing Suite del Sprint 2 comprende las pruebas automatizadas de los Web Ser
 | UT2-01 | US03 / US20 | Unit Test | Validar reglas de creación y asociación de parcelas a una cuenta de agricultor. | Las reglas aceptan datos válidos y rechazan asociaciones incorrectas. | Pendiente de evidencia del backend | Pending |
 | IT2-01 | US03 / US20 | Integration Test | Crear una parcela mediante el servicio y consultarla desde el flujo del agricultor. | La parcela creada aparece bajo la cuenta autenticada y persiste en el servicio. | Pendiente de evidencia del backend | Pending |
 | AT2-01 | US04 / US20 / US22 | Acceptance Test BDD | Ejecutar el escenario Gherkin de búsqueda, filtro y consulta de parcelas. | Los escenarios `.feature` finalizan exitosamente con sus Steps. | Pendiente de evidencia del backend | Pending |
+| WT2-01 | US22 | Flutter Unit and Widget Tests | Abrir el detalle de una parcela y validar las operaciones de edición y eliminación contra el servicio móvil. | Las tarjetas abren el detalle y las operaciones envían solicitudes autenticadas al backend. | `farmer_plots_test.dart`: pruebas aprobadas | Passed |
+| WT2-02 | US21 | Flutter Unit and Widget Tests | Seleccionar un método de pago, confirmar el financiamiento y diferenciar fondos en Escrow de pagos en verificación. | Tarjeta y billetera confirman el financiamiento; depósito y transferencia quedan en verificación. | `merchant_financing_test.dart` y flujo visual: pruebas aprobadas | Passed |
 
 La [Tabla 97.1](#tabla-971) registra los commits de testing. Mientras el responsable del backend no incorpore commits `test:` reales, la tabla debe permanecer como evidencia pendiente y no deben atribuirse commits de funcionalidad móvil a esta suite.
 
@@ -10088,6 +10094,8 @@ Como apoyo manual se verificó el recorrido desde una cuenta nueva, la publicaci
 
 Como evidencia funcional del trabajo de Gonzalo se verificó también el recorrido del comerciante desde el catálogo hacia el detalle de una parcela, la solicitud de una visita con fecha y hora, la aceptación de la solicitud desde el rol agricultor y la consulta posterior del estado confirmado. Asimismo, se revisaron el financiamiento por etapas, el estado de pago no confirmado, la parcela no disponible, el almacenamiento de fondos en Escrow y la generación del comprobante PDF.
 
+En la versión Flutter se validó mediante pruebas automatizadas la navegación desde las tarjetas hacia el detalle de parcela, la edición y eliminación autenticadas mediante el backend, la selección del método de pago, la confirmación del financiamiento, el estado de fondos en Escrow y los pagos pendientes de verificación. Las capturas de ejecución en emulador deberán agregarse en esta subsección cuando las ramas sean confirmadas y revisadas, manteniendo separadas la evidencia de Android nativo y la evidencia de Flutter.
+
 La ejecución de la aplicación con una usuaria real se muestra en la entrevista de validación del Sprint 2, que recorre el Home, la publicación de una parcela, el registro de evidencias, la sincronización y Payments: [Video App Validation](#video-app-validation).
 
 ### 4.2.2.7. Services Documentation Evidence for Sprint Review
@@ -10110,6 +10118,8 @@ La [Tabla 98](#tabla-98) resume los servicios y contratos relacionados con el tr
 | Visit workflow | Visit proposal, acceptance and status tracking | Share the proposed date, time and message between merchant and farmer and preserve its status. | Implemented |
 | Financing workflow | Multi-stage funding, payment method and Escrow states | Review and confirm financing while handling unavailable plots and unconfirmed payments. | Implemented |
 | Receipt generation | PDF receipt from the funding success screen | Generate a downloadable financing receipt after confirmation. | Implemented |
+| Flutter plot detail | `feature/farmer-plot-detail` | Open catalog and owned plot cards, display their details, and update or delete farmer plots through authenticated backend requests. | To-Review |
+| Flutter financing | `feature/plot-financing` | Select a payment method, register financing in the backend, and distinguish funded plots from payments under verification. | To-Review |
 
 ### 4.2.2.8. Software Deployment Evidence for Sprint Review
 
@@ -10138,7 +10148,7 @@ La [Tabla 100](#tabla-100) resume las contribuciones documentadas de la iteraci�
 | Berrospi Marin, Angel Guillermo | Desarrollo y colaboración técnica asignada al Sprint 2. |
 | Arroyo Gonzales, Emily Juliette | Colaboración UI/UX, documentación y revisión de entregables. |
 | Riveros Vera, Jennifer Yamilet | Rediseño del Home, estado vacío, filtros, aislamiento de datos por usuario, persistencia de sesión y publicación de parcelas. |
-| Quintanilla Pozo, Gonzalo Samuel | Implementación del catálogo del comerciante, detalle y ubicación de parcelas, solicitudes y confirmación de visitas, financiamiento multietapa, estados alternativos de pago, comprobante PDF, navegación al historial de transacciones y ajustes del inicio de sesión. |
+| Quintanilla Pozo, Gonzalo Samuel | Implementación del catálogo del comerciante, detalle y ubicación de parcelas, solicitudes y confirmación de visitas, financiamiento multietapa, estados alternativos de pago, comprobante PDF, navegación al historial de transacciones y ajustes del inicio de sesión en Android nativo. Migración a Flutter del detalle y gestión de parcelas y del flujo de financiamiento, organizada en las ramas `feature/farmer-plot-detail` y `feature/plot-financing`, con análisis estático y pruebas automatizadas. |
 
 Las siguientes capturas deben provenir de los analíticos de los repositorios utilizados en la implementación. Cada integrante debe contar con evidencia de contribución, commits y actividad verificable durante el Sprint.
 
@@ -10414,14 +10424,17 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 4. Registro de la evidencia de un hito de una parcela financiada.
 5. Consulta de la sincronización de evidencias.
 6. Consulta de los pagos recibidos.
+7. Navegación y búsqueda en el catálogo de parcelas desde el rol comerciante.
+8. Consulta del detalle productivo y de los datos del agricultor.
+9. Selección del método de pago y confirmación del financiamiento.
+10. Consulta del monto retenido en Escrow y de la liberación por hitos.
+11. Revisión de notificaciones relacionadas con evidencias y pagos.
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 1. Navegación por la Landing Page.
-2. Búsqueda y financiamiento de una parcela desde el rol comerciante.
-3. Solicitud y confirmación de visitas a la parcela.
-4. Aprobación o rechazo de evidencias de hitos.
-5. Confirmación de la recepción de la cosecha y reporte de incidencias.
+2. Solicitud y confirmación de visitas a la parcela.
+3. Confirmación de la recepción de la cosecha y reporte de incidencias.
 
 **ESCALA DE SEVERIDAD:**
 
@@ -10445,9 +10458,9 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 1 | El botón Publicar no se distingue lo suficiente en Mis parcelas | 2 | Information Architecture: Is it findable? |
 | 2 | La ubicación no permite especificar la provincia y el distrito reales del agricultor | 3 | Usability: Coincidencia entre el sistema y el mundo real |
 | 3 | Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos | 2 | Usability: Coincidencia entre el sistema y el mundo real |
-| 4 | El financiamiento no muestra con suficiente claridad el monto retenido y la liberación de pagos por etapa| 3 | Usabilidad: Visibilidad del estado del sistema |
-| 5 | Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha| 2 | nformation Architecture: Is it findable? |
-| 6 | Las notificaciones no priorizan claramente las evidencias pendientes de revisión | 2 |Usabilidad: Reconocimiento antes que recuerdo |
+| 4 | El financiamiento no muestra con suficiente claridad el monto retenido y la liberación de pagos por etapa | 3 | Usabilidad: Visibilidad del estado del sistema |
+| 5 | Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha | 2 | Information Architecture: Is it findable? |
+| 6 | Las notificaciones no priorizan claramente las evidencias pendientes de revisión | 2 | Usabilidad: Reconocimiento antes que recuerdo |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -10515,7 +10528,7 @@ Heurística violada: Usabilidad - Visibilidad del estado del sistema
 
 *Problema:*
 
-Durante la prueba, el comerciante pudo completar el financiamiento y llegar al comprobante. Sin embargo, indicó que tuvo dudas sobre cuánto dinero quedaba retenido en Escrow, cuánto se liberaría en cada hito y qué ocurriría con los fondos si la cosecha se retrasaba o existía un desacuerdo.
+Durante la prueba, Sebastián pudo completar el financiamiento y llegar al comprobante. Sin embargo, indicó que tuvo dudas sobre cuánto dinero quedaba retenido en Escrow, cuánto se liberaría en cada hito y qué ocurriría con los fondos si la cosecha se retrasaba o existía un desacuerdo.
 
 La información del monto total está disponible, pero el comerciante necesita comprender cómo se distribuye el dinero durante el proceso antes de confirmar el financiamiento. Esta incertidumbre puede afectar su decisión de financiar una parcela.
 
@@ -10536,7 +10549,7 @@ Heurística violada: Information Architecture - Is it findable?
 
 *Problema:*
 
-El comerciante logró encontrar una parcela de papa mediante los filtros disponibles. Sin embargo, señaló que para planificar sus compras necesita conocer qué parcelas estarán listas en una semana determinada. La fecha de cosecha aparece dentro del detalle de cada parcela, por lo que debe abrir varias opciones para comparar su disponibilidad.
+Sebastián logró encontrar una parcela de papa mediante los filtros disponibles. Sin embargo, señaló que para planificar sus compras necesita conocer qué parcelas estarán listas en una semana determinada. La fecha de cosecha aparece dentro del detalle de cada parcela, por lo que debe abrir varias opciones para comparar su disponibilidad.
 
 La ausencia de un filtro por fecha o semana estimada de cosecha incrementa el tiempo necesario para localizar parcelas adecuadas para un pedido específico.
 
@@ -10550,14 +10563,14 @@ La [Figura 225](#225) muestra  el catálogo de parcelas y las opciones de filtro
 
 Agregar filtros por rango de fecha, semana o mes estimado de cosecha. También se puede mostrar la fecha de disponibilidad en cada tarjeta del catálogo para facilitar la comparación entre parcelas.
 
-**PROBLEMA #6:Las notificaciones no priorizan claramente las evidencias pendientes de revisión**
+**PROBLEMA #6: Las notificaciones no priorizan claramente las evidencias pendientes de revisión**
 
 Severidad: 2
 Heurística violada: Usabilidad - Reconocimiento antes que recuerdo
 
 *Problema:*
 
-Al revisar las notificaciones, el comerciante pudo identificar avisos relacionados con cultivos, pagos y clima. No obstante, indicó que el aviso más importante para su actividad es saber cuándo existe una evidencia pendiente de revisar, ya que esta revisión determina si debe aprobar o rechazar la liberación de un pago.
+Al revisar las notificaciones, Sebastián pudo identificar avisos relacionados con cultivos, pagos y clima. No obstante, indicó que el aviso más importante para su actividad es saber cuándo existe una evidencia pendiente de revisar, ya que esta revisión determina si debe aprobar o rechazar la liberación de un pago.
 
 Las notificaciones comparten una presentación similar y no distinguen visualmente aquellas que requieren una acción inmediata. El comerciante debe revisar cada aviso para identificar qué tarea tiene pendiente.
 
