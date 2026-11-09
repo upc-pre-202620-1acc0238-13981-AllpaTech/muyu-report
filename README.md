@@ -10561,7 +10561,7 @@ La [Figura 226](#226) muestra  la pantalla de notificaciones del comerciante.
 
 *Recomendación:*
 
-Agregar filtros por rango de fecha, semana o mes estimado de cosecha. También se puede mostrar la fecha de disponibilidad en cada tarjeta del catálogo para facilitar la comparación entre parcelas.
+Destacar las evidencias pendientes mediante una etiqueta como “Acción requerida”, un color diferenciado y un botón directo para abrir la evidencia. Las notificaciones informativas de clima o actividad pueden mantenerse en una sección secundaria.
 
 # Conclusiones y Recomendaciones
 
