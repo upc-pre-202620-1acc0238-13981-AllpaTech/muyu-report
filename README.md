@@ -116,6 +116,7 @@
 | AV2 | 31-10-2026 | Orellana Rodriguez, Mel Andree | Incorporación de la evidencia de desarrollo (4.2.2.4) con los commits de <code>develop</code> del flujo del comerciante. |
 | AV2 | 09-11-2026 | Orellana Rodriguez, Mel Andree | Incorporación en 4.2.2.4 de los commits de <code>develop</code> en <code>Muyu-app-flutter</code>: perfiles, catálogo, navegación, foto de perfil y reporte de incidencias. |
 | AV2 | 09-11-2026 | Arroyo Gonzales, Emily Juliette | Incorporación en 4.2.2.4 de sus 18 commits de <code>feature/farmer-plot-detail</code> en <code>Muyu-app-flutter</code>: Home y onboarding, pagos para ambos roles, alertas climáticas, medidas tomadas, alertas del comerciante, recuperación de contraseña y pruebas automatizadas. |
+| AV2 | 11-11-2026 | Quintanilla Pozo, Gonzalo Samuel | Incorporación de la entrevista de validación de Sebastián Vergara, el enlace de la evidencia audiovisual, el resumen de sus observaciones como comerciante y el hallazgo heurístico sobre la comprensión de las etapas agrícolas y sus desembolsos. |
 | AV2 | 31-10-2026 | Orellana Rodriguez, Mel Andree | Actualización de Team Collaboration Insights (4.2.2.9) con las contribuciones verificables del Sprint 2. |
 | AV2 | 29-10-2026 | Berrospi Marin, Angel Guillermo | Implementación de mejoras en el flujo de parcelas en la rama feature/plot-flow-improvements. |
 | AV2 | 29-10-2026 | Berrospi Marin, Angel Guillermo | Ajuste de los encabezados de las pantallas del agricultor al color verde oscuro del diseño y unificación de componentes visuales. |
@@ -10076,6 +10077,7 @@ Los avances implementados durante el Sprint 2 se registraron mediante commits en
 | `AllpaTech/muyu-app` | `develop` | [`ef47c46`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/ef47c46d7c844c12aa8afe7f0e048bbf8dcc10b8) | `feat(merchant):` | restyle approve/reject summary, options, and actions | 27/10/2026 |
 | `AllpaTech/muyu-app` | `develop` | [`93a9e9e`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/93a9e9e00560b15ff8a6d4271fad4834c831a6de) | `feat(merchant):` | restyle milestone evidence cards, photos, and actions | 27/10/2026 |
 | `AllpaTech/muyu-app` | `develop` | [`2b5477f`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-app/commit/2b5477f287e64bddd26c90577f555edf38bc7c26) | `feat(merchant):` | restyle My plots list, rain banner, and review switch | 27/10/2026 |
+| `AllpaTech/muyu-report` | `develop` | [`88ce7a3`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-report/commit/88ce7a3) | `docs(README):` | update validation interview details for Sebastián Vergara, including age, occupation, and feedback on financing process | 11/11/2026 |
 
 ### 4.2.2.5. Testing Suite Evidence for Sprint Review
 
@@ -10502,6 +10504,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 7 | El financiamiento no muestra con suficiente claridad el monto retenido y la liberación de pagos por etapa | 2 | Usabilidad: Visibilidad del estado del sistema |
 | 8 | Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha | 2 | Usabilidad: Information Architecture: Is it findable? |
 | 9 | Las notificaciones no priorizan claramente las evidencias pendientes de revisión | 2 | Usabilidad: Reconocimiento antes que recuerdo|
+| 10 | La relación entre las etapas agrícolas y la liberación de los desembolsos requiere una explicación más sencilla | 2 | Usabilidad: Coincidencia entre el sistema y el mundo real |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -10624,6 +10627,21 @@ La [Figura 226](#226) muestra  la pantalla de notificaciones del comerciante.
 *Recomendación:*
 
 Destacar las evidencias pendientes mediante una etiqueta como “Acción requerida”, un color diferenciado y un botón directo para abrir la evidencia. Las notificaciones informativas de clima o actividad pueden mantenerse en una sección secundaria.
+
+**PROBLEMA #10: La relación entre las etapas agrícolas y la liberación de los desembolsos requiere una explicación más sencilla**
+
+Severidad: 2<br>
+Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
+
+*Problema:*
+
+Durante la entrevista de validación, Sebastián Vergara comprendió el registro, la consulta de parcelas y la selección de los métodos de pago. Sin embargo, desde el minuto 5:44 indicó que se confundió al interpretar el progreso de siembra, riego, fertilización y cosecha. Aunque pudo continuar después de recibir una explicación verbal, la relación entre cada etapa agrícola y la liberación progresiva del financiamiento no resultó suficientemente clara por sí sola.
+
+Esta dificultad puede afectar especialmente a comerciantes que no conocen el proceso agrícola y a personas mayores con menor familiaridad tecnológica, quienes podrían necesitar ayuda externa para comprender cuándo avanza una etapa y cuándo corresponde liberar un desembolso.
+
+*Recomendación:*
+
+Incorporar una línea de progreso numerada con una explicación breve de cada etapa, la actividad que debe completarse y el desembolso relacionado. Se recomienda utilizar lenguaje sencillo, iconos reconocibles y ayudas contextuales que permitan comprender el flujo sin abandonar la pantalla de financiamiento.
 
 # Conclusiones y Recomendaciones
 
