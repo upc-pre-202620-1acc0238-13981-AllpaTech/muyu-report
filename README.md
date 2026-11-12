@@ -127,6 +127,7 @@
 | AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Consolidación de la evaluación según heurísticas en siete problemas, registro de la entrevista de validación de Natalia Román Cruz, actualización de la sección Video App Validation y corrección de la numeración de figuras. |
 | AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Incorporación de la sección Video About the product y de los videos About the product y About the team en la Landing Page. |
 | AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Eliminación de los registros de validación vacíos y captura de cada entrevistado del segmento Comerciante. |
+| AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Integración de `develop` en `main` del repositorio `muyu-app` e incorporación de las capturas de GitHub Insights del informe y de la aplicación móvil. |
 </div>
 
 ## Project Report Collaboration Insights
@@ -230,6 +231,7 @@ El Student Outcome 7 establece que el estudiante debe ser capaz de adquirir y ap
               coherencia entre la Landing Page y la aplicación móvil. Este proceso me permitió reconocer que 
               el diseño de una solución de software requiere aprender, contrastar y corregir continuamente las 
               decisiones tomadas a partir de nueva evidencia y de la evolución del producto.</li>
+             <li><b>AV2 - Jennifer Yamilet Riveros Vera:</b> Durante el Sprint 2 reconocí que necesitaba seguir aprendiendo más allá de Jetpack Compose. Aprendí Flutter con Riverpod para llevar a la versión multiplataforma los flujos que ya existían en Kotlin, como el financiamiento, las evidencias de hito con foto y GPS, las visitas, la entrega de cosecha, las incidencias y la sincronización de evidencias registradas sin señal, cuidando que ambas aplicaciones respeten el mismo contrato de datos del backend. Al revisar las entrevistas de validación también comprendí que el usuario debe probar la aplicación por sí mismo para que la evaluación según heurísticas sea válida. Este proceso me permitió reconocer que el aprendizaje permanente implica contrastar el producto con su uso real, corregir a partir de esa evidencia y dejar el trabajo verificable mediante ramas, pull requests y pruebas automatizadas.</li>
              <li><b>AV1 - Gonzalo Samuel Quintanilla Pozo:</b> Planifiqué el desarrollo de los esquemas tácticos asegurando su entrega en los plazos establecidos. Coordiné activamente con mis compañeros para garantizar que mis diagramas de bases de datos y clases estuvieran perfectamente alineados con el EventStorming y el Context Mapping general construido por el resto del equipo.</li>
               <li><b> TB1 - Gonzalo Samuel Quintanilla Pozo:</b> Reconocí la importancia de adaptar la infraestructura y los entornos de ejecución a las necesidades cambiantes del proyecto, gestionando el ciclo de vida de los despliegues y resolviendo problemas de integración entre la Fake API y los componentes de frontend para la captura de evidencias en campo.</li>
               <li><b>AV2 - Gonzalo Samuel Quintanilla Pozo:</b> Para resolver las diferencias entre los mockups de Figma y la implementación móvil, revisé cada estado del flujo del comerciante, dividí el trabajo en commits pequeños y validé la integración mediante compilación y pruebas. Este proceso reforzó mi aprendizaje sobre navegación con Compose, manejo de estados alternativos, generación de archivos PDF y coordinación de información entre los roles de comerciante y agricultor.</li>
@@ -10186,9 +10188,9 @@ La [Tabla 100](#tabla-100) resume las contribuciones documentadas de la iteraci�
 | Riveros Vera, Jennifer Yamilet | Rediseño del Home, estado vacío, filtros, aislamiento de datos por usuario, persistencia de sesión y publicación de parcelas. |
 | Quintanilla Pozo, Gonzalo Samuel | Implementación del catálogo del comerciante, detalle y ubicación de parcelas, solicitudes y confirmación de visitas, financiamiento multietapa, estados alternativos de pago, comprobante PDF, navegación al historial de transacciones y ajustes del inicio de sesión en Android nativo. Migración a Flutter del detalle y gestión de parcelas y del flujo de financiamiento, organizada en las ramas `feature/farmer-plot-detail` y `feature/plot-financing`, con análisis estático y pruebas automatizadas. |
 
-Las siguientes capturas deben provenir de los analíticos de los repositorios utilizados en la implementación. Cada integrante debe contar con evidencia de contribución, commits y actividad verificable durante el Sprint.
+Las siguientes capturas provienen de los analíticos de GitHub del repositorio `muyu-app`, tomadas después de integrar la rama `develop` en `main` para que los Insights reflejen el trabajo de todos los integrantes durante el Sprint.
 
-La [Figura 219](#figura-219) muestra los Insights del repositorio de implementación móvil.
+La [Figura 219](#figura-219) muestra la cantidad de commits por semana del repositorio de implementación móvil.
 
 <p id="figura-219"><strong>Figura 219.</strong> GitHub Insights de la aplicación móvil</p>
 
@@ -10200,7 +10202,7 @@ La [Figura 220](#figura-220) muestra los Contributors del repositorio de impleme
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-contributors.png" alt="GitHub Contributors de muyu-app" width="850"/></p>
 
-La interpretación de estas analíticas debe confirmar qué integrantes realizaron cambios efectivos, quiénes lideraron componentes y cuáles fueron las contribuciones colaborativas. El gráfico de Contributors de `main` no incluye los commits integrados solo en `develop`; por ello, las contribuciones de Mel Andree Orellana Rodriguez deben contrastarse con los commits de esa rama y con la [Tabla 96](#tabla-96) antes de cerrar el Sprint.
+Las analíticas muestran que los cinco integrantes realizaron cambios efectivos en la aplicación móvil y que la mayor actividad se concentró en las semanas del Sprint 2. Al integrar `develop` en `main`, el gráfico de Contributors incluye también los commits que antes solo existían en `develop`, como los de Mel Andree Orellana Rodriguez, por lo que coincide con lo registrado en la [Tabla 96](#tabla-96).
 
 ## 4.3. Validation Interviews
 
