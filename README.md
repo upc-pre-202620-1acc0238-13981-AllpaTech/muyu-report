@@ -10329,7 +10329,7 @@ La [Tabla 103](#tabla-103) presenta el registro de la entrevista de validación 
 <tr>
   <td><strong>Enlace</strong></td>
   <td colspan="3">
-    <a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing">
+    <a href="https://drive.google.com/file/d/1fxpAkvC4cLX49EprnoG7_iBm6x2xu7df/view?usp=sharing">
       upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4
     </a>
   </td>
@@ -10370,8 +10370,8 @@ La [Tabla 105](#tabla-105) presenta el registro de la entrevista de validación 
 <tr><th colspan="4">Entrevista de validación #2</th></tr>
 <tr><td><strong>Nombre completo</strong></td><td colspan="3">Ayrton Damian Inga</td></tr>
 <tr><td><strong>Edad</strong></td><td>25</td><td><strong>Distrito</strong></td><td>San Juan de Lurigancho</td></tr>
-<tr><td><strong>Ocupación</strong></td><td>Comerciante</td><td><strong>Fecha, inicio y duración</strong></td><td>11/11/2026 · 15:05 - 20:07</td></tr>
-<tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing" target="_blank">upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4</a></td></tr>
+<tr><td><strong>Ocupación</strong></td><td>Comerciante</td><td><strong>Fecha, inicio y duración</strong></td><td>11/11/2026 · 15:05 - 30:00</td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/1fxpAkvC4cLX49EprnoG7_iBm6x2xu7df/view?usp=sharing" target="_blank">upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4</a></td></tr>
 <tr><td colspan="2" valign="top"><strong>Resumen</strong><br>En la entrevista, el comerciante explicó que suele reservar productos por teléfono o WhatsApp y que prefiere visitar la parcela antes de adelantar dinero a un agricultor que aún no conoce. Al probar MUYU, pudo encontrar una parcela de papa, solicitar una visita y completar el financiamiento de prueba hasta obtener el comprobante.
 Su principal duda fue cómo se libera el dinero en cada etapa y qué pasa con los fondos retenidos en Escrow si hay un atraso o un desacuerdo. También sugirió filtrar las parcelas por fecha de cosecha y mostrar cuántos kilos se pueden reservar. Para aprobar un pago, valoró contar con una foto clara, la fecha y la descripción del trabajo realizado.Calificó la facilidad de uso con 4 de 5 y la confianza con 3 de 5. Probaría MUYU con un pedido pequeño y señaló como mejora prioritaria mostrar, antes de confirmar el financiamiento, cuánto pagará, cuánto quedará retenido y cuándo se liberará cada parte.</td><td colspan="2" valign="top"><strong>Foto</strong><br><img alt="Entrevista de validación con Ayrton Damian Inga" src="assets/images/chapter04/videos/validacion-comerciante-02.jpg" width="220"></td></tr>
 </table>
@@ -10385,7 +10385,7 @@ La [Tabla 106](#tabla-106) presenta el registro de la entrevista de validación 
 <tr><td><strong>Nombre completo</strong></td><td colspan="3">Natalia Román Cruz</td></tr>
 <tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
 <tr><td><strong>Ocupación</strong></td><td>Comerciante</td><td><strong>Fecha, inicio y duración</strong></td><td>09/11/2026 · 10:05 - 15:05</td></tr>
-<tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing" target="_blank">upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4</a></td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/1fxpAkvC4cLX49EprnoG7_iBm6x2xu7df/view?usp=sharing" target="_blank">upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4</a></td></tr>
 <tr><td colspan="2" valign="top"><strong>Resumen</strong><br>Natalia revisó la Landing Page y el recorrido de la aplicación desde el rol de comerciante. Consideró el registro sencillo y comentó que, al terminarlo, esperaba ver la pantalla de inicio con señales de las funciones disponibles. Encontró con facilidad las parcelas y propuso un filtro por fecha de cosecha. Para decidir le ayudaron el cultivo, el precio, la ubicación y el progreso, aunque le faltó información sobre el agricultor y sus técnicas. Entendió el monto total del financiamiento, pero no cuánto se libera en cada hito; aun así, la retención del dinero en Escrow le dio seguridad. Para aprobar una evidencia valoró sobre todo la fecha y la fotografía, y pidió destacar en las notificaciones las evidencias pendientes de revisión. Calificó la facilidad de uso con 4.5 de 5 y la confianza para trabajar con agricultores con 4 de 5, y sugirió conocer mejor el perfil y la experiencia de cada agricultor.</td><td colspan="2" valign="top"><strong>Foto</strong><br><img alt="Entrevista de validación con Natalia Román Cruz" src="assets/images/chapter04/videos/validacion-comerciante-03.jpg" width="220"></td></tr>
 </table>
 
@@ -10680,19 +10680,19 @@ Incorporar una línea de progreso numerada con una explicación breve de cada et
 
 ## Video App Validation
 
-Este video reúne las cuatro entrevistas de validación descritas en la sección [4.3. Validation Interviews](#43-validation-interviews), de alrededor de cinco minutos cada una: Lili Vera Vela, del segmento Agricultor (00:05), y Sebastián Vergara (05:05), Natalia Román Cruz (10:05) y Ayrton Damian Inga (15:05), del segmento Comerciante. En cada tramo se observa el uso de la Landing Page y de la aplicación móvil Muyu, y las observaciones de los entrevistados sustentan la evaluación según heurísticas de la sección 4.3.3.
+Este video reúne las cuatro entrevistas de validación descritas en la sección [4.3. Validation Interviews](#43-validation-interviews): Lili Vera Vela, del segmento Agricultor (00:05 - 05:05), y Sebastián Vergara (05:05 - 10:05), Natalia Román Cruz (10:05 - 15:05) y Ayrton Damian Inga (15:05 - 30:00), del segmento Comerciante. Las tres primeras duran alrededor de cinco minutos y la entrevista de Ayrton Damian Inga, realizada por Angel Guillermo Berrospi Marin, ocupa el tramo final del video. En cada tramo se observa el uso de la Landing Page y de la aplicación móvil Muyu, y las observaciones de los entrevistados sustentan la evaluación según heurísticas de la sección 4.3.3.
 
 La [Figura 227](#figura-227) muestra la portada del video de validación de la aplicación.
 
 <p id="figura-227"><strong>Figura 227.</strong> Video App Validation</p>
 
 <p align="center">
-  <a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing">
+  <a href="https://drive.google.com/file/d/1fxpAkvC4cLX49EprnoG7_iBm6x2xu7df/view?usp=sharing">
     <img src="assets/images/chapter04/videos/video-app-validation.jpg" alt="Video App Validation de Muyu" width="700"/>
   </a>
 </p>
 
-URL del video en Google Drive: [upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4](https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing)<br>
+URL del video en Google Drive: [upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4](https://drive.google.com/file/d/1fxpAkvC4cLX49EprnoG7_iBm6x2xu7df/view?usp=sharing)<br>
 Duración: 20:07
 
 ## Video About the product
