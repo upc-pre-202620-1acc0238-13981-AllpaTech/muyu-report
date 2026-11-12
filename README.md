@@ -10379,10 +10379,10 @@ La [Tabla 106](#tabla-106) presenta el registro de la entrevista de validación 
 <table>
 <tr><th colspan="4">Entrevista de validación #1</th></tr>
 <tr><td><strong>Nombre completo</strong></td><td colspan="3">Sebastián Vergara</td></tr>
-<tr><td><strong>Edad</strong></td><td>22 años</td><td><strong>Distrito</strong></td><td>San Juan de Lurigancho</td></tr>
-<tr><td><strong>Ocupación</strong></td><td>Trabaja en el rubro de gastronomia y ayuda en produccion</td><td><strong>Fecha, inicio y duración</strong></td><td>2026-06-15, 8 minutos</td></tr>
-<tr><td><strong>Enlace</strong></td><td colspan="3"><a href="" target="_blank">Ver video de la entrevista en Google Drive</a></td></tr>
-<tr><td colspan="2" valign="top"><strong>Resumen</strong><br>Sebastián evaluó el prototipo enfocado en el rol de comerciante (chef). Navegó por el catálogo de parcelas y el sistema de financiamiento. Destacó el valor de la app para restaurantes de cocina de autor y comida saludable que necesitan insumos específicos y trazabilidad natural. Le agradó la variedad de métodos de pago y la comunicación con el agricultor, manifestando total disposición para utilizar la herramienta en su labor profesional.</td><td colspan="2" valign="top"><strong>Foto</strong><br>[Inserta aquí la captura o imagen de Sebastián durante la videollamada]</td></tr>
+<tr><td><strong>Edad</strong></td><td>20 años</td><td><strong>Distrito</strong></td><td>San Juan de Lurigancho</td></tr>
+<tr><td><strong>Ocupación</strong></td><td>Trabaja en el rubro de gastronomía</td><td><strong>Fecha, inicio y duración</strong></td><td>2026-11-11, 6 minutos con 32 segundos</td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/12kscPQP7XOiz939YWbS7KeuzVwrgqzUX/view?usp=sharing" target="_blank">Ver video de la entrevista en Google Drive</a></td></tr>
+<tr><td colspan="2" valign="top"><strong>Resumen</strong><br>Sebastián evaluó la Landing Page y la aplicación móvil desde el rol de comerciante. Consideró que la propuesta es colorida, didáctica, sencilla y fácil de usar; también destacó el tamaño legible de los textos, la variedad de métodos de pago y la utilidad del financiamiento de parcelas. Calificó la facilidad de uso con 7 u 8 sobre 10 e identificó el registro y la consulta de parcelas como las tareas más sencillas. La principal dificultad apareció al interpretar el progreso y los desembolsos asociados a las etapas de siembra, riego, fertilización y cosecha, por lo que recomendó explicar este flujo de una manera más comprensible, especialmente para personas mayores con menor familiaridad tecnológica. Indicó que utilizaría Muyu para abastecer un futuro restaurante de cocina de autor.</td><td colspan="2" valign="top"><strong>Foto</strong><br>[Inserta aquí la captura o imagen de Sebastián durante la videollamada]</td></tr>
 </table>
 
 La [Tabla 107](#tabla-107) presenta el registro de la entrevista de validación 2 del segmento Comerciante.
@@ -10493,7 +10493,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 1 | El botón Publicar no se distingue lo suficiente en Mis parcelas | 2 | Information Architecture: Is it findable? |
 | 2 | La ubicación no permite especificar la provincia y el distrito reales del agricultor | 3 | Usability: Coincidencia entre el sistema y el mundo real |
 | 3 | Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos | 2 | Usability: Coincidencia entre el sistema y el mundo real |
-| 4 | El financiamiento no muestra con suficiente claridad el monto retenido y la liberación de pagos por etapa | 3 | Usabilidad: Visibilidad del estado del sistema |
+| 4 | El progreso y los desembolsos por etapa no se explican con suficiente claridad | 2 | Usabilidad: Coincidencia entre el sistema y el mundo real |
 | 5 | Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha | 2 | Information Architecture: Is it findable? |
 | 6 | Las notificaciones no priorizan claramente las evidencias pendientes de revisión | 2 | Usabilidad: Reconocimiento antes que recuerdo |
 
@@ -10556,16 +10556,16 @@ La [Figura 223](#figura-223) muestra la pantalla Cuenta bancaria.
 
 Presentar la cuenta bancaria como método principal de cobro y mostrar Yape y Plin como opción secundaria para montos pequeños, manteniendo el aviso del límite de S/ 500 por transferencia.
 
-**PROBLEMA #4: El financiamiento no muestra con suficiente claridad el monto retenido y la liberación de pagos por etapa**
+**PROBLEMA #4: El progreso y los desembolsos por etapa no se explican con suficiente claridad**
 
-Severidad: 3
-Heurística violada: Usabilidad - Visibilidad del estado del sistema
+Severidad: 2<br>
+Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
 
 *Problema:*
 
-Durante la prueba, Sebastián pudo completar el financiamiento y llegar al comprobante. Sin embargo, indicó que tuvo dudas sobre cuánto dinero quedaba retenido en Escrow, cuánto se liberaría en cada hito y qué ocurriría con los fondos si la cosecha se retrasaba o existía un desacuerdo.
+Durante la prueba, Sebastián comprendió el registro, la consulta de parcelas y la selección del método de pago. Sin embargo, señaló que inicialmente se confundió al interpretar el progreso de siembra, riego, fertilización y cosecha, así como la relación de estas etapas con los desembolsos. La explicación verbal del entrevistador le permitió continuar, pero el flujo debería poder comprenderse sin ayuda externa.
 
-La información del monto total está disponible, pero el comerciante necesita comprender cómo se distribuye el dinero durante el proceso antes de confirmar el financiamiento. Esta incertidumbre puede afectar su decisión de financiar una parcela.
+El uso de términos propios del proceso agrícola sin una explicación breve puede dificultar la comprensión de comerciantes que no conocen ese proceso y de personas mayores con menor familiaridad tecnológica. El hallazgo se observa desde el minuto 5:44 de la entrevista, cuando Sebastián identifica esta parte como la única que le generó confusión.
 
 La [Figura 224](#224) muestra el flujo de financiamiento antes de confirmar el pago.
 
@@ -10575,7 +10575,7 @@ La [Figura 224](#224) muestra el flujo de financiamiento antes de confirmar el p
 
 *Recomendación:*
 
-Mostrar un resumen antes de confirmar el financiamiento con el monto total, el importe retenido en Escrow, los hitos asociados y el importe que se liberará al aprobar cada uno. También se debe incluir una explicación breve sobre el tratamiento de los fondos ante un retraso o desacuerdo.
+Incorporar una explicación breve y visual de cada etapa agrícola, indicando qué actividad se realiza, cuándo se considera completada y cómo se relaciona con la liberación del pago. También se recomienda usar lenguaje sencillo, una línea de progreso numerada y ayudas contextuales que puedan consultarse sin abandonar el flujo de financiamiento.
 
 **PROBLEMA #5: Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha**
 
