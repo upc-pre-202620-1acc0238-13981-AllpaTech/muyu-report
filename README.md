@@ -10330,7 +10330,7 @@ La [Tabla 103](#tabla-103) presenta el registro de la entrevista de validación 
 <tr>
   <td><strong>Enlace</strong></td>
   <td colspan="3">
-    <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1">
+    <a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing">
       upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4
     </a>
   </td>
@@ -10398,7 +10398,7 @@ La [Tabla 107](#tabla-107) presenta el registro de la entrevista de validación 
 <tr><td><strong>Nombre completo</strong></td><td colspan="3">Ayrton Damian Inga</td></tr>
 <tr><td><strong>Edad</strong></td><td>25</td><td><strong>Distrito</strong></td><td>San Juan de Lurigancho</td></tr>
 <tr><td><strong>Ocupación</strong></td><td>Comerciante</td><td><strong>Fecha, inicio y duración</strong></td><td>11/11/2026 00:00 14:03</td></tr>
-<tr><td><strong>Enlace</strong></td><td colspan="3"></td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing" target="_blank">upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4</a></td></tr>
 <tr><td colspan="2" valign="top"><strong>Resumen</strong><br>En la entrevista, el comerciante explicó que suele reservar productos por teléfono o WhatsApp y que prefiere visitar la parcela antes de adelantar dinero a un agricultor que aún no conoce. Al probar MUYU, pudo encontrar una parcela de papa, solicitar una visita y completar el financiamiento de prueba hasta obtener el comprobante.
 Su principal duda fue cómo se libera el dinero en cada etapa y qué pasa con los fondos retenidos en Escrow si hay un atraso o un desacuerdo. También sugirió filtrar las parcelas por fecha de cosecha y mostrar cuántos kilos se pueden reservar. Para aprobar un pago, valoró contar con una foto clara, la fecha y la descripción del trabajo realizado.Calificó la facilidad de uso con 4 de 5 y la confianza con 3 de 5. Probaría MUYU con un pedido pequeño y señaló como mejora prioritaria mostrar, antes de confirmar el financiamiento, cuánto pagará, cuánto quedará retenido y cuándo se liberará cada parte.</td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
 </table>
@@ -10717,13 +10717,13 @@ La [Figura 224](#figura-224) muestra la portada del video de validación de la a
 <p id="figura-224"><strong>Figura 224.</strong> Video App Validation</p>
 
 <p align="center">
-  <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1">
+  <a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing">
     <img src="assets/images/chapter04/videos/video-app-validation.jpg" alt="Video App Validation de Muyu" width="700"/>
   </a>
 </p>
 
-URL del video en OneDrive: [upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4](https://1drv.ms/v/c/083af2ec73c53b69/IQD4dJorVgG_QoFW4HAtlOg2AfI2YVU3vN83T9AIRXyMrf0?e=kD30u1)<br>
-Duración: 17:10
+URL del video en Google Drive: [upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4](https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing)<br>
+Duración: 20:07
 
 ## Video About the team
 
