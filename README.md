@@ -126,6 +126,7 @@
 | AV2 | 9-11-2026 | Berrospi Marin, Angel Guillermo | Realice las heurísticas sobre los videos y el enfoque de la entrevista realizada. |
 | AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Consolidación de la evaluación según heurísticas en siete problemas, registro de la entrevista de validación de Natalia Román Cruz, actualización de la sección Video App Validation y corrección de la numeración de figuras. |
 | AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Incorporación de la sección Video About the product y de los videos About the product y About the team en la Landing Page. |
+| AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Eliminación de los registros de validación vacíos y captura de cada entrevistado del segmento Comerciante. |
 </div>
 
 ## Project Report Collaboration Insights
@@ -10294,7 +10295,7 @@ La [Tabla 102](#tabla-102) presenta las tareas que se indican al comerciante y e
 
 ### 4.3.2. Registro de Entrevistas
 
-Se realizan entre 3 y 5 entrevistas por segmento. Cada registro incluye los datos del entrevistado, una captura del video, el enlace del video en OneDrive con el inicio y la duración de la entrevista, y un resumen de sus principales apreciaciones sobre las tareas asignadas.
+Se realizaron cuatro entrevistas de validación: una del segmento Agricultor y tres del segmento Comerciante. Cada registro incluye los datos del entrevistado, una captura del video, el enlace del video en Google Drive con el inicio y la duración de la entrevista, y un resumen de sus principales apreciaciones sobre las tareas asignadas.
 
 La [Tabla 103](#tabla-103) presenta el registro de la entrevista de validación con la agricultora Lili Vera Vela, quien también participó en las entrevistas de Needfinding. La parte del registro de la cuenta se omitió del video para proteger sus datos personales, y su teléfono y correo aparecen difuminados.
 
@@ -10346,35 +10347,9 @@ La [Tabla 103](#tabla-103) presenta el registro de la entrevista de validación 
 
 </table>
 
-La [Tabla 104](#tabla-104) presenta el registro de la entrevista de validación 2 del segmento Agricultor.
+La [Tabla 104](#tabla-104) presenta el registro de la entrevista de validación 1 del segmento Comerciante.
 
-<p id="tabla-104"><strong>Tabla 104.</strong> Segmento: Agricultor — Entrevista de validación 2</p>
-
-<table>
-<tr><th colspan="4">Entrevista de validación #2</th></tr>
-<tr><td><strong>Nombre completo</strong></td><td colspan="3"></td></tr>
-<tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
-<tr><td><strong>Ocupación</strong></td><td></td><td><strong>Fecha, inicio y duración</strong></td><td></td></tr>
-<tr><td><strong>Enlace</strong></td><td colspan="3"></td></tr>
-<tr><td colspan="2" valign="top"><strong>Resumen</strong><br></td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
-</table>
-
-La [Tabla 105](#tabla-105) presenta el registro de la entrevista de validación 3 del segmento Agricultor.
-
-<p id="tabla-105"><strong>Tabla 105.</strong> Segmento: Agricultor — Entrevista de validación 3</p>
-
-<table>
-<tr><th colspan="4">Entrevista de validación #3</th></tr>
-<tr><td><strong>Nombre completo</strong></td><td colspan="3"></td></tr>
-<tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
-<tr><td><strong>Ocupación</strong></td><td></td><td><strong>Fecha, inicio y duración</strong></td><td></td></tr>
-<tr><td><strong>Enlace</strong></td><td colspan="3"></td></tr>
-<tr><td colspan="2" valign="top"><strong>Resumen</strong><br></td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
-</table>
-
-La [Tabla 106](#tabla-106) presenta el registro de la entrevista de validación 1 del segmento Comerciante.
-
-<p id="tabla-106"><strong>Tabla 106.</strong> Segmento: Comerciante – Entrevista de validación 1</p>
+<p id="tabla-104"><strong>Tabla 104.</strong> Segmento: Comerciante – Entrevista de validación 1</p>
 
 <table>
 <tr><th colspan="4">Entrevista de validación #1</th></tr>
@@ -10382,12 +10357,12 @@ La [Tabla 106](#tabla-106) presenta el registro de la entrevista de validación 
 <tr><td><strong>Edad</strong></td><td>20 años</td><td><strong>Distrito</strong></td><td>San Juan de Lurigancho</td></tr>
 <tr><td><strong>Ocupación</strong></td><td>Trabaja en el rubro de gastronomía</td><td><strong>Fecha, inicio y duración</strong></td><td>2026-11-11, 6 minutos con 32 segundos</td></tr>
 <tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/12kscPQP7XOiz939YWbS7KeuzVwrgqzUX/view?usp=sharing" target="_blank">Ver video de la entrevista en Google Drive</a></td></tr>
-<tr><td colspan="2" valign="top"><strong>Resumen</strong><br>Sebastián evaluó la Landing Page y la aplicación móvil desde el rol de comerciante. Consideró que la propuesta es colorida, didáctica, sencilla y fácil de usar; también destacó el tamaño legible de los textos, la variedad de métodos de pago y la utilidad del financiamiento de parcelas. Calificó la facilidad de uso con 7 u 8 sobre 10 e identificó el registro y la consulta de parcelas como las tareas más sencillas. La principal dificultad apareció al interpretar el progreso y los desembolsos asociados a las etapas de siembra, riego, fertilización y cosecha, por lo que recomendó explicar este flujo de una manera más comprensible, especialmente para personas mayores con menor familiaridad tecnológica. Indicó que utilizaría Muyu para abastecer un futuro restaurante de cocina de autor.</td><td colspan="2" valign="top"><strong>Foto</strong><br>[Inserta aquí la captura o imagen de Sebastián durante la videollamada]</td></tr>
+<tr><td colspan="2" valign="top"><strong>Resumen</strong><br>Sebastián evaluó la Landing Page y la aplicación móvil desde el rol de comerciante. Consideró que la propuesta es colorida, didáctica, sencilla y fácil de usar; también destacó el tamaño legible de los textos, la variedad de métodos de pago y la utilidad del financiamiento de parcelas. Calificó la facilidad de uso con 7 u 8 sobre 10 e identificó el registro y la consulta de parcelas como las tareas más sencillas. La principal dificultad apareció al interpretar el progreso y los desembolsos asociados a las etapas de siembra, riego, fertilización y cosecha, por lo que recomendó explicar este flujo de una manera más comprensible, especialmente para personas mayores con menor familiaridad tecnológica. Indicó que utilizaría Muyu para abastecer un futuro restaurante de cocina de autor.</td><td colspan="2" valign="top"><strong>Foto</strong><br><img alt="Entrevista de validación con Sebastián Vergara" src="assets/images/chapter04/videos/validacion-comerciante-01.jpg" width="220"></td></tr>
 </table>
 
-La [Tabla 107](#tabla-107) presenta el registro de la entrevista de validación 2 del segmento Comerciante.
+La [Tabla 105](#tabla-105) presenta el registro de la entrevista de validación 2 del segmento Comerciante.
 
-<p id="tabla-107"><strong>Tabla 107.</strong> Segmento: Comerciante — Entrevista de validación 2</p>
+<p id="tabla-105"><strong>Tabla 105.</strong> Segmento: Comerciante — Entrevista de validación 2</p>
 
 <table>
 <tr><th colspan="4">Entrevista de validación #2</th></tr>
@@ -10396,12 +10371,12 @@ La [Tabla 107](#tabla-107) presenta el registro de la entrevista de validación 
 <tr><td><strong>Ocupación</strong></td><td>Comerciante</td><td><strong>Fecha, inicio y duración</strong></td><td>11/11/2026 · 15:05 - 20:07</td></tr>
 <tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing" target="_blank">upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4</a></td></tr>
 <tr><td colspan="2" valign="top"><strong>Resumen</strong><br>En la entrevista, el comerciante explicó que suele reservar productos por teléfono o WhatsApp y que prefiere visitar la parcela antes de adelantar dinero a un agricultor que aún no conoce. Al probar MUYU, pudo encontrar una parcela de papa, solicitar una visita y completar el financiamiento de prueba hasta obtener el comprobante.
-Su principal duda fue cómo se libera el dinero en cada etapa y qué pasa con los fondos retenidos en Escrow si hay un atraso o un desacuerdo. También sugirió filtrar las parcelas por fecha de cosecha y mostrar cuántos kilos se pueden reservar. Para aprobar un pago, valoró contar con una foto clara, la fecha y la descripción del trabajo realizado.Calificó la facilidad de uso con 4 de 5 y la confianza con 3 de 5. Probaría MUYU con un pedido pequeño y señaló como mejora prioritaria mostrar, antes de confirmar el financiamiento, cuánto pagará, cuánto quedará retenido y cuándo se liberará cada parte.</td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
+Su principal duda fue cómo se libera el dinero en cada etapa y qué pasa con los fondos retenidos en Escrow si hay un atraso o un desacuerdo. También sugirió filtrar las parcelas por fecha de cosecha y mostrar cuántos kilos se pueden reservar. Para aprobar un pago, valoró contar con una foto clara, la fecha y la descripción del trabajo realizado.Calificó la facilidad de uso con 4 de 5 y la confianza con 3 de 5. Probaría MUYU con un pedido pequeño y señaló como mejora prioritaria mostrar, antes de confirmar el financiamiento, cuánto pagará, cuánto quedará retenido y cuándo se liberará cada parte.</td><td colspan="2" valign="top"><strong>Foto</strong><br><img alt="Entrevista de validación con Ayrton Damian Inga" src="assets/images/chapter04/videos/validacion-comerciante-02.jpg" width="220"></td></tr>
 </table>
 
-La [Tabla 108](#tabla-108) presenta el registro de la entrevista de validación 3 del segmento Comerciante.
+La [Tabla 106](#tabla-106) presenta el registro de la entrevista de validación 3 del segmento Comerciante.
 
-<p id="tabla-108"><strong>Tabla 108.</strong> Segmento: Comerciante — Entrevista de validación 3</p>
+<p id="tabla-106"><strong>Tabla 106.</strong> Segmento: Comerciante — Entrevista de validación 3</p>
 
 <table>
 <tr><th colspan="4">Entrevista de validación #3</th></tr>
@@ -10409,7 +10384,7 @@ La [Tabla 108](#tabla-108) presenta el registro de la entrevista de validación 
 <tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
 <tr><td><strong>Ocupación</strong></td><td>Comerciante</td><td><strong>Fecha, inicio y duración</strong></td><td>09/11/2026 · 10:05 - 15:05</td></tr>
 <tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing" target="_blank">upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4</a></td></tr>
-<tr><td colspan="2" valign="top"><strong>Resumen</strong><br>Natalia revisó la Landing Page y el recorrido de la aplicación desde el rol de comerciante. Consideró el registro sencillo y comentó que, al terminarlo, esperaba ver la pantalla de inicio con señales de las funciones disponibles. Encontró con facilidad las parcelas y propuso un filtro por fecha de cosecha. Para decidir le ayudaron el cultivo, el precio, la ubicación y el progreso, aunque le faltó información sobre el agricultor y sus técnicas. Entendió el monto total del financiamiento, pero no cuánto se libera en cada hito; aun así, la retención del dinero en Escrow le dio seguridad. Para aprobar una evidencia valoró sobre todo la fecha y la fotografía, y pidió destacar en las notificaciones las evidencias pendientes de revisión. Calificó la facilidad de uso con 4.5 de 5 y la confianza para trabajar con agricultores con 4 de 5, y sugirió conocer mejor el perfil y la experiencia de cada agricultor.</td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
+<tr><td colspan="2" valign="top"><strong>Resumen</strong><br>Natalia revisó la Landing Page y el recorrido de la aplicación desde el rol de comerciante. Consideró el registro sencillo y comentó que, al terminarlo, esperaba ver la pantalla de inicio con señales de las funciones disponibles. Encontró con facilidad las parcelas y propuso un filtro por fecha de cosecha. Para decidir le ayudaron el cultivo, el precio, la ubicación y el progreso, aunque le faltó información sobre el agricultor y sus técnicas. Entendió el monto total del financiamiento, pero no cuánto se libera en cada hito; aun así, la retención del dinero en Escrow le dio seguridad. Para aprobar una evidencia valoró sobre todo la fecha y la fotografía, y pidió destacar en las notificaciones las evidencias pendientes de revisión. Calificó la facilidad de uso con 4.5 de 5 y la confianza para trabajar con agricultores con 4 de 5, y sugirió conocer mejor el perfil y la experiencia de cada agricultor.</td><td colspan="2" valign="top"><strong>Foto</strong><br><img alt="Entrevista de validación con Natalia Román Cruz" src="assets/images/chapter04/videos/validacion-comerciante-03.jpg" width="220"></td></tr>
 </table>
 
 ### 4.3.3. Evaluaciones según heurísticas
@@ -10476,7 +10451,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 *Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.*
 
-<p id="tabla-109"><strong>Tabla 109.</strong> Escala de severidad</p>
+<p id="tabla-107"><strong>Tabla 107.</strong> Escala de severidad</p>
 
 | Nivel | Descripción |
 |---|---|
@@ -10487,7 +10462,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 **TABLA RESUMEN:**
 
-<p id="tabla-110"><strong>Tabla 110.</strong> Tabla resumen de la evaluación según heurísticas</p>
+<p id="tabla-108"><strong>Tabla 108.</strong> Tabla resumen de la evaluación según heurísticas</p>
 
 | # | Problema | Escala de severidad | Heurística/Principio violada(o) |
 |---|---|---|---|
@@ -10737,9 +10712,9 @@ Duración: 01:18
 
 El video también está incrustado en la sección Product de la [Landing Page](https://allpatech.netlify.app/#product).
 
-La [Tabla 111](#tabla-111) presenta la pauta de secuencias de contenido del video con el inicio de cada sección.
+La [Tabla 109](#tabla-109) presenta la pauta de secuencias de contenido del video con el inicio de cada sección.
 
-<p id="tabla-111"><strong>Tabla 111.</strong> Pauta de secuencias del video About the product</p>
+<p id="tabla-109"><strong>Tabla 109.</strong> Pauta de secuencias del video About the product</p>
 
 | Inicio (hh:mm:ss) | Sección |
 |---|---|
@@ -10775,9 +10750,9 @@ Duración: 10:05
 
 El video también está incrustado en la sección Team de la [Landing Page](https://allpatech.netlify.app/#team).
 
-La [Tabla 112](#tabla-112) presenta la pauta de secuencias de contenido del video con el inicio de cada sección.
+La [Tabla 110](#tabla-110) presenta la pauta de secuencias de contenido del video con el inicio de cada sección.
 
-<p id="tabla-112"><strong>Tabla 112.</strong> Pauta de secuencias del video About the team</p>
+<p id="tabla-110"><strong>Tabla 110.</strong> Pauta de secuencias del video About the team</p>
 
 | Inicio (hh:mm:ss) | Sección |
 |---|---|
