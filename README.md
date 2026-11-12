@@ -124,6 +124,7 @@
 | AV2 | 29-10-2026 | Berrospi Marin, Angel Guillermo | Implementación de las pantallas para ingresar y confirmar un nuevo PIN desde el perfil del agricultor, con confirmación visual y retorno al perfil. |
 | AV2 | 6-11-2026 | Berrospi Marin, Angel Guillermo | Realice mi video de validación sobre la app y la landing. |
 | AV2 | 9-11-2026 | Berrospi Marin, Angel Guillermo | Realice las heurísticas sobre los videos y el enfoque de la entrevista realizada. |
+| AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Consolidación de la evaluación según heurísticas en siete problemas, registro de la entrevista de validación de Natalia Román Cruz, actualización de la sección Video App Validation y corrección de la numeración de figuras. |
 </div>
 
 ## Project Report Collaboration Insights
@@ -413,16 +414,6 @@ Cada plan plantea dos metas posteriores a la graduación: una para mantener la a
       * [4.2.2.7. Services Documentation Evidence for Sprint Review](#4227-services-documentation-evidence-for-sprint-review)
       * [4.2.2.8. Software Deployment Evidence for Sprint Review](#4228-software-deployment-evidence-for-sprint-review)
       * [4.2.2.9. Team Collaboration Insights during Sprint](#4229-team-collaboration-insights-during-sprint)
-    * [4.2.3. Sprint 3](#423-sprint-3)
-      * [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
-      * [4.2.3.2. Aspect Leaders and Collaborators](#4232-aspect-leaders-and-collaborators)
-      * [4.2.3.3. Sprint Backlog 3](#4233-sprint-backlog-3)
-      * [4.2.3.4. Development Evidence for Sprint Review](#4234-development-evidence-for-sprint-review)
-      * [4.2.3.5. Testing Suite Evidence for Sprint Review](#4235-testing-suite-evidence-for-sprint-review)
-      * [4.2.3.6. Execution Evidence for Sprint Review](#4236-execution-evidence-for-sprint-review)
-      * [4.2.3.7. Services Documentation Evidence for Sprint Review](#4237-services-documentation-evidence-for-sprint-review)
-      * [4.2.3.8. Software Deployment Evidence for Sprint Review](#4238-software-deployment-evidence-for-sprint-review)
-      * [4.2.3.9. Team Collaboration Insights during Sprint](#4239-team-collaboration-insights-during-sprint)
   * [4.3. Validation Interviews](#43-validation-interviews)
     * [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     * [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -665,8 +656,11 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 221](#figura-221) — Botón Publicar en Mis parcelas
 - [Figura 222](#figura-222) — Formulario de ubicación de la parcela
 - [Figura 223](#figura-223) — Pantalla Cuenta bancaria con billeteras digitales
-- [Figura 224](#figura-224) — Video App Validation
-- [Figura 225](#figura-225) — Video About the team
+- [Figura 224](#figura-224) — Pantalla de financiamiento
+- [Figura 225](#figura-225) — Catálogo de parcelas y opciones de filtro
+- [Figura 226](#figura-226) — Notificaciones del comerciante
+- [Figura 227](#figura-227) — Video App Validation
+- [Figura 228](#figura-228) — Video About the team
 - [Tabla 97.1](#tabla-971) — Testing Commits Evidence
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
@@ -10184,7 +10178,7 @@ La [Tabla 100](#tabla-100) resume las contribuciones documentadas de la iteraci�
 | Team Member | Main Sprint 2 Contributions |
 |---|---|
 | Orellana Rodriguez, Mel Andree | Restyle del catálogo, My Plots, perfil y notificaciones del comerciante según Figma; implementación del flujo de revisión, aprobación y rechazo de evidencias de hito; detalle de parcela financiada con CTA de fondeo; historial de pagos vinculado a la parcela seleccionada; corrección del flujo de publicación para no completar ubicación ni monto por defecto; e integración de estos cambios en `develop` de `muyu-app`, además de la actualización del Sprint Backlog 2 y de la evidencia de desarrollo en el informe. |
-| Berrospi Marin, Angel Guillermo | Desarrollo y colaboración técnica asignada al Sprint 2. |
+| Berrospi Marin, Angel Guillermo | Mejoras del flujo de parcelas y de los encabezados del agricultor; flujos visuales de cambio de contraseña y PIN; formulario de calificación del comprador en `muyu-app`; registro de la entrevista de validación de Ayrton Damian Inga y evaluación según heurísticas del segmento Comerciante. |
 | Arroyo Gonzales, Emily Juliette | Implementación en Flutter del Home y onboarding del agricultor alineados con Figma; modelado de hitos, financiamiento y actividad climática; historial y detalle de pagos para agricultor y comerciante; alertas climáticas con registro de medidas tomadas; pestaña de alertas del comerciante; recuperación de contraseña desde el login; y pruebas automatizadas para el mapeo de actividades y las claves de alertas. |
 | Riveros Vera, Jennifer Yamilet | Rediseño del Home, estado vacío, filtros, aislamiento de datos por usuario, persistencia de sesión y publicación de parcelas. |
 | Quintanilla Pozo, Gonzalo Samuel | Implementación del catálogo del comerciante, detalle y ubicación de parcelas, solicitudes y confirmación de visitas, financiamiento multietapa, estados alternativos de pago, comprobante PDF, navegación al historial de transacciones y ajustes del inicio de sesión en Android nativo. Migración a Flutter del detalle y gestión de parcelas y del flujo de financiamiento, organizada en las ramas `feature/farmer-plot-detail` y `feature/plot-financing`, con análisis estático y pruebas automatizadas. |
@@ -10324,7 +10318,7 @@ La [Tabla 103](#tabla-103) presenta el registro de la entrevista de validación 
   <td><strong>Ocupación</strong></td>
   <td>Agricultora de café</td>
   <td><strong>Fecha, inicio y duración</strong></td>
-  <td>06/11/2026 · 00:00 - 17:10</td>
+  <td>06/11/2026 · 00:05 - 05:05</td>
 </tr>
 
 <tr>
@@ -10397,7 +10391,7 @@ La [Tabla 107](#tabla-107) presenta el registro de la entrevista de validación 
 <tr><th colspan="4">Entrevista de validación #2</th></tr>
 <tr><td><strong>Nombre completo</strong></td><td colspan="3">Ayrton Damian Inga</td></tr>
 <tr><td><strong>Edad</strong></td><td>25</td><td><strong>Distrito</strong></td><td>San Juan de Lurigancho</td></tr>
-<tr><td><strong>Ocupación</strong></td><td>Comerciante</td><td><strong>Fecha, inicio y duración</strong></td><td>11/11/2026 00:00 14:03</td></tr>
+<tr><td><strong>Ocupación</strong></td><td>Comerciante</td><td><strong>Fecha, inicio y duración</strong></td><td>11/11/2026 · 15:05 - 20:07</td></tr>
 <tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing" target="_blank">upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4</a></td></tr>
 <tr><td colspan="2" valign="top"><strong>Resumen</strong><br>En la entrevista, el comerciante explicó que suele reservar productos por teléfono o WhatsApp y que prefiere visitar la parcela antes de adelantar dinero a un agricultor que aún no conoce. Al probar MUYU, pudo encontrar una parcela de papa, solicitar una visita y completar el financiamiento de prueba hasta obtener el comprobante.
 Su principal duda fue cómo se libera el dinero en cada etapa y qué pasa con los fondos retenidos en Escrow si hay un atraso o un desacuerdo. También sugirió filtrar las parcelas por fecha de cosecha y mostrar cuántos kilos se pueden reservar. Para aprobar un pago, valoró contar con una foto clara, la fecha y la descripción del trabajo realizado.Calificó la facilidad de uso con 4 de 5 y la confianza con 3 de 5. Probaría MUYU con un pedido pequeño y señaló como mejora prioritaria mostrar, antes de confirmar el financiamiento, cuánto pagará, cuánto quedará retenido y cuándo se liberará cada parte.</td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
@@ -10409,11 +10403,11 @@ La [Tabla 108](#tabla-108) presenta el registro de la entrevista de validación 
 
 <table>
 <tr><th colspan="4">Entrevista de validación #3</th></tr>
-<tr><td><strong>Nombre completo</strong></td><td colspan="3"></td></tr>
+<tr><td><strong>Nombre completo</strong></td><td colspan="3">Natalia Román Cruz</td></tr>
 <tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
-<tr><td><strong>Ocupación</strong></td><td></td><td><strong>Fecha, inicio y duración</strong></td><td></td></tr>
-<tr><td><strong>Enlace</strong></td><td colspan="3"></td></tr>
-<tr><td colspan="2" valign="top"><strong>Resumen</strong><br></td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
+<tr><td><strong>Ocupación</strong></td><td>Comerciante</td><td><strong>Fecha, inicio y duración</strong></td><td>09/11/2026 · 10:05 - 15:05</td></tr>
+<tr><td><strong>Enlace</strong></td><td colspan="3"><a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing" target="_blank">upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4</a></td></tr>
+<tr><td colspan="2" valign="top"><strong>Resumen</strong><br>Natalia revisó la Landing Page y el recorrido de la aplicación desde el rol de comerciante. Consideró el registro sencillo y comentó que, al terminarlo, esperaba ver la pantalla de inicio con señales de las funciones disponibles. Encontró con facilidad las parcelas y propuso un filtro por fecha de cosecha. Para decidir le ayudaron el cultivo, el precio, la ubicación y el progreso, aunque le faltó información sobre el agricultor y sus técnicas. Entendió el monto total del financiamiento, pero no cuánto se libera en cada hito; aun así, la retención del dinero en Escrow le dio seguridad. Para aprobar una evidencia valoró sobre todo la fecha y la fotografía, y pidió destacar en las notificaciones las evidencias pendientes de revisión. Calificó la facilidad de uso con 4.5 de 5 y la confianza para trabajar con agricultores con 4 de 5, y sugirió conocer mejor el perfil y la experiencia de cada agricultor.</td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
 </table>
 
 ### 4.3.3. Evaluaciones según heurísticas
@@ -10498,13 +10492,10 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 1 | El botón Publicar no se distingue lo suficiente en Mis parcelas | 2 | Information Architecture: Is it findable? |
 | 2 | La ubicación no permite especificar la provincia y el distrito reales del agricultor | 3 | Usability: Coincidencia entre el sistema y el mundo real |
 | 3 | Yape y Plin aparecen junto a la cuenta bancaria aunque su límite no cubre los desembolsos | 2 | Usability: Coincidencia entre el sistema y el mundo real |
-| 4 | El progreso y los desembolsos por etapa no se explican con suficiente claridad | 2 | Usabilidad: Coincidencia entre el sistema y el mundo real |
+| 4 | El financiamiento no muestra con suficiente claridad el monto retenido y la liberación de pagos por etapa | 2 | Usabilidad: Visibilidad del estado del sistema |
 | 5 | Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha | 2 | Information Architecture: Is it findable? |
 | 6 | Las notificaciones no priorizan claramente las evidencias pendientes de revisión | 2 | Usabilidad: Reconocimiento antes que recuerdo |
-| 7 | El financiamiento no muestra con suficiente claridad el monto retenido y la liberación de pagos por etapa | 2 | Usabilidad: Visibilidad del estado del sistema |
-| 8 | Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha | 2 | Usabilidad: Information Architecture: Is it findable? |
-| 9 | Las notificaciones no priorizan claramente las evidencias pendientes de revisión | 2 | Usabilidad: Reconocimiento antes que recuerdo|
-| 10 | La relación entre las etapas agrícolas y la liberación de los desembolsos requiere una explicación más sencilla | 2 | Usabilidad: Coincidencia entre el sistema y el mundo real |
+| 7 | La relación entre las etapas agrícolas y la liberación de los desembolsos requiere una explicación más sencilla | 2 | Usabilidad: Coincidencia entre el sistema y el mundo real |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -10576,9 +10567,9 @@ Durante la prueba, el comerciante pudo completar el financiamiento y llegar al c
 
 La información del monto total está disponible, pero el comerciante necesita comprender cómo se distribuye el dinero durante el proceso antes de confirmar el financiamiento. Esta incertidumbre puede afectar su decisión de financiar una parcela.
 
-La [Figura 224](#224) muestra el flujo de financiamiento antes de confirmar el pago.
+La [Figura 224](#figura-224) muestra el flujo de financiamiento antes de confirmar el pago.
 
-<p id="figura-224"><strong>Figura 224.</strong> Pantalla de financiamiento </p>
+<p id="figura-224"><strong>Figura 224.</strong> Pantalla de financiamiento</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-05-fund-plot.png" alt="Pantalla de financiamiento de una parcela" width="300"/></p>
 
@@ -10588,7 +10579,7 @@ Mostrar un resumen antes de confirmar el financiamiento con el monto total, el i
 
 **PROBLEMA #5: Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha**
 
-Severidad: 2
+Severidad: 2<br>
 Heurística violada: Information Architecture - Is it findable?
 
 *Problema:*
@@ -10597,11 +10588,11 @@ El comerciante logró encontrar una parcela de papa mediante los filtros disponi
 
 La ausencia de un filtro por fecha o semana estimada de cosecha incrementa el tiempo necesario para localizar parcelas adecuadas para un pedido específico.
 
-La [Figura 225](#225) muestra  el catálogo de parcelas y las opciones de filtro disponibles.
+La [Figura 225](#figura-225) muestra el catálogo de parcelas y las opciones de filtro disponibles.
 
 <p id="figura-225"><strong>Figura 225.</strong> Catálogo de parcelas y opciones de filtro</p>
 
-<p align="center"><img src="assets/images/chapter04/validation/heuristica-06-filter-plot.png" alt="Pantalla de financiamiento de una parcela" width="300"/></p>
+<p align="center"><img src="assets/images/chapter04/validation/heuristica-06-filter-plot.png" alt="Catálogo de parcelas y opciones de filtro" width="300"/></p>
 
 *Recomendación:*
 
@@ -10609,7 +10600,7 @@ Agregar filtros por rango de fecha, semana o mes estimado de cosecha. También s
 
 **PROBLEMA #6: Las notificaciones no priorizan claramente las evidencias pendientes de revisión**
 
-Severidad: 2
+Severidad: 2<br>
 Heurística violada: Usabilidad - Reconocimiento antes que recuerdo
 
 *Problema:*
@@ -10618,7 +10609,7 @@ Al revisar las notificaciones, el comerciante pudo identificar avisos relacionad
 
 Las notificaciones comparten una presentación similar y no distinguen visualmente aquellas que requieren una acción inmediata. El comerciante debe revisar cada aviso para identificar qué tarea tiene pendiente.
 
-La [Figura 226](#226) muestra  la pantalla de notificaciones del comerciante.
+La [Figura 226](#figura-226) muestra la pantalla de notificaciones del comerciante.
 
 <p id="figura-226"><strong>Figura 226.</strong> Notificaciones del comerciante</p>
 
@@ -10628,7 +10619,7 @@ La [Figura 226](#226) muestra  la pantalla de notificaciones del comerciante.
 
 Destacar las evidencias pendientes mediante una etiqueta como “Acción requerida”, un color diferenciado y un botón directo para abrir la evidencia. Las notificaciones informativas de clima o actividad pueden mantenerse en una sección secundaria.
 
-**PROBLEMA #10: La relación entre las etapas agrícolas y la liberación de los desembolsos requiere una explicación más sencilla**
+**PROBLEMA #7: La relación entre las etapas agrícolas y la liberación de los desembolsos requiere una explicación más sencilla**
 
 Severidad: 2<br>
 Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
@@ -10710,11 +10701,11 @@ Incorporar una línea de progreso numerada con una explicación breve de cada et
 
 ## Video App Validation
 
-Este video documenta la evaluación de la aplicación móvil Muyu mediante una prueba con una usuaria del segmento Agricultor, descrita en la sección [4.3. Validation Interviews](#43-validation-interviews). La usuaria guía el uso de la aplicación desde la elección del rol hasta la publicación de una parcela, el registro de una evidencia, la sincronización y la consulta de pagos. Los problemas observados se evalúan con el Formato para Evaluación de User Experience según Heurísticas en la sección [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas).
+Este video reúne las cuatro entrevistas de validación descritas en la sección [4.3. Validation Interviews](#43-validation-interviews), de alrededor de cinco minutos cada una: Lili Vera Vela, del segmento Agricultor (00:05), y Sebastián Vergara (05:05), Natalia Román Cruz (10:05) y Ayrton Damian Inga (15:05), del segmento Comerciante. En cada tramo se observa el uso de la Landing Page y de la aplicación móvil Muyu, y las observaciones de los entrevistados sustentan la evaluación según heurísticas de la sección 4.3.3.
 
-La [Figura 224](#figura-224) muestra la portada del video de validación de la aplicación.
+La [Figura 227](#figura-227) muestra la portada del video de validación de la aplicación.
 
-<p id="figura-224"><strong>Figura 224.</strong> Video App Validation</p>
+<p id="figura-227"><strong>Figura 227.</strong> Video App Validation</p>
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing">
@@ -10729,9 +10720,9 @@ Duración: 20:07
 
 Este video resume el proceso de trabajo del equipo AllpaTech durante el desarrollo de Muyu. Muestra la organización con Scrum y Trello, las reuniones virtuales, las entrevistas con agricultores y comerciantes, el diseño centrado en el usuario, el desarrollo con GitHub, un fragmento de la entrevista de validación y la retrospectiva del equipo, con narración en voz en off. Al final, cada integrante presenta ante cámara las actividades que realizó, cómo contribuyó al logro del student outcome y las competencias que desarrolló.
 
-La [Figura 225](#figura-225) muestra un cuadro representativo del video About the team.
+La [Figura 228](#figura-228) muestra un cuadro representativo del video About the team.
 
-<p id="figura-225"><strong>Figura 225.</strong> Video About the team</p>
+<p id="figura-228"><strong>Figura 228.</strong> Video About the team</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO">
