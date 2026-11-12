@@ -128,6 +128,7 @@
 | AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Incorporación de la sección Video About the product y de los videos About the product y About the team en la Landing Page. |
 | AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Eliminación de los registros de validación vacíos y captura de cada entrevistado del segmento Comerciante. |
 | AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Integración de `develop` en `main` del repositorio `muyu-app` e incorporación de las capturas de GitHub Insights del informe y de la aplicación móvil. |
+| AV2 | 13-11-2026 | Riveros Vera, Jennifer Yamilet | Incorporación de la captura y el enlace del tablero de Trello del Sprint Backlog 2 (4.2.2.3) y renumeración de las figuras siguientes. |
 </div>
 
 ## Project Report Collaboration Insights
@@ -651,21 +652,22 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 212](#figura-212) — Historial de commits de la aplicación móvil
 - [Figura 213](#figura-213) — Tablero de seguimiento del Sprint 1
 - [Figura 214](#figura-214) — Reunión del equipo para la revisión de parcelas
-- [Figura 215](#figura-215) — Home del agricultor con parcelas
-- [Figura 216](#figura-216) — Estado vacío del Home con una cuenta nueva
-- [Figura 217](#figura-217) — Filtro aplicado en el Home del agricultor
-- [Figura 218](#figura-218) — Estado vacío de Payments
-- [Figura 219](#figura-219) — GitHub Insights de la aplicación móvil
-- [Figura 220](#figura-220) — GitHub Contributors de la aplicación móvil
-- [Figura 221](#figura-221) — Botón Publicar en Mis parcelas
-- [Figura 222](#figura-222) — Formulario de ubicación de la parcela
-- [Figura 223](#figura-223) — Pantalla Cuenta bancaria con billeteras digitales
-- [Figura 224](#figura-224) — Pantalla de financiamiento
-- [Figura 225](#figura-225) — Catálogo de parcelas y opciones de filtro
-- [Figura 226](#figura-226) — Notificaciones del comerciante
-- [Figura 227](#figura-227) — Video App Validation
-- [Figura 228](#figura-228) — Video About the product
-- [Figura 229](#figura-229) — Video About the team
+- [Figura 215](#figura-215) — Sprint Backlog 2 en Trello
+- [Figura 216](#figura-216) — Home del agricultor con parcelas
+- [Figura 217](#figura-217) — Estado vacío del Home con una cuenta nueva
+- [Figura 218](#figura-218) — Filtro aplicado en el Home del agricultor
+- [Figura 219](#figura-219) — Estado vacío de Payments
+- [Figura 220](#figura-220) — GitHub Insights de la aplicación móvil
+- [Figura 221](#figura-221) — GitHub Contributors de la aplicación móvil
+- [Figura 222](#figura-222) — Botón Publicar en Mis parcelas
+- [Figura 223](#figura-223) — Formulario de ubicación de la parcela
+- [Figura 224](#figura-224) — Pantalla Cuenta bancaria con billeteras digitales
+- [Figura 225](#figura-225) — Pantalla de financiamiento
+- [Figura 226](#figura-226) — Catálogo de parcelas y opciones de filtro
+- [Figura 227](#figura-227) — Notificaciones del comerciante
+- [Figura 228](#figura-228) — Video App Validation
+- [Figura 229](#figura-229) — Video About the product
+- [Figura 230](#figura-230) — Video About the team
 - [Tabla 97.1](#tabla-971) — Testing Commits Evidence
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
@@ -9935,6 +9937,20 @@ Para el Sprint 2 se distribuyeron responsabilidades de liderazgo y colaboración
 
 El Sprint Backlog 2 organiza las historias planificadas para la publicación, consulta y financiamiento de parcelas, además de los work items que adelantaron la revisión de evidencias, el historial de pagos y la identidad visual del comerciante. Las tareas de Jennifer Yamilet Riveros Vera comenzaron con el identificador WI-13, las de Gonzalo Samuel Quintanilla Pozo continuaron desde WI-18 y las de Mel Andree Orellana Rodriguez se registraron desde WI-23, manteniendo la secuencia del Sprint Backlog 1. Los estados utilizados pueden ser `To-do`, `In-Process`, `To-Review` o `Done`, según el avance verificable de cada work item.
 
+A continuación, se presenta la captura del tablero de Trello utilizado para organizar y controlar el estado de las actividades del Sprint 2. La lista `Task` reúne los work items WI-13 a WI-28, mientras que las listas `In Progress` y `Done` muestran el avance de las historias de usuario de la iteración.
+
+La [Figura 215](#figura-215) muestra el Sprint Backlog 2 en Trello.
+
+<p id="figura-215"><strong>Figura 215.</strong> Sprint Backlog 2 en Trello</p>
+
+<p align="center">
+  <img src="assets/images/chapter04/sprint-2/sprint-backlog-2.png"
+       alt="Sprint Backlog 2 en Trello"
+       width="900"/>
+</p>
+
+URL del tablero completo en Trello: [Allpatech - Sprint 02](https://trello.com/b/EgMghtuj/allpatech-sprint-02)
+
 La [Tabla 95](#tabla-95) registra los work items asociados al trabajo de esta iteración.
 
 <p id="tabla-95"><strong>Tabla 95.</strong> Sprint Backlog 2</p>
@@ -10104,27 +10120,27 @@ La [Tabla 97.1](#tabla-971) registra los commits de testing. Mientras el respons
 
 Las capturas siguientes documentan la ejecución de las funcionalidades desarrolladas para el panel del agricultor y el aislamiento de datos por cuenta.
 
-La [Figura 215](#figura-215) muestra el Home del agricultor con parcelas.
+La [Figura 216](#figura-216) muestra el Home del agricultor con parcelas.
 
-<p id="figura-215"><strong>Figura 215.</strong> Home del agricultor con parcelas</p>
+<p id="figura-216"><strong>Figura 216.</strong> Home del agricultor con parcelas</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/home-con-parcelas.jpeg" alt="Home del agricultor con parcelas" width="300"/></p>
 
-La [Figura 216](#figura-216) muestra el estado vacío de una cuenta nueva.
+La [Figura 217](#figura-217) muestra el estado vacío de una cuenta nueva.
 
-<p id="figura-216"><strong>Figura 216.</strong> Estado vacío del Home con una cuenta nueva</p>
+<p id="figura-217"><strong>Figura 217.</strong> Estado vacío del Home con una cuenta nueva</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/home-estado-vacio.jpeg" alt="Estado vacío del Home" width="300"/></p>
 
-La [Figura 217](#figura-217) muestra un filtro aplicado en el Home.
+La [Figura 218](#figura-218) muestra un filtro aplicado en el Home.
 
-<p id="figura-217"><strong>Figura 217.</strong> Filtro aplicado en el Home del agricultor</p>
+<p id="figura-218"><strong>Figura 218.</strong> Filtro aplicado en el Home del agricultor</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/home-filtro-pending.jpeg" alt="Filtro Pending aplicado en el Home" width="300"/></p>
 
-La [Figura 218](#figura-218) muestra el estado vacío de Payments para una cuenta sin financiamiento.
+La [Figura 219](#figura-219) muestra el estado vacío de Payments para una cuenta sin financiamiento.
 
-<p id="figura-218"><strong>Figura 218.</strong> Estado vacío de Payments</p>
+<p id="figura-219"><strong>Figura 219.</strong> Estado vacío de Payments</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/payment-estado-vacio.jpeg" alt="Payment vacío en una cuenta sin financiamiento" width="300"/></p>
 
@@ -10190,15 +10206,15 @@ La [Tabla 100](#tabla-100) resume las contribuciones documentadas de la iteraci�
 
 Las siguientes capturas provienen de los analíticos de GitHub del repositorio `muyu-app`, tomadas después de integrar la rama `develop` en `main` para que los Insights reflejen el trabajo de todos los integrantes durante el Sprint.
 
-La [Figura 219](#figura-219) muestra la cantidad de commits por semana del repositorio de implementación móvil.
+La [Figura 220](#figura-220) muestra la cantidad de commits por semana del repositorio de implementación móvil.
 
-<p id="figura-219"><strong>Figura 219.</strong> GitHub Insights de la aplicación móvil</p>
+<p id="figura-220"><strong>Figura 220.</strong> GitHub Insights de la aplicación móvil</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-insights.png" alt="GitHub Insights de muyu-app" width="850"/></p>
 
-La [Figura 220](#figura-220) muestra los Contributors del repositorio de implementación móvil.
+La [Figura 221](#figura-221) muestra los Contributors del repositorio de implementación móvil.
 
-<p id="figura-220"><strong>Figura 220.</strong> GitHub Contributors de la aplicación móvil</p>
+<p id="figura-221"><strong>Figura 221.</strong> GitHub Contributors de la aplicación móvil</p>
 
 <p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-contributors.png" alt="GitHub Contributors de muyu-app" width="850"/></p>
 
@@ -10487,9 +10503,9 @@ Heurística violada: Information Architecture - Is it findable?
 
 Cuando se le pidió publicar una parcela, la usuaria buscó primero la opción en su perfil. El botón Publicar se encuentra en la cabecera de Mis parcelas, pero su tamaño y contraste no lo destacan frente al resto de la pantalla.
 
-La [Figura 221](#figura-221) muestra la pantalla Mis parcelas con el botón Publicar.
+La [Figura 222](#figura-222) muestra la pantalla Mis parcelas con el botón Publicar.
 
-<p id="figura-221"><strong>Figura 221.</strong> Botón Publicar en Mis parcelas</p>
+<p id="figura-222"><strong>Figura 222.</strong> Botón Publicar en Mis parcelas</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-01-publicar.jpg" alt="Pantalla Mis parcelas con el botón Publicar" width="300"/></p>
 
@@ -10506,9 +10522,9 @@ Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
 
 La parcela de la usuaria se encuentra en el distrito de Camporredondo, provincia de Luya. Como la prueba se hizo en un emulador, el formulario tomó la ubicación del dispositivo (provincia y distrito de Chachapoyas) y el distrito real tuvo que escribirse en la dirección de referencia. La usuaria señaló que faltaría poder especificar más provincias.
 
-La [Figura 222](#figura-222) muestra el formulario de ubicación de la parcela.
+La [Figura 223](#figura-223) muestra el formulario de ubicación de la parcela.
 
-<p id="figura-222"><strong>Figura 222.</strong> Formulario de ubicación de la parcela</p>
+<p id="figura-223"><strong>Figura 223.</strong> Formulario de ubicación de la parcela</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-02-ubicacion.jpg" alt="Formulario de ubicación de la parcela" width="300"/></p>
 
@@ -10525,9 +10541,9 @@ Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
 
 La usuaria indicó que Yape y Plin no le parecen adecuados para recibir los desembolsos porque tienen un límite por transferencia y que prefiere una cuenta bancaria. En la pantalla Cuenta bancaria, las billeteras digitales tienen el mismo peso visual que la cuenta.
 
-La [Figura 223](#figura-223) muestra la pantalla Cuenta bancaria.
+La [Figura 224](#figura-224) muestra la pantalla Cuenta bancaria.
 
-<p id="figura-223"><strong>Figura 223.</strong> Pantalla Cuenta bancaria con billeteras digitales</p>
+<p id="figura-224"><strong>Figura 224.</strong> Pantalla Cuenta bancaria con billeteras digitales</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-04-cuenta-bancaria.jpg" alt="Pantalla Cuenta bancaria con Yape y Plin" width="300"/></p>
 
@@ -10546,9 +10562,9 @@ Durante la prueba, el comerciante pudo completar el financiamiento y llegar al c
 
 La información del monto total está disponible, pero el comerciante necesita comprender cómo se distribuye el dinero durante el proceso antes de confirmar el financiamiento. Esta incertidumbre puede afectar su decisión de financiar una parcela.
 
-La [Figura 224](#figura-224) muestra el flujo de financiamiento antes de confirmar el pago.
+La [Figura 225](#figura-225) muestra el flujo de financiamiento antes de confirmar el pago.
 
-<p id="figura-224"><strong>Figura 224.</strong> Pantalla de financiamiento</p>
+<p id="figura-225"><strong>Figura 225.</strong> Pantalla de financiamiento</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-05-fund-plot.png" alt="Pantalla de financiamiento de una parcela" width="300"/></p>
 
@@ -10567,9 +10583,9 @@ El comerciante logró encontrar una parcela de papa mediante los filtros disponi
 
 La ausencia de un filtro por fecha o semana estimada de cosecha incrementa el tiempo necesario para localizar parcelas adecuadas para un pedido específico.
 
-La [Figura 225](#figura-225) muestra el catálogo de parcelas y las opciones de filtro disponibles.
+La [Figura 226](#figura-226) muestra el catálogo de parcelas y las opciones de filtro disponibles.
 
-<p id="figura-225"><strong>Figura 225.</strong> Catálogo de parcelas y opciones de filtro</p>
+<p id="figura-226"><strong>Figura 226.</strong> Catálogo de parcelas y opciones de filtro</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-06-filter-plot.png" alt="Catálogo de parcelas y opciones de filtro" width="300"/></p>
 
@@ -10588,9 +10604,9 @@ Al revisar las notificaciones, el comerciante pudo identificar avisos relacionad
 
 Las notificaciones comparten una presentación similar y no distinguen visualmente aquellas que requieren una acción inmediata. El comerciante debe revisar cada aviso para identificar qué tarea tiene pendiente.
 
-La [Figura 226](#figura-226) muestra la pantalla de notificaciones del comerciante.
+La [Figura 227](#figura-227) muestra la pantalla de notificaciones del comerciante.
 
-<p id="figura-226"><strong>Figura 226.</strong> Notificaciones del comerciante</p>
+<p id="figura-227"><strong>Figura 227.</strong> Notificaciones del comerciante</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-07-notification.png" alt="Pantalla de Notificaciones del comerciante" width="300"/></p>
 
@@ -10682,9 +10698,9 @@ Incorporar una línea de progreso numerada con una explicación breve de cada et
 
 Este video reúne las cuatro entrevistas de validación descritas en la sección [4.3. Validation Interviews](#43-validation-interviews): Lili Vera Vela, del segmento Agricultor (00:05 - 05:05), y Sebastián Vergara (05:05 - 10:05), Natalia Román Cruz (10:05 - 15:05) y Ayrton Damian Inga (15:05 - 30:00), del segmento Comerciante. Las tres primeras duran alrededor de cinco minutos y la entrevista de Ayrton Damian Inga, realizada por Angel Guillermo Berrospi Marin, ocupa el tramo final del video. En cada tramo se observa el uso de la Landing Page y de la aplicación móvil Muyu, y las observaciones de los entrevistados sustentan la evaluación según heurísticas de la sección 4.3.3.
 
-La [Figura 227](#figura-227) muestra la portada del video de validación de la aplicación.
+La [Figura 228](#figura-228) muestra la portada del video de validación de la aplicación.
 
-<p id="figura-227"><strong>Figura 227.</strong> Video App Validation</p>
+<p id="figura-228"><strong>Figura 228.</strong> Video App Validation</p>
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1fxpAkvC4cLX49EprnoG7_iBm6x2xu7df/view?usp=sharing">
@@ -10699,9 +10715,9 @@ Duración: 20:07
 
 Este video promocional presenta Muyu en poco más de un minuto. Resume el modelo de negocio, que conecta a agricultores y comerciantes mediante acuerdos de producción por hitos, explica que los fondos permanecen en Escrow hasta que se verifica el avance con evidencias con GPS y hora, y muestra escenas de la aplicación móvil y de la Landing Page. Termina con la invitación a descargar la aplicación desde la Landing Page.
 
-La [Figura 228](#figura-228) muestra la portada del video About the product.
+La [Figura 229](#figura-229) muestra la portada del video About the product.
 
-<p id="figura-228"><strong>Figura 228.</strong> Video About the product</p>
+<p id="figura-229"><strong>Figura 229.</strong> Video About the product</p>
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1ccmfcCLATUGSs0QEagjixJ9FvvpDmQIp/view?usp=sharing">
@@ -10736,9 +10752,9 @@ La [Tabla 109](#tabla-109) presenta la pauta de secuencias de contenido del vide
 
 Este video resume el proceso de trabajo del equipo AllpaTech durante el desarrollo de Muyu. Muestra la organización con Scrum y Trello, las reuniones virtuales, las entrevistas con agricultores y comerciantes, el diseño centrado en el usuario, el desarrollo con GitHub, un fragmento de la entrevista de validación y la retrospectiva del equipo, con narración en voz en off. Al final, cada integrante presenta ante cámara las actividades que realizó, cómo contribuyó al logro del student outcome y las competencias que desarrolló.
 
-La [Figura 229](#figura-229) muestra un cuadro representativo del video About the team.
+La [Figura 230](#figura-230) muestra un cuadro representativo del video About the team.
 
-<p id="figura-229"><strong>Figura 229.</strong> Video About the team</p>
+<p id="figura-230"><strong>Figura 230.</strong> Video About the team</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO">
