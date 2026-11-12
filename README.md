@@ -10391,11 +10391,12 @@ La [Tabla 107](#tabla-107) presenta el registro de la entrevista de validación 
 
 <table>
 <tr><th colspan="4">Entrevista de validación #2</th></tr>
-<tr><td><strong>Nombre completo</strong></td><td colspan="3"></td></tr>
-<tr><td><strong>Edad</strong></td><td></td><td><strong>Distrito</strong></td><td></td></tr>
-<tr><td><strong>Ocupación</strong></td><td></td><td><strong>Fecha, inicio y duración</strong></td><td></td></tr>
+<tr><td><strong>Nombre completo</strong></td><td colspan="3">Ayrton Damian Inga</td></tr>
+<tr><td><strong>Edad</strong></td><td>25</td><td><strong>Distrito</strong></td><td>San Juan de Lurigancho</td></tr>
+<tr><td><strong>Ocupación</strong></td><td>Comerciante</td><td><strong>Fecha, inicio y duración</strong></td><td>11/11/2026 00:00 14:03</td></tr>
 <tr><td><strong>Enlace</strong></td><td colspan="3"></td></tr>
-<tr><td colspan="2" valign="top"><strong>Resumen</strong><br></td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
+<tr><td colspan="2" valign="top"><strong>Resumen</strong><br>En la entrevista, el comerciante explicó que suele reservar productos por teléfono o WhatsApp y que prefiere visitar la parcela antes de adelantar dinero a un agricultor que aún no conoce. Al probar MUYU, pudo encontrar una parcela de papa, solicitar una visita y completar el financiamiento de prueba hasta obtener el comprobante.
+Su principal duda fue cómo se libera el dinero en cada etapa y qué pasa con los fondos retenidos en Escrow si hay un atraso o un desacuerdo. También sugirió filtrar las parcelas por fecha de cosecha y mostrar cuántos kilos se pueden reservar. Para aprobar un pago, valoró contar con una foto clara, la fecha y la descripción del trabajo realizado.Calificó la facilidad de uso con 4 de 5 y la confianza con 3 de 5. Probaría MUYU con un pedido pequeño y señaló como mejora prioritaria mostrar, antes de confirmar el financiamiento, cuánto pagará, cuánto quedará retenido y cuándo se liberará cada parte.</td><td colspan="2" valign="top"><strong>Foto</strong><br></td></tr>
 </table>
 
 La [Tabla 108](#tabla-108) presenta el registro de la entrevista de validación 3 del segmento Comerciante.
@@ -10434,7 +10435,7 @@ La evaluación de las sesiones de validación sigue el formato UX Heuristics & P
 | **NRC** | 13981 |
 | **PROFESORES** | Todos |
 | **AUDITOR** | AllpaTech |
-| **CLIENTE(S)** | Estefania Casa Paiva (segmento Comerciante) |
+| **CLIENTE(S)** | Ayrton Damian Inga (segmento Comerciante) |
 
 | | |
 |---|---|
@@ -10496,6 +10497,9 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 4 | El progreso y los desembolsos por etapa no se explican con suficiente claridad | 2 | Usabilidad: Coincidencia entre el sistema y el mundo real |
 | 5 | Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha | 2 | Information Architecture: Is it findable? |
 | 6 | Las notificaciones no priorizan claramente las evidencias pendientes de revisión | 2 | Usabilidad: Reconocimiento antes que recuerdo |
+| 7 | El financiamiento no muestra con suficiente claridad el monto retenido y la liberación de pagos por etapa | 2 | Usabilidad: Visibilidad del estado del sistema |
+| 8 | Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha | 2 | Usabilidad: Information Architecture: Is it findable? |
+| 9 | Las notificaciones no priorizan claramente las evidencias pendientes de revisión | 2 | Usabilidad: Reconocimiento antes que recuerdo|
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
@@ -10556,26 +10560,26 @@ La [Figura 223](#figura-223) muestra la pantalla Cuenta bancaria.
 
 Presentar la cuenta bancaria como método principal de cobro y mostrar Yape y Plin como opción secundaria para montos pequeños, manteniendo el aviso del límite de S/ 500 por transferencia.
 
-**PROBLEMA #4: El progreso y los desembolsos por etapa no se explican con suficiente claridad**
+**PROBLEMA #4: El financiamiento no muestra con suficiente claridad el monto retenido y la liberación de pagos por etapa**
 
 Severidad: 2<br>
-Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
+Heurística violada: Usabilidad - Visibilidad del estado del sistema
 
 *Problema:*
 
-Durante la prueba, Sebastián comprendió el registro, la consulta de parcelas y la selección del método de pago. Sin embargo, señaló que inicialmente se confundió al interpretar el progreso de siembra, riego, fertilización y cosecha, así como la relación de estas etapas con los desembolsos. La explicación verbal del entrevistador le permitió continuar, pero el flujo debería poder comprenderse sin ayuda externa.
+Durante la prueba, el comerciante pudo completar el financiamiento y llegar al comprobante. Sin embargo, indicó que tuvo dudas sobre cuánto dinero quedaba retenido en Escrow, cuánto se liberaría en cada hito y qué ocurriría con los fondos si la cosecha se retrasaba o existía un desacuerdo.
 
-El uso de términos propios del proceso agrícola sin una explicación breve puede dificultar la comprensión de comerciantes que no conocen ese proceso y de personas mayores con menor familiaridad tecnológica. El hallazgo se observa desde el minuto 5:44 de la entrevista, cuando Sebastián identifica esta parte como la única que le generó confusión.
+La información del monto total está disponible, pero el comerciante necesita comprender cómo se distribuye el dinero durante el proceso antes de confirmar el financiamiento. Esta incertidumbre puede afectar su decisión de financiar una parcela.
 
 La [Figura 224](#224) muestra el flujo de financiamiento antes de confirmar el pago.
 
-<p id="figura-224"><strong>Figura 224.</strong> Pantalla de financiamiento de una parcela</p>
+<p id="figura-224"><strong>Figura 224.</strong> Pantalla de financiamiento </p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-05-fund-plot.png" alt="Pantalla de financiamiento de una parcela" width="300"/></p>
 
 *Recomendación:*
 
-Incorporar una explicación breve y visual de cada etapa agrícola, indicando qué actividad se realiza, cuándo se considera completada y cómo se relaciona con la liberación del pago. También se recomienda usar lenguaje sencillo, una línea de progreso numerada y ayudas contextuales que puedan consultarse sin abandonar el flujo de financiamiento.
+Mostrar un resumen antes de confirmar el financiamiento con el monto total, el importe retenido en Escrow, los hitos asociados y el importe que se liberará al aprobar cada uno. También se debe incluir una explicación breve sobre el tratamiento de los fondos ante un retraso o desacuerdo.
 
 **PROBLEMA #5: Los filtros del catálogo no permiten buscar parcelas según la semana o fecha estimada de cosecha**
 
@@ -10584,7 +10588,7 @@ Heurística violada: Information Architecture - Is it findable?
 
 *Problema:*
 
-Sebastián logró encontrar una parcela de papa mediante los filtros disponibles. Sin embargo, señaló que para planificar sus compras necesita conocer qué parcelas estarán listas en una semana determinada. La fecha de cosecha aparece dentro del detalle de cada parcela, por lo que debe abrir varias opciones para comparar su disponibilidad.
+El comerciante logró encontrar una parcela de papa mediante los filtros disponibles. Sin embargo, señaló que para planificar sus compras necesita conocer qué parcelas estarán listas en una semana determinada. La fecha de cosecha aparece dentro del detalle de cada parcela, por lo que debe abrir varias opciones para comparar su disponibilidad.
 
 La ausencia de un filtro por fecha o semana estimada de cosecha incrementa el tiempo necesario para localizar parcelas adecuadas para un pedido específico.
 
@@ -10605,7 +10609,7 @@ Heurística violada: Usabilidad - Reconocimiento antes que recuerdo
 
 *Problema:*
 
-Al revisar las notificaciones, Sebastián pudo identificar avisos relacionados con cultivos, pagos y clima. No obstante, indicó que el aviso más importante para su actividad es saber cuándo existe una evidencia pendiente de revisar, ya que esta revisión determina si debe aprobar o rechazar la liberación de un pago.
+Al revisar las notificaciones, el comerciante pudo identificar avisos relacionados con cultivos, pagos y clima. No obstante, indicó que el aviso más importante para su actividad es saber cuándo existe una evidencia pendiente de revisar, ya que esta revisión determina si debe aprobar o rechazar la liberación de un pago.
 
 Las notificaciones comparten una presentación similar y no distinguen visualmente aquellas que requieren una acción inmediata. El comerciante debe revisar cada aviso para identificar qué tarea tiene pendiente.
 
