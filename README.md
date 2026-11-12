@@ -125,6 +125,7 @@
 | AV2 | 6-11-2026 | Berrospi Marin, Angel Guillermo | Realice mi video de validación sobre la app y la landing. |
 | AV2 | 9-11-2026 | Berrospi Marin, Angel Guillermo | Realice las heurísticas sobre los videos y el enfoque de la entrevista realizada. |
 | AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Consolidación de la evaluación según heurísticas en siete problemas, registro de la entrevista de validación de Natalia Román Cruz, actualización de la sección Video App Validation y corrección de la numeración de figuras. |
+| AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Incorporación de la sección Video About the product y de los videos About the product y About the team en la Landing Page. |
 </div>
 
 ## Project Report Collaboration Insights
@@ -660,7 +661,8 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 225](#figura-225) — Catálogo de parcelas y opciones de filtro
 - [Figura 226](#figura-226) — Notificaciones del comerciante
 - [Figura 227](#figura-227) — Video App Validation
-- [Figura 228](#figura-228) — Video About the team
+- [Figura 228](#figura-228) — Video About the product
+- [Figura 229](#figura-229) — Video About the team
 - [Tabla 97.1](#tabla-971) — Testing Commits Evidence
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
@@ -10716,13 +10718,50 @@ La [Figura 227](#figura-227) muestra la portada del video de validación de la a
 URL del video en Google Drive: [upc-pre-202620-1acc0238-13981-allpatech-validation-av2.mp4](https://drive.google.com/file/d/1sdpkVQAg5krE-h_goU8rSi_bdHXY-KBb/view?usp=sharing)<br>
 Duración: 20:07
 
+## Video About the product
+
+Este video promocional presenta Muyu en poco más de un minuto. Resume el modelo de negocio, que conecta a agricultores y comerciantes mediante acuerdos de producción por hitos, explica que los fondos permanecen en Escrow hasta que se verifica el avance con evidencias con GPS y hora, y muestra escenas de la aplicación móvil y de la Landing Page. Termina con la invitación a descargar la aplicación desde la Landing Page.
+
+La [Figura 228](#figura-228) muestra la portada del video About the product.
+
+<p id="figura-228"><strong>Figura 228.</strong> Video About the product</p>
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1ccmfcCLATUGSs0QEagjixJ9FvvpDmQIp/view?usp=sharing">
+    <img src="assets/images/chapter04/videos/video-about-the-product.jpg" alt="Video About the product de Muyu" width="700"/>
+  </a>
+</p>
+
+URL del video en Google Drive: [upc-pre-202620-1acc0238-13981-allpatech-about-the-product-av2.mp4](https://drive.google.com/file/d/1ccmfcCLATUGSs0QEagjixJ9FvvpDmQIp/view?usp=sharing)<br>
+Duración: 01:18
+
+El video también está incrustado en la sección Product de la [Landing Page](https://allpatech.netlify.app/#product).
+
+La [Tabla 111](#tabla-111) presenta la pauta de secuencias de contenido del video con el inicio de cada sección.
+
+<p id="tabla-111"><strong>Tabla 111.</strong> Pauta de secuencias del video About the product</p>
+
+| Inicio (hh:mm:ss) | Sección |
+|---|---|
+| 00:00:00 | Portada |
+| 00:00:06 | La plataforma: agricultores y comerciantes conectados |
+| 00:00:12 | Fondos protegidos en Escrow |
+| 00:00:18 | Evidencias con GPS y hora |
+| 00:00:24 | La aplicación móvil en el campo |
+| 00:00:42 | Cómo funciona: acordar, verificar y liberar |
+| 00:00:48 | Funciones principales: Escrow, evidencias GPS, modo sin conexión, hitos, alertas climáticas y progreso |
+| 00:00:54 | Llamado a llevar Muyu al campo |
+| 00:01:00 | Descarga de la aplicación |
+| 00:01:08 | Contacto con el equipo de AllpaTech |
+| 00:01:14 | Cierre |
+
 ## Video About the team
 
 Este video resume el proceso de trabajo del equipo AllpaTech durante el desarrollo de Muyu. Muestra la organización con Scrum y Trello, las reuniones virtuales, las entrevistas con agricultores y comerciantes, el diseño centrado en el usuario, el desarrollo con GitHub, un fragmento de la entrevista de validación y la retrospectiva del equipo, con narración en voz en off. Al final, cada integrante presenta ante cámara las actividades que realizó, cómo contribuyó al logro del student outcome y las competencias que desarrolló.
 
-La [Figura 228](#figura-228) muestra un cuadro representativo del video About the team.
+La [Figura 229](#figura-229) muestra un cuadro representativo del video About the team.
 
-<p id="figura-228"><strong>Figura 228.</strong> Video About the team</p>
+<p id="figura-229"><strong>Figura 229.</strong> Video About the team</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO">
@@ -10734,9 +10773,11 @@ URL del video en OneDrive: [upc-pre-202620-1acc0238-13981-allpatech-about-the-te
 URL del video en YouTube: [About the team - AllpaTech](https://youtu.be/2ZrIt9hB1wM)<br>
 Duración: 10:05
 
-La [Tabla 111](#tabla-111) presenta la pauta de secuencias de contenido del video con el inicio de cada sección.
+El video también está incrustado en la sección Team de la [Landing Page](https://allpatech.netlify.app/#team).
 
-<p id="tabla-111"><strong>Tabla 111.</strong> Pauta de secuencias del video About the team</p>
+La [Tabla 112](#tabla-112) presenta la pauta de secuencias de contenido del video con el inicio de cada sección.
+
+<p id="tabla-112"><strong>Tabla 112.</strong> Pauta de secuencias del video About the team</p>
 
 | Inicio (hh:mm:ss) | Sección |
 |---|---|
