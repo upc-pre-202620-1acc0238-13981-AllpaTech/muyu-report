@@ -10108,25 +10108,25 @@ La [Figura 215](#figura-215) muestra el Home del agricultor con parcelas.
 
 <p id="figura-215"><strong>Figura 215.</strong> Home del agricultor con parcelas</p>
 
-<p align="center"><img src="assets/images/chapter04/sprint-2/home-con-parcelas.png" alt="Home del agricultor con parcelas" width="300"/></p>
+<p align="center"><img src="assets/images/chapter04/sprint-2/home-con-parcelas.jpeg" alt="Home del agricultor con parcelas" width="300"/></p>
 
 La [Figura 216](#figura-216) muestra el estado vacío de una cuenta nueva.
 
 <p id="figura-216"><strong>Figura 216.</strong> Estado vacío del Home con una cuenta nueva</p>
 
-<p align="center"><img src="assets/images/chapter04/sprint-2/home-estado-vacio.png" alt="Estado vacío del Home" width="300"/></p>
+<p align="center"><img src="assets/images/chapter04/sprint-2/home-estado-vacio.jpeg" alt="Estado vacío del Home" width="300"/></p>
 
 La [Figura 217](#figura-217) muestra un filtro aplicado en el Home.
 
 <p id="figura-217"><strong>Figura 217.</strong> Filtro aplicado en el Home del agricultor</p>
 
-<p align="center"><img src="assets/images/chapter04/sprint-2/home-filtro-pending.png" alt="Filtro Pending aplicado en el Home" width="300"/></p>
+<p align="center"><img src="assets/images/chapter04/sprint-2/home-filtro-pending.jpeg" alt="Filtro Pending aplicado en el Home" width="300"/></p>
 
 La [Figura 218](#figura-218) muestra el estado vacío de Payments para una cuenta sin financiamiento.
 
 <p id="figura-218"><strong>Figura 218.</strong> Estado vacío de Payments</p>
 
-<p align="center"><img src="assets/images/chapter04/sprint-2/payment-estado-vacio.png" alt="Payment vacío en una cuenta sin financiamiento" width="300"/></p>
+<p align="center"><img src="assets/images/chapter04/sprint-2/payment-estado-vacio.jpeg" alt="Payment vacío en una cuenta sin financiamiento" width="300"/></p>
 
 Como apoyo manual se verificó el recorrido desde una cuenta nueva, la publicación de una parcela, los filtros por estado, la persistencia de sesión y el cambio entre cuentas. El resultado de estas pruebas debe actualizarse únicamente con evidencia obtenida en ejecución real.
 
