@@ -121,6 +121,8 @@
 | AV2 | 29-10-2026 | Berrospi Marin, Angel Guillermo | Ajuste de los encabezados de las pantallas del agricultor al color verde oscuro del diseño y unificación de componentes visuales. |
 | AV2 | 29-10-2026 | Berrospi Marin, Angel Guillermo | Implementación del flujo visual para cambiar y recuperar la contraseña, con ingreso de datos, confirmación y navegación. |
 | AV2 | 29-10-2026 | Berrospi Marin, Angel Guillermo | Implementación de las pantallas para ingresar y confirmar un nuevo PIN desde el perfil del agricultor, con confirmación visual y retorno al perfil. |
+| AV2 | 6-11-2026 | Berrospi Marin, Angel Guillermo | Realice mi video de validación sobre la app y la landing. |
+| AV2 | 9-11-2026 | Berrospi Marin, Angel Guillermo | Realice las heurísticas sobre los videos y el enfoque de la entrevista realizada. |
 </div>
 
 ## Project Report Collaboration Insights
