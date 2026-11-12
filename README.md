@@ -129,6 +129,7 @@
 | AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Eliminación de los registros de validación vacíos y captura de cada entrevistado del segmento Comerciante. |
 | AV2 | 12-11-2026 | Riveros Vera, Jennifer Yamilet | Integración de `develop` en `main` del repositorio `muyu-app` e incorporación de las capturas de GitHub Insights del informe y de la aplicación móvil. |
 | AV2 | 13-11-2026 | Riveros Vera, Jennifer Yamilet | Incorporación de la captura y el enlace del tablero de Trello del Sprint Backlog 2 (4.2.2.3) y renumeración de las figuras siguientes. |
+| AV2 | 13-11-2026 | Riveros Vera, Jennifer Yamilet | Incorporación de las capturas de GitHub Insights y Contributors del repositorio `Muyu-app-flutter` en Team Collaboration Insights (4.2.2.9). |
 </div>
 
 ## Project Report Collaboration Insights
@@ -659,15 +660,17 @@ La numeración de figuras y tablas inicia en el Capítulo I y abarca el contenid
 - [Figura 219](#figura-219) — Estado vacío de Payments
 - [Figura 220](#figura-220) — GitHub Insights de la aplicación móvil
 - [Figura 221](#figura-221) — GitHub Contributors de la aplicación móvil
-- [Figura 222](#figura-222) — Botón Publicar en Mis parcelas
-- [Figura 223](#figura-223) — Formulario de ubicación de la parcela
-- [Figura 224](#figura-224) — Pantalla Cuenta bancaria con billeteras digitales
-- [Figura 225](#figura-225) — Pantalla de financiamiento
-- [Figura 226](#figura-226) — Catálogo de parcelas y opciones de filtro
-- [Figura 227](#figura-227) — Notificaciones del comerciante
-- [Figura 228](#figura-228) — Video App Validation
-- [Figura 229](#figura-229) — Video About the product
-- [Figura 230](#figura-230) — Video About the team
+- [Figura 222](#figura-222) — GitHub Insights de la aplicación Flutter
+- [Figura 223](#figura-223) — GitHub Contributors de la aplicación Flutter
+- [Figura 224](#figura-224) — Botón Publicar en Mis parcelas
+- [Figura 225](#figura-225) — Formulario de ubicación de la parcela
+- [Figura 226](#figura-226) — Pantalla Cuenta bancaria con billeteras digitales
+- [Figura 227](#figura-227) — Pantalla de financiamiento
+- [Figura 228](#figura-228) — Catálogo de parcelas y opciones de filtro
+- [Figura 229](#figura-229) — Notificaciones del comerciante
+- [Figura 230](#figura-230) — Video App Validation
+- [Figura 231](#figura-231) — Video About the product
+- [Figura 232](#figura-232) — Video About the team
 - [Tabla 97.1](#tabla-971) — Testing Commits Evidence
 ### Tablas
 - [Tabla 1](#tabla-1) — Perfiles de los integrantes del equipo
@@ -10204,7 +10207,7 @@ La [Tabla 100](#tabla-100) resume las contribuciones documentadas de la iteraci�
 | Riveros Vera, Jennifer Yamilet | Rediseño del Home, estado vacío, filtros, aislamiento de datos por usuario, persistencia de sesión y publicación de parcelas. |
 | Quintanilla Pozo, Gonzalo Samuel | Implementación del catálogo del comerciante, detalle y ubicación de parcelas, solicitudes y confirmación de visitas, financiamiento multietapa, estados alternativos de pago, comprobante PDF, navegación al historial de transacciones y ajustes del inicio de sesión en Android nativo. Migración a Flutter del detalle y gestión de parcelas y del flujo de financiamiento, organizada en las ramas `feature/farmer-plot-detail` y `feature/plot-financing`, con análisis estático y pruebas automatizadas. |
 
-Las siguientes capturas provienen de los analíticos de GitHub del repositorio `muyu-app`, tomadas después de integrar la rama `develop` en `main` para que los Insights reflejen el trabajo de todos los integrantes durante el Sprint.
+Las siguientes capturas provienen de los analíticos de GitHub de los dos repositorios de la aplicación móvil: `muyu-app`, la versión nativa en Kotlin, tomada después de integrar la rama `develop` en `main` para que los Insights reflejen el trabajo de todos los integrantes, y `Muyu-app-flutter`, la versión multiplataforma, cuya rama principal es `develop`.
 
 La [Figura 220](#figura-220) muestra la cantidad de commits por semana del repositorio de implementación móvil.
 
@@ -10219,6 +10222,20 @@ La [Figura 221](#figura-221) muestra los Contributors del repositorio de impleme
 <p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-contributors.png" alt="GitHub Contributors de muyu-app" width="850"/></p>
 
 Las analíticas muestran que los cinco integrantes realizaron cambios efectivos en la aplicación móvil y que la mayor actividad se concentró en las semanas del Sprint 2. Al integrar `develop` en `main`, el gráfico de Contributors incluye también los commits que antes solo existían en `develop`, como los de Mel Andree Orellana Rodriguez, por lo que coincide con lo registrado en la [Tabla 96](#tabla-96).
+
+La [Figura 222](#figura-222) muestra la cantidad de commits por semana del repositorio de la aplicación Flutter.
+
+<p id="figura-222"><strong>Figura 222.</strong> GitHub Insights de la aplicación Flutter</p>
+
+<p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-flutter-insights.png" alt="GitHub Insights de Muyu-app-flutter" width="850"/></p>
+
+La [Figura 223](#figura-223) muestra los Contributors del repositorio de la aplicación Flutter.
+
+<p id="figura-223"><strong>Figura 223.</strong> GitHub Contributors de la aplicación Flutter</p>
+
+<p align="center"><img src="assets/images/chapter04/sprint-2/muyu-app-flutter-contributors.png" alt="GitHub Contributors de Muyu-app-flutter" width="850"/></p>
+
+En `Muyu-app-flutter` la actividad se concentró en noviembre, cuando se migraron a Flutter los flujos ya validados en Kotlin. Contribuyeron Jennifer Yamilet Riveros Vera con 39 commits, Emily Juliette Arroyo Gonzales con 18, Mel Andree Orellana Rodriguez con 15 y Gonzalo Samuel Quintanilla Pozo con 3; Angel Guillermo Berrospi Marin no registra commits en este repositorio, ya que su aporte de implementación se realizó en `muyu-app`.
 
 ## 4.3. Validation Interviews
 
@@ -10503,9 +10520,9 @@ Heurística violada: Information Architecture - Is it findable?
 
 Cuando se le pidió publicar una parcela, la usuaria buscó primero la opción en su perfil. El botón Publicar se encuentra en la cabecera de Mis parcelas, pero su tamaño y contraste no lo destacan frente al resto de la pantalla.
 
-La [Figura 222](#figura-222) muestra la pantalla Mis parcelas con el botón Publicar.
+La [Figura 224](#figura-224) muestra la pantalla Mis parcelas con el botón Publicar.
 
-<p id="figura-222"><strong>Figura 222.</strong> Botón Publicar en Mis parcelas</p>
+<p id="figura-224"><strong>Figura 224.</strong> Botón Publicar en Mis parcelas</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-01-publicar.jpg" alt="Pantalla Mis parcelas con el botón Publicar" width="300"/></p>
 
@@ -10522,9 +10539,9 @@ Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
 
 La parcela de la usuaria se encuentra en el distrito de Camporredondo, provincia de Luya. Como la prueba se hizo en un emulador, el formulario tomó la ubicación del dispositivo (provincia y distrito de Chachapoyas) y el distrito real tuvo que escribirse en la dirección de referencia. La usuaria señaló que faltaría poder especificar más provincias.
 
-La [Figura 223](#figura-223) muestra el formulario de ubicación de la parcela.
+La [Figura 225](#figura-225) muestra el formulario de ubicación de la parcela.
 
-<p id="figura-223"><strong>Figura 223.</strong> Formulario de ubicación de la parcela</p>
+<p id="figura-225"><strong>Figura 225.</strong> Formulario de ubicación de la parcela</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-02-ubicacion.jpg" alt="Formulario de ubicación de la parcela" width="300"/></p>
 
@@ -10541,9 +10558,9 @@ Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
 
 La usuaria indicó que Yape y Plin no le parecen adecuados para recibir los desembolsos porque tienen un límite por transferencia y que prefiere una cuenta bancaria. En la pantalla Cuenta bancaria, las billeteras digitales tienen el mismo peso visual que la cuenta.
 
-La [Figura 224](#figura-224) muestra la pantalla Cuenta bancaria.
+La [Figura 226](#figura-226) muestra la pantalla Cuenta bancaria.
 
-<p id="figura-224"><strong>Figura 224.</strong> Pantalla Cuenta bancaria con billeteras digitales</p>
+<p id="figura-226"><strong>Figura 226.</strong> Pantalla Cuenta bancaria con billeteras digitales</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-04-cuenta-bancaria.jpg" alt="Pantalla Cuenta bancaria con Yape y Plin" width="300"/></p>
 
@@ -10562,9 +10579,9 @@ Durante la prueba, el comerciante pudo completar el financiamiento y llegar al c
 
 La información del monto total está disponible, pero el comerciante necesita comprender cómo se distribuye el dinero durante el proceso antes de confirmar el financiamiento. Esta incertidumbre puede afectar su decisión de financiar una parcela.
 
-La [Figura 225](#figura-225) muestra el flujo de financiamiento antes de confirmar el pago.
+La [Figura 227](#figura-227) muestra el flujo de financiamiento antes de confirmar el pago.
 
-<p id="figura-225"><strong>Figura 225.</strong> Pantalla de financiamiento</p>
+<p id="figura-227"><strong>Figura 227.</strong> Pantalla de financiamiento</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-05-fund-plot.png" alt="Pantalla de financiamiento de una parcela" width="300"/></p>
 
@@ -10583,9 +10600,9 @@ El comerciante logró encontrar una parcela de papa mediante los filtros disponi
 
 La ausencia de un filtro por fecha o semana estimada de cosecha incrementa el tiempo necesario para localizar parcelas adecuadas para un pedido específico.
 
-La [Figura 226](#figura-226) muestra el catálogo de parcelas y las opciones de filtro disponibles.
+La [Figura 228](#figura-228) muestra el catálogo de parcelas y las opciones de filtro disponibles.
 
-<p id="figura-226"><strong>Figura 226.</strong> Catálogo de parcelas y opciones de filtro</p>
+<p id="figura-228"><strong>Figura 228.</strong> Catálogo de parcelas y opciones de filtro</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-06-filter-plot.png" alt="Catálogo de parcelas y opciones de filtro" width="300"/></p>
 
@@ -10604,9 +10621,9 @@ Al revisar las notificaciones, el comerciante pudo identificar avisos relacionad
 
 Las notificaciones comparten una presentación similar y no distinguen visualmente aquellas que requieren una acción inmediata. El comerciante debe revisar cada aviso para identificar qué tarea tiene pendiente.
 
-La [Figura 227](#figura-227) muestra la pantalla de notificaciones del comerciante.
+La [Figura 229](#figura-229) muestra la pantalla de notificaciones del comerciante.
 
-<p id="figura-227"><strong>Figura 227.</strong> Notificaciones del comerciante</p>
+<p id="figura-229"><strong>Figura 229.</strong> Notificaciones del comerciante</p>
 
 <p align="center"><img src="assets/images/chapter04/validation/heuristica-07-notification.png" alt="Pantalla de Notificaciones del comerciante" width="300"/></p>
 
@@ -10698,9 +10715,9 @@ Incorporar una línea de progreso numerada con una explicación breve de cada et
 
 Este video reúne las cuatro entrevistas de validación descritas en la sección [4.3. Validation Interviews](#43-validation-interviews): Lili Vera Vela, del segmento Agricultor (00:05 - 05:05), y Sebastián Vergara (05:05 - 10:05), Natalia Román Cruz (10:05 - 15:05) y Ayrton Damian Inga (15:05 - 30:00), del segmento Comerciante. Las tres primeras duran alrededor de cinco minutos y la entrevista de Ayrton Damian Inga, realizada por Angel Guillermo Berrospi Marin, ocupa el tramo final del video. En cada tramo se observa el uso de la Landing Page y de la aplicación móvil Muyu, y las observaciones de los entrevistados sustentan la evaluación según heurísticas de la sección 4.3.3.
 
-La [Figura 228](#figura-228) muestra la portada del video de validación de la aplicación.
+La [Figura 230](#figura-230) muestra la portada del video de validación de la aplicación.
 
-<p id="figura-228"><strong>Figura 228.</strong> Video App Validation</p>
+<p id="figura-230"><strong>Figura 230.</strong> Video App Validation</p>
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1fxpAkvC4cLX49EprnoG7_iBm6x2xu7df/view?usp=sharing">
@@ -10715,9 +10732,9 @@ Duración: 20:07
 
 Este video promocional presenta Muyu en poco más de un minuto. Resume el modelo de negocio, que conecta a agricultores y comerciantes mediante acuerdos de producción por hitos, explica que los fondos permanecen en Escrow hasta que se verifica el avance con evidencias con GPS y hora, y muestra escenas de la aplicación móvil y de la Landing Page. Termina con la invitación a descargar la aplicación desde la Landing Page.
 
-La [Figura 229](#figura-229) muestra la portada del video About the product.
+La [Figura 231](#figura-231) muestra la portada del video About the product.
 
-<p id="figura-229"><strong>Figura 229.</strong> Video About the product</p>
+<p id="figura-231"><strong>Figura 231.</strong> Video About the product</p>
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1ccmfcCLATUGSs0QEagjixJ9FvvpDmQIp/view?usp=sharing">
@@ -10752,9 +10769,9 @@ La [Tabla 109](#tabla-109) presenta la pauta de secuencias de contenido del vide
 
 Este video resume el proceso de trabajo del equipo AllpaTech durante el desarrollo de Muyu. Muestra la organización con Scrum y Trello, las reuniones virtuales, las entrevistas con agricultores y comerciantes, el diseño centrado en el usuario, el desarrollo con GitHub, un fragmento de la entrevista de validación y la retrospectiva del equipo, con narración en voz en off. Al final, cada integrante presenta ante cámara las actividades que realizó, cómo contribuyó al logro del student outcome y las competencias que desarrolló.
 
-La [Figura 230](#figura-230) muestra un cuadro representativo del video About the team.
+La [Figura 232](#figura-232) muestra un cuadro representativo del video About the team.
 
-<p id="figura-230"><strong>Figura 230.</strong> Video About the team</p>
+<p id="figura-232"><strong>Figura 232.</strong> Video About the team</p>
 
 <p align="center">
   <a href="https://1drv.ms/v/c/083af2ec73c53b69/IQA9eCfQtyv-SYgs7xCf50DWAZtqoDBKBfOuV-n0ym0zRmI?e=eVXsxO">
