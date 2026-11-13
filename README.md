@@ -10507,9 +10507,18 @@ La evaluación de las sesiones de validación sigue el formato UX Heuristics & P
 | **AUDITOR** | AllpaTech |
 | **CLIENTE(S)** | Sebastián Vergara (segmento Comerciante) |
 
+| | |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | 1acc0238 Aplicaciones para dispositivos móviles |
+| **NRC** | 13981 |
+| **PROFESORES** | Todos |
+| **AUDITOR** | AllpaTech |
+| **CLIENTE(S)** | Sebastián Vergara (segmento Comerciante) |
+
 **SITE o APP A EVALUAR:**
 
-Muyu, aplicación móvil para agricultores y comerciantes (Android).
+Muyu, aplicación móvil para agricultores y comerciantes.
 
 **TAREAS A EVALUAR:**
 
