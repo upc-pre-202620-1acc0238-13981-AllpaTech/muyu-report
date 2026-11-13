@@ -131,6 +131,7 @@
 | AV2 | 13-11-2026 | Riveros Vera, Jennifer Yamilet | Incorporación de la captura y el enlace del tablero de Trello del Sprint Backlog 2 (4.2.2.3) y renumeración de las figuras siguientes. |
 | AV2 | 13-11-2026 | Riveros Vera, Jennifer Yamilet | Incorporación de las capturas de GitHub Insights y Contributors del repositorio `Muyu-app-flutter` en Team Collaboration Insights (4.2.2.9). |
 | AV2 | 13-11-2026 | Riveros Vera, Jennifer Yamilet | Evidencia de despliegue de Flutter, backend y Landing Page con la captura de los videos en la Landing (4.2.2.8), enlaces a los repositorios y GitHub Insights del backend y de la Landing Page (4.2.2.9). |
+| AV2 | 13-11-2026 | Riveros Vera, Jennifer Yamilet | Actualización del Testing Suite (4.2.2.5) con las pruebas de integración del backend y las pruebas de Flutter, y registro de los commits de testing reales en la Tabla 97.1. |
 </div>
 
 ## Project Report Collaboration Insights
@@ -10105,25 +10106,39 @@ Los avances implementados durante el Sprint 2 se registraron mediante commits en
 
 ### 4.2.2.5. Testing Suite Evidence for Sprint Review
 
-El Testing Suite del Sprint 2 comprende las pruebas automatizadas de los Web Services: Unit Tests, Integration Tests y Acceptance Tests con BDD mediante archivos `.feature` escritos en Gherkin y sus respectivos Steps. Estos artefactos corresponden al repositorio de backend y deben registrarse en commits con el prefijo `test:`. Las pruebas manuales de la aplicación móvil se documentan únicamente como evidencia complementaria en Execution Evidence.
+El Testing Suite del Sprint 2 comprende las pruebas automatizadas de los Web Services y de la aplicación Flutter. En el backend se implementaron Integration Tests con xUnit sobre la API móvil (`tests/Muyu.API.Tests/MobileApiTests.cs`), que levantan la API en memoria con una base de datos temporal; las 9 pruebas se aprueban sobre la rama `main`. En Flutter, las pruebas unitarias y de widgets cubren los flujos de la aplicación y las 88 pruebas se aprueban sobre la rama `develop`. Las pruebas manuales de la aplicación móvil se documentan únicamente como evidencia complementaria en Execution Evidence.
 
 <p id="tabla-97"><strong>Tabla 97.</strong> Testing Suite Evidence for Sprint Review</p>
 
 | Test ID | User Story / Technical Story | Test Type | Test Scenario | Expected Result | Obtained Result | Status |
 |---|---|---|---|---|---|---|
-| UT2-01 | US03 / US20 | Unit Test | Validar reglas de creación y asociación de parcelas a una cuenta de agricultor. | Las reglas aceptan datos válidos y rechazan asociaciones incorrectas. | Pendiente de evidencia del backend | Pending |
-| IT2-01 | US03 / US20 | Integration Test | Crear una parcela mediante el servicio y consultarla desde el flujo del agricultor. | La parcela creada aparece bajo la cuenta autenticada y persiste en el servicio. | Pendiente de evidencia del backend | Pending |
-| AT2-01 | US04 / US20 / US22 | Acceptance Test BDD | Ejecutar el escenario Gherkin de búsqueda, filtro y consulta de parcelas. | Los escenarios `.feature` finalizan exitosamente con sus Steps. | Pendiente de evidencia del backend | Pending |
+| IT2-01 | US05 / US03 | Integration Test (backend) | Evitar que el agricultor deshaga un financiamiento con datos desactualizados, que vuelva a publicar una parcela ya asignada y que dos comerciantes financien la misma parcela. | La API rechaza la operación y conserva el financiamiento del primer comerciante. | `MobileApiTests.cs`: 3 pruebas aprobadas | Passed |
+| IT2-02 | Soporte (incidencias) | Integration Test (backend) | Registrar incidencias, validar su tipo y descripción, exigir sesión y crear la tabla en bases de datos de versiones anteriores. | Solo el autor consulta sus incidencias; los datos inválidos y las solicitudes sin sesión se rechazan. | `MobileApiTests.cs`: 5 pruebas aprobadas | Passed |
+| IT2-03 | US34 | Integration Test (backend) | Listar los contratos finalizados del agricultor. | Solo aparecen las parcelas cosechadas del agricultor autenticado. | `MobileApiTests.cs`: 1 prueba aprobada | Passed |
+| UT2-01 | US03 / US20 | Unit Test (backend) | Validar reglas de creación y asociación de parcelas a una cuenta de agricultor. | Las reglas aceptan datos válidos y rechazan asociaciones incorrectas. | No se implementaron pruebas unitarias del backend en el Sprint 2 | Pending |
+| AT2-01 | US04 / US20 / US22 | Acceptance Test BDD | Ejecutar el escenario Gherkin de búsqueda, filtro y consulta de parcelas. | Los escenarios `.feature` finalizan exitosamente con sus Steps. | No existen archivos `.feature` en el repositorio del backend | Pending |
 | WT2-01 | US22 | Flutter Unit and Widget Tests | Abrir el detalle de una parcela y validar las operaciones de edición y eliminación contra el servicio móvil. | Las tarjetas abren el detalle y las operaciones envían solicitudes autenticadas al backend. | `farmer_plots_test.dart`: pruebas aprobadas | Passed |
 | WT2-02 | US21 | Flutter Unit and Widget Tests | Seleccionar un método de pago, confirmar el financiamiento y diferenciar fondos en Escrow de pagos en verificación. | Tarjeta y billetera confirman el financiamiento; depósito y transferencia quedan en verificación. | `merchant_financing_test.dart` y flujo visual: pruebas aprobadas | Passed |
+| WT2-03 | US08 / US24 / US10 | Flutter Unit and Widget Tests | Registrar la evidencia de un hito con foto, insumo y GPS, y aprobarla o pedir corrección como comerciante. | La evidencia se guarda con los campos que lee Kotlin y la revisión actualiza el estado del hito. | `milestone_evidence_test.dart`: pruebas aprobadas | Passed |
+| WT2-04 | US06 / US32 | Flutter Unit and Widget Tests | Solicitar una visita como comerciante y aceptarla o completarla como agricultor. | La solicitud se guarda en el backend y cada rol ve el estado actualizado. | `plot_visits_test.dart`: pruebas aprobadas | Passed |
+| WT2-05 | US30 / US31 | Flutter Unit and Widget Tests | Confirmar la recepción de la cosecha y registrar una incidencia de entrega. | La recepción y las incidencias quedan registradas en la parcela. | `harvest_delivery_test.dart`: pruebas aprobadas | Passed |
+| WT2-06 | US25 | Flutter Unit and Widget Tests | Registrar evidencia sin señal y sincronizarla al recuperar la conexión. | La evidencia queda en cola en el teléfono, se envía al sincronizar y pasa al historial. | `evidence_queue_test.dart`: pruebas aprobadas | Passed |
+| WT2-07 | US34 / Soporte | Flutter Unit and Widget Tests | Enviar un reporte de incidencia y cargar los contratos finalizados para calificar. | El reporte se envía al backend y solo se listan contratos reales. | `support_test.dart`: pruebas aprobadas | Passed |
+| WT2-08 | US12 / US26 | Flutter Unit Tests | Calcular la actividad de los hitos para el historial de pagos y las claves de las alertas climáticas. | Los pagos y las alertas se generan a partir de los datos reales de la parcela. | Pruebas de pagos y clima aprobadas | Passed |
 
-La [Tabla 97.1](#tabla-971) registra los commits de testing. Mientras el responsable del backend no incorpore commits `test:` reales, la tabla debe permanecer como evidencia pendiente y no deben atribuirse commits de funcionalidad móvil a esta suite.
+La [Tabla 97.1](#tabla-971) registra los commits de testing del Sprint 2. Solo se incluyen commits con el prefijo `test`, sin atribuir commits de funcionalidad a esta suite.
 
 <p id="tabla-971"><strong>Tabla 97.1.</strong> Testing Commits Evidence</p>
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
-| `AllpaTech/muyu-backend` | `main` | `[commit test pendiente]` | `test:` | Unit, integration and BDD feature evidence | `[fecha pendiente]` |
+| `AllpaTech/muyu-backend` | `main` | [`34e7489`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/muyu-backend/commit/34e748921839a46dd9b4f991c2b875e166eac9de) | `test(mobile):` | add integration tests for plots, incidents and contracts | 08/11/2026 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`8129e62`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/8129e621c2bf8a20534397cccb91d87b5ac15646) | `test(payments-climate):` | cover activity mapping and alert keys | 09/11/2026 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`f943294`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/f94329490fb8cc35be5fc351ad30513506338919) | `test(labor-execution):` | cover evidence recording and review | 12/11/2026 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`3e3072b`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/3e3072b86e0cb7082906875d577f74ec655e6e57) | `test(plot-approval):` | cover plot visit requests and outcomes | 12/11/2026 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`834b995`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/834b9955edebdf926d6adf6cf5c6272280ef9e92) | `test(plot-financing):` | cover harvest receipt and delivery incidents | 12/11/2026 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`c8a1e1c`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/c8a1e1c94199b50bb37ce49b768c039e3f794792) | `test(user-management):` | cover incident reports and finished contracts | 12/11/2026 |
+| `AllpaTech/Muyu-app-flutter` | `develop` | [`aa3716e`](https://github.com/upc-pre-202620-1acc0238-13981-AllpaTech/Muyu-app-flutter/commit/aa3716ee31cfbc90c710467d77f389c34ddaeb2c) | `test(sync):` | cover the offline evidence queue and sync tab | 12/11/2026 |
 
 ### 4.2.2.6. Execution Evidence for Sprint Review
 
