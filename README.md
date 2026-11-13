@@ -10514,7 +10514,7 @@ La evaluación de las sesiones de validación sigue el formato UX Heuristics & P
 | **NRC** | 13981 |
 | **PROFESORES** | Todos |
 | **AUDITOR** | AllpaTech |
-| **CLIENTE(S)** | Sebastián Vergara (segmento Comerciante) |
+| **CLIENTE(S)** | Natalia Román Cruz (segmento Comerciante) |
 
 **SITE o APP A EVALUAR:**
 
